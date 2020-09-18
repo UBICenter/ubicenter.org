@@ -52,6 +52,17 @@ abraham:
   facebook: False
   twitter: False
   cover: False
+max:
+  username: max
+  name: Max Ghenis
+  location: California, USA
+  url_full: False
+  url: False
+  bio: I am the founder and president of the UBI Center.
+  picture: assets/images/abraham.jpg
+  facebook: False
+  twitter: False
+  cover: False
 edgar:
   username: edgar
   name: Edgar Rice Burroughs
