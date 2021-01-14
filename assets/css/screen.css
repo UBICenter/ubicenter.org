@@ -110,7 +110,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background: color(var(--purple) l(-5%)) no-repeat center center;
     background-size: cover;
 }
 
@@ -164,13 +164,15 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    /*max-height: 45px;*/
+    /*padding: 5px;*/
+    width: 500px;
 }
 
 .site-description {
     z-index: 10;
     margin: 0;
-    padding: 5px 0;
+    padding: 20px 0;
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -217,9 +219,11 @@ body {
 
 /* Site Nav Hack Explanation (above):
 
-What's happening above it .site-nav-left is set to overflow-x and allow sideways scrolling, so that when there isn't enough space for all nav items (either due to lots of nav items, or a small viewport), you can still scroll side-to-side to reach them.
+What's happening above it .site-nav-left is set to overflow-x and allow sideways scrolling, so that when there isn't enough space for all nav items 
+(either due to lots of nav items, or a small viewport), you can still scroll side-to-side to reach them.
 
-The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px of padding-bottom and a 40px fixed height parent (.site-nav) hides that entirely. Slightly hacky code. But nice clean end-result.
+The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px of padding-bottom and a 40px fixed height parent (.site-nav) hides that entirely. 
+Slightly hacky code. But nice clean end-result.
 
 */
 
@@ -227,7 +231,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-shrink: 0;
     display: block;
     margin-right: 24px;
-    padding: 11px 0;
+    padding: 2px 0;
     color: #fff;
     font-size: 1.7rem;
     line-height: 1em;
@@ -242,7 +246,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .site-nav-logo img {
     display: block;
     width: auto;
-    height: 21px;
+    height: 30px;
 }
 
 .nav {

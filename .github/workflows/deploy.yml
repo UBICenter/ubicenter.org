@@ -1,0 +1,25 @@
+name: Build and Deploy Site
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    if: github.repository == 'UBICenter/ubicenter.org'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Build  # Build Site
+        shell: bash -l {0}
+        run: bundle exec jekyll serve
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages  # The branch the action should deploy to.
+          FOLDER: ./_site  # The folder the action should deploy.

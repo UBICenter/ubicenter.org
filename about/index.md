@@ -8,4 +8,10 @@ class: page-template
 subclass: 'post page'
 ---
 
-The UBI Center conducts economic research on universal basic income policies with open source tools.
+The UBI Center conducts economic research on universal basic income policies with open source tools. [Hom2e]({{site.baseurl}} "link title")
+
+***
+
+![bus]({{site.baseurl}}/assets/images/bus.jpg)
+
+{{site.baseurl}}
