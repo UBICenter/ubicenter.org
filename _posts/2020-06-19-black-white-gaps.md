@@ -8,7 +8,7 @@ date: 2020-06-19 10:00:00
 tags: [Getting started]
 class: post-template
 subclass: 'post'
-author: ghost
+author: max
 ---
 
 Today, one in five black Americans lives in poverty, nearly double the rate of white Americans. Meanwhile, the average net worth of white families is more than five times that of black families, and the median is more than seven times higher.
