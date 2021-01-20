@@ -1,0 +1,19 @@
+name: Build and Test Site
+on:
+  [push, pull_request]:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    if: github.repository == 'UBICenter/ubicenter.org'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Build  # Build Site
+        shell: bash -l {0}
+        shell: gem install bundler
+        run: bundle exec jekyll serve
