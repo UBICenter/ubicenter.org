@@ -15,5 +15,4 @@ jobs:
 
       - name: Build  # Build Site
         shell: bash -l {0}
-        shell: gem install bundler
         run: bundle exec jekyll serve
