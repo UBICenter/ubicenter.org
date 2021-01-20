@@ -18,7 +18,7 @@ jobs:
 
       - name: Install  # Install Bundle
         shell: bash -l {0}
-        run:
+        run: |
           gem install bundler
           bundle install
         
