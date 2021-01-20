@@ -14,6 +14,7 @@ jobs:
           persist-credentials: false
 
       - name: Build  # Build Site
-        shell: bash -l {0}
-        shell: gem install bundle
+        shell:
+          - bash -l {0}
+          - gem install bundle
         run: bundle exec jekyll serve
