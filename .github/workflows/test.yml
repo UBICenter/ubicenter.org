@@ -12,10 +12,13 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+          
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
 
       - name: Install  # Install Bundle
         shell: bash -l {0}
-        run: gem install bundle
+        run: gem install bundler
         
       - name: Build  # Build Site
         shell: bash -l {0}
