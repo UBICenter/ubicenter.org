@@ -40,7 +40,9 @@ author:
 
 <h1 id="heading1">Our People</h1>
 
-<div w3-include-html="_posts/2017-07-27-themes.html"></div>
+{% for author in site.data.authors %}
+  <p>{{ author[1].name }}</p>
+{% endfor %}
 
 
 <hr />
