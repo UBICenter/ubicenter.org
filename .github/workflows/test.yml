@@ -18,7 +18,9 @@ jobs:
 
       - name: Install  # Install Bundle
         shell: bash -l {0}
-        run: gem install bundler
+        run:
+          gem install bundler
+          bundle install
         
       - name: Build  # Build Site
         shell: bash -l {0}
