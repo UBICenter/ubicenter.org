@@ -13,8 +13,10 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install  # Install Bundle
+        shell: bash -l {0}
+        run: gem install bundle
+        
       - name: Build  # Build Site
         shell: bash -l {0}
-        steps:
-          - run: gem install bundle
-          - run: bundle exec jekyll serve
+        run: bundle exec jekyll serve
