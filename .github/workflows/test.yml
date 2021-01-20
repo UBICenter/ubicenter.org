@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build-and-deploy:
-    if: github.repository == 'UBICenter/ubicenter.org' or github.repository == 'mgilbert1/ubicenter.org'
+    if: github.repository == 'UBICenter/ubicenter.org' || github.repository == 'mgilbert1/ubicenter.org'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
