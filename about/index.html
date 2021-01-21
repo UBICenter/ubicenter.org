@@ -40,9 +40,168 @@ author:
 
 <h1 id="heading1">Our People</h1>
 
+<style type="text/css">
+  .container {
+    display: flex; /** set the container as flexbox **/
+    align-items: center; /** align all items vertically **/
+    /*width: 200px;*/
+    margin-bottom: 10px;
+    /*border: 1px solid red;*/
+  }
+
+  .text-container {
+    margin-left: 50px;
+  }
+}
+
+</style>
+
 {% for author in site.data.authors %}
-  <p>{{ author[1].name }}</p>
+<div class="site-header-content">
+  <div class="container">
+    {% if author[1].picture %}
+      <img src="{{ site.baseurl }}{{ author[1].picture }}" style="width:250px;height:250px;"/>
+    {% endif %}
+    <div class="text-container">
+      <h4>{{ author[1].name }}</h4>
+      <h6>
+        {% if author[1].title %}
+          {{ author[1].title }}
+        {% endif %}
+      </h6>
+      {% if author[1].bio %}
+        <p>{{ author[1].bio }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+
+    <div class="author-about-meta">
+      {% if author[1].location %}
+          <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+      {% endif %}
+      <div class="author-stats">
+          {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
+      </div>
+      {% if author[1].url || author[1].twitter || author[1].facebook || author[1].rss %}
+          <span class="bull">&bull;</span>
+      {% endif %}
+      {% if author[1].url %}
+          <a class="social-link social-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
+      {% endif %}
+      {% if author[1].twitter %}
+          <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+      {% endif %}
+      {% if author[1].facebook %}
+          <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+      {% endif %}
+      {% if author[1].rss %}
+          <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{ site.url }}{{ site.baseurl }}author/{{ page.author }}/feed.xml" target="_blank" rel="noopener">{% include rss.html %}</a>
+      {% endif %}
+    </div>
+  </div>
 {% endfor %}
+
+
+
+
+
+
+<!-- 
+<style>
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  padding: 5px;
+  border: 1px solid blue;    
+  /*background-color: yellow; */
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+</style>
+
+<h1>The display Property</h1>
+
+<h2>display: inline</h2>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. 
+  <span class="a">Aliquam</span> 
+  <span class="a">venenatis</span> 
+  gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. 
+</div> -->
+
+<!-- <h2>display: inline-block</h2> -->
+
+
+<!-- <h2>display: block</h2>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+ -->
+<!-- {% for author in site.data.authors %}
+
+  <div id="wrapperDiv">
+    <div id="div1" style="padding:20px;float:left">
+      {% if author[1].picture %}
+        <img src="{{ site.baseurl }}{{ author[1].picture }}" style="width:200px;height:200px;"/>
+      {% endif %}
+    </div>
+    <div id="div2" style="padding:0px;float:left">
+      Hannah is the co-founder and lead developer at ghost yeeet uhhhhhh
+    </div>
+  </div>
+
+<div>
+    <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200px" width="200px" border="1px"></p>
+    Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+</div>
+<div style="clear: left;">
+    <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200" width="200" border="1px"></p>
+    Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+</div>
+
+{% if author[1].bio %}
+        <p>{{ author[1].bio }}</p>
+      {% endif %}
+  <div class="author-meta">
+      {% if author[1].location %}
+          <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+      {% endif %}
+      <div class="author-stats">
+          {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
+      </div>
+      {% if author[1].url || author[1].twitter || author[1].facebook || author[1].rss %}
+          <span class="bull">&bull;</span>
+      {% endif %}
+      {% if author[1].url %}
+          <a class="social-link social-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
+      {% endif %}
+      {% if author[1].twitter %}
+          <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+      {% endif %}
+      {% if author[1].facebook %}
+          <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+      {% endif %}
+      {% if author[1].rss %}
+          <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{ site.url }}{{ site.baseurl }}author/{{ page.author }}/feed.xml" target="_blank" rel="noopener">{% include rss.html %}</a>
+      {% endif %}
+{% endfor %}  -->
 
 
 <hr />

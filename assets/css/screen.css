@@ -1623,6 +1623,17 @@ Usage (In Ghost editor):
     font-style: italic;
 }
 
+.site-header-content .author-about-meta {
+    z-index: 10;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
 .site-header-content .author-location svg {
     height: 1.9rem;
     stroke: #fff;
