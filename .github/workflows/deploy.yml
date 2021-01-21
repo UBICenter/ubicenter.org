@@ -24,7 +24,7 @@ jobs:
 
       - name: Build  # Build Site
         shell: bash -l {0}
-        run: bundle exec jekyll serve
+        run: bundle exec rake site:deploy --quiet
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
