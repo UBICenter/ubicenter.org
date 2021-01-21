@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /ubicenter.org/
 
 # Website info
 title: UBI Center
@@ -68,12 +68,12 @@ feed:
 safe: False
 lsi: False
 username: UBICenter
-repo: jasper2
+repo: ubicenter.org
 branch: master
-relative_source: ../jasper2/
+relative_source: ../ubicenter.org/
 destination: ./_site
-production_url:  https://ubicenter.github.io/jasper2/
-source_url:  https://github.com/ubicenter/jasper2/
+production_url:  https://ubicenter.github.io/ubicenter.org/
+source_url:  https://github.com/ubicenter/ubicenter.org/
 
 exclude:
   - assets/css
