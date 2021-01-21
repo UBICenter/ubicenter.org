@@ -2,7 +2,7 @@
 /* ---------------------------------------------------------- */
 
 :root {
-    /* Colours */
+    /* Colors */
     --blue: #3eb0ef;
     --green: #a4d037;
     --purple: #ad26b4;
@@ -14,6 +14,7 @@
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+    --ubi-blue: #008bd6;
 }
 
 /* Reset

@@ -110,7 +110,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--purple) l(-5%)) no-repeat center center;
+    background: color(var(--ubi-blue) l(-5%)) no-repeat center center;
     background-size: cover;
 }
 
@@ -1619,6 +1619,17 @@ Usage (In Ghost editor):
     justify-content: center;
     align-items: center;
     margin: 0 0 10px 0;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.site-header-content .author-about-meta {
+    z-index: 10;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
     font-family: Georgia, serif;
     font-style: italic;
 }
