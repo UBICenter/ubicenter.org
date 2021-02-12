@@ -110,7 +110,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--ubi-blue) l(-5%)) no-repeat center center;
+    background: color(var(--ubi-blue)) no-repeat center center;
     background-size: cover;
 }
 
@@ -123,7 +123,8 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
+    /*background: rgba(0,0,0,0.18);*/
+    background: rgba(0,0,0,0);
 }
 
 .site-header:after {
@@ -136,7 +137,8 @@ body {
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+    /*background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));*/
+    background: rgba(0,0,0,0);
 }
 
 .site-header.no-cover:before,
@@ -198,7 +200,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    overflow-y: hidden;
     height: 40px;
     font-size: 1.2rem;
 }
@@ -254,6 +255,7 @@ Slightly hacky code. But nice clean end-result.
     margin: 0 0 0 -12px;
     padding: 0;
     list-style: none;
+    z-index: 1000;
 }
 
 .nav li {
@@ -275,6 +277,26 @@ Slightly hacky code. But nice clean end-result.
     text-decoration: none;
     opacity: 1;
 }
+
+.dropdown {
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: var(--ubi-blue);
+  /*box-shadow: 0px 8px 10px 4px rgba(0,0,0,0.2);*/
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*.dropdown-content a:hover {
+  background-color: #ddd;
+}*/
 
 .site-nav-right {
     flex-shrink: 0;
