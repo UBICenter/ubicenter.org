@@ -1,10 +1,22 @@
 <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="{{site.baseurl}}">Home</a></li>
-    <li class="nav-projects" role="menuitem"><a href="{{site.baseurl}}/tag/projects/">Projects</a></li>
     <li class="nav-blog" role="menuitem"><a href="{{site.baseurl}}tag/blog/">Blog</a></li>
     <li class="nav-what-is-ubi" role="menuitem"><a href="{{site.baseurl}}what_is_ubi/">What is UBI?</a></li>
-    <li class="nav-about" role="menuitem"><a href="{{site.baseurl}}about/">About</a></li>
-    <li class="nav-donate" role="menuitem"><a href="{{site.baseurl}}donate/">Donate</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="{{site.baseurl}}tag/getting-started/">Getting Started</a></li>
-    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+    <div class="dropdown">
+      <li><a href="#">Projects &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="{{site.baseurl}}covid/">Covid</a></li>
+        <li><a href="{{site.baseurl}}child-allowance/">Child Allowance</a></li>
+        <li><a href="{{site.baseurl}}plan-explorer/">Plan Explorer</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">About &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="{{site.baseurl}}about/our-team/">Our Team</a></li>
+        <li><a href="{{site.baseurl}}about/join/">Join Us</a></li>
+        <li><a href="{{site.baseurl}}about/open-source/">Open Source</a></li>
+        <li><a href="{{site.baseurl}}about/press/">Press</a></li>
+      </div>
+  </div>
 </ul>

@@ -1,0 +1,105 @@
+---
+layout: page
+current: post
+navigation: True
+title: About Us
+date: 
+tags:
+class: post-template
+subclass: 'post'
+---
+
+<!-- <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p> -->
+
+
+<!-- <hr /> -->
+
+<h1 id="heading1">Our Mission</h1>
+
+<p>To produce open-source research that informs a robust policy debate around universal basic income.</p>
+
+<hr />
+
+<h1 id="heading1">Our Values</h1>
+
+<h6 id="heading6">UBI is worth serious research and public discourse</h6>
+
+<p>Philosophers and economists have explored universal basic income for centuries, and a new appetite for bold ideas opens an opportunity for UBI, if it can become associated with real policy. Policymakers, advocates, and the media need to know how we'd fund it and whom it would affect in what ways. The UBI Center analyzes specific UBI policies, produces UBI plans, builds tools to communicate results, and evaluates policies in the vein of UBI.</p>
+
+<h6 id="heading6">The future of policy analysis is open-source</h6>
+
+<p>Nearly all public policy analysis is performed by organizations that keep their code private, making it impossible to reproduce the analysis or adjust it with different parameters. Relying on organizations' trustworthiness reinforces political divisions and slows progress toward consistent analysis from the policy research community. Open-source analysis enables analysts to build credibility from peer review and produces better models from which we can all benefit.</p>
+
+<p>All UBI Center work is on GitHub (soon this website will be too!). We welcome researchers who want to check our work, extend it to other analyses, or just help out. There's a lot to do, from building interactive graphics to analyzing more policies to incorporating labor responses and more.</p>
+
+<i>Thanks to the <a title="https://www.ospc.org" href="https://www.ospc.org">Open Source Policy Center</a> and <a title="http://pslmodels.org" href="http://pslmodels.org">Policy Simulation Library</a>, whose models underlie much of the UBI Center's analyses.</i>
+
+<hr />
+
+<h1 id="heading1">Our People</h1>
+
+<style type="text/css">
+  .container {
+    display: flex; /** set the container as flexbox **/
+    align-items: center; /** align all items vertically **/
+    /*width: 200px;*/
+    margin-bottom: 10px;
+    /*border: 1px solid red;*/
+  }
+
+  .text-container {
+    margin-left: 50px;
+  }
+}
+
+</style>
+
+{% for author in site.data.authors %}
+<div class="site-header-content">
+  <div class="container">
+    {% if author[1].picture %}
+      <img src="{{ site.baseurl }}{{ author[1].picture }}" style="width:250px;height:250px;"/>
+    {% endif %}
+    <div class="text-container">
+      <h4>{{ author[1].name }}</h4>
+      <h6>
+        {% if author[1].title %}
+          {{ author[1].title }}
+        {% endif %}
+      </h6>
+      {% if author[1].bio %}
+        <p>{{ author[1].bio }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+
+    <div class="author-about-meta">
+      {% if author[1].location %}
+          <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+      {% endif %}
+      <div class="author-stats">
+          {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
+      </div>
+      {% if author[1].url || author[1].twitter || author[1].facebook || author[1].rss %}
+          <span class="bull">&bull;</span>
+      {% endif %}
+      {% if author[1].url %}
+          <a class="social-link social-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
+      {% endif %}
+      {% if author[1].twitter %}
+          <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+      {% endif %}
+      {% if author[1].facebook %}
+          <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+      {% endif %}
+      {% if author[1].rss %}
+          <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{ site.url }}{{ site.baseurl }}author/{{ page.author }}/feed.xml" target="_blank" rel="noopener">{% include rss.html %}</a>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+
+<hr />
+
+<center><b>Want to join us? Find out more <a href="{{site.baseurl}}about/join">here</a></b></center>
