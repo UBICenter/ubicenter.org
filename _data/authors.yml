@@ -55,13 +55,13 @@ max:
   facebook: False
   twitter: False
   cover: False
-edgar:
-  username: edgar
-  name: Edgar Rice Burroughs
-  location: Chicago, Illinois
+nate:
+  username: nate
+  name: Nate Golden
+  location: Taipei, Taiwan
   url_full: False
   url: False
-  bio: I'm an American novelist, best known for my work writing about a brave jungle hero called Tarzan and his muse, Jane.
+  bio: I am a research associate with the UBI Center, focusing on US child policy.
   picture: assets/images/edgar.gif
   facebook: False
   twitter: False
