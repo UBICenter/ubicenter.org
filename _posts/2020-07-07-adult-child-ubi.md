@@ -16,6 +16,10 @@ author: nate
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 While [US GDP per capita has more than doubled in the past 50 years](https://fred.stlouisfed.org/series/A939RX0Q048SBEA), many Americans still remain in poverty. According to the Census Bureau's 2018 Supplemental Poverty Measure (SPM), over 40 million Americans live below their SPM poverty threshold.
 
 Some [large guaranteed-income programs have been shown to nearly eliminate poverty](https://www.ubicenter.org/plans), but spending constraints can change how program design affects different outcomes. This paper shows the impact of new universal cash programs on poverty alleviation under varying levels of spending.
