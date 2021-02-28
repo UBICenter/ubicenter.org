@@ -29,7 +29,7 @@ For example, this interactive map is one of several visualizations in our [simul
 <button onclick="f1()">Click to show code</button>
 <div id="code_graph1" style="display: none;">
   <pre>
-    <code>
+    <code-cell>
 # TODO: Add tax reforms as a drop-down (mirrored from simulation.ipynb).
 
 # Imports.
@@ -230,7 +230,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-    </code>
+    </code-cell>
   </pre>
 </div>
 

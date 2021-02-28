@@ -1188,7 +1188,7 @@ Usage (In Ghost editor):
 /* ---------------------------------------------------------- */
 
 .post-full-footer {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -1243,6 +1243,7 @@ Usage (In Ghost editor):
     font-weight: 500;
     border-radius: 20px;
     transition: all ease 0.2s;
+    float: right;
 }
 
 .author-card-button:hover {
@@ -1607,6 +1608,14 @@ Usage (In Ghost editor):
     .floating-header-share-label {
         display: none;
     }
+}
+
+/* 7.6 Code Blocks
+/* ---------------------------------------------------------- */
+.code-cell {
+    display: block;
+    width: 50%;
+    background-color: var(--blue);
 }
 
 
