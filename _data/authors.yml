@@ -18,8 +18,10 @@ max:
   url: False
   bio: I am the founder and president of the UBI Center.
   picture: assets/images/max.jpg
+  medium: maxghenis
+  github: maxghenis
   facebook: False
-  twitter: False
+  twitter: maxghenis
   cover: False
 nate:
   username: nate
@@ -38,8 +40,8 @@ matt:
   location: Boston, Massachusetts
   url_full: False
   url: False
-  bio: I am a research assistant with the UBI Center, focusing on software development.
-  picture: assets/images/matt.jpg
+  bio: I am a research assistant with the UBI Center, focusing on software development. I am also currently a senior at Harvard University concentrating in Computer Science.
+  picture: 
   facebook: False
   twitter: False
   cover: False

@@ -9,8 +9,7 @@ tags: [blog]
 class: post-template
 subclass: 'post'
 author: nate
----
----
+
 jupytext:
   text_representation:
     extension: .md
