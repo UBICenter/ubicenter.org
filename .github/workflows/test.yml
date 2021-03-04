@@ -3,7 +3,7 @@ on:
   [push, pull_request]
     
 jobs:
-  build_and_deploy:
+  build:
     if: github.repository == 'UBICenter/ubicenter.org'
     runs-on: ubuntu-latest
     steps:
