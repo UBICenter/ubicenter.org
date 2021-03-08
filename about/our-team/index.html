@@ -1,12 +1,12 @@
 ---
 layout: page
-current: post
+current: page
 navigation: True
 title: About Us
 date: 
 tags:
-class: post-template
-subclass: 'post'
+class: page-template
+subclass: 'page'
 ---
 
 <!-- <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p> -->
@@ -55,23 +55,47 @@ subclass: 'post'
 </style>
 
 {% for author in site.data.authors %}
-<div class="site-header-content">
-  <div class="container">
-    {% if author[1].picture %}
-      <img src="{{ site.baseurl }}{{ author[1].picture }}" style="width:250px;height:250px;"/>
-    {% endif %}
-    <div class="text-container">
-      <h4>{{ author[1].name }}</h4>
-      <h6>
-        {% if author[1].title %}
-          {{ author[1].title }}
+  <div class="site-header-content">
+    <div class="team-page">
+      <div class="container">
+        {% if author[1].picture %}
+          <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
         {% endif %}
-      </h6>
-      {% if author[1].bio %}
-        <p>{{ author[1].bio }}</p>
-      {% endif %}
+        <div class="text-container">
+          <h4 class="author-name">{{ author[1].name }}</h4>
+          {% if author[1].bio %}
+            <h2 class="author-bio">{{ author[1].bio }}</h2>
+          {% endif %}
+          <div class="author-meta">
+            {% if author[1].location %}
+                <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+            {% endif %}
+            <div class="author-stats">
+                {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+{% endfor %}
+
+<!--     <div class="container">
+      {% if author[1].picture %}
+        <img src="{{ site.baseurl }}{{ author[1].picture }}" style="width:250px;height:250px;"/>
+      {% endif %}
+      <div class="text-container">
+        <h4>{{ author[1].name }}</h4>
+        <h6>
+          {% if author[1].title %}
+            {{ author[1].title }}
+          {% endif %}
+        </h6>
+        {% if author[1].bio %}
+          <p>{{ author[1].bio }}</p>
+        {% endif %}
+      </div>
+    </div>
 
 
     <div class="author-about-meta">
@@ -97,8 +121,7 @@ subclass: 'post'
           <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{ site.url }}{{ site.baseurl }}author/{{ page.author }}/feed.xml" target="_blank" rel="noopener">{% include rss.html %}</a>
       {% endif %}
     </div>
-  </div>
-{% endfor %}
+  </div> -->
 
 <hr />
 

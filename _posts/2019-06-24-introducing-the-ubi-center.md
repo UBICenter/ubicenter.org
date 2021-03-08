@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: /post/img/2019-06-24_introducing-the-ubi-center_0.png 
+cover: assets/img/2019-06-24_introducing-the-ubi-center_0.png 
 navigation: True
 title: Introducing the UBI Center
 date: 2019-06-24T17:55:59.690Z
@@ -9,13 +9,13 @@ lastmod: 2021-01-05T21:20:47-05:00
 tags: 
 class: post-template
 subclass: 'post'
-author: max
+author: [max, nate, matt]
 
 
 description: 
 subtitle: 
 images:
- - "/post/img/2019-06-24_introducing-the-ubi-center_0.png"
+ - "assets/img/2019-06-24_introducing-the-ubi-center_0.png"
 
 
 aliases:
