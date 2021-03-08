@@ -65,24 +65,27 @@ into the {body} of the default.hbs template -->
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
                 {% for author in site.data.authors %}
-                    {% if author[1].username == page.author %}
-                        <section class="author-card">
-                            {% if author[1].picture %}
-                                <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ page.author }}" />
-                            {% endif %}
-                            <section class="author-card-content">
-                                <h4 class="author-card-name"><a href="{{ site.baseurl }}author/{{ page.author }}">{{ author[1].name }}</a></h4>
-                                {% if author[1].bio %}
-                                    <p>{{ author[1].bio }}</p>
-                                {% else %}
-                                    <p>Read <a href="{{ site.baseurl }}author/{{ page.author }}">more posts</a> by this author.</p>
+                    {% for page_author in page.author %}
+                        {% if author[1].username == page_author %}
+                            <section class="author-card">
+                                {% if author[1].picture %}
+                                    <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ page.author }}" />
                                 {% endif %}
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="{{ site.baseurl }}author/{{ page_author }}">{{ author[1].name }}</a></h4>
+                                    {% if author[1].bio %}
+                                        <p>{{ author[1].bio }}</p>
+                                    {% else %}
+                                        <p>Read <a href="{{ site.baseurl }}author/{{ page_author }}">more posts</a> by this author.</p>
+                                    {% endif %}
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="{{ site.baseurl }}author/{{ page_author }}">Read More</a>
+                                </div>
                             </section>
-                        </section>
-                        <div class="post-full-footer-right">
-                            <a class="author-card-button" href="{{ site.baseurl }}author/{{ page.author }}">Read More</a>
-                        </div>
-                    {% endif %}
+                            <br>
+                        {% endif %}
+                    {% endfor %}
                 {% endfor %}
                 <!-- /author  -->
             </footer>

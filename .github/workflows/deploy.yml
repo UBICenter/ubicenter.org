@@ -24,7 +24,6 @@ jobs:
         run: |
           gem install bundler
           bundle install
-
       - name: Build # Build Site
         shell: bash -l {0}
         run: bundle exec rake site:deploy --quiet
