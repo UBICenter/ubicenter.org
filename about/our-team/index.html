@@ -105,7 +105,7 @@ subclass: 'page'
       <div class="author-stats">
           {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
       </div>
-      {% if author[1].url || author[1].twitter || author[1].facebook || author[1].rss %}
+      {% if author[1].url || author[1].twitter || author[1].facebook || author[1].github || author[1].medium || author[1].rss %}
           <span class="bull">&bull;</span>
       {% endif %}
       {% if author[1].url %}
