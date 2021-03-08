@@ -1,48 +1,21 @@
 name: Build and Test Site
 on:
-  [push, pull_request]
-    
+  push:
+    branches:
+      - master
 jobs:
-  build:
-    if: github.repository == 'UBICenter/ubicenter.org'
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+      - uses: actions/checkout@v2
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6 # Not needed with a .ruby-version file
-          bundler-cache: true
-          
-      - name: Install Bundle
-        shell: bash -l {0}
-        run: |
-          gem install bundler
-          bundle install
-
-       # Use GitHub Actions' cache to cache dependencies on servers
+      # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-
-      - name: Build # Build Site
-        shell: bash -l {0}
-        run: bundle exec rake site:deploy --quiet --trace
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: test # The branch the action should deploy to.
-          FOLDER: ./_site # The folder the action should deploy.
-
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@v0.1.4
         with:
