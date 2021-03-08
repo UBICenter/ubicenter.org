@@ -3,231 +3,175 @@ layout: post
 current: post
 cover: 
 navigation: True
-title: To minimize poverty, should UBI be provided for adults, children, or both?
-date: 2020-07-07
-tags: [blog]
+title: Basic income would shrink racial poverty disparities
+date: 2021-01-18
+tags: [blog, race, mlk]
 class: post-template
 subclass: 'post'
-author: nate
-
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.2
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
+author: [max, connor, nate]
 ---
 
-+++ {"colab_type": "text", "id": "VrHryGdJc0aH"}
 
-# To minimize poverty, should UBI be provided for adults, children, or both?
++++
 
-*By Nate Golden, 2020-07-07*
+Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
+but toward the end of his life, King extended this leadership to the cause of poverty.
+In his [final book](http://www.thekinglegacy.org/books/where-do-we-go-here-chaos-or-community),
+he wrote:
 
-While [US GDP per capita has more than doubled in the past 50 years](https://fred.stlouisfed.org/series/A939RX0Q048SBEA), many Americans still remain in poverty. According to the Census Bureau's 2018 Supplemental Poverty Measure (SPM), over 40 million Americans live below their SPM poverty threshold.
+```{epigraph}
+The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty [...] 
+I'm now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.
 
-Some [large guaranteed-income programs have been shown to nearly eliminate poverty](https://www.ubicenter.org/plans), but spending constraints can change how program design affects different outcomes. This paper shows the impact of new universal cash programs on poverty alleviation under varying levels of spending.
+-- Dr. Martin Luther King, Jr., *Where Do We Go From Here: Chaos or Community?* (1967)
+```
 
-I examine the poverty rate impacts of three different basic income programs:
+We honor King's call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people.
 
-* Adult UBI - provides monthly stipends only to adults.
-* Child Allowance - provides families monthly stipends based only on how many children are in their household.
-* All UBI - provides an equal monthly stipend to all Americans regardless of age (parents would receive it on behalf of their children).
 
-Two years ago, Matt Bruenig produced a similar  [paper](https://www.peoplespolicyproject.org/2018/11/29/a-child-allowance-would-be-very-effective-at-poverty-reduction/) using 2017 data in which he compared the same three programs and their impact on the poverty rate up to \$500 billion in new spending. Bruenig found that at all levels of spending up to \$500 billion, a Child Allowance was the most effective program at reducing poverty. This paper considers new spending up to \$1 trillion with updated data from 2018.
+:::{admonition,dropdown,tip} Modeling notes
+Data was gathered from the US Census Bureau's March Supplement, which covers economic circumstances in 2019.
+We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP),
+and adjusts for local housing costs.
+The flat income tax is applied on positive adjusted gross income.
+We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race.
+:::
 
-## Background
 
-I used data from the Census Bureau’s 2019 Annual Social and Economic Supplement (ASEC), which uses data collected in 2018. The ASEC survey contains over 180,000 Americans from more than 75,000 households. Each respondent is assigned a sample weight by the Census Bureau so that models can provide consistent national-level estimates.
+Black Americans today are 75 percent more likely to be in poverty than White Americans, with a rate of 18.4 percent compared to 10.5 percent.
+A \$250 monthly UBI would cut both Black and White poverty roughly in half (this is similar to what we found in a [July 2020 post](https://medium.com/ubicenter/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps-452e2af1497b), which used older data and did not simulate taxes to fund the UBI).
+A \$1,000 monthly UBI funded by a flat income tax would reduce poverty for both White and Black people to about 1 percent.
 
-The Supplemental Poverty Measure classifies respondents' poverty status by comparing their total family income (post tax and transfers) to their family poverty threshold. The Census Bureau defines poverty thresholds based on family size and costs of necessities.
-
-In 2018, 12.7 percent of Americans were in poverty, including 13.6 percent of children and 12.5 percent of adults.
-
-## Results
-
-A Child Allowance reduces overall poverty more than the other two designs, for spending up to \$500 billion; this aligns with Bruenig's results. However, at levels beyond \$500 billion, a UBI that includes everyone cuts overall poverty more.
-
-Spending \$100 billion on a Child Allowance would equate to monthly stipends of \$114 per child and lift 4.5 million Americans (1.3 million children and 3.2 million adults) out of poverty. \$500 billion on either a Child Allowance or All UBI would lift 12 million Americans out of poverty. Spending \$1 trillion on an All UBI would equate to monthly checks of \$258 per American and lift over 22 million people out of poverty.
-
-The interactive graph below shows the poverty impacts of each program at different funding levels.
-
-```{code-cell} ipython3
-:colab: {}
-:colab_type: code
-:id: MnyLVJO1cpwF
+```{code-cell}
+:id: oka84z9v8vbI
 :tags: [hide-input]
-
-### LOAD PACKAGES ####
 
 import pandas as pd
 import numpy as np
+import microdf as mdf
 import plotly.express as px
-import plotly
 
-### LOAD DATA ###
-
-person_raw = pd.read_csv('https://github.com/MaxGhenis/datarepo/raw/master/pppub19.csv.gz',
-                         usecols=['MARSUPWT', 'SPM_ID', 'SPM_POVTHRESHOLD',
-                                  'SPM_RESOURCES', 'A_AGE'])
-
-### PREPROCESS ###
-
-person = person_raw.copy(deep=True)
+SPM_COLS = [
+    "spm_" + i for i in ["id", "weight", "povthreshold", "resources", "numper"]
+]
+raw = pd.read_csv(
+    "https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz",
+    usecols=["PRDTRACE", "MARSUPWT", "AGI"] + [i.upper() for i in SPM_COLS],
+)
+person = raw.copy(deep=True)
 person.columns = person.columns.str.lower()
-person['weight'] = person.marsupwt/100
-#Compute total children and adults in each resource sharing group.
-person['child'] = person.a_age < 18
-person['adult'] = person.a_age >= 18
-spmu_ages = person.groupby('spm_id')[['child','adult']].sum()
-spmu_ages.columns = ['children', 'total_adults']
-person2 = person.merge(spmu_ages,left_on='spm_id', right_index=True)
-total_children = (person2.child * person2.weight).sum()
-total_adults = (person2.adult * person2.weight).sum()
-
-### CALCULATIONS ###
-
-child_allowance_overall = []
-child_allowance_child = []
-child_allowance_adults = []
-
-# Determine the poverty rate impact of a Child Allownace from $0 in new spending to $1 trillion.
-
-for spending in range(0, 1000000000001, 50000000000):
-    child_allowance_per_child = spending/total_children
-    total_child_allowance = person2.children * child_allowance_per_child
-    new_spm_resources_ca = person2.spm_resources + total_child_allowance
-    new_poor_ca = new_spm_resources_ca < person2.spm_povthreshold
-    new_total_child_poor = ((person2.child * person2.weight * 
-                             new_poor_ca).sum())
-    new_child_poverty_rate = ((new_total_child_poor)/
-                              (person2.child * person2.weight).sum())
-    new_total_adult_poor = ((person2.adult * person2.weight * 
-                             new_poor_ca).sum())
-    new_adult_poverty_rate = ((new_total_adult_poor)/
-                              (person2.adult * person2.weight).sum())
-    new_total_poor_ca = (new_poor_ca * person2.weight).sum()
-    new_poverty_rate_ca = new_total_poor_ca/person2.weight.sum()
-    child_allowance_overall.append(new_poverty_rate_ca)
-    child_allowance_child.append(new_child_poverty_rate)
-    child_allowance_adults.append(new_adult_poverty_rate)
-    
-ubi_adults_overall = []
-ubi_adults_child = []
-ubi_adults_adults = []
-
-# Determine the poverty rate impact of a Adult UBI from $0 in new spending to $1 trillion.
-
-for spending in range(0, 1000000000001, 50000000000):
-    adult_ubi = spending/total_adults
-    total_adult_ubi = person2.total_adults * adult_ubi
-    new_spm_resources_ubi = person2.spm_resources + total_adult_ubi
-    new_poor_ubi = new_spm_resources_ubi < person2.spm_povthreshold
-    new_total_child_poor = ((person2.child * person2.weight * 
-                             new_poor_ubi).sum())
-    new_child_poverty_rate = ((new_total_child_poor)/
-                              (person2.child * person2.weight).sum())
-    new_total_adult_poor = ((person2.adult * person2.weight * 
-                             new_poor_ubi).sum())
-    new_adult_poverty_rate = ((new_total_adult_poor)/
-                              (person2.adult * person2.weight).sum())
-    new_total_poor_ubi = (new_poor_ubi * person2.weight).sum()
-    new_poverty_rate_ubi = new_total_poor_ubi/person2.weight.sum()
-    ubi_adults_overall.append(new_poverty_rate_ubi)
-    ubi_adults_child.append(new_child_poverty_rate)
-    ubi_adults_adults.append(new_adult_poverty_rate)
-    
-ubi_all_overall = []
-ubi_all_child = []
-ubi_all_adults = []
-
-# Determine the poverty rate impact of a All UBI from $0 in new spending to $1 trillion.
-
-for spending in range(0, 1000000000001, 50000000000):
-    all_ubi_per_person = spending/(total_adults + total_children)
-    total_all_ubi = ((person2.children * all_ubi_per_person) + 
-                    (person2.total_adults * all_ubi_per_person))
-    new_spm_resources_all_ubi = person2.spm_resources + total_all_ubi
-    new_poor_all_ubi = new_spm_resources_all_ubi < person2.spm_povthreshold
-    new_total_child_poor = ((person2.child * person2.weight * 
-                             new_poor_all_ubi).sum())
-    new_child_poverty_rate = ((new_total_child_poor)/
-                              (person2.child * person2.weight).sum())
-    new_total_adult_poor = ((person2.adult * person2.weight * 
-                             new_poor_all_ubi).sum())
-    new_adult_poverty_rate = ((new_total_adult_poor)/
-                              (person2.adult * person2.weight).sum())
-    new_total_poor_all_ubi = (new_poor_all_ubi * person2.weight).sum()
-    new_poverty_rate_all_ubi = new_total_poor_all_ubi/person2.weight.sum()
-    ubi_all_overall.append(new_poverty_rate_all_ubi)
-    ubi_all_child.append(new_child_poverty_rate)
-    ubi_all_adults.append(new_adult_poverty_rate)
-    
-spending_data = []
-for spending in range(0, 1001, 50):
-    spending = spending/100
-    spending_data.append(spending)
-    
-### ANALYSIS ###
-
-# Create a DataFrame grouped by each plans impact on the overall poverty rate. 
-overall = {'spending_in_billions': spending_data,
-                       'child_allowance': child_allowance_overall,
-                       'adult_ubi': ubi_adults_overall,
-                       'all_ubi': ubi_all_overall}
-                    
-overall_df = pd.DataFrame(overall)
-overall_df = pd.DataFrame(overall_df).round(3)
-
-# Create a DataFrame grouped by each plans impact on the child poverty rate.
-child = {'spending_in_billions': spending_data,
-         'child_allowance': child_allowance_child,
-         'adult_ubi': ubi_adults_child,
-         'all_ubi': ubi_all_child}
-                    
-child_df = pd.DataFrame(child)
-child_df = pd.DataFrame(child_df).round(3)
+person["weight"] = person.marsupwt / 100
+person.spm_weight /= 100
+person = person.rename(columns={"prdtrace": "race"})
+# Add indicators for white only and black only (not considering other races).
+person["white"] = person.race == 1
+person["black"] = person.race == 2
+# Limit to positive AGI.
+person["agi_pos"] = np.maximum(person.agi, 0)
+# Need total population to calculate UBI and total AGI for required tax rate.
+total_population = person.weight.sum()
+total_agi = mdf.weighted_sum(person, "agi_pos", "weight")
+# Sum up AGI for each SPM unit and merge that back to person level.
+spm = person.groupby(SPM_COLS)[["agi_pos", "white", "black"]].sum()
+spm.columns = ["spm_" + i for i in spm.columns]
+# Merge these back to person to calculate population in White and Black spmus.
+person = person.merge(spm, on="spm_id")
+pop_in_race_spmu = pd.Series(
+    {
+        "Black": person[person.spm_black > 0].weight.sum(),
+        "White": person[person.spm_white > 0].weight.sum(),
+    }
+)
+spm.reset_index(inplace=True)
 
 
-# Create a DataFrame grouped by each plans impact on the adult poverty rate.
-adult = {'spending_in_billions': spending_data,
-         'child_allowance': child_allowance_adults,
-         'adult_ubi': ubi_adults_adults,
-         'all_ubi': ubi_all_adults}
-                    
-adult_df = pd.DataFrame(adult)
-adult_df = pd.DataFrame(adult_df).round(3)
+def pov_gap(df, resources, threshold, weight):
+    # df: Should be SPM-unit level.
+    gaps = np.maximum(df[threshold] - df[resources], 0)
+    return (gaps * df[weight]).sum()
 
 
-# Join different programs together for plotly.
-program = (pd.melt(overall_df, 'spending_in_billions', 
-                   var_name='ubi_type',value_name='poverty_rate'))
+def pov(race, monthly_ubi):
+    # Total cost and associated tax rate.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi
+    # Calculate new tax, UBI and resources per SPM unit.
+    spm["new_spm_resources"] = (
+        spm.spm_resources - 
+        (tax_rate * spm.spm_agi_pos) +  # New tax
+        (12 * monthly_ubi * spm.spm_numper))  # UBI
+    # Merge back to person.
+    person2 = person.merge(spm[["spm_id", "new_spm_resources"]], on="spm_id")
+    # Based on new resources, calculate
+    person2["new_poor"] = person2.new_spm_resources < person2.spm_povthreshold
+    # Calculate poverty rate for specified race.
+    poverty_rate = mdf.weighted_mean(
+        person2[person2[race.lower()]], "new_poor", "weight"
+    )
+    # Calculate poverty gap for specified race.
+    poverty_gap = pov_gap(
+        spm[spm["spm_" + race.lower()] > 0], "new_spm_resources",
+        "spm_povthreshold", "spm_weight"
+    )
+    poverty_gap_per_capita = (poverty_gap / pop_in_race_spmu[race])
 
-def melt_dict(d):
-  """ produce long version of data frame represented by dictionary (d).
-  
-  Arguments
-  d: Dictionary where each element represents a differnt UBI type and spending levels and the poverty impacts.
-  
-  Returns
-  DataFrame where every row is the combination of UBI type and spending level.
-  """
-  df = pd.DataFrame(d).round(3) * 100
-  program = pd.melt(df, 'spending_in_billions', var_name='ubi_type',value_name='poverty_rate')
-  program['ubi_type'] = program.ubi_type.map({'child_allowance': 'Child allowance',
-                                      'adult_ubi': 'Adult UBI',
-                                      'all_ubi': 'All UBI'})
-  return program
+    return pd.Series({
+        "poverty_rate": poverty_rate,
+        "poverty_gap_per_capita": poverty_gap_per_capita
+    })
 
-program_overall = melt_dict(overall)
-program_child = melt_dict(child)
-program_adult = melt_dict(adult)
 
-def line_graph(df, x, y, color, title, xaxis_title, yaxis_title):
+def pov_row(row):
+    return pov(row.race, row.monthly_ubi)
+
+
+summary = mdf.cartesian_product(
+    {"race": ["White", "Black"], "monthly_ubi": np.arange(0, 1001, 50)}
+)
+summary = pd.concat([summary, summary.apply(pov_row, axis=1)], axis=1)
+# Format results.
+summary.poverty_rate = 100 * summary.poverty_rate.round(3)
+summary.poverty_gap_per_capita = summary.poverty_gap_per_capita.round(0)
+wide = summary.pivot_table(
+    ["poverty_rate", "poverty_gap_per_capita"], "monthly_ubi", "race"
+)
+wide.columns = ["pg_black", "pg_white", "pr_black", "pr_white"]
+wide["pg_ratio"] = (wide.pg_black / wide.pg_white).round(2)
+wide["pr_ratio"] = (wide.pr_black / wide.pr_white).round(2)
+wide.reset_index(inplace=True)
+ratios = wide.melt(id_vars="monthly_ubi", value_vars=["pr_ratio", "pg_ratio"])
+# Change for chart.
+ratios.variable.replace({"pr_ratio": "Poverty rate",
+                         "pg_ratio": "Poverty gap per capita"},
+                        inplace=True)
+
+
+def add_ubi_center_logo(fig, x=0.98, y=-0.14):
+    fig.add_layout_image(
+        dict(
+            source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+            # See https://github.com/plotly/plotly.py/issues/2975.
+            # source="../_static/ubi_center_logo_wide_blue.png",
+            xref="paper", yref="paper",
+            x=x, y=y,
+            sizex=0.12, sizey=0.12,
+            xanchor="right", yanchor="bottom"
+        )
+    )
+
+
+def line_graph(
+    df,
+    x,
+    y,
+    color,
+    title,
+    xaxis_title,
+    yaxis_title,
+    color_discrete_map,
+    yaxis_ticksuffix,
+    yaxis_tickprefix,
+):
     """Style for line graphs.
     
     Arguments
@@ -241,73 +185,112 @@ def line_graph(df, x, y, color, title, xaxis_title, yaxis_title):
     Returns
     Nothing. Shows the plot.
     """
-    fig = px.line(df, x=x, y=y, color=color)
+    fig = px.line(
+        df, x=x, y=y, color=color, color_discrete_map=color_discrete_map
+    )
     fig.update_layout(
         title=title,
         xaxis_title=xaxis_title,
         yaxis_title=yaxis_title,
-        yaxis_ticksuffix='%',
-        font=dict(family='Roboto'),
-        hovermode='x',
-        xaxis_tickprefix='$',
-        xaxis_ticksuffix='B',
-        plot_bgcolor='white',
-        legend_title_text=''
-        
+        yaxis_ticksuffix=yaxis_ticksuffix,
+        yaxis_tickprefix=yaxis_tickprefix,
+        font=dict(family="Roboto"),
+        hovermode="x",
+        xaxis_tickprefix="$",
+        plot_bgcolor="white",
+        legend_title_text="",
+        height=600,
+        width=1000,
     )
 
-    fig.update_traces(mode='markers+lines', hovertemplate=None)
+    fig.update_layout(
+        legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.9)
+    )
+
+    fig.update_traces(mode="markers+lines", hovertemplate=None)
+    
+    add_ubi_center_logo(fig)
 
     return fig
+    
 
-fig = line_graph(df=program_overall, x='spending_in_billions', 
-           y='poverty_rate', color='ubi_type',
-           title='Overall poverty rate and spending on cash transfer programs',
-           xaxis_title='Spending in billions',
-           yaxis_title='SPM poverty rate')
+DARK_BLUE = "#1565C0"
+GRAY = "#9E9E9E"
+DARK_GREEN = "#388E3C"
+LIGHT_GREEN = "#66BB6A"
+CONFIG = {"displayModeBar": False}
+
+line_graph(
+    df=summary,
+    x="monthly_ubi",
+    y="poverty_rate",
+    color="race",
+    title="Black and White poverty rate by UBI amount",
+    xaxis_title="Monthly universal basic income funded by flat income tax",
+    yaxis_title="SPM poverty rate (2019)",
+    color_discrete_map={"White": GRAY, "Black": DARK_BLUE},
+    yaxis_ticksuffix="%",
+    yaxis_tickprefix="",
+).show(config=CONFIG)
 ```
 
-Unsurprisingly, a Child Allowance was the most effective program at reducing child poverty at all levels of spending. Spending \$400 billion on a Child Allowance cuts child poverty by over two-thirds, from 13.6 percent to 4.3 percent.
+The poverty rate only tells part of the story, though.
+When someone goes from deep in poverty to just below the poverty line, the poverty rate is left unchanged, despite the person's material conditions improving.
 
-Comparatively, spending \$1 trillion on an Adult UBI leaves 7 percent of children still in poverty. For an All UBI and a Child Allowance under the same spending, 4 percent and 1 percent of children would remain in poverty, respectively.
+An alternative measure is the *poverty gap*, which aggregates each household's difference between its resources and its poverty threshold. This counts improvements of people who remain in poverty, and can be thought of as the total amount of money required to lift everyone out of poverty, if that money could be perfectly targeted.
+
+Applying this measure and adjusting for population differences, the Black poverty gap exceeds the White poverty gap by 50 percent: \$654 per person, vs. \$434 per person.
+Given a \$250 monthly UBI, which cuts poverty rates in half, poverty gaps also fall by about half, and the difference falls such that the Black poverty gap is about 36 percent higher.
+For UBIs above \$600 per month, the Black poverty gap even falls below the White poverty gap, likely due to Black people living in areas with lower-cost housing.
 
 ```{code-cell} ipython3
 ---
 colab:
   base_uri: https://localhost:8080/
-  height: 542
-colab_type: code
-id: -zvU7uVijyh-
-outputId: cc7e724b-a6da-49af-9b24-e84945bb0584
+id: RbR-ZGHoDkx6
+outputId: 95c6e91c-de7e-4c00-8f7b-e663316ac2e7
 tags: [hide-input]
 ---
-fig = line_graph(df=program_child, x='spending_in_billions', 
-           y='poverty_rate', color='ubi_type',
-           title='Child poverty rate and spending on cash transfer programs',
-           xaxis_title='Spending in billions',
-           yaxis_title='SPM poverty rate among people aged 17 and under')
+line_graph(
+    df=summary,
+    x="monthly_ubi",
+    y="poverty_gap_per_capita",
+    color="race",
+    title="Black and White poverty gap per capita by UBI amount",
+    xaxis_title="Monthly universal basic income funded by flat income tax",
+    yaxis_title="Poverty gap per capita (2019)",
+    color_discrete_map={"White": GRAY, "Black": DARK_BLUE},
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="$",
+).show(config=CONFIG)
 ```
 
-An Adult UBI and an All UBI have nearly identical effects on the adult poverty rate. A Child Allowance has a smaller impact on adult poverty because the benefits only go to adults with children in their family.
+Viewing these together, it's clear that UBIs don't only reduce poverty rates and poverty gaps for both races, but also bring them closer together, reducing racial disparities in poverty.
 
 ```{code-cell} ipython3
 ---
 colab:
   base_uri: https://localhost:8080/
-  height: 542
-colab_type: code
-id: ktqPlfkAliW_
-outputId: 2ecab6b3-0b5a-4395-89ad-6a7b60f7a33c
+id: u_mQFugH_TuF
+outputId: c3fe50ea-a5c5-4135-95e3-1fb66d7d8b83
 tags: [hide-input]
 ---
-fig = line_graph(df=program_adult, x='spending_in_billions', 
-           y='poverty_rate', color='ubi_type',
-           title='Adult poverty rate and spending on cash transfer programs',
-           xaxis_title='Spending in billions',
-           yaxis_title='SPM poverty rate among people aged 18 and over')
+fig = line_graph(
+    df=ratios,
+    x="monthly_ubi",
+    y="value",
+    color="variable",
+    title="Black poverty relative to White poverty by UBI amount",
+    xaxis_title="Monthly universal basic income funded by flat income tax",
+    yaxis_title="Ratio of Black to White poverty measure (2019)",
+    color_discrete_map={"Poverty rate": LIGHT_GREEN,
+                        "Poverty gap per capita": DARK_GREEN},
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="",
+)
+fig.add_hline(1, line_dash="dot")
+fig.show(config=CONFIG)
 ```
 
-## Conclusion
-This analysis finds that (a) including children in basic income plans enhances their anti-poverty effects and (b) optimal policy depends on spending levels.
-
-Given limited political support for added spending, a Child Allowance alleviates poverty most effectively. If the political appetite for anti-poverty spending is more substantial, we should aim to provide a truly universal UBI and provide cash transfers to everyone.
+Dr. King didn't live to see today's renaissance of guaranteed income, with pandemic responses including [generous unconditional cash transfers](https://www.cbsnews.com/news/stimulus-check-600-2000-dollars-eligibility-2021-1-1/), [mayors across America](http://mayorsforagi.org) calling for pilots, and [leaders across the world](https://www.express.co.uk/news/politics/1316702/nicola-sturgeon-news-scotland-ubi-Universal-Basic-Income-SNP-latest-economy) embracing the idea.
+But our analysis validates his intuition and the intertwining of his racial justice and economic justice emphases: guaranteed income will produce not only a less impoverished world, but also a less racially disparate one.
