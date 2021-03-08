@@ -1,47 +1,138 @@
-# hannah:
-#   username: hannah
-#   name: Hannah Wolfe
-#   location: London, UK
-#   url_full: http://hannah.wf/
-#   url: hannah.wf
-#   bio: Hannah is the co-founder and lead developer at Ghost. She spends her days looking after Ghost's developer community, tracking down bugs & ensuring Ghost(Pro) is a happy place.
-#   picture: assets/images/hannah.jpg
-#   facebook: False
-#   twitter: erisds
-#   cover: assets/images/hannah-cover.jpg
 max:
   username: max
   name: Max Ghenis
   title: Founder and President (US)
-  location: California, USA
-  url_full: False
-  url: False
-  bio: I am the founder and president of the UBI Center.
-  picture: assets/images/max.jpg
-  medium: maxghenis
-  github: maxghenis
-  facebook: False
-  twitter: maxghenis
-  cover: False
+  location: California, US
+  url_full: false
+  url: false
+  bio: Max is the founder and president of the UBI Center. 
+  picture: assets/images/max_ghenis_headshot.jpg
+  github: MaxGhenis
+  twitter: MaxGhenis
+  cover: false
 nate:
   username: nate
   name: Nate Golden
+  title: Research Associate (US)
   location: Taipei, Taiwan
+  url_full: false
+  url: false
+  bio: Nate is a math teacher in DC Public Schools, and formerly worked in the same position in Charlotte Mecklenberg Schools. 
+  picture: assets/images/nate_headshot.jpg
+  facebook: False
+  github: False
+  twitter: ngpsu22
+  rss: False
+john:
+  username: john
+  name: John Walker
+  title: Research Assistant
+  location: Cambridge, MA
   url_full: False
   url: False
-  bio: I am a research associate with the UBI Center, focusing on US child policy.
-  picture: assets/images/nate.jpg
-  facebook: False
+  bio: John is a Master's student in development economics at MIT. 
+  picture: assets/images/john_headshot.png
+  github: jwal1024
+  twitter: False
+  cover: False
+nihkil:
+  username: nikhil
+  name: Nikhil Woodruff
+  title: Research Assistant (UK)
+  location: London, UK
+  url_full: False
+  url: False
+  bio: Nikhil is a student at the University of Durham, UK studying Computer Science, where his interests include data science, simulation and its applications on public policy. 
+  picture: assets/images/nikhil_headshot.jpg
+  github: False
+  twitter: False
+  cover: False
+charles:
+  username: charles
+  name: Charles Bauman
+  title: Research Assistant (UK)
+  location: London, UK
+  url_full: False
+  url: False
+  bio: Charles is a recent graduate from London School of Economics and Political Science (LSE), where he completed a Master's degree in Theory and History of International Relations.
+  picture: assets/images/charles_headshot.jpg
+  github: False
+  twitter: False
+  cover: False
+praneet:
+  username: praneet
+  name: Praneet Rathi
+  location: Chicago, US
+  url_full: False
+  url: False
+  bio: Praneet is a senior in high school from the northern suburbs of Chicago. His interests lie at the intersection of math, computer science, and economics, and he looks forward to study these topics in college.
+  picture: assets/images/praneet_headshot.jpg
+  github: prrathi
   twitter: False
   cover: False
 matt:
   username: matt
-  name: Matthew Gilbert
-  location: Boston, Massachusetts
+  name: Matt Gilbert
+  location: Cambridge, MA
   url_full: False
   url: False
-  bio: I am a research assistant with the UBI Center, focusing on software development. I am also currently a senior at Harvard University concentrating in Computer Science.
-  picture: 
-  facebook: False
+  bio: Matt is a senior at Harvard University, where he is pursuing a Bachelor of Arts in Computer Science. He has previously worked for two startups in the clean energy field.
+  picture: assets/images/matt_headshot.jpg
+  github: False
+  twitter: matt_b_gilbert
+  cover: False
+ankit:
+  username: ankit
+  name: Ankit Dhingra
+  location: Canada
+  url_full: False
+  url: False
+  bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy.
+  picture: assets/images/ankit_headshot.jpg
+  github: False
+  twitter: False
+  cover: False
+deepak:
+  username: deepak
+  name: Deepak Singh
+  location: Cambridge, MA
+  url_full: False
+  url: False
+  bio: Deepak is a rising junior at Harvard University, where he is an A.B. Honors candidate in Philosophy and Computer Science, and an Arete Fellow with Harvard College Effective Altruism
+  picture: assets/images/deepak_headshot.jpg
+  github: False
+  twitter: False
+  cover: False
+nicholas:
+  username: nicholas
+  name: Nicholas Rodelo
+  location: Boston, MA
+  url_full: False
+  url: False
+  bio: Nicholas (Nick) is currently a Senior at Boston University, studying Economics. Nick has previously worked as a research assistant for topics in sociology and economics.
+  picture: assets/images/nicholas_headshot.jpg
+  github: False
+  twitter: False
+  cover: False
+connor:
+  username: connor
+  name: Connor Tragesser
+  location: Cambridge, MA
+  url_full: False
+  url: False
+  bio: Connor is a student at The Ohio State University studying economics and political science.
+  picture: assets/images/connor_headshot.jpg
+  github: False
+  twitter: False
+  cover: False
+katarina:
+  username: katarina
+  name: Katarina van Alebeek
+  location: Palo Alto, CA
+  url_full: False
+  url: False
+  bio: Katarina graduated from Stanford University in 2019 with studies in Political Science and Philosophy. 
+  picture: assets/images/katarina_headshot.jpg
+  github: False
   twitter: False
   cover: False
