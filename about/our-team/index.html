@@ -73,6 +73,18 @@ subclass: 'page'
             <div class="author-stats">
                 {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
             </div>
+            {% if author[1].github %}
+                <span class="bull">&bull;</span>
+                <a class="social-link social-link-gh" href="https://github.com/{{ author[1].github }}" target="_blank" rel="noopener">GitHub</a>
+            {% endif %}
+            {% if author[1].twitter %}
+                <span class="bull">&bull;</span>
+                <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">Twitter</a>
+            {% endif %}
+            {% if author[1].medium %}
+                <span class="bull">&bull;</span>
+                <a class="social-link social-link-medium" href="https://medium.com/@{{ author[1].medium }}" target="_blank" rel="noopener">Medium</a>
+            {% endif %}
           </div>
         </div>
       </div>
