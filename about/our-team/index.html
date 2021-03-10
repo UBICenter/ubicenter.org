@@ -68,14 +68,16 @@ subclass: 'page'
           {% endif %}
           <div class="author-meta">
             {% if author[1].location %}
-                <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+                <div class="author-location">{{ author[1].location }}</div>
+                <span class="bull">&bull;</span>
             {% endif %}
             <div class="author-stats">
-                {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} 
+              <a href="{{ site.baseurl }}author/{{ author[1].username }}">Posts</a>
+              <!-- {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %}  -->
             </div>
             {% if author[1].github %}
                 <span class="bull">&bull;</span>
-                <a class="social-link social-link-gh" href="https://github.com/{{ author[1].github }}" target="_blank" rel="noopener">GitHub</a>
+                <a class="social-link social-link-gh" href="https://github.com/{{ author[1].github }}" target="_blank" rel="noopener">GitHub</a>  
             {% endif %}
             {% if author[1].twitter %}
                 <span class="bull">&bull;</span>
