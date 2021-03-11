@@ -594,6 +594,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     max-width: 1040px;
     text-align: center;
 }
+
 @media (max-width: 500px) {
     .post-full-header {
         padding: 14vw 3vw 10vw;
@@ -1742,8 +1743,17 @@ Usage (In Ghost editor):
     font-size: 1.7rem;
 }
 
-.site-header-content
+#author-links a{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    padding: 0 5px;
+}
 
+#heading1-header {
+    padding-bottom: 15px;
+}
 /* 9. Error Template
 /* ---------------------------------------------------------- */
 
