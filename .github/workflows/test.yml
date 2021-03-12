@@ -22,7 +22,7 @@ jobs:
           # Must be added as a secret on your personal fork of the repo.
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token (PAT)
           repository: ''                 # Default is current repository
-          branch: 'test'                 # Use test branch which isn't deployed.
+          branch: 'test'                 # Use test branch which isn't deployed
           jekyll_src: './'               # Default is root directory
           jekyll_cfg: '_config.yml'      # Default is _config.yml
           jekyll_baseurl: ''             # Default is according to _config.yml
