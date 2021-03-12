@@ -2,7 +2,6 @@ name: Build and Test Site
 on: [push, pull_request]
 jobs:
   build:
-    if: github.repository == 'UBICenter/ubicenter.org'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
