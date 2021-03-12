@@ -19,6 +19,7 @@ jobs:
       - uses: jeffreytse/jekyll-deploy-action@v0.2.0
         with:
           provider: 'github'
+          # Must be added as a secret on your personal fork of the repo.
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token (PAT)
           repository: ''                 # Default is current repository
           branch: 'test'                 # Use test branch which isn't deployed.
