@@ -31,35 +31,3 @@ jobs:
           bundler_ver: '>=0'             # Default is latest bundler version
           cname: ''                      # Default is to not use a cname
           actor: ''                      # Default is the GITHUB_ACTOR
-
-jobs:
-  build-and-deploy:
-    if: github.repository == 'UBICenter/ubicenter.org'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6 # Not needed with a .ruby-version file
-          bundler-cache: true
-
-      - name: Install Bundle
-        shell: bash -l {0}
-        run: |
-          gem install bundler
-          bundle install
-      - name: Build # Build Site
-        shell: bash -l {0}
-        run: bundle exec rake site:deploy --quiet
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: ./_site # The folder the action should deploy.
