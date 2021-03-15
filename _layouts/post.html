@@ -73,8 +73,8 @@ into the {body} of the default.hbs template -->
                                 {% endif %}
                                 <section class="author-card-content">
                                     <h4 class="author-card-name"><a href="{{ site.baseurl }}author/{{ page_author }}">{{ author[1].name }}</a></h4>
-                                    {% if author[1].bio %}
-                                        <p>{{ author[1].bio }}</p>
+                                    {% if author[1].short_bio %}
+                                        <p>{{ author[1].short_bio }}</p>
                                     {% else %}
                                         <p>Read <a href="{{ site.baseurl }}author/{{ page_author }}">more posts</a> by this author.</p>
                                     {% endif %}

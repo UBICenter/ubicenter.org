@@ -14,7 +14,7 @@ logo: 'assets/images/ghost.png'
 <!-- #author  -->
 <!-- Everything inside the #author tags pulls data from the author -->
 {% for author in site.data.authors %}
-    {% if author[1].username == page.author %}
+    <!-- {% if author[1].username == page.author %} -->
     <header class="site-header outer" style="background-image: url('{{ site.baseurl }}{% if author[1].cover %}{{ author[1].cover }}{% elsif page.cover %}{{ page.cover }}{% else %}assets/images/ubi_center_blue.jpg{% endif %}')">
         <div class="inner">
             {% include site-nav.html %}
@@ -61,7 +61,7 @@ logo: 'assets/images/ghost.png'
             </div>
         </div>
     </header>
-    {% endif %}
+    <!-- {% endif %} -->
 {% endfor %}
 <!-- /author -->
 

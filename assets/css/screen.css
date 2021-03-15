@@ -1225,6 +1225,10 @@ Usage (In Ghost editor):
     text-decoration: none;
 }
 
+.author-card-content {
+    padding-right: 3rem;
+}
+
 .author-card-content p {
     margin: 0;
     color: var(--midgrey);
