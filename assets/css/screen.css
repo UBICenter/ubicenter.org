@@ -1019,6 +1019,8 @@ Usage (In Ghost editor):
 }
 
 /* Tables */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .post-full-content table {
     display: inline-block;
     overflow-x: auto;
