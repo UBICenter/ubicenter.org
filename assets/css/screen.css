@@ -1704,6 +1704,7 @@ Usage (In Ghost editor):
 .site-header-content{
     padding-right: 0;
     padding-left: 0;
+    margin: 5rem 0 !important;
 }
 
 .site-header-content .team-page .author-profile-image {
