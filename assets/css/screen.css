@@ -1610,14 +1610,34 @@ Usage (In Ghost editor):
     }
 }
 
-/* 7.6 Code Blocks
+/* 7.6 Code Formatting
 /* ---------------------------------------------------------- */
-.code-cell {
-    display: block;
-    width: 50%;
-    background-color: var(--blue);
+pre {
+    white-space: pre-wrap; 
 }
 
+/*pre code {
+    color: white;
+    background-color: blue;
+    padding: 2px;
+    font-size: 500%;
+    width: 100px;
+}*/
+
+.code-cell {
+    width: 900px;
+}
+
+.code-button {
+    border-radius: 5px;
+    background-color: var(--ubi-blue);
+    color: white;
+    /*color: red;*/
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    /*padding: 0 0 0 10px;*/
+}
 
 /* 8. Author Template
 /* ---------------------------------------------------------- */

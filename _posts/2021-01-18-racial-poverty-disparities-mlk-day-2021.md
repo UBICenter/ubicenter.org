@@ -4,18 +4,17 @@ current: post
 cover: 
 navigation: True
 title: Basic income would shrink racial poverty disparities
-date: 2020-01-18
-tags: [blog]
+date: 2021-01-18
+tags: [blog, race, poverty]
 class: post-template
 subclass: 'post'
-author: nate
+author: [max, connor, nate]
 ---
 
 <head>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
 
 
 Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
@@ -43,11 +42,12 @@ We calculate per-capita poverty gaps by race as the total poverty gap of SPM uni
 
 
 Black Americans today are 75 percent more likely to be in poverty than White Americans, with a rate of 18.4 percent compared to 10.5 percent.
-A \\$250 monthly UBI would cut both Black and White poverty roughly in half (this is similar to what we found in a [July 2020 post](https://medium.com/ubicenter/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps-452e2af1497b), which used older data and did not simulate taxes to fund the UBI).
-A \\$1,000 monthly UBI funded by a flat income tax would reduce poverty for both White and Black people to about 1 percent.
+A $250 monthly UBI would cut both Black and White poverty roughly in half (this is similar to what we found in a [July 2020 post](https://medium.com/ubicenter/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps-452e2af1497b), which used older data and did not simulate taxes to fund the UBI).
+A $1,000 monthly UBI funded by a flat income tax would reduce poverty for both White and Black people to about 1 percent.
 
-<button onclick="f1()">Click to show code</button>
-<div id="code_graph1" style="display: none;">
+
+<button class="code-button" id="button1" onclick="f1()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_1" style="display: none;">
   <pre>
     <code>
 import pandas as pd
@@ -56,34 +56,34 @@ import microdf as mdf
 import plotly.express as px
 
 SPM_COLS = [
-    'spm_' + i for i in ['id', 'weight', 'povthreshold', 'resources', 'numper']
+    "spm_" + i for i in ["id", "weight", "povthreshold", "resources", "numper"]
 ]
 raw = pd.read_csv(
-    'https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz',
-    usecols=['PRDTRACE', 'MARSUPWT', 'AGI'] + [i.upper() for i in SPM_COLS],
+    "https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz",
+    usecols=["PRDTRACE", "MARSUPWT", "AGI"] + [i.upper() for i in SPM_COLS],
 )
 person = raw.copy(deep=True)
 person.columns = person.columns.str.lower()
-person['weight'] = person.marsupwt / 100
+person["weight"] = person.marsupwt / 100
 person.spm_weight /= 100
-person = person.rename(columns={'prdtrace': 'race'})
+person = person.rename(columns={"prdtrace": "race"})
 # Add indicators for white only and black only (not considering other races).
-person['white'] = person.race == 1
-person['black'] = person.race == 2
+person["white"] = person.race == 1
+person["black"] = person.race == 2
 # Limit to positive AGI.
-person['agi_pos'] = np.maximum(person.agi, 0)
+person["agi_pos"] = np.maximum(person.agi, 0)
 # Need total population to calculate UBI and total AGI for required tax rate.
 total_population = person.weight.sum()
-total_agi = mdf.weighted_sum(person, 'agi_pos', 'weight')
+total_agi = mdf.weighted_sum(person, "agi_pos", "weight")
 # Sum up AGI for each SPM unit and merge that back to person level.
-spm = person.groupby(SPM_COLS)[['agi_pos', 'white', 'black']].sum()
-spm.columns = ['spm_' + i for i in spm.columns]
+spm = person.groupby(SPM_COLS)[["agi_pos", "white", "black"]].sum()
+spm.columns = ["spm_" + i for i in spm.columns]
 # Merge these back to person to calculate population in White and Black spmus.
-person = person.merge(spm, on='spm_id')
+person = person.merge(spm, on="spm_id")
 pop_in_race_spmu = pd.Series(
     {
-        'Black': person[person.spm_black > 0].weight.sum(),
-        'White': person[person.spm_white > 0].weight.sum(),
+        "Black": person[person.spm_black > 0].weight.sum(),
+        "White": person[person.spm_white > 0].weight.sum(),
     }
 )
 spm.reset_index(inplace=True)
@@ -100,28 +100,28 @@ def pov(race, monthly_ubi):
     cost = monthly_ubi * total_population * 12
     tax_rate = cost / total_agi
     # Calculate new tax, UBI and resources per SPM unit.
-    spm['new_spm_resources'] = (
+    spm["new_spm_resources"] = (
         spm.spm_resources - 
         (tax_rate * spm.spm_agi_pos) +  # New tax
         (12 * monthly_ubi * spm.spm_numper))  # UBI
     # Merge back to person.
-    person2 = person.merge(spm[['spm_id', 'new_spm_resources']], on='spm_id')
+    person2 = person.merge(spm[["spm_id", "new_spm_resources"]], on="spm_id")
     # Based on new resources, calculate
-    person2['new_poor'] = person2.new_spm_resources < person2.spm_povthreshold
+    person2["new_poor"] = person2.new_spm_resources < person2.spm_povthreshold
     # Calculate poverty rate for specified race.
     poverty_rate = mdf.weighted_mean(
-        person2[person2[race.lower()]], 'new_poor', 'weight'
+        person2[person2[race.lower()]], "new_poor", "weight"
     )
     # Calculate poverty gap for specified race.
     poverty_gap = pov_gap(
-        spm[spm['spm_' + race.lower()] > 0], 'new_spm_resources',
-        'spm_povthreshold', 'spm_weight'
+        spm[spm["spm_" + race.lower()] > 0], "new_spm_resources",
+        "spm_povthreshold", "spm_weight"
     )
     poverty_gap_per_capita = (poverty_gap / pop_in_race_spmu[race])
 
     return pd.Series({
-        'poverty_rate': poverty_rate,
-        'poverty_gap_per_capita': poverty_gap_per_capita
+        "poverty_rate": poverty_rate,
+        "poverty_gap_per_capita": poverty_gap_per_capita
     })
 
 
@@ -130,36 +130,36 @@ def pov_row(row):
 
 
 summary = mdf.cartesian_product(
-    {'race': ['White', 'Black'], 'monthly_ubi': np.arange(0, 1001, 50)}
+    {"race": ["White", "Black"], "monthly_ubi": np.arange(0, 1001, 50)}
 )
 summary = pd.concat([summary, summary.apply(pov_row, axis=1)], axis=1)
 # Format results.
 summary.poverty_rate = 100 * summary.poverty_rate.round(3)
 summary.poverty_gap_per_capita = summary.poverty_gap_per_capita.round(0)
 wide = summary.pivot_table(
-    ['poverty_rate', 'poverty_gap_per_capita'], 'monthly_ubi', 'race'
+    ["poverty_rate", "poverty_gap_per_capita"], "monthly_ubi", "race"
 )
-wide.columns = ['pg_black', 'pg_white', 'pr_black', 'pr_white']
-wide['pg_ratio'] = (wide.pg_black / wide.pg_white).round(2)
-wide['pr_ratio'] = (wide.pr_black / wide.pr_white).round(2)
+wide.columns = ["pg_black", "pg_white", "pr_black", "pr_white"]
+wide["pg_ratio"] = (wide.pg_black / wide.pg_white).round(2)
+wide["pr_ratio"] = (wide.pr_black / wide.pr_white).round(2)
 wide.reset_index(inplace=True)
-ratios = wide.melt(id_vars='monthly_ubi', value_vars=['pr_ratio', 'pg_ratio'])
+ratios = wide.melt(id_vars="monthly_ubi", value_vars=["pr_ratio", "pg_ratio"])
 # Change for chart.
-ratios.variable.replace({'pr_ratio': 'Poverty rate',
-                         'pg_ratio': 'Poverty gap per capita'},
+ratios.variable.replace({"pr_ratio": "Poverty rate",
+                         "pg_ratio": "Poverty gap per capita"},
                         inplace=True)
 
 
 def add_ubi_center_logo(fig, x=0.98, y=-0.14):
     fig.add_layout_image(
         dict(
-            source='https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png',
+            source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
             # See https://github.com/plotly/plotly.py/issues/2975.
-            # source='../_static/ubi_center_logo_wide_blue.png',
-            xref='paper', yref='paper',
+            # source="../_static/ubi_center_logo_wide_blue.png",
+            xref="paper", yref="paper",
             x=x, y=y,
             sizex=0.12, sizey=0.12,
-            xanchor='right', yanchor='bottom'
+            xanchor="right", yanchor="bottom"
         )
     )
 
@@ -176,7 +176,7 @@ def line_graph(
     yaxis_ticksuffix,
     yaxis_tickprefix,
 ):
-    '''Style for line graphs.
+    """Style for line graphs.
     
     Arguments
     df: DataFrame with data to be plotted.
@@ -188,7 +188,7 @@ def line_graph(
     
     Returns
     Nothing. Shows the plot.
-    '''
+    """
     fig = px.line(
         df, x=x, y=y, color=color, color_discrete_map=color_discrete_map
     )
@@ -198,56 +198,59 @@ def line_graph(
         yaxis_title=yaxis_title,
         yaxis_ticksuffix=yaxis_ticksuffix,
         yaxis_tickprefix=yaxis_tickprefix,
-        font=dict(family='Roboto'),
-        hovermode='x',
-        xaxis_tickprefix='$',
-        plot_bgcolor='white',
-        legend_title_text='',
+        font=dict(family="Roboto"),
+        hovermode="x",
+        xaxis_tickprefix="$",
+        plot_bgcolor="white",
+        legend_title_text="",
         height=600,
         width=1000,
     )
 
     fig.update_layout(
-        legend=dict(yanchor='top', y=0.99, xanchor='left', x=0.9)
+        legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.9)
     )
 
-    fig.update_traces(mode='markers+lines', hovertemplate=None)
+    fig.update_traces(mode="markers+lines", hovertemplate=None)
     
     add_ubi_center_logo(fig)
 
     return fig
     
 
-DARK_BLUE = '#1565C0'
-GRAY = '#9E9E9E'
-DARK_GREEN = '#388E3C'
-LIGHT_GREEN = '#66BB6A'
-CONFIG = {'displayModeBar': False}
+DARK_BLUE = "#1565C0"
+GRAY = "#9E9E9E"
+DARK_GREEN = "#388E3C"
+LIGHT_GREEN = "#66BB6A"
+CONFIG = {"displayModeBar": False}
 
 fig = line_graph(
     df=summary,
-    x='monthly_ubi',
-    y='poverty_rate',
-    color='race',
-    title='Black and White poverty rate by UBI amount',
-    xaxis_title='Monthly universal basic income funded by flat income tax',
-    yaxis_title='SPM poverty rate (2019)',
-    color_discrete_map={'White': GRAY, 'Black': DARK_BLUE},
-    yaxis_ticksuffix='%',
-    yaxis_tickprefix='',
+    x="monthly_ubi",
+    y="poverty_rate",
+    color="race",
+    title="Black and White poverty rate by UBI amount",
+    xaxis_title="Monthly universal basic income funded by flat income tax",
+    yaxis_title="SPM poverty rate (2019)",
+    color_discrete_map={"White": GRAY, "Black": DARK_BLUE},
+    yaxis_ticksuffix="%",
+    yaxis_tickprefix="",
 )
-
+fig.show(config=CONFIG)
     </code>
   </pre>
 </div>
 
 <script>
 function f1() {
-  var x = document.getElementById("code_graph1");
+  var x = document.getElementById("asset_code_1");
+  var b = document.getElementById("button1");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -255,48 +258,53 @@ function f1() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph1").load("{{site.baseurl}}assets/graphs/2021-01-18-racial-poverty-disparities-mlk-day-2021-graph1.html");
+      $("#asset1").load("{{site.baseurl}}assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-1.html");
     });
   </script>
 </div>
-<div id = "graph1"></div>
+<div id = "asset1"></div>
+
 The poverty rate only tells part of the story, though.
 When someone goes from deep in poverty to just below the poverty line, the poverty rate is left unchanged, despite the person's material conditions improving.
 
 An alternative measure is the *poverty gap*, which aggregates each household's difference between its resources and its poverty threshold. This counts improvements of people who remain in poverty, and can be thought of as the total amount of money required to lift everyone out of poverty, if that money could be perfectly targeted.
 
-Applying this measure and adjusting for population differences, the Black poverty gap exceeds the White poverty gap by 50 percent: \\$654 per person, vs. \\$434 per person.
-Given a \\$250 monthly UBI, which cuts poverty rates in half, poverty gaps also fall by about half, and the difference falls such that the Black poverty gap is about 36 percent higher.
-For UBIs above \\$600 per month, the Black poverty gap even falls below the White poverty gap, likely due to Black people living in areas with lower-cost housing.
+Applying this measure and adjusting for population differences, the Black poverty gap exceeds the White poverty gap by 50 percent: $654 per person, vs. $434 per person.
+Given a $250 monthly UBI, which cuts poverty rates in half, poverty gaps also fall by about half, and the difference falls such that the Black poverty gap is about 36 percent higher.
+For UBIs above $600 per month, the Black poverty gap even falls below the White poverty gap, likely due to Black people living in areas with lower-cost housing.
 
-<button onclick="f2()">Click to show code</button>
-<div id="code_graph2" style="display: none;">
+
+<button class="code-button" id="button2" onclick="f2()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_2" style="display: none;">
   <pre>
     <code>
 fig = line_graph(
     df=summary,
-    x='monthly_ubi',
-    y='poverty_gap_per_capita',
-    color='race',
-    title='Black and White poverty gap per capita by UBI amount',
-    xaxis_title='Monthly universal basic income funded by flat income tax',
-    yaxis_title='Poverty gap per capita (2019)',
-    color_discrete_map={'White': GRAY, 'Black': DARK_BLUE},
-    yaxis_ticksuffix='',
-    yaxis_tickprefix='$',
+    x="monthly_ubi",
+    y="poverty_gap_per_capita",
+    color="race",
+    title="Black and White poverty gap per capita by UBI amount",
+    xaxis_title="Monthly universal basic income funded by flat income tax",
+    yaxis_title="Poverty gap per capita (2019)",
+    color_discrete_map={"White": GRAY, "Black": DARK_BLUE},
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="$",
 )
-
+fig.show(config=CONFIG)
     </code>
   </pre>
 </div>
 
 <script>
 function f2() {
-  var x = document.getElementById("code_graph2");
+  var x = document.getElementById("asset_code_2");
+  var b = document.getElementById("button2");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -304,43 +312,48 @@ function f2() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph2").load("{{site.baseurl}}assets/graphs/2021-01-18-racial-poverty-disparities-mlk-day-2021-graph2.html");
+      $("#asset2").load("{{site.baseurl}}assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-2.html");
     });
   </script>
 </div>
-<div id = "graph2"></div>
+<div id = "asset2"></div>
+
 Viewing these together, it's clear that UBIs don't only reduce poverty rates and poverty gaps for both races, but also bring them closer together, reducing racial disparities in poverty.
 
-<button onclick="f3()">Click to show code</button>
-<div id="code_graph3" style="display: none;">
+
+<button class="code-button" id="button3" onclick="f3()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_3" style="display: none;">
   <pre>
     <code>
 fig = line_graph(
     df=ratios,
-    x='monthly_ubi',
-    y='value',
-    color='variable',
-    title='Black poverty relative to White poverty by UBI amount',
-    xaxis_title='Monthly universal basic income funded by flat income tax',
-    yaxis_title='Ratio of Black to White poverty measure (2019)',
-    color_discrete_map={'Poverty rate': LIGHT_GREEN,
-                        'Poverty gap per capita': DARK_GREEN},
-    yaxis_ticksuffix='',
-    yaxis_tickprefix='',
+    x="monthly_ubi",
+    y="value",
+    color="variable",
+    title="Black poverty relative to White poverty by UBI amount",
+    xaxis_title="Monthly universal basic income funded by flat income tax",
+    yaxis_title="Ratio of Black to White poverty measure (2019)",
+    color_discrete_map={"Poverty rate": LIGHT_GREEN,
+                        "Poverty gap per capita": DARK_GREEN},
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="",
 )
-fig.add_hline(1, line_dash='dot'
-
+fig.add_hline(1, line_dash="dot")
+fig.show(config=CONFIG)
     </code>
   </pre>
 </div>
 
 <script>
 function f3() {
-  var x = document.getElementById("code_graph3");
+  var x = document.getElementById("asset_code_3");
+  var b = document.getElementById("button3");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -348,10 +361,8 @@ function f3() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph3").load("{{site.baseurl}}assets/graphs/2021-01-18-racial-poverty-disparities-mlk-day-2021-graph3.html");
+      $("#asset3").load("{{site.baseurl}}assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-3.html");
     });
   </script>
 </div>
-<div id = "graph3"></div>
-Dr. King didn't live to see today's renaissance of guaranteed income, with pandemic responses including [generous unconditional cash transfers](https://www.cbsnews.com/news/stimulus-check-600-2000-dollars-eligibility-2021-1-1/), [mayors across America](http://mayorsforagi.org) calling for pilots, and [leaders across the world](https://www.express.co.uk/news/politics/1316702/nicola-sturgeon-news-scotland-ubi-Universal-Basic-Income-SNP-latest-economy) embracing the idea.
-But our analysis validates his intuition and the intertwining of his racial justice and economic justice emphases: guaranteed income will produce not only a less impoverished world, but also a less racially disparate one.
+<div id = "asset3"></div>
