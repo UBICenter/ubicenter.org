@@ -72,6 +72,7 @@ charles:
 praneet:
   username: praneet
   name: Praneet Rathi
+  title: Research Assistant
   location: Chicago, US
   url_full: False
   url: False
@@ -85,6 +86,7 @@ praneet:
 matt:
   username: matt
   name: Matt Gilbert
+  title: Developer
   location: Cambridge, MA
   url_full: False
   url: False
@@ -98,6 +100,7 @@ matt:
 ankit:
   username: ankit
   name: Ankit Dhingra
+  title: Research Assistant
   location: Canada
   url_full: False
   url: False
@@ -111,6 +114,7 @@ ankit:
 deepak:
   username: deepak
   name: Deepak Singh
+  title: Research Assistant
   location: Cambridge, MA
   url_full: False
   url: False
@@ -124,6 +128,7 @@ deepak:
 nicholas:
   username: nicholas
   name: Nicholas Rodelo
+  title: Research Assistant
   location: Boston, MA
   url_full: False
   url: False
@@ -137,6 +142,7 @@ nicholas:
 connor:
   username: connor
   name: Connor Tragesser
+  title: Research Assistant
   location: Cambridge, MA
   url_full: False
   url: False
@@ -150,6 +156,7 @@ connor:
 katarina:
   username: katarina
   name: Katarina van Alebeek
+  title: Research Assistant
   location: Palo Alto, CA
   url_full: False
   url: False
