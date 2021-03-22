@@ -1724,6 +1724,7 @@ pre {
 .site-header-content{
     padding-right: 0;
     padding-left: 0;
+    margin: 5rem 0 !important;
 }
 
 .site-header-content .team-page .author-profile-image {
@@ -1779,6 +1780,26 @@ pre {
 
 #heading1-header {
     padding-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+    .site-header-content {
+        max-height: none !important;
+    }
+    .site-header-content .team-page .container {
+        flex-direction: column;
+    }
+    .text-container{
+        margin-left: 0 !important;
+    }
+    .site-header-content .team-page .container .author-location {
+        display:flex;
+        font-size: 1.6rem;
+    }
+    #author-links {
+        display: flex;
+        font-size: 1.6rem;
+    }
 }
 /* 9. Error Template
 /* ---------------------------------------------------------- */
