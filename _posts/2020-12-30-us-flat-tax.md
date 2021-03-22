@@ -628,3 +628,26 @@ function f6() {
   </script>
 </div>
 <div id = "asset6"></div>
+
+This cross-country picture aligns with our simulations: larger UBIs cut inequality more, and even if the tax system that funds those larger UBIs isn't progressive, ability to fund the UBI is what matters.
+
+## Conclusion
+
+Beyond their simplicity, flat taxes have a number of theoretical advantages.
+Progressive tax structures necessarily encourage shifting income from one year to the next as well as [marriage, divorce, or both](https://www.cbo.gov/sites/default/files/105th-congress-1997-1998/reports/marriage.pdf).[^marriage]
+Flat taxes treat income neutrally, regardless of when it was earned, by whom, or earners' family choices.
+And because they align marginal tax rates (which determine labor incentives) with effective tax rates (which determine revenue), they raise revenue with relatively little work disincentive.
+For example, a [2020 paper](https://www.nber.org/papers/w27622) from the National Bureau of Economic Research found that "a uniform flat tax on capital and labor income combined with a lump-sum transfer is nearly optimal."
+
+[^marriage]: Consider, for example, two couples: one with $30,000 earnings each, and another with one earning $60,000 and the spouse earning $0.
+And consider a progressive tax policy with two rates: 0% (a standard deduction) and 50%.
+If the standard deduction is $30,000, the first couple has a total tax liability of $15,000 if filing as a couple, but $0 if filing separately---a large marriage bonus (the second couple's tax liability is $15,000 whether married or separate).
+If the standard deduction instead varies with marital status, e.g. $15,000 for singles and $30,000 for couples, then the first couple will be treated neutrally, paying $15,000 whether filing separate or married.
+But now the second couple faces a marriage *bonus*, paying $22,500 in taxes if filing separately, but only $15,000  if married.
+This can be partly remedied by moving to an individualized tax system, as the United Kingdom does, where earnings are taxed independently of a spouse's earnings.
+But couples will still have joint assets, and therefore face marriage penalties or bonuses on their capital income if capital income is taxed progressively.
+Only a flat tax avoids marriage penalties or bonuses.
+
+Our simulations and cross-country comparisons show that these advantages don't need to come at the cost of progressivity; if anything, they may enhance progressivity.
+Even a 30 percent flat income tax, with excess revenue distributed as UBI, could cut poverty in half, reduce inequality by 10 percent, and leave most Americans better off.
+To achieve the egalitarianism of other developed countries, the US should focus less on progressive taxation, and more on how to raise enough revenue to distribute it broadly, effectively, and generously.

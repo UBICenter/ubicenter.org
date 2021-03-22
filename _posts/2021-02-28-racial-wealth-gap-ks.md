@@ -1113,3 +1113,10 @@ function f10() {
   </script>
 </div>
 <div id = "asset10"></div>
+
+While these metrics aren't truly comparable, we can see that the KS statistic is more stubborn than other measures, especially the gap in median wealth.
+Median Black wealth is so low that even modest redistribution can close that gap quickly, but larger gaps in the middle of the distribution will persist.
+
+We will continue this line of research, especially longer-term dynamic analysis to reflect the accumulative nature of wealth.
+Our simplifying assumption that the entire tax and transfer system flows straight to wealth, rather than consumption, may exaggerate these trends given propensities to consume decrease with wealth. But recurring redistribution would likely have a significantly larger effect in closing the gap, even accounting for consumption.
+UBI isn't the only policy that can reduce racial wealth disparities, but it certainly helps.

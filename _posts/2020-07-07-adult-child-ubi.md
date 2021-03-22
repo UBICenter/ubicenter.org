@@ -363,3 +363,8 @@ function f3() {
   </script>
 </div>
 <div id = "asset3"></div>
+
+## Conclusion
+This analysis finds that (a) including children in basic income plans enhances their anti-poverty effects and (b) optimal policy depends on spending levels.
+
+Given limited political support for added spending, a Child Allowance alleviates poverty most effectively. If the political appetite for anti-poverty spending is more substantial, we should aim to provide a truly universal UBI and provide cash transfers to everyone.

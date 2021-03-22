@@ -366,3 +366,6 @@ function f3() {
   </script>
 </div>
 <div id = "asset3"></div>
+
+Dr. King didn't live to see today's renaissance of guaranteed income, with pandemic responses including [generous unconditional cash transfers](https://www.cbsnews.com/news/stimulus-check-600-2000-dollars-eligibility-2021-1-1/), [mayors across America](http://mayorsforagi.org) calling for pilots, and [leaders across the world](https://www.express.co.uk/news/politics/1316702/nicola-sturgeon-news-scotland-ubi-Universal-Basic-Income-SNP-latest-economy) embracing the idea.
+But our analysis validates his intuition and the intertwining of his racial justice and economic justice emphases: guaranteed income will produce not only a less impoverished world, but also a less racially disparate one.

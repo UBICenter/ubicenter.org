@@ -707,3 +707,7 @@ function f4() {
   </script>
 </div>
 <div id = "asset4"></div>
+
+Our research shows that different policy objectives and funding levels may lead to starkly different amounts of cash transfer funding going towards children.
+Each optimization, however, called for children to receive a nonzero share of UBI spending, and often a larger monthly amount than adults, especially with small budgets and when minimizing inequality.
+These results underline the importance of including children in UBI conversations and policy analysis.
