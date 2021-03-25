@@ -1636,14 +1636,25 @@ pre {
 }
 
 .code-button {
+    position: absolute;
+    left: 79%;
+    /*align-self: center;*/
     border-radius: 5px;
-    background-color: var(--ubi-blue);
-    color: white;
+    background-color: transparent;
+    font-size: 65%;
+    color: var(--darkgrey);
     /*color: red;*/
-    width: 900px;
-    height: 50px;
-    text-align: center;
-    /*padding: 0 0 0 10px;*/
+    /*border: 1px solid var(--darkgrey);*/
+
+    /*background-color: white;*/
+  /*color: black;*/
+    /*border: 2px solid #4CAF50;*/
+
+    /*color: red;*/
+    /*width: 900px;*/
+    /*height: 50px;*/
+    /*text-align: right;*/
+    /*margin-bottom: 100px;*/
 }
 
 /* 8. Author Template
