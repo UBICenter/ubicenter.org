@@ -1620,7 +1620,8 @@ Usage (In Ghost editor):
 /* 7.6 Code Formatting
 /* ---------------------------------------------------------- */
 pre {
-    white-space: pre-wrap; 
+    /*white-space: pre-wrap; */
+    /*min-width: 80;*/
 }
 
 /*pre code {
@@ -1632,7 +1633,7 @@ pre {
 }*/
 
 .code-cell {
-    width: 900px;
+    width: 1000px;
 }
 
 .code-button {
