@@ -1,21 +1,21 @@
 ---
 layout: post
 current: post
-cover: assets/img/2019-06-24_introducing-the-ubi-center_0.png 
+cover: assets/images/2019-06-24-introducing-the-ubi-center-0.png 
 navigation: True
 title: Introducing the UBI Center
 date: 2019-06-24T17:55:59.690Z
-lastmod: 2021-01-05T21:20:47-05:00
+lastmod: 2021-03-25T15:18:57-04:00
 tags: 
 class: post-template
 subclass: 'post'
-author: [max, nate, matt]
+author: max
 
 
 description: 
 subtitle: 
 images:
- - "assets/img/2019-06-24_introducing-the-ubi-center_0.png"
+ - "assets/images/2019-06-24-introducing-the-ubi-center-0.png"
 
 
 aliases:
@@ -44,7 +44,7 @@ Founder, UBI Center
 
 * The UBI Center is not affiliated with Andrew Yang or any other political campaign.
 
-![](/post/img/2019-06-24_introducing-the-ubi-center_0.png#layoutTextWidth)
+![](assets/images/2019-06-24-introducing-the-ubi-center-0.png#layoutTextWidth)
 
 * * *
 Written on June 24, 2019 by Max Ghenis.
