@@ -1707,7 +1707,7 @@ pre {
     padding-left: 4px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .site-header-content .author-bio {
         font-size: 1.8rem;
         line-height: 1.15em;
@@ -1782,7 +1782,7 @@ pre {
     padding-bottom: 15px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .site-header-content {
         max-height: none !important;
     }
@@ -1800,6 +1800,46 @@ pre {
         display: flex;
         font-size: 1.6rem;
     }
+}
+/* @media (min-width: 800px) {
+    .site-header-content {
+        max-height: none !important;
+    }
+    .site-header-content .team-page .container {
+        flex-direction: column;
+    }
+    .text-container{
+        margin-left: 0 !important;
+    }
+    .site-header-content .team-page .container .author-location {
+        display:flex;
+        font-size: 1.6rem;
+    }
+    #author-links {
+        display: flex;
+        font-size: 1.6rem;
+    }
+/* }  */
+@media (max-width: 900px) { 
+    .site-header-content .team-page .container .author-location {
+        display:flex;
+        font-size: 1.6rem;
+    }
+    #author-links {
+        display: flex;
+        font-size: 1.5rem;
+    }
+    .site-header-content {
+        max-height: none !important;
+    } 
+
+}
+
+@media (min-width: 900px) {
+    .site-header-content{
+        padding: 1px !important;
+    }
+
 }
 /* 9. Error Template
 /* ---------------------------------------------------------- */
