@@ -30,3 +30,4 @@ tmp
 vendor
 Gemfile.lock
 node_modules
+assets/built
