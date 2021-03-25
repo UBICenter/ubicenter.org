@@ -5,7 +5,7 @@ cover:
 navigation: True
 title: Student debt cancellation is less progressive than universal payments
 date: 2020-11-17
-tags: [blog]
+tags: [blog, student debt, progressivity]
 class: post-template
 subclass: 'post'
 author: nate
@@ -17,16 +17,18 @@ author: nate
 </head>
 
 
-Over 40 million Americans possess over \\$1.5 trillion in student debt. And as new borrowers take out loans faster than old borrowers pay them back, that number is [increasing with time](https://www.newyorkfed.org/microeconomics/hhdc.html).
+Over 40 million Americans possess over $1.5 trillion in student debt. And as new borrowers take out loans faster than old borrowers pay them back, that number is [increasing with time](https://www.newyorkfed.org/microeconomics/hhdc.html).
 
-This problem has led to Democrats across the ideological spectrum to advocate for student debt relief. In the 2020 primary, Bernie Sanders had the most generous [plan](https://berniesanders.com/issues/free-college-cancel-debt/), calling for the cancellation of all outstanding student debt regardless of a person’s income. Also in the primary, Elizabeth Warren [proposed](https://elizabethwarren.com/plans/affordable-higher-education) cancelling up to \\$50,000 in student debt, phasing out for households with income above \\$100,000; in September 2020, she and Senate Minority Leader Chuck Schumer [introduced a resolution](https://www.politico.com/f/?id=00000174-9b5b-d59c-a174-df5f0b960000) calling on Biden to cancel \\$50,000 in debt per person through executive order (the resolution didn't mention phasing out the cancellation with income).   Back in April, President-elect Joe Biden [recommended](https://medium.com/@JoeBiden/joe-biden-outlines-new-steps-to-ease-economic-burden-on-working-people-e3e121037322) forgiving a minimum of \\$10,000 of student debt per person.
+This problem has led to Democrats across the ideological spectrum to advocate for student debt relief. In the 2020 primary, Bernie Sanders had the most generous [plan](https://berniesanders.com/issues/free-college-cancel-debt/), calling for the cancellation of all outstanding student debt regardless of a person’s income. Also in the primary, Elizabeth Warren [proposed](https://elizabethwarren.com/plans/affordable-higher-education) cancelling up to $50,000 in student debt, phasing out for households with income above $100,000; in September 2020, she and Senate Minority Leader Chuck Schumer [introduced a resolution](https://www.politico.com/f/?id=00000174-9b5b-d59c-a174-df5f0b960000) calling on Biden to cancel $50,000 in debt per person through executive order (the resolution didn't mention phasing out the cancellation with income).   Back in April, President-elect Joe Biden [recommended](https://medium.com/@JoeBiden/joe-biden-outlines-new-steps-to-ease-economic-burden-on-working-people-e3e121037322) forgiving a minimum of $10,000 of student debt per person.
 
 In this paper, I analyze which Americans would benefit the most from student debt cancellation and examine how it compares to budget-equivalent universal payments. I find that, across a range of distributional outcomes, each student debt cancellation plan would be less progressive than a universal payment of the same total cost.
+
+
 ## Who holds the debt?
 
-First, a caveat: data on student debt is incomplete. The Federal Reserve's Survey of Consumer Finances (SCF) is the primary source of wealth microdata, powering inequality statistics, detailed breakdowns of assets and liabilities, and microsimulations like mine. However, it only counts people in a household's \Primary Economic Unit,\ meaning economically independent young adults living with parents are excluded. As a result, the SCF understates total student debt by about a third, compared to aggregate data sources like the [G.19](https://www.federalreserve.gov/releases/g19/current/) and [Consumer Credit Panel](https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/hhdc_2019q4.pdf). The missing student debt is disproportionately held by [young people](https://www.peoplespolicyproject.org/2019/06/27/low-income-people-have-more-student-debt-than-realized/) and people in the [bottom and top income quintiles](https://www.brookings.edu/blog/up-front/2019/06/28/who-owes-the-most-student-debt/). While my colleagues and I aim to refine the data, the SCF is currently the best available source for this sort of analysis, so I use it here while acknowledging its limitations.
+First, a caveat: data on student debt is incomplete. The Federal Reserve's Survey of Consumer Finances (SCF) is the primary source of wealth microdata, powering inequality statistics, detailed breakdowns of assets and liabilities, and microsimulations like mine. However, it only counts people in a household's "Primary Economic Unit," meaning economically independent young adults living with parents are excluded. As a result, the SCF understates total student debt by about a third, compared to aggregate data sources like the [G.19](https://www.federalreserve.gov/releases/g19/current/) and [Consumer Credit Panel](https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/hhdc_2019q4.pdf). The missing student debt is disproportionately held by [young people](https://www.peoplespolicyproject.org/2019/06/27/low-income-people-have-more-student-debt-than-realized/) and people in the [bottom and top income quintiles](https://www.brookings.edu/blog/up-front/2019/06/28/who-owes-the-most-student-debt/). While my colleagues and I aim to refine the data, the SCF is currently the best available source for this sort of analysis, so I use it here while acknowledging its limitations.
 
-That said, the 2019 SCF reports \\$1.1 trillion of total student debt,[^debt] held by households representing one in four Americans. Some demographics are more likely to hold debt than others:[^hhdemo]
+That said, the 2019 SCF reports $1.1 trillion of total student debt,[^debt] held by households representing one in four Americans. Some demographics are more likely to hold debt than others:[^hhdemo]
 
 [^debt]: The Federal Reserve Bank of New York has [estimated](https://www.newyorkfed.org/microeconomics/hhdc.html) total student debt to be $1.54 trillion as of the second quarter of 2020.
 
@@ -44,8 +46,9 @@ The chart below (and others like it included in this paper) allow you to compare
 
 [^poverty]: I classify a household as in poverty if its official [2019 poverty guideline](https://aspe.hhs.gov/2019-poverty-guidelines) (defined by Health and Human Services) exceeds its total income (including in-kind benefits like food assistance, and in this case, student loan forgiveness).
 
-<button onclick="f1()">Click to show code</button>
-<div id="code_graph1" style="display: none;">
+
+<button class="code-button" id="button1" onclick="f1()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_1" style="display: none;">
   <pre>
     <code>
 # Import libraries
@@ -119,13 +122,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Share of people in households with student debt',
-        ticksuffix ='%',
+        title_text = "Share of people in households with student debt",
+        ticksuffix ="%",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,50])
@@ -138,60 +141,64 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,False,False,False,False,False]},
                        {'title':'Population share with student debt by race',
                         'showlegend':True}]),
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False,True,False, False,False, False]},
                        {'title':'Population share with student debt by education level',
                         'showlegend':True}]),
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False,False,True, False, False, False]},
                        {'title':'Population share with student debt by age',
                         'showlegend':True}]),
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False, True, False, False]},
                        {'title':'Population share with student debt by income quintile',
                         'showlegend':True}]),
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False,False,False, False, True, False]},
                        {'title':'Population share with student debt by net worth quintile',
                         'showlegend':True}]),
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False,False,False, False, False, True]},
                        {'title':'Population share with student debt by poverty status',
                         'showlegend':True}]), 
             ]),
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f1() {
-  var x = document.getElementById("code_graph1");
+  var x = document.getElementById("asset_code_1");
+  var b = document.getElementById("button1");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -199,15 +206,17 @@ function f1() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph1").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph1.html");
+      $("#asset1").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-1.html");
     });
   </script>
 </div>
-<div id = "graph1"></div>
-The average person holds about \\$3,700 in student debt, including those who have no debt at all, with demographic trends similar to the share of households holding debt.  As expected, households headed by college graduates possess the most debt, holding 18 times the amount of debt for those headed by people without a high school diploma (whose student debt is ostensibly held by a spouse or child).  Those at the bottom of the net worth distribution have more student debt than those at the top. This too is unsurprising as younger people hold a disproportionate amount of debt and the student debt itself decreases one's net worth.
+<div id = "asset1"></div>
 
-<button onclick="f2()">Click to show code</button>
-<div id="code_graph2" style="display: none;">
+The average person holds about $3,700 in student debt, including those who have no debt at all, with demographic trends similar to the share of households holding debt.  As expected, households headed by college graduates possess the most debt, holding 18 times the amount of debt for those headed by people without a high school diploma (whose student debt is ostensibly held by a spouse or child).  Those at the bottom of the net worth distribution have more student debt than those at the top. This too is unsurprising as younger people hold a disproportionate amount of debt and the student debt itself decreases one's net worth.
+
+
+<button class="code-button" id="button2" onclick="f2()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_2" style="display: none;">
   <pre>
     <code>
 # Average debt by demographic
@@ -244,13 +253,13 @@ fig.update_traces(texttemplate='$%{text}', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Average student debt per person',
-        tickprefix ='$',
+        title_text = "Average student debt per person",
+        tickprefix ="$",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,12_000])
@@ -263,58 +272,62 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,False,False,False,False,False]},
                        {'title':'Average student debt by race',
                         'showlegend':True}]),
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False,True,False, False,False, False]},
                        {'title':'Average student debt by education level',
                         'showlegend':True}]),
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False,False,True, False, False, False]},
                        {'title':'Average student debt by age',
                         'showlegend':True}]),
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False, True, False, False]},
                        {'title':'Average student debt by income quintile',
                         'showlegend':True}]),
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False,False,False, False, True, False]},
                        {'title':'Average student debt by net worth quintile',
                         'showlegend':True}]),
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False,False,False, False, False, True]},
                        {'title':'Average student debt by poverty status',
                         'showlegend':True}]), 
             ]),
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f2() {
-  var x = document.getElementById("code_graph2");
+  var x = document.getElementById("asset_code_2");
+  var b = document.getElementById("button2");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -322,22 +335,24 @@ function f2() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph2").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph2.html");
+      $("#asset2").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-2.html");
     });
   </script>
 </div>
-<div id = "graph2"></div>
-## Comparing \\$50,000 debt cancellation to a budget-equivalent universal payment
+<div id = "asset2"></div>
 
-According to the 2019 SCF, the Warren-Schumer proposal to cancel \\$50,000 in student debt would cost approximately \\$700 billion, or about \\$2,300 for every adult and child. What if that \\$2,300 was given directly as a universal payment?
+## Comparing $50,000 debt cancellation to a budget-equivalent universal payment
+
+According to the 2019 SCF, the Warren-Schumer proposal to cancel $50,000 in student debt would cost approximately $700 billion, or about $2,300 for every adult and child. What if that $2,300 was given directly as a universal payment?
 
 On average, groups that would receive more money from student debt cancellation include the top two income quintiles, Black Americans, college graduates, and people not in poverty; other groups would receive more from the universal payment.
 
 
 ### Average benefit per policy
 
-<button onclick="f3()">Click to show code</button>
-<div id="code_graph3" style="display: none;">
+
+<button class="code-button" id="button3" onclick="f3()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_3" style="display: none;">
   <pre>
     <code>
 ## Average Benefit by reform ##
@@ -461,14 +476,14 @@ fig.update_traces(texttemplate='$%{text}', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Average benefit per person',
-        ticksuffix ='',
-        tickprefix ='$',
+        title_text = "Average benefit per person",
+        ticksuffix ="",
+        tickprefix ="$",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,12_000])
@@ -483,65 +498,69 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Average benefit of reform by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Average benefit of reform by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Average benefit of reform by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f3() {
-  var x = document.getElementById("code_graph3");
+  var x = document.getElementById("asset_code_3");
+  var b = document.getElementById("button3");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -549,17 +568,19 @@ function f3() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph3").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph3.html");
+      $("#asset3").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-3.html");
     });
   </script>
 </div>
-<div id = "graph3"></div>
+<div id = "asset3"></div>
+
 ### Share better off in each policy
 
-While Black Americans on the whole receive more under student debt cancellation, 74 percent of Black Americans would be better off with the universal payment.  For those at the bottom quintile of the net worth distribution, 65 percent would receive more money with the universal payment.  88 percent of people living in poverty would receive a larger benefit with the universal payment.  In total, 82 percent of Americans would be better off with a budget-equivalent universal payment compared to \\$50,000 in student debt cancellation.\n
+While Black Americans on the whole receive more under student debt cancellation, 74 percent of Black Americans would be better off with the universal payment.  For those at the bottom quintile of the net worth distribution, 65 percent would receive more money with the universal payment.  88 percent of people living in poverty would receive a larger benefit with the universal payment.  In total, 82 percent of Americans would be better off with a budget-equivalent universal payment compared to $50,000 in student debt cancellation.
 
-<button onclick="f4()">Click to show code</button>
-<div id="code_graph4" style="display: none;">
+
+<button class="code-button" id="button4" onclick="f4()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_4" style="display: none;">
   <pre>
     <code>
 ## Percent better off with universal payment ##
@@ -595,13 +616,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Percent better off with universal payment',
-        ticksuffix ='%',
+        title_text = "Percent better off with universal payment",
+        ticksuffix ="%",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,110])
@@ -614,59 +635,63 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,False,False,False,False,False]},
                        {'title':'Share better off with universal payment by race',
                         'showlegend':True}]),
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False,True,False, False,False, False]},
                        {'title':'Share better off with universal payment by education level',
                         'showlegend':True}]),
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False,False,True, False, False, False]},
                        {'title':'Share better off with universal payment by age',
                         'showlegend':True}]),
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False, True, False, False]},
                        {'title':'Share better off with universal payment by income quintile',
                         'showlegend':True}]),
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False,False,False, False, True, False]},
                        {'title':'Share better off with universal payment by net worth quintile',
                         'showlegend':True}]),
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False,False,False, False, False, True]},
                        {'title':'Share better off with universal payment by poverty status',
                         'showlegend':True}]), 
             ]),
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f4() {
-  var x = document.getElementById("code_graph4");
+  var x = document.getElementById("asset_code_4");
+  var b = document.getElementById("button4");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -674,19 +699,21 @@ function f4() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph4").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph4.html");
+      $("#asset4").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-4.html");
     });
   </script>
 </div>
-<div id = "graph4"></div>
+<div id = "asset4"></div>
+
 ### Reduction in net debt rates
 
-Cancelling \\$50,000 in student debt would lift more Americans out of total debt (negative net worth) than a budget-equivalent universal payment.[^static] In total, the student debt cancellation would reduce the number of Americans in debt by 44 percent while the universal payment plan would reduce it by 30 percent. This overall trend is mostly consistent across demographic groups. Exceptions include Hispanics, people with no education beyond high school, people at the bottom quintile of the income distribution, and those living in poverty.
+Cancelling $50,000 in student debt would lift more Americans out of total debt (negative net worth) than a budget-equivalent universal payment.[^static] In total, the student debt cancellation would reduce the number of Americans in debt by 44 percent while the universal payment plan would reduce it by 30 percent. This overall trend is mostly consistent across demographic groups. Exceptions include Hispanics, people with no education beyond high school, people at the bottom quintile of the income distribution, and those living in poverty.
 
 [^static]: Calculations around net debt and other outcomes assume that all cancelled debt and universal payments go directly to net worth; that is, consumption is assumed to be constant.
 
-<button onclick="f5()">Click to show code</button>
-<div id="code_graph5" style="display: none;">
+
+<button class="code-button" id="button5" onclick="f5()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_5" style="display: none;">
   <pre>
     <code>
 ## Percent decrease of people in debt by reform ##
@@ -806,13 +833,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Percent decrease of people in debt',
-        ticksuffix ='%',
+        title_text = "Percent decrease of people in debt",
+        ticksuffix ="%",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-60,0])
@@ -827,64 +854,68 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Percent decrease of people in debt by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Percent decrease of people in debt by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Percent decrease of people in debt by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Percent decrease of people in debt by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Percent decrease of people in debt by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Percent decrease of people in debt by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f5() {
-  var x = document.getElementById("code_graph5");
+  var x = document.getElementById("asset_code_5");
+  var b = document.getElementById("button5");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -892,17 +923,19 @@ function f5() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph5").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph5.html");
+      $("#asset5").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-5.html");
     });
   </script>
 </div>
-<div id = "graph5"></div>
+<div id = "asset5"></div>
+
 ### Racial wealth gaps
 
 While much of the rhetoric surrounding student debt relief has been [centered](https://www.businessinsider.com/how-eliminating-student-debt-would-close-the-racial-wealth-gap-2019-6) around the racial wealth gap, a budget-equivalent universal payment would be stronger at reducing the median gap for both Black and Hispanics Americans. Considering the mean racial wealth gaps, universal payments also reduce the White/Hispanic gap more, though student debt cancellation reduces the White/Black gap more.
 
-<button onclick="f6()">Click to show code</button>
-<div id="code_graph6" style="display: none;">
+
+<button class="code-button" id="button6" onclick="f6()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_6" style="display: none;">
   <pre>
     <code>
 racial_wealth_gap = (racial_wealth_gap).round(1)
@@ -948,14 +981,14 @@ fig.update_layout(title_text='Racial wealth gap by reform')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = '',
-        tickfont = {'size': 14},
+        title_text = "",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Ratio of white wealth statistic to demographic',
-        ticksuffix ='',
-        tickprefix = '',
+        title_text = "Ratio of white wealth statistic to demographic",
+        ticksuffix ="",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,10])
@@ -965,17 +998,21 @@ fig.update_yaxes(title_font=dict(size=14, family='Roboto', color='black'))
 
 fig.update_layout(barmode='group')
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f6() {
-  var x = document.getElementById("code_graph6");
+  var x = document.getElementById("asset_code_6");
+  var b = document.getElementById("button6");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -983,17 +1020,19 @@ function f6() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph6").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph6.html");
+      $("#asset6").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-6.html");
     });
   </script>
 </div>
-<div id = "graph6"></div>
+<div id = "asset6"></div>
+
 ### Inequality impacts
 
 For income inequality (and poverty), I follow [IRS guidelines](https://finaid.org/loans/forgivenesstaxability) in treating student loan forgiveness as income, though I do not estimate its tax liability. I calculate inequality using the Gini index, which goes from zero (perfect equality) to one (one person holds all the income/wealth). Student debt forgiveness reduces wealth inequality slightly more than a budget equivalent-universal payment; however, universal payments reduce income inequality more.
 
-<button onclick="f7()">Click to show code</button>
-<div id="code_graph7" style="display: none;">
+
+<button class="code-button" id="button7" onclick="f7()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_7" style="display: none;">
   <pre>
     <code>
 # Gini chart
@@ -1079,14 +1118,14 @@ fig.update_layout(title_text='Inequality by reform')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = '',
-        tickfont = {'size': 14},
+        title_text = "",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Gini index',
-        ticksuffix ='',
-        tickprefix = '',
+        title_text = "Gini index",
+        ticksuffix ="",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,1])
@@ -1097,17 +1136,21 @@ fig.update_yaxes(title_font=dict(size=14, family='Roboto', color='black'))
 fig.update_layout(barmode='group')
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f7() {
-  var x = document.getElementById("code_graph7");
+  var x = document.getElementById("asset_code_7");
+  var b = document.getElementById("button7");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1115,17 +1158,19 @@ function f7() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph7").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph7.html");
+      $("#asset7").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-7.html");
     });
   </script>
 </div>
-<div id = "graph7"></div>
+<div id = "asset7"></div>
+
 ### Poverty impacts
 
-Across every demographic and metric, universal payments would cut poverty rates at a higher rate than student debt cancellation. Overall, universal payments would cut poverty by 52 percent, while cancelling \\$50,000 in student debt would cut poverty by 14 percent. Hispanic and Black poverty would fall 63 percent and 47 percent under universal payments, respectively, but only 7 percent and 11 percent under student debt cancellation. Student debt cancellation would cut poverty for people in households headed by people without a high school diploma by 1 percent, while universal payments would cut it by 46 percent. Universal payments would even eliminate poverty for Americans in the second income quintile.
+Across every demographic and metric, universal payments would cut poverty rates at a higher rate than student debt cancellation. Overall, universal payments would cut poverty by 52 percent, while cancelling $50,000 in student debt would cut poverty by 14 percent. Hispanic and Black poverty would fall 63 percent and 47 percent under universal payments, respectively, but only 7 percent and 11 percent under student debt cancellation. Student debt cancellation would cut poverty for people in households headed by people without a high school diploma by 1 percent, while universal payments would cut it by 46 percent. Universal payments would even eliminate poverty for Americans in the second income quintile.
 
-<button onclick="f8()">Click to show code</button>
-<div id="code_graph8" style="display: none;">
+
+<button class="code-button" id="button8" onclick="f8()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_8" style="display: none;">
   <pre>
     <code>
 ## Percent reduction in poverty rate by reform ##
@@ -1134,8 +1179,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Bar(
     x=race2.race,
-    y=race2.ed_debt_poverty_reduction_50\t,
-    text=race2.ed_debt_poverty_reduction_50\t,
+    y=race2.ed_debt_poverty_reduction_50	,
+    text=race2.ed_debt_poverty_reduction_50	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE
 ))
@@ -1150,8 +1195,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=education2.edcl,
-    y=education2.ed_debt_poverty_reduction_50\t,
-    text=education2.ed_debt_poverty_reduction_50\t,
+    y=education2.ed_debt_poverty_reduction_50	,
+    text=education2.ed_debt_poverty_reduction_50	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -1169,8 +1214,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=age2.agecl,
-    y=age2.ed_debt_poverty_reduction_50\t,
-    text=age2.ed_debt_poverty_reduction_50\t,
+    y=age2.ed_debt_poverty_reduction_50	,
+    text=age2.ed_debt_poverty_reduction_50	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -1245,13 +1290,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Poverty reduction',
-        ticksuffix ='',
+        title_text = "Poverty reduction",
+        ticksuffix ="",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-105,0])
@@ -1266,65 +1311,69 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by age group',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Poverty reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Poverty reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Poverty reduction by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f8() {
-  var x = document.getElementById("code_graph8");
+  var x = document.getElementById("asset_code_8");
+  var b = document.getElementById("button8");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1332,15 +1381,17 @@ function f8() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph8").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph8.html");
+      $("#asset8").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-8.html");
     });
   </script>
 </div>
-<div id = "graph8"></div>
+<div id = "asset8"></div>
+
 Universal payments also outperform student debt cancellation across all demographics on poverty gap reduction.  The poverty gap is defined as the sum of the gaps between a household's resources and its poverty threshold across all households in poverty. The poverty gap would fall 69 percent under universal payments and 15 percent under student debt cancellation.
 
-<button onclick="f9()">Click to show code</button>
-<div id="code_graph9" style="display: none;">
+
+<button class="code-button" id="button9" onclick="f9()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_9" style="display: none;">
   <pre>
     <code>
 ## Percent in poverty by reform ##
@@ -1349,8 +1400,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Bar(
     x=race2.race,
-    y=race2.ed_debt_gap_reduction_50\t,
-    text=race2.ed_debt_gap_reduction_50\t,
+    y=race2.ed_debt_gap_reduction_50	,
+    text=race2.ed_debt_gap_reduction_50	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE
 ))
@@ -1365,8 +1416,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=education2.edcl,
-    y=education2.ed_debt_gap_reduction_50\t,
-    text=education2.ed_debt_gap_reduction_50\t,
+    y=education2.ed_debt_gap_reduction_50	,
+    text=education2.ed_debt_gap_reduction_50	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -1437,8 +1488,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=poor2.original_poor,
-    y=poor2.ed_debt_gap_reduction_50\t,
-    text=poor2.ed_debt_gap_reduction_50\t,
+    y=poor2.ed_debt_gap_reduction_50	,
+    text=poor2.ed_debt_gap_reduction_50	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -1459,14 +1510,14 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Poverty gap reduction',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Poverty gap reduction",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-100,0])
@@ -1481,66 +1532,70 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Poverty gap reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Poverty gap reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Percent reduction in poverty gap by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f9() {
-  var x = document.getElementById("code_graph9");
+  var x = document.getElementById("asset_code_9");
+  var b = document.getElementById("button9");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1548,19 +1603,21 @@ function f9() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph9").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph9.html");
+      $("#asset9").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-9.html");
     });
   </script>
 </div>
-<div id = "graph9"></div>
+<div id = "asset9"></div>
+
 ## Comparing other student debt proposals
 
-While this paper focuses on comparing the \\$50,000 forgiveness currently proposed by Senators Warren and Schumer, I found similar results comparing other proposals. Whether comparing full forgiveness to a budget-equivalent universal payment of \\$3,650, or Warren's phased-out \\$50,000 forgiveness to \\$2,100 payments, or \\$10,000 forgiveness to \\$770 payments, universal payments benefit a larger share of Americans and reduce poverty and income inequality by a larger amount, while student debt cancellation reduces wealth inequality more.
+While this paper focuses on comparing the $50,000 forgiveness currently proposed by Senators Warren and Schumer, I found similar results comparing other proposals. Whether comparing full forgiveness to a budget-equivalent universal payment of $3,650, or Warren's phased-out $50,000 forgiveness to $2,100 payments, or $10,000 forgiveness to $770 payments, universal payments benefit a larger share of Americans and reduce poverty and income inequality by a larger amount, while student debt cancellation reduces wealth inequality more.
 
 The charts below show how all four plans would impact each metric; for more charts on each plan, see the Appendix.
 
-<button onclick="f10()">Click to show code</button>
-<div id="code_graph10" style="display: none;">
+
+<button class="code-button" id="button10" onclick="f10()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_10" style="display: none;">
   <pre>
     <code>
 comparison = race[race['race'] == 'All']
@@ -1600,14 +1657,14 @@ fig.update_layout(title_text='Poverty reduction by reform')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Cancellation amount',
-        tickfont = {'size': 14},
+        title_text = "Cancellation amount",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Change to poverty rate',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Change to poverty rate",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-100,0])
@@ -1617,17 +1674,21 @@ fig.update_yaxes(title_font=dict(size=14, family='Roboto', color='black'))
 
 fig.update_layout(barmode='group')
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f10() {
-  var x = document.getElementById("code_graph10");
+  var x = document.getElementById("asset_code_10");
+  var b = document.getElementById("button10");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1635,14 +1696,15 @@ function f10() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph10").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph10.html");
+      $("#asset10").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-10.html");
     });
   </script>
 </div>
-<div id = "graph10"></div>
+<div id = "asset10"></div>
 
-<button onclick="f11()">Click to show code</button>
-<div id="code_graph11" style="display: none;">
+
+<button class="code-button" id="button11" onclick="f11()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_11" style="display: none;">
   <pre>
     <code>
 # gini_networth chart
@@ -1679,14 +1741,14 @@ fig.update_layout(title_text='Wealth inequality by reform')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Cancellation amount',
-        tickfont = {'size': 14},
+        title_text = "Cancellation amount",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Change in Gini index of per-capita wealth',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Change in Gini index of per-capita wealth",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-2,0])
@@ -1697,17 +1759,21 @@ fig.update_yaxes(title_font=dict(size=14, family='Roboto', color='black'))
 fig.update_layout(barmode='group')
 fconfig = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f11() {
-  var x = document.getElementById("code_graph11");
+  var x = document.getElementById("asset_code_11");
+  var b = document.getElementById("button11");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1715,14 +1781,15 @@ function f11() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph11").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph11.html");
+      $("#asset11").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-11.html");
     });
   </script>
 </div>
-<div id = "graph11"></div>
+<div id = "asset11"></div>
 
-<button onclick="f12()">Click to show code</button>
-<div id="code_graph12" style="display: none;">
+
+<button class="code-button" id="button12" onclick="f12()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_12" style="display: none;">
   <pre>
     <code>
 # Gini chart
@@ -1758,14 +1825,14 @@ fig.update_layout(title_text='Income inequality by reform')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Cancellation amount',
-        tickfont = {'size': 14},
+        title_text = "Cancellation amount",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Change in Gini index of per-capita income',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Change in Gini index of per-capita income",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-10,0])
@@ -1776,17 +1843,21 @@ fig.update_yaxes(title_font=dict(size=14, family='Roboto', color='black'))
 fig.update_layout(barmode='group')
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f12() {
-  var x = document.getElementById("code_graph12");
+  var x = document.getElementById("asset_code_12");
+  var b = document.getElementById("button12");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1794,14 +1865,15 @@ function f12() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph12").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph12.html");
+      $("#asset12").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-12.html");
     });
   </script>
 </div>
-<div id = "graph12"></div>
+<div id = "asset12"></div>
 
-<button onclick="f13()">Click to show code</button>
-<div id="code_graph13" style="display: none;">
+
+<button class="code-button" id="button13" onclick="f13()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_13" style="display: none;">
   <pre>
     <code>
 fig = go.Figure()
@@ -1826,14 +1898,14 @@ fig.update_layout(title_text='Share better off with universal payments than stud
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Cancellation amount',
-        tickfont = {'size': 14},
+        title_text = "Cancellation amount",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Share of people better off with universal payments',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Share of people better off with universal payments",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,100])
@@ -1843,17 +1915,21 @@ fig.update_yaxes(title_font=dict(size=14, family='Roboto', color='black'))
 
 fig.update_layout(barmode='group')
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f13() {
-  var x = document.getElementById("code_graph13");
+  var x = document.getElementById("asset_code_13");
+  var b = document.getElementById("button13");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -1861,28 +1937,32 @@ function f13() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph13").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph13.html");
+      $("#asset13").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-13.html");
     });
   </script>
 </div>
-<div id = "graph13"></div>
+<div id = "asset13"></div>
+
 ## Conclusion
 
 Because the majority of Americans do not have student debt, the majority of Americans will not benefit from student debt cancellation, no matter the size of the proposal.  Student debt cancellation primarily benefits high income earners with a college degree, a demographic [likely to see incomes rise over time](https://fordhaminstitute.org/national/research/what-you-make-depends-on-where-you-live), while leaving out some of the poorest Americans. Still, Senator Warren and other proponents correctly identify it as a way to [cut inequality and the racial wealth gap](https://rooseveltinstitute.org/wp-content/uploads/2020/08/RI_StudentDebtForgiveness_WorkingPaper_202008.pdf). Student debt has reached enormous levels, making its cancellation a major program that would benefit tens of millions, and among degree holders, it would disproportionately benefit those from less-advantaged backgrounds.
 
 But the enormity of the endeavor justifies careful comparison to other policies. While student debt cancellation reduces wealth inequality more than universal payments, it mostly underperforms simply sending every American a check on reducing racial wealth gaps. On all other outcomes, it fares even worse: universal payments would reduce poverty and income inequality more than student debt cancellation, regardless of the particular policy design. This analysis may even understate the relative progressivity of universal payments, given it doesn't capitalize the higher future incomes associated with college education (though limitations of the SCF data may counter that).
 
-Means-testing the student debt cancellation closes some of the gap, but introduces its own challenges. Warren's proposal is effectively a retroactive additional marginal tax of 33 percent on student debtors' earnings between \\$100,000 and \\$250,000. This would make this group some of the most highly taxed in the country, with total marginal tax rates likely exceeding 70 percent after considering state and federal income and payroll taxes (only [low-income benefit recipients](https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf) would face higher marginal taxes). Retroactive taxation may be [constitutional](https://fas.org/sgp/crs/misc/R42791.pdf), but it arguably [threatens rule of law](https://www.cost.org/globalassets/cost/state-tax-resources-pdf-pages/cost-studies-articles-reports/law360-oped-on-retroactive-taxation-003.pdf); people value knowing the payoff to their labor when making decisions about it.
+Means-testing the student debt cancellation closes some of the gap, but introduces its own challenges. Warren's proposal is effectively a retroactive additional marginal tax of 33 percent on student debtors' earnings between $100,000 and $250,000. This would make this group some of the most highly taxed in the country, with total marginal tax rates likely exceeding 70 percent after considering state and federal income and payroll taxes (only [low-income benefit recipients](https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf) would face higher marginal taxes). Retroactive taxation may be [constitutional](https://fas.org/sgp/crs/misc/R42791.pdf), but it arguably [threatens rule of law](https://www.cost.org/globalassets/cost/state-tax-resources-pdf-pages/cost-studies-articles-reports/law360-oped-on-retroactive-taxation-003.pdf); people value knowing the payoff to their labor when making decisions about it.
 
 Universal payments have less quantifiable advantages, as well. A one-time debt cancellation excludes both people who recently paid off their student loans, and those about to incur it; universal payments reach all. By favoring college graduates over non-college graduates, student debt cancellation threatens to exacerbate political tensions between these demographics that [only rose in the 2020 election](https://www.brookings.edu/research/2020-exit-polls-show-a-scrambling-of-democrats-and-republicans-traditional-bases/). If young people expect future rounds of student debt cancellation, they may also choose to take on more debt, which could in turn [raise the cost of higher education](http://taylornadauld.com/research/published_papers/Credit%20Supply%20and%20the%20Rise%20in%20College%20Tuition.pdf).
 
 While student debt cancellation makes progress toward egalitarian goals (and may have the advantage of [skipping congressional approval](https://www.warren.senate.gov/imo/media/doc/Ltr%20to%20Warren%20re%20admin%20debt%20cancellation.pdf?fbclid=IwAR3x7goUzVOpD7vcp7XhPYPlYQPmzv7rTzfNIvwl9Y8claLM0p7fo017N-g)), dollar-for-dollar, those goals are better achieved through universal payments.
+
+
 ## Appendix
 
-### \\$10k relief
+### $10k relief
 
-<button onclick="f14()">Click to show code</button>
-<div id="code_graph14" style="display: none;">
+
+<button class="code-button" id="button14" onclick="f14()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_14" style="display: none;">
   <pre>
     <code>
 ## Average Benefit by reform ##
@@ -2003,13 +2083,13 @@ fig.update_traces(texttemplate='$%{text}', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Average benefit',
-        ticksuffix ='',
+        title_text = "Average benefit",
+        ticksuffix ="",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,2_000])
@@ -2024,66 +2104,70 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Average benefit of reform by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Average benefit of reform by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Average benefit of reform by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f14() {
-  var x = document.getElementById("code_graph14");
+  var x = document.getElementById("asset_code_14");
+  var b = document.getElementById("button14");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -2091,14 +2175,15 @@ function f14() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph14").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph14.html");
+      $("#asset14").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-14.html");
     });
   </script>
 </div>
-<div id = "graph14"></div>
+<div id = "asset14"></div>
 
-<button onclick="f15()">Click to show code</button>
-<div id="code_graph15" style="display: none;">
+
+<button class="code-button" id="button15" onclick="f15()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_15" style="display: none;">
   <pre>
     <code>
 ## Percent better off with ed debt ##
@@ -2134,13 +2219,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Share better off with universal payments',
-        ticksuffix ='%',
+        title_text = "Share better off with universal payments",
+        ticksuffix ="%",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,100])
@@ -2153,60 +2238,64 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,False,False,False,False,False]},
                        {'title':'Share better off with universal payment by race',
                         'showlegend':True}]),
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False,True,False, False,False, False]},
                        {'title':'Share better off with universal payment by education level',
                         'showlegend':True}]),
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False,False,True, False, False, False]},
                        {'title':'Share better off with universal payment by age',
                         'showlegend':True}]),
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False, True, False, False]},
                        {'title':'Share better off with universal payment by income quintile',
                         'showlegend':True}]),
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False,False,False, False, True, False]},
                        {'title':'Share better off with universal payment by net worth quintile',
                         'showlegend':True}]),
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False,False,False, False, False, True]},
                        {'title':'Share better off with universal payment by poverty status',
                         'showlegend':True}]), 
             ]),
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f15() {
-  var x = document.getElementById("code_graph15");
+  var x = document.getElementById("asset_code_15");
+  var b = document.getElementById("button15");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -2214,14 +2303,15 @@ function f15() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph15").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph15.html");
+      $("#asset15").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-15.html");
     });
   </script>
 </div>
-<div id = "graph15"></div>
+<div id = "asset15"></div>
 
-<button onclick="f16()">Click to show code</button>
-<div id="code_graph16" style="display: none;">
+
+<button class="code-button" id="button16" onclick="f16()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_16" style="display: none;">
   <pre>
     <code>
 ## Percent decrease of people in debt by reform ##
@@ -2342,13 +2432,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Net debt rate reduction',
-        ticksuffix ='%',
+        title_text = "Net debt rate reduction",
+        ticksuffix ="%",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-40,0])
@@ -2363,66 +2453,70 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Net debt rate reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Net debt rate reduction by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Net debt rate reduction by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Net debt rate reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Net debt rate reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Net debt rate reduction by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f16() {
-  var x = document.getElementById("code_graph16");
+  var x = document.getElementById("asset_code_16");
+  var b = document.getElementById("button16");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -2430,14 +2524,15 @@ function f16() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph16").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph16.html");
+      $("#asset16").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-16.html");
     });
   </script>
 </div>
-<div id = "graph16"></div>
+<div id = "asset16"></div>
 
-<button onclick="f17()">Click to show code</button>
-<div id="code_graph17" style="display: none;">
+
+<button class="code-button" id="button17" onclick="f17()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_17" style="display: none;">
   <pre>
     <code>
 ## Percent reduction in poverty rate by reform ##
@@ -2446,8 +2541,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Bar(
     x=race2.race,
-    y=race2.ed_debt_poverty_reduction_10\t,
-    text=race2.ed_debt_poverty_reduction_10\t,
+    y=race2.ed_debt_poverty_reduction_10	,
+    text=race2.ed_debt_poverty_reduction_10	,
     name='$10k student<br>debt cancellation',
     marker_color=LIGHT_BLUE
 ))
@@ -2462,8 +2557,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=education2.edcl,
-    y=education2.ed_debt_poverty_reduction_10\t,
-    text=education2.ed_debt_poverty_reduction_10\t,
+    y=education2.ed_debt_poverty_reduction_10	,
+    text=education2.ed_debt_poverty_reduction_10	,
     name='$10k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -2480,8 +2575,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=age2.agecl,
-    y=age2.ed_debt_poverty_reduction_10\t,
-    text=age2.ed_debt_poverty_reduction_10\t,
+    y=age2.ed_debt_poverty_reduction_10	,
+    text=age2.ed_debt_poverty_reduction_10	,
     name='$10k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -2556,13 +2651,13 @@ fig.update_traces(texttemplate='%{text}%', textposition='outside')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Poverty reduction',
-        ticksuffix ='',
+        title_text = "Poverty reduction",
+        ticksuffix ="",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-55,0])
@@ -2577,66 +2672,70 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by age group',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Poverty reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Poverty reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Poverty reduction by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f17() {
-  var x = document.getElementById("code_graph17");
+  var x = document.getElementById("asset_code_17");
+  var b = document.getElementById("button17");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -2644,14 +2743,15 @@ function f17() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph17").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph17.html");
+      $("#asset17").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-17.html");
     });
   </script>
 </div>
-<div id = "graph17"></div>
+<div id = "asset17"></div>
 
-<button onclick="f18()">Click to show code</button>
-<div id="code_graph18" style="display: none;">
+
+<button class="code-button" id="button18" onclick="f18()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_18" style="display: none;">
   <pre>
     <code>
 ## Percent in poverty by reform ##
@@ -2660,8 +2760,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Bar(
     x=race2.race,
-    y=race2.ed_debt_gap_reduction_10\t,
-    text=race2.ed_debt_gap_reduction_10\t,
+    y=race2.ed_debt_gap_reduction_10	,
+    text=race2.ed_debt_gap_reduction_10	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE
 ))
@@ -2676,8 +2776,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=education2.edcl,
-    y=education2.ed_debt_gap_reduction_10\t,
-    text=education2.ed_debt_gap_reduction_10\t,
+    y=education2.ed_debt_gap_reduction_10	,
+    text=education2.ed_debt_gap_reduction_10	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -2749,8 +2849,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=poor2.original_poor,
-    y=poor2.ed_debt_gap_reduction_10\t,
-    text=poor2.ed_debt_gap_reduction_10\t,
+    y=poor2.ed_debt_gap_reduction_10	,
+    text=poor2.ed_debt_gap_reduction_10	,
     name='$50k student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -2772,14 +2872,14 @@ fig.update_layout(title_text='Poverty gap reduction by race')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Poverty gap reduction',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Poverty gap reduction",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-100,0])
@@ -2793,66 +2893,70 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Poverty gap reductionp by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Poverty gap reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Poverty gap reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Poverty gap reduction by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f18() {
-  var x = document.getElementById("code_graph18");
+  var x = document.getElementById("asset_code_18");
+  var b = document.getElementById("button18");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -2860,15 +2964,18 @@ function f18() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph18").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph18.html");
+      $("#asset18").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-18.html");
     });
   </script>
 </div>
-<div id = "graph18"></div>
+<div id = "asset18"></div>
+
+
 ### All relief
 
-<button onclick="f19()">Click to show code</button>
-<div id="code_graph19" style="display: none;">
+
+<button class="code-button" id="button19" onclick="f19()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_19" style="display: none;">
   <pre>
     <code>
 ## Average Benefit by reform ##
@@ -2988,13 +3095,13 @@ fig.update_layout(title_text='Average benefit by race')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Average benefit',
-        ticksuffix ='',
+        title_text = "Average benefit",
+        ticksuffix ="",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,12_000])
@@ -3008,66 +3115,70 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Average benefit of reform by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Average benefit of reform by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Average benefit of reform by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Average benefit of reform by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
 config = {'displayModeBar': False}
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f19() {
-  var x = document.getElementById("code_graph19");
+  var x = document.getElementById("asset_code_19");
+  var b = document.getElementById("button19");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -3075,14 +3186,15 @@ function f19() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph19").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph19.html");
+      $("#asset19").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-19.html");
     });
   </script>
 </div>
-<div id = "graph19"></div>
+<div id = "asset19"></div>
 
-<button onclick="f20()">Click to show code</button>
-<div id="code_graph20" style="display: none;">
+
+<button class="code-button" id="button20" onclick="f20()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_20" style="display: none;">
   <pre>
     <code>
 ## Percent better off with ed debt ##
@@ -3119,13 +3231,13 @@ fig.update_layout(title_text='Percent better off with universal payment')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Percent better off with universal payment',
-        ticksuffix ='%',
+        title_text = "Percent better off with universal payment",
+        ticksuffix ="%",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[0,100])
@@ -3137,58 +3249,62 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,False,False,False,False,False]},
                        {'title':'Share better off with universal payments by race',
                         'showlegend':True}]),
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False,True,False, False,False, False]},
                        {'title':'Share better off with universal payments by education level',
                         'showlegend':True}]),
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False,False,True, False, False, False]},
                        {'title':'Share better off with universal payments by age',
                         'showlegend':True}]),
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False, True, False, False]},
                        {'title':'Share better off with universal payments by income quintile',
                         'showlegend':True}]),
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False,False,False, False, True, False]},
                        {'title':'Share better off with universal payments by net worth quintile',
                         'showlegend':True}]),
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False,False,False, False, False, True]},
                        {'title':'Share better off with universal payments by poverty status',
                         'showlegend':True}]), 
             ]),
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f20() {
-  var x = document.getElementById("code_graph20");
+  var x = document.getElementById("asset_code_20");
+  var b = document.getElementById("button20");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -3196,14 +3312,15 @@ function f20() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph20").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph20.html");
+      $("#asset20").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-20.html");
     });
   </script>
 </div>
-<div id = "graph20"></div>
+<div id = "asset20"></div>
 
-<button onclick="f21()">Click to show code</button>
-<div id="code_graph21" style="display: none;">
+
+<button class="code-button" id="button21" onclick="f21()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_21" style="display: none;">
   <pre>
     <code>
 ## Reduction in net debt rate by reform ##
@@ -3323,13 +3440,13 @@ fig.update_layout(title_text='Reduction in net debt rate by race')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Reduction in net debt rate',
-        ticksuffix ='',
+        title_text = "Reduction in net debt rate",
+        ticksuffix ="",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-100,0])
@@ -3343,64 +3460,68 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Reduction in net debt rate by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Reduction in net debt rate by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Reduction in net debt rate by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Reduction in net debt rate by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Reduction in net debt rate by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Reduction in net debt rate by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f21() {
-  var x = document.getElementById("code_graph21");
+  var x = document.getElementById("asset_code_21");
+  var b = document.getElementById("button21");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -3408,14 +3529,15 @@ function f21() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph21").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph21.html");
+      $("#asset21").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-21.html");
     });
   </script>
 </div>
-<div id = "graph21"></div>
+<div id = "asset21"></div>
 
-<button onclick="f22()">Click to show code</button>
-<div id="code_graph22" style="display: none;">
+
+<button class="code-button" id="button22" onclick="f22()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_22" style="display: none;">
   <pre>
     <code>
 ## Percent reduction in poverty rate by reform ##
@@ -3424,8 +3546,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Bar(
     x=race2.race,
-    y=race2.ed_debt_poverty_reduction\t,
-    text=race2.ed_debt_poverty_reduction\t,
+    y=race2.ed_debt_poverty_reduction	,
+    text=race2.ed_debt_poverty_reduction	,
     name='All student<br>debt cancellation',
     marker_color=LIGHT_BLUE
 ))
@@ -3440,8 +3562,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=education2.edcl,
-    y=education2.ed_debt_poverty_reduction\t,
-    text=education2.ed_debt_poverty_reduction\t,
+    y=education2.ed_debt_poverty_reduction	,
+    text=education2.ed_debt_poverty_reduction	,
     name='All student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -3458,8 +3580,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=age2.agecl,
-    y=age2.ed_debt_poverty_reduction\t,
-    text=age2.ed_debt_poverty_reduction\t,
+    y=age2.ed_debt_poverty_reduction	,
+    text=age2.ed_debt_poverty_reduction	,
     name='All student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -3535,13 +3657,13 @@ fig.update_layout(title_text='Reduction in poverty rate by race')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Poverty reduction',
-        ticksuffix ='',
+        title_text = "Poverty reduction",
+        ticksuffix ="",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-105,0])
@@ -3555,64 +3677,68 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Poverty reduction by age group',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Poverty reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Poverty reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Poverty reduction by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f22() {
-  var x = document.getElementById("code_graph22");
+  var x = document.getElementById("asset_code_22");
+  var b = document.getElementById("button22");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -3620,14 +3746,15 @@ function f22() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph22").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph22.html");
+      $("#asset22").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-22.html");
     });
   </script>
 </div>
-<div id = "graph22"></div>
+<div id = "asset22"></div>
 
-<button onclick="f23()">Click to show code</button>
-<div id="code_graph23" style="display: none;">
+
+<button class="code-button" id="button23" onclick="f23()">&#9654; Click to show code</button>
+<div class="code-cell" id="asset_code_23" style="display: none;">
   <pre>
     <code>
 ## Percent in poverty by reform ##
@@ -3636,8 +3763,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Bar(
     x=race2.race,
-    y=race2.ed_debt_gap_reduction\t,
-    text=race2.ed_debt_gap_reduction\t,
+    y=race2.ed_debt_gap_reduction	,
+    text=race2.ed_debt_gap_reduction	,
     name='All student<br>debt cancellation',
     marker_color=LIGHT_BLUE
 ))
@@ -3652,8 +3779,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=education2.edcl,
-    y=education2.ed_debt_gap_reduction\t,
-    text=education2.ed_debt_gap_reduction\t,
+    y=education2.ed_debt_gap_reduction	,
+    text=education2.ed_debt_gap_reduction	,
     name='All student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -3725,8 +3852,8 @@ fig.add_trace(go.Bar(
 
 fig.add_trace(go.Bar(
     x=poor2.original_poor,
-    y=poor2.ed_debt_gap_reduction\t,
-    text=poor2.ed_debt_gap_reduction\t,
+    y=poor2.ed_debt_gap_reduction	,
+    text=poor2.ed_debt_gap_reduction	,
     name='All student<br>debt cancellation',
     marker_color=LIGHT_BLUE,
     visible = False
@@ -3748,14 +3875,14 @@ fig.update_layout(title_text='Poverty gap reduction by race')
 
 fig.update_xaxes(
         tickangle = 0,
-        title_text = 'Demographic of head of household',
-        tickfont = {'size': 14},
+        title_text = "Demographic of head of household",
+        tickfont = {"size": 14},
         title_standoff = 25)
 
 fig.update_yaxes(
-        title_text = 'Poverty gap reduction',
-        ticksuffix ='%',
-        tickprefix = '',
+        title_text = "Poverty gap reduction",
+        ticksuffix ="%",
+        tickprefix = "",
         tickfont = {'size':14},
         title_standoff = 25,
         range=[-100,0])
@@ -3769,64 +3896,68 @@ fig.update_layout(
     updatemenus=[go.layout.Updatemenu(
         active=0,
         buttons=list([
-            dict(label='Race',
-                 method='update',
+            dict(label="Race",
+                 method="update",
                  args=[{'visible':[True,True,False,False,False,False,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by race',
                         'showlegend':True}]),
             
-            dict(label='Education',
-                 method='update',
+            dict(label="Education",
+                 method="update",
                  args=[{'visible':[False, False,True,True, False, False,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by education level',
                         'showlegend':True}]),
             
-            dict(label='Age',
-                 method='update',
+            dict(label="Age",
+                 method="update",
                  args=[{'visible':[False, False,False, False, True, True,False,False,False,False,False,False]},
                        {'title':'Poverty gap reduction by age level',
                         'showlegend':True}]),
             
-            dict(label='Income',
-                 method='update',
+            dict(label="Income",
+                 method="update",
                  args=[{'visible':[False,False,False,False,False,False,True,True,False,False,False,False]},
                        {'title':'Poverty gap reduction by income quintile',
                         'showlegend':True}]),
             
-            dict(label='Networth',
-                 method='update',
+            dict(label="Networth",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,True,True,False,False]},
                        {'title':'Poverty gap reduction by net worth quintile',
                         'showlegend':True}]),
             
-            dict(label='Poverty Status',
-                 method='update',
+            dict(label="Poverty Status",
+                 method="update",
                  args=[{'visible':[False, False,False, False, False, False,False,False,False,False,True,True]},
                        {'title':'Poverty gap reduction by poverty status',
                         'showlegend':True}])
                         ]),
         
-            direction='down',
-            pad={'r': 10, 't': 10},
+            direction="down",
+            pad={"r": 10, "t": 10},
             showactive=True,
             x=-0.35,
-            xanchor='left',
+            xanchor="left",
             y=1.1,
-            yanchor='top'
+            yanchor="top"
     
     )])
 
+fig.show(config=config)
     </code>
   </pre>
 </div>
 
 <script>
 function f23() {
-  var x = document.getElementById("code_graph23");
+  var x = document.getElementById("asset_code_23");
+  var b = document.getElementById("button23");
   if (x.style.display === "none") {
     x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
   } else {
     x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
   }
 }
 </script> 
@@ -3834,8 +3965,8 @@ function f23() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph23").load("{{site.baseurl}}assets/graphs/2020-11-17-student-debt-graph23.html");
+      $("#asset23").load("{{site.baseurl}}assets/markdown_assets/student-debt/2020-11-17-student-debt-asset-23.html");
     });
   </script>
 </div>
-<div id = "graph23"></div>
+<div id = "asset23"></div>
