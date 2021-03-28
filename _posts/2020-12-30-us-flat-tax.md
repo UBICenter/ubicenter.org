@@ -385,7 +385,7 @@ function f3() {
 Labor markets don't explain the unusually high level of inequality in the United States, third only to Chile and Mexico among developed countries.
 For example, the US has similar "market income" inequality as France, Germany, and Finland---each with Gini indexes of 0.50 to 0.51, as shown in the right bars of this graph from [Our World In Data](https://ourworldindata.org/income-inequality).
 
-![](inequality-of-incomes-before-and-after-taxes-and-transfers.png)
+![]({{ site.baseurl }}/assets/images/inequality-of-incomes-before-and-after-taxes-and-transfers.png)
 
 What's unusual about the US is how little its government reduces inequality through redistribution.
 While France, Germany, and Finland reduce inequality by 0.21, 0.22, and 0.24 on the Gini scale, the US only reduces it by 0.12.
