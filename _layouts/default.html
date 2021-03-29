@@ -11,6 +11,8 @@
     <title>{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.edited.css" />
@@ -64,12 +66,11 @@
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
                 <nav class="site-footer-nav">
                     <a href="https://donorbox.org/ubicenter">Donate</a>
-                    <a href="{{ site.baseurl }}">Latest Posts</a>
-                    <a href="mailto:contact@ubicenter.org">Email Us</a>
+                    <a href="{{ site.baseurl }}">Latest posts</a>
+                    <a href="mailto:contact@ubicenter.org">Email us</a>
                     {% if site.facebook %}<a href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>{% endif %}
                     {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
-                    <a href="https://github.com/UBICenter">Github</a>
-                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                    <a href="https://github.com/UBICenter">GitHub</a>
                 </nav>
             </div>
         </footer>
