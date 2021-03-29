@@ -12,9 +12,9 @@ baseurl: /ubicenter.org/
 title: UBI Center
 description: Analyzing universal basic income policies with open-source research
 cover: assets/images/ubi_center_blue.jpg
-logo: assets/images/ubi_center_logo_wide_gray.png
-logo_dark: assets/images/ubi_center_logo_white_bg.png
-favicon: assets/images/ubi_center_logo_white_bg.png
+logo: assets/images/ubi_center_logo_wide_white.jpg
+logo_dark: assets/images/ubi_center_logo_dark.jpg
+favicon: assets/images/ubi_center_logo_wide_blue.jpg
 CNAME: #add cname for website to be created
 
 # Social info
