@@ -3,7 +3,7 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/ubi_center_logo_gray.png'
+logo: 'assets/images/ubi_center_logo_dark.jpg'
 class: page-template
 subclass: 'post page'
 ---

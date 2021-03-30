@@ -174,7 +174,8 @@ body {
 .site-description {
     z-index: 10;
     margin: 0;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 90px;
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -1794,7 +1795,7 @@ pre {
     padding-bottom: 15px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .site-header-content {
         max-height: none !important;
     }
@@ -1805,7 +1806,7 @@ pre {
         margin-left: 0 !important;
     }
     .site-header-content .team-page .container .author-location {
-        display:flex;
+        display: inline-block;
         font-size: 1.6rem;
     }
     #author-links {
@@ -1813,25 +1814,7 @@ pre {
         font-size: 1.6rem;
     }
 }
-/* @media (min-width: 800px) {
-    .site-header-content {
-        max-height: none !important;
-    }
-    .site-header-content .team-page .container {
-        flex-direction: column;
-    }
-    .text-container{
-        margin-left: 0 !important;
-    }
-    .site-header-content .team-page .container .author-location {
-        display:flex;
-        font-size: 1.6rem;
-    }
-    #author-links {
-        display: flex;
-        font-size: 1.6rem;
-    }
-/* }  */
+
 @media (max-width: 900px) { 
     .site-header-content .team-page .container .author-location {
         display:flex;
@@ -1844,6 +1827,9 @@ pre {
     .site-header-content {
         max-height: none !important;
     } 
+    .container .team-page {
+        flex-direction: column;
+    }
 
 }
 
