@@ -6,7 +6,7 @@ navigation: True
 title: My Nerds for Humanity interview on basic income
 date: 2020-05-25T18:27:54.878Z
 lastmod: 2021-03-25T15:20:22-04:00
-tags: 
+tags: [media]
 class: post-template
 subclass: 'post'
 author: max

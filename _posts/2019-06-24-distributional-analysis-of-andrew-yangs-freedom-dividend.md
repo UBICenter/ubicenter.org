@@ -6,7 +6,7 @@ navigation: True
 title: Distributional analysis of Andrew Yang’s Freedom Dividend
 date: 2019-06-24T17:48:10.706Z
 lastmod: 2021-03-25T15:18:46-04:00
-tags: 
+tags: [us, andrew yang, vat]
 class: post-template
 subclass: 'post'
 author: max

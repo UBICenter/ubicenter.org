@@ -6,7 +6,7 @@ navigation: True
 title: How universal basic income would affect the black-white poverty and wealth gaps
 date: 2020-06-20T01:02:31.610Z
 lastmod: 2021-03-25T15:20:28-04:00
-tags: 
+tags: [us, race, poverty, wealth]
 class: post-template
 subclass: 'post'
 author: max

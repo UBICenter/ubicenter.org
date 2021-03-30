@@ -6,7 +6,7 @@ navigation: True
 title: Introducing the UBI Center
 date: 2019-06-24T17:55:59.690Z
 lastmod: 2021-03-25T15:18:57-04:00
-tags: 
+tags: [ubi center]
 class: post-template
 subclass: 'post'
 author: max

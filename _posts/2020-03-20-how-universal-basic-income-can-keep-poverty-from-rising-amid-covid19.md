@@ -6,7 +6,7 @@ navigation: True
 title: How universal basic income can keep poverty from rising amid Covid-19
 date: 2020-03-20T03:12:48.828Z
 lastmod: 2021-03-25T15:20:11-04:00
-tags: 
+tags: [us, covid, poverty]
 class: post-template
 subclass: 'post'
 author: max

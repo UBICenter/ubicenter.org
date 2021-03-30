@@ -5,7 +5,7 @@ cover:
 navigation: True
 title: What a Canadian experiment tells us about cash transfers and homelessness
 date: 2020-12-14
-tags: [blog, Canada, homelessness]
+tags: [canada, homelessness, pilots]
 cover: assets/images/2020-12-14-canada-homelessness-experiment/cover.jpg
 class: post-template
 subclass: 'post'

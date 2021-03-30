@@ -6,7 +6,7 @@ navigation: True
 title: To minimize poverty, should UBI be provided for adults, children, or both?
 cover: assets/images/2020-07-07-adult-child-ubi/cover.jpg
 date: 2020-07-07
-tags: [blog, child allowance, poverty]
+tags: [us, child allowance, poverty]
 class: post-template
 subclass: 'post'
 author: nate

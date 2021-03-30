@@ -6,7 +6,7 @@ navigation: True
 title: Why some low-income people come out behind in Andrew Yang’s Freedom Dividend
 date: 2019-06-28T00:21:34.199Z
 lastmod: 2021-03-25T15:19:05-04:00
-tags: 
+tags: [us, andrew yang, vat]
 class: post-template
 subclass: 'post'
 author: max

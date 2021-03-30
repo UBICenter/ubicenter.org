@@ -6,7 +6,7 @@ navigation: True
 title: What we learned about basic income in 2019
 date: 2020-01-01T07:58:02.700Z
 lastmod: 2021-03-25T15:19:58-04:00
-tags: 
+tags: [pilots, external research]
 class: post-template
 subclass: 'post'
 author: max

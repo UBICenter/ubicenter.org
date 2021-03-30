@@ -5,7 +5,7 @@ cover:
 navigation: True
 title: The effect of universal basic income on a novel measure of the racial wealth gap
 date: 2021-02-28
-tags: [blog, race, wealth gap]
+tags: [us, race, wealth]
 class: post-template
 cover: assets/images/2021-02-28-racial-wealth-gap-ks/cover.png
 subclass: 'post'

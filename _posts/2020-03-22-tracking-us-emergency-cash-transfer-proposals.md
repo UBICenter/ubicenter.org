@@ -6,7 +6,7 @@ navigation: True
 title: Tracking US emergency cash transfer proposals
 date: 2020-03-22T20:22:59.574Z
 lastmod: 2021-03-25T15:20:13-04:00
-tags: 
+tags: [us, covid]
 class: post-template
 subclass: 'post'
 author: max

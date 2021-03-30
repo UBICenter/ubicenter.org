@@ -6,7 +6,7 @@ navigation: True
 title: Basic income plans from congressional candidates Mike Broihier and Suraj Patel
 date: 2020-06-23T18:53:56.248Z
 lastmod: 2021-03-25T15:20:30-04:00
-tags: 
+tags: [us, elections]
 class: post-template
 subclass: 'post'
 author: max

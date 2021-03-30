@@ -6,7 +6,7 @@ navigation: True
 title: The UBI Center’s 2020 year in review
 date: 2021-01-01T07:14:31.591Z
 lastmod: 2021-03-25T15:20:43-04:00
-tags: 
+tags: [pilots, external research]
 class: post-template
 subclass: 'post'
 author: max

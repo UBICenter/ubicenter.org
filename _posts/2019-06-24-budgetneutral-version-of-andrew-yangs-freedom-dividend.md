@@ -6,7 +6,7 @@ navigation: True
 title: A budget-neutral version of Andrew Yang’s Freedom Dividend
 date: 2019-06-24T17:49:26.093Z
 lastmod: 2021-03-25T15:18:37-04:00
-tags: 
+tags: [us, andrew yang, vat]
 class: post-template
 subclass: 'post'
 author: max
