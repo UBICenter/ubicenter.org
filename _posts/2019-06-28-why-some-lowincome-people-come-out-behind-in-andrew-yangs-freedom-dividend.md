@@ -44,8 +44,8 @@ So why would households not get the UBI? There are three sub-buckets here:
 
 These estimates warrant a couple wonky caveats:
 
-- * “Households” are actually tax filing units in this analysis. The dataset is the Open Source Policy Center’s version of the Current Population Survey, postprocessed in the Tax-Data project to create tax units suitable for tax analysis. This improves modeling of the Yang plan, given its revenue measures relating to the personal income tax code, namely raising the payroll tax cap and treating capital gains as ordinary income. The Current Population Survey itself shows that [under 25,000 people](https://github.com/PSLmodels/taxdata/issues/321) are in zero-adult households, indicating that nearly all of the 1.6 million people in zero-adult tax units are children who file taxes separately from their parents. Many of these would therefore still benefit from the Freedom Dividend.
-- ** The dataset powering this analysis didn’t include citizenship status, so I created citizen and non-citizen “copies” of each household, assigning each “citizen copy” a weight of 0.93, and each “non-citizen copy” a weight of 0.07. That means that households are not modeled to include citizens and non-citizens. It also means that the Freedom Dividend’s citizenship requirement affects each income group equally, and 7 percent of each income group would come out behind by default. This is, of course, false, as [citizens out-earn non-citizens](https://www.forbes.com/sites/niallmccarthy/2017/03/07/the-massive-wage-gap-between-u-s-citizens-and-immigrants-infographic/#23c3321c3e65).
+- “Households” are actually tax filing units in this analysis. The dataset is the Open Source Policy Center’s version of the Current Population Survey, postprocessed in the Tax-Data project to create tax units suitable for tax analysis. This improves modeling of the Yang plan, given its revenue measures relating to the personal income tax code, namely raising the payroll tax cap and treating capital gains as ordinary income. The Current Population Survey itself shows that [under 25,000 people](https://github.com/PSLmodels/taxdata/issues/321) are in zero-adult households, indicating that nearly all of the 1.6 million people in zero-adult tax units are children who file taxes separately from their parents. Many of these would therefore still benefit from the Freedom Dividend.
+- The dataset powering this analysis didn’t include citizenship status, so I created citizen and non-citizen “copies” of each household, assigning each “citizen copy” a weight of 0.93, and each “non-citizen copy” a weight of 0.07. That means that households are not modeled to include citizens and non-citizens. It also means that the Freedom Dividend’s citizenship requirement affects each income group equally, and 7 percent of each income group would come out behind by default. This is, of course, false, as [citizens out-earn non-citizens](https://www.forbes.com/sites/niallmccarthy/2017/03/07/the-massive-wage-gap-between-u-s-citizens-and-immigrants-infographic/#23c3321c3e65).
 
 ### How those reasons vary by income
 
@@ -66,9 +66,4 @@ But at lower incomes, the small “Taxes exceed net UBI” share suggests that r
 
 Despite potential controversy over its benefit clawback provision, the feature of Yang’s plan that puts most low-income people behind is its limitation to adult citizens.
 
-Updated 2019–07–15 to include more information on zero-adult households (tax filing units). See [this GitHub issue](https://github.com/UBICenter/ubi-center/issues/70) for progress shifting from tax-unit-level analysis to household-level analysis, which will address this.
-
-* * *
-Written on June 28, 2019 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend-c95d0f1cc433)
+*Updated 2019–07–15 to include more information on zero-adult households (tax filing units). See [this GitHub issue](https://github.com/UBICenter/ubi-center/issues/70) for progress shifting from tax-unit-level analysis to household-level analysis, which will address this.*

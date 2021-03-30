@@ -27,7 +27,17 @@ aliases:
 
 #### [Read the paper here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf)
 
-As the Covid-19 coronavirus batters the global economy, United States policymakers are considering a range of responses to keep families afloat. In addition to targeted policies like payroll tax cuts, paid sick leave, and small business loans, a simple approach is gaining traction: sending checks directly to families. [Democrats](https://www.congress.gov/bill/116th-congress/house-resolution/897)[and](https://khanna.house.gov/media/press-releases/release-reps-ryan-khanna-propose-cash-infusion-between-1000-6000-help-working)[Republicans](https://www.romney.senate.gov/romney-calls-urgent-action-additional-coronavirus-response-measures)[in](https://twitter.com/AOC/status/1238082295359328256)[the](https://twitter.com/SenTomCotton/status/1239575319989882880)[House](https://financialservices.house.gov/uploadedfiles/fsc_covid-19_legislative_package_-_03.18.20.pdf)[and](https://twitter.com/RepJoeKennedy/status/1239920721792565250)[Senate](https://www.documentcloud.org/documents/6811721-Brown-Booker-Bennet-Letter-Re-Cash-Payments-3-17.html) are joining [prominent](https://www.wsj.com/articles/the-case-for-a-big-coronavirus-stimulus-11583448500)[economists](http://gregmankiw.blogspot.com/2020/03/thoughts-on-pandemic.html?m=1) in calling for immediate cash transfers to ensure all Americans can meet basic needs in these dire times.
+As the Covid-19 coronavirus batters the global economy, United States policymakers are considering a range of responses to keep families afloat. In addition to targeted policies like payroll tax cuts, paid sick leave, and small business loans, a simple approach is gaining traction: sending checks directly to families.
+[Democrats](https://www.congress.gov/bill/116th-congress/house-resolution/897)
+[and](https://khanna.house.gov/media/press-releases/release-reps-ryan-khanna-propose-cash-infusion-between-1000-6000-help-working)
+[Republicans](https://www.romney.senate.gov/romney-calls-urgent-action-additional-coronavirus-response-measures)
+[in](https://twitter.com/AOC/status/1238082295359328256)
+[the](https://twitter.com/SenTomCotton/status/1239575319989882880)
+[House](https://financialservices.house.gov/uploadedfiles/fsc_covid-19_legislative_package_-_03.18.20.pdf)
+[and](https://twitter.com/RepJoeKennedy/status/1239920721792565250)
+[Senate](https://www.documentcloud.org/documents/6811721-Brown-Booker-Bennet-Letter-Re-Cash-Payments-3-17.html) are joining 
+[prominent](https://www.wsj.com/articles/the-case-for-a-big-coronavirus-stimulus-11583448500)
+[economists](http://gregmankiw.blogspot.com/2020/03/thoughts-on-pandemic.html?m=1) in calling for immediate cash transfers to ensure all Americans can meet basic needs in these dire times.
 
 Many are gravitating specifically to universal basic income (UBI), which would provide the same amount to everyone. This is attractive today because restricting based on income would involve looking to tax returns for the year 2018, which might not represent families’ current finances, or 2019, many of which have not yet been filed. Relying on the IRS could also delay the delivery of this badly-needed money and require special treatment for nonfilers.
 
@@ -54,8 +64,3 @@ Many questions remain: For example, how do these results change if we learn that
 Poverty stabilization is also far from the only outcome to consider. Paid sick leave might help to contain the infection; payroll tax cuts might keep people employed; small business loans might keep doors from shutting. But each of these is likely to be regressive compared to UBI, and to have a smaller anti-poverty effect. Keeping poverty from rising should be a high priority, but it shouldn’t be the only distributional goal when designing pandemic relief programs.
 
 UBI is well positioned to help all people with the urgency required of this crisis. Cash can be distributed immediately, especially if it’s done broadly. Unlike in-kind benefits like food stamps, it can be used to pay any bills that arise. And as my new paper shows, UBI is a cost-effective tool to prevent a rise in poverty. To maximize the anti-poverty impact, we should send checks broadly, generously, and quickly.
-
-* * *
-Written on March 20, 2020 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid-19-9950e4a58030)

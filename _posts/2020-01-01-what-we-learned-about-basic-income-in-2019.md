@@ -123,8 +123,3 @@ Reminiscently of both Krueger’s survey experiment and Mahdavi’s PFD paper, M
 What are some common threads from UBI research in 2019? New evidence from Alaska, Finland, and developing countries find that UBIs and cash transfers have generally similar effects: positive effects on consumption and children’s health, and on incomes in developing countries. UCTs in Kenya had positive economic spillovers but negative psychological spillovers, which may also be evident in Pakistan. Simulated UBIs were regressive when only replacing means-tested programs, but progressive when other funding sources were included, and various studies found that universal transfers can better reach the poor. Finally, UBI appears to be getting more popular, though its reception varies by country and framing.
 
 The most important evidence on UBI in 2020 may come from GiveDirectly’s UBI experiment in Kenya, which is randomized by village and guarantees recipients transfers for up to 12 years. But if it’s anything like 2019, we’ll have much more research to look forward to, as well.
-
-* * *
-Written on January 1, 2020 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/what-we-learned-about-basic-income-in-2019-48b7db543094)

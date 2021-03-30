@@ -27,8 +27,6 @@ aliases:
 
 #### Broihier and Patel are running in Democratic primaries today
 
-![](assets/images/2020-06-23-basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel-0.jpg#layoutTextWidth)
-
 Of the Democrats in [six states](https://fivethirtyeight.com/features/todays-elections-in-kentucky-and-new-york-are-high-stakes-for-the-progressive-movement/) voting in primaries or primary run-offs today, some will see basic-income-friendly candidates on their ballot. [Mike Broihier](https://mikeforky.com/) is one of [ten candidates](https://ballotpedia.org/United_States_Senate_election_in_Kentucky,_2020) running for the chance to battle Senate Majority Leader Mitch McConnell in Kentucky, while [Suraj Patel](https://www.surajpatel.nyc/) is one of [three challengers](https://ballotpedia.org/New_York%27s_12th_Congressional_District) to incumbent Carolyn Maloney in New York’s 12th congressional district (a blue district in New York City).
 
 Broihier is a farmer and former Marine who’s earned the endorsement of former presidential candidate Andrew Yang by making UBI the centerpiece of his [economic plan](https://mikeforky.com/issues/). Patel is an attorney and business ethics lecturer who has called for a [child allowance](https://www.surajpatel.nyc/new-page) and [emergency UBI](https://medium.com/@surajpatelnyc/fiscal-response-to-covid-19-6a4384e5e89f) throughout the Covid-19 economic crisis. Here’s more on their basic income plans.
@@ -74,8 +72,3 @@ Indeed, Patel claims, “The Universal Child Dividend alone will slash child pov
 ### These plans would be progressive
 
 In lieu of a full distributional analysis, we can learn from other analyses of similar plans. For example, my analysis of Andrew Yang’s Freedom Dividend found that it would be [highly progressive](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b), despite the slightly regressive VAT structure and reduction of benefit outlays. Other analyses have found that child allowances [cut poverty substantially](https://static1.squarespace.com/static/5743308460b5e922a25a6dc7/t/5c7fe48b1905f46e1214bc42/1551885452114/Poverty+%26+Social+Policy+Brief+3_3.pdf) — even [more than adult UBIs](https://www.peoplespolicyproject.org/2018/11/29/a-child-allowance-would-be-very-effective-at-poverty-reduction/) per dollar spent. Broihier’s addition of a child allowance to Yang’s adult-only proposal, and Patel’s Universal Child Dividend, are both effective antipoverty policies that would also invest in our future.
-
-* * *
-Written on June 23, 2020 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel-9d53646a3245)

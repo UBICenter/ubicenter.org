@@ -37,10 +37,3 @@ After starting with my background and path to the UBI Center, we went through a 
 Throughout the nearly-two-hour interview, we interspersed topics ranging from political economy to technological unemployment to macroeconomic modeling, often spurred by viewers’ live comments.
 
 Check out the video [here](https://youtu.be/DCUq5_ERDp8), and make sure to follow Nerds for Humanity on [YouTube](https://www.youtube.com/channel/UCZcDgWig0A-ZLfCmReFBVjQ), [Twitter](https://twitter.com/nerdsforyang), and [Facebook](https://www.facebook.com/nerdsforyang) for more data-driven content.
-
-![](assets/images/2020-05-25-my-nerds-for-humanity-interview-on-basic-income-0.jpg#layoutTextWidth)
-
-* * *
-Written on May 25, 2020 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/my-nerds-for-humanity-interview-on-basic-income-6f6a13275b44)
