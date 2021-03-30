@@ -6,6 +6,7 @@ navigation: True
 title: Student debt cancellation is less progressive than universal payments
 date: 2020-11-17
 tags: [blog, student debt, progressivity]
+cover: assets/images/2020-11-17-student-debt/cover.jpg
 class: post-template
 subclass: 'post'
 author: nate

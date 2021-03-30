@@ -7,6 +7,7 @@ title: How a tax-funded UBI can improve the lives of Indigenous Americans
 date: 2020-10-12
 tags: [blog, Indigenous Americans]
 class: post-template
+cover: assets/images/2020-10-12-indigenous/cover.jpg
 subclass: 'post'
 author: nate
 ---

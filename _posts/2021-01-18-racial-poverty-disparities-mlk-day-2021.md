@@ -7,6 +7,7 @@ title: Basic income would shrink racial poverty disparities
 date: 2021-01-18
 tags: [blog, race, poverty]
 class: post-template
+cover: assets/images/2021-01-18-racial-poverty-disparities-mlk-day-2021/cover.jpeg
 subclass: 'post'
 author: [max, connor, nate]
 ---
