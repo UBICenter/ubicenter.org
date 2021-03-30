@@ -6,7 +6,7 @@ navigation: True
 title: Introducing the UBI Center
 date: 2019-06-24T17:55:59.690Z
 lastmod: 2021-03-25T15:18:57-04:00
-tags: 
+tags: [ubi center]
 class: post-template
 subclass: 'post'
 author: max
@@ -33,20 +33,14 @@ These claims cannot be evaluated in the abstract. The notion of UBI doesn’t re
 
 I formed the UBI Center to evaluate these claims concretely. The UBI Center will analyze UBI policies that have been proposed by others, produce UBI policies, and compare these to other economic policies. And since science is better when it’s transparent, the UBI Center will publish all the code behind each analysis to make results fully reproducible (to my knowledge, this makes the UBI Center the first open source think tank).
 
-If you share my belief that UBI is a powerful idea worthy of serious economic analysis, I invite you to explore the research and follow our journey. The UBI Center is launching with an analysis of two UBI policies: [Andrew Yang’s Freedom Dividend](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b), and a [revenue-neutral version](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea?postPublishedType=initial) of the Freedom Dividend.* These policies are analyzed in a two-part post and in [Plan Explorer](http://plans.ubicenter.org), which lets you interactively explore the effect on various household profiles.
+If you share my belief that UBI is a powerful idea worthy of serious economic analysis, I invite you to explore the research and follow our journey. The UBI Center is launching with an analysis of two UBI policies: [Andrew Yang’s Freedom Dividend](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b), and a [revenue-neutral version](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea?postPublishedType=initial) of the Freedom Dividend.[^affiliation] These policies are analyzed in a two-part post and in [Plan Explorer](http://plans.ubicenter.org), which lets you interactively explore the effect on various household profiles.
+
+[^affiliation]: The UBI Center is not affiliated with Andrew Yang or any other political campaign.
 
 The UBI Center’s mission is to produce open-source research to inform a robust debate around UBI policies. While I’m the only one currently working on this mission full-time, others have been critical in getting to this stage. From the [Open Source Policy Center](http://ospc.org) building the models that underlie UBI analyses, to [USBIG](http://usbig.net) leaders sharing their expertise in the UBI space, to [AJ&Smart](http://ajsmart.com) generously design-sprinting toward credible economic research, this is a product of collaboration. If you’d like to contribute, please get in touch at [max@ubicenter.org](mailto:max@ubicenter.org); you can also support our work with a [donation](http://donorbox.org/ubicenter).
 
 Thank you for your interest in data-driven UBI policy research.
 
 Max Ghenis
+
 Founder, UBI Center
-
-* The UBI Center is not affiliated with Andrew Yang or any other political campaign.
-
-![](assets/images/2019-06-24-introducing-the-ubi-center-0.png#layoutTextWidth)
-
-* * *
-Written on June 24, 2019 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/introducing-the-ubi-center-72a8011bfc39)
