@@ -5,8 +5,9 @@ cover:
 navigation: True
 title: Basic income can make switching to a flat income tax progressive
 date: 2020-12-30
-tags: [blog, progressivity, taxes]
+tags: [us, tax]
 class: post-template
+cover: assets/images/2020-12-30-us-flat-tax/cover.png
 subclass: 'post'
 author: [nate, max]
 ---

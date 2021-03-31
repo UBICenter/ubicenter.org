@@ -6,7 +6,7 @@ navigation: True
 title: A budget-neutral version of Andrew Yang’s Freedom Dividend
 date: 2019-06-24T17:49:26.093Z
 lastmod: 2021-03-25T15:18:37-04:00
-tags: 
+tags: [us, andrew yang, vat]
 class: post-template
 subclass: 'post'
 author: max
@@ -121,9 +121,4 @@ One thing is certain though: it’s hard to design major policy without disrupti
 
 But can we have our cake and eat it, too? That’s the question the UBI Center intends to answer in developing UBI plans that balance disruption against other measurable outcomes. Optimizing for the deficit is just the start.
 
-Updated 2019–07–02 to remove unemployment insurance from the set of replaced benefits.
-
-* * *
-Written on June 24, 2019 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea)
+*Updated 2019–07–02 to remove unemployment insurance from the set of replaced benefits.*

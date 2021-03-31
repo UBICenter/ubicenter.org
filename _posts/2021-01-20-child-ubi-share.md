@@ -5,8 +5,9 @@ cover:
 navigation: True
 title: How much UBI spending should go to children?
 date: 2021-01-20
-tags: [blog, child allowance]
+tags: [us, child allowance]
 class: post-template
+cover: assets/images/2021-01-20-child-ubi-share/cover.jpg
 subclass: 'post'
 author: [nate, will]
 ---
