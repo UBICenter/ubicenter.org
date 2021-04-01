@@ -1,7 +1,7 @@
 ---
 layout: page
 current: why-not-ubi
-title: Why UBI?
+title: Why Not UBI?
 navigation: true
 logo: 'assets/images/ubi_center_logo_gray.png'
 class: page-template
@@ -20,7 +20,9 @@ The gross cost of providing a UBI of $1,000 per month to every person in the Uni
   * The annual defense budget is [$686 billion](https://comptroller.defense.gov/Portals/45/Documents/defbudget/fy2019/FY2019_Budget_Request_Overview_Book.pdf)
 Paying for this, either with deficit spending or new taxes, can reduce economic growth. For example, in their 2018 [analysis](https://budgetmodel.wharton.upenn.edu/issues/2018/3/29/options-for-universal-basic-income-dynamic-modeling) of a $500 per month per adult UBI, the Penn-Wharton Budget Model found that funding UBI through a payroll tax would reduce GDP by 1.7 percent in the first 10 years:
 
-![alt text]({{site.baseurl}}assets/images/payroll-tax-financed-chart.png)
+
+![]({{site.baseurl}}assets/images/payroll-tax-financed-chart.png)
+
 
 They also found that deficit-financing the cost would reduce GDP by 6.1 percent in the first 10 years:
 
@@ -45,4 +47,4 @@ Existing assistance programs have also been relatively effective. [Meyer and Wu 
 
 Antipoverty advocates may worry that emphasis on UBI could jeopardize these programs.
 
-###### [So, Why UBI?](({{site.baseurl}}what-is-ubi/why-ubi))
+###### [So, Why UBI?]({{site.baseurl}}what-is-ubi/why-ubi)
