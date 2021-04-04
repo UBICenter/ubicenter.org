@@ -33,7 +33,7 @@ Means-tested benefits often create large marginal tax rates, including cliffs wh
 <img src="{{site.baseurl}}assets/images/FiveThirtyEight.png" style="max-width: 45%; margin-bottom: 0;">
 <figcaption style="text-align:center; font-size:1vw;">Source: <a href="https://fivethirtyeight.com/features/universal-basic-income/" target="_blank">FiveThirtyEight (2016)</a></figcaption>
 </figure>
-
+<br>
 <h6>Technological unemployment could widen the gap between UBI and current programs</h6>
 Advocates argue that today's safety net is built for temporary spells of unemployment, not an economy where workers need constant retraining, and call for UBI as insurance to help people adapt to a changing economy.
 <figure>
@@ -51,7 +51,7 @@ The Earned Income Tax Credit (EITC) and Child Tax Credit (CTC) are cash antipove
 <img src="{{site.baseurl}}assets/images/center_on_budget_policy.png" style="max-width: 45%; margin-bottom: 0;">
 <figcaption style="text-align:center; font-size:1vw;">Source: <a href="https://www.cbpp.org/research/federal-tax/the-earned-income-tax-credit" target="_blank">Center on Budget Policy and Policy Priorities (2018)</a> on the EITC and CTC</figcaption>
 </figure>
-
+<br>
 <h6>Alaska has had a small UBI for decades</h6>
 Alaska's Permanent Fund, which invests the state's oil revenues, pays out a share of interest to each Alaskan. The Permanent Fund Dividend has ranged from $1,000 to $3,000 per person per year since its introduction in 1982.
 
@@ -60,7 +60,7 @@ Alaska's Permanent Fund, which invests the state's oil revenues, pays out a shar
 <figcaption style="text-align:center; font-size:1vw;">Source: <a href="https://pfd.alaska.gov/" target="_blank">Permanent Fund Dividend</a></figcaption>
 </figure>
 <br>
-[Berman and Reamey (2016)](https://iseralaska.org/static/legacy_publication_links/presentations/2016_10_18-AlaskaPFDPoverty.pdf) estimate that the program has reduced Alaska's poverty by 20 percent, and [Jones and Marinescu (2018)](https://home.uchicago.edu/~j1s/Jones_Alaska.pdf){:target="_blank"} estimate that it has "had no effect on employment, and increased part-time work by 1.8 percentage points (17 percent)." [A 2017 survey](https://www.scribd.com/document/352375988/ESP-Alaska-PFD-Phone-Survey-Executive-Summary-Spring-2017){:target="_blank"} found that 78 percent of Alaskans view the program favorably. 
+[Berman and Reamey (2016)](https://iseralaska.org/static/legacy_publication_links/presentations/2016_10_18-AlaskaPFDPoverty.pdf){:target="_blank"} estimate that the program has reduced Alaska's poverty by 20 percent, and [Jones and Marinescu (2018)](https://home.uchicago.edu/~j1s/Jones_Alaska.pdf){:target="_blank"} estimate that it has "had no effect on employment, and increased part-time work by 1.8 percentage points (17 percent)." [A 2017 survey](https://www.scribd.com/document/352375988/ESP-Alaska-PFD-Phone-Survey-Executive-Summary-Spring-2017){:target="_blank"} found that 78 percent of Alaskans view the program favorably. 
 
 <h6>Many developed countries have cash benefits for children</h6>
 Canada and most European countries give child allowances, and [Ireland](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/child_benefit.html) and [Sweden](https://www.forsakringskassan.se/english){:target="_blank"} give flat amounts for every child--a true UBI for children
