@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /ubicenter.org/
+baseurl: /
 
 # Website info
 title: UBI Center
@@ -25,7 +25,7 @@ subscribers: True # you need to connect an external service for this to work,
 twitter: TheUBICenter
 facebook: TheUBICenter
 github: UBICenter
-
+# mailchimp-list: 
 # Disqus
 disqus: True
 disqus_shortname: ubicenter
@@ -71,10 +71,10 @@ lsi: False
 username: UBICenter
 repo: ubicenter.org
 branch: master
-relative_source: ../ubicenter.org/
+relative_source: ../ubicenter.github.io/
 destination: ./_site
-production_url:  https://ubicenter.github.io/ubicenter.org/
-source_url:  https://github.com/ubicenter/ubicenter.org/
+production_url:  https://ubicenter.github.io/
+source_url:  https://github.com/ubicenter/ubicenter.github.io/
 
 exclude:
   - assets/css
