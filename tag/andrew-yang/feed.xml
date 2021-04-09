@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/andrew-yang/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-04-09T16:35:15+00:00</updated>
+  <id>/tag/andrew-yang/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Why some low-income people come out behind in Andrew Yang’s Freedom Dividend</title>
+      <link href="/why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend" rel="alternate" type="text/html" title="Why some low-income people come out behind in Andrew Yang’s Freedom Dividend" />
+      <published>2019-06-28T00:21:34+00:00</published>
+      <updated>2019-06-28T00:21:34+00:00</updated>
+      <id>/why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend</id>
+      <content type="html" xml:base="/why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend">&lt;h4 id=&quot;theyre-mostly-non-citizens&quot;&gt;They’re mostly non-citizens&lt;/h4&gt;
+
+&lt;p&gt;My &lt;a href=&quot;https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b&quot;&gt;analysis&lt;/a&gt; of Andrew Yang’s Freedom Dividend showed that the plan is progressive: for example, the disposable income of the bottom decile more than doubles, while it falls by 4 percent for the top decile. While the static analysis pegged the deficit impact at $1.4 trillion per year, a &lt;a href=&quot;https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea?postPublishedType=initial&quot;&gt;revenue-neutral version&lt;/a&gt; would also be highly progressive, reducing poverty and inequality.&lt;/p&gt;
+
+&lt;p&gt;But statistics like that are averages across tens of millions of people. Another visualization (below) showed that 10 to 15 percent of people in low income households come out behind. Households with income below $10,000 appear especially likely to be worse off. Why is this?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-28-why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend-0.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;why-people-come-outbehind&quot;&gt;Why people come out behind&lt;/h3&gt;
+
+&lt;p&gt;Households left worse off by the Yang plan fall into two buckets: those who get the UBI, and those who don’t. Any household that doesn’t get the UBI is left worse off, since they’ll only pay taxes. Some households that get the UBI still come out behind if their taxes exceed the UBI (less benefits they might give up).&lt;/p&gt;
+
+&lt;p&gt;So why would households not get the UBI? There are three sub-buckets here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Households (tax filing units) with no adults.&lt;/strong&gt;The UBI is only given to adults. 1.6 million people are in zero-adult tax filing units (4 percent of all who come out behind).*&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Households with no adult citizens.&lt;/strong&gt;The UBI is only given to adult citizens. &lt;a href=&quot;https://www.kff.org/other/state-indicator/distribution-by-citizenship-status/&quot;&gt;7 percent&lt;/a&gt; of Americans are non-citizens, and 23 million people are in households that have adults but no adult citizens (51 percent of all who come out behind).**&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Households that decline the UBI to keep their current benefits.&lt;/strong&gt;Yang has said that households could keep their current benefits if they want to. I assume that households maximize the value of their benefits, so if they receive more than $12,000 per adult citizen in annual benefits (SNAP, TANF, SSI, and WIC), they decline the UBI. 2.7 million people are in households that decline the UBI (6 percent of all who come out behind).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These estimates warrant a couple wonky caveats:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Households” are actually tax filing units in this analysis. The dataset is the Open Source Policy Center’s version of the Current Population Survey, postprocessed in the Tax-Data project to create tax units suitable for tax analysis. This improves modeling of the Yang plan, given its revenue measures relating to the personal income tax code, namely raising the payroll tax cap and treating capital gains as ordinary income. The Current Population Survey itself shows that &lt;a href=&quot;https://github.com/PSLmodels/taxdata/issues/321&quot;&gt;under 25,000 people&lt;/a&gt; are in zero-adult households, indicating that nearly all of the 1.6 million people in zero-adult tax units are children who file taxes separately from their parents. Many of these would therefore still benefit from the Freedom Dividend.&lt;/li&gt;
+  &lt;li&gt;The dataset powering this analysis didn’t include citizenship status, so I created citizen and non-citizen “copies” of each household, assigning each “citizen copy” a weight of 0.93, and each “non-citizen copy” a weight of 0.07. That means that households are not modeled to include citizens and non-citizens. It also means that the Freedom Dividend’s citizenship requirement affects each income group equally, and 7 percent of each income group would come out behind by default. This is, of course, false, as &lt;a href=&quot;https://www.forbes.com/sites/niallmccarthy/2017/03/07/the-massive-wage-gap-between-u-s-citizens-and-immigrants-infographic/#23c3321c3e65&quot;&gt;citizens out-earn non-citizens&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-those-reasons-vary-byincome&quot;&gt;How those reasons vary by income&lt;/h3&gt;
+
+&lt;p&gt;That said, let’s take a look at how the reasons for coming out behind vary by income:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-28-why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend-1.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A few insights are evident:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most people in “losing” households with income between $10K and $200K are non-citizens. This might even be underestimated given the correlation between income and citizenship not modeled here.&lt;/li&gt;
+  &lt;li&gt;60% of people in losing households earning under $10K have no adults in their tax filing unit — an artifact of the data that separates children from adults in the same household and may not reflect a true loss.&lt;/li&gt;
+  &lt;li&gt;Higher income households are more likely to come out behind because taxes exceed the UBI.&lt;/li&gt;
+  &lt;li&gt;Benefit clawback hurts a larger share of middle income households than low-income households.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One more caveat: This is not a counterfactual analysis. That is, this doesn’t show the share of people who would no longer come out behind if a policy lever were changed. Including citizens in the UBI wouldn’t make 7 percent of $500K+ households come out ahead, they’d just move to the “Taxes exceed net UBI” bucket.&lt;/p&gt;
+
+&lt;p&gt;But at lower incomes, the small “Taxes exceed net UBI” share suggests that removing the citizenship requirement would keep a lot of people from losing money. The dark red at the bottom also suggests that including children would keep low-income households from losing out, though that’s a less binary and more expensive policy choice.&lt;/p&gt;
+
+&lt;p&gt;Despite potential controversy over its benefit clawback provision, the feature of Yang’s plan that puts most low-income people behind is its limitation to adult citizens.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Updated 2019–07–15 to include more information on zero-adult households (tax filing units). See &lt;a href=&quot;https://github.com/UBICenter/ubi-center/issues/70&quot;&gt;this GitHub issue&lt;/a&gt; for progress shifting from tax-unit-level analysis to household-level analysis, which will address this.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="andrew yang" />
+      
+        <category term="vat" />
+      
+
+      
+        <summary type="html">They’re mostly non-citizens</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">A budget-neutral version of Andrew Yang’s Freedom Dividend</title>
+      <link href="/budgetneutral-version-of-andrew-yangs-freedom-dividend" rel="alternate" type="text/html" title="A budget-neutral version of Andrew Yang’s Freedom Dividend" />
+      <published>2019-06-24T17:49:26+00:00</published>
+      <updated>2019-06-24T17:49:26+00:00</updated>
+      <id>/budgetneutral-version-of-andrew-yangs-freedom-dividend</id>
+      <content type="html" xml:base="/budgetneutral-version-of-andrew-yangs-freedom-dividend">&lt;p&gt;&lt;a href=&quot;https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b&quot;&gt;Part 1&lt;/a&gt; of this two-part series analyzing Democratic presidential candidate Andrew Yang’s Freedom Dividend showed that the universal basic income policy would reduce poverty and inequality, while adding $1.4 trillion to the annual deficit. Using the same approach and assumptions (no labor market or macroeconomic effects), I find that a budget-neutral plan would provide each adult citizen $471 per month, rather than the $1,000 proposed by Yang. These payments would be offset by Yang’s funding sources: increases on existing taxes, addition of new taxes, and partial replacement of assistance programs.&lt;/p&gt;
+
+&lt;p&gt;Like the original Freedom Dividend, this budget-neutral plan would reduce poverty and inequality, and benefit most Americans. However, each of these effects would be muted, and a larger share of middle-income households would come out behind.&lt;/p&gt;
+
+&lt;p&gt;As in Part 1, I modeled the plan with the open-source Tax-Calculator software and its version of the Current Population Survey. Code and documentation for the analysis are available &lt;a href=&quot;https://github.com/UBICenter/ubi-center/tree/master/notebooks/yang&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-a-budget-neutral-freedomdividend&quot;&gt;Modeling a budget-neutral Freedom Dividend&lt;/h3&gt;
+
+&lt;p&gt;The Freedom Dividend is a set of seven policies:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$1,000 per month to every adult citizen&lt;/li&gt;
+  &lt;li&gt;Rescinding of benefits for households who opt for the basic income (they can keep their current benefits if they want); the Freedom Dividend does not replace Social Security, Medicare, Medicaid, unemployment insurance, or housing&lt;/li&gt;
+  &lt;li&gt;A 10 percent &lt;a href=&quot;https://www.yang2020.com/policies/value-added-tax/&quot;&gt;value added tax&lt;/a&gt; (VAT, a form of consumption tax common across Europe)&lt;/li&gt;
+  &lt;li&gt;A 0.1 percent, $50 billion per year &lt;a href=&quot;https://www.yang2020.com/policies/financial-transaction-tax/&quot;&gt;financial transaction tax&lt;/a&gt; (FTT)&lt;/li&gt;
+  &lt;li&gt;A $20 per ton &lt;a href=&quot;https://www.yang2020.com/policies/carbon-fee-dividend/&quot;&gt;carbon tax&lt;/a&gt; (Yang also proposes an additional $20 per ton carbon tax to fund clean energy investments, which is not modeled here)&lt;/li&gt;
+  &lt;li&gt;Lifting the cap on Social Security contributions&lt;/li&gt;
+  &lt;li&gt;Treating capital gains as ordinary income&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Following the approach outlined in Part 1, I assume households decline the UBI if the combined value of their current benefits exceeds the UBI; estimate the incidence of carbon taxes, VAT, and FTT using analyses from the Tax Policy Center and the Treasury Department; and calculate the effect of the payroll and capital gains tax reforms with Tax-Calculator. I also assume that workers don’t respond to the new income or changing tax rates; see Part 1 for a discussion on potential macroeconomic effects.&lt;/p&gt;
+
+&lt;p&gt;The gross cost of a $1,000 UBI for adult citizens is $2.8 trillion, and after new taxes and benefit savings, the total deficit impact is $1.4 trillion per year (about 160% of the current deficit). Government saves $151 billion from households giving up benefits or declining the UBI to keep current benefits, and the remaining $1.2 trillion comes from tax reform.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-0.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Varying the UBI amount shows that these funding measures with a $0 UBI would reduce the annual budget deficit by $1.2 trillion. The UBI amount that produces a $0 deficit impact is $471 per month.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-1.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The gross cost of giving each adult citizen $478 per month is $1.3 trillion. $128 billion is saved from households declining the UBI or current benefits, and the remaining $1.17 trillion is from new taxes (tax revenue falls slightly because I assume consumption of goods and services that generate carbon tax revenue rises with the UBI).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-2.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-the-revenue-sourceswork&quot;&gt;How the revenue sources work&lt;/h3&gt;
+
+&lt;p&gt;In the original Freedom Dividend, 57 percent of the benefits savings came from SNAP (food stamps), and this share increases to 70 percent with the budget-neutral version. This follows from SNAP’s relatively wide reach and low monthly amount. For example, TANF and SSI have higher monthly amounts, and the share of dollars for these plans given up for UBI falls from more than half with the $1,000 per month plan to about 30 percent at $471 per month.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-3.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tax side is almost identical to the original Freedom Dividend, since the lower amount affects only the carbon tax. New taxes cost each decile an average of 8 percent of income, except the top decile which is cost 12 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-4.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-budget-neutral-freedom-dividend-would-be-progressively-redistributive&quot;&gt;A budget-neutral Freedom Dividend would be progressively redistributive&lt;/h3&gt;
+
+&lt;p&gt;The average household in the bottom 80 percent would see disposable incomes rise by about $3,000 per year, while the average household in the top 10 percent would lose about $21,000 per year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-5.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a share of disposable income, those numbers are progressive at every decile, raising the bottom decile 47 percent and lowering the top decile by 9 percent (compared to +119 percent and -4 percent in the $1,000 plan).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-6.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Various measures of poverty and inequality would fall:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Poverty falls 35 percent&lt;/strong&gt;, as defined by the share of people in households with disposable income below the federal poverty guideline.
+  Not an official poverty measure.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Gini index (a measure of general inequality) falls 9 percent.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The top 1 percent’s share of income falls 17 percent.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The top 0.1 percent’s share of income falls 21 percent.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These inequality measures reflect how the plan compresses the income distribution at both top and bottom: the budget-neutral Freedom Dividend raises the 10th income percentile by 17 percent, raises median income by 6 percent, and reduces the 90th percentile by 2 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-7.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;most-come-out-ahead-many-come-outbehind&quot;&gt;Most come out ahead, many come out behind&lt;/h3&gt;
+
+&lt;p&gt;While the budget-neutral Freedom Dividend is progressive on a net basis and the bottom 8 deciles benefit on average, the new taxes outweigh the UBI for many households. Two thirds of Americans would benefit, including 46 percent who would see disposable incomes rise more than 5 percent; the third who come out behind includes 18 percent who lose more than 5 percent. While these net contributors are concentrated among households with income of $200,000 or more, about 20 percent of households with income under $75,000 also come out behind.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-8.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;High income households primarily come out behind because their tax liability would rise considerably, especially payroll and capital gains taxes. For example, using the UBI Center &lt;a href=&quot;http://plans.ubicenter.org&quot;&gt;Plan Explorer&lt;/a&gt;, we can filter to one-adult households with income above $500,000, who would pay an average of $11,411 more in taxes each month. All households in this category would lose.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-9.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Low income households primarily come out behind because they forego benefits to get the UBI, or vice versa, and only pay new taxes like VAT. For example, one-adult households with income below $25,000 gain an average of $251 per month on net, while 8 percent come out behind.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-10.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Further filtering these to households that receive benefits, the net effect is +$97 per month and 21 percent see incomes fall. This subset includes 12 million people, 40 percent of all one-adult households with income below $25,000.&lt;/p&gt;
+
+&lt;h3 id=&quot;major-policy-tends-toward-disruption&quot;&gt;Major policy tends toward disruption&lt;/h3&gt;
+
+&lt;p&gt;Andrew Yang’s Freedom Dividend and its budget-neutral adaptation analyzed here would likely have a greater impact on poverty and inequality than any seriously discussed policy in recent U.S. history. For some, this egalitarian result would be worth major economic costs, including to their own pocketbook; others will oppose it for concern over the macro economy or their personal finances.&lt;/p&gt;
+
+&lt;p&gt;One thing is certain though: it’s hard to design major policy without disruption. If society determines how this disruption stacks up against other outcomes of interest (poverty, inequality, work incentives, economic growth), policymakers can design plans accordingly.&lt;/p&gt;
+
+&lt;p&gt;But can we have our cake and eat it, too? That’s the question the UBI Center intends to answer in developing UBI plans that balance disruption against other measurable outcomes. Optimizing for the deficit is just the start.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Updated 2019–07–02 to remove unemployment insurance from the set of replaced benefits.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="andrew yang" />
+      
+        <category term="vat" />
+      
+
+      
+        <summary type="html">Part 1 of this two-part series analyzing Democratic presidential candidate Andrew Yang’s Freedom Dividend showed that the universal basic income policy would reduce poverty and inequality, while adding $1.4 trillion to the annual deficit. Using the same approach and assumptions (no labor market or macroeconomic effects), I find that a budget-neutral plan would provide each adult citizen $471 per month, rather than the $1,000 proposed by Yang. These payments would be offset by Yang’s funding sources: increases on existing taxes, addition of new taxes, and partial replacement of assistance programs.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Distributional analysis of Andrew Yang’s Freedom Dividend</title>
+      <link href="/distributional-analysis-of-andrew-yangs-freedom-dividend" rel="alternate" type="text/html" title="Distributional analysis of Andrew Yang’s Freedom Dividend" />
+      <published>2019-06-24T17:48:10+00:00</published>
+      <updated>2019-06-24T17:48:10+00:00</updated>
+      <id>/distributional-analysis-of-andrew-yangs-freedom-dividend</id>
+      <content type="html" xml:base="/distributional-analysis-of-andrew-yangs-freedom-dividend">&lt;p&gt;Democratic presidential candidate Andrew Yang wants to give every adult citizen $1,000 per month, no strings attached. This idea is called universal basic income (UBI), though Yang calls his a &lt;a href=&quot;https://www.yang2020.com/policies/the-freedom-dividend/&quot;&gt;Freedom Dividend&lt;/a&gt;, which he plans to fund with new taxes and an option for households to switch away from current benefits.&lt;/p&gt;
+
+&lt;p&gt;If Yang’s plan were implemented, who would come out ahead or behind? How would poverty, inequality, and the deficit change? What benefit programs would be most affected? To answer these questions, I applied the open-source Tax-Calculator software to the Census Bureau’s Current Population Survey, combined this with established analyses of the new taxes he proposes, and simulated the effect across the distribution of US households. This analysis is static, meaning it ignores behavioral and macroeconomic responses to tax, income, and deficit changes.&lt;/p&gt;
+
+&lt;p&gt;While the plan would add $1.4 trillion to the annual deficit, it would be highly progressive, significantly reducing poverty and inequality. 87 percent of Americans would come out ahead, including 90 percent of those in households earning under $50,000 and 54 percent of those in households earning $200,000 or more.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-the-freedomdividend&quot;&gt;Modeling the Freedom Dividend&lt;/h3&gt;
+
+&lt;p&gt;The Freedom Dividend is a set of seven policies, marked here as progressive or regressive by the percentage effect on disposable income:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$1,000 per month to every adult citizen [progressive]&lt;/li&gt;
+  &lt;li&gt;Rescinding of benefits for households who opt for the basic income (they can keep their current benefits if they want); the Freedom Dividend does not replace Social Security, Medicare, Medicaid, housing, or unemployment insurance [regressive]&lt;/li&gt;
+  &lt;li&gt;A 10 percent &lt;a href=&quot;https://www.yang2020.com/policies/value-added-tax/&quot;&gt;value added tax&lt;/a&gt; (VAT, a form of consumption tax common across Europe) [regressive]&lt;/li&gt;
+  &lt;li&gt;A 0.1 percent, $50 billion per year &lt;a href=&quot;https://www.yang2020.com/policies/financial-transaction-tax/&quot;&gt;financial transaction tax&lt;/a&gt; (FTT) [progressive]&lt;/li&gt;
+  &lt;li&gt;A $20 per ton &lt;a href=&quot;https://www.yang2020.com/policies/carbon-fee-dividend/&quot;&gt;carbon tax&lt;/a&gt; (Yang also proposes an additional $20 per ton carbon tax to fund clean energy investments, which is not modeled here) [roughly flat]&lt;/li&gt;
+  &lt;li&gt;Lifting the cap on Social Security contributions [progressive]&lt;/li&gt;
+  &lt;li&gt;Treating capital gains as ordinary income [progressive]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;My steps for modeling this reform are documented &lt;a href=&quot;https://github.com/UBICenter/ubi-center/blob/master/notebooks/yang/README.md&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;pricing-out-the-freedomdividend&quot;&gt;Pricing out the Freedom Dividend&lt;/h3&gt;
+
+&lt;p&gt;The total cost of providing $12,000 per year to all 236 million adult citizens is $2.8 trillion. Of these, about 2 million decline the UBI because they get more in current benefits, saving $18 billion. The government saves $133 billion from people who decline their current benefits to get the more generous UBI. The new tax revenue raises $1.2 trillion, leaving the total unfunded cost at $1.4 trillion. This grows the deficit by 160 percent over the $896 billion &lt;a href=&quot;https://www.cbo.gov/topics/budget&quot;&gt;projected&lt;/a&gt; by the Congressional Budget Office for 2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-0.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-the-revenue-sourceswork&quot;&gt;How the revenue sources work&lt;/h3&gt;
+
+&lt;p&gt;The Freedom Dividend is paid for with benefit savings and taxes. On the benefits side, roughly half of the savings come from Supplemental Nutrition Assistance Program (SNAP, a.k.a. food stamps). That is, half the benefit savings comes from people declining SNAP because the UBI would be more generous.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-1.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each of the five programs modeled — SNAP, Supplemental Security Income (SSI), Temporary Aid for Needy Families (TANF, a.k.a. “welfare”), and the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) — is mostly superseded by the UBI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-2.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the other side of the revenue generation are taxes. Taken together, the five new taxes reduce by 7 percent the average income of households currently in the bottom nine deciles. The top decile pays 11 percent of income in new taxes, due largely to the elimination of the payroll tax cap and treatment of capital gains as ordinary income.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-3.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-4.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-freedom-dividend-benefits-low-income-households&quot;&gt;The Freedom Dividend benefits low-income households&lt;/h3&gt;
+
+&lt;p&gt;Households feel the effect of the Freedom Dividend policy suite in multiple ways: they get the UBI itself (unless they are not citizens or elect to keep their current benefits instead), they decline benefits, they pay higher income taxes, and they pay higher prices on goods and services from the non-income taxes. To evaluate the effect of the policy as a whole, I compare their disposable income — income after taxes and transfers — before and after the policy.&lt;/p&gt;
+
+&lt;p&gt;Households in the bottom nine deciles see their disposable income rise about $10,000 on average, while households in the top decile lose an average of $8,000.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-5.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This represents a highly progressive outcome, more than doubling the average disposable income of households in the bottom decile and reducing top-decile incomes by about 4 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-6.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not all households within each decile experience the tax and benefit changes equally. For example, households in each decile may vary in their levels of SNAP receipt, capital gains, or citizenship. The blue in the chart below shows the share of people in households that would see higher disposable income, while orange is those who see less. Overall, 86 percent of people would come out ahead, though 10 to 15 percent of each income group up to $200,000 would come out behind (these are mostly non-citizens). Almost all households earning more than $500,000 would pay more in taxes than they’d receive from the Freedom Dividend.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-7.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;exploring-effects-for-household-types&quot;&gt;Exploring effects for household types&lt;/h3&gt;
+
+&lt;p&gt;UBI Center’s &lt;a href=&quot;http://plans.ubicenter.org&quot;&gt;interactive Plan Explorer&lt;/a&gt; shows the average effect and range of effects for households with selected characteristics. For example, after selecting a one-adult one-child household with income between $25,000 and $50,000 that receives benefits, this shows that households meeting that criteria come out ahead, on average.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-8.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The calculator also shows the range of effects, similarly to the blue and orange chart above:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-9.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-freedom-dividend-would-reduce-poverty-and-inequality&quot;&gt;The Freedom Dividend would reduce poverty and inequality&lt;/h3&gt;
+
+&lt;p&gt;Across all measures, the Freedom Dividend would reduce poverty and income inequality.&lt;/p&gt;
+
+&lt;p&gt;One (unofficial) measure of poverty is the share of people in households with disposable income less than the federal poverty line. The Yang plan reduces this share by 74 percent, from 7.3 percent to 1.9 percent. Child poverty falls 54 percent, from 7.9 percent to 3.6 percent.&lt;/p&gt;
+
+&lt;p&gt;A common measure of inequality is the Gini index, which ranges from 0 (perfect equality) to 1 (a single household has all of society’s income). The Yang plan reduces the Gini index of disposable income by 15 percent, from 0.46 to 0.39.&lt;/p&gt;
+
+&lt;p&gt;Other measures of income inequality also fall under the Yang plan: the share of disposable income held by the top 1 percent falls by 24 percent, and the share held by the top 0.1 percent falls 29 percent.&lt;/p&gt;
+
+&lt;p&gt;These metrics follow from the full distribution of income rising, but rising especially at the low end. For example, median income rises 25 percent from $56k to $70k, and the 90th percentile rises 6 percent from $159k to $168k. But the 10th percentile rises 48 percent, from $19k to $29k.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-10.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-11.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;economic-growth-reducing-thedeficit&quot;&gt;Economic growth reducing the deficit&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.yang2020.com/what-is-ubi/&quot;&gt;UBI page&lt;/a&gt; of Yang’s website states that “The Roosevelt Institute projected that the economy would grow by approximately $2.5 trillion and create 4.6 million new jobs. This would generate approximately $800–900 billion in new revenue from economic growth and activity.”&lt;/p&gt;
+
+&lt;p&gt;The Roosevelt &lt;a href=&quot;https://rooseveltinstitute.org/publications/macroeconomic-effects-universal-basic-income-ubi/&quot;&gt;study&lt;/a&gt; this refers to, authored in 2017, considered a UBI plan that, like Yang’s, gives $1,000 per month to each adult. Unlike Yang’s, it is fully deficit-funded. It projects a GDP increase that phases in over time to reach about $2.4 trillion per year after 6 years (Scenario 3 below, units in billions). It also projects a 9.33 percent deficit increase and 2 percent employment increase.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-12.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Given the US raises &lt;a href=&quot;https://www.oecd.org/tax/revenue-statistics-united-states.pdf&quot;&gt;27 cents&lt;/a&gt; per dollar of GDP, this $2.4 trillion would raise about $650 billion in new tax revenue, though this might be higher given the new taxes.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://budgetmodel.wharton.upenn.edu/issues/2018/3/29/options-for-universal-basic-income-dynamic-modeling&quot;&gt;Penn-Wharton Budget Model&lt;/a&gt; came to a different conclusion in their analysis of a deficit-funded UBI of $500 per month per adult (a response to the Roosevelt study). They estimate that this would reduce GDP by 6.1 percent and reduce government revenue by 8.0 percent over its first decade. Penn-Wharton explains the difference in results by noting their empirically-driven choices to reduce labor supply in response to new income (the income effect) and reduce capital services in response to higher government debt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-13.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neither Roosevelt nor Wharton model the revenue measures Yang proposes: reducing benefits, increasing tax rates, and levying new taxes. Some of these will reduce labor supply, such as new taxes (through the substitution effect). Others will increase labor supply, such as moving people out of benefit programs with high marginal tax rates (also through the substitution effect), and the income effect of new taxes (which reduce after-tax income). The net effect of these changes is probably lower labor supply — likely due to workers reducing their work hours rather than dropping out of the labor market — but a full study would be warranted to estimate the magnitude.&lt;/p&gt;
+
+&lt;p&gt;Overall, Yang’s projection that his plan would raise between $800 and $900 billion in government revenue through economic growth is unlikely.&lt;/p&gt;
+
+&lt;h3 id=&quot;an-important-discussion&quot;&gt;An important discussion&lt;/h3&gt;
+
+&lt;p&gt;Yang’s plan would grow the federal deficit substantially, but it would also produce a more egalitarian income distribution that would lift tens of millions out of poverty — even accounting for potentially lower economic growth. It demonstrates the importance of considering fiscal policies together: while the VAT and benefit reductions would be regressive on their own, the combination with progressive revenue sources and generous universal payments makes the plan highly progressive overall.&lt;/p&gt;
+
+&lt;p&gt;This is the first of a two-part series on the Freedom Dividend. Read Part 2 on a revenue-neutral version of the plan &lt;a href=&quot;https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Updated 2019–07–02 to remove unemployment insurance as a replaced benefit.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="andrew yang" />
+      
+        <category term="vat" />
+      
+
+      
+        <summary type="html">Democratic presidential candidate Andrew Yang wants to give every adult citizen $1,000 per month, no strings attached. This idea is called universal basic income (UBI), though Yang calls his a Freedom Dividend, which he plans to fund with new taxes and an option for households to switch away from current benefits.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

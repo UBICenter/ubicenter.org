@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/poverty/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-04-09T16:35:15+00:00</updated>
+  <id>/tag/poverty/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">UBI as a means of reducing gendered poverty</title>
+      <link href="/womens-day-2021" rel="alternate" type="text/html" title="UBI as a means of reducing gendered poverty" />
+      <published>2021-03-08T00:00:00+00:00</published>
+      <updated>2021-03-08T00:00:00+00:00</updated>
+      <id>/womens-day-2021</id>
+      <content type="html" xml:base="/womens-day-2021">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;This year’s &lt;a href=&quot;https://www.internationalwomensday.com/&quot;&gt;International Women’s Day&lt;/a&gt; asks its celebrants to challenge the world in order to change it (&lt;a href=&quot;https://twitter.com/search?q=%23ChooseToChallenge&quot;&gt;#ChooseToChallenge&lt;/a&gt;).
+The following simulation seeks to challenge the fact that women in the United States are more likely to be impoverished than men.
+In our analysis, we evaluate a Universal Basic Income (UBI), funded by a flat income tax, as a possible solution for both alleviating poverty and narrowing the gendered poverty gap.&lt;sup id=&quot;fnref:modeling&quot;&gt;&lt;a href=&quot;#fn:modeling&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Poverty rates for children are roughly equal between genders, while adult women experience poverty at rates 17 percent greater than adult men: 12.4 percent vs. 10.6 percent.
+As a general trend, the difference in poverty rates between women and men increases with age.
+For example, 20.8 percent of women aged 85 or older are in poverty, compared to only 14.5 percent of men of the same age.
+Among people aged 85 or older, women experience deep poverty at twice the rate of men.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import ubicenter
+
+df = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[
+        &quot;MARSUPWT&quot;,
+        &quot;SPM_RESOURCES&quot;,
+        &quot;SPM_POVTHRESHOLD&quot;,
+        &quot;SPM_WEIGHT&quot;,
+        &quot;SPM_NUMPER&quot;,
+        &quot;A_SEX&quot;,
+        &quot;A_AGE&quot;,
+        &quot;SPM_ID&quot;,
+        &quot;AGI&quot;,
+    ],
+)
+df.columns = df.columns.str.lower()
+df[&quot;weight&quot;] = df.marsupwt / 100
+df[&quot;spm_weight&quot;] = df.spm_weight / 100
+df[&quot;female&quot;] = df.a_sex == 2
+df[&quot;poverty&quot;] = df.spm_resources &amp;lt; df.spm_povthreshold
+df[&quot;deep_poverty&quot;] = df.spm_resources &amp;lt; (df.spm_povthreshold / 2)
+df[&quot;sex&quot;] = np.where(df.female, &quot;Female&quot;, &quot;Male&quot;)
+
+spm = df.groupby(
+    [&quot;spm_id&quot;, &quot;spm_resources&quot;, &quot;spm_weight&quot;, &quot;spm_povthreshold&quot;, &quot;spm_numper&quot;]
+)[[&quot;agi&quot;]].sum()
+spm[&quot;agi_pos&quot;] = np.maximum(spm.agi, 0)
+spm.reset_index(inplace=True)
+
+total_population = df.weight.sum()
+total_agi_pos = mdf.weighted_sum(spm, &quot;agi_pos&quot;, &quot;spm_weight&quot;)
+
+# Bin into ages aligning with 18 year old threshold.
+DARK_PURPLE = &quot;#46296E&quot;  # Official Intl Womens Day Color.
+LIGHT_PURPLE = &quot;#907EA8&quot;  # Lightened version.
+DARK_GREY = &quot;#9E9E9E&quot;  # Gray 500 from Material Design.
+LIGHT_GREY = &quot;#BDBDBD&quot;  # Gray 400.
+
+COLOR_MAP = {
+    &quot;Female&quot;: DARK_PURPLE,
+    &quot;Male&quot;: LIGHT_GREY,
+    &quot;Female poverty&quot;: DARK_PURPLE,
+    &quot;Female deep poverty&quot;: LIGHT_PURPLE,
+    &quot;Male poverty&quot;: DARK_GREY,
+    &quot;Male deep poverty&quot;: LIGHT_GREY,
+    &quot;Poverty&quot;: DARK_PURPLE,
+    &quot;Deep poverty&quot;: LIGHT_PURPLE,
+}
+
+df[&quot;age_group&quot;] = pd.cut(df.a_age + 1, np.arange(0, 91, 5), labels=np.arange(0, 86, 5))
+pov_age = mdf.weighted_mean(
+    df, [&quot;poverty&quot;, &quot;deep_poverty&quot;], &quot;marsupwt&quot;, groupby=[&quot;age_group&quot;, &quot;sex&quot;]
+)
+pov_age = pov_age.round(3)
+pov_age.reset_index(inplace=True)
+pov_age = pov_age.melt([&quot;age_group&quot;, &quot;sex&quot;], [&quot;poverty&quot;, &quot;deep_poverty&quot;])
+pov_age[&quot;label&quot;] = (
+    pov_age.sex
+    + &quot; &quot;
+    + np.where(pov_age.variable == &quot;poverty&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;)
+)
+
+fig = px.line(
+    pov_age, x=&quot;age_group&quot;, y=&quot;value&quot;, color=&quot;label&quot;, color_discrete_map=COLOR_MAP
+)
+fig.update_layout(
+    title=&quot;Poverty by gender and age&quot;,
+    xaxis_title=&quot;Age (in 5-year bins)&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    yaxis_range=[0, pov_age.value.max() * 1.1] #fig.update_xaxes(range=[1.5, 4.5])
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+pov_age_diff = pov_age[pov_age.variable == &quot;poverty&quot;].pivot_table(
+    values=&quot;value&quot;, index=&quot;age_group&quot;, columns=&quot;sex&quot;
+)
+pov_age_diff[&quot;female_minus_male&quot;] = pov_age_diff.Female - pov_age_diff.Male
+pov_age_diff.female_minus_male.plot()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;With a significant difference in rates of poverty for adult women as compared to men, how might a UBI help close that gap?
+Our past modeling has shown that a UBI would lessen poverty across demographic groups, and also shrink poverty disparities by &lt;a href=&quot;https://blog.ubicenter.org/20210118/racial-poverty-disparities-mlk-day-2021.html&quot;&gt;race&lt;/a&gt;, &lt;a href=&quot;https://blog.ubicenter.org/20201012/indigenous.html&quot;&gt;Indigenous heritage&lt;/a&gt;, and &lt;a href=&quot;https://blog.ubicenter.org/20200731/ada30.html&quot;&gt;disability status&lt;/a&gt;.
+Our research here shows that it would do the same by gender.&lt;/p&gt;
+
+&lt;p&gt;After receiving a UBI, the poverty rates for women and men converge as the monthly amount increases (we’ve focused on adults here).
+Consistent with our past simulations, a $300 monthly UBI would halve the rate of female poverty and female deep poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def pov(female, monthly_ubi):
+    # Calculate poverty rates for a gender subset given a monthly UBI amount.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi_pos  # Divide by positive AGI.
+    spm[&quot;new_resources&quot;] = (
+        spm.spm_resources - tax_rate * spm.agi_pos + (12 * monthly_ubi * spm.spm_numper)
+    )
+    person = df[(df.female == female) &amp;amp; (df.a_age &amp;gt; 17)].merge(
+        spm[[&quot;spm_id&quot;, &quot;new_resources&quot;]], on=&quot;spm_id&quot;
+    )
+    return pd.Series(
+        dict(
+            pov=mdf.poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+            deep_pov=mdf.deep_poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+        )
+    )
+
+
+def pov_row(row):
+    return pov(row.female, row.monthly_ubi)
+
+
+gender_ubi = mdf.cartesian_product(
+    {&quot;female&quot;: [True, False], &quot;monthly_ubi&quot;: np.arange(0, 1001, 100)}
+)
+gender_ubi = pd.concat([gender_ubi, gender_ubi.apply(pov_row, axis=1)], axis=1)
+
+gender_ubi_long = gender_ubi.melt(
+    id_vars=[&quot;female&quot;, &quot;monthly_ubi&quot;], value_vars=[&quot;pov&quot;, &quot;deep_pov&quot;]
+)
+gender_ubi_long[&quot;label&quot;] = (
+    pd.Series(np.where(gender_ubi_long.female, &quot;Female&quot;, &quot;Male&quot;))
+    + &quot; &quot;
+    + pd.Series(np.where(gender_ubi_long.variable == &quot;pov&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;))
+)
+gender_ubi_long.value = gender_ubi_long.value.round(3)
+
+fig = px.line(
+    gender_ubi_long,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;value&quot;,
+    color=&quot;label&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_layout(
+    title=&quot;Poverty by gender and UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income amount (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;UBI significantly narrows the ratio of poverty and deep poverty rates for adult women compared to adult men.
+With a monthly UBI of $500, the rate of women compared to men in poverty is more than halved and the rate of women compared to men in deep poverty is nearly equal.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+gender_ratio = gender_ubi.pivot_table(
+    values=&quot;pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+gender_ratio[&quot;ratio&quot;] = gender_ratio.female / gender_ratio.male
+gender_ratio[&quot;poverty_type&quot;] = &quot;Poverty&quot;
+deep_gender_ratio = gender_ubi.pivot_table(
+    values=&quot;deep_pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+deep_gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+deep_gender_ratio[&quot;ratio&quot;] = deep_gender_ratio.female / deep_gender_ratio.male
+deep_gender_ratio[&quot;poverty_type&quot;] = &quot;Deep poverty&quot;
+
+gender_ratios = pd.concat([gender_ratio, deep_gender_ratio])
+gender_ratios.ratio = gender_ratios.ratio.round(2)
+
+fig = px.line(
+    gender_ratios,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;ratio&quot;,
+    color=&quot;poverty_type&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_yaxes(range=[0.94, 1.18])
+fig.add_shape(
+    type=&quot;line&quot;,
+    x0=0,
+    y0=1,
+    x1=1000,
+    y1=1,
+    line=dict(color=LIGHT_GREY, dash=&quot;dash&quot;),
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+)
+
+fig.update_layout(
+    title=&quot;Poverty disparities by gender with respect to UBI&quot;,
+    xaxis_title=&quot;Monthly universal basic income (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;Ratio of women to men SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The gender income gap is inseparable from the issue of care work.
+On one hand, the &lt;a href=&quot;https://www.vox.com/2018/2/19/17018380/gender-wage-gap-childcare-penalty&quot;&gt;“baby penalty”&lt;/a&gt; explains much of the gap, with mothers earning less than fathers while women and men without children have similar earnings.
+Meanwhile, &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;high marginal tax rates&lt;/a&gt; for low-income parents (due to the phasing out of benefits) discourages work disproportionately of mothers.
+A &lt;a href=&quot;https://americancompass.org/essays/home-building-survey-part-2/&quot;&gt;recent poll&lt;/a&gt; found that Americans prefer cash assistance to other family assistance policies like paid family leave, subsidized childcare, wage subsidies, and baby bonds.
+Mothers, fathers, and low-income people especially preferred cash assistance, which would likely be more distributionally progressive than other policy options.&lt;/p&gt;
+
+&lt;p&gt;In her &lt;a href=&quot;https://almazzelleke.files.wordpress.com/2014/01/zelleke-institutionalizing-the-universal-caretaker-dec-2008.pdf&quot;&gt;paper&lt;/a&gt; advocating for UBI as compared to other alternatives, political scientist Almaz Zelleke states that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perhaps most importantly for advocates of gender equality, a basic income by virtue of its universality goes to both providers and recipients of care, and thus has the best chance of eliminating poverty for the most vulnerable group in contemporary capitalist economies: single mothers and their children. To any feminist, this should be a strong argument in favor of basic income.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Women provide most of the care work that today goes unpaid and unrecognized.
+UBI compensates for that care work, reducing gender inequities and investing in the well-being of the cared-for.
+Our analysis suggests that a UBI could be a relevant policy in the greater movement for the social, economic, and political equality of women.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:modeling&quot;&gt;
+      &lt;p&gt;Data was gathered from the US Census Bureau’s March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP) and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. &lt;a href=&quot;#fnref:modeling&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;katarina&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="gender" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Basic income would shrink racial poverty disparities</title>
+      <link href="/racial-poverty-disparities-mlk-day-2021" rel="alternate" type="text/html" title="Basic income would shrink racial poverty disparities" />
+      <published>2021-01-18T00:00:00+00:00</published>
+      <updated>2021-01-18T00:00:00+00:00</updated>
+      <id>/racial-poverty-disparities-mlk-day-2021</id>
+      <content type="html" xml:base="/racial-poverty-disparities-mlk-day-2021">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
+but toward the end of his life, King extended this leadership to the cause of poverty.
+In his &lt;a href=&quot;http://www.thekinglegacy.org/books/where-do-we-go-here-chaos-or-community&quot;&gt;final book&lt;/a&gt;,
+he wrote:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{epigraph}&quot;&gt;The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty [...] 
+I'm now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.
+
+-- Dr. Martin Luther King, Jr., *Where Do We Go From Here: Chaos or Community?* (1967)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We honor King’s call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people.&lt;/p&gt;
+
+&lt;p&gt;:::{admonition,dropdown,tip} Modeling notes
+Data was gathered from the US Census Bureau’s March Supplement, which covers economic circumstances in 2019.
+We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP),
+and adjusts for local housing costs.
+The flat income tax is applied on positive adjusted gross income.
+We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race.
+:::&lt;/p&gt;
+
+&lt;p&gt;Black Americans today are 75 percent more likely to be in poverty than White Americans, with a rate of 18.4 percent compared to 10.5 percent.
+A $250 monthly UBI would cut both Black and White poverty roughly in half (this is similar to what we found in a &lt;a href=&quot;https://medium.com/ubicenter/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps-452e2af1497b&quot;&gt;July 2020 post&lt;/a&gt;, which used older data and did not simulate taxes to fund the UBI).
+A $1,000 monthly UBI funded by a flat income tax would reduce poverty for both White and Black people to about 1 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+import numpy as np
+import microdf as mdf
+import plotly.express as px
+
+SPM_COLS = [
+    &quot;spm_&quot; + i for i in [&quot;id&quot;, &quot;weight&quot;, &quot;povthreshold&quot;, &quot;resources&quot;, &quot;numper&quot;]
+]
+raw = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[&quot;PRDTRACE&quot;, &quot;MARSUPWT&quot;, &quot;AGI&quot;] + [i.upper() for i in SPM_COLS],
+)
+person = raw.copy(deep=True)
+person.columns = person.columns.str.lower()
+person[&quot;weight&quot;] = person.marsupwt / 100
+person.spm_weight /= 100
+person = person.rename(columns={&quot;prdtrace&quot;: &quot;race&quot;})
+# Add indicators for white only and black only (not considering other races).
+person[&quot;white&quot;] = person.race == 1
+person[&quot;black&quot;] = person.race == 2
+# Limit to positive AGI.
+person[&quot;agi_pos&quot;] = np.maximum(person.agi, 0)
+# Need total population to calculate UBI and total AGI for required tax rate.
+total_population = person.weight.sum()
+total_agi = mdf.weighted_sum(person, &quot;agi_pos&quot;, &quot;weight&quot;)
+# Sum up AGI for each SPM unit and merge that back to person level.
+spm = person.groupby(SPM_COLS)[[&quot;agi_pos&quot;, &quot;white&quot;, &quot;black&quot;]].sum()
+spm.columns = [&quot;spm_&quot; + i for i in spm.columns]
+# Merge these back to person to calculate population in White and Black spmus.
+person = person.merge(spm, on=&quot;spm_id&quot;)
+pop_in_race_spmu = pd.Series(
+    {
+        &quot;Black&quot;: person[person.spm_black &amp;gt; 0].weight.sum(),
+        &quot;White&quot;: person[person.spm_white &amp;gt; 0].weight.sum(),
+    }
+)
+spm.reset_index(inplace=True)
+
+
+def pov_gap(df, resources, threshold, weight):
+    # df: Should be SPM-unit level.
+    gaps = np.maximum(df[threshold] - df[resources], 0)
+    return (gaps * df[weight]).sum()
+
+
+def pov(race, monthly_ubi):
+    # Total cost and associated tax rate.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi
+    # Calculate new tax, UBI and resources per SPM unit.
+    spm[&quot;new_spm_resources&quot;] = (
+        spm.spm_resources - 
+        (tax_rate * spm.spm_agi_pos) +  # New tax
+        (12 * monthly_ubi * spm.spm_numper))  # UBI
+    # Merge back to person.
+    person2 = person.merge(spm[[&quot;spm_id&quot;, &quot;new_spm_resources&quot;]], on=&quot;spm_id&quot;)
+    # Based on new resources, calculate
+    person2[&quot;new_poor&quot;] = person2.new_spm_resources &amp;lt; person2.spm_povthreshold
+    # Calculate poverty rate for specified race.
+    poverty_rate = mdf.weighted_mean(
+        person2[person2[race.lower()]], &quot;new_poor&quot;, &quot;weight&quot;
+    )
+    # Calculate poverty gap for specified race.
+    poverty_gap = pov_gap(
+        spm[spm[&quot;spm_&quot; + race.lower()] &amp;gt; 0], &quot;new_spm_resources&quot;,
+        &quot;spm_povthreshold&quot;, &quot;spm_weight&quot;
+    )
+    poverty_gap_per_capita = (poverty_gap / pop_in_race_spmu[race])
+
+    return pd.Series({
+        &quot;poverty_rate&quot;: poverty_rate,
+        &quot;poverty_gap_per_capita&quot;: poverty_gap_per_capita
+    })
+
+
+def pov_row(row):
+    return pov(row.race, row.monthly_ubi)
+
+
+summary = mdf.cartesian_product(
+    {&quot;race&quot;: [&quot;White&quot;, &quot;Black&quot;], &quot;monthly_ubi&quot;: np.arange(0, 1001, 50)}
+)
+summary = pd.concat([summary, summary.apply(pov_row, axis=1)], axis=1)
+# Format results.
+summary.poverty_rate = 100 * summary.poverty_rate.round(3)
+summary.poverty_gap_per_capita = summary.poverty_gap_per_capita.round(0)
+wide = summary.pivot_table(
+    [&quot;poverty_rate&quot;, &quot;poverty_gap_per_capita&quot;], &quot;monthly_ubi&quot;, &quot;race&quot;
+)
+wide.columns = [&quot;pg_black&quot;, &quot;pg_white&quot;, &quot;pr_black&quot;, &quot;pr_white&quot;]
+wide[&quot;pg_ratio&quot;] = (wide.pg_black / wide.pg_white).round(2)
+wide[&quot;pr_ratio&quot;] = (wide.pr_black / wide.pr_white).round(2)
+wide.reset_index(inplace=True)
+ratios = wide.melt(id_vars=&quot;monthly_ubi&quot;, value_vars=[&quot;pr_ratio&quot;, &quot;pg_ratio&quot;])
+# Change for chart.
+ratios.variable.replace({&quot;pr_ratio&quot;: &quot;Poverty rate&quot;,
+                         &quot;pg_ratio&quot;: &quot;Poverty gap per capita&quot;},
+                        inplace=True)
+
+
+def add_ubi_center_logo(fig, x=0.98, y=-0.14):
+    fig.add_layout_image(
+        dict(
+            source=&quot;https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png&quot;,
+            # See https://github.com/plotly/plotly.py/issues/2975.
+            # source=&quot;../_static/ubi_center_logo_wide_blue.png&quot;,
+            xref=&quot;paper&quot;, yref=&quot;paper&quot;,
+            x=x, y=y,
+            sizex=0.12, sizey=0.12,
+            xanchor=&quot;right&quot;, yanchor=&quot;bottom&quot;
+        )
+    )
+
+
+def line_graph(
+    df,
+    x,
+    y,
+    color,
+    title,
+    xaxis_title,
+    yaxis_title,
+    color_discrete_map,
+    yaxis_ticksuffix,
+    yaxis_tickprefix,
+):
+    &quot;&quot;&quot;Style for line graphs.
+    
+    Arguments
+    df: DataFrame with data to be plotted.
+    x: The string representing the column in df that holds the new spending in billions.
+    y: The string representing the column in df that holds the poverty rate.
+    color: The string representing the UBI type.
+    xaxis_title: The string represnting the xaxis-title.
+    yaxis_title: The string representing the yaxis-title.
+    
+    Returns
+    Nothing. Shows the plot.
+    &quot;&quot;&quot;
+    fig = px.line(
+        df, x=x, y=y, color=color, color_discrete_map=color_discrete_map
+    )
+    fig.update_layout(
+        title=title,
+        xaxis_title=xaxis_title,
+        yaxis_title=yaxis_title,
+        yaxis_ticksuffix=yaxis_ticksuffix,
+        yaxis_tickprefix=yaxis_tickprefix,
+        font=dict(family=&quot;Roboto&quot;),
+        hovermode=&quot;x&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+        plot_bgcolor=&quot;white&quot;,
+        legend_title_text=&quot;&quot;,
+        height=600,
+        width=1000,
+    )
+
+    fig.update_layout(
+        legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.9)
+    )
+
+    fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+    
+    add_ubi_center_logo(fig)
+
+    return fig
+    
+
+DARK_BLUE = &quot;#1565C0&quot;
+GRAY = &quot;#9E9E9E&quot;
+DARK_GREEN = &quot;#388E3C&quot;
+LIGHT_GREEN = &quot;#66BB6A&quot;
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+fig = line_graph(
+    df=summary,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;poverty_rate&quot;,
+    color=&quot;race&quot;,
+    title=&quot;Black and White poverty rate by UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income funded by flat income tax&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: DARK_BLUE},
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+)
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The poverty rate only tells part of the story, though.
+When someone goes from deep in poverty to just below the poverty line, the poverty rate is left unchanged, despite the person’s material conditions improving.&lt;/p&gt;
+
+&lt;p&gt;An alternative measure is the &lt;em&gt;poverty gap&lt;/em&gt;, which aggregates each household’s difference between its resources and its poverty threshold. This counts improvements of people who remain in poverty, and can be thought of as the total amount of money required to lift everyone out of poverty, if that money could be perfectly targeted.&lt;/p&gt;
+
+&lt;p&gt;Applying this measure and adjusting for population differences, the Black poverty gap exceeds the White poverty gap by 50 percent: $654 per person, vs. $434 per person.
+Given a $250 monthly UBI, which cuts poverty rates in half, poverty gaps also fall by about half, and the difference falls such that the Black poverty gap is about 36 percent higher.
+For UBIs above $600 per month, the Black poverty gap even falls below the White poverty gap, likely due to Black people living in areas with lower-cost housing.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(
+    df=summary,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;poverty_gap_per_capita&quot;,
+    color=&quot;race&quot;,
+    title=&quot;Black and White poverty gap per capita by UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income funded by flat income tax&quot;,
+    yaxis_title=&quot;Poverty gap per capita (2019)&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: DARK_BLUE},
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+)
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Viewing these together, it’s clear that UBIs don’t only reduce poverty rates and poverty gaps for both races, but also bring them closer together, reducing racial disparities in poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(
+    df=ratios,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;value&quot;,
+    color=&quot;variable&quot;,
+    title=&quot;Black poverty relative to White poverty by UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income funded by flat income tax&quot;,
+    yaxis_title=&quot;Ratio of Black to White poverty measure (2019)&quot;,
+    color_discrete_map={&quot;Poverty rate&quot;: LIGHT_GREEN,
+                        &quot;Poverty gap per capita&quot;: DARK_GREEN},
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+)
+fig.add_hline(1, line_dash=&quot;dot&quot;)
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Dr. King didn’t live to see today’s renaissance of guaranteed income, with pandemic responses including &lt;a href=&quot;https://www.cbsnews.com/news/stimulus-check-600-2000-dollars-eligibility-2021-1-1/&quot;&gt;generous unconditional cash transfers&lt;/a&gt;, &lt;a href=&quot;http://mayorsforagi.org&quot;&gt;mayors across America&lt;/a&gt; calling for pilots, and &lt;a href=&quot;https://www.express.co.uk/news/politics/1316702/nicola-sturgeon-news-scotland-ubi-Universal-Basic-Income-SNP-latest-economy&quot;&gt;leaders across the world&lt;/a&gt; embracing the idea.
+But our analysis validates his intuition and the intertwining of his racial justice and economic justice emphases: guaranteed income will produce not only a less impoverished world, but also a less racially disparate one.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;connor&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="race" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">A $300-per-month UBI would cut Veteran poverty in half</title>
+      <link href="/veterans" rel="alternate" type="text/html" title="A $300-per-month UBI would cut Veteran poverty in half" />
+      <published>2020-11-11T00:00:00+00:00</published>
+      <updated>2020-11-11T00:00:00+00:00</updated>
+      <id>/veterans</id>
+      <content type="html" xml:base="/veterans">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;Today we honor &lt;a href=&quot;https://www.va.gov/vetdata/veteran_population.asp&quot;&gt;over 19 million Americans&lt;/a&gt; who have served in the military, of whom one in 13 is in poverty. This is a third lower than the poverty rate among non-Veterans, thanks to &lt;a href=&quot;https://www.pewresearch.org/fact-tank/2019/12/09/veteran-households-in-u-s-are-economically-better-off-than-those-of-non-veterans/&quot;&gt;higher incomes&lt;/a&gt; and Veteran benefits, but still amounts to over 1.4 million people who lack resources to cover basic needs. Universal basic income would help.&lt;/p&gt;
+
+&lt;p&gt;Existing assistance programs cut Veteran poverty substantially. &lt;a href=&quot;https://www.cbpp.org/blog/veterans-and-the-safety-net-0&quot;&gt;Two million Veterans&lt;/a&gt; receive refundable tax credits—the Earned Income Tax Credit and the refundable portion of the Child Tax Credit—and &lt;a href=&quot;https://www.cbpp.org/research/food-assistance/snap-helps-13-million-low-income-veterans-including-thousands-in-every&quot;&gt;1.3 million&lt;/a&gt; receive SNAP (formerly food stamps). Certain veteran households are also eligible to receive &lt;a href=&quot;https://www.va.gov/pension/veterans-pension-rates/&quot;&gt;up to $36,387&lt;/a&gt; per year through the &lt;a href=&quot;https://www.va.gov/pension/eligibility/&quot;&gt;Veterans Pension&lt;/a&gt; program, depending on their household size, income, net worth, age, service period, and disability status. Veterans with disabilities related to their active-duty service can also receive up to $44,208 per year, depending on their household size and severity of their disability through the &lt;a href=&quot;https://www.va.gov/disability/compensation-rates/veteran-rates/&quot;&gt;Veterans Disability Compensation&lt;/a&gt; program. The &lt;a href=&quot;https://benefits.va.gov/benefits/&quot;&gt;Veterans Benefit Administration&lt;/a&gt; provides a number of other benefits around health, education, and other areas, especially for &lt;a href=&quot;https://www.benefits.va.gov/persona/veteran-elderly.asp&quot;&gt;elderly Veterans&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Yet these programs fail to reach all Veterans in need. As the Department of Veterans Affairs &lt;a href=&quot;https://www.va.gov/vetdata/docs/specialreports/veteran_poverty_trends.pdf&quot;&gt;found&lt;/a&gt; in 2012, veterans with disabilities have a higher official poverty rate than non-veterans with disabilities for all age groups except over age 65, and &lt;a href=&quot;https://www.va.gov/vetdata/docs/Quickfacts/VA_Utilization_Profile_2017.pdf&quot;&gt;half of Veterans&lt;/a&gt; don’t use VA programs. &lt;a href=&quot;https://www.bls.gov/opub/ted/2016/43-point-3-percent-of-veterans-with-a-service-connected-disability-were-employed-in-august-2015.htm#:~:text=Bureau%20of%20Labor%20Statistics,-The%20Economics%20Daily&amp;amp;text=In%20August%202015%2C%20about%204.3,all%20veterans%20was%2047.8%20percent.&quot;&gt;20 percent of Veterans&lt;/a&gt; have a service-connected disability, and as we &lt;a href=&quot;https://blog.ubicenter.org/20200731/ada30.html&quot;&gt;wrote in July&lt;/a&gt;, one in five people with disabilities is in poverty—nearly double the rate of people without disabilities. In that analysis, we also showed that a $300-per-month universal basic income (UBI) would halve poverty among people with disabilities. What would UBI do for all Veterans?&lt;/p&gt;
+
+&lt;p&gt;In this analysis, we modeled a UBI funded by a flat tax on adjusted gross income (AGI). In this model, every $100 monthly UBI requires a 3.3 percent tax on AGI. To fund a $300-per-month UBI, the federal government would have to levy a 9.8 percent tax. But like we found in the disability analysis, this would also reduce Veteran poverty by half. Poverty among children in Veteran households would be cut by 60 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Import Libraries
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+
+# Import data
+raw = pd.read_csv(&quot;https://github.com/UBICenter/Veteran-s_Day/raw/main/VeteranData.gz&quot;)
+
+# Create Demographic Columns
+person = raw.copy(deep=True)
+person.columns = person.columns.str.lower()
+person[&quot;child&quot;] = person.age &amp;lt; 18
+person[&quot;adult&quot;] = person.age &amp;gt;= 18
+person[&quot;veteran&quot;] = (person.vetstat == 2) &amp;amp; person.adult
+person[&quot;non_veteran&quot;] = (person.vetstat == 1) &amp;amp; person.adult
+
+veterans = person.groupby([&quot;spmfamunit&quot;])[[&quot;veteran&quot;]].sum()
+veterans.columns = [&quot;total_veterans&quot;]
+person = person.merge(veterans.reset_index(), on=[&quot;spmfamunit&quot;])
+
+person[&quot;child_with_vet&quot;] = (person.child) &amp;amp; (person.total_veterans &amp;gt; 0)
+person[&quot;child_with_no_vet&quot;] = (person.child) &amp;amp; (person.total_veterans == 0)
+
+# Show total veterans in millions
+total_veterans = (person.veteran * person.asecwt).sum()
+total_veterans / 1_000_000
+
+# Calculate total AGI
+person[&quot;adjginc&quot;].replace({99999999: 0}, inplace=True)
+population = person.asecwt.sum()
+person[&quot;weighted_agi&quot;] = person.adjginc * person.asecwt
+total_agi = person.weighted_agi.sum()
+
+# Calculate AGI tax rate per dollar of UBI
+fed_tax_rate_per_dollar_ubi_monthly = (population * 12) / total_agi
+
+# Create table showing tax amounts
+tax_rates = pd.DataFrame(np.arange(0, 1001, 50))
+tax_rates.columns = [&quot;monthly_ubi&quot;]
+
+
+def tax(monthly_ubi):
+    return (monthly_ubi * fed_tax_rate_per_dollar_ubi_monthly * 100).round(1)
+
+
+def tax_row(row):
+    return tax(row.monthly_ubi)
+
+
+tax_rates[&quot;tax_rate&quot;] = tax_rates.apply(tax_row, axis=1)
+tax_rates.columns = [&quot;Monthly UBI&quot;, &quot;Flat Tax Rate on AGI&quot;]
+
+
+def ubi(status, monthly_ubi):
+    &quot;&quot;&quot;At a given UBI level, calculate the poverty rate, median resources,
+    mean resources, and percent of people better off for:
+    * Veterans
+    * Non-Veterans
+    * Children living with Veteran
+    * Children not living with Veterans
+  
+    Args:
+        status: A person's Veteran status.
+            For this simulation their are 4 categories:
+            * Veteran
+            * Non-Veteran
+            * Child living with a Veteran
+            * Children not living with a Veteran
+        monthly_ubi: the monthly cash transfer given to each person
+  
+    Returns:
+        pandas Series with four elements for the selected group:
+        * Poverty rate
+        * Median resources per person
+        * Mean resources per person
+        * Percent of people better off
+    &quot;&quot;&quot;
+
+    # Create a copy of the person DataFrame
+    target_persons = person.copy(deep=True)
+
+    # Calculate a person's tax increase
+    target_persons[&quot;tax_increase&quot;] = (
+        fed_tax_rate_per_dollar_ubi_monthly * monthly_ubi * target_persons.adjginc
+    )
+
+    # Calculate the total UBI per SPM unit.
+    target_persons[&quot;total_ubi&quot;] = target_persons.spmnpers * 12 * monthly_ubi
+
+    # Calculate the total tax increase of an SPM unit
+    spmu = target_persons.groupby([&quot;spmfamunit&quot;])[[&quot;tax_increase&quot;]].sum()
+    spmu.columns = [&quot;total_tax_increase&quot;]
+    target_persons = target_persons.merge(
+        spmu, left_on=[&quot;spmfamunit&quot;], right_index=True
+    )
+
+    # Calculate each SPM unit's tax rate person
+    target_persons[&quot;new_spm_resources&quot;] = (
+        target_persons.spmtotres
+        + target_persons.total_ubi
+        - target_persons.total_tax_increase
+    )
+
+    # Calculate the new resources per person of each SPM unit
+    target_persons[&quot;new_resources_per_person&quot;] = (
+        target_persons.new_spm_resources / target_persons.spmnpers
+    )
+
+    # Slice the data based on Race input
+    if status == &quot;veteran&quot;:
+        target_persons = target_persons[target_persons.veteran]
+    if status == &quot;non_veteran&quot;:
+        target_persons = target_persons[target_persons.non_veteran]
+
+    if status == &quot;veteran_child&quot;:
+        target_persons = target_persons[target_persons.child_with_vet]
+    if status == &quot;non_veteran_child&quot;:
+        target_persons = target_persons[target_persons.child_with_no_vet]
+
+    # Calculate the change in poverty rate
+    target_persons[&quot;poor&quot;] = target_persons.new_spm_resources &amp;lt; target_persons.spmthresh
+    total_poor = (target_persons.poor * target_persons.asecwt).sum()
+    target_pop = target_persons.asecwt.sum()
+
+    # Calculate percent better off
+    target_persons[&quot;better_off&quot;] = (
+        target_persons.new_spm_resources &amp;gt; target_persons.spmtotres
+    )
+    total_better_off = (target_persons.better_off * target_persons.asecwt).sum()
+    percent = total_better_off / target_pop * 100
+
+    return pd.Series(
+        [
+            mdf.weighted_median(
+                target_persons, &quot;new_resources_per_person&quot;, &quot;asecwt&quot;
+            ).round(0),
+            mdf.weighted_mean(
+                target_persons, &quot;new_resources_per_person&quot;, &quot;asecwt&quot;
+            ).round(0),
+            (total_poor / target_pop * 100).round(1),
+            percent,
+        ]
+    )
+
+
+def ubi_row(row):
+    &quot;&quot;&quot; run the ubi function across the rows of a DataFrame.
+  
+    Arguments
+    row: the row of the DataFrame containing a person's race and the monthly UBI amount
+  
+    Returns
+    The poverty rate for the selected row.
+    The median resources per person for the selected row.
+    The mean resources per person for the selected row.
+    The percent of people better off under the program for the selected row.
+    &quot;&quot;&quot;
+    return ubi(row.status, row.monthly_ubi)
+
+
+# Create a DataFrame that has each the each monthly UBI amount for each race input
+summary = mdf.cartesian_product(
+    {
+        &quot;monthly_ubi&quot;: np.arange(0, 1001, 50),
+        &quot;status&quot;: [&quot;veteran&quot;, &quot;non_veteran&quot;, &quot;veteran_child&quot;, &quot;non_veteran_child&quot;],
+    }
+)
+
+# Calculate the poverty rate for each row of the summary DataFrame
+summary[
+    [
+        &quot;med_resources_per_person&quot;,
+        &quot;mean_resources_per_person&quot;,
+        &quot;poverty_rate&quot;,
+        &quot;better_off&quot;,
+    ]
+] = summary.apply(ubi_row, axis=1)
+
+summary2 = summary[summary[&quot;status&quot;] != &quot;non_veteran_child&quot;]
+summary2 = summary2[summary2[&quot;status&quot;] != &quot;veteran_child&quot;]
+# Format text
+center = {
+    &quot;med_resources_per_person&quot;: &quot;Median resources&quot;,
+    &quot;mean_resources_per_person&quot;: &quot;Mean resources&quot;,
+}
+status = {
+    &quot;veteran&quot;: &quot;Veterans&quot;,
+    &quot;non_veteran&quot;: &quot;Non-Veteran adults&quot;,
+    &quot;veteran_child&quot;: &quot;Children in Veteran households&quot;,
+    &quot;non_veteran_child&quot;: &quot;Children in non-Veteran households&quot;,
+}
+
+summary[&quot;status&quot;] = summary[&quot;status&quot;].map(status)
+summary2[&quot;status&quot;] = summary2[&quot;status&quot;].map(status)
+
+# Colors from https://material.io/design/color/the-color-system.html
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#0D47A1&quot;
+BARELY_BLUE = &quot;#64B5F6&quot;
+GRAY = &quot;#9E9E9E&quot;
+LIGHT_GRAY = &quot;#E0E0E0&quot;
+
+COLOR_MAP = {
+    &quot;Veterans&quot;: BLUE,
+    &quot;Non-Veteran adults&quot;: GRAY,
+    &quot;Children in Veteran households&quot;: BARELY_BLUE,
+    &quot;Children in non-Veteran households&quot;: LIGHT_GRAY,
+}
+
+
+def line_graph(df, x, y, color, title, xaxis_title, yaxis_title):
+    &quot;&quot;&quot;Style for line graphs.
+    
+    Args:
+        df: DataFrame with data to be plotted.
+        x: The string representing the column in df that holds the new
+            spending in billions.
+        y: The string representing the column in df that holds the poverty
+            rate.
+        color: The string representing the UBI type.
+        xaxis_title: The string represnting the xaxis-title.
+        yaxis_title: The string representing the yaxis-title.
+    
+    Returns:
+        Nothing. Shows the plot.
+    &quot;&quot;&quot;
+    fig = px.line(df, x=x, y=y, color=color, color_discrete_map=COLOR_MAP)
+    fig.update_layout(
+        title=title,
+        xaxis_title=xaxis_title,
+        yaxis_title=yaxis_title,
+        yaxis_ticksuffix=&quot;%&quot;,
+        font=dict(family=&quot;Roboto&quot;),
+        hovermode=&quot;x&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+        xaxis_ticksuffix=&quot;&quot;,
+        plot_bgcolor=&quot;white&quot;,
+        legend_title_text=&quot;&quot;,
+    )
+    fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+    hide_line = [&quot;Children in Veteran households&quot;, &quot;Children in non-Veteran households&quot;]
+
+    fig.for_each_trace(
+        lambda trace: trace.update(visible=&quot;legendonly&quot;)
+        if trace.name in hide_line
+        else ()
+    )
+
+    return fig
+
+
+fig = line_graph(
+    df=summary,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;poverty_rate&quot;,
+    color=&quot;status&quot;,
+    title=&quot;The impact of a UBI on Veterans and their families&quot;,
+    xaxis_title=&quot;Monthly UBI&quot;,
+    yaxis_title=&quot;SPM poverty rate&quot;,
+)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/veterans/2020-11-11-veterans-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Studies suggest that reducing Veteran poverty could address issues disproportionately experienced by Veterans. &lt;a href=&quot;https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_163&quot;&gt;Over 37,000 Veterans&lt;/a&gt; experience homelessness on a given night, and a recent experiment in Canada found that &lt;a href=&quot;https://forsocialchange.org/our-story&quot;&gt;cash transfers accelerated&lt;/a&gt; transitions out of homelessness. Veterans have a higher rate of &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4638236/&quot;&gt;mental illness&lt;/a&gt;, especially depression, PTSD, and substance abuse disorder, while Finland’s UBI experiment &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1258064957406511104&quot;&gt;improved mental health&lt;/a&gt;. Controlling for age and sex, the Veteran suicide rate exceeds the non-Veteran suicide rate by &lt;a href=&quot;https://www.mentalhealth.va.gov/docs/data-sheets/2019/2019_National_Veteran_Suicide_Prevention_Annual_Report_508.pdf&quot;&gt;50 percent&lt;/a&gt;, and a review of cash transfer programs in low- and middle-income countries found &lt;a href=&quot;https://mbrg.bsg.ox.ac.uk/sites/default/files/2020-05/the_role_of_cash_transfers_in_preventing_suicides_in_lmics_1.pdf&quot;&gt;significant suicide reductions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The unique Veteran experience warrants investment in tailored solutions, such as the health and education programs offered by the VA. Cash transfers like universal basic income can also reduce their incidence of poverty and empower them to meet their individual needs. Even modest basic incomes such as a tax-funded $300 per month would halve Veteran poverty and more than halve poverty among children of Veterans, improving poverty-linked outcomes for those who have served.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="veterans" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">1 in 5 Americans with disabilities is in poverty. Even small basic incomes would help.</title>
+      <link href="/ada30" rel="alternate" type="text/html" title="1 in 5 Americans with disabilities is in poverty. Even small basic incomes would help." />
+      <published>2020-07-31T00:00:00+00:00</published>
+      <updated>2020-07-31T00:00:00+00:00</updated>
+      <id>/ada30</id>
+      <content type="html" xml:base="/ada30">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;As the Americans with Disabilities Act reaches its 30th anniversary, we wanted to look beyond the workplace to poverty, safety net programs, and basic income. Today, more than 1 in 5 Americans with disabilities live below the poverty threshold, nearly twice the rate of Americans without disabilities.&lt;/p&gt;
+
+&lt;p&gt;While America provides some income support to its citizens with disabilities through Supplemental Security Income (SSI) and Social Security Disability Insurance (SSDI), these programs inevitably leave many out.  Today, 22% of households with people with disabilities do not receive any federal government assistance.  Further, just 14% of households of families where someone is disabled collected SSI, a program “designed to help aged, blind, and &lt;a href=&quot;https://www.ssa.gov/ssi/&quot;&gt;disabled people&lt;/a&gt;, who have little or no income.”  Unemployment insurance was the only program in our analysis that was more likely to go to families without people with disabilities&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+### LOAD PACKAGES ####
+
+import pandas as pd
+import plotly.express as px
+import microdf as mdf
+import numpy as np
+
+### COLORS ###
+
+# Colors from https://material.io/design/color/the-color-system.html
+BLUE = '#1976D2'
+DARK_BLUE = '#0D47A1'
+BARELY_BLUE = '#E3F2FD'
+GRAY = '#BDBDBD'
+
+
+### LOAD DATA ###
+
+person_raw = pd.read_csv('https://github.com/MaxGhenis/datarepo/raw/master/pppub19.csv.gz',
+                         usecols=['MARSUPWT', 'SPM_ID', 'SPM_RESOURCES',
+                                  'SPM_POVTHRESHOLD', 'A_AGE', 'PEDISDRS',
+                                  'PEDISEAR', 'PEDISEYE', 'PEDISOUT',
+                                  'PEDISPHY', 'PEDISREM', 'SPM_NUMPER',
+                                  'SS_VAL', 'SSI_VAL', 'SPM_SNAPSUB',
+                                  'PAW_TYP', 'SPM_CAPHOUSESUB', 'UC_VAL'])
+
+### PREPROCESS ###
+
+person = person_raw.copy(deep = True)
+person.columns = person.columns.str.lower()
+person['weight'] = person.marsupwt / 100
+# Create a new dataframe that only includes adults.
+adults = person[person['a_age'] &amp;gt; 17].copy(deep=True)
+
+# Create a column that shows if people have any disabilities.
+adults['any_disability'] = ((adults.pedisdrs == 1) | 
+                            (adults.pedisear == 1) | 
+                            (adults.pediseye == 1) |
+                            (adults.pedisout == 1) | 
+                            (adults.pedisphy == 1) |
+                            (adults.pedisrem == 1))
+
+# Map the ASEC codes to disability types.
+PWD_MAP = ({'pedisdrs': 'Self-care',
+            'pedisear': 'Hearing',
+            'pediseye': 'Vision',
+            'pedisout': 'Mobility',
+            'pedisphy': 'Physical',
+            'pedisrem': 'Cognitive',
+            'any_disability': 'Any'
+           })
+
+# group individual questions by spm group
+adults['got_tanf'] = np.where(adults.paw_typ == 1, 1, 0)
+PERSON_SPM_COLS = ['ss_val', 'ssi_val', 'uc_val', 'got_tanf']
+groups = adults.groupby('spm_id')[PERSON_SPM_COLS].sum()
+groups.columns = ['spm_' + i for i in PERSON_SPM_COLS]
+adults2 = adults.merge(groups, left_on='spm_id', right_index=True)
+# Also look into OI_OFF column: Value 3 = AFDC
+
+# All PWD records.
+adults_pwd = adults2[adults2.any_disability]
+
+# Note these columns don't represent anything consistent
+# except that &amp;gt;0 values indicate that the SPM unit received it.
+
+# create a columns map
+BEN_MAP = ({'spm_ss_val': 'Social Security', 
+            'spm_ssi_val': 'Supplemental Security Income',
+            'spm_got_tanf': 'TANF',
+            'spm_uc_val': 'Unemployment',
+            'spm_snapsub': 'SNAP',
+            'spm_caphousesub': 'Housing Assistance',
+            'spm_any_ben': 'Any'
+            })
+
+# Sum up all columns except the last (which is any, itself).
+adults2['spm_any_ben'] = adults2[list(BEN_MAP.keys())[:-1]].sum(axis=1)
+
+
+# Create a function that calculates percent of people with disabilities
+# receiving each benefit.
+def percent_bens(ben_column, has_disability):
+    target_adults = adults2[adults2.any_disability == has_disability]
+    total_w_ben = ((target_adults[ben_column] &amp;gt; 0) * target_adults.weight)
+    return ((total_w_ben.sum() / target_adults.weight.sum()) * 100).round(1)
+
+def percent_bens_row(row):
+    return percent_bens(row.ben_column, row.has_disability)
+
+benefits = mdf.cartesian_product({'ben_column': BEN_MAP.keys(),
+                                  'has_disability': [True, False]
+                                  })
+
+benefits['percentage'] = benefits.apply(percent_bens_row, axis=1)
+benefits['benefit'] = benefits.ben_column.map(BEN_MAP)
+benefits = (benefits.sort_values(['percentage','benefit'],
+                               ascending=(True, True)))
+benefits['disability_text'] = np.where(benefits.has_disability,
+                                       'Has disability', 'No disability')
+
+fig = px.bar(benefits, x='percentage', y='benefit', color='disability_text',
+             labels={'percentage': 'Percent receiving benefit',
+                      'benefit': 'Benefit'},
+             title='Share of Americans in families receiving benefits',
+             text='percentage',
+             orientation='h',
+             barmode='group',
+             color_discrete_map={'Has disability': BLUE, 'No disability': GRAY}
+)
+
+fig.update_layout(barmode='group',
+                  font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  yaxis_title='',
+                  legend_title='',
+                  xaxis_ticksuffix='%',
+                  legend={'traceorder': 'reversed'}
+                 )
+
+fig.update_traces(texttemplate='%{text}%')
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/ada30/2020-07-31-ada30-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Universal payments would ensure that all households receive government assistance.  The remainder of this paper examines how universal payments can alleviate poverty for Americans with disabilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;To conduct this analysis, we used the most recent Current Population Survey March Supplement, which reflects 2018 income.  Using this data, we simulated how various UBI levels impact the poverty rate of Americans with a variety of disabilities. For reference, the chart below shows the amount of Americans identifying with each type of disability.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# data for bar graph that shows amount of people with each disability
+
+total_cognitive_m = (adults.weight * (adults.pedisrem==1)).sum()/1e6
+total_mobility_m = (adults.weight * (adults.pedisout==1)).sum()/1e6
+total_self_care_m = (adults.weight * (adults.pedisdrs==1)).sum()/1e6
+total_physical_m = (adults.weight * (adults.pedisphy==1)).sum()/1e6 
+total_vision_m = (adults.weight * (adults.pediseye==1)).sum()/1e6
+total_hearing_m = (adults.weight* (adults.pedisear==1)).sum()/1e6
+total_pwd_m = (adults.weight * adults.any_disability).sum()/1e6
+total_pwd = (adults.weight * adults.any_disability).sum()
+
+total_dict = {'disability_type': ['Cognitive', 'Mobility', 'Self-care', 'Physical',
+                       'Vision', 'Hearing', 'Any'],
+              'total_millions': [total_cognitive_m, total_mobility_m, total_self_care_m, 
+                        total_physical_m, total_vision_m, total_hearing_m,
+                        total_pwd_m] 
+}
+
+total_df = pd.DataFrame(total_dict)
+total_df = total_df.round(1)
+total_df = (total_df.sort_values(['total_millions','disability_type'],
+                               ascending=(False, True)))
+
+fig = px.bar(total_df, x = 'total_millions', y='disability_type',
+             title='Number of adults reporting each disability type',
+             color='disability_type',
+             text='total_millions',
+             orientation = 'h',
+             color_discrete_map={'Cognitive': BLUE,
+                                 'Mobility': BLUE,
+                                 'Self-care': BLUE,
+                                 'Physical': BLUE,
+                                 'Vision': BLUE,
+                                 'Hearing': BLUE,
+                                 'Any': DARK_BLUE})
+
+fig.update_layout(showlegend=False,
+                  xaxis_ticksuffix='M',
+                  font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  xaxis_title='',
+                  yaxis_title=''
+                 )
+fig.update_traces(texttemplate='%{text}M')
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/ada30/2020-07-31-ada30-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;findings&quot;&gt;Findings&lt;/h2&gt;
+&lt;p&gt;We found that  a UBI has the potential to drastically reduce poverty among adults with disabilities and that a $300 monthly UBI would cut the poverty rate in half, from 20.7 percent to 9.2 percent.  A UBI of $1,000 per month, such as in &lt;a href=&quot;https://www.ubicenter.org/plans&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, would shrink the poverty rate among people with disabilities to 1.3 percent.&lt;/p&gt;
+
+&lt;p&gt;With the status quo, poverty rates are highest among people with cognitive, physical, and self-care disabilities, which all exceed 24 percent.  A UBI of $500 per month would slash all these rates below 7 percent, a third of their current level.&lt;/p&gt;
+
+&lt;p&gt;The interactive chart below shows the poverty rate for each group with various monthly UBI levels up to $1,000 at $100 intervals.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Determine the poverty rate impact for Americans with disabilities of a UBI from $0 per month to $1000 per month
+
+def pwd_pov(type_of_disability, monthly_ubi=0):
+    target_persons = adults[adults[type_of_disability]==1].copy(deep=True)
+    target_persons['total_ubi'] = person.spm_numper * monthly_ubi * 12
+    target_persons['new_spm_resources'] = (target_persons.total_ubi
+                                           + target_persons.spm_resources)
+    target_persons['poor'] = (target_persons.new_spm_resources 
+                              &amp;lt; target_persons.spm_povthreshold)
+    population_target = target_persons.weight.sum()
+    total_target_poor = (target_persons.poor * target_persons.weight).sum()
+    total_pov_rate = total_target_poor / population_target
+
+    return (total_pov_rate * 100).round(1)
+
+def pwd_pov_row(row):
+    return pwd_pov(row.type_of_disability, row.monthly_ubi)
+
+# Create a dataframe that summarizes the outputs of the function
+
+summary = mdf.cartesian_product({'type_of_disability':PWD_MAP,
+                       'monthly_ubi': np.arange(0,1001,100)})
+
+summary['poverty_rate'] = summary.apply(pwd_pov_row, axis=1)
+summary['disability_type'] = summary.type_of_disability.map(PWD_MAP)
+summary = (summary.sort_values(['poverty_rate','disability_type'],
+                               ascending=(False, True)))
+
+# Add new rows for the difference between original and current (w/UBI) pov.
+original_pov = summary[summary.monthly_ubi == 0].copy(deep=True)
+original_pov.drop(['monthly_ubi', 'disability_type'], axis=1, inplace=True)
+original_pov.rename(columns = {'poverty_rate': 'original_poverty_rate'},
+                    inplace=True)
+summary = summary.merge(original_pov, on='type_of_disability')
+
+# Calculate the difference
+summary['poverty_delta'] = (summary.original_poverty_rate -
+                            summary.poverty_rate).round(1)
+
+SUM_MAP = ({'poverty_rate': 'People in poverty',
+            'poverty_delta': 'People no longer in poverty'})
+
+summary_long = summary.melt(id_vars=['disability_type', 'monthly_ubi',
+                                     'original_poverty_rate'],
+                            value_vars=['poverty_rate', 'poverty_delta'])
+summary_long['poverty_in_out'] = summary_long.variable.map(SUM_MAP)
+summary_long.sort_values(['original_poverty_rate', 'monthly_ubi'],
+                         ascending=[True, True], inplace=True)
+
+fig = px.bar(summary_long, x='value', y='disability_type',
+             color='poverty_in_out',
+             animation_frame='monthly_ubi', range_x=[0,25],
+             labels={&quot;value&quot;: &quot;SPM poverty rate&quot;,
+                     &quot;disability_type&quot;: &quot;Disability type&quot;,
+                     &quot;monthly_ubi&quot;: &quot;Monthly UBI&quot;
+                    },
+             title='Effect of UBI on poverty among adults with disabilities',
+             orientation='h',
+             color_discrete_map={'People in poverty': BLUE,
+                                 'People no longer in poverty': BARELY_BLUE
+                                }
+             )
+
+fig.update_layout(xaxis_ticksuffix='%',
+                  plot_bgcolor='white',
+                  font=dict(family='Roboto'),
+                  legend_title_text=''
+                 )
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/ada30/2020-07-31-ada30-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This research fits a growing trend, that stripping benefits of their bureaucracy, and making payments truly universal, is often the simplest way to reach target groups.  Programs that impose administrative burdens will continue to miss many Americans with disabilities, while a UBI will not.  Still, it is important to acknowledge that cash transfers alone are not sufficient in protecting the rights of Americans with disabilities and that  we should follow disability rights advocates in the fight for equal access to healthcare, transportation, independent living, and more workplace portections.   But reducing poverty among people with disabilities is a worthy goal of its own, and our analysis shows that a UBI would be a powerful tool in accomplishing that aim.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="disability" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">To minimize poverty, should UBI be provided for adults, children, or both?</title>
+      <link href="/adult-child-ubi" rel="alternate" type="text/html" title="To minimize poverty, should UBI be provided for adults, children, or both?" />
+      <published>2020-07-07T00:00:00+00:00</published>
+      <updated>2020-07-07T00:00:00+00:00</updated>
+      <id>/adult-child-ubi</id>
+      <content type="html" xml:base="/adult-child-ubi">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;While &lt;a href=&quot;https://fred.stlouisfed.org/series/A939RX0Q048SBEA&quot;&gt;US GDP per capita has more than doubled in the past 50 years&lt;/a&gt;, many Americans still remain in poverty. According to the Census Bureau’s 2018 Supplemental Poverty Measure (SPM), over 40 million Americans live below their SPM poverty threshold.&lt;/p&gt;
+
+&lt;p&gt;Some &lt;a href=&quot;https://www.ubicenter.org/plans&quot;&gt;large guaranteed-income programs have been shown to nearly eliminate poverty&lt;/a&gt;, but spending constraints can change how program design affects different outcomes. This paper shows the impact of new universal cash programs on poverty alleviation under varying levels of spending.&lt;/p&gt;
+
+&lt;p&gt;I examine the poverty rate impacts of three different basic income programs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adult UBI - provides monthly stipends only to adults.&lt;/li&gt;
+  &lt;li&gt;Child Allowance - provides families monthly stipends based only on how many children are in their household.&lt;/li&gt;
+  &lt;li&gt;All UBI - provides an equal monthly stipend to all Americans regardless of age (parents would receive it on behalf of their children).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Two years ago, Matt Bruenig produced a similar  &lt;a href=&quot;https://www.peoplespolicyproject.org/2018/11/29/a-child-allowance-would-be-very-effective-at-poverty-reduction/&quot;&gt;paper&lt;/a&gt; using 2017 data in which he compared the same three programs and their impact on the poverty rate up to $500 billion in new spending. Bruenig found that at all levels of spending up to $500 billion, a Child Allowance was the most effective program at reducing poverty. This paper considers new spending up to $1 trillion with updated data from 2018.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I used data from the Census Bureau’s 2019 Annual Social and Economic Supplement (ASEC), which uses data collected in 2018. The ASEC survey contains over 180,000 Americans from more than 75,000 households. Each respondent is assigned a sample weight by the Census Bureau so that models can provide consistent national-level estimates.&lt;/p&gt;
+
+&lt;p&gt;The Supplemental Poverty Measure classifies respondents’ poverty status by comparing their total family income (post tax and transfers) to their family poverty threshold. The Census Bureau defines poverty thresholds based on family size and costs of necessities.&lt;/p&gt;
+
+&lt;p&gt;In 2018, 12.7 percent of Americans were in poverty, including 13.6 percent of children and 12.5 percent of adults.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;A Child Allowance reduces overall poverty more than the other two designs, for spending up to $500 billion; this aligns with Bruenig’s results. However, at levels beyond $500 billion, a UBI that includes everyone cuts overall poverty more.&lt;/p&gt;
+
+&lt;p&gt;Spending $100 billion on a Child Allowance would equate to monthly stipends of $114 per child and lift 4.5 million Americans (1.3 million children and 3.2 million adults) out of poverty. $500 billion on either a Child Allowance or All UBI would lift 12 million Americans out of poverty. Spending $1 trillion on an All UBI would equate to monthly checks of $258 per American and lift over 22 million people out of poverty.&lt;/p&gt;
+
+&lt;p&gt;The interactive graph below shows the poverty impacts of each program at different funding levels.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+### LOAD PACKAGES ####
+
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly
+
+### LOAD DATA ###
+
+person_raw = pd.read_csv('https://github.com/MaxGhenis/datarepo/raw/master/pppub19.csv.gz',
+                         usecols=['MARSUPWT', 'SPM_ID', 'SPM_POVTHRESHOLD',
+                                  'SPM_RESOURCES', 'A_AGE'])
+
+### PREPROCESS ###
+
+person = person_raw.copy(deep=True)
+person.columns = person.columns.str.lower()
+person['weight'] = person.marsupwt/100
+#Compute total children and adults in each resource sharing group.
+person['child'] = person.a_age &amp;lt; 18
+person['adult'] = person.a_age &amp;gt;= 18
+spmu_ages = person.groupby('spm_id')[['child','adult']].sum()
+spmu_ages.columns = ['children', 'total_adults']
+person2 = person.merge(spmu_ages,left_on='spm_id', right_index=True)
+total_children = (person2.child * person2.weight).sum()
+total_adults = (person2.adult * person2.weight).sum()
+
+### CALCULATIONS ###
+
+child_allowance_overall = []
+child_allowance_child = []
+child_allowance_adults = []
+
+# Determine the poverty rate impact of a Child Allownace from $0 in new spending to $1 trillion.
+
+for spending in range(0, 1000000000001, 50000000000):
+    child_allowance_per_child = spending/total_children
+    total_child_allowance = person2.children * child_allowance_per_child
+    new_spm_resources_ca = person2.spm_resources + total_child_allowance
+    new_poor_ca = new_spm_resources_ca &amp;lt; person2.spm_povthreshold
+    new_total_child_poor = ((person2.child * person2.weight * 
+                             new_poor_ca).sum())
+    new_child_poverty_rate = ((new_total_child_poor)/
+                              (person2.child * person2.weight).sum())
+    new_total_adult_poor = ((person2.adult * person2.weight * 
+                             new_poor_ca).sum())
+    new_adult_poverty_rate = ((new_total_adult_poor)/
+                              (person2.adult * person2.weight).sum())
+    new_total_poor_ca = (new_poor_ca * person2.weight).sum()
+    new_poverty_rate_ca = new_total_poor_ca/person2.weight.sum()
+    child_allowance_overall.append(new_poverty_rate_ca)
+    child_allowance_child.append(new_child_poverty_rate)
+    child_allowance_adults.append(new_adult_poverty_rate)
+    
+ubi_adults_overall = []
+ubi_adults_child = []
+ubi_adults_adults = []
+
+# Determine the poverty rate impact of a Adult UBI from $0 in new spending to $1 trillion.
+
+for spending in range(0, 1000000000001, 50000000000):
+    adult_ubi = spending/total_adults
+    total_adult_ubi = person2.total_adults * adult_ubi
+    new_spm_resources_ubi = person2.spm_resources + total_adult_ubi
+    new_poor_ubi = new_spm_resources_ubi &amp;lt; person2.spm_povthreshold
+    new_total_child_poor = ((person2.child * person2.weight * 
+                             new_poor_ubi).sum())
+    new_child_poverty_rate = ((new_total_child_poor)/
+                              (person2.child * person2.weight).sum())
+    new_total_adult_poor = ((person2.adult * person2.weight * 
+                             new_poor_ubi).sum())
+    new_adult_poverty_rate = ((new_total_adult_poor)/
+                              (person2.adult * person2.weight).sum())
+    new_total_poor_ubi = (new_poor_ubi * person2.weight).sum()
+    new_poverty_rate_ubi = new_total_poor_ubi/person2.weight.sum()
+    ubi_adults_overall.append(new_poverty_rate_ubi)
+    ubi_adults_child.append(new_child_poverty_rate)
+    ubi_adults_adults.append(new_adult_poverty_rate)
+    
+ubi_all_overall = []
+ubi_all_child = []
+ubi_all_adults = []
+
+# Determine the poverty rate impact of a All UBI from $0 in new spending to $1 trillion.
+
+for spending in range(0, 1000000000001, 50000000000):
+    all_ubi_per_person = spending/(total_adults + total_children)
+    total_all_ubi = ((person2.children * all_ubi_per_person) + 
+                    (person2.total_adults * all_ubi_per_person))
+    new_spm_resources_all_ubi = person2.spm_resources + total_all_ubi
+    new_poor_all_ubi = new_spm_resources_all_ubi &amp;lt; person2.spm_povthreshold
+    new_total_child_poor = ((person2.child * person2.weight * 
+                             new_poor_all_ubi).sum())
+    new_child_poverty_rate = ((new_total_child_poor)/
+                              (person2.child * person2.weight).sum())
+    new_total_adult_poor = ((person2.adult * person2.weight * 
+                             new_poor_all_ubi).sum())
+    new_adult_poverty_rate = ((new_total_adult_poor)/
+                              (person2.adult * person2.weight).sum())
+    new_total_poor_all_ubi = (new_poor_all_ubi * person2.weight).sum()
+    new_poverty_rate_all_ubi = new_total_poor_all_ubi/person2.weight.sum()
+    ubi_all_overall.append(new_poverty_rate_all_ubi)
+    ubi_all_child.append(new_child_poverty_rate)
+    ubi_all_adults.append(new_adult_poverty_rate)
+    
+spending_data = []
+for spending in range(0, 1001, 50):
+    spending = spending/100
+    spending_data.append(spending)
+    
+### ANALYSIS ###
+
+# Create a DataFrame grouped by each plans impact on the overall poverty rate. 
+overall = {'spending_in_billions': spending_data,
+                       'child_allowance': child_allowance_overall,
+                       'adult_ubi': ubi_adults_overall,
+                       'all_ubi': ubi_all_overall}
+                    
+overall_df = pd.DataFrame(overall)
+overall_df = pd.DataFrame(overall_df).round(3)
+
+# Create a DataFrame grouped by each plans impact on the child poverty rate.
+child = {'spending_in_billions': spending_data,
+         'child_allowance': child_allowance_child,
+         'adult_ubi': ubi_adults_child,
+         'all_ubi': ubi_all_child}
+                    
+child_df = pd.DataFrame(child)
+child_df = pd.DataFrame(child_df).round(3)
+
+
+# Create a DataFrame grouped by each plans impact on the adult poverty rate.
+adult = {'spending_in_billions': spending_data,
+         'child_allowance': child_allowance_adults,
+         'adult_ubi': ubi_adults_adults,
+         'all_ubi': ubi_all_adults}
+                    
+adult_df = pd.DataFrame(adult)
+adult_df = pd.DataFrame(adult_df).round(3)
+
+
+# Join different programs together for plotly.
+program = (pd.melt(overall_df, 'spending_in_billions', 
+                   var_name='ubi_type',value_name='poverty_rate'))
+
+def melt_dict(d):
+  &quot;&quot;&quot; produce long version of data frame represented by dictionary (d).
+  
+  Arguments
+  d: Dictionary where each element represents a differnt UBI type and spending levels and the poverty impacts.
+  
+  Returns
+  DataFrame where every row is the combination of UBI type and spending level.
+  &quot;&quot;&quot;
+  df = pd.DataFrame(d).round(3) * 100
+  program = pd.melt(df, 'spending_in_billions', var_name='ubi_type',value_name='poverty_rate')
+  program['ubi_type'] = program.ubi_type.map({'child_allowance': 'Child allowance',
+                                      'adult_ubi': 'Adult UBI',
+                                      'all_ubi': 'All UBI'})
+  return program
+
+program_overall = melt_dict(overall)
+program_child = melt_dict(child)
+program_adult = melt_dict(adult)
+
+def line_graph(df, x, y, color, title, xaxis_title, yaxis_title):
+    &quot;&quot;&quot;Style for line graphs.
+    
+    Arguments
+    df: DataFrame with data to be plotted.
+    x: The string representing the column in df that holds the new spending in billions.
+    y: The string representing the column in df that holds the poverty rate.
+    color: The string representing the UBI type.
+    xaxis_title: The string represnting the xaxis-title.
+    yaxis_title: The string representing the yaxis-title.
+    
+    Returns
+    Nothing. Shows the plot.
+    &quot;&quot;&quot;
+    fig = px.line(df, x=x, y=y, color=color)
+    fig.update_layout(
+        title=title,
+        xaxis_title=xaxis_title,
+        yaxis_title=yaxis_title,
+        yaxis_ticksuffix='%',
+        font=dict(family='Roboto'),
+        hovermode='x',
+        xaxis_tickprefix='$',
+        xaxis_ticksuffix='B',
+        plot_bgcolor='white',
+        legend_title_text=''
+        
+    )
+
+    fig.update_traces(mode='markers+lines', hovertemplate=None)
+
+    return fig
+
+fig = line_graph(df=program_overall, x='spending_in_billions', 
+           y='poverty_rate', color='ubi_type',
+           title='Overall poverty rate and spending on cash transfer programs',
+           xaxis_title='Spending in billions',
+           yaxis_title='SPM poverty rate')
+
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/adult_child_ubi/2020-07-07-adult-child-ubi-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Unsurprisingly, a Child Allowance was the most effective program at reducing child poverty at all levels of spending. Spending $400 billion on a Child Allowance cuts child poverty by over two-thirds, from 13.6 percent to 4.3 percent.&lt;/p&gt;
+
+&lt;p&gt;Comparatively, spending $1 trillion on an Adult UBI leaves 7 percent of children still in poverty. For an All UBI and a Child Allowance under the same spending, 4 percent and 1 percent of children would remain in poverty, respectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(df=program_child, x='spending_in_billions', 
+           y='poverty_rate', color='ubi_type',
+           title='Child poverty rate and spending on cash transfer programs',
+           xaxis_title='Spending in billions',
+           yaxis_title='SPM poverty rate among people aged 17 and under')
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/adult_child_ubi/2020-07-07-adult-child-ubi-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;An Adult UBI and an All UBI have nearly identical effects on the adult poverty rate. A Child Allowance has a smaller impact on adult poverty because the benefits only go to adults with children in their family.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(df=program_adult, x='spending_in_billions', 
+           y='poverty_rate', color='ubi_type',
+           title='Adult poverty rate and spending on cash transfer programs',
+           xaxis_title='Spending in billions',
+           yaxis_title='SPM poverty rate among people aged 18 and over')
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/adult_child_ubi/2020-07-07-adult-child-ubi-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This analysis finds that (a) including children in basic income plans enhances their anti-poverty effects and (b) optimal policy depends on spending levels.&lt;/p&gt;
+
+&lt;p&gt;Given limited political support for added spending, a Child Allowance alleviates poverty most effectively. If the political appetite for anti-poverty spending is more substantial, we should aim to provide a truly universal UBI and provide cash transfers to everyone.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nate Golden</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How universal basic income would affect the black-white poverty and wealth gaps</title>
+      <link href="/how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps" rel="alternate" type="text/html" title="How universal basic income would affect the black-white poverty and wealth gaps" />
+      <published>2020-06-20T01:02:31+00:00</published>
+      <updated>2020-06-20T01:02:31+00:00</updated>
+      <id>/how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps</id>
+      <content type="html" xml:base="/how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps">&lt;p&gt;Today, one in five black Americans lives in poverty, nearly double the rate of white Americans. Meanwhile, the average net worth of white families is more than five times that of black families, and the median is more than seven times higher.&lt;/p&gt;
+
+&lt;p&gt;These gaps are the product of slavery, Jim Crow laws, housing laws denying black Americans federal mortgage subsidies, and many more injustices. Like &lt;a href=&quot;https://www.cnn.com/2020/02/15/us/racist-deeds-covenants/index.html&quot;&gt;whites-only covenants&lt;/a&gt; in housing deeds across America, we have yet to erase the economic legacies of our racist history.&lt;/p&gt;
+
+&lt;p&gt;A number of economic policies have been proposed to reduce these gaps, from &lt;a href=&quot;https://static1.squarespace.com/static/5743308460b5e922a25a6dc7/t/5c4339f67ba7fc4a9add58f9/1547909624486/Zewde-Baby-Bonds-WP-10-30-18.pdf&quot;&gt;“baby bonds”&lt;/a&gt; to &lt;a href=&quot;https://www.cbpp.org/research/federal-tax/working-families-tax-relief-act-would-raise-incomes-of-46-million-households&quot;&gt;expansions of refundable tax credits&lt;/a&gt; to &lt;a href=&quot;https://www.brookings.edu/blog/up-front/2020/06/15/black-reparations-and-the-racial-wealth-gap/&quot;&gt;reparations&lt;/a&gt;. How would universal basic income fare?&lt;/p&gt;
+
+&lt;p&gt;To answer this question, I went to the Census Bureau’s 2018 &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;Supplemental Poverty Measure&lt;/a&gt; (SPM; see this &lt;a href=&quot;https://www.vox.com/2015/9/16/9337041/supplemental-poverty-measure&quot;&gt;Vox explainer&lt;/a&gt; on SPM’s improvements over the Official Poverty Measure) and the Federal Reserve’s 2016 &lt;a href=&quot;https://www.federalreserve.gov/econres/scfindex.htm&quot;&gt;Survey of Consumer Finances&lt;/a&gt;. I modeled how the black-white gaps&lt;sup id=&quot;fnref:gaps&quot;&gt;&lt;a href=&quot;#fn:gaps&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in the SPM poverty rate, median wealth, and mean wealth change when providing each person (children, too) an unconditional payment each month. I don’t assume any funding, so this can be thought of as a lower bound on the gap closure, if the UBI were to be funded through progressive taxes.&lt;/p&gt;
+
+&lt;p&gt;The results show large effects from even modest UBIs. For example, a $200 per month payment would more than halve the black poverty rate, putting it below the current white poverty rate. This would cost about $800 billion per year. A $1,000 monthly UBI would reduce the poverty rate from its current 13 percent to roughly 1 percent for all racial groups, costing about $4 trillion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-0.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;UBI wouldn’t only reduce the black poverty rate on an absolute basis, it would also close the black-white poverty gap. Currently, the black poverty rate is 1.82 times the white poverty rate; a $200-per-month UBI would reduce that to 1.65, and a $1,000-per-month UBI would reduce it to 1.38.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-1.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The scale of racial wealth inequality — hundreds of years in the making — dampens the effect compared to poverty. White families have median wealth of $125,000, 7.7 times the median black wealth of $16,300. The mean wealth delta is relatively smaller but larger on an absolute basis: white families have average wealth of $800,000, 5.7 times the $140,000 mean wealth of black families.&lt;/p&gt;
+
+&lt;p&gt;Again there are significant effects from even the $200-per-month UBI, which would cut the median wealth gap from 7.7 to 6.0 and cut the mean wealth gap from 5.7 to 5.5.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-2.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While this assumes people save their entire UBI, it only reflects the program’s first year. Given how income inequality &lt;a href=&quot;https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap&quot;&gt;contributes to&lt;/a&gt; wealth inequality, we can expect that the policy would shrink the racial wealth gap more in later years, as families accrue, invest, and bequeath parts of their ongoing UBI payments over time.&lt;/p&gt;
+
+&lt;p&gt;Putting it all together and benchmarking against today, the black-white poverty and wealth gaps shrink more as the UBI grows. A $200-per-month UBI would reduce the mean wealth gap by 3.6 percent, the poverty gap by 21 percent, and the median wealth gap by 25 percent. $1,000 per month would cut the mean wealth gap by 16 percent, the poverty gap by 53 percent, and the median wealth gap by 70 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-3.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The severity of economic disparities between black and white families justifies considering a wide range of solutions. By avoiding exclusions or strings, UBI reaches everyone and cuts the gaps substantially. Let’s include it in the conversation.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:gaps&quot;&gt;
+      &lt;p&gt;White includes Hispanic. White and black mean white only and black only. The code behind these analyses is published at &lt;a href=&quot;https://github.com/UBICenter/black_ubi&quot;&gt;github.com/UBICenter/black_ubi&lt;/a&gt;. &lt;a href=&quot;#fnref:gaps&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="race" />
+      
+        <category term="poverty" />
+      
+        <category term="wealth" />
+      
+
+      
+        <summary type="html">Today, one in five black Americans lives in poverty, nearly double the rate of white Americans. Meanwhile, the average net worth of white families is more than five times that of black families, and the median is more than seven times higher.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How universal basic income can keep poverty from rising amid Covid-19</title>
+      <link href="/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19" rel="alternate" type="text/html" title="How universal basic income can keep poverty from rising amid Covid-19" />
+      <published>2020-03-20T03:12:48+00:00</published>
+      <updated>2020-03-20T03:12:48+00:00</updated>
+      <id>/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19</id>
+      <content type="html" xml:base="/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19">&lt;h4 id=&quot;read-the-paperhere&quot;&gt;&lt;a href=&quot;https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf&quot;&gt;Read the paper here&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;As the Covid-19 coronavirus batters the global economy, United States policymakers are considering a range of responses to keep families afloat. In addition to targeted policies like payroll tax cuts, paid sick leave, and small business loans, a simple approach is gaining traction: sending checks directly to families.
+&lt;a href=&quot;https://www.congress.gov/bill/116th-congress/house-resolution/897&quot;&gt;Democrats&lt;/a&gt;
+&lt;a href=&quot;https://khanna.house.gov/media/press-releases/release-reps-ryan-khanna-propose-cash-infusion-between-1000-6000-help-working&quot;&gt;and&lt;/a&gt;
+&lt;a href=&quot;https://www.romney.senate.gov/romney-calls-urgent-action-additional-coronavirus-response-measures&quot;&gt;Republicans&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/AOC/status/1238082295359328256&quot;&gt;in&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/SenTomCotton/status/1239575319989882880&quot;&gt;the&lt;/a&gt;
+&lt;a href=&quot;https://financialservices.house.gov/uploadedfiles/fsc_covid-19_legislative_package_-_03.18.20.pdf&quot;&gt;House&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/RepJoeKennedy/status/1239920721792565250&quot;&gt;and&lt;/a&gt;
+&lt;a href=&quot;https://www.documentcloud.org/documents/6811721-Brown-Booker-Bennet-Letter-Re-Cash-Payments-3-17.html&quot;&gt;Senate&lt;/a&gt; are joining 
+&lt;a href=&quot;https://www.wsj.com/articles/the-case-for-a-big-coronavirus-stimulus-11583448500&quot;&gt;prominent&lt;/a&gt;
+&lt;a href=&quot;http://gregmankiw.blogspot.com/2020/03/thoughts-on-pandemic.html?m=1&quot;&gt;economists&lt;/a&gt; in calling for immediate cash transfers to ensure all Americans can meet basic needs in these dire times.&lt;/p&gt;
+
+&lt;p&gt;Many are gravitating specifically to universal basic income (UBI), which would provide the same amount to everyone. This is attractive today because restricting based on income would involve looking to tax returns for the year 2018, which might not represent families’ current finances, or 2019, many of which have not yet been filed. Relying on the IRS could also delay the delivery of this badly-needed money and require special treatment for nonfilers.&lt;/p&gt;
+
+&lt;p&gt;If we choose UBI, how large should it be? And who should be included?&lt;/p&gt;
+
+&lt;p&gt;To answer these questions, I focused on a simple objective: &lt;strong&gt;stopping the poverty rate from rising,&lt;/strong&gt; as it did &lt;a href=&quot;https://www.povertycenter.columbia.edu/historical-spm-data-reg&quot;&gt;in the Great Recession&lt;/a&gt;. Nobody knows how much Covid-19 will shrink incomes throughout 2020, so I simulated a range of decreases from 1 to 20 percent. For each scenario, I calculated the UBI necessary to stabilize the poverty rate, depending on who is included, from everyone to only adult citizens.&lt;/p&gt;
+
+&lt;p&gt;The results, which can be found &lt;a href=&quot;https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf&quot;&gt;&lt;strong&gt;in my new paper&lt;/strong&gt;&lt;/a&gt;, reveal that a modest UBI can stabilize poverty — if we include everyone. For example, a $1,000 annual UBI would more than offset a 10 percent fall in incomes — &lt;a href=&quot;https://fred.stlouisfed.org/graph/?g=qrBT&quot;&gt;roughly the drop from 2007 to 2011&lt;/a&gt;. If we exclude children and noncitizens, however, many would continue to slip into poverty, and the checks would have to exceed $1,500 per recipient.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-0.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The higher amount required swamps the savings from sending fewer checks. Giving to everyone means sending 42 percent more checks, but excluding children and noncitizens requires each check to be 83 percent larger to stop the poverty rate from rising.&lt;/p&gt;
+
+&lt;p&gt;On a net basis, stabilizing poverty is 23 percent cheaper with a UBI that includes everyone, compared to one that’s limited to adult citizens. Including everyone is also cheaper than all other eligibility options I modeled, such as including all adults but only giving a half share to children.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-1.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These results also hold regardless of how low incomes fall; inclusive UBIs are consistently more cost-effective.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-2.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many questions remain: For example, how do these results change if we learn that service workers are disproportionately harmed? How much of the gap could safety net programs fill, especially if they’re expanded? How do UBIs compare to alternative policies on a per-dollar basis?&lt;/p&gt;
+
+&lt;p&gt;Poverty stabilization is also far from the only outcome to consider. Paid sick leave might help to contain the infection; payroll tax cuts might keep people employed; small business loans might keep doors from shutting. But each of these is likely to be regressive compared to UBI, and to have a smaller anti-poverty effect. Keeping poverty from rising should be a high priority, but it shouldn’t be the only distributional goal when designing pandemic relief programs.&lt;/p&gt;
+
+&lt;p&gt;UBI is well positioned to help all people with the urgency required of this crisis. Cash can be distributed immediately, especially if it’s done broadly. Unlike in-kind benefits like food stamps, it can be used to pay any bills that arise. And as my new paper shows, UBI is a cost-effective tool to prevent a rise in poverty. To maximize the anti-poverty impact, we should send checks broadly, generously, and quickly.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="covid" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html">Read the paper here</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

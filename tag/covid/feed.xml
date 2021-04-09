@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/covid/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-04-09T16:35:15+00:00</updated>
+  <id>/tag/covid/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Tracking US emergency cash transfer proposals</title>
+      <link href="/tracking-us-emergency-cash-transfer-proposals" rel="alternate" type="text/html" title="Tracking US emergency cash transfer proposals" />
+      <published>2020-03-22T20:22:59+00:00</published>
+      <updated>2020-03-22T20:22:59+00:00</updated>
+      <id>/tracking-us-emergency-cash-transfer-proposals</id>
+      <content type="html" xml:base="/tracking-us-emergency-cash-transfer-proposals">&lt;h4 id=&quot;see-the-tracker-here-and-ubicenterorgcovid19-for-moreresearch&quot;&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ZuHR2uOKWoloXw5raJzMNRjOMggcWdBxYB3Jhf0B4lE&quot;&gt;See the tracker here&lt;/a&gt; and &lt;a href=&quot;http://ubicenter.org/covid19&quot;&gt;ubicenter.org/covid19&lt;/a&gt; for more research&lt;/h4&gt;
+
+&lt;p&gt;The Covid-19 outbreak is preventing workers from collecting a paycheck, blowing up unemployment rolls, sending capital income into the red, and devastating job-seekers. To ensure families can keep paying their bills, United States policymakers are increasingly considering emergency cash transfers and universal basic income.&lt;/p&gt;
+
+&lt;p&gt;The first proposals arrived on March 12, when Democratic Representatives &lt;a href=&quot;https://khanna.house.gov/media/press-releases/release-reps-ryan-khanna-propose-cash-infusion-between-1000-6000-help-working&quot;&gt;Ro Khanna, Tim Ryan&lt;/a&gt;, and &lt;a href=&quot;https://www.congress.gov/bill/116th-congress/house-resolution/897&quot;&gt;Tulsi Gabbard&lt;/a&gt; proposed different forms of monthly payments of $1,000 per adult. The most recent is the House Democrats’ &lt;a href=&quot;https://docs.house.gov/billsthisweek/20200511/BILLS-116hr6800ih.pdf&quot;&gt;HEROES Act&lt;/a&gt;, which gives one-time payments of $1,200 per person, phasing out for incomes above $75,000 ($150,000 for married filers). Democrats and Republicans in the House, Senate, and White House have proposed 20 total cash transfer and UBI policies, including the &lt;a href=&quot;https://www.politico.com/f/?id=00000171-0319-d8a3-a3f5-73bfe5b20000&quot;&gt;CARES Act&lt;/a&gt;, signed on March 27, which provides one-time payments up to $1,200 per adult and $500 per child, depending on 2019 income (or 2018 if you haven’t filed yet for 2019).&lt;/p&gt;
+
+&lt;p&gt;Eight of the 20 proposals — from &lt;a href=&quot;https://www.congress.gov/bill/116th-congress/house-resolution/897&quot;&gt;Gabbard&lt;/a&gt;, &lt;a href=&quot;https://www.romney.senate.gov/romney-calls-urgent-action-additional-coronavirus-response-measures&quot;&gt;Mitt Romney&lt;/a&gt;, &lt;a href=&quot;https://berniesanders.com/issues/emergency-response-coronavirus-pandemic/&quot;&gt;Bernie Sanders&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/IlhanMN/status/1239946523456286722&quot;&gt;Ilhan Omar&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RepJoeKennedy/status/1239920721792565250&quot;&gt;Joe Kennedy III&lt;/a&gt;, &lt;a href=&quot;https://financialservices.house.gov/uploadedfiles/fsc_covid-19_legislative_package_-_03.18.20.pdf&quot;&gt;Maxine Waters&lt;/a&gt;, &lt;a href=&quot;https://tlaib.house.gov/sites/tlaib.house.gov/files/Automatic%20Boost%20to%20Communities%20Act%20.pdf&quot;&gt;Rashida Tlaib&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/justinamash/status/1242486422180855815&quot;&gt;Justin Amash&lt;/a&gt; — resemble UBI in that they are given to everyone regardless of income.&lt;sup id=&quot;fnref:kennedy&quot;&gt;&lt;a href=&quot;#fn:kennedy&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; By skipping reliance on 2018 or 2019 IRS tax return data, UBI can be distributed quickly without excluding people whose financial situation has changed.&lt;/p&gt;
+
+&lt;p&gt;These emergency cash transfer proposals vary by amount, inclusion of children, whether they phase out with income, frequency, and other factors. To keep track of them all, I made &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ZuHR2uOKWoloXw5raJzMNRjOMggcWdBxYB3Jhf0B4lE&quot;&gt;&lt;strong&gt;this spreadsheet&lt;/strong&gt;&lt;/a&gt;, which breaks each proposal down by 17 features (snapshot below). I’ll continue to update it as discussions in Washington evolve.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Updated May 12, 2020. For more UBI Center research on Covid-19 emergency cash transfers and UBIs, visit &lt;a href=&quot;http://ubicenter.org/covid19&quot;&gt;&lt;strong&gt;ubicenter.org/covid19&lt;/strong&gt;&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:kennedy&quot;&gt;
+      &lt;p&gt;Kennedy’s proposal also has a means-tested component. &lt;a href=&quot;#fnref:kennedy&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="covid" />
+      
+
+      
+        <summary type="html">See the tracker here and ubicenter.org/covid19 for more research</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How universal basic income can keep poverty from rising amid Covid-19</title>
+      <link href="/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19" rel="alternate" type="text/html" title="How universal basic income can keep poverty from rising amid Covid-19" />
+      <published>2020-03-20T03:12:48+00:00</published>
+      <updated>2020-03-20T03:12:48+00:00</updated>
+      <id>/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19</id>
+      <content type="html" xml:base="/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19">&lt;h4 id=&quot;read-the-paperhere&quot;&gt;&lt;a href=&quot;https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf&quot;&gt;Read the paper here&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;As the Covid-19 coronavirus batters the global economy, United States policymakers are considering a range of responses to keep families afloat. In addition to targeted policies like payroll tax cuts, paid sick leave, and small business loans, a simple approach is gaining traction: sending checks directly to families.
+&lt;a href=&quot;https://www.congress.gov/bill/116th-congress/house-resolution/897&quot;&gt;Democrats&lt;/a&gt;
+&lt;a href=&quot;https://khanna.house.gov/media/press-releases/release-reps-ryan-khanna-propose-cash-infusion-between-1000-6000-help-working&quot;&gt;and&lt;/a&gt;
+&lt;a href=&quot;https://www.romney.senate.gov/romney-calls-urgent-action-additional-coronavirus-response-measures&quot;&gt;Republicans&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/AOC/status/1238082295359328256&quot;&gt;in&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/SenTomCotton/status/1239575319989882880&quot;&gt;the&lt;/a&gt;
+&lt;a href=&quot;https://financialservices.house.gov/uploadedfiles/fsc_covid-19_legislative_package_-_03.18.20.pdf&quot;&gt;House&lt;/a&gt;
+&lt;a href=&quot;https://twitter.com/RepJoeKennedy/status/1239920721792565250&quot;&gt;and&lt;/a&gt;
+&lt;a href=&quot;https://www.documentcloud.org/documents/6811721-Brown-Booker-Bennet-Letter-Re-Cash-Payments-3-17.html&quot;&gt;Senate&lt;/a&gt; are joining 
+&lt;a href=&quot;https://www.wsj.com/articles/the-case-for-a-big-coronavirus-stimulus-11583448500&quot;&gt;prominent&lt;/a&gt;
+&lt;a href=&quot;http://gregmankiw.blogspot.com/2020/03/thoughts-on-pandemic.html?m=1&quot;&gt;economists&lt;/a&gt; in calling for immediate cash transfers to ensure all Americans can meet basic needs in these dire times.&lt;/p&gt;
+
+&lt;p&gt;Many are gravitating specifically to universal basic income (UBI), which would provide the same amount to everyone. This is attractive today because restricting based on income would involve looking to tax returns for the year 2018, which might not represent families’ current finances, or 2019, many of which have not yet been filed. Relying on the IRS could also delay the delivery of this badly-needed money and require special treatment for nonfilers.&lt;/p&gt;
+
+&lt;p&gt;If we choose UBI, how large should it be? And who should be included?&lt;/p&gt;
+
+&lt;p&gt;To answer these questions, I focused on a simple objective: &lt;strong&gt;stopping the poverty rate from rising,&lt;/strong&gt; as it did &lt;a href=&quot;https://www.povertycenter.columbia.edu/historical-spm-data-reg&quot;&gt;in the Great Recession&lt;/a&gt;. Nobody knows how much Covid-19 will shrink incomes throughout 2020, so I simulated a range of decreases from 1 to 20 percent. For each scenario, I calculated the UBI necessary to stabilize the poverty rate, depending on who is included, from everyone to only adult citizens.&lt;/p&gt;
+
+&lt;p&gt;The results, which can be found &lt;a href=&quot;https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf&quot;&gt;&lt;strong&gt;in my new paper&lt;/strong&gt;&lt;/a&gt;, reveal that a modest UBI can stabilize poverty — if we include everyone. For example, a $1,000 annual UBI would more than offset a 10 percent fall in incomes — &lt;a href=&quot;https://fred.stlouisfed.org/graph/?g=qrBT&quot;&gt;roughly the drop from 2007 to 2011&lt;/a&gt;. If we exclude children and noncitizens, however, many would continue to slip into poverty, and the checks would have to exceed $1,500 per recipient.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-0.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The higher amount required swamps the savings from sending fewer checks. Giving to everyone means sending 42 percent more checks, but excluding children and noncitizens requires each check to be 83 percent larger to stop the poverty rate from rising.&lt;/p&gt;
+
+&lt;p&gt;On a net basis, stabilizing poverty is 23 percent cheaper with a UBI that includes everyone, compared to one that’s limited to adult citizens. Including everyone is also cheaper than all other eligibility options I modeled, such as including all adults but only giving a half share to children.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-1.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These results also hold regardless of how low incomes fall; inclusive UBIs are consistently more cost-effective.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-2.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many questions remain: For example, how do these results change if we learn that service workers are disproportionately harmed? How much of the gap could safety net programs fill, especially if they’re expanded? How do UBIs compare to alternative policies on a per-dollar basis?&lt;/p&gt;
+
+&lt;p&gt;Poverty stabilization is also far from the only outcome to consider. Paid sick leave might help to contain the infection; payroll tax cuts might keep people employed; small business loans might keep doors from shutting. But each of these is likely to be regressive compared to UBI, and to have a smaller anti-poverty effect. Keeping poverty from rising should be a high priority, but it shouldn’t be the only distributional goal when designing pandemic relief programs.&lt;/p&gt;
+
+&lt;p&gt;UBI is well positioned to help all people with the urgency required of this crisis. Cash can be distributed immediately, especially if it’s done broadly. Unlike in-kind benefits like food stamps, it can be used to pay any bills that arise. And as my new paper shows, UBI is a cost-effective tool to prevent a rise in poverty. To maximize the anti-poverty impact, we should send checks broadly, generously, and quickly.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="covid" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html">Read the paper here</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

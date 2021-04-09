@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/child-allowance/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-04-09T16:35:15+00:00</updated>
+  <id>/tag/child-allowance/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">How much UBI spending should go to children?</title>
+      <link href="/child-ubi-share" rel="alternate" type="text/html" title="How much UBI spending should go to children?" />
+      <published>2021-01-20T00:00:00+00:00</published>
+      <updated>2021-01-20T00:00:00+00:00</updated>
+      <id>/child-ubi-share</id>
+      <content type="html" xml:base="/child-ubi-share">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;While the idea of a universal basic income has been around for centuries, it was recently brought into mainstream American political discourse by 2020 Presidential candidate Andrew Yang.
+Yang centered his campaign around paying every adult citizen $1,000 each month.
+Many other countries take the opposite approach, providing monthly &lt;a href=&quot;http://child-allowance.ubicenter.org&quot;&gt;“child allowance”&lt;/a&gt; payments for each child, an approach now favored by &lt;a href=&quot;https://www.vox.com/future-perfect/2019/3/6/18249290/child-poverty-american-family-act-sherrod-brown-michael-bennet&quot;&gt;many US lawmakers&lt;/a&gt;.
+Here we explore which mix of these two approaches reduces poverty and inequality most effectively.&lt;/p&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://blog.ubicenter.org/20200707/adult_child_ubi.html&quot;&gt;July 2020 post&lt;/a&gt;, we found that a child allowance would be more effective at reducing poverty than an adult UBI, for spending levels up to $500 billion, at which point a UBI for both children and adults before more effective; adult-only UBI was never the best option.
+But those three options—adults only, kids only, and equal for adults and kids—aren’t the only ones available.
+In this post, we calculate the optimal ratios of adult to child UBIs, depending on the total spending and objective.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+
+# Turn off display bar
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+july_post = pd.read_csv(&quot;https://github.com/ngpsu22/blog/raw/master/july_2020.csv&quot;)
+
+colors = {0: DARK_BLUE, 1: LIGHT_BLUE, 2: GRAY}
+
+fig = px.line(
+    july_post,
+    x=&quot;spending_in_billions&quot;,
+    y=&quot;poverty_rate&quot;,
+    color=&quot;ubi_type&quot;,
+    color_discrete_map={
+        &quot;Child allowance&quot;: DARK_BLUE,
+        &quot;Adult UBI&quot;: LIGHT_BLUE,
+        &quot;All UBI&quot;: GRAY,
+    },
+)
+fig.update_layout(
+    title=&quot;Overall poverty rate and spending on cash transfer programs&quot;,
+    xaxis_title=&quot;Spending in billions&quot;,
+    yaxis_title=&quot;SPM poverty rate&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    font=dict(family=&quot;Roboto&quot;),
+    hovermode=&quot;x&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    xaxis_ticksuffix=&quot;B&quot;,
+    plot_bgcolor=&quot;white&quot;,
+    legend_title_text=&quot;&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To start, we modeled how different UBI amounts (funded by a flat tax on taxable income) would impact the poverty rate if children were excluded, received half the UBI, or received the full benefit.
+Our model simulated up until $3 trillion in total UBI spending and found that including children further reduces poverty at every level.
+For example, at $1.5 trillion in spending, excluding children would give each adult about $500 a month and reduce the overall poverty rate from 11.7 percent to 4.5 percent.
+However, at the same amount of spending, including children in the full benefit would lower the poverty rate to 4 percent, lifting an additional 1.6 million people out of poverty.
+Poverty is generally similar between giving children a full-size UBI or half the adult amount.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+summary2 = pd.read_csv(
+    &quot;https://github.com/ngpsu22/blog/raw/master/child_share_ubi_summary.csv.gz&quot;,
+    compression=&quot;gzip&quot;,
+)
+# Turn off display bar
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+# Create figure
+fig = px.line()
+
+names = {
+    0: &quot;No UBI for children&quot;,
+    1: &quot;Half-sized UBI for children&quot;,
+    2: &quot;Full-sized UBI for children&quot;,
+}
+
+colors = {0: GRAY, 1: LIGHT_BLUE, 2: DARK_BLUE}
+
+percent_steps = [0, 50, 100]
+
+zero = summary2[summary2[&quot;child_percent_ubi&quot;] == 0]
+fifty = summary2[summary2[&quot;child_percent_ubi&quot;] == 50]
+hundred = summary2[summary2[&quot;child_percent_ubi&quot;] == 100]
+
+dfs = [zero, fifty, hundred]
+
+for i, df in enumerate(dfs):
+    # add trace for optimal poverty df
+    fig.add_trace(
+        go.Scatter(
+            x=df[&quot;funding_billions&quot;],
+            y=df[&quot;poverty_rate&quot;],
+            mode=&quot;markers+lines&quot;,
+            name=names[i],
+            # assign numpy array with child &amp;amp; adult ubi to customdata argument
+            customdata=np.stack(
+                (df[&quot;monthly_child_ubi&quot;], df[&quot;monthly_adult_ubi&quot;]), axis=-1
+            ),
+            # add customdata to hovertemplate
+            hovertemplate=(
+                &quot;&lt;i&gt;Poverty rate&lt;/i&gt;: %{y:.1f}%&lt;br /&gt;&quot;
+                + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+                + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            ),
+            line=dict(color=colors[i]),
+        )
+    )
+fig.update_layout(
+    title=&quot;Poverty by proportion of adult benefit paid to children&quot;,
+    xaxis_title=&quot;Funding in billions&quot;,
+    yaxis_title=&quot;SPM poverty rate&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    font=dict(family=&quot;Roboto&quot;),
+    hovermode=&quot;x&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    xaxis_ticksuffix=&quot;B&quot;,
+    plot_bgcolor=&quot;white&quot;,
+    height=600,
+    width=1000,
+    margin_b=90,  # add bottom margin for caption
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.7)
+)
+
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/ubi_center_logo_wide_blue.png&quot;,
+        xref=&quot;paper&quot;,
+        yref=&quot;paper&quot;,
+        x=1,
+        y=-0.15,
+        sizex=0.12,
+        sizey=0.12,
+        xanchor=&quot;right&quot;,
+        yanchor=&quot;bottom&quot;,
+    )
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Still, the results above only model three scenarios.
+In our next simulation, we examined the optimal share of spending that should go to children in order to minimize poverty or reduce inequality.
+For each spending level, we simulated 101 scenarios that range from 0 percent of the overall funding going to children to 100 percent.
+As a benchmark, we show a line at 22%, which corresponds to equal UBI levels for adults and children (since children comprise 22% of the US population).&lt;/p&gt;
+
+&lt;p&gt;The simplest case is inequality reduction, for which optimal policy would give vast majorities of funds to children.
+In fact, an annual child allowance should reach over $17,000 per child before any spending goes towards adults.
+Even at $3 trillion in new spending, over half of the money would go towards children, resulting in $1,743 a month for kids and $648 per adult.
+This is, to some degree, by construction, as our inequality metric considers per-capita resources; other inequality measures may produce different results.&lt;/p&gt;
+
+&lt;p&gt;If the goal is to minimize the poverty rate, the story is a bit more complicated.
+For spending levels below $1 trillion, children should receive more than adults; for spending levels above $2 trillion, children should receive less; for spending levels in between, it varies.
+Because many people have incomes just below or above their poverty threshold, the poverty rate responds to transfer policy in a volatile way.&lt;/p&gt;
+
+&lt;p&gt;Finally, we examined the effect of UBI design on the  poverty gap, the summation of the distance poor families are from their poverty threshold.
+The 2019 poverty gap is $153 billion.
+To optimize its reduction, adults should receive more than children at every level above $150 billion in new spending.
+With $2 trillion in funding, the poverty gap could be reduced to $45 billion by sending every adult $628 per month and parents $114 per month per child.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+summary = pd.read_csv(
+    &quot;https://github.com/ngpsu22/blog/raw/master/children_share_funding_summary%20(4).csv.gz&quot;,
+    compression=&quot;gzip&quot;,
+)
+
+optimal_poverty_gap = summary.sort_values(&quot;poverty_gap&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;first&quot;
+)
+# Drop rows where funding level is 0
+optimal_poverty_gap = optimal_poverty_gap.drop(
+    optimal_poverty_gap[optimal_poverty_gap.funding_billions == 0].index
+)
+
+optimal_poverty_rate = summary.sort_values(&quot;poverty_rate&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;first&quot;
+)
+# Drop rows where funding level is 0
+optimal_poverty_rate = optimal_poverty_rate.drop(
+    optimal_poverty_rate[optimal_poverty_rate.funding_billions == 0].index
+)
+
+optimal_inequality = summary.sort_values(&quot;gini&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;first&quot;
+)
+# Drop rows where funding level is 0
+optimal_inequality = optimal_inequality.drop(
+    optimal_inequality[optimal_inequality.funding_billions == 0].index
+)
+
+optimal_winners = summary.sort_values(&quot;percent_better_off&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;last&quot;
+)
+optimal_winners = optimal_winners.drop(
+    optimal_winners[optimal_winners.funding_billions == 0].index
+)
+
+# Define adult population size, as determined in data preprocessing
+adult_pop = 252117111.14000002
+# Define child population size
+child_pop = 73151070.56999998
+# Calculate total population
+pop = child_pop + adult_pop
+
+# Create figure
+fig = px.line()
+
+# Add inequality trace
+fig.add_trace(
+    go.Scatter(
+        x=optimal_inequality[&quot;funding_billions&quot;],
+        y=optimal_inequality[&quot;child_percent_funding&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Gini index&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_inequality[&quot;monthly_child_ubi&quot;],
+                optimal_inequality[&quot;monthly_adult_ubi&quot;],
+                optimal_inequality[&quot;gini&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;i&gt;Children's share of spending&lt;/i&gt;: %{y:.0f}%&lt;br /&gt;&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            &quot;&lt;br /&gt;&lt;b&gt;Gini index &lt;/b&gt;: %{customdata[2]: .3f}&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#499167&quot;),
+    )
+)
+
+# Add poverty gap trace
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_gap[&quot;funding_billions&quot;],
+        y=optimal_poverty_gap[&quot;child_percent_funding&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty gap&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_gap[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_gap[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_gap[&quot;poverty_gap&quot;] / 1e9,
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;i&gt;Children's share of spending&lt;/i&gt;: %{y:.0f}%&lt;br /&gt;&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            &quot;&lt;br /&gt;&lt;b&gt;Poverty gap &lt;/b&gt;: $%{customdata[2]: .0f} billion&lt;br /&gt;&quot;
+        ),
+        line=dict(color=DARK_BLUE),
+    )
+)
+
+# Add poverty gap trace
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_rate[&quot;funding_billions&quot;],
+        y=optimal_poverty_rate[&quot;child_percent_funding&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty rate&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_rate[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_rate[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_rate[&quot;poverty_rate&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;i&gt;Children's share of spending&lt;/i&gt;: %{y:.0f}%&lt;br /&gt;&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            &quot;&lt;br /&gt;&lt;b&gt;Poverty rate &lt;/b&gt;: %{customdata[2]: .0f}%&lt;br /&gt;&quot;
+        ),
+        line=dict(color=LIGHT_BLUE),
+    )
+)
+
+
+ratio = (child_pop / pop) * 100
+
+fig.add_shape(
+    type=&quot;line&quot;, line=dict(dash=&quot;dot&quot;, color=GRAY), x0=-1, x1=3000, y0=ratio, y1=ratio
+)
+
+# plot line where adult benefit is same size as child benefit
+fig.add_annotation(
+    text=&quot;Adult UBI = Child UBI&quot;,
+    xref=&quot;paper&quot;,
+    yref=&quot;paper&quot;,
+    x=0.98,
+    y=0.22,
+    showarrow=False,
+    font=dict(color=GRAY, size=12),
+)
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Funding in billions&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;B&quot;,
+    tickprefix=&quot;$&quot;,
+    range=[0, 3050],
+)
+
+fig.update_yaxes(
+    title_text=&quot;Children's share of UBI spending&quot;,
+    ticksuffix=&quot;%&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    range=[0, 105],
+)
+
+fig.update_layout(
+    title_text=&quot;Optimal share of UBI spending on children by optimization criterion&quot;,
+    hoverlabel_align=&quot;right&quot;,
+    margin_b=90,
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.7),
+    font=dict(family=&quot;Roboto&quot;),
+    plot_bgcolor=&quot;white&quot;,
+    height=600,
+    width=1000,
+    hovermode=&quot;x&quot;,
+)
+
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/ubi_center_logo_wide_blue.png&quot;,
+        xref=&quot;paper&quot;,
+        yref=&quot;paper&quot;,
+        x=1,
+        y=-0.15,
+        sizex=0.12,
+        sizey=0.12,
+        xanchor=&quot;right&quot;,
+        yanchor=&quot;bottom&quot;,
+    )
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;,)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The next chart shows the monthly amount given to children and adults under each optimization (you can hover over points in the prior chart to view this information as well).
+Because the poverty gap is less volatile to changes at the margin, the UBI amounts increases are nearly linear. At the highest level of spending in our model, $3 trillion, adults would receive $942 per month and children would receive $171 while optimizing for poverty gap reduction.
+Poverty rate amounts are more erratic, while inequality-minimizing amounts are roughly linear with a kink at the point where optimal adult amounts exceed $0.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Create UBI amount figure
+fig = px.line()
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_gap[&quot;funding_billions&quot;],
+        y=optimal_poverty_gap[&quot;monthly_child_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty gap - child&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_gap[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_gap[&quot;poverty_gap&quot;] / 1e9,
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty gap &lt;/b&gt;: $%{customdata[1]: .0f} billion&lt;br /&gt;&quot;
+        ),
+        line=dict(color=DARK_BLUE),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_gap[&quot;funding_billions&quot;],
+        y=optimal_poverty_gap[&quot;monthly_adult_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty gap - adult&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_gap[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_gap[&quot;poverty_gap&quot;] / 1e9,
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Adult UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty gap &lt;/b&gt;: %{customdata[1]: .0f} billion&quot;
+        ),
+        line=dict(color=LIGHT_BLUE),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_rate[&quot;funding_billions&quot;],
+        y=optimal_poverty_rate[&quot;monthly_child_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty rate - child&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_rate[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_rate[&quot;poverty_rate&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty rate &lt;/b&gt;: %{customdata[1]: .0f}%&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#484848&quot;),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_rate[&quot;funding_billions&quot;],
+        y=optimal_poverty_rate[&quot;monthly_adult_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty rate - adult&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_rate[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_rate[&quot;poverty_rate&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Adult UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty rate &lt;/b&gt;: %{customdata[1]: .0f}%&quot;
+        ),
+        line=dict(color=GRAY),
+    )
+)
+
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_inequality[&quot;funding_billions&quot;],
+        y=optimal_inequality[&quot;monthly_child_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Inequality - child&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (optimal_inequality[&quot;monthly_child_ubi&quot;], optimal_inequality[&quot;gini&quot;]),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Gini &lt;/b&gt;: %{customdata[1]: .3f}&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#499167&quot;),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_inequality[&quot;funding_billions&quot;],
+        y=optimal_inequality[&quot;monthly_adult_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Inequality - adult&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (optimal_inequality[&quot;monthly_adult_ubi&quot;], optimal_inequality[&quot;gini&quot;]),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Adult UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Gini &lt;/b&gt;: %{customdata[1]: .3f}&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#5FDD9D&quot;),
+    )
+)
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Funding in billions&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;B&quot;,
+    tickprefix=&quot;$&quot;,
+    range=[0, 3050],
+)
+
+fig.update_yaxes(
+    title_text=&quot;Monthly UBI amount&quot;,
+    tickprefix=&quot;$&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+)
+
+fig.update_xaxes(title_font=dict(size=14, color=&quot;black&quot;))
+fig.update_yaxes(title_font=dict(size=14, color=&quot;black&quot;))
+fig.update_layout(
+    title_text=&quot;UBI amounts for each optimization&quot;,
+    hoverlabel_align=&quot;right&quot;,
+    margin_b=90,
+    legend=dict(yanchor=&quot;top&quot;, y=1, xanchor=&quot;left&quot;, x=1.03),
+    font=dict(family=&quot;Roboto&quot;),
+    plot_bgcolor=&quot;white&quot;,
+    height=600,
+    width=1000,
+    hovermode=&quot;x&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;)
+
+hide_line = [
+    &quot;Poverty rate - child&quot;,
+    &quot;Poverty rate - adult&quot;,
+    &quot;Inequality - child&quot;,
+    &quot;Inequality - adult&quot;,
+]
+fig.for_each_trace(
+    lambda trace: trace.update(visible=&quot;legendonly&quot;) if trace.name in hide_line else ()
+)
+
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/ubi_center_logo_wide_blue.png&quot;,
+        xref=&quot;paper&quot;,
+        yref=&quot;paper&quot;,
+        x=1,
+        y=-0.15,
+        sizex=0.12,
+        sizey=0.12,
+        xanchor=&quot;right&quot;,
+        yanchor=&quot;bottom&quot;,
+    )
+)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Our research shows that different policy objectives and funding levels may lead to starkly different amounts of cash transfer funding going towards children.
+Each optimization, however, called for children to receive a nonzero share of UBI spending, and often a larger monthly amount than adults, especially with small budgets and when minimizing inequality.
+These results underline the importance of including children in UBI conversations and policy analysis.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;will&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">To minimize poverty, should UBI be provided for adults, children, or both?</title>
+      <link href="/adult-child-ubi" rel="alternate" type="text/html" title="To minimize poverty, should UBI be provided for adults, children, or both?" />
+      <published>2020-07-07T00:00:00+00:00</published>
+      <updated>2020-07-07T00:00:00+00:00</updated>
+      <id>/adult-child-ubi</id>
+      <content type="html" xml:base="/adult-child-ubi">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;While &lt;a href=&quot;https://fred.stlouisfed.org/series/A939RX0Q048SBEA&quot;&gt;US GDP per capita has more than doubled in the past 50 years&lt;/a&gt;, many Americans still remain in poverty. According to the Census Bureau’s 2018 Supplemental Poverty Measure (SPM), over 40 million Americans live below their SPM poverty threshold.&lt;/p&gt;
+
+&lt;p&gt;Some &lt;a href=&quot;https://www.ubicenter.org/plans&quot;&gt;large guaranteed-income programs have been shown to nearly eliminate poverty&lt;/a&gt;, but spending constraints can change how program design affects different outcomes. This paper shows the impact of new universal cash programs on poverty alleviation under varying levels of spending.&lt;/p&gt;
+
+&lt;p&gt;I examine the poverty rate impacts of three different basic income programs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adult UBI - provides monthly stipends only to adults.&lt;/li&gt;
+  &lt;li&gt;Child Allowance - provides families monthly stipends based only on how many children are in their household.&lt;/li&gt;
+  &lt;li&gt;All UBI - provides an equal monthly stipend to all Americans regardless of age (parents would receive it on behalf of their children).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Two years ago, Matt Bruenig produced a similar  &lt;a href=&quot;https://www.peoplespolicyproject.org/2018/11/29/a-child-allowance-would-be-very-effective-at-poverty-reduction/&quot;&gt;paper&lt;/a&gt; using 2017 data in which he compared the same three programs and their impact on the poverty rate up to $500 billion in new spending. Bruenig found that at all levels of spending up to $500 billion, a Child Allowance was the most effective program at reducing poverty. This paper considers new spending up to $1 trillion with updated data from 2018.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I used data from the Census Bureau’s 2019 Annual Social and Economic Supplement (ASEC), which uses data collected in 2018. The ASEC survey contains over 180,000 Americans from more than 75,000 households. Each respondent is assigned a sample weight by the Census Bureau so that models can provide consistent national-level estimates.&lt;/p&gt;
+
+&lt;p&gt;The Supplemental Poverty Measure classifies respondents’ poverty status by comparing their total family income (post tax and transfers) to their family poverty threshold. The Census Bureau defines poverty thresholds based on family size and costs of necessities.&lt;/p&gt;
+
+&lt;p&gt;In 2018, 12.7 percent of Americans were in poverty, including 13.6 percent of children and 12.5 percent of adults.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;A Child Allowance reduces overall poverty more than the other two designs, for spending up to $500 billion; this aligns with Bruenig’s results. However, at levels beyond $500 billion, a UBI that includes everyone cuts overall poverty more.&lt;/p&gt;
+
+&lt;p&gt;Spending $100 billion on a Child Allowance would equate to monthly stipends of $114 per child and lift 4.5 million Americans (1.3 million children and 3.2 million adults) out of poverty. $500 billion on either a Child Allowance or All UBI would lift 12 million Americans out of poverty. Spending $1 trillion on an All UBI would equate to monthly checks of $258 per American and lift over 22 million people out of poverty.&lt;/p&gt;
+
+&lt;p&gt;The interactive graph below shows the poverty impacts of each program at different funding levels.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+### LOAD PACKAGES ####
+
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly
+
+### LOAD DATA ###
+
+person_raw = pd.read_csv('https://github.com/MaxGhenis/datarepo/raw/master/pppub19.csv.gz',
+                         usecols=['MARSUPWT', 'SPM_ID', 'SPM_POVTHRESHOLD',
+                                  'SPM_RESOURCES', 'A_AGE'])
+
+### PREPROCESS ###
+
+person = person_raw.copy(deep=True)
+person.columns = person.columns.str.lower()
+person['weight'] = person.marsupwt/100
+#Compute total children and adults in each resource sharing group.
+person['child'] = person.a_age &amp;lt; 18
+person['adult'] = person.a_age &amp;gt;= 18
+spmu_ages = person.groupby('spm_id')[['child','adult']].sum()
+spmu_ages.columns = ['children', 'total_adults']
+person2 = person.merge(spmu_ages,left_on='spm_id', right_index=True)
+total_children = (person2.child * person2.weight).sum()
+total_adults = (person2.adult * person2.weight).sum()
+
+### CALCULATIONS ###
+
+child_allowance_overall = []
+child_allowance_child = []
+child_allowance_adults = []
+
+# Determine the poverty rate impact of a Child Allownace from $0 in new spending to $1 trillion.
+
+for spending in range(0, 1000000000001, 50000000000):
+    child_allowance_per_child = spending/total_children
+    total_child_allowance = person2.children * child_allowance_per_child
+    new_spm_resources_ca = person2.spm_resources + total_child_allowance
+    new_poor_ca = new_spm_resources_ca &amp;lt; person2.spm_povthreshold
+    new_total_child_poor = ((person2.child * person2.weight * 
+                             new_poor_ca).sum())
+    new_child_poverty_rate = ((new_total_child_poor)/
+                              (person2.child * person2.weight).sum())
+    new_total_adult_poor = ((person2.adult * person2.weight * 
+                             new_poor_ca).sum())
+    new_adult_poverty_rate = ((new_total_adult_poor)/
+                              (person2.adult * person2.weight).sum())
+    new_total_poor_ca = (new_poor_ca * person2.weight).sum()
+    new_poverty_rate_ca = new_total_poor_ca/person2.weight.sum()
+    child_allowance_overall.append(new_poverty_rate_ca)
+    child_allowance_child.append(new_child_poverty_rate)
+    child_allowance_adults.append(new_adult_poverty_rate)
+    
+ubi_adults_overall = []
+ubi_adults_child = []
+ubi_adults_adults = []
+
+# Determine the poverty rate impact of a Adult UBI from $0 in new spending to $1 trillion.
+
+for spending in range(0, 1000000000001, 50000000000):
+    adult_ubi = spending/total_adults
+    total_adult_ubi = person2.total_adults * adult_ubi
+    new_spm_resources_ubi = person2.spm_resources + total_adult_ubi
+    new_poor_ubi = new_spm_resources_ubi &amp;lt; person2.spm_povthreshold
+    new_total_child_poor = ((person2.child * person2.weight * 
+                             new_poor_ubi).sum())
+    new_child_poverty_rate = ((new_total_child_poor)/
+                              (person2.child * person2.weight).sum())
+    new_total_adult_poor = ((person2.adult * person2.weight * 
+                             new_poor_ubi).sum())
+    new_adult_poverty_rate = ((new_total_adult_poor)/
+                              (person2.adult * person2.weight).sum())
+    new_total_poor_ubi = (new_poor_ubi * person2.weight).sum()
+    new_poverty_rate_ubi = new_total_poor_ubi/person2.weight.sum()
+    ubi_adults_overall.append(new_poverty_rate_ubi)
+    ubi_adults_child.append(new_child_poverty_rate)
+    ubi_adults_adults.append(new_adult_poverty_rate)
+    
+ubi_all_overall = []
+ubi_all_child = []
+ubi_all_adults = []
+
+# Determine the poverty rate impact of a All UBI from $0 in new spending to $1 trillion.
+
+for spending in range(0, 1000000000001, 50000000000):
+    all_ubi_per_person = spending/(total_adults + total_children)
+    total_all_ubi = ((person2.children * all_ubi_per_person) + 
+                    (person2.total_adults * all_ubi_per_person))
+    new_spm_resources_all_ubi = person2.spm_resources + total_all_ubi
+    new_poor_all_ubi = new_spm_resources_all_ubi &amp;lt; person2.spm_povthreshold
+    new_total_child_poor = ((person2.child * person2.weight * 
+                             new_poor_all_ubi).sum())
+    new_child_poverty_rate = ((new_total_child_poor)/
+                              (person2.child * person2.weight).sum())
+    new_total_adult_poor = ((person2.adult * person2.weight * 
+                             new_poor_all_ubi).sum())
+    new_adult_poverty_rate = ((new_total_adult_poor)/
+                              (person2.adult * person2.weight).sum())
+    new_total_poor_all_ubi = (new_poor_all_ubi * person2.weight).sum()
+    new_poverty_rate_all_ubi = new_total_poor_all_ubi/person2.weight.sum()
+    ubi_all_overall.append(new_poverty_rate_all_ubi)
+    ubi_all_child.append(new_child_poverty_rate)
+    ubi_all_adults.append(new_adult_poverty_rate)
+    
+spending_data = []
+for spending in range(0, 1001, 50):
+    spending = spending/100
+    spending_data.append(spending)
+    
+### ANALYSIS ###
+
+# Create a DataFrame grouped by each plans impact on the overall poverty rate. 
+overall = {'spending_in_billions': spending_data,
+                       'child_allowance': child_allowance_overall,
+                       'adult_ubi': ubi_adults_overall,
+                       'all_ubi': ubi_all_overall}
+                    
+overall_df = pd.DataFrame(overall)
+overall_df = pd.DataFrame(overall_df).round(3)
+
+# Create a DataFrame grouped by each plans impact on the child poverty rate.
+child = {'spending_in_billions': spending_data,
+         'child_allowance': child_allowance_child,
+         'adult_ubi': ubi_adults_child,
+         'all_ubi': ubi_all_child}
+                    
+child_df = pd.DataFrame(child)
+child_df = pd.DataFrame(child_df).round(3)
+
+
+# Create a DataFrame grouped by each plans impact on the adult poverty rate.
+adult = {'spending_in_billions': spending_data,
+         'child_allowance': child_allowance_adults,
+         'adult_ubi': ubi_adults_adults,
+         'all_ubi': ubi_all_adults}
+                    
+adult_df = pd.DataFrame(adult)
+adult_df = pd.DataFrame(adult_df).round(3)
+
+
+# Join different programs together for plotly.
+program = (pd.melt(overall_df, 'spending_in_billions', 
+                   var_name='ubi_type',value_name='poverty_rate'))
+
+def melt_dict(d):
+  &quot;&quot;&quot; produce long version of data frame represented by dictionary (d).
+  
+  Arguments
+  d: Dictionary where each element represents a differnt UBI type and spending levels and the poverty impacts.
+  
+  Returns
+  DataFrame where every row is the combination of UBI type and spending level.
+  &quot;&quot;&quot;
+  df = pd.DataFrame(d).round(3) * 100
+  program = pd.melt(df, 'spending_in_billions', var_name='ubi_type',value_name='poverty_rate')
+  program['ubi_type'] = program.ubi_type.map({'child_allowance': 'Child allowance',
+                                      'adult_ubi': 'Adult UBI',
+                                      'all_ubi': 'All UBI'})
+  return program
+
+program_overall = melt_dict(overall)
+program_child = melt_dict(child)
+program_adult = melt_dict(adult)
+
+def line_graph(df, x, y, color, title, xaxis_title, yaxis_title):
+    &quot;&quot;&quot;Style for line graphs.
+    
+    Arguments
+    df: DataFrame with data to be plotted.
+    x: The string representing the column in df that holds the new spending in billions.
+    y: The string representing the column in df that holds the poverty rate.
+    color: The string representing the UBI type.
+    xaxis_title: The string represnting the xaxis-title.
+    yaxis_title: The string representing the yaxis-title.
+    
+    Returns
+    Nothing. Shows the plot.
+    &quot;&quot;&quot;
+    fig = px.line(df, x=x, y=y, color=color)
+    fig.update_layout(
+        title=title,
+        xaxis_title=xaxis_title,
+        yaxis_title=yaxis_title,
+        yaxis_ticksuffix='%',
+        font=dict(family='Roboto'),
+        hovermode='x',
+        xaxis_tickprefix='$',
+        xaxis_ticksuffix='B',
+        plot_bgcolor='white',
+        legend_title_text=''
+        
+    )
+
+    fig.update_traces(mode='markers+lines', hovertemplate=None)
+
+    return fig
+
+fig = line_graph(df=program_overall, x='spending_in_billions', 
+           y='poverty_rate', color='ubi_type',
+           title='Overall poverty rate and spending on cash transfer programs',
+           xaxis_title='Spending in billions',
+           yaxis_title='SPM poverty rate')
+
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/adult_child_ubi/2020-07-07-adult-child-ubi-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Unsurprisingly, a Child Allowance was the most effective program at reducing child poverty at all levels of spending. Spending $400 billion on a Child Allowance cuts child poverty by over two-thirds, from 13.6 percent to 4.3 percent.&lt;/p&gt;
+
+&lt;p&gt;Comparatively, spending $1 trillion on an Adult UBI leaves 7 percent of children still in poverty. For an All UBI and a Child Allowance under the same spending, 4 percent and 1 percent of children would remain in poverty, respectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(df=program_child, x='spending_in_billions', 
+           y='poverty_rate', color='ubi_type',
+           title='Child poverty rate and spending on cash transfer programs',
+           xaxis_title='Spending in billions',
+           yaxis_title='SPM poverty rate among people aged 17 and under')
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/adult_child_ubi/2020-07-07-adult-child-ubi-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;An Adult UBI and an All UBI have nearly identical effects on the adult poverty rate. A Child Allowance has a smaller impact on adult poverty because the benefits only go to adults with children in their family.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(df=program_adult, x='spending_in_billions', 
+           y='poverty_rate', color='ubi_type',
+           title='Adult poverty rate and spending on cash transfer programs',
+           xaxis_title='Spending in billions',
+           yaxis_title='SPM poverty rate among people aged 18 and over')
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/adult_child_ubi/2020-07-07-adult-child-ubi-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This analysis finds that (a) including children in basic income plans enhances their anti-poverty effects and (b) optimal policy depends on spending levels.&lt;/p&gt;
+
+&lt;p&gt;Given limited political support for added spending, a Child Allowance alleviates poverty most effectively. If the political appetite for anti-poverty spending is more substantial, we should aim to provide a truly universal UBI and provide cash transfers to everyone.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nate Golden</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

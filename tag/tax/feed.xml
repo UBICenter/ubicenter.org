@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/tax/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-04-09T16:35:15+00:00</updated>
+  <id>/tag/tax/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Basic income can make switching to a flat income tax progressive</title>
+      <link href="/us-flat-tax" rel="alternate" type="text/html" title="Basic income can make switching to a flat income tax progressive" />
+      <published>2020-12-30T00:00:00+00:00</published>
+      <updated>2020-12-30T00:00:00+00:00</updated>
+      <id>/us-flat-tax</id>
+      <content type="html" xml:base="/us-flat-tax">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;The current US income tax code taxes different types of incomes at different rates, includes an array of credits and deductions that primarily benefit the &lt;a href=&quot;https://fivethirtyeight.com/features/the-tax-deductions-economists-hate/&quot;&gt;upper and middle class&lt;/a&gt;, and requires Americans to spend &lt;a href=&quot;https://www.washingtonpost.com/wp-srv/politics/documents/economy082710.pdf&quot;&gt;billions of hours and dollars&lt;/a&gt; filing taxes each year.
+A &lt;a href=&quot;https://www.pewresearch.org/fact-tank/2016/04/06/the-biggest-u-s-tax-breaks/&quot;&gt;2015 Pew survey&lt;/a&gt; found that 66 percent of Republicans and 48 percent of Democrats support completely changing the tax system.
+While there are many ways to reform the tax code, a simple way is taxing every dollar at the same rate; this is often called a “flat tax.”
+In this paper, we examine the impact of replacing today’s system with a budget-neutral combination of flat income taxes and universal basic incomes (UBIs).&lt;/p&gt;
+
+&lt;h2 id=&quot;us-flat-tax-simulations&quot;&gt;US flat tax simulations&lt;/h2&gt;
+
+&lt;p&gt;We simulated the effect of replacing the current federal income tax code and employee side payroll tax with a flat tax over a range of rates.
+We allocated any excess revenue to a UBI to make each reform budget-neutral, and filled budget shortfalls with a head tax (equal tax amount per person, essentially a negative UBI).&lt;/p&gt;
+
+&lt;p&gt;:::{admonition,dropdown,tip} Modeling notes
+We replaced all elements of the personal income tax code, including refundable tax credits, but we retained benefit programs.
+The analysis is fully static; we did not model changes to labor supply resulting from the changes to marginal tax rates and incomes.
+We used the Current Population Survey (CPS) March Supplement reflecting income from 2019.
+The Census Bureau estimates tax liabilities using a microsimulation model, but income and taxes are known to be under-reported in the CPS.
+:::&lt;/p&gt;
+
+&lt;p&gt;A flat tax of approximately 18 percent would raise the same amount of revenue as federal income taxes and employee side payroll do today.
+Each percentage point of flat tax raises enough revenue to fund a UBI of $360 per year for each adult and child.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+import microdf as mdf
+import statsmodels.api as sm
+import stargazer.stargazer as sg
+from pandas_datareader import wb
+
+
+summary = pd.read_csv(&quot;data/summary.csv&quot;)
+
+
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+def add_ubi_center_watermark(fig, x, y=-0.14):
+    fig.add_layout_image(
+        dict(
+            source=&quot;https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png&quot;,
+            # See https://github.com/plotly/plotly.py/issues/2975.
+            # source=&quot;../_static/ubi_center_logo_wide_blue.png&quot;,
+            xref=&quot;paper&quot;, yref=&quot;paper&quot;,
+            x=x, y=y,
+            sizex=0.12, sizey=0.12,
+            xanchor=&quot;right&quot;, yanchor=&quot;bottom&quot;
+        )
+    )
+
+fig = px.line()
+
+fig.add_trace(
+    go.Scatter(
+        x=summary.flat_tax,
+        y=summary.ubi.round(),
+        mode=&quot;markers+lines&quot;,
+        name=&quot;UBI (head tax)&quot;,
+        line=dict(color=BLUE, width=2),
+    )
+)
+
+fig.add_shape(
+    type=&quot;line&quot;, line=dict(dash=&quot;dot&quot;, color=&quot;gray&quot;), x0=-1, x1=50, y0=0, y1=0
+)
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Flat tax rate&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;%&quot;,
+    tickprefix=&quot;&quot;,
+)
+
+fig.update_yaxes(
+    title_text=&quot;Budget-neutral annual UBI (head tax)&quot;,
+    tickprefix=&quot;$&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+)
+
+fig.update_xaxes(title_font=dict(size=16, color=&quot;black&quot;))
+fig.update_yaxes(title_font=dict(size=16, color=&quot;black&quot;))
+fig.update_layout(
+    title_text=&quot;Budget-neutral UBI (head tax) by flat tax rate&quot;,
+    hoverlabel_align=&quot;right&quot;,
+    font_family=&quot;Roboto&quot;,
+    title_font_size=20,
+)
+
+add_ubi_center_watermark(fig, 0.98)
+
+fig.update_layout(plot_bgcolor=&quot;white&quot;, hovermode=&quot;x&quot;)
+fig.update_layout(legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.8))
+fig.update_traces(mode=&quot;markers+lines&quot;)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/us-flat-tax/2020-12-30-us-flat-tax-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This replacement would increase the poverty rate by 37 percent, increase the poverty gap (the dollar amount needed to lift everyone above the poverty line) by 23 percent, and increase inequality (as measured by the Gini index of resources per person) by 7 percent.&lt;/p&gt;
+
+&lt;p&gt;Maintaining current levels of poverty and inequality requires a higher tax rate to raise funds for a UBI.
+A 21 percent flat tax, which would give each person $1,200 per year, would maintain the current poverty gap; a rate and poverty gap; a 22 percent tax giving each person about $1,600 per year would maintain the current poverty rate; a 23 percent tax giving each person about $1,900 would maintain current inequality.&lt;/p&gt;
+
+&lt;p&gt;Higher taxes funding more generous UBIs reduce poverty and inequality to a greater degree.
+A flat tax of 30 percent would fund a UBI (including children) of nearly $4,500—cutting poverty in half and inequality by 9 percent.
+Going up to 50 percent funds a $1,000 monthly UBI, leaving the poverty rate at a tenth of its currently level and cutting inequality by a third.&lt;/p&gt;
+
+&lt;p&gt;The chart below shows how different flat tax rates up to 50 percent would impact poverty and inequality (the hover function shows the corresponding head tax or UBI for each reform).&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def trace(col, chg_col, name, string, color):
+    &quot;&quot;&quot;
+    Args:
+        col: Column name.
+        chg_col: Column name of change.
+        name: Name of column for printing.
+        string: Formatting of customdata[1].
+        color: Line color.
+    &quot;&quot;&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=summary.flat_tax,
+            y=summary[chg_col],
+            mode=&quot;markers+lines&quot;,
+            name=name,
+            line=dict(color=color, width=2),
+            customdata=np.stack((summary.ubi, summary[col]), axis=-1),
+            hovertemplate=&quot;&lt;br /&gt;Flat tax: %{x}&lt;br /&gt;&quot;
+            + &quot;UBI (head tax): $%{customdata[0]: .0f}&lt;br /&gt;&quot;
+            + name
+            + &quot;: &quot;
+            + string
+            + &quot;&lt;br /&gt;&quot;
+            + &quot;Percent change: %{y:.0f}%&lt;br /&gt;&quot;,
+            marker=dict(size=5),
+        )
+    )
+
+
+fig = px.line()
+trace(
+    &quot;poverty_rate&quot;,
+    &quot;change_poverty_rate&quot;,
+    &quot;Poverty rate&quot;,
+    &quot;%{customdata[1]: .1f}%&quot;,
+    DARK_BLUE,
+)
+trace(
+    &quot;poverty_gap_billions&quot;,
+    &quot;change_poverty_gap&quot;,
+    &quot;Poverty gap&quot;,
+    &quot;$%{customdata[1]: .0f}B&quot;,
+    LIGHT_BLUE,
+)
+trace(&quot;gini&quot;, &quot;change_gini&quot;, &quot;Gini index&quot;, &quot;%{customdata[1]}&quot;, GRAY)
+
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Flat tax rate&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;%&quot;,
+    tickprefix=&quot;&quot;,
+    range=[-2, 51],
+)
+
+fig.update_yaxes(
+    title_text=&quot;Percent change&quot;,
+    ticksuffix=&quot;%&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    range=[-101, 301],
+)
+
+fig.update_xaxes(title_font=dict(size=16, color=&quot;black&quot;))
+fig.update_yaxes(title_font=dict(size=16, color=&quot;black&quot;))
+fig.update_layout(
+    title_text=(
+        &quot;Replacing employee side FICA and federal income taxes with &quot;
+        &quot;a flat tax and UBI (head tax)&quot;
+    ),
+    title_font_size=20,
+    hoverlabel_align=&quot;right&quot;,
+    font_family=&quot;Roboto&quot;,
+)
+
+add_ubi_center_watermark(fig, 1.01)
+
+fig.update_layout(plot_bgcolor=&quot;white&quot;, hovermode=&quot;x&quot;)
+fig.update_yaxes(zeroline=True, zerolinewidth=2, zerolinecolor=&quot;black&quot;)
+fig.update_layout(legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.75))
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/us-flat-tax/2020-12-30-us-flat-tax-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;From the point of the flat tax producing a UBI (18 percent), higher rates lead to more Americans benefiting on a net basis.
+Replacing today’s taxes on individual income with a 28 percent flat tax would give each person about $3,700 per year, benefiting the majority of Americans.
+The share that come out ahead levels off around 60 percent, with flat taxes of 40 percent or more.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = px.line()
+
+fig.add_trace(
+    go.Scatter(
+        x=summary.flat_tax,
+        y=summary.percent_better_off,
+        mode=&quot;markers+lines&quot;,
+        name=&quot;&quot;,
+        line=dict(color=BLUE, width=2),
+        customdata=np.stack(
+            (summary.ubi, summary.percent_better_off), axis=-1
+        ),
+        hovertemplate=&quot;&lt;br /&gt;Flat tax: %{x}&lt;br /&gt;&quot;
+        # TODO: Adapt &quot;UBI&quot; vs &quot;head tax&quot; for value.
+        + &quot;UBI (head tax): $%{customdata[0]: .0f}&lt;br /&gt;&quot;
+        + &quot;Share better off: %{y:.0f}%&lt;br /&gt;&quot;,
+        marker=dict(size=5),
+    )
+)
+
+fig.add_shape(
+    type=&quot;line&quot;,
+    line=dict(dash=&quot;dot&quot;, color=&quot;gray&quot;),
+    x0=-1,
+    x1=50,
+    y0=50,
+    y1=50,
+)
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Flat tax rate&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;%&quot;,
+    tickprefix=&quot;&quot;,
+)
+
+fig.update_yaxes(
+    title_text=&quot;&quot;,
+    ticksuffix=&quot;%&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    tickvals=[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+    range=[20, 80],
+)
+
+fig.update_xaxes(title_font=dict(size=16, color=&quot;black&quot;))
+fig.update_yaxes(title_font=dict(size=16, color=&quot;black&quot;))
+fig.update_layout(
+    title_text=(
+        &quot;Share of people who gain from switching to a flat tax and &quot;
+        &quot;UBI (head tax)&quot;
+    ),
+    title_font_size=20,
+    hoverlabel_align=&quot;right&quot;,
+    font_family=&quot;Roboto&quot;,
+)
+
+add_ubi_center_watermark(fig, 0.98)
+
+fig.update_layout(plot_bgcolor=&quot;white&quot;, height=600, width=1000, hovermode=&quot;x&quot;)
+fig.update_layout(legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.8))
+fig.update_traces(mode=&quot;markers+lines&quot;)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/us-flat-tax/2020-12-30-us-flat-tax-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;generous-transfers-are-the-key-to-inequality-reduction&quot;&gt;Generous transfers are the key to inequality reduction&lt;/h2&gt;
+
+&lt;p&gt;Labor markets don’t explain the unusually high level of inequality in the United States, third only to Chile and Mexico among developed countries.
+For example, the US has similar “market income” inequality as France, Germany, and Finland—each with Gini indexes of 0.50 to 0.51, as shown in the right bars of this graph from &lt;a href=&quot;https://ourworldindata.org/income-inequality&quot;&gt;Our World In Data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/inequality-of-incomes-before-and-after-taxes-and-transfers.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What’s unusual about the US is how little its government reduces inequality through redistribution.
+While France, Germany, and Finland reduce inequality by 0.21, 0.22, and 0.24 on the Gini scale, the US only reduces it by 0.12.&lt;/p&gt;
+
+&lt;p&gt;What mechanisms do these other countries utilize to cut inequality twice as much as the US?
+Counterintuitively, it’s not progressive taxation—the US actually has the most progressive tax code in the OECD,&lt;sup id=&quot;fnref:progressive-tax&quot;&gt;&lt;a href=&quot;#fn:progressive-tax&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and tax progressivity does not correlate significantly to inequality reduction (if anything the relationship is slightly negative).&lt;/p&gt;
+
+&lt;p&gt;:::{admonition,dropdown,tip} Data notes
+Data on inequality reduction comes from Our World In Data’s analysis of OECD data reflecting the period 2012 to 2014.
+Data on the concentration index and income shares of household taxes and cash transfers come from Table 4.6 of the OECD’s 2008 report, &lt;a href=&quot;https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page109&quot;&gt;&lt;em&gt;Growing Unequal?&lt;/em&gt;&lt;/a&gt;, which uses data from around 2005.
+Country population is as of 2014 from the World Bank.
+Taxes include income taxes and employee social security contributions, not consumption taxes;
+however, per &lt;a href=&quot;https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page296&quot;&gt;Figure 11.2&lt;/a&gt; in &lt;em&gt;Growing Unequal?&lt;/em&gt;, consumption taxes have a small effect on relative levels of inequality across OECD countries.
+:::&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Get data.
+pop = wb.download(indicator=&quot;SP.POP.TOTL&quot;,
+                  country='all', start=2014, 
+                  end=2014).reset_index().drop('year', axis=1)
+pop.rename({&quot;SP.POP.TOTL&quot;: &quot;population&quot;}, axis=1, inplace=True)
+# Align countries with Our World In Data and current convention.
+pop.country.replace({&quot;Czech Republic&quot;: &quot;Czech Rep.&quot;,
+                     &quot;Slovak Republic&quot;: &quot;Slovakia&quot;,
+                     &quot;Korea, Rep.&quot;: &quot;South Korea&quot;},
+                     inplace=True)
+
+oecd_raw = pd.read_csv(&quot;data/oecd_growing_unequal_2008_table_4_6.csv&quot;)
+# Align countries with Our World In Data and current convention.
+oecd_raw.country.replace({&quot;Korea&quot;: &quot;South Korea&quot;,
+                          &quot;Slovak Rep.&quot;: &quot;Slovakia&quot;},
+                         inplace=True)
+owid = pd.read_csv(&quot;data/inequality_pre_post_redistribution.csv&quot;)
+owid[&quot;gini_diff&quot;] = owid.gini_market - owid.gini_disposable
+oecd = oecd_raw.merge(owid, on=&quot;country&quot;).merge(pop, on=&quot;country&quot;)
+oecd[&quot;sqrt_pop&quot;] = np.sqrt(oecd.population)
+
+LABELS = {&quot;gini_diff&quot;:
+          &quot;Gini reduction via taxes and transfers&quot;,
+          &quot;household_taxes_concentration&quot;:
+          &quot;Household tax concentration index&quot;,
+          &quot;public_cash_transfers_income_share&quot;:
+          &quot;Cash transfer share of household income&quot;,
+          &quot;population&quot;:
+          &quot;Population&quot;,
+          &quot;household_taxes_income_share&quot;:
+          &quot;Tax share of household income&quot;
+         }
+
+# Make plot.
+def ineq_scatter(x, xtitle, title, logo_x=1):
+    fig = px.scatter(oecd, x=x, y=&quot;gini_diff&quot;, hover_name=&quot;country&quot;,
+                     size=&quot;sqrt_pop&quot;, #trendline=&quot;ols&quot;,
+                     labels=LABELS,
+                     size_max=30)
+    # Remove sqrt_pop from hover template.
+    hovertemplate = (&quot;&lt;b&gt;%{hovertext}&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&quot; +
+                     LABELS[x] + &quot;=%{x}&lt;br /&gt;&quot;
+                     &quot;Gini reduction via taxes and transfers=%{y}&quot;)
+    fig.update_traces(hovertemplate=hovertemplate)
+    fig.update_layout(
+        title_text=title,
+        title_font_size=20,
+        font_family=&quot;Roboto&quot;,
+    )
+
+    fig.update_xaxes(
+        tickangle=0,
+        title_text=xtitle,
+        tickfont={&quot;size&quot;: 14},
+        title_standoff=25,
+        ticksuffix=&quot;&quot;,
+        tickprefix=&quot;&quot;,
+    )
+
+    fig.update_yaxes(
+        title_text=&quot;Difference between market and disposable income Gini index&quot;,
+        ticksuffix=&quot;&quot;,
+        tickfont={&quot;size&quot;: 14},
+        title_standoff=25,
+    )
+    if x == &quot;public_cash_transfers_income_share&quot;:
+        fig.update_xaxes(ticksuffix=&quot;%&quot;)
+
+    fig.update_xaxes(title_font=dict(size=16, color=&quot;black&quot;))
+    fig.update_yaxes(title_font=dict(size=16, color=&quot;black&quot;))
+
+    add_ubi_center_watermark(fig, x=logo_x, y=-0.17)
+
+    fig.update_layout(plot_bgcolor=&quot;white&quot;)
+
+    return fig
+    
+fig = ineq_scatter(x=&quot;household_taxes_concentration&quot;,
+             xtitle=&quot;Household tax concentration index&quot;,
+             title=&quot;Tax progressivity and inequality reduction in the OECD&quot;)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/us-flat-tax/2020-12-30-us-flat-tax-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;A stronger correlate of inequality reduction is the generosity of public cash transfers.
+The countries that distribute a higher share of household income as cash transfers generally cut inequality more.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button5&quot; onclick=&quot;f5()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_5&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = ineq_scatter(x=&quot;public_cash_transfers_income_share&quot;,
+             xtitle=&quot;Public cash transfers / household disposable income&quot;,
+             title=&quot;Cash transfer generosity and inequality reduction in the OECD&quot;,
+             logo_x=0.95)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f5() {
+  var x = document.getElementById(&quot;asset_code_5&quot;);
+  var b = document.getElementById(&quot;button5&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset5&quot;).load(&quot;/assets/markdown_assets/us-flat-tax/2020-12-30-us-flat-tax-asset-5.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset5&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While overall tax levels also significantly correlate with inequality reduction, the effect vanishes when controlling for cash transfers, as shown in column 4 of the regression table below.
+Cash transfers are consistently the dominant predictor of the extent to which governments reduce inequality.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button6&quot; onclick=&quot;f6()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_6&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+oecd = sm.add_constant(oecd)
+
+def gini_reg(x, weighted=True):
+    if weighted:
+        m = sm.WLS(oecd.gini_diff, oecd[x + [&quot;const&quot;]], oecd.population)
+    else:
+        m = sm.WLS(oecd.gini_diff, oecd[x + [&quot;const&quot;]])
+    return m.fit(cov_type=&quot;HC1&quot;)  # Robust standard errors.
+
+cash_m = gini_reg([&quot;public_cash_transfers_income_share&quot;])
+tax_prog_m = gini_reg([&quot;household_taxes_concentration&quot;])
+tax_level_m = gini_reg([&quot;household_taxes_income_share&quot;])
+combined_m = gini_reg([&quot;household_taxes_concentration&quot;,
+                       &quot;household_taxes_income_share&quot;,
+                       &quot;public_cash_transfers_income_share&quot;])
+
+def starg(models, covariate_order=None):
+    &quot;&quot;&quot; Creates formatted Stargazer object.
+    &quot;&quot;&quot;
+    star = sg.Stargazer(models)
+    if covariate_order is not None:
+        star.covariate_order(covariate_order)
+    star.rename_covariates(LABELS)
+    star.show_adj_r2 = False
+    star.show_residual_std_err = False
+    star.show_f_statistic = False
+    return star
+
+
+star = starg([cash_m, tax_level_m, tax_prog_m, combined_m],
+             [&quot;public_cash_transfers_income_share&quot;,
+              &quot;household_taxes_income_share&quot;,
+              &quot;household_taxes_concentration&quot;,
+              ])
+star.add_custom_notes([&quot;Weighted by population. Robust SEs.&quot;])
+star.title(&quot;Inequality reduction and tax levels, tax progressivity, and cash &quot;
+           &quot;transfers&quot;)
+star
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f6() {
+  var x = document.getElementById(&quot;asset_code_6&quot;);
+  var b = document.getElementById(&quot;button6&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset6&quot;).load(&quot;/assets/markdown_assets/us-flat-tax/2020-12-30-us-flat-tax-asset-6.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset6&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This cross-country picture aligns with our simulations: larger UBIs cut inequality more, and even if the tax system that funds those larger UBIs isn’t progressive, ability to fund the UBI is what matters.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Beyond their simplicity, flat taxes have a number of theoretical advantages.
+Progressive tax structures necessarily encourage shifting income from one year to the next as well as &lt;a href=&quot;https://www.cbo.gov/sites/default/files/105th-congress-1997-1998/reports/marriage.pdf&quot;&gt;marriage, divorce, or both&lt;/a&gt;.&lt;sup id=&quot;fnref:marriage&quot;&gt;&lt;a href=&quot;#fn:marriage&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;
+Flat taxes treat income neutrally, regardless of when it was earned, by whom, or earners’ family choices.
+And because they align marginal tax rates (which determine labor incentives) with effective tax rates (which determine revenue), they raise revenue with relatively little work disincentive.
+For example, a &lt;a href=&quot;https://www.nber.org/papers/w27622&quot;&gt;2020 paper&lt;/a&gt; from the National Bureau of Economic Research found that “a uniform flat tax on capital and labor income combined with a lump-sum transfer is nearly optimal.”&lt;/p&gt;
+
+&lt;p&gt;And consider a progressive tax policy with two rates: 0% (a standard deduction) and 50%.
+If the standard deduction is $30,000, the first couple has a total tax liability of $15,000 if filing as a couple, but $0 if filing separately—a large marriage bonus (the second couple’s tax liability is $15,000 whether married or separate).
+If the standard deduction instead varies with marital status, e.g. $15,000 for singles and $30,000 for couples, then the first couple will be treated neutrally, paying $15,000 whether filing separate or married.
+But now the second couple faces a marriage &lt;em&gt;bonus&lt;/em&gt;, paying $22,500 in taxes if filing separately, but only $15,000  if married.
+This can be partly remedied by moving to an individualized tax system, as the United Kingdom does, where earnings are taxed independently of a spouse’s earnings.
+But couples will still have joint assets, and therefore face marriage penalties or bonuses on their capital income if capital income is taxed progressively.
+Only a flat tax avoids marriage penalties or bonuses.&lt;/p&gt;
+
+&lt;p&gt;Our simulations and cross-country comparisons show that these advantages don’t need to come at the cost of progressivity; if anything, they may enhance progressivity.
+Even a 30 percent flat income tax, with excess revenue distributed as UBI, could cut poverty in half, reduce inequality by 10 percent, and leave most Americans better off.
+To achieve the egalitarianism of other developed countries, the US should focus less on progressive taxation, and more on how to raise enough revenue to distribute it broadly, effectively, and generously.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:progressive-tax&quot;&gt;
+      &lt;p&gt;As of 2005, the US had the most progressive tax code of any OECD country according to the concentration index (as shown in the graph), as well as two alternative measures: the ratio of concentration coefficients of household taxes to the Gini index of market income, and the ratio of the richest decile’s tax share to its market income share (&lt;a href=&quot;https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page108&quot;&gt;Table 4.5&lt;/a&gt; of &lt;em&gt;Growing Unequal?&lt;/em&gt;). &lt;a href=&quot;#fnref:progressive-tax&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:marriage&quot;&gt;
+      &lt;p&gt;Consider, for example, two couples: one with $30,000 earnings each, and another with one earning $60,000 and the spouse earning $0. &lt;a href=&quot;#fnref:marriage&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="tax" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

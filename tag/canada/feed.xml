@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/canada/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-04-09T16:35:15+00:00</updated>
+  <id>/tag/canada/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">What a Canadian experiment tells us about cash transfers and homelessness</title>
+      <link href="/canada-homelessness-experiment" rel="alternate" type="text/html" title="What a Canadian experiment tells us about cash transfers and homelessness" />
+      <published>2020-12-14T00:00:00+00:00</published>
+      <updated>2020-12-14T00:00:00+00:00</updated>
+      <id>/canada-homelessness-experiment</id>
+      <content type="html" xml:base="/canada-homelessness-experiment">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://homelesshub.ca/sites/default/files/SOHC16_final_20Oct2016.pdf&quot;&gt;35,000 Canadians&lt;/a&gt; experience homelessness each night, violating their &lt;a href=&quot;https://www.ohchr.org/EN/Issues/Housing/Pages/Homelessnessandhumanrights.aspx&quot;&gt;right to adequate housing&lt;/a&gt; and threatening their &lt;a href=&quot;https://depts.washington.edu/triolive/quest/2007/TTQ07033/effects.html#:~:text=Their%20health%20gets%20worse%20from,Cardio%2DRespiratory%20diseases&quot;&gt;health, safety&lt;/a&gt; and access to &lt;a href=&quot;https://journals.sagepub.com/doi/pdf/10.3102/0013189X12468210?casa_token=YsJRZhavl9EAAAAA:iKO6XaWu6oNbDgcRzw3Tml-_m6mHEYmRWGY48rzXTStFpmBEWzqa1L_euQoV8WXYkrwZ8vxj-KGMGQ&quot;&gt;education&lt;/a&gt;. The Covid-19 pandemic exacerbates the issue, given &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7206983/&quot;&gt;crowded living conditions and comorbidities&lt;/a&gt;, and the Canadian government has taken new steps to address it, such as &lt;a href=&quot;https://www.theglobeandmail.com/canada/article-could-shelter-hotels-be-a-model-for-addressing-homelessness/&quot;&gt;moving people experiencing homelessness into hotels&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Prior to the pandemic, a Vancouver nonprofit, &lt;a href=&quot;https://forsocialchange.org/&quot;&gt;Foundations for Social Change&lt;/a&gt;, worked with the University of British Columbia to test a novel homelessness intervention: &lt;a href=&quot;https://static1.squarespace.com/static/5f07a92f21d34b403c788e05/t/5f751297fcfe7968a6a957a8/1601507995038/2020_09_30_FSC_Statement_of_Impact_w_Expansion.pdf&quot;&gt;unconditional cash transfers&lt;/a&gt;. In spring 2018, their &lt;a href=&quot;https://forsocialchange.org/new-leaf-project-overview&quot;&gt;New Leaf Project&lt;/a&gt; (NLP) granted a lump sum cash transfer to &lt;a href=&quot;https://www.britishcolumbia.ca/invest/communities/british-columbia/lower-mainland-southwest/&quot;&gt;Lower Mainland&lt;/a&gt; residents experiencing homelessness, and compared their outcomes to a control group. While some questions remain, the findings reveal that unconditional cash transfers, which are otherwise shown to improve &lt;a href=&quot;https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011135.pub2/full&quot;&gt;health&lt;/a&gt;, &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1570677X18303575&quot;&gt;education&lt;/a&gt;, and other outcomes, offer potential to reduce homelessness.&lt;/p&gt;
+
+&lt;h2 id=&quot;study-overview&quot;&gt;Study overview&lt;/h2&gt;
+
+&lt;p&gt;NLP selected 115 long-term residents or citizens of Canada aged 19 to 64 who had experienced homelessness within the previous six months. This group is fairly representative of Canada’s homeless population, given only about &lt;a href=&quot;https://www.homelesshub.ca/about-homelessness/homelessness-101/how-many-people-are-homeless-canada&quot;&gt;10 percent&lt;/a&gt; of people experiencing homelessness in a year were homeless for more than a month, and about &lt;a href=&quot;https://homelesshub.ca/sites/default/files/SOHC16_final_20Oct2016.pdf&quot;&gt;four percent&lt;/a&gt; are aged 65 or older. People with severe substance abuse or mental health disorders were ineligible for NLP.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the experiment, NLP deposited CAD 7,500&lt;sup id=&quot;fnref:cad&quot;&gt;&lt;a href=&quot;#fn:cad&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; into the bank accounts of 50 participants, randomly selected from the full group of 115. Each cash recipient was also provided access to workshops, and 25 also had access to coaching. Of the 65 who did not receive cash, 19 were provided access to workshops and coaching, while the other 46 were not.&lt;sup id=&quot;fnref:unbalanced&quot;&gt;&lt;a href=&quot;#fn:unbalanced&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Workshops focused on the development of a personal financial plan and self-affirmation exercises, and the coaching was offered for six months, aiming to develop and sustain life skills and strategies. Researchers tracked participants over twelve months, filling out questionnaires at one, three, six, nine and twelve months and open-ended qualitative interviews at six and twelve months.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+import plotly.express as px
+
+design = pd.DataFrame(
+    {
+        &quot;Workshop&quot;: [25, 0],
+        &quot;Workshop + coaching&quot;: [25, 19],
+        &quot;Neither&quot;: [0, 46]
+    },
+    index=[&quot;Cash&quot;, &quot;No cash&quot;],
+)
+design
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/canada-homelessness-experiment/2020-12-14-canada-homelessness-experiment-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h3 id=&quot;spending&quot;&gt;Spending&lt;/h3&gt;
+
+&lt;p&gt;The cash group spent an average of CAD 426 per month more than the non cash group over the course of the year. This amounts to 42 percent more than the non-cash group, or 6 percent of the total CAD 7,500 lump sum transfer. This extra spending covered a diverse range of categories: 54 percent more on transit, 113 percent more on clothing, 34 percent more on food, and so on. Of the treatment groups, the cash group increased its expenditure on alcohol, drugs, and cigarettes by the smallest proportion (11 percent).&lt;sup id=&quot;fnref:alcohol&quot;&gt;&lt;a href=&quot;#fn:alcohol&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; It also increased its expenditure on food and clothing for the children of recipients by the largest proportion (171 percent).&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Construct data from report.
+raw = pd.read_csv(&quot;new_leaf_homeless_expenditures.csv&quot;)
+raw.set_index('spending_category', inplace=True)
+# Sum food and clothing categories.
+food_clothes_kids = raw.loc[['Food for kids', 'Clothes for kids']].sum()
+food_clothes_self = raw.loc[['Food', 'Clothes']].sum()
+spending = raw.drop([&quot;Food&quot;, &quot;Clothes&quot;, &quot;Food for kids&quot;, &quot;Clothes for kids&quot;])
+spending.loc[&quot;Food and clothes for self&quot;] = food_clothes_self
+spending.loc[&quot;Food and clothes for kids&quot;] = food_clothes_kids
+
+# Add total row and label total for graph.
+spending.loc['TOTAL'] = spending.sum()
+spending['is_total'] = spending.index == 'TOTAL'
+
+spending.index.rename('Category', inplace=True)
+spending['% difference'] = (
+    100 * (spending.cash / spending.non_cash - 1)).round()
+
+
+import plotly.graph_objects as go
+
+# Plot % difference.
+BLUE = '#1976D2'
+DARK_BLUE = '#0D47A1'
+COLOR_MAP = {True: DARK_BLUE, False: BLUE}  # Total vs non-total.
+spending_order = spending.sort_values('% difference')
+spending_order.rename({'cash': 'Cash', 'non_cash': 'Non-cash',
+                       'is_total': 'Total'},
+                      axis=1, inplace=True)
+fig = px.bar(spending_order, y=spending_order.index, x='% difference',
+             color='Total', color_discrete_map=COLOR_MAP,
+             orientation='h', hover_data=['Cash', 'Non-cash'])
+
+fig.update_layout(font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  paper_bgcolor='white',
+                  showlegend=False,
+                  xaxis_title='Difference between cash and non-cash group',
+                  yaxis_title='',
+                  xaxis_ticksuffix='%',
+                  yaxis={'categoryorder': 'array',
+                         'categoryarray': spending_order.index},
+                  title='Spending differences between cash and non-cash groups'
+                  )
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/ubi_center_logo_wide_blue.png&quot;,
+        xref=&quot;paper&quot;, yref=&quot;paper&quot;,
+        x=1.04, y=-0.13,
+        sizex=0.12, sizey=0.12,
+        xanchor=&quot;right&quot;, yanchor=&quot;bottom&quot;
+    )
+)
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/canada-homelessness-experiment/2020-12-14-canada-homelessness-experiment-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Another way of quantifying the changes is as a share of spending. Alcohol, drugs, and cigarettes made up 9 percent of the cash group’s spending, a fifth less than the non-cash group’s 11.4 percent, while food and clothes for children made up 7.9 percent of the cash group’s spending, nearly double the 4.1 percent share in the non-cash group. The cash group also spent a larger share on clothes (for themselves) and transit, and a smaller share on rent and food.&lt;/p&gt;
+
+&lt;h3 id=&quot;transitions-to-stable-housing&quot;&gt;Transitions to stable housing&lt;/h3&gt;
+
+&lt;p&gt;Cash recipients also spent less time homeless than the control group. The two groups started similarly, but in the month following the intervention, the cash group was only homeless for 49 percent of days, while the control group was homeless for 78 percent of those days. The effect diminished over time, and by the end of the year, the two groups converged at around a fifth of days homeless. Overall, people in the cash group spent an average of 88 fewer days homeless throughout the full year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;days_homeless_chart.png&quot; alt=&quot;Days homeless fell faster over the year for the cash group than the non-cash group&quot; title=&quot;Change in days homeless for cash and non-cash groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those extra 88 days in homelessness housing and services would have cost the government about $8,200, exceeding the $7,500 grant (NLP did not report total costs beyond the grant, which would factor into a comprehensive cost-effectiveness analysis).&lt;/p&gt;
+
+&lt;p&gt;In open-ended surveys, cash recipients reported that they did not have to depend on social services and could move into housing that better met their preferences. For instance, one participant said, “The impact it had on my life was huge. I was able to do a lot of things that I couldn’t do before. It has changed my ability to make proper choices. If I had not received the cash transfer, I wouldn’t be able to move out. Wouldn’t be able to get my car back on the road. None of that.”&lt;/p&gt;
+
+&lt;h2 id=&quot;comparison-with-other-studies&quot;&gt;Comparison with other studies&lt;/h2&gt;
+
+&lt;p&gt;While NLP is the first randomized controlled trial giving unconditional cash transfers to people experiencing homelessness, it aligns with other studies on how cash transfers are spent.&lt;/p&gt;
+
+&lt;p&gt;The diversity of NLP participants’ spending is not unusual. The NGO GiveDirectly, which distributes unconditional cash transfers to extremely poor households in East Africa, &lt;a href=&quot;https://academic.oup.com/qje/article/131/4/1973/2468874?casa_token=r0_EGO-olVkAAAAA:D-gM7NEQ05yqBPV7qpwoDUZdQYeBkc0k0VD25VTBNDC9UAJbhM12Z45LDcGE3YRDELaGfBD7ktbJjA&quot;&gt;found&lt;/a&gt; in a randomized controlled trial that “With the exception of temptation goods (alcohol and tobacco), transfers increase expenditures in all categories, including food, medical and education expenditure, and social events.” GiveDirectly’s &lt;a href=&quot;https://live.givedirectly.org/&quot;&gt;GDLive tool&lt;/a&gt; shows unfiltered, unedited stories from recipients of their unconditional cash transfers and &lt;a href=&quot;https://www.givedirectly.org/ubi-study&quot;&gt;universal basic income&lt;/a&gt; payments; perusing the stories of UBI recipients reveals variety in spending, from &lt;a href=&quot;https://live.givedirectly.org/newsfeed/1b0ed686-5aef-4386-8fc3-0c00078d810d/199799?context=search-UBI#payment_26&quot;&gt;poultry&lt;/a&gt; and &lt;a href=&quot;https://live.givedirectly.org/newsfeed/a048e9ee-4ee3-4af4-9a95-3e3a64b2d568/199175?context=search-UBI#payment_23&quot;&gt;tea seedlings&lt;/a&gt; to &lt;a href=&quot;https://live.givedirectly.org/newsfeed/6e54ba92-ddde-4634-8c8e-f092303c56e6/199793?context=search-UBI#payment_26&quot;&gt;school fees&lt;/a&gt; and &lt;a href=&quot;https://live.givedirectly.org/newsfeed/65e70a79-f575-49e4-82e4-88bcf186e395/199033?context=search-UBI#payment_26&quot;&gt;dowries&lt;/a&gt; to &lt;a href=&quot;https://live.givedirectly.org/newsfeed/cf2ec5ca-0fa8-4cab-98ed-3b8712ccf0e9/199064?context=search-UBI#payment_26&quot;&gt;water tanks&lt;/a&gt; and &lt;a href=&quot;https://live.givedirectly.org/newsfeed/822e173e-d163-4472-a6ac-5124a59f44d1/199001?context=search-UBI#payment_26&quot;&gt;homebuilding materials&lt;/a&gt;. A study of Australia’s Covid-19 economic support payment also found that recipients—mostly pensioners—increased spending across a &lt;a href=&quot;https://www.smh.com.au/business/the-economy/groceries-vs-video-games-how-women-and-men-spend-their-stimulus-payments-differently-20200419-p54l88.html&quot;&gt;diverse range of categories&lt;/a&gt;. Given many in-kind assistance programs target just one or two categories each, such as food and rent, cash can fill in gaps for other needs that might be harder for policymakers to anticipate.&lt;/p&gt;
+
+&lt;p&gt;Spending on children is especially common, as evidenced by the robust evidence that cash transfers benefit children. As we summarize in &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;our child allowance paper&lt;/a&gt;, cash transfers consistently improve education and nutrition, as well as long-term outcomes like earnings and even lifespan, across both developing and developed countries. &lt;a href=&quot;https://www.nber.org/system/files/working_papers/w14624/w14624.pdf&quot;&gt;One study&lt;/a&gt; from Canada found that when Manitoba increased its child benefit in 2001, children ages 0 to 3 showed improved motor and social development, children ages 4-5 showed lower aggression and anxiety.&lt;/p&gt;
+
+&lt;p&gt;A common concern around giving money to poor people is that they will spend on temptation goods like alcohol, drugs, and cigarettes. This worry motivated San Francisco voters to &lt;a href=&quot;https://en.wikipedia.org/wiki/San_Francisco_Proposition_N_(2002)&quot;&gt;replace cash assistance&lt;/a&gt; for people experiencing homelessness with in-kind benefits like housing, in a 2002 program called &lt;a href=&quot;https://www.latimes.com/politics/la-pol-ca-gavin-newsom-homelessness-san-francisco-20181023-story.html&quot;&gt;“Care Not Cash.”&lt;/a&gt; A number of studies show such concerns to be misplaced. Data from San Francisco’s pre-Care-Not-Cash days indicates that homeless cash recipients were &lt;a href=&quot;https://link.springer.com/article/10.1093/jurban/jti015&quot;&gt;less likely to use drugs&lt;/a&gt; than those who didn’t receive cash (they were also less likely to receive income from selling drugs or be incarcerated, and more likely to find shelter). A &lt;a href=&quot;https://news.gallup.com/poll/184358/drinking-highest-among-educated-upper-income-americans.aspx&quot;&gt;2015 Gallup poll&lt;/a&gt; and a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3185179/&quot;&gt;2011 analysis&lt;/a&gt; of the Panel Study of Income Dynamics also found that low-income people consume less alcohol than higher-income people (though they’re more likely to drink heavy quantities and similarly likely to report that they drink more than they should). A &lt;a href=&quot;http://documents1.worldbank.org/curated/en/617631468001808739/pdf/WPS6886.pdf&quot;&gt;2014 World Bank meta-analysis&lt;/a&gt; demonstrates that these results are not mere correlations: data from 19 quantitative papers, including several randomized controlled trials, found that cash transfers most often &lt;em&gt;reduced&lt;/em&gt; or had no effect on temptation good consumption.&lt;sup id=&quot;fnref:temptation&quot;&gt;&lt;a href=&quot;#fn:temptation&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Canada has long welcomed unconditional cash transfers, from the 1970s &lt;a href=&quot;https://www.bbc.com/worklife/article/20200624-canadas-forgotten-universal-basic-income-experiment&quot;&gt;“Mincome” program&lt;/a&gt; in Manitoba to its unusually generous &lt;a href=&quot;https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html&quot;&gt;child benefit&lt;/a&gt; to its prematurely-cancelled &lt;a href=&quot;https://www.pbs.org/newshour/economy/making-sense/ontario-is-canceling-its-basic-income-experiment&quot;&gt;basic income pilot&lt;/a&gt; in Ontario. And as &lt;a href=&quot;https://www.un.org/development/desa/dspd/wp-content/uploads/sites/22/2019/05/CASEY_Louise_Paper.pdf&quot;&gt;developed&lt;/a&gt; and &lt;a href=&quot;https://www.un.org/development/desa/dspd/wp-content/uploads/sites/22/2019/05/SPEAK_Suzanne_Paper.pdf&quot;&gt;developing&lt;/a&gt; countries tackle homelessness, discussions inevitably include cash, whether it’s San Francisco &lt;a href=&quot;https://en.wikipedia.org/wiki/San_Francisco_Proposition_N_(2002)&quot;&gt;retracting cash assistance&lt;/a&gt; in 2002 or Manila introducing a &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-81-322-2160-9_15&quot;&gt;conditional cash transfer&lt;/a&gt; in 2012.&lt;/p&gt;
+
+&lt;p&gt;NLP unites Canadian interest in cash transfers with homelessness research. It shows that people experiencing homelessness spread lump-sum transfers over time and across spending categories—especially focusing on their children—and that cash transfers accelerate transitions into stable housing.&lt;/p&gt;
+
+&lt;p&gt;Some questions following this study remain. For example, how would cash transfers affect the &lt;a href=&quot;https://canadiancentreforaddictions.org/addiction-in-the-homeless-population/&quot;&gt;40 percent&lt;/a&gt; of Canadians experiencing homelessness who have substance abuse disorders? Or the &lt;a href=&quot;https://lop.parl.ca/staticfiles/PublicWebsite/Home/ResearchPublications/InBriefs/PDF/2014-11-e.pdf&quot;&gt;similar share&lt;/a&gt; with mental illness? NLP excluded both groups from this round, though a &lt;a href=&quot;https://science.sciencemag.org/content/370/6522/eaay0214&quot;&gt;recent Science meta-review&lt;/a&gt; found that “cash transfers and broader anti-poverty programs reduce depression and anxiety in randomized trials.” The long-term effects on children experiencing homelessness may be even starker, as the review also finds that “poverty experienced in childhood and in utero [results] in impaired cognitive development and adult mental illness.”&lt;/p&gt;
+
+&lt;p&gt;Another question is: how do lump sum transfers, as used in the NLP experiment, compare to recurring payments for people experiencing homelessness? Research to date on this question has largely focused on developing countries. For example, a review of &lt;a href=&quot;https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/5745.pdf&quot;&gt;post-emergency aid and development&lt;/a&gt; contexts suggests that regular payments are less prone to corruption than lump sum transfers, and that they outperform on measures of social protection, while lump-sum transfers can more effectively spur investment if targeted to entrepreneurs. Similarly, a &lt;a href=&quot;https://academic.oup.com/qje/article/131/4/1973/2468874?casa_token=r0_EGO-olVkAAAAA:D-gM7NEQ05yqBPV7qpwoDUZdQYeBkc0k0VD25VTBNDC9UAJbhM12Z45LDcGE3YRDELaGfBD7ktbJjA&quot;&gt;GiveDirectly study&lt;/a&gt; among poor households in rural Kenya found: “Monthly transfers are more likely than lump-sum transfers to improve food security, whereas lump-sum transfers are more likely to be spent on durables,” and forthcoming results from its &lt;a href=&quot;https://www.givedirectly.org/ubi-study/&quot;&gt;basic income experiment&lt;/a&gt; will shed more light on the topic.&lt;/p&gt;
+
+&lt;p&gt;Beyond helping people currently experiencing homelessness, how can cash transfers prevent homelessness? Studies from &lt;a href=&quot;https://www.latimes.com/business/la-fi-ucla-anderson-forecast-20180613-story.html&quot;&gt;UCLA&lt;/a&gt; and &lt;a href=&quot;https://www.zillow.com/research/homelessness-rent-affordability-22247/&quot;&gt;Zillow&lt;/a&gt; link housing affordability and homelessness, suggesting that (along with reducing housing costs) raising incomes via cash transfers could keep people housed.&lt;/p&gt;
+
+&lt;p&gt;Finally: how much of these effects can be attributed to cash transfers compared to coaching, workshops, and other overhead, and how do these other costs affect cost-benefit analysis? This first experimental design makes it difficult to disentangle effects, but future experiments could omit other components to focus on the cash transfer, or test other components in a grid or hierarchical design. For example, a &lt;a href=&quot;https://www.nber.org/papers/w28106&quot;&gt;recent study&lt;/a&gt; on psychological well-being in rural Kenya employed a two-by-two experimental design to study the effect of cash transfers, a psychotherapy program, and the combination of the two. This revealed that, while the cash transfer improved well-being, psychotherapy did not—either by itself or in conjunction with the cash. A similar approach could quantify the effect of coaching or workshops, conditional on cash transfers.&lt;/p&gt;
+
+&lt;p&gt;Foundations for Social Change has committed to publishing a peer-reviewed paper on this round of results, and they are raising $10 million to enroll more participants across more Canadian cities and expand research capacity. Any follow-up research is likely to improve the precision of these estimates on expenditures and housing stability, and quantify the external validity to new contexts, even if only geographic. Open questions on cash and homelessness makes this fertile ground for further research, whether from NLP or other organizations. If nothing else, this study suggests that expanding cash assistance will increase spending on diverse needs—especially of children—and accelerate transitions to stable housing, thereby improving the range of outcomes associated with homelessness.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:cad&quot;&gt;
+      &lt;p&gt;CAD 7,500 is equivalent to about USD 5,900 as of December 2020. &lt;a href=&quot;#fnref:cad&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:unbalanced&quot;&gt;
+      &lt;p&gt;Researchers did not explain their choice to have unbalanced treatment and control groups, or to give workshop access only to the cash group. &lt;a href=&quot;#fnref:unbalanced&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:alcohol&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://static1.squarespace.com/static/5f07a92f21d34b403c788e05/t/5f751297fcfe7968a6a957a8/1601507995038/2020_09_30_FSC_Statement_of_Impact_w_Expansion.pdf&quot;&gt;study&lt;/a&gt; claims a “39% reduction in spending on alcohol, cigarettes and drugs.” In email correspondence, Foundations for Social Change clarified that this is a comparison of pre-pilot spending with that at the end of 12 months for the cash group (i.e. not compared to the non-cash group). &lt;a href=&quot;#fnref:alcohol&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:temptation&quot;&gt;
+      &lt;p&gt;Temptation goods are defined as: “goods that generate positive utility for the self that consumes them, but not for any previous self that anticipates that they will be consumed in the future.” But the meta study focuses principally on alcohol and tobacco. Similarly, the study suggests that temptation goods are synonymous with demerit goods or, “goods that were so demeritorious (either to the consumer or to others) that the government may be correct in regulating their use. That term is sometimes used in reference to alcohol and tobacco in cash transfer studies.” &lt;a href=&quot;#fnref:temptation&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;charles&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="canada" />
+      
+        <category term="homelessness" />
+      
+        <category term="pilots" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
