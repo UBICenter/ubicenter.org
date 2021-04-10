@@ -1,8 +1,8 @@
 vat:
-  name: VAT
-  description: Value added taxes.
+  name: vat
+  description: Posts about value added taxes
   cover: False
 us:
-  name: US
-  description: United States of America.
+  name: us
+  description: Posts about the United States of America
   cover: False
