@@ -18,7 +18,7 @@ logo: 'assets/images/ghost.png'
     <div class="inner">
         {% include site-nav.html %}
         <div class="site-header-content">
-            <h1 class="site-title">{{ page.tag | capitalizeall }}</h1>
+            <h1 class="site-title">{{ page.tag | upcase }}</h1>
             <h2 class="site-description">
                 {% if tag_description %}
                     {{ tag_description }}

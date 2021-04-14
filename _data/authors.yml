@@ -1,8 +1,8 @@
 max:
   username: max
   name: Max Ghenis
-  title: Founder and President (US)
-  location: California, US
+  title: Founder and President
+  location: US
   url_full: False
   url: False
   short_bio: Max is the founder and president of the UBI Center.  
@@ -15,11 +15,11 @@ max:
 nate:
   username: nate
   name: Nate Golden
-  title: Research Associate (US)
-  location: Taipei, Taiwan
+  title: Research Associate
+  location: Taiwan
   url_full: False
   url: False
-  short_bio: Nate is a math teacher in DC Public Schools, and formerly worked in the same position in Charlotte Mecklenberg Schools. 
+  short_bio: Nate is a research associate with the UBI Center. 
   bio: Nate is a math teacher in DC Public Schools, and formerly worked in the same position in Charlotte Mecklenberg Schools. Additionally, he has worked as a policy advisor for State Representative Leslie Herod of Colorado and a researcher for The Colorado League of Charter Schools through the Urban Leaders Fellowship summer program.  Nate has a bachelor's degree in economics from Penn State University.  He believes in the importance of policy work to alleviate poverty and inequality.
   picture: assets/images/nate_headshot.jpg
   facebook: False
@@ -31,10 +31,10 @@ john:
   username: john
   name: John Walker
   title: Research Assistant
-  location: Cambridge, MA
+  location: US
   url_full: False
   url: False
-  short_bio: John is a Master's student in development economics at MIT. 
+  short_bio: John is a research assistant with the UBI Center. 
   bio: John is a Master's student in development economics at MIT. Previously, he was a researcher in development and health economics at the University of Sydney, and he's also worked and volunteered in monitoring and evaluation and community engagement roles with development economics-focused NGOs, including the Global Green Growth Institute and RESULTS Australia. John is interested in how evaluation techniques from econometrics can be used to build more robust public policy that is sensitive to the needs of program recipients. John holds a Bachelor of Arts and a Bachelor of Economics from the University of Sydney.
   picture: assets/images/john_headshot.png
   github: jwal1024
@@ -44,12 +44,12 @@ john:
 nihkil:
   username: nikhil
   name: Nikhil Woodruff
-  title: Research Assistant (UK)
-  location: London, UK
+  title: Quantitative Researcher
+  location: UK
   url_full: False
   url: False
-  short_bio: Nikhil is a student at the University of Durham, UK studying Computer Science, where his interests include data science, simulation and its applications on public policy. 
-  bio: Nikhil is a student at the University of Durham, UK studying Computer Science, where his interests include data science, simulation and its applications on public policy. He is the author and maintainer of the openfisca-uk microsimulation model of the UK tax and benefit system. Nikhil has previously interned at Caspian, where he worked in improving anti-money laundering investigations.
+  short_bio: Nikhil is a quantitative researcher with the UBI Center.
+  bio: Nikhil is a student at the Durham University studying Computer Science, where his interests include data science, simulation and its applications on public policy. He is the author and maintainer of the openfisca-uk microsimulation model of the UK tax and benefit system. Nikhil has previously interned at Caspian, where he worked in improving anti-money laundering investigations.
   picture: assets/images/nikhil_headshot.jpg
   github: nikhilwoodruff
   medium: False
@@ -58,11 +58,11 @@ nihkil:
 charles:
   username: charles
   name: Charles Bauman
-  title: Research Assistant (UK)
-  location: London, UK
+  title: Research Assistant
+  location: UK
   url_full: False
   url: False
-  short_bio: Charles is a recent graduate from London School of Economics and Political Science (LSE), where he completed a Master's degree in Theory and History of International Relations.
+  short_bio: Charles is a research assistant with the UBI Center.
   bio: Charles is a recent graduate from London School of Economics and Political Science (LSE), where he completed a Master's degree in Theory and History of International Relations. He previously was an intern for the Institute of Economic Affairs in London, where he researched economic and foreign policy. Charles received a Master's degree in Medieval History from King's College London and a Bachelor's degree in History from Northwest Nazarene University.
   picture: assets/images/charles_headshot.jpg
   github: False
@@ -73,10 +73,10 @@ praneet:
   username: praneet
   name: Praneet Rathi
   title: Research Assistant
-  location: Chicago, US
+  location: US
   url_full: False
   url: False
-  short_bio: Praneet is a senior in high school from the northern suburbs of Chicago. His interests lie at the intersection of math, computer science, and economics, and he looks forward to study these topics in college.
+  short_bio: Praneet is a research assistant with the UBI Center.
   bio: Praneet is a senior in high school from the northern suburbs of Chicago. His interests lie at the intersection of math, computer science, and economics, and he looks forward to study these topics in college. He is excited to see the impact UBI Center will have in facilitating more open discussions regarding eliminating poverty while maintaining the economy.
   picture: assets/images/praneet_headshot.jpg
   github: prrathi
@@ -87,10 +87,10 @@ matt:
   username: matt
   name: Matt Gilbert
   title: Developer
-  location: Cambridge, MA
+  location: US
   url_full: False
   url: False
-  short_bio: Matt is a senior at Harvard University, where he is pursuing a Bachelor of Arts in Computer Science. He has previously worked for two startups in the clean energy field.
+  short_bio: Matt is a developer with the UBI Center.
   bio: Matt is a senior at Harvard University, where he is pursuing a Bachelor of Arts in Computer Science. He has previously worked for two startups in the clean energy field. He has also been involved with Harvard for Yang and Boston Basic Income. Matt has written a series of columns about universal basic income for the Harvard Crimson, a student-run newspaper. He believes that a world without poverty is possible. 
   picture: assets/images/matt_headshot.jpg
   github: mgilbert1
@@ -104,7 +104,7 @@ ankit:
   location: Canada
   url_full: False
   url: False
-  short_bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy.
+  short_bio: Ankit is a research assistant with the UBI Center.
   bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy. Most recently, Ankit worked with PwC Canada, where he led business intelligence for the retail and telecom sector. In total, he brings 9 years of corporate research and analysis experience. An aspiring policy analyst, Ankit’s interest lies in development and health policy. He is currently preparing his applications for public policy programs in Canada.
   picture: assets/images/ankit_headshot.jpg
   github: AD-0703
@@ -115,10 +115,10 @@ deepak:
   username: deepak
   name: Deepak Singh
   title: Research Assistant
-  location: Cambridge, MA
+  location: UK
   url_full: False
   url: False
-  short_bio: Deepak is a rising junior at Harvard University, where he is an A.B. Honors candidate in Philosophy and Computer Science, and an Arete Fellow with Harvard College Effective Altruism
+  short_bio: Deepak is a research assistant with the UBI Center.
   bio: Deepak is a rising junior at Harvard University, where he is an A.B. Honors candidate in Philosophy and Computer Science, and an Arete Fellow with Harvard College Effective Altruism. He is the Co-Founder and Co-Director of the Salisbury Open Data Project, and an alumnus of the American Enterprise Institute’s Summer Honors Program. He believes in combining philosophical approaches to public policy with insights from data science and artificial intelligence.
   picture: assets/images/deepak_headshot.jpg
   github: DeepakSingh98
@@ -129,10 +129,10 @@ nicholas:
   username: nicholas
   name: Nicholas Rodelo
   title: Research Assistant
-  location: Boston, MA
+  location: US
   url_full: False
   url: False
-  short_bio: Nicholas (Nick) is currently a Senior at Boston University, studying Economics. Nick has previously worked as a research assistant for topics in sociology and economics.
+  short_bio: Nicholas is a research assistant with the UBI Center.
   bio: Nicholas (Nick) is currently a Senior at Boston University, studying Economics. Nick has previously worked as a research assistant for topics in sociology and economics. He also has experience interning in insurance analytics and finance. Outside of school and work, Nick has previously played guitar/bass in a few bands and is an active record collector.
   picture: assets/images/nicholas_headshot.jpg
   github: nmrodelo
@@ -143,10 +143,10 @@ connor:
   username: connor
   name: Connor Tragesser
   title: Research Assistant
-  location: Cambridge, MA
+  location: US
   url_full: False
   url: False
-  short_bio: Connor is a student at The Ohio State University studying economics and political science.
+  short_bio: Connor is a research assistant with the UBI Center.
   bio: Connor is a student at The Ohio State University studying economics and political science. Beyond the UBI Center, he also works as a research assistant in Ohio State's political science department. He has also been involved in multiple political campaigns in the Columbus are
   picture: assets/images/connor_headshot.jpg
   github: cotrag
@@ -157,10 +157,10 @@ katarina:
   username: katarina
   name: Katarina van Alebeek
   title: Research Assistant
-  location: Palo Alto, CA
+  location: US
   url_full: False
   url: False
-  short_bio: Katarina graduated from Stanford University in 2019 with studies in Political Science and Philosophy. 
+  short_bio: Katarina is a research assistant with the UBI Center.
   bio: Katarina graduated from Stanford University in 2019 with studies in Political Science and Philosophy. Her interest lies in the connection of policy and UBI, especially in how governments can implement effective UBI legislation. She has previously done research in Sarajevo, Bosnia and Herzegovina, on storytelling as a tool for reconciliation and empathy-building.
   picture: assets/images/katarina_headshot.jpg
   github: kvanalebeek

@@ -6,14 +6,14 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /ubicenter.org/
+baseurl: /
 
 # Website info
 title: UBI Center
 description: Analyzing universal basic income policies with open-source research
 cover: assets/images/ubi_center_blue.jpg
 logo: assets/images/ubi_center_logo_wide_white.jpg
-logo_dark: assets/images/ubi_center_logo_dark.jpg
+logo_dark: assets/images/ubi_center_logo_wide_blue.jpg
 favicon: assets/images/ubi_center_logo_wide_blue.jpg
 CNAME: #add cname for website to be created
 
@@ -25,7 +25,7 @@ subscribers: True # you need to connect an external service for this to work,
 twitter: TheUBICenter
 facebook: TheUBICenter
 github: UBICenter
-
+# mailchimp-list: 
 # Disqus
 disqus: True
 disqus_shortname: ubicenter
@@ -71,10 +71,10 @@ lsi: False
 username: UBICenter
 repo: ubicenter.org
 branch: master
-relative_source: ../ubicenter.org/
+relative_source: ../ubicenter.github.io/
 destination: ./_site
-production_url:  https://ubicenter.github.io/ubicenter.org/
-source_url:  https://github.com/ubicenter/ubicenter.org/
+production_url:  https://ubicenter.github.io/
+source_url:  https://github.com/ubicenter/ubicenter.github.io/
 
 exclude:
   - assets/css
