@@ -23,6 +23,8 @@ production stylesheet in assets/built/screen.css
 
 */
 
+/* Tables */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
@@ -504,11 +506,11 @@ Slightly hacky code. But nice clean end-result.
     font-weight: 500;
     line-height: 33px;
     flex-shrink: 0;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     letter-spacing: .5px;
     text-transform: uppercase;
-    float: right;
-    margin-top: -4px;
+    float: left;
+    margin-top: -10px;
     color: var(--midgrey);
 }
 
@@ -1019,9 +1021,6 @@ Usage (In Ghost editor):
         display: none;
     }
 }
-
-/* Tables */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .post-full-content table {
     display: inline-block;
