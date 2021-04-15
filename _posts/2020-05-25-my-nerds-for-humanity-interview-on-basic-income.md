@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/2020-05-25-my-nerds-for-humanity-interview-on-basic-income-0.jpg 
 navigation: True
-title: My Nerds for Humanity interview on basic income
+title: Interview with Nerds for Humanity on basic income
 date: 2020-05-25T18:27:54.878Z
 lastmod: 2021-03-25T15:20:22-04:00
 tags: [media]
@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+description: We discussed the current safety net, how to measure effectiveness, and the pandemic.
 subtitle: 
 images:
  - "assets/images/2020-05-25-my-nerds-for-humanity-interview-on-basic-income-0.jpg"
@@ -23,7 +23,7 @@ aliases:
 
 ---
 
-#### [Watch it here](https://youtu.be/DCUq5_ERDp8)
+*[Watch it here](https://youtu.be/DCUq5_ERDp8)*
 
 Last week, I joined Tom from [Nerds for Humanity](http://nerdsforhumanity.com) for a live-streamed interview. The Nerds for Humanity channel (formerly Nerds for Yang) runs multiple streams weekly on topics surrounding Andrew Yang, universal basic income, and global affairs more broadly. As you might guess from the name, Tom emphasizes data in his videos, frequently incorporating charts and graphs, so our research-oriented conversation was thought-provoking and wide-ranging.
 

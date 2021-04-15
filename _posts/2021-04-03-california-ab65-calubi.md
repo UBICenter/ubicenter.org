@@ -9,6 +9,7 @@ class: post-template
 cover: assets/images/2021-04-03-california-ab65-calubi/cover.png
 subclass: 'post'
 author: [max]
+description: AB65 would cut poverty by 83%, but add $282 billion to the state deficit.
 ---
 
 In 2018, the California Democratic Party [added](https://www.cnbc.com/2018/03/12/california-democratic-party-platform-supports-universal-basic-income.html) Universal Basic Income (UBI) to their party platform. Two years later, Assemblymember Evan Low (D-Campbell), who served as a [national co-chair](https://www.ebar.com/news/latest_news//286838) for Andrew Yang's presidential campaign, introduced a [UBI bill](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB2712) for California. In December 2020, Low reintroduced the bill for the 2020-21 legislative session, this time with Senator Scott Wiener (D-San Francisco) as a coauthor and adding some minor revisions.

@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+description: The presidential candidate's basic income plan would cut poverty and inequality, but add to the deficit.
 subtitle: 
 images:
  - "assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-0.png"

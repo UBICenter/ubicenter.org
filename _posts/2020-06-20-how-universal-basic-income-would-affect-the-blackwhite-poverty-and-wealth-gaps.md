@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+description: The bigger the UBI, the smaller the racial disparities.
 subtitle: 
 images:
  - "assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-0.jpg"

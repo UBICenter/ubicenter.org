@@ -10,6 +10,7 @@ cover: assets/images/2020-11-17-student-debt/cover.jpg
 class: post-template
 subclass: 'post'
 author: nate
+description: Dollar for dollar, universal payments do more for poverty and income inequality.
 ---
 
 <head>

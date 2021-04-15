@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+description: Legislators from both parties are calling for unconditional payments.
 subtitle: 
 images:
  - "assets/images/2020-03-22-tracking-us-emergency-cash-transfer-proposals-0.png"
@@ -23,7 +23,7 @@ aliases:
 
 ---
 
-#### [See the tracker here](https://docs.google.com/spreadsheets/d/1ZuHR2uOKWoloXw5raJzMNRjOMggcWdBxYB3Jhf0B4lE) and [ubicenter.org/covid19](http://ubicenter.org/covid19) for more research
+*[See the tracker here](https://docs.google.com/spreadsheets/d/1ZuHR2uOKWoloXw5raJzMNRjOMggcWdBxYB3Jhf0B4lE)*
 
 The Covid-19 outbreak is preventing workers from collecting a paycheck, blowing up unemployment rolls, sending capital income into the red, and devastating job-seekers. To ensure families can keep paying their bills, United States policymakers are increasingly considering emergency cash transfers and universal basic income.
 

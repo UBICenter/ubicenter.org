@@ -10,6 +10,7 @@ class: post-template
 cover: assets/images/2021-02-28-racial-wealth-gap-ks/cover.png
 subclass: 'post'
 author: [will, max]
+description: Going beyond mean and median.
 ---
 
 <head>

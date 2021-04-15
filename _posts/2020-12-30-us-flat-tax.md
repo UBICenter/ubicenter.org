@@ -10,6 +10,7 @@ class: post-template
 cover: assets/images/2020-12-30-us-flat-tax/cover.png
 subclass: 'post'
 author: [nate, max]
+description: Flat tax rates of 25 percent or more would reduce poverty and inequality.
 ---
 
 <head>

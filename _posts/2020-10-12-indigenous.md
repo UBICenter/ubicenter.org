@@ -10,6 +10,7 @@ class: post-template
 cover: assets/images/2020-10-12-indigenous/cover.jpg
 subclass: 'post'
 author: nate
+description: Policies of at least $250 per month would close the Indigenous/non-Indigenous poverty gap.
 ---
 
 <head>

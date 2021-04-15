@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+description: We're creating a new kind of think tank.
 subtitle: 
 images:
  - "assets/images/2019-06-24-introducing-the-ubi-center-0.png"

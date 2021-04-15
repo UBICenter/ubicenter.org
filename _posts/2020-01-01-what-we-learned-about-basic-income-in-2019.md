@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+description: The research frontier expanded rapidly.
 subtitle: 
 images:
  - "assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg"
@@ -25,8 +25,6 @@ aliases:
 - "/what-we-learned-about-basic-income-in-2019-48b7db543094"
 
 ---
-
-#### The research frontier expanded rapidly
 
 2019 has been a big year for universal basic income (UBI). Web searches for the topic rose over 40 percent since 2018 in the US, and over 130 percent globally. A 2019 Nobel laureate wrote a paper on [UBI in the developing world](https://economics.mit.edu/files/16000), the World Bank published a book of [UBI evidence](https://www.google.com/books/edition/_/00XEDwAAQBAJ?hl=en&gbpv=0), and Palgrave Macmillan published the [fifteenth](https://www.palgrave.com/gp/book/9783030143770) and [sixteenth](https://www.palgrave.com/gp/book/9783030236137) books in their [academic series on UBI](https://www.palgrave.com/gp/series/14981).
 
