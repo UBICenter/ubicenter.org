@@ -15,7 +15,7 @@ subclass: 'post'
 
 [![Would basic income be better than additional unemployment benefits?]({{site.baseurl}}assets/images/thehill.png)](https://thehill.com/opinion/finance/514672-would-basic-income-be-better-than-additional-unemployment-benefits)
 
-[![Andrew Yang's UBI problem]({{site.baseurl}}/{{site.baseurl}}assets/images/theweek.png)](https://theweek.com/articles/858097/andrew-yangs-ubi-problem)
+[![Andrew Yang's UBI problem]({{site.baseurl}}assets/images/theweek.png)](https://theweek.com/articles/858097/andrew-yangs-ubi-problem)
 
 [![This free cash plan would pay you $1,320 per month and wouldn’t cost the government a cent]({{site.baseurl}}assets/images/CNBC.png)](https://www.cnbc.com/2020/01/14/budget-neutral-universal-basic-income-plan-would-pay-1320-per-month.html)
 
