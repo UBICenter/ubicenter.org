@@ -69,12 +69,12 @@ feed:
 safe: False
 lsi: False
 username: UBICenter
-repo: test.ubicenter.org
+repo: ubicenter.org
 branch: master
-relative_source: ../test.ubicenter.org/
+relative_source: ../ubicenter.org/
 destination: ./_site
-production_url:  https://test.ubicenter.org/
-source_url:  https://github.com/ubicenter/test.ubicenter.org/
+production_url:  https://ubicenter.org/
+source_url:  https://github.com/ubicenter/ubicenter.org/
 
 exclude:
   - assets/css
