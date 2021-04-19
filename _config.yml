@@ -27,7 +27,7 @@ facebook: TheUBICenter
 github: UBICenter
 # mailchimp-list: 
 # Disqus
-disqus: True
+disqus: False
 disqus_shortname: ubicenter
 
 # Google Analytics
