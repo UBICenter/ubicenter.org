@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build:
-    if: github.repository == 'UBICenter/test.ubicenter.org'
+    if: github.repository == 'UBICenter/ubicenter.org'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,5 +29,5 @@ jobs:
           jekyll_cfg: '_config.yml'
           jekyll_baseurl: ''
           bundler_ver: '>=0'
-          cname: 'test.ubicenter.org'
+          cname: 'ubicenter.org'
           actor: ''
