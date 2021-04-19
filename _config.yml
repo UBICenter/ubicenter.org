@@ -23,11 +23,11 @@ subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: TheUBICenter
-facebook: TheUBICenter
+facebook: UBICenter
 github: UBICenter
 # mailchimp-list: 
 # Disqus
-disqus: True
+disqus: False
 disqus_shortname: ubicenter
 
 # Google Analytics

@@ -20,7 +20,16 @@
                     {% endif %}
 
                     <h2 class="post-card-title">{{ page.previous.title }}</h2>
+                    <span class="reading-time">
+                        {% assign words = post.content | strip_html | number_of_words %}
+                        {% if words <= words_per_minute %}
+                          1 min read
+                        {% else %}
+                          {{ words | divided_by:words_per_minute }} min read
+                        {% endif %}
+                </span>
                 </header>
+                <br>
                 <section class="post-card-excerpt">
                     {% if post.excerpt %}
                         <p>{{ post.excerpt | strip_html | truncatewords: 33, "" }}</p>
@@ -40,14 +49,6 @@
                         </span>
                     {% endif %}
                 {% endfor %}
-                <span class="reading-time">
-                    {% assign words = post.content | strip_html | number_of_words %}
-                    {% if words <= words_per_minute %}
-                      1 min read
-                    {% else %}
-                      {{ words | divided_by:words_per_minute }} min read
-                    {% endif %}
-                </span>
             </footer>
         </div>
     </article>

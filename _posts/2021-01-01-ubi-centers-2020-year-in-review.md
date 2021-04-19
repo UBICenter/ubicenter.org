@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+excerpt: We joined scholars around the world in accelerating UBI research.
 subtitle: 
 images:
  - "assets/images/2021-01-01-ubi-centers-2020-year-in-review-0.jpg"

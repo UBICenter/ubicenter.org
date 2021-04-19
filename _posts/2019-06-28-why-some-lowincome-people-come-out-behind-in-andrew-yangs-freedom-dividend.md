@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+excerpt: They’re mostly non-citizens.
 subtitle: 
 images:
  - "assets/images/2019-06-28-why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend-0.jpg"
@@ -23,8 +23,6 @@ aliases:
 - "/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend-c95d0f1cc433"
 
 ---
-
-#### They’re mostly non-citizens
 
 My [analysis](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b) of Andrew Yang’s Freedom Dividend showed that the plan is progressive: for example, the disposable income of the bottom decile more than doubles, while it falls by 4 percent for the top decile. While the static analysis pegged the deficit impact at $1.4 trillion per year, a [revenue-neutral version](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea?postPublishedType=initial) would also be highly progressive, reducing poverty and inequality.
 

@@ -3,9 +3,12 @@
     <link rel="canonical" href="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove_first: '/' }}" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
-    {% if page.content and page.current == 'post' or page.current == 'about' %}
+    {% if page.excerpt %}
+        {% assign excerpt = page.excerpt %}
+    {% elsif page.content and page.current == 'post' or page.current == 'about' %}
         {% assign excerpt = page.content | strip_html | truncatewords: 50, "" %}
-     {% endif %} <!--title below is coming from _includes/dynamic_title-->
+    {% endif %}
+    <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
