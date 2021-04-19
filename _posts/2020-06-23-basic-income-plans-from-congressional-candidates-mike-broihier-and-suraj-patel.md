@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+excerpt: The two advocates of emergency UBI are running in Democratic primaries today.
 subtitle: 
 images:
  - "assets/images/2020-06-23-basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel-0.jpg"
@@ -24,8 +24,6 @@ aliases:
 - "/basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel-9d53646a3245"
 
 ---
-
-#### Broihier and Patel are running in Democratic primaries today
 
 Of the Democrats in [six states](https://fivethirtyeight.com/features/todays-elections-in-kentucky-and-new-york-are-high-stakes-for-the-progressive-movement/) voting in primaries or primary run-offs today, some will see basic-income-friendly candidates on their ballot. [Mike Broihier](https://mikeforky.com/) is one of [ten candidates](https://ballotpedia.org/United_States_Senate_election_in_Kentucky,_2020) running for the chance to battle Senate Majority Leader Mitch McConnell in Kentucky, while [Suraj Patel](https://www.surajpatel.nyc/) is one of [three challengers](https://ballotpedia.org/New_York%27s_12th_Congressional_District) to incumbent Carolyn Maloney in New York’s 12th congressional district (a blue district in New York City).
 

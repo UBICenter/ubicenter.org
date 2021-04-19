@@ -10,6 +10,7 @@ class: post-template
 cover: assets/images/2021-01-20-child-ubi-share/cover.jpg
 subclass: 'post'
 author: [nate, will]
+excerpt: At least some, but it depends on the measurement.
 ---
 
 <head>
