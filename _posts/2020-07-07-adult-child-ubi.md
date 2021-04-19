@@ -10,7 +10,7 @@ tags: [us, child allowance, poverty]
 class: post-template
 subclass: 'post'
 author: nate
-description: UBI relieves poverty more when it includes children.
+excerpt: UBI relieves poverty more when it includes children.
 ---
 
 <head>

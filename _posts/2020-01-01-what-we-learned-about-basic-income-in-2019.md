@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: The research frontier expanded rapidly.
+excerpt: The research frontier expanded rapidly.
 subtitle: 
 images:
  - "assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg"

@@ -10,7 +10,8 @@ cover: assets/images/2020-12-14-canada-homelessness-experiment/cover.jpg
 class: post-template
 subclass: 'post'
 author: [charles, max]
-description: Recipients spent mostly on their children and stable housing.
+excerpt: Recipients spent mostly on their children and stable housing.
+excerpt: Recipients spent mostly on their children and stable housing.
 ---
 
 <head>

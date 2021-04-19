@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: Legislators from both parties are calling for unconditional payments.
+excerpt: Legislators from both parties are calling for unconditional payments.
 subtitle: 
 images:
  - "assets/images/2020-03-22-tracking-us-emergency-cash-transfer-proposals-0.png"

@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: Universal designs are most cost-effective.
+excerpt: Universal designs are most cost-effective.
 subtitle: 
 images:
  - "assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-0.png"

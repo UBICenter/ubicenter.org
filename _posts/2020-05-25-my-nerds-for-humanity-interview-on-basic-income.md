@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: We discussed the current safety net, how to measure effectiveness, and the pandemic.
+excerpt: We discussed the current safety net, how to measure effectiveness, and the pandemic.
 subtitle: 
 images:
  - "assets/images/2020-05-25-my-nerds-for-humanity-interview-on-basic-income-0.jpg"

@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: They’re mostly non-citizens.
+excerpt: They’re mostly non-citizens.
 subtitle: 
 images:
  - "assets/images/2019-06-28-why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend-0.jpg"

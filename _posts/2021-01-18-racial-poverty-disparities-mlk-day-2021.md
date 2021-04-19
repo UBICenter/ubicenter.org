@@ -10,7 +10,7 @@ class: post-template
 cover: assets/images/2021-01-18-racial-poverty-disparities-mlk-day-2021/cover.jpeg
 subclass: 'post'
 author: [max, connor, nate]
-description: $600 per month or more would end one measure of the Black-White poverty disparity.
+excerpt: $600 per month or more would end one measure of the Black-White poverty disparity.
 ---
 
 <head>

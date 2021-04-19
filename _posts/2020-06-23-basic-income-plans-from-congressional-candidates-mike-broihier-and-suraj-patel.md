@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: The two advocates of emergency UBI are running in Democratic primaries today.
+excerpt: The two advocates of emergency UBI are running in Democratic primaries today.
 subtitle: 
 images:
  - "assets/images/2020-06-23-basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel-0.jpg"

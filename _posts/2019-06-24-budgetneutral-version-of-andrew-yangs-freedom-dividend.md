@@ -10,7 +10,7 @@ tags: [us, andrew yang, vat]
 class: post-template
 subclass: 'post'
 author: max
-description: Cutting the payment by about half would avoid increasing the deficit, but the result remains progressive.
+excerpt: Cutting the payment by about half would avoid increasing the deficit, but the result remains progressive.
 images:
  - "assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-0.png"
  - "assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-1.jpg"
