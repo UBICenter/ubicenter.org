@@ -182,7 +182,7 @@ Another way of quantifying the changes is as a share of spending. Alcohol, drugs
 Cash recipients also spent less time homeless than the control group. The two groups started similarly, but in the month following the intervention, the cash group was only homeless for 49 percent of days, while the control group was homeless for 78 percent of those days. The effect diminished over time, and by the end of the year, the two groups converged at around a fifth of days homeless. Overall, people in the cash group spent an average of 88 fewer days homeless throughout the full year.
 
 
-![Days homeless fell faster over the year for the cash group than the non-cash group](days_homeless_chart.png "Change in days homeless for cash and non-cash groups")
+![Days homeless fell faster over the year for the cash group than the non-cash group](assets/images/days_homeless_chart.png "Change in days homeless for cash and non-cash groups")
 
 
 Those extra 88 days in homelessness housing and services would have cost the government about $8,200, exceeding the $7,500 grant (NLP did not report total costs beyond the grant, which would factor into a comprehensive cost-effectiveness analysis).
