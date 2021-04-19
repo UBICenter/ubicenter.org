@@ -14,11 +14,11 @@ subclass: 'post page'
 
 <div style="display: flex; font-style: italic;">
   <div style="flex: 1;  text-align: center; margin-right: 70px;">
-    <a href="{{site.baseurl}}what-is-ubi/why-ubi">Why UBI? <br> Read arguments for UBI</a>
+    <a href="{{site.url}}what-is-ubi/why-ubi">Why UBI? <br> Read arguments for UBI</a>
   </div>
   <br>
   <div style="text-align: center; margin-right: 70px">
-    <a href="{{site.baseurl}}what-is-ubi/why-not-ubi">Why Not UBI? <br>Read arguments against UBI</a>
+    <a href="{{site.url}}what-is-ubi/why-not-ubi">Why Not UBI? <br>Read arguments against UBI</a>
   </div>
 </div>
 
@@ -37,28 +37,28 @@ UBI experiments started in earnest in the 1970s, when the U.S. and Canada tested
 <div style="display:flex; padding:10px;">
 <figure style="flex:100%;">
 <a href="https://www.givedirectly.org/basic-income/" target="_blank">
-<img src="{{site.baseurl}}/assets/images/give-directly.png" style="max-width: 70%;">
+<img src="{{site.url}}/assets/images/give-directly.png" style="max-width: 70%;">
 </a>
 <figcaption style="font-size:1vw; text-align:center;"><b>GiveDirectly</b> is giving Kenyan villages UBI for the next 12 years.</figcaption>
 </figure>
 
 <figure style="flex:100%; padding:10px;">
 <a href="https://openresearchlab.org/basic-income/" target="_blank">
-<img src="{{site.baseurl}}/assets/images/y-combinator.png" style="max-width: 70%;">
+<img src="{{site.url}}/assets/images/y-combinator.png" style="max-width: 70%;">
 </a>
 <figcaption style="font-size:1vw; text-align:center;"><b>Y-Combinator</b> will give a UBI to households in two U.S. cities.</figcaption>
 </figure>
 
 <figure style="flex:100%; padding:10px;">
 <a href="https://www.stocktondemonstration.org/" target="_blank">
-<img src="{{site.baseurl}}/assets/images/stockton.png" style="max-width: 70%;">
+<img src="{{site.url}}/assets/images/stockton.png" style="max-width: 70%;">
 </a>
 <figcaption style="font-size:1vw; text-align:center;"><b>Stockton, California</b> will give a UBI to households.</figcaption>
 </figure>
 
 <figure style="flex:100%; padding:10px;">
 <a href="https://medium.com/basic-income/what-is-there-to-learn-from-finlands-basic-income-experiment-did-it-succeed-or-fail-54b8e5051f60" target="_blank">
-<img src="{{site.baseurl}}/assets/images/finland.png" style="max-width: 70%;">
+<img src="{{site.url}}/assets/images/finland.png" style="max-width: 70%;">
 </a>
 <figcaption style="font-size:1vw; text-align:center;"><b>Finland</b> tested a partial UBI in 2017-18</figcaption>
 </figure>
