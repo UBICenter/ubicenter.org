@@ -27,15 +27,10 @@ In this paper, we examine the impact of replacing today’s system with a budget
 ## US flat tax simulations
 
 We simulated the effect of replacing the current federal income tax code and employee side payroll tax with a flat tax over a range of rates.
-We allocated any excess revenue to a UBI to make each reform budget-neutral, and filled budget shortfalls with a head tax (equal tax amount per person, essentially a negative UBI).
+We allocated any excess revenue to a UBI to make each reform budget-neutral, and filled budget shortfalls with a head tax (equal tax amount per person, essentially a negative UBI). [^modeling]
 
 
-:::{admonition,dropdown,tip} Modeling notes
-We replaced all elements of the personal income tax code, including refundable tax credits, but we retained benefit programs.
-The analysis is fully static; we did not model changes to labor supply resulting from the changes to marginal tax rates and incomes.
-We used the Current Population Survey (CPS) March Supplement reflecting income from 2019.
-The Census Bureau estimates tax liabilities using a microsimulation model, but income and taxes are known to be under-reported in the CPS.
-:::
+[^modeling]:We replaced all elements of the personal income tax code, including refundable tax credits, but we retained benefit programs. The analysis is fully static; we did not model changes to labor supply resulting from the changes to marginal tax rates and incomes. We used the Current Population Survey (CPS) March Supplement reflecting income from 2019. The Census Bureau estimates tax liabilities using a microsimulation model, but income and taxes are known to be under-reported in the CPS.
 
 
 A flat tax of approximately 18 percent would raise the same amount of revenue as federal income taxes and employee side payroll do today.

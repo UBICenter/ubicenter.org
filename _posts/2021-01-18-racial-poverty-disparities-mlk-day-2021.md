@@ -31,16 +31,10 @@ I'm now convinced that the simplest approach will prove to be the most effective
 -- Dr. Martin Luther King, Jr., *Where Do We Go From Here: Chaos or Community?* (1967)
 ```
 
-We honor King's call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people.
+We honor King's call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people. [^modeling]
 
 
-:::{admonition,dropdown,tip} Modeling notes
-Data was gathered from the US Census Bureau's March Supplement, which covers economic circumstances in 2019.
-We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP),
-and adjusts for local housing costs.
-The flat income tax is applied on positive adjusted gross income.
-We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race.
-:::
+[^modeling]: Data was gathered from the US Census Bureau's March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP), and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race.
 
 
 Black Americans today are 75 percent more likely to be in poverty than White Americans, with a rate of 18.4 percent compared to 10.5 percent.
