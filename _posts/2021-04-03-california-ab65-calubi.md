@@ -6,7 +6,7 @@ title: California's basic income bill still needs work
 date: 2021-04-03
 tags: [us, california]
 class: post-template
-cover: assets/images/2021-04-03-california-ab65-calubi/cover.png
+cover: assets/images/2021-04-03-california-ab65-calubi/cover.webp
 subclass: 'post'
 author: [max]
 excerpt: AB65 would cut poverty by 83%, but add $282 billion to the state deficit.
@@ -91,7 +91,7 @@ A focus on children could be a tenable, effective starting point. Given [9 milli
 
 Our [child allowance simulation](https://child-allowance.ubicenter.org/simulation.html) shows that this would be achievable and impactful in California. The state could fund a \$100 monthly child allowance with a 1% income tax, cutting child poverty by 16%, adult poverty by 5%, and overall poverty by 7%. The bottom decile of Californians would see incomes rise by 11%, and on average only the upper three deciles would lose income, and only by under 1%.
 
-![](../assets/images/2021-04-03-california-ab65-calubi/deciles_100_child_allowance.png)
+![](../assets/images/2021-04-03-california-ab65-calubi/deciles_100_child_allowance.webp)
 
 A number of revenue options could fund such a program:
 
