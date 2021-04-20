@@ -14,7 +14,7 @@ description: Analyzing universal basic income policies with open-source research
 cover: assets/images/ubi_center_blue.jpg
 logo: assets/images/ubi_center_logo_wide_white.jpg
 logo_dark: assets/images/ubi_center_logo_wide_blue.jpg
-favicon: assets/images/ubi_center_logo_wide_blue.jpg
+favicon: assets/images/ubi_center_logo_square_blue.png
 CNAME: #add cname for website to be created
 
 # Social info
@@ -31,7 +31,7 @@ disqus: False
 disqus_shortname: ubicenter
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-138885251-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
