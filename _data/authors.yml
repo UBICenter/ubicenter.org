@@ -12,6 +12,7 @@ max:
   medium: MaxGhenis
   twitter: MaxGhenis
   cover: False
+  is_active: True
 nate:
   username: nate
   name: Nate Golden
@@ -26,7 +27,7 @@ nate:
   github: ngpsu22
   medium: False
   twitter: ngpsu22
-  rss: False
+  is_active: True
 john:
   username: john
   name: John Walker
@@ -41,6 +42,7 @@ john:
   medium: False
   twitter: False
   cover: False
+  is_active: True
 nihkil:
   username: nikhil
   name: Nikhil Woodruff
@@ -55,6 +57,7 @@ nihkil:
   medium: False
   twitter: nikhil_woodruff
   cover: False
+  is_active: True
 charles:
   username: charles
   name: Charles Bauman
@@ -69,6 +72,7 @@ charles:
   medium: False
   twitter: CharlesRBauman1
   cover: False
+  is_active: True
 praneet:
   username: praneet
   name: Praneet Rathi
@@ -83,6 +87,7 @@ praneet:
   medium: False
   twitter: False
   cover: False
+  is_active: True
 matt:
   username: matt
   name: Matt Gilbert
@@ -97,6 +102,7 @@ matt:
   medium: matt.b.gilbert
   twitter: matt_b_gilbert
   cover: False
+  is_active: True
 ankit:
   username: ankit
   name: Ankit Dhingra
@@ -111,6 +117,7 @@ ankit:
   medium: False
   twitter: False
   cover: False
+  is_active: True
 deepak:
   username: deepak
   name: Deepak Singh
@@ -125,6 +132,7 @@ deepak:
   medium: False
   twitter: False
   cover: False
+  is_active: True
 nicholas:
   username: nicholas
   name: Nicholas Rodelo
@@ -139,6 +147,7 @@ nicholas:
   medium: False
   twitter: False
   cover: False
+  is_active: True
 connor:
   username: connor
   name: Connor Tragesser
@@ -153,6 +162,7 @@ connor:
   medium: False
   twitter: False
   cover: False
+  is_active: True
 katarina:
   username: katarina
   name: Katarina van Alebeek
@@ -167,3 +177,19 @@ katarina:
   medium: False
   twitter: False
   cover: False
+  is_active: True
+yuri:
+  username: yuri
+  name: Yuri Uchida
+  title: Developer
+  location: US
+  url_full: False
+  url: False
+  short_bio: Yuri is a develper at UBI Center
+  bio: 
+  picture: assets/images/yuri-headshot.jpg
+  github: yuchida522
+  medium: False
+  twitter: False
+  cover: False
+  is_active: False
