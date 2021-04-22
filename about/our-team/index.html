@@ -27,6 +27,7 @@ subclass: 'page'
 </style>
 
 {% for author in site.data.authors %}
+ {% if author[1].is_active %}
   <div class="site-header-content">
     <div class="team-page">
       <div class="container">
@@ -66,6 +67,7 @@ subclass: 'page'
       </div>
     </div>
   </div>
+  {% endif %}
 {% endfor %}
 
 <center><b>Want to join us? Find out more <a href="{{site.baseurl}}about/join">here</a></b></center>
