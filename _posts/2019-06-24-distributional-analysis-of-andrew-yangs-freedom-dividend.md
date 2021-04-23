@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/2019-06-24-distributional-analysis-of-andrew-yangs-freedom-dividend-0.png 
 navigation: True
-title: Distributional analysis of Andrew Yang’s Freedom Dividend
+title: Distributional analysis of Andrew Yang's Freedom Dividend
 date: 2019-06-24T17:48:10.706Z
 lastmod: 2021-03-25T15:18:46-04:00
 tags: [us, andrew yang, vat]
@@ -138,6 +138,6 @@ Overall, Yang’s projection that his plan would raise between $800 and $900 bil
 
 Yang’s plan would grow the federal deficit substantially, but it would also produce a more egalitarian income distribution that would lift tens of millions out of poverty — even accounting for potentially lower economic growth. It demonstrates the importance of considering fiscal policies together: while the VAT and benefit reductions would be regressive on their own, the combination with progressive revenue sources and generous universal payments makes the plan highly progressive overall.
 
-This is the first of a two-part series on the Freedom Dividend. Read Part 2 on a revenue-neutral version of the plan [**here**](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea).
+This is the first of a two-part series on the Freedom Dividend. Read Part 2 on a revenue-neutral version of the plan [**here**](budget-neutral-version-of-andrew-yangs-freedom-dividend).
 
 *Updated 2019–07–02 to remove unemployment insurance as a replaced benefit.*
