@@ -4,7 +4,7 @@ current: post
 cover: assets/images/2019-06-24-introducing-the-ubi-center-0.png 
 navigation: True
 title: Introducing the UBI Center
-date: 2019-06-24T17:55:59.690Z
+date: 2019-06-24T17:00:59.690Z
 lastmod: 2021-03-25T15:18:57-04:00
 tags: [ubi center]
 class: post-template
