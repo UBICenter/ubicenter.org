@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/2019-06-24-budgetneutral-version-of-andrew-yangs-freedom-dividend-0.png 
 navigation: True
-title: A budget-neutral version of Andrew Yang’s Freedom Dividend
+title: A budget-neutral version of Andrew Yang's Freedom Dividend
 date: 2019-06-24T17:49:26.093Z
 lastmod: 2021-03-25T15:18:37-04:00
 tags: [us, andrew yang, vat]
@@ -30,7 +30,7 @@ aliases:
 
 ---
 
-[Part 1](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b) of this two-part series analyzing Democratic presidential candidate Andrew Yang’s Freedom Dividend showed that the universal basic income policy would reduce poverty and inequality, while adding $1.4 trillion to the annual deficit. Using the same approach and assumptions (no labor market or macroeconomic effects), I find that a budget-neutral plan would provide each adult citizen $471 per month, rather than the $1,000 proposed by Yang. These payments would be offset by Yang’s funding sources: increases on existing taxes, addition of new taxes, and partial replacement of assistance programs.
+[Part 1](distributional-analysis-of-andrew-yangs-freedom-dividend) of this two-part series analyzing Democratic presidential candidate Andrew Yang’s Freedom Dividend showed that the universal basic income policy would reduce poverty and inequality, while adding $1.4 trillion to the annual deficit. Using the same approach and assumptions (no labor market or macroeconomic effects), I find that a budget-neutral plan would provide each adult citizen $471 per month, rather than the $1,000 proposed by Yang. These payments would be offset by Yang’s funding sources: increases on existing taxes, addition of new taxes, and partial replacement of assistance programs.
 
 Like the original Freedom Dividend, this budget-neutral plan would reduce poverty and inequality, and benefit most Americans. However, each of these effects would be muted, and a larger share of middle-income households would come out behind.
 

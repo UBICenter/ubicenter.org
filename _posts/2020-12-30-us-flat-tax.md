@@ -29,9 +29,7 @@ In this paper, we examine the impact of replacing today’s system with a budget
 We simulated the effect of replacing the current federal income tax code and employee side payroll tax with a flat tax over a range of rates.
 We allocated any excess revenue to a UBI to make each reform budget-neutral, and filled budget shortfalls with a head tax (equal tax amount per person, essentially a negative UBI). [^modeling]
 
-
 [^modeling]:We replaced all elements of the personal income tax code, including refundable tax credits, but we retained benefit programs. The analysis is fully static; we did not model changes to labor supply resulting from the changes to marginal tax rates and incomes. We used the Current Population Survey (CPS) March Supplement reflecting income from 2019. The Census Bureau estimates tax liabilities using a microsimulation model, but income and taxes are known to be under-reported in the CPS.
-
 
 A flat tax of approximately 18 percent would raise the same amount of revenue as federal income taxes and employee side payroll do today.
 Each percentage point of flat tax raises enough revenue to fund a UBI of $360 per year for each adult and child.
@@ -382,23 +380,17 @@ function f3() {
 Labor markets don't explain the unusually high level of inequality in the United States, third only to Chile and Mexico among developed countries.
 For example, the US has similar "market income" inequality as France, Germany, and Finland---each with Gini indexes of 0.50 to 0.51, as shown in the right bars of this graph from [Our World In Data](https://ourworldindata.org/income-inequality).
 
-![]({{ site.baseurl }}/assets/images/inequality-of-incomes-before-and-after-taxes-and-transfers.png)
+![](assets/images/inequality-of-incomes-before-and-after-taxes-and-transfers.png)
 
 What's unusual about the US is how little its government reduces inequality through redistribution.
 While France, Germany, and Finland reduce inequality by 0.21, 0.22, and 0.24 on the Gini scale, the US only reduces it by 0.12.
 
 What mechanisms do these other countries utilize to cut inequality twice as much as the US?
-Counterintuitively, it's not progressive taxation---the US actually has the most progressive tax code in the OECD,[^progressive-tax] and tax progressivity does not correlate significantly to inequality reduction (if anything the relationship is slightly negative).
+Counterintuitively, it's not progressive taxation---the US actually has the most progressive tax code in the OECD,[^progressive-tax] and tax progressivity does not correlate significantly to inequality reduction (if anything the relationship is slightly negative).[^inequality-data]
 
 [^progressive-tax]: As of 2005, the US had the most progressive tax code of any OECD country according to the concentration index (as shown in the graph), as well as two alternative measures: the ratio of concentration coefficients of household taxes to the Gini index of market income, and the ratio of the richest decile's tax share to its market income share ([Table 4.5](https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page108) of *Growing Unequal?*).
 
-:::{admonition,dropdown,tip} Data notes
-Data on inequality reduction comes from Our World In Data's analysis of OECD data reflecting the period 2012 to 2014.
-Data on the concentration index and income shares of household taxes and cash transfers come from Table 4.6 of the OECD's 2008 report, [*Growing Unequal?*](https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page109), which uses data from around 2005.
-Country population is as of 2014 from the World Bank.
-Taxes include income taxes and employee social security contributions, not consumption taxes;
-however, per [Figure 11.2](https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page296) in *Growing Unequal?*, consumption taxes have a small effect on relative levels of inequality across OECD countries.
-:::
+[^inequality-data]: Data on inequality reduction comes from Our World In Data's analysis of OECD data reflecting the period 2012 to 2014. Data on the concentration index and income shares of household taxes and cash transfers come from Table 4.6 of the OECD's 2008 report, [*Growing Unequal?*](https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page109), which uses data from around 2005. Country population is as of 2014 from the World Bank. Taxes include income taxes and employee social security contributions, not consumption taxes; however, per [Figure 11.2](https://read.oecd-ilibrary.org/social-issues-migration-health/growing-unequal_9789264044197-en#page296) in *Growing Unequal?*, consumption taxes have a small effect on relative levels of inequality across OECD countries.
 
 
 <button class="code-button" id="button4" onclick="f4()">&#9654; Click to show code</button>
@@ -636,14 +628,7 @@ Flat taxes treat income neutrally, regardless of when it was earned, by whom, or
 And because they align marginal tax rates (which determine labor incentives) with effective tax rates (which determine revenue), they raise revenue with relatively little work disincentive.
 For example, a [2020 paper](https://www.nber.org/papers/w27622) from the National Bureau of Economic Research found that "a uniform flat tax on capital and labor income combined with a lump-sum transfer is nearly optimal."
 
-[^marriage]: Consider, for example, two couples: one with $30,000 earnings each, and another with one earning $60,000 and the spouse earning $0.
-And consider a progressive tax policy with two rates: 0% (a standard deduction) and 50%.
-If the standard deduction is $30,000, the first couple has a total tax liability of $15,000 if filing as a couple, but $0 if filing separately---a large marriage bonus (the second couple's tax liability is $15,000 whether married or separate).
-If the standard deduction instead varies with marital status, e.g. $15,000 for singles and $30,000 for couples, then the first couple will be treated neutrally, paying $15,000 whether filing separate or married.
-But now the second couple faces a marriage *bonus*, paying $22,500 in taxes if filing separately, but only $15,000  if married.
-This can be partly remedied by moving to an individualized tax system, as the United Kingdom does, where earnings are taxed independently of a spouse's earnings.
-But couples will still have joint assets, and therefore face marriage penalties or bonuses on their capital income if capital income is taxed progressively.
-Only a flat tax avoids marriage penalties or bonuses.
+[^marriage]: Consider, for example, two couples: one with $30,000 earnings each, and another with one earning $60,000 and the spouse earning $0. And consider a progressive tax policy with two rates: 0% (a standard deduction) and 50%. If the standard deduction is $30,000, the first couple has a total tax liability of $15,000 if filing as a couple, but $0 if filing separately---a large marriage bonus (the second couple's tax liability is $15,000 whether married or separate). If the standard deduction instead varies with marital status, e.g. $15,000 for singles and $30,000 for couples, then the first couple will be treated neutrally, paying $15,000 whether filing separate or married. But now the second couple faces a marriage *bonus*, paying $22,500 in taxes if filing separately, but only $15,000  if married. This can be partly remedied by moving to an individualized tax system, as the United Kingdom does, where earnings are taxed independently of a spouse's earnings. But couples will still have joint assets, and therefore face marriage penalties or bonuses on their capital income if capital income is taxed progressively. Only a flat tax avoids marriage penalties or bonuses.
 
 Our simulations and cross-country comparisons show that these advantages don't need to come at the cost of progressivity; if anything, they may enhance progressivity.
 Even a 30 percent flat income tax, with excess revenue distributed as UBI, could cut poverty in half, reduce inequality by 10 percent, and leave most Americans better off.
