@@ -132,7 +132,7 @@ deepak:
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
 nicholas:
   username: nicholas
   name: Nicholas Rodelo
