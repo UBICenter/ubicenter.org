@@ -4,7 +4,7 @@ current: post
 navigation: True
 title: Analysis of Senator Romney's Family Security Act
 date: 2021-02-12
-tags: [child allowance]
+tags: [us,child allowance]
 class: post-template
 cover: assets/images/2021-02-12-family-security-act/cover.webp
 subclass: 'post'
