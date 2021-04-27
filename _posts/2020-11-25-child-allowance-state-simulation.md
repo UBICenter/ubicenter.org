@@ -2,14 +2,14 @@
 layout: post
 current: post
 navigation: True
-title: US Child Allowance Simulations
+title: The effect of child allowances across US states
 date: 2020-11-25
 tags: [us, child allowance]
 cover: assets/images/2020-11-25-child-allowance-state-simulation/cover.webp
 class: post-template
 subclass: 'post'
 author: [nate, matt, max]
-excerpt: A full set of animated graphs displaying the results of our analysis of US child allowance proposals.
+excerpt: How different forms of cash grants to parents would affect poverty and inequality.
 ---
 
 <head>
@@ -17,8 +17,6 @@ excerpt: A full set of animated graphs displaying the results of our analysis of
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-
-# Simulations
 
 Poverty has a lasting impact on children.  Growing up in poverty increases [stress](https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/) and [incarceration rates](https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/) and decreases [educational](https://www.sciencedirect.com/science/article/abs/pii/S1876285915003836) and [health](https://www.aeaweb.org/articles?id=10.1257/app.2.1.86) outcomes.  These negative consequences not only impact the nation’s poor, but the entire economy as well--child poverty shrinks GDP by more than [$1 trillion annually](https://www.nap.edu/read/25246/chapter/1).
 
@@ -1558,5 +1556,5 @@ function f7() {
 Beyond reducing child poverty, child allowances would decrease adult poverty and abate inequality.
 These effects are consistent across states, races, and the funding mechanisms.
 
-Read on to our [Empirical studies](empirical.md) page for more research on the (often causal) links between child poverty and outcomes like health, education, and income.
-For more information on how a child allowance would compare to existing policies like the Child Tax Credit, visit our [Policies](policies.md) page.
+Read on to our [Empirical studies](https://child-allowance.ubicenter.org/empirical) page for more research on the (often causal) links between child poverty and outcomes like health, education, and income.
+For more information on how a child allowance would compare to existing policies like the Child Tax Credit, visit our [Policies](https://child-allowance.ubicenter.org/policies) page.
