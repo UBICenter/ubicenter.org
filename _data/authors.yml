@@ -120,6 +120,21 @@ john:
   twitter: False
   cover: False
   is_active: True
+joshua:
+  username: joshua
+  name: Joshua Miller
+  title: Research Assistant
+  location: US
+  url_full: False
+  url: False
+  short_bio: Joshua is a research assistant with the UBI Center. 
+  bio: Joshua Miller is a Junior in High School interested in monetary economics and neoliberalism. He hosts the ThinkCritical Podcast and runs a blog called InTheAggregate.
+  picture: assets/images/joshua_z_miller_headshot.png
+  github: intheaggregate
+  medium: False
+  twitter: Joshua_Z_Miller
+  cover: False
+  is_active: True
 katarina:
   username: katarina
   name: Katarina van Alebeek
