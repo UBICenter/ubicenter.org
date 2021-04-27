@@ -5,6 +5,7 @@ cover:
 navigation: True
 title: US Child Allowance Overview
 date: 2020-11-25
+cover: assets/images/2020-11-25-child-allowance-project/cover.webp
 tags: [us, child allowance]
 class: post-template
 subclass: 'post'

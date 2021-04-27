@@ -5,6 +5,7 @@ navigation: True
 title: US Child Allowance Simulations
 date: 2020-11-25
 tags: [us, child allowance]
+cover: assets/images/2020-11-25-child-allowance-state-simulation/cover.webp
 class: post-template
 subclass: 'post'
 author: [nate, matt, max]
