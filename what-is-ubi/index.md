@@ -14,11 +14,11 @@ subclass: 'post page'
 
 <div style="display: flex; font-style: italic;">
   <div style="flex: 1;  text-align: center; margin-right: 70px;">
-    <a href="{{site.url}}what-is-ubi/why-ubi">Why UBI? <br> Read arguments for UBI</a>
+    <a href="{{site.baseurl}}what-is-ubi/why-ubi">Why UBI? <br> Read arguments for UBI</a>
   </div>
   <br>
   <div style="text-align: center; margin-right: 70px">
-    <a href="{{site.url}}what-is-ubi/why-not-ubi">Why Not UBI? <br>Read arguments against UBI</a>
+    <a href="{{site.baseurl}}what-is-ubi/why-not-ubi">Why Not UBI? <br>Read arguments against UBI</a>
   </div>
 </div>
 
