@@ -8,11 +8,14 @@ tags:
 class: post-template
 ---
 
-## The UBI Center is seeking research assistants
+## The UBI Center is seeking research assistants and interns
 
 ### About the UBI Center
 
-The UBI Center is a think tank producing open-source research to inform a robust policy debate around universal basic income. From Andrew Yang's Freedom Dividend to Covid-19 to the United Kingdom, it analyzes the quantitative effects of deploying UBI to meet today's most pressing needs. We are an international remote-first team passionate about bringing rigorous economic analysis of UBI policies to the public, the press, and policymakers. UBI Center research has been cited in outlets including Politico, CNBC, and the World Bank.
+At the UBI Center, we're passionate about infusing evidence to the discussion around universal basic income.
+We apply state-of-the-art economic analysis to answer questions from "How would we pay for UBI?" to "Who would UBI affect?" to "What would UBI do to the macroeconomy?"
+And we're building a world-class think tank with modern paradigms: open-source, remote-first, and international-always.
+If you want to apply your skills to informing the public, press, and policymakers with trusted analysis about today's most important policy idea, the UBI Center is the place to be.
 
 ### Software engineering intern
 
