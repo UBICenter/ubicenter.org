@@ -17,7 +17,7 @@ subclass: 'post page'
 The decline of poverty has been sluggish. A sufficiently generous UBI could end it overnight.
 <figure>
 <img src="{{site.baseurl}}assets/images/census-bureau-2017.png" style="max-width: 45%; margin-bottom:0;">
-<figcaption style="text-align:center; font-size:1vw;">Source: <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p60-265.pdf" target="_blank">Census Bureau (2017)</a></figcaption>
+<figcaption style="text-align:center; font-size:1vw;">Source: <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p60-265.pdf" target="_blank">US Census Bureau (2017)</a></figcaption>
 </figure>
 
 <h6>Runs efficiently</h6>
