@@ -58,7 +58,21 @@ ankit:
   twitter: False
   cover: False
   is_active: True
-
+ben:
+  username: ben
+  name: Benjamin Boehlert
+  title: Research Assistant
+  location: Canada
+  url_full: False
+  url: False
+  short_bio: Ben is a research assistant with the UBI Center.
+  bio: Ben is a rising senior at McGill University studying economics, along with statistics and political science.
+  picture: assets/images/ben_boehlert_headshot.png
+  github: ben-boehlert
+  medium: False
+  twitter: bhboehlert
+  cover: False
+  is_active: True
 charles:
   username: charles
   name: Charles Bauman
