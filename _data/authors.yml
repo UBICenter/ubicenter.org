@@ -224,3 +224,12 @@ yuri:
   twitter: False
   cover: False
   is_active: False
+
+ines:
+  username: ines
+  name: Ines Fernandez
+  title: Research Assistant
+  location: Ireland
+  url_full: False
+  short_bio: Ines is a Research Assistant with the UBI center studying macroeconomic policies in the UK.
+
