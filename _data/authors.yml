@@ -125,6 +125,7 @@ ines:
   title: Research Assistant
   location: Ireland
   url_full: False
+  url: False
   short_bio: Ines is a Research Assistant with the UBI Center.
   bio: Ines is an undergraduate student in computational social science at University College Dublin concentrating in politics and geography. Her interests include public policy, data science, and effective altruism. She is currently working on the UBI Center's United Kingdom team.
   picture: assets/images/ines-headshot.jpg
