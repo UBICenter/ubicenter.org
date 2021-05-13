@@ -3,7 +3,7 @@ layout: post
 current: post
 navigation: True
 title: "Blank slate UBI: A constructive challenge for the UK basic income debate"
-date: 2021-05-13
+date: 2021-05-12
 tags: [uk]
 class: post-template
 cover: assets/images/2021-05-13-uk-blank-slate-ubi/cover.webp
