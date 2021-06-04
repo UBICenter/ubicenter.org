@@ -224,6 +224,21 @@ praneet:
   twitter: False
   cover: False
   is_active: True
+will:
+  username: will
+  name: Will Fedder
+  title: Research Assistant
+  location: US
+  url_full: False
+  url: False
+  short_bio: Will is a research assistant with the UBI Center.
+  bio: Will Fedder is a Baltimore-based data analyst working in the health care sector. He holds his bachelor’s in Public Policy from the University of North Carolina. In addition to ending poverty with UBI, Will is interested in reform of the US healthcare system and the development of transit-friendly cities. He believes that good data visualization can help people realize that these issues are in fact simple and easy to fix. 
+  picture: assets/images/will_headshot.jpeg
+  github: fedderw
+  medium: False
+  twitter: willfedder
+  cover: False
+  is_active: True
 yuri:
   username: yuri
   name: Yuri Uchida
