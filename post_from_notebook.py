@@ -65,13 +65,15 @@ class NotebookCell:
             for line in formatted_code_block:
                 out_file.write(line)
             # write outputs
-            output = self.data["outputs"][0]["data"]["text/html"]
-            html = "".join(output)
-            asset_filename = asset_folder / f"graph_{str(self.id)}.html"
-            asset_filename.parent.mkdir(parents=True, exist_ok=True)
-            out_file.write(SCRIPT_TEMPLATE.replace("{asset_filename}", str(asset_filename)).replace("{id}", str(self.id)))
-            with open(asset_filename, "w+") as f:
-                f.write(html)
+            for i, output_holder in enumerate(self.data["outputs"]):
+              output = output_holder["data"]["text/html"]
+              html = "".join(output)
+              graph_id = f"graph_{self.id}_{i + 1}"
+              asset_filename = asset_folder / f"{graph_id}.html"
+              asset_filename.parent.mkdir(parents=True, exist_ok=True)
+              out_file.write(SCRIPT_TEMPLATE.replace("{asset_filename}", str(asset_filename)).replace("{id}", graph_id))
+              with open(asset_filename, "w+") as f:
+                  f.write(html)
 
 class NotebookPost:
     def __init__(self, path: Path, metadata: dict):
@@ -108,7 +110,7 @@ if __name__ == "__main__":
     parser.add_argument("--author", default="max", help="The author name")
     parser.add_argument("--excerpt", default="Excerpt goes here", help="The excerpt to show on the website")
     parser.add_argument("--output-file", default="_posts/2021-05-04-post.md")
-    parser.add_argument("--asset-folder", default="assets/markdown_assets/libdem")
+    parser.add_argument("--asset-folder", default="assets/markdown_assets/post")
     args = parser.parse_args()
 
     metadata = dict(
