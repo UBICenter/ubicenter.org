@@ -50,8 +50,7 @@ class NotebookCell:
             # write outputs
             for output in self.data["outputs"]:
                 # write text/html
-                for line in output["data"]["text/html"]:
-                    out_file.write(line.lstrip())
+                out_file.write("".join(output["data"]["text/html"]).lstrip())
 
 
 class NotebookPost:
