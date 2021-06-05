@@ -7,7 +7,7 @@ title: "Liberal Democrat UBI Policy Paper: An Analysis"
 date: 2021-06-05
 tags: []
 subclass: 'post'
-author: nikhil
+author: [nikhil, max]
 class: post-template
 excerpt: "Distributional and socioeconomic effects of four UK UBI policies"
 ---
