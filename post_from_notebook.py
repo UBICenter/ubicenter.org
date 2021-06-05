@@ -107,7 +107,6 @@ if __name__ == "__main__":
     parser.add_argument("--subclass", default="'post'")
     parser.add_argument("--author", default="max", help="The author name")
     parser.add_argument("--excerpt", default="Excerpt goes here", help="The excerpt to show on the website")
-
     parser.add_argument("--output-file", default="_posts/2021-05-04-post.md")
     parser.add_argument("--asset-folder", default="assets/markdown_assets/libdem")
     args = parser.parse_args()
@@ -121,7 +120,8 @@ if __name__ == "__main__":
         date=args.date,
         tags=args.tags,
         subclass=args.subclass,
-        author=args.author
+        author=args.author,
+        excerpt=args.excerpt
     )
     metadata["class"] = args.class_
 
