@@ -789,7 +789,7 @@ function show_code_former_notion() {
 </div>
 <div id = "graph_graph_former_notion_1"></div>
 
-Thanks to Kevin Langford, who provided more details on the policy proposal by the Working Group not present in the discussion paper, and on the modelling approaches that produced the cost estimates. Some of the mechanics of this type of scheme are set out in Langfords paper, [<i>Money for Nothing?</i>](https://radixuk.org/papers/money-for-nothing/), published in May 2021 with Radix.
+Thanks to Kevin Langford, who provided more details on the policy proposal by the Working Group not present in the discussion paper, and on the modelling approaches that produced the cost estimates. Some of the mechanics of this type of scheme are set out in Langford's paper, [<i>Money for Nothing?</i>](https://radixuk.org/papers/money-for-nothing/), published in May 2021 with Radix.
 
 ### Appendix B: Relationships between employment and net income for other household types
 
