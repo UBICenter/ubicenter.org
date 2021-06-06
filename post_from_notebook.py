@@ -18,7 +18,7 @@ SCRIPT_TEMPLATE = """
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_{id}").load("{{site.baseurl}}{asset_filename}/graph_{id}.html");
+      $("#graph_{id}").load("{{site.baseurl}}{asset_filename}");
     });
   </script>
 </div>

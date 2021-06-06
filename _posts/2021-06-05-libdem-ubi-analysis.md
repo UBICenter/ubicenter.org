@@ -64,7 +64,7 @@ function show_code_structured_mobile() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_structured_mobile_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_structured_mobile_1.html/graph_graph_structured_mobile_1.html");
+      $("#graph_graph_structured_mobile_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_structured_mobile_1.html");
     });
   </script>
 </div>
@@ -192,7 +192,7 @@ function show_code_funky_portland() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_funky_portland_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_1.html/graph_graph_funky_portland_1.html");
+      $("#graph_graph_funky_portland_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_1.html");
     });
   </script>
 </div>
@@ -201,7 +201,7 @@ function show_code_funky_portland() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_funky_portland_2").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_2.html/graph_graph_funky_portland_2.html");
+      $("#graph_graph_funky_portland_2").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_2.html");
     });
   </script>
 </div>
@@ -317,7 +317,7 @@ function show_code_verbal_tonight() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_verbal_tonight_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_verbal_tonight_1.html/graph_graph_verbal_tonight_1.html");
+      $("#graph_graph_verbal_tonight_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_verbal_tonight_1.html");
     });
   </script>
 </div>
@@ -384,7 +384,7 @@ function show_code_private_princeton() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_private_princeton_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_private_princeton_1.html/graph_graph_private_princeton_1.html");
+      $("#graph_graph_private_princeton_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_private_princeton_1.html");
     });
   </script>
 </div>
@@ -452,7 +452,7 @@ function show_code_transparent_proxy() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_transparent_proxy_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_transparent_proxy_1.html/graph_graph_transparent_proxy_1.html");
+      $("#graph_graph_transparent_proxy_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_transparent_proxy_1.html");
     });
   </script>
 </div>
@@ -511,7 +511,7 @@ function show_code_computational_indie() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_computational_indie_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_computational_indie_1.html/graph_graph_computational_indie_1.html");
+      $("#graph_graph_computational_indie_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_computational_indie_1.html");
     });
   </script>
 </div>
@@ -661,7 +661,7 @@ function show_code_outside_garden() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_outside_garden_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_outside_garden_1.html/graph_graph_outside_garden_1.html");
+      $("#graph_graph_outside_garden_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_outside_garden_1.html");
     });
   </script>
 </div>
@@ -723,7 +723,7 @@ function show_code_nuclear_response() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_nuclear_response_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_nuclear_response_1.html/graph_graph_nuclear_response_1.html");
+      $("#graph_graph_nuclear_response_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_nuclear_response_1.html");
     });
   </script>
 </div>
@@ -783,13 +783,13 @@ function show_code_former_notion() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_former_notion_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_former_notion_1.html/graph_graph_former_notion_1.html");
+      $("#graph_graph_former_notion_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_former_notion_1.html");
     });
   </script>
 </div>
 <div id = "graph_graph_former_notion_1"></div>
 
-Thanks to Kevin Langford, who provided more details on the policy proposal by the Working Group not present in the discussion paper, and on the modelling approaches that produced the cost estimates. Some of the mechanics of this type of scheme are set out in Langford's paper, [<i>Money for Nothing?</i>](https://radixuk.org/papers/money-for-nothing/), published in May 2021 with Radix.
+Thanks to Kevin Langford, who provided more details on the policy proposal by the Working Group not present in the discussion paper, and on the modelling approaches that produced the cost estimates. Some of the mechanics of this type of scheme are set out in Langfords paper, [<i>Money for Nothing?</i>](https://radixuk.org/papers/money-for-nothing/), published in May 2021 with Radix.
 
 ### Appendix B: Relationships between employment and net income for other household types
 
@@ -826,7 +826,7 @@ function show_code_internal_warning() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_internal_warning_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_internal_warning_1.html/graph_graph_internal_warning_1.html");
+      $("#graph_graph_internal_warning_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_internal_warning_1.html");
     });
   </script>
 </div>
@@ -887,7 +887,7 @@ function show_code_settled_authentication() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_settled_authentication_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_settled_authentication_1.html/graph_graph_settled_authentication_1.html");
+      $("#graph_graph_settled_authentication_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_settled_authentication_1.html");
     });
   </script>
 </div>
@@ -934,7 +934,7 @@ function show_code_welsh_seating() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_welsh_seating_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_welsh_seating_1.html/graph_graph_welsh_seating_1.html");
+      $("#graph_graph_welsh_seating_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_welsh_seating_1.html");
     });
   </script>
 </div>
@@ -995,7 +995,7 @@ function show_code_buried_grounds() {
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_buried_grounds_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_buried_grounds_1.html/graph_graph_buried_grounds_1.html");
+      $("#graph_graph_buried_grounds_1").load("{{site.baseurl}}assets/markdown_assets/libdem-ubi-analysis/graph_buried_grounds_1.html");
     });
   </script>
 </div>
