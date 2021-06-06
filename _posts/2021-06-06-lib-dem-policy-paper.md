@@ -4,7 +4,7 @@ current: post
 cover: assets/images/2021-06-05-libdem-ubi-analysis.jpg
 navigation: True
 title: "Liberal Democrat UBI Policy Paper: An Analysis"
-date: 2021-06-05
+date: 2021-06-06
 tags: [uk]
 subclass: 'post'
 author: nikhil
