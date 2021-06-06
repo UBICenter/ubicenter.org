@@ -8,7 +8,7 @@ date: 2021-06-05
 tags: [uk]
 subclass: 'post'
 author: nikhil
-excerpt: "Distributional and socio-economic effects of four UK UBI policies"
+excerpt: "The UK party is exploring UBI reforms that would reduce poverty and inequality."
 class: post-template
 ---
 
@@ -16,11 +16,9 @@ class: post-template
 <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-# Liberal Democrat UBI Policy Paper: An Analysis
+Last month, the Liberal Democrat UBI Working Group published a [policy paper](https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347) exploring possible universal basic income policies for the party’s platform.[^1] This release follows the [September Liberal Democrat Conference vote](https://www.libdems.org.uk/a20-ubi) to campaign for universal basic income in future elections. The working group invites comments on the paper until tomorrow, 7th June.
 
-Last month, the Liberal Democrat UBI Working Group published a [policy paper](https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347) exploring possible universal basic income policies for the party’s platform.[^1] This release follows the [September Liberal Democrat Conference vote](https://www.libdems.org.uk/a20-ubi) to campaign for universal basic income in future elections. The working group invites comments on the paper until 7th June.
-
-In this post, I assess the four UBI reforms described in the paper, which are partly offset by tax and benefit reforms[^2]. I find that each would reduce poverty by a sixth and deep poverty by half, while benefiting 7 in 10 Britons, though they would also add at least £20 billion to the annual deficit.
+In this post, I assess the four UBI reforms described in the paper, which are partly offset by tax and benefit reforms.[^2] I find that each would reduce poverty by at least a sixth and deep poverty by half, while benefiting 7 in 10 Britons, though they would also add at least £20 billion to the annual deficit.
 
 ## Policy outlines
 
@@ -72,9 +70,9 @@ function show_code_structured_mobile() {
 
 ### Tax changes
 
-The Liberal Democrat UBI Working Group (the Working Group) proposes two tax changes to fund the UBI expenditure: reducing the Personal Allowance (for working-age adults only) and reducing the National Insurance Primary Threshold.
+The Liberal Democrat UBI Working Group proposes two tax changes to fund the UBI expenditure: reducing the Personal Allowance (for working-age adults only) and reducing the National Insurance Primary Threshold.
 
-The Personal Allowance is a disregard for general income available to every individual with respect to Income Tax. In 2020, it had the value of £12,500 a year. For example, for an individual earning £22,500 a year, the Personal Allowance is deducted from taxable income to arrive at £10,000, which is taxed at the basic rate of 20%, resulting in a tax charge of £2,000. Reducing the Personal Allowance to £2,500 leaves the individual with £20,000 taxable income, resulting in a £4,000 Income Tax charge.  The Working Group proposes lowering the Personal Allowance to £4,000 for the UBI of £45/week, and to £2,500 for the UBIs of £60, £75, and £90 per week.[^3]
+The Personal Allowance is a disregard for general income available to every individual with respect to Income Tax. In 2020, it had the value of £12,500 a year. For example, for an individual earning £22,500 a year, the Personal Allowance is deducted from taxable income to arrive at £10,000, which is taxed at the basic rate of 20%, resulting in a tax charge of £2,000. Reducing the Personal Allowance to £2,500 leaves the individual with £20,000 taxable income, resulting in a £4,000 Income Tax charge. The Working Group proposes lowering the Personal Allowance to £4,000 for the UBI of £45/week, and to £2,500 for the UBIs of £60, £75, and £90 per week.[^3]
 
 National Insurance (NI) is a tax paid on employment earnings, comprising both employee and employer contributions. The Working Group proposes increasing employee NI contributions by reducing the Primary Threshold (PT). The threshold is currently set at £184/week: earnings under this are not taxed, earnings above this but under the Upper Earnings Limit (UEL, currently £967/week) are taxed at 12%, and earnings over the UEL are taxed at 2%.  The Working Group proposes reducing the PT to £90/week for the UBI of £45/week and to £50 for the larger UBI reforms.
 
@@ -327,7 +325,7 @@ function show_code_verbal_tonight() {
 
 #### Inter-decile effects
 
-The above effects only show the picture on the population as a whole. Below shows the average gain to members of the population by their household's equivalised disposable income. With deficit funding, the plans are able to show positive impacts on average for every decile in every reform. Raising taxes to fund these proposals would likely create average losses for the higher deciles if the tax rises are progressive.
+The above effects only show the picture on the population as a whole. Below shows the average gain to members of the population by their household's equivalised disposable income. With deficit funding, the plans are able to show positive impacts on average for every decile in every reform; budget-neutral plans would have result in some deciles coming out behind on average.
 
 <button onclick="show_code_private_princeton()">Click to show code</button>
 <div id="code_block_private_princeton" style="display: none;">
@@ -460,7 +458,7 @@ function show_code_transparent_proxy() {
 
 #### Intra-decile effects
 
-While the gains at the bottom of the income distribution are typically strong, only 31% of the top three deciles lose income, which is to be expected given that the tax rises are limited to lower sections of income and, though to a smaller effect, changing the Personal Allowance explicitly does not affect those earning over £125,000 as it is phased out by this point. Below shows the distribution of outcomes for each decile, for each reform, including all individuals in the population.
+While the share of people gaining from the reforms is relatively similar across income groups, people in low-income households are more likely to see substantial gains and less likely to see net losses. Even with the £45 UBI, only about a third of the top three deciles lose income; this follows from the tax and benefit changes mostly affecting lower income sections, as well as people earning over £125,000 being currently ineligible for the Personal Allowance, and therefore unaffected by its reduction.
 
 <button onclick="show_code_computational_indie()">Click to show code</button>
 <div id="code_block_computational_indie" style="display: none;">
@@ -667,7 +665,7 @@ function show_code_outside_garden() {
 </div>
 <div id = "graph_graph_outside_garden_1"></div>
 
-Marginal tax rates are also affected by the reforms: the PA decrease imposes the basic, higher and additional rates on taxpayers with lower incomes, the UBI amounts effectively reduce the benefit work disregards and the PT decrease applies the 12% rate onto lower-income earners.
+The reforms also affect marginal tax rates: the PA decrease imposes the basic, higher and additional rates on taxpayers with lower incomes, the UBI amounts effectively reduce the benefit work disregards, and the PT decrease applies the 12% rate onto lower-income earners.
 
 <button onclick="show_code_nuclear_response()">Click to show code</button>
 <div id="code_block_nuclear_response" style="display: none;">
@@ -729,7 +727,7 @@ function show_code_nuclear_response() {
 </div>
 <div id = "graph_graph_nuclear_response_1"></div>
 
-Few political parties around the world have endorsed UBI as the Liberal Democrats have, and in releasing this discussion paper with specific policies, they have taken that endorsement to an unprecedented level of seriousness. While these policies don’t achieve full budget-neutrality or the progressivity of [more dramatic reforms](https://www.ubicenter.org/uk-blank-slate-ubi), they would nonetheless reduce poverty and inequality more than any policy perhaps since the dawn of the NHS. The party’s final proposal (following the call for feedback through next week) will represent yet another unprecedented step in the UK’s embrace of UBI, and we look forward to reviewing it.
+Few political parties around the world have endorsed UBI as the Liberal Democrats have, and in releasing this discussion paper with specific policies, they have taken that endorsement to an unprecedented level of seriousness. While these policies don’t achieve full budget-neutrality, the discussion paper also mentions other revenue options, such as raising NI rates and tax rates on corporations, capital gains, and personal income. And while they don't achieve the progressivity of [more dramatic reforms](https://www.ubicenter.org/uk-blank-slate-ubi), they would nonetheless reduce poverty and inequality more than any policy perhaps since the dawn of the NHS. The party’s final proposal will represent yet another unprecedented step in the UK’s embrace of UBI, and we look forward to reviewing it.
 
 
 ### Appendix A: Costing estimates
