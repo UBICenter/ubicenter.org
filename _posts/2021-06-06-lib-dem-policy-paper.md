@@ -729,6 +729,8 @@ function show_code_nuclear_response() {
 
 Few political parties around the world have endorsed UBI as the Liberal Democrats have, and in releasing this discussion paper with specific policies, they have taken that endorsement to an unprecedented level of seriousness. While these policies don’t achieve full budget-neutrality, the discussion paper also mentions other revenue options, such as raising NI rates and tax rates on corporations, capital gains, and personal income. And while they don't achieve the progressivity of [more dramatic reforms](https://www.ubicenter.org/uk-blank-slate-ubi), they would nonetheless reduce poverty and inequality more than any policy perhaps since the dawn of the NHS. The party’s final proposal will represent yet another unprecedented step in the UK’s embrace of UBI, and we look forward to reviewing it.
 
+*Update: [Read our follow-up]({% post_url 2021-06-07-progressive-adjustments-lib-dem-working-group %}) describing progressive adjustments that could be made to this framework.*
+
 
 ### Appendix A: Costing estimates
 
