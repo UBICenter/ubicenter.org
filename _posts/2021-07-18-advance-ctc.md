@@ -12,7 +12,7 @@ excerpt: On paper, the monthly payment halves deep child poverty, but technical 
 class: post-template
 ---
 
-Yesterday, millions of families started receiving their first monthly Child Tax Credit payments, in the American Rescue Plan's broadest transfer since its $1,400 relief payments. The poorest children in the country are newly eligible for the full value of the Child Tax Credit, including these monthly payments, and as a result, deep child poverty could fall by as much as half.
+On Thursday, millions of families started receiving their first monthly Child Tax Credit payments, in the American Rescue Plan's broadest transfer since its $1,400 relief payments. The poorest children in the country are newly eligible for the full value of the Child Tax Credit, including these monthly payments, and as a result, deep child poverty could fall by as much as half.
 
 It's an historic time for antipoverty policy, and activists are fighting to make the policy permanent. And yet, the program's design will result in overpayments, underpayments, exclusion errors, and high marginal tax rates for parents. In this post, I review the changes underway, alternative policy designs to address these issues, and our research on child allowances.
 
