@@ -4,7 +4,7 @@ current: post
 cover: assets/images/2021-07-18-advance-ctc/cover.jpg
 navigation: True
 title: The beginning of a new Child Tax Credit
-date: 2021-07-18 00:00:00
+date: 2021-07-18
 tags: [us,child allowance]
 subclass: 'post'
 author: max
