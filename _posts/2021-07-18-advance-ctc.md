@@ -8,7 +8,7 @@ date: 2021-07-18 00:00:00
 tags: [us,child allowance]
 subclass: 'post'
 author: max
-excerpt: On paper, the monthly payment halves deep child poverty, but technical issues threaten its impact.
+excerpt: On paper, the monthly payment halves deep child poverty. Fulfilling its potential will take work.
 class: post-template
 ---
 
