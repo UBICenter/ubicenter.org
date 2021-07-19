@@ -13,7 +13,7 @@ subclass: 'page'
 >To make universal basic income the world's most thoroughly researched economic policy.
 
 
-# Our Values
+# Our values
 
 ## UBI is worth serious research and public discourse
 
