@@ -2,32 +2,24 @@
 layout: page
 current: post
 navigation: True
-title: Open Source
+title: Open source
 date: 
 tags:
 class: post-template
 subclass: 'post'
 ---
 
-<h2>The UBI Center open sources all our models</h2>
-###### We open-source all our models at [github.com/UBICenter](github.com/UBICenter). ######
-There you can see our code, file issues we're working on, and see how we're progressing against those priorities.
-<br>
-All our work uses open-source projects and data. In particular, our Census data comes from the [Open Source Policy Center's](https://www.ospc.org) Tax-Calculator project, and we use Python and Jupyter notebooks. We contribute to these projects whenever possible.
+## We open-source everything
 
-<center><h2>We leverage and contribute to existing open-source projects, and open-source our own analysis.</h2></center>
+Our models, data, code, documentation---even this website.
+All are open-source at [github.com/UBICenter](http://github.com/UBICenter).
+We welcome all to peruse our code and issues, or to file an issue if you detect an issue or have a question on our models, or to contribute yourself with a pull request.
 
-![]({{site.baseurl}}/assets/images/opensource1.png)
-![]({{site.baseurl}}/assets/images/opensource2.png)
+All our work also uses open-source projects and data.[^third-party]
+In particular, many of our analyses leverage tools in the [Policy Simulation Library](https://pslmodels.org), and we manage and contribute to some of these projects as well.
+We also use general open source Python data science tools such as pandas, Jupyter, and plotly, and we express our gratitude for all who work or fund those public goods.
 
-Tax-Calculator is an open-source tax analysis tool, which we use and contribute to.
+[^third-party]: Unless forbidden by third parties, such as the UK Data Service, which does not allow sharing its survey microdata such as the Family Resources Survey.
 
-![]({{site.baseurl}}/assets/images/opensource3.png)
-![]({{site.baseurl}}/assets/images/opensource4.png)
-
-Jupyter notebook calling functions from taxcalc and microdf to produce analyses.
-
-![]({{site.baseurl}}/assets/images/opensource5.png)
-![]({{site.baseurl}}/assets/images/opensource6.png)
-
-###### We're working on open-sourcing all our work, including this website. To help, email <contact@ubicenter.org> or let us know on [GitHub](github.com/UBICenter). ######
+We believe that public policy is too important for opaque analysis.
+If you agree, we invite you to evangelize open-source policy research with us, and to support our mission by contributing on [GitHub](http://github.com/UBICenter), [joining the team](https://www.ubicenter.org/about/join/), or [making a donation](https://www.ubicenter.org/donate/).
