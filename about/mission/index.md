@@ -10,7 +10,7 @@ subclass: 'page'
 ---
 
 
->To produce open-source research that informs a robust policy debate around universal basic income.
+>To make universal basic income the world's most thoroughly researched economic policy.
 
 
 # Our Values
