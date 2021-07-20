@@ -76,3 +76,13 @@
     <link rel="alternate" type="application/rss+xml" title="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" href="{{ site.baseurl }}feed.xml" />
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/0702499f362bc2046ada2a7d0.js");</script>
     <!-- <meta http-equiv="refresh" content="0;URL={{ site.url }}{{ site.baseurl}}/subscribe"/> -->
+
+    <!-- for mathjax support -->
+    {% if page.usemathjax %}
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+        </script>
+        <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
