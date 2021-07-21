@@ -30,7 +30,9 @@ Inspired by calculators such as [Tax Justice Now](https://taxjusticenow.org/#/#m
 
 As our research has shown that funding Basic Income with a [flat tax](https://www.ubicenter.org/us-flat-tax) of 25% or more would reduce both poverty and inequality, we can create a funding mechanism that funds a robust UBI program, but does not require the user to create or adjust complicated income tax brackets. 
 
-All code powering this calculator is at [github.com/UBICenter/us-calc](https://github.com/UBICenter/us-calc).
+All code powering this calculator is at [github.com/UBICenter/us-calc](https://github.com/UBICenter/us-calc), and the app is hosted on the open source [Compute Studio platform](http://compute.studio).[^hank]
+
+[^hank]: We're grateful to Hank Doupe of Compute Studio for technical assistance and hosting of this app.
 
 
 # Data
