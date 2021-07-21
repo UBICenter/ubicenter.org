@@ -70,7 +70,7 @@ We can describe our model as follows, where $$t$$ is the additional tax rate (0%
 
 $$NT_i = t * max(AGI_i, 0)$$
 
-RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $r_n$ represents a Boolean where a value of $$r_n$$=1 indicates that the user has chosen to repeal the benefit, and $r_n$=0 if not.
+RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $$r_n$$ represents a Boolean where a value of $$r_n=1$$ indicates that the user has chosen to repeal the benefit, and $$r_n=0$$ if not.
 
 $$RT_i = r_{IT}IT_i + r_{PT}PT_i$$
 
