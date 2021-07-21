@@ -1,15 +1,14 @@
 ---
 layout: post
 current: post
-cover: ![alt_text](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-1.png)
+cover: assets/images/2021-07-21-basic-income-builder/cover.png
 navigation: True
-title: Basic Income Builder
+title: Introducing Basic Income Builder
 date: 2021-07-21
 tags: [us]
 subclass: 'post'
 author: will, max, nate
-excerpt: Designing and analyzing budget-neutral universal basic income policies with a real-time web tool
-
+excerpt: Our new tool lets you design and analyze budget-neutral universal basic income policies in real time.
 class: post-template
 usemathjax: true
 ---
@@ -18,18 +17,16 @@ usemathjax: true
 <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-# Abstract
+# [Try Basic Income Builder at bib.ubicenter.org](http://bib.ubicenter.org)
 
-Using Python and Plotly Dash’s dashboarding tools, we create an interactive UBI calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal's effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead.
-
-**This calculator is available at [uscalc.ubicenter.org](http://uscalc.ubicenter.org).**
+Using Python and Plotly Dash’s dashboarding tools, we've created Basic Income Builder: an interactive calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal's effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead. Read on for more information, or try it yourself at [bib.ubicenter.org](http://bib.ubicenter.org).
 
 
 # Background
 
 Our recent research at the UBI Center has demonstrated the remarkable effectiveness of unconditional cash transfers in reducing poverty and inequality across different demographics and regions in the United States. We have found that the UBI shrinks [racial poverty and wealth gaps](https://www.ubicenter.org/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps), reduces poverty among [people with disabilities](https://www.ubicenter.org/ada30), and is more progressive than cancelling [student loan debt](https://www.ubicenter.org/student-debt) in terms of wealth inequality.
 
-Inspired by calculators such as [Tax Justice Now](https://taxjusticenow.org/#/#makeYourOwnTaxPlan), [UBI Calculator](https://ubicalculator.com/), and PSL’s [Tax Brain](https://compute.studio/PSLmodels/Tax-Brain/new/), and building on our prior work with the [UBI Plan Explorer](plans.ubicenter.org), we created an interactive, customizable policy simulation tool built on our own research on Universal Basic Income proposals. We seek to create a tool that is useful for policy analysts and policy makers at both the state and federal level, while yielding comprehensible results for a general audience.
+Inspired by calculators such as [Tax Justice Now](https://taxjusticenow.org/#/#makeYourOwnTaxPlan), [UBI Calculator](https://ubicalculator.com/), and PSL’s [Tax Brain](https://compute.studio/PSLmodels/Tax-Brain/new/), and building on our prior work with the [UBI Plan Explorer](plans.ubicenter.org), we created Basic Income Builder, an interactive, customizable policy simulation tool built on our own research on UBI proposals. We sought to create a tool that is useful for policy analysts and policy makers at both the state and federal level, while yielding comprehensible results for a general audience.
 
 As our research has shown that funding Basic Income with a [flat tax](https://www.ubicenter.org/us-flat-tax) of 25% or more would reduce both poverty and inequality, we can create a funding mechanism that funds a robust UBI program, but does not require the user to create or adjust complicated income tax brackets. 
 
@@ -67,76 +64,56 @@ On the benefit side, the user can repeal the Child Tax Credit, Supplemental Secu
 
 Users may also select whether adults, children, and/or non-citizens are eligible for benefits.
 
-We can describe our model as follows, where $t$ is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and $NT_i$ is the value of a new user-specified tax on AGI for SPM unit $i$:
+We can describe our model as follows, where $$t$$ is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and $$NT_i$$ is the value of a new user-specified tax on AGI for SPM unit $$i$$:
 
 
 
-$NT_i = t * max(AGI_i, 0)$
+$$NT_i = t * max(AGI_i, 0)$$
 
-RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $r_n$ represents a Boolean where a value of $r_n$=1 indicates that the user has chosen to repeal the benefit, and $r_n$=0 if not.
-\
-$RT_i = r_{IT}IT_i + r_{PT}PT_i$
-\
-We define $RB$ as the value of SPM unit’s benefits that have been repealed by the user.
+RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $$r_n$$ represents a Boolean where a value of $$r_n=1$$ indicates that the user has chosen to repeal the benefit, and $$r_n=0$$ if not.
 
-\
-$RB_i = r_{CTC} * CTC_i + r_{SSI} * SSI_i + r_{SNAP} * SNAP_i + r_{EITC} * EITC_i + r_{UI} * UI_i + r_{LIHEAP} * LIHEAP_i$
-\
+$$RT_i = r_{IT}IT_i + r_{PT}PT_i$$
+
+We define $$RB$$ as the value of SPM unit’s benefits that have been repealed by the user.
+
+$$RB_i = r_{CTC} * CTC_i + r_{SSI} * SSI_i + r_{SNAP} * SNAP_i + r_{EITC} * EITC_i + r_{UI} * UI_i + r_{LIHEAP} * LIHEAP_i$$
+
 Thus, the total revenue raised by the user is equal to:
-\
-$Revenue = \sum_iNT_i - RT_i + RB_i$
-\
+
+$$Revenue = \sum_iNT_i - RT_i + RB_i$$
+
 The new UBI amount paid out to each eligible beneficiary is simply equal to:
-\
-$UBI = \frac{\it Revenue}{\it NumberOfBeneficiaries}$
-\
+
+$$UBI = \frac{\it Revenue}{\it NumberOfBeneficiaries}$$
+
 We then adjust the SPM resources of each unit to account for the new UBI payment, as well as the earlier changes made to taxes and benefits. The new SPM resource amount is expressed by the following equation, where n represents the number of eligible UBI beneficiaries in the SPM unit.
-\
-$NewSPMResources_i = CurrentSPMResources_i + UBI * n_i + RT_i -NT_i - B_i$
-\
+
+$$NewSPMResources_i = CurrentSPMResources_i + UBI * n_i + RT_i -NT_i - B_i$$
+
 We then assign a new value indicating poverty status for each person belonging to an SPM unit where their new SPM resources are below the Census-provided SPM poverty threshold. We then divide the count of all individuals living under this poverty line by the total population.
 
 The poverty gap is the sum of the total amount of additional resources required to lift each SPM unit to the SPM poverty threshold. Using our new SPM resources value for each SPM unit i, we calculate the poverty gap with the following formula:
-\
-$PovertyGap = \sum max(SPMPovertyThreshold_i - NewSPMResources, 0)$
 
-
+$$PovertyGap = \sum max(SPMPovertyThreshold_i - NewSPMResources, 0)$$
 
 
 # Results
 
-To illustrate the tool’s capabilities, we present the results of three different budget-neutral UBI reforms. Each reform provides an equal UBI to child and adult citizens.
+To illustrate Basic Income Builder's capabilities, we present the results of three different budget-neutral UBI reforms. Each reform provides an equal UBI to child and adult citizens.
 
 In the first reform, we repeal all six available benefits while holding all else constant; this funds a $64 monthly UBI. To illustrate how our app works in practice, the below screenshot shows the configuration necessary to create this scenario:
 
-
-
-
-
-![alt_text](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-1.png)
-
+![alt_text](assets/images/2021-07-21-basic-income-builder/us-calc-results-image-1.png)
 
 While this leaves most of the population at least slightly better off, it causes poverty and inequality to increase across all categories, as shown by the simulation results below.
 
-
-
-
-
-![img](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-2.png)
-
+![img](assets/images/2021-07-21-basic-income-builder/us-calc-results-image-2.png)
 
 In the second reform, we keep all taxes and benefits as is, but apply an additional 1% income tax on top of the existing system. This funds a $31 monthly benefit, but reduces poverty and inequality across all measures.
 
-
-
-
-
-![alt_text](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-3.png)
-
+![alt_text](assets/images/2021-07-21-basic-income-builder/us-calc-results-image-3.png)
 
 Our third reform entails a repeal of the existing income tax system (preserving payroll taxes and benefits), replaced with a 25% flat income tax. This funds a $400 monthly UBI while leaving 51% of Americans better off, while reducing poverty overall by 39% and across each demographic group by between 21% and 55%.
-
-
 
 
 <table>
@@ -299,7 +276,7 @@ Our third reform entails a repeal of the existing income tax system (preserving 
 </table>
 
 
-To demonstrate the calculator’s state-level capabilities, we return to the reform that replaces existing income taxes with a 25% flat income tax, focusing on North Carolina as an example. When selecting North Carolina from the state menu and leaving everything else unchanged, the calculator shows the effect of the federal reform on North Carolina. The UBI amount is the same ($400 per month), but other distributional effects differ, and we can see that North Carolinians come out ahead by an average of $276 per person per year.
+To demonstrate Basic Income Builder's state-level capabilities, we return to the reform that replaces existing income taxes with a 25% flat income tax, focusing on North Carolina as an example. When selecting North Carolina from the state menu and leaving everything else unchanged, the calculator shows the effect of the federal reform on North Carolina. The UBI amount is the same ($400 per month), but other distributional effects differ, and we can see that North Carolinians come out ahead by an average of $276 per person per year.
 
 When selecting “State” as the Reform level, the 25% flat income tax instead replaces the North Carolina state income tax. This results in a larger UBI, primarily due to North Carolina’s state income tax raising less revenue than the federal income tax in North Carolina. Consequently, the poverty impacts are substantially greater with this reform, even as it’s no longer a net inflow to the state.
 
@@ -441,11 +418,9 @@ When selecting “State” as the Reform level, the 25% flat income tax instead 
 For each of these scenarios, checking the “Children” and “Non-citizens” boxes reveals that including children and non-citizens in the UBI produces larger poverty and inequality reductions. This aligns with other research, such as [Ghenis (2020)](https://www.ubicenter.org/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19).
 
 
-# Discussion
+# Future research
 
-We’ve shown a calculator that presents impacts of UBI reforms on distributional outcomes at the state and federal level. We aim to improve the calculator in the future in several ways:
-
-
+We aim to improve Basic Income Builder in the future in several ways:
 
 * Addressing income data deficiencies by incorporating data from the IRS Public Use File
 * Addressing benefit deficiencies by imputing unreported benefits with algorithms like PSL’s [CPS Transfer Augmentation Model](https://github.com/PSLmodels/C-TAM)
@@ -457,5 +432,4 @@ We’ve shown a calculator that presents impacts of UBI reforms on distributiona
 
 # Conclusion
 
-The UBI Center budget-neutral UBI calculator provides users with access to rapid experimentation and analysis to determine the effects of UBI. Some results are intuitive, such as the regressiveness of replacing benefits with UBI without also raising additional tax revenue, while other results may surprise some audiences, such as the large effects on poverty from even modest taxes—even flat income taxes. We hope that this tool and others like it empower the public to learn more about public policy impacts and that they ultimately produce more evidence-based policymaking.
-
+The UBI Center Basic Income Builder provides users with access to rapid experimentation and analysis to determine the effects of UBI. Some results are intuitive, such as the regressiveness of replacing benefits with UBI without also raising additional tax revenue, while other results may surprise some audiences, such as the large effects on poverty from even modest taxes—even flat income taxes. We hope that this tool and others like it empower the public to learn more about public policy impacts and that they ultimately produce more evidence-based policymaking.
