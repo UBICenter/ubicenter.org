@@ -3,8 +3,8 @@ layout: post
 current: post
 cover: 
 navigation: True
-title: Money Machine
-date: 2021-06-21
+title: Basic Income Builder
+date: 2021-07-21
 tags: [us]
 subclass: 'post'
 author: will, max, nate
