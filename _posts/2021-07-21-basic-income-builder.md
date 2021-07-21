@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: 
+cover: ![alt_text](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-1.png)
 navigation: True
 title: Basic Income Builder
 date: 2021-07-21
@@ -11,6 +11,7 @@ author: will, max, nate
 excerpt: Designing and analyzing budget-neutral universal basic income policies with a real-time web tool
 
 class: post-template
+usemathjax: true
 ---
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -21,7 +22,8 @@ class: post-template
 
 Using Python and Plotly Dash’s dashboarding tools, we create an interactive UBI calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal's effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead.
 
-**This calculator is available at [uscalc.ubicenter.org](uscalc.ubicenter.org).**
+**This calculator is available at [uscalc.ubicenter.org](http://uscalc.ubicenter.org).**
+
 
 # Background
 
@@ -111,7 +113,7 @@ In the first reform, we repeal all six available benefits while holding all else
 
 
 
-![alt_text](assets\images\us-calc-post\us-calc-results-image-1.png)
+![alt_text](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-1.png)
 
 
 While this leaves most of the population at least slightly better off, it causes poverty and inequality to increase across all categories, as shown by the simulation results below.
@@ -120,7 +122,7 @@ While this leaves most of the population at least slightly better off, it causes
 
 
 
-![img](assets\images\us-calc-post\us-calc-results-image-2.png)
+![img](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-2.png)
 
 
 In the second reform, we keep all taxes and benefits as is, but apply an additional 1% income tax on top of the existing system. This funds a $31 monthly benefit, but reduces poverty and inequality across all measures.
@@ -129,7 +131,7 @@ In the second reform, we keep all taxes and benefits as is, but apply an additio
 
 
 
-![alt_text](assets\images\us-calc-post\us-calc-results-image-3.png)
+![alt_text](assets\images\2021-07-21-basic-income-builder\us-calc-results-image-3.png)
 
 
 Our third reform entails a repeal of the existing income tax system (preserving payroll taxes and benefits), replaced with a 25% flat income tax. This funds a $400 monthly UBI while leaving 51% of Americans better off, while reducing poverty overall by 39% and across each demographic group by between 21% and 55%.
