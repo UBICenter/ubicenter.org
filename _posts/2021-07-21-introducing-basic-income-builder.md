@@ -64,13 +64,13 @@ On the benefit side, the user can repeal the Child Tax Credit, Supplemental Secu
 
 Users may also select whether adults, children, and/or non-citizens are eligible for benefits.
 
-We can describe our model as follows, where $t$ is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and $NT_i$ is the value of a new user-specified tax on AGI for SPM unit $$i$$:
+We can describe our model as follows, where $$t$$ is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and $$NT_i$$ is the value of a new user-specified tax on AGI for SPM unit $$i$$:
 
 
 
 $$NT_i = t * max(AGI_i, 0)$$
 
-RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $r_n$ represents a Boolean where a value of $r_n$=1 indicates that the user has chosen to repeal the benefit, and $r_n$=0 if not.
+RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $r_n$ represents a Boolean where a value of $$r_n$$=1 indicates that the user has chosen to repeal the benefit, and $r_n$=0 if not.
 
 $$RT_i = r_{IT}IT_i + r_{PT}PT_i$$
 
