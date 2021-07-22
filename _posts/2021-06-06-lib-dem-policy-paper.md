@@ -5,7 +5,7 @@ cover: assets/images/2021-06-05-libdem-ubi-analysis.jpg
 navigation: True
 title: "Liberal Democrat UBI Policy Paper: An Analysis"
 date: 2021-06-06
-tags: [uk]
+tags: [uk,uk liberal democrats]
 subclass: 'post'
 author: nikhil
 excerpt: "The UK party is exploring UBI reforms that would reduce poverty and inequality."

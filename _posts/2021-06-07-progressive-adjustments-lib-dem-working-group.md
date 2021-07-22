@@ -5,7 +5,7 @@ cover: assets/images/2021-06-07-libdem-ubi-analysis2.jpg
 navigation: True
 title: Progressive adjustments to the Liberal Democrat UBI Working Group's reforms
 date: 2021-06-07
-tags: [uk,UK Liberal Democrats]
+tags: [uk,uk liberal democrats]
 subclass: 'post'
 author: [max,nikhil]
 excerpt: More generous and inclusive basic income plans would reduce poverty and inequality more, and benefit more people.
