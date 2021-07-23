@@ -43,6 +43,21 @@ nate:
   medium: False
   twitter: ngpsu22
   is_active: True
+ahmed:
+  username: ahmed
+  name: Ahmed Ahmed
+  title: Research Assistant
+  location: US
+  url_full: False
+  url: False
+  short_bio: Ahmed is a research assistant with the UBI Center.
+  bio: Ahmed is a rising senior in high school from Clark County, Nevada. He’s currently the opinion editor of the Southwest Shadow, a high school web paper, and Senior Researcher at the Mission for American Resolve, a policy think tank. He’s most interested in how child allowances can promote strong, stable families.
+  picture: assets/images/ahmed_ahmed_headshot.jpg
+  github: AhmedAhmed8000
+  medium: False
+  twitter: False
+  cover: False
+  is_active: True
 ankit:
   username: ankit
   name: Ankit Dhingra
