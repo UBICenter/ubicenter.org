@@ -86,3 +86,10 @@
         </script>
         <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
+
+    <!-- for plotly support -->
+    {% if page.useplotly %}
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    {% endif %}

@@ -11,25 +11,15 @@ cover: assets/images/2021-01-18-racial-poverty-disparities-mlk-day-2021/cover.jp
 subclass: 'post'
 author: [max, connor, nate]
 excerpt: $600 per month or more would end one measure of the Black-White poverty disparity.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
 but toward the end of his life, King extended this leadership to the cause of poverty.
 In his [final book](http://www.thekinglegacy.org/books/where-do-we-go-here-chaos-or-community),
 he wrote:
 
-```{epigraph}
-The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty [...] 
-I'm now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.
-
--- Dr. Martin Luther King, Jr., *Where Do We Go From Here: Chaos or Community?* (1967)
-```
+>The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty. [...] I'm now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.
 
 We honor King's call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people. [^modeling]
 

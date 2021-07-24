@@ -10,13 +10,8 @@ cover: assets/images/2021-04-22-new-open-source-website/cover.webp
 subclass: 'post'
 author: [matt,yuri]
 excerpt: Bringing together all our research in one GitHub-served platform.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 The UBI Center's mission is to produce open-source research that informs a robust policy debate around universal basic income. We emphasize "open-source" because we believe that the public deserves full transparency into research that influences economic policy, and because we know that feedback and contributions improve our work, whether or not it comes from our staff. As our friends at the [Policy Simulation Library](https://pslmodels.org/) say, "Open Models == Better Policy."
 

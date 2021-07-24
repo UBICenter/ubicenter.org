@@ -11,12 +11,8 @@ class: post-template
 subclass: 'post'
 author: [nate, john, matt, max]
 excerpt: We're examining universal payments to parents across multiple angles.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
 
 _See the full project at [child-allowance.ubicenter.org](https://child-allowance.ubicenter.org)._
 

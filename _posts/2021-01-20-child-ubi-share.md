@@ -11,13 +11,8 @@ cover: assets/images/2021-01-20-child-ubi-share/cover.jpg
 subclass: 'post'
 author: [nate, will]
 excerpt: At least some, but it depends on the measurement.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 While the idea of a universal basic income has been around for centuries, it was recently brought into mainstream American political discourse by 2020 Presidential candidate Andrew Yang.
 Yang centered his campaign around paying every adult citizen $1,000 each month.
