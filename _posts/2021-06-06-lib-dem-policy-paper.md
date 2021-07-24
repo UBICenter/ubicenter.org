@@ -10,11 +10,8 @@ subclass: 'post'
 author: nikhil
 excerpt: "The UK party is exploring UBI reforms that would reduce poverty and inequality."
 class: post-template
+useplotly: true
 ---
-
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 Last month, the Liberal Democrat UBI Working Group published a [policy paper](https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347) exploring possible universal basic income policies for the party’s platform.[^1] This release follows the [September Liberal Democrat Conference vote](https://www.libdems.org.uk/a20-ubi) to campaign for universal basic income in future elections. The working group invites comments on the paper until tomorrow, 7th June.
 

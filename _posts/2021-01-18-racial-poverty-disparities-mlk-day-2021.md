@@ -11,13 +11,8 @@ cover: assets/images/2021-01-18-racial-poverty-disparities-mlk-day-2021/cover.jp
 subclass: 'post'
 author: [max, connor, nate]
 excerpt: $600 per month or more would end one measure of the Black-White poverty disparity.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
 but toward the end of his life, King extended this leadership to the cause of poverty.

@@ -12,7 +12,6 @@ author: [max]
 excerpt: The budget-neutral child allowance would reduce poverty, inequality, and complexity.
 ---
 
-
 On February 4, Senator Mitt Romney (R-UT) introduced the [Family Security Act](https://www.romney.senate.gov/sites/default/files/2021-02/family%20security%20act_one%20pager.pdf), a monthly child allowance funded by replacing redundant programs and ending regressive tax expenditures. While it phases out at high incomes and caps the total benefit amount for large families, the policy is the most generous of the major proposals put forward and comes closest to a universal child allowance.
 
 The Family Security Act (FSA) would significantly reduce poverty, and especially deep child poverty. As a budget-neutral policy, it could be made permanent through budget reconciliation, which requires only 50 votes in the Senate. And because the payments go to all parents, with high-income parents repaying it when filing taxes, it doesn't require special mechanisms to target parents on income when sending checks.

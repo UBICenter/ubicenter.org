@@ -11,13 +11,8 @@ class: post-template
 subclass: 'post'
 author: [charles, max]
 excerpt: Recipients spent mostly on their children and stable housing.
-excerpt: Recipients spent mostly on their children and stable housing.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
 
 
 [35,000 Canadians](https://homelesshub.ca/sites/default/files/SOHC16_final_20Oct2016.pdf) experience homelessness each night, violating their [right to adequate housing](https://www.ohchr.org/EN/Issues/Housing/Pages/Homelessnessandhumanrights.aspx) and threatening their [health, safety](https://depts.washington.edu/triolive/quest/2007/TTQ07033/effects.html#:~:text=Their%20health%20gets%20worse%20from,Cardio%2DRespiratory%20diseases) and access to [education](https://journals.sagepub.com/doi/pdf/10.3102/0013189X12468210?casa_token=YsJRZhavl9EAAAAA:iKO6XaWu6oNbDgcRzw3Tml-_m6mHEYmRWGY48rzXTStFpmBEWzqa1L_euQoV8WXYkrwZ8vxj-KGMGQ). The Covid-19 pandemic exacerbates the issue, given [crowded living conditions and comorbidities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7206983/), and the Canadian government has taken new steps to address it, such as [moving people experiencing homelessness into hotels](https://www.theglobeandmail.com/canada/article-could-shelter-hotels-be-a-model-for-addressing-homelessness/).
