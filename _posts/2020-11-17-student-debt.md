@@ -10,12 +10,8 @@ class: post-template
 subclass: 'post'
 author: nate
 excerpt: Dollar for dollar, universal payments do more for poverty and income inequality.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
 
 
 Over 40 million Americans possess over $1.5 trillion in student debt. And as new borrowers take out loans faster than old borrowers pay them back, that number is [increasing with time](https://www.newyorkfed.org/microeconomics/hhdc.html).

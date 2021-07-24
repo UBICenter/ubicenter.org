@@ -11,13 +11,8 @@ cover: assets/images/2020-12-30-us-flat-tax/cover.png
 subclass: 'post'
 author: [nate, max]
 excerpt: Flat tax rates of 25 percent or more would reduce poverty and inequality.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 The current US income tax code taxes different types of incomes at different rates, includes an array of credits and deductions that primarily benefit the [upper and middle class](https://fivethirtyeight.com/features/the-tax-deductions-economists-hate/), and requires Americans to spend [billions of hours and dollars](https://www.washingtonpost.com/wp-srv/politics/documents/economy082710.pdf) filing taxes each year.
 A [2015 Pew survey](https://www.pewresearch.org/fact-tank/2016/04/06/the-biggest-u-s-tax-breaks/) found that 66 percent of Republicans and 48 percent of Democrats support completely changing the tax system.

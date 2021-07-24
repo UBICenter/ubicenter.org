@@ -10,11 +10,8 @@ subclass: 'post'
 author: [max,nikhil]
 excerpt: More generous and inclusive basic income plans would reduce poverty and inequality more, and benefit more people.
 class: post-template
+useplotly: true
 ---
-
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 Yesterday, we published an [analysis]({% post_url 2021-06-06-lib-dem-policy-paper %}) of universal basic income reforms described in the Liberal Democrat UBI Working Group's [discussion paper](https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347). In the working group's words, their paper "is designed to stimulate debate and discussion within the Party and outside; based on the response generated and on the deliberations of the working group a full policy paper will be drawn up and presented to Conference for debate."
 
