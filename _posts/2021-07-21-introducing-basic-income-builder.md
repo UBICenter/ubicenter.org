@@ -66,7 +66,7 @@ We can describe our model as follows, where $$t$$ is the additional tax rate (0%
 
 
 
-$$NT_i = t * max(AGI_i, 0)$$
+$$NT_i = t * \max(AGI_i, 0)$$
 
 RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where $$r_n$$ represents a Boolean where a value of $$r_n=1$$ indicates that the user has chosen to repeal the benefit, and $$r_n=0$$ if not.
 
@@ -78,7 +78,7 @@ $$RB_i = r_{CTC} * CTC_i + r_{SSI} * SSI_i + r_{SNAP} * SNAP_i + r_{EITC} * EITC
 
 Thus, the total revenue raised by the user is equal to:
 
-$$Revenue = \sum_iNT_i - RT_i + RB_i$$
+$$Revenue = \sum_i NT_i - RT_i + RB_i$$
 
 The new UBI amount paid out to each eligible beneficiary is simply equal to:
 
@@ -92,7 +92,7 @@ We then assign a new value indicating poverty status for each person belonging t
 
 The poverty gap is the sum of the total amount of additional resources required to lift each SPM unit to the SPM poverty threshold. Using our new SPM resources value for each SPM unit i, we calculate the poverty gap with the following formula:
 
-$$PovertyGap = \sum max(SPMPovertyThreshold_i - NewSPMResources, 0)$$
+$$PovertyGap = \sum_i \max(SPMPovertyThreshold_i - NewSPMResources_i, 0)$$
 
 
 # Results
