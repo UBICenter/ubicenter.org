@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/2021-07-21-basic-income-builder/cover.png
 navigation: True
-title: Introducing Basic Income Builder
+title: Introducing the Basic Income Builder
 date: 2021-07-21
 tags: [us]
 subclass: 'post'
@@ -13,9 +13,9 @@ class: post-template
 usemathjax: true
 ---
 
-# Try Basic Income Builder at [bib.ubicenter.org](http://bib.ubicenter.org)
+# Try the Basic Income Builder at [bib.ubicenter.org](http://bib.ubicenter.org)
 
-Using Python and Plotly Dash’s dashboarding tools, we've created Basic Income Builder: an interactive calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal's effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead. Read on for more information, or try it yourself at [bib.ubicenter.org](http://bib.ubicenter.org).
+Using Python and Plotly Dash’s dashboarding tools, we've created the Basic Income Builder: an interactive calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal's effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead. Read on for more information, or try it yourself at [bib.ubicenter.org](http://bib.ubicenter.org).
 
 
 # Background
