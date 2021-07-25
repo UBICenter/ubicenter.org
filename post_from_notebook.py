@@ -15,28 +15,6 @@ SCRIPT_TEMPLATE = """
 <div id = "graph_{id}"></div>
 """
 
-CODE_BLOCK = """
-<button onclick="show_code_{id}()">Click to show code</button>
-<div id="code_block_{id}" style="display: none;">
-  <pre>
-    <code>
-{code}
-    </code>
-  </pre>
-</div>
-
-<script>
-function show_code_{id}() {
-  var x = document.getElementById("code_block_{id}");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-"""
-
 class NotebookCell:
     def __init__(self, id, data):
         self.data = data
@@ -50,10 +28,6 @@ class NotebookCell:
             for line in self.data["source"]:
                 out_file.write(line)
         elif self.cell_type == "code":
-            # write code block with show-code button
-            formatted_code_block = CODE_BLOCK.replace("{id}", self.id).replace("{code}", "".join(self.data["source"]))
-            for line in formatted_code_block:
-                out_file.write(line)
             # write outputs
             for i, output_holder in enumerate(self.data["outputs"]):
               output = output_holder["data"]["text/html"]
