@@ -4,12 +4,6 @@ from argparse import ArgumentParser
 from typing import IO
 import yaml
 
-HEADER = """
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-"""
-
 SCRIPT_TEMPLATE = """
 <div>
   <script>
@@ -19,28 +13,6 @@ SCRIPT_TEMPLATE = """
   </script>
 </div>
 <div id = "graph_{id}"></div>
-"""
-
-CODE_BLOCK = """
-<button onclick="show_code_{id}()">Click to show code</button>
-<div id="code_block_{id}" style="display: none;">
-  <pre>
-    <code>
-{code}
-    </code>
-  </pre>
-</div>
-
-<script>
-function show_code_{id}() {
-  var x = document.getElementById("code_block_{id}");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 """
 
 class NotebookCell:
@@ -56,10 +28,6 @@ class NotebookCell:
             for line in self.data["source"]:
                 out_file.write(line)
         elif self.cell_type == "code":
-            # write code block with show-code button
-            formatted_code_block = CODE_BLOCK.replace("{id}", self.id).replace("{code}", "".join(self.data["source"]))
-            for line in formatted_code_block:
-                out_file.write(line)
             # write outputs
             for i, output_holder in enumerate(self.data["outputs"]):
               output = output_holder["data"]["text/html"]
@@ -87,7 +55,6 @@ class NotebookPost:
             for line in self.metadata:
               f.write(line)
             f.write("\n---\n")
-            f.write(HEADER)
             for cell in self.cells:
                 cell.render(f, asset_folder)
 
