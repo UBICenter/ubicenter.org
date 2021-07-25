@@ -4,12 +4,6 @@ from argparse import ArgumentParser
 from typing import IO
 import yaml
 
-HEADER = """
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-"""
-
 SCRIPT_TEMPLATE = """
 <div>
   <script>
@@ -87,7 +81,6 @@ class NotebookPost:
             for line in self.metadata:
               f.write(line)
             f.write("\n---\n")
-            f.write(HEADER)
             for cell in self.cells:
                 cell.render(f, asset_folder)
 
