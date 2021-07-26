@@ -19,7 +19,7 @@ While many countries have a tax-free band like the personal allowance, the UK al
 
 These components combine to produce a policy that is neither clearly progressive nor clearly regressive. Because households in the bottom decile have little to no earned income, the personal allowance provides them only small benefits. And while those in the upper individual decile are mostly excluded from the personal allowance, those in the upper household decile [still benefit significantly from it](https://ifs.org.uk/publications/6045), due to marriage between high earners and non-high earners.[^2] Repealing the personal allowance would raise £97 billion (£3,585 per worker) and raise the Gini inequality index from 0.386 to 0.396,[^3] indicating that the personal allowance is slightly progressive on a net basis.
 
-[^2]: This and the remaining analysis uses data from 2020, when the personal allowance was set at £12,500. Full repo source code is on [GitHub](https://github.com/ubicenter/personal-allowance).
+[^2]: This and the remaining analysis uses the OpenFisca-UK microsimulation model with data from 2020, when the personal allowance was set at £12,500. Source code is at [github.com/UBICenter/personal-allowance](https://github.com/ubicenter/personal-allowance).
 
 [^3]: The Gini coefficients used throughout are calculated using total household net income weighted by people.
 
