@@ -52,7 +52,7 @@ Similarly, the [Resolution Foundation](https://www.resolutionfoundation.org/app/
 
 While the personal allowance is only slightly progressive by itself, using revenue from repealing the personal allowance to fund a UBI is highly progressive. Fully repealing the Personal Allowance could fund a weekly UBI of £29 per person, and this lowers the Gini index from 0.386 to 0.369.
 
-Each £2,000 decrease in the personal allowance could fund an increase in the UBI amount of around £110 annually, or just over £2 a week.
+Each £1,000 decrease in the personal allowance could fund an increase in the UBI amount of around £110 annually, or just over £2 a week.
 
 <div>
   <script>
