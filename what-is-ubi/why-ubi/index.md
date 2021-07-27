@@ -14,7 +14,11 @@ subclass: 'post page'
 <h3> UBI could address issues with the existing safety net </h3>
 <br>
 <h6>Ends poverty</h6>
-The decline of poverty has been sluggish. A sufficiently generous UBI could end it overnight.
+The most simple, rudimentary case for a universal basic income is the same case for most aspects of the welfare state: Though markets are efficient at generating wealth, not everyone earns enough money to live out of poverty, so poverty reduction requires state assistance. The elderly, disabled, children, and students account for 86% of [those]( https://www.peoplespolicyproject.org/2018/09/18/the-best-way-to-eradicate-poverty-welfare-not-jobs/) without jobs in the U.S.. Increasing market income can reduce poverty, but it cannot eliminate it.
+
+[Years](https://www.nber.org/system/files/working_papers/w28556/w28556.pdf) [of](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-7679.2006.00346.x) [research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6145823/#:~:text=As%20it%20does%20for%20all,poverty%20by%20nearly%2050%20percent)
+ have found that unconditional cash transfers are an effective mechanism of reducing poverty. America is far stingier with cash transfers than other developed nations, which causes a significantly smaller reduction in post-tax-and-transfer income inequality.
+
 <figure>
 <img src="{{site.baseurl}}assets/images/census-bureau-2017.png" style="max-width: 45%; margin-bottom:0;">
 <figcaption style="text-align:center; font-size:1vw;">Source: <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p60-265.pdf" target="_blank">US Census Bureau (2017)</a></figcaption>
