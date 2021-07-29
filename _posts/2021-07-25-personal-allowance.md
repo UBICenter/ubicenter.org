@@ -29,7 +29,7 @@ These components combine to produce a policy that is neither clearly progressive
 
 [^1]: The Green Party states that in their model, UBI will be taxable, but “all income tax payers will have a tax-free allowance which is the equivalent to their Universal Basic Income amount”; this means that, in practice, the UBI would not be taxed and the personal allowance would effectively be eliminated. 
 
-[^2]: This and the remaining analysis uses data from 2020, when the personal allowance was set at £12,500. Full repo source code is on [GitHub](https://github.com/ubicenter/personal-allowance).
+[^2]: This and the remaining analysis uses the OpenFisca-UK microsimulation model with data from 2020, when the personal allowance was set at £12,500. Source code is at [github.com/UBICenter/personal-allowance](https://github.com/ubicenter/personal-allowance).
 
 [^3]: The Gini coefficients used throughout are calculated using total household net income weighted by people.
 
@@ -62,7 +62,7 @@ Similarly, the [Resolution Foundation](https://www.resolutionfoundation.org/app/
 
 While the personal allowance is only slightly progressive by itself, using revenue from repealing the personal allowance to fund a UBI is highly progressive. Fully repealing the Personal Allowance could fund a weekly UBI of £29 per person, and this lowers the Gini index from 0.386 to 0.369.
 
-Each £2,000 decrease in the personal allowance could fund an increase in the UBI amount of around £110 annually, or just over £2 a week.
+Each £1,000 decrease in the personal allowance could fund an increase in the UBI amount of around £110 annually, or just over £2 a week.
 
 <div>
   <script>
