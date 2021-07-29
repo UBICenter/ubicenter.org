@@ -13,11 +13,21 @@ class: post-template
 useplotly: true
 ---
 
+Among several potential pay-fors in their recent [UBI discussion paper](https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347), the Liberal Democrats considered lowering the personal allowance from its current value of £12,570 to £2,500. That is, the first £2,500 of an individual's annual earnings would be exempted from taxation, rather than the first £12,570. [As my colleague Nikhil Woodruff found](https://www.ubicenter.org/lib-dem-policy-paper), this would raise about £60 billion which, when funding a UBI, significantly lowers poverty and inequality.
+
+The Liberal Democrats were not the first to connect the personal allowance and UBI. The Green Party has also proposed effectively exchanging the two policies,[^1] and several think tanks have modeled UBIs involving reductions or repeals of the personal allowance. While the personal allowance is highly salient— a 2014 poll found that [85% of the public](https://www.ipsos.com/ipsos-mori/en-uk/personal-allowances-rise-most-popular-conference-season-tax-pledges) supported raising it—it's also a large source of potential revenue for the costly proposition of paying every member of society every month.
+
+In this analysis, I extend the literature around the personal allowance and UBI by modeling a range of personal allowance values and outcomes. I find that repealing the personal allowance could fund a £29 weekly UBI to all members of society, including children. This reform would cut the overall poverty rate by 29%, deep poverty by 46%, and child poverty by 51%. I also find that personal allowance reductions matter on the margin: each £2,000 cut, when funding a UBI, yields around a 5% decrease in poverty. 
+
+### How the personal allowance works
+
 The personal allowance was [introduced in 1979](http://taxhistory.co.uk/Income%20Tax%20Allowances.htm), and it has grown almost every year since. Liberal Democrats accelerated its growth by [calling](https://www.standard.co.uk/news/politics/libdems-to-let-1-3m-low-earners-avoid-paying-tax-8506838.html) for expanding it from £10,000 in 2015 to £12,500 in 2020; this succeeded, and it now sits at £12,570, where it is [expected to remain until April 2026](https://www.reuters.com/article/uk-health-coronavirus-britain-budget-inc-idUSKBN2AV1LP).
 
 While many countries have a tax-free band like the personal allowance, the UK also makes the uncommon decision to phase it out for higher earners. Individuals earning above £100,000 lose £1 of personal allowance for every £2 in earnings, phasing out fully for those earning £125,140 per year and creating 62% marginal tax rates for earners in this range.
 
 These components combine to produce a policy that is neither clearly progressive nor clearly regressive. Because households in the bottom decile have little to no earned income, the personal allowance provides them only small benefits. And while those in the upper individual decile are mostly excluded from the personal allowance, those in the upper household decile [still benefit significantly from it](https://ifs.org.uk/publications/6045), due to marriage between high earners and non-high earners.[^2] Repealing the personal allowance would raise £97 billion (£3,585 per worker) and raise the Gini inequality index from 0.386 to 0.396,[^3] indicating that the personal allowance is slightly progressive on a net basis.
+
+[^1]: The Green Party states that in their model, UBI will be taxable, but “all income tax payers will have a tax-free allowance which is the equivalent to their Universal Basic Income amount”; this means that, in practice, the UBI would not be taxed and the personal allowance would effectively be eliminated. 
 
 [^2]: This and the remaining analysis uses data from 2020, when the personal allowance was set at £12,500. Full repo source code is on [GitHub](https://github.com/ubicenter/personal-allowance).
 
