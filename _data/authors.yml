@@ -194,6 +194,21 @@ katarina:
   twitter: False
   cover: False
   is_active: True
+leo:
+  username: leo
+  name: Leo Matkovsky
+  title: Communications Intern
+  location: US
+  url_full: False
+  url: False
+  short_bio: Leo is a communications intern with the UBI Center.
+  bio: Leo is a rising third year student at the University of Toronto, studying Political Science and Government. He is also an intern for FairVote Virginia, a former intern for Karishma Mehta's campaign for Virginia State House Delegate, and a co-founder of Joint Effort News, a student-led journalism initiative.
+  picture: assets/images/leo_matkovsky_headshot.jpeg
+  github: leomatkovsky
+  medium: False
+  twitter: leomatkovsky
+  cover: False
+  is_active: True
 matt:
   username: matt
   name: Matt Gilbert
