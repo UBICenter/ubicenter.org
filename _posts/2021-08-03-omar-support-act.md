@@ -28,7 +28,7 @@ Beginning in 2028, the GITC would provide $1,200 per month for single filers and
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_5_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/omar-support-act/graph_5_1.html");
+      $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/omar-support-act/graph_5_1.html");
     });
   </script>
 </div>
@@ -37,7 +37,7 @@ Beginning in 2028, the GITC would provide $1,200 per month for single filers and
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_5_2").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/omar-support-act/graph_5_2.html");
+      $("#graph_graph_5_2").load("{{site.baseurl}}assets/markdown_assets/omar-support-act/graph_5_2.html");
     });
   </script>
 </div>
@@ -60,7 +60,7 @@ The program would, for all intents and purposes, eliminate poverty, reducing the
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_12_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/omar-support-act/graph_12_1.html");
+      $("#graph_graph_12_1").load("{{site.baseurl}}assets/markdown_assets/omar-support-act/graph_12_1.html");
     });
   </script>
 </div>
