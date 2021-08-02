@@ -4,7 +4,7 @@ current: post
 cover: assets/images/ilhan-omar.jpg
 navigation: True
 title: "Ilhan Omar's Near-UBI Guaranteed Income Bill"
-date: 2021-08-01
+date: 2021-08-02
 tags: [us]
 subclass: "post"
 author: [nate,max]
