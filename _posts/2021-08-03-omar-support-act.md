@@ -87,7 +87,7 @@ The SUPPORT Act's Guaranteed Income Tax Credit may be the closest legislation to
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_14_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/omar-support-act/graph_14_1.html");
+      $("#graph_graph_14_1").load("{{site.baseurl}}assets/markdown_assets/omar-support-act/graph_14_1.html");
     });
   </script>
 </div>
