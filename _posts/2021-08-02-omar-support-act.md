@@ -68,6 +68,15 @@ The program would, for all intents and purposes, eliminate poverty, reducing the
 
 The GITC would also reduce inequality. The income share held by the top 10% would fall by 21%, and the income share held by the top 1% would fall by 29%. The Gini index, a broader measure of inequality, would fall 24%.
 
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#graph_graph_14_1").load("{{site.baseurl}}assets/markdown_assets/omar-support-act/graph_14_1.html");
+    });
+  </script>
+</div>
+<div id = "graph_graph_14_1"></div>
+
 
 # Conclusion
 
@@ -84,11 +93,3 @@ The SUPPORT Act's Guaranteed Income Tax Credit may be the closest legislation to
 
 [^2]: Code powering this analysis is available at [github.com/UBICenter/omar-support-act](http://github.com/UBICenter/omar-support-act).
 
-<div>
-  <script>
-    $(document).ready(function(){
-      $("#graph_graph_14_1").load("{{site.baseurl}}assets/markdown_assets/omar-support-act/graph_14_1.html");
-    });
-  </script>
-</div>
-<div id = "graph_graph_14_1"></div>
