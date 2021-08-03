@@ -13,9 +13,11 @@ class: post-template
 useplotly: true
 ---
 
-The [recent expansion of the Child Tax Credit](http://ubicenter.org/advance-ctc) has brought child poverty into the limelight. Beyond the federal government making that expansion permanent, state and local governments have an opportunity to reduce child poverty through child allowances of their own. Building on our [state-level child allowance impacts](https://www.ubicenter.org/child-allowance-state-simulation), here we present two maps, for upper and lower state legislative districts, of a simple policy: $100 per month for each child under age 18.
+When the American Rescue Plan [expanded the Child Tax Credit,](http://ubicenter.org/advance-ctc) it brought child poverty into the limelight. Beyond the federal government making that expansion permanent, state and local governments have an opportunity to reduce child poverty through child allowances of their own. Building on our [state-level child allowance impacts](https://www.ubicenter.org/child-allowance-state-simulation), here we present two maps, for upper and lower state legislative districts, of a simple policy: $100 per month for each child under age 18.
 
-Nationwide, a $100 monthly child allowance would reduce child poverty by 20%[^discrepancy], but in some districts, like Minnesota's 18B House district (Glencoe), it would cut child poverty by over 50%, and in others, like California's 17th Assembly district (San Francisco), the effect would be under 10%. The policy generally has larger antipoverty effects in districts with lower housing costs.
+Nationwide, a $100 monthly child allowance would reduce child poverty by 20%,[^discrepancy] but in some districts, like Minnesota's 18B House district (Glencoe), it would cut child poverty by over 50%, and in others, like California's 17th Assembly district (San Francisco), the effect would be under 10%. The policy generally has larger antipoverty effects in districts with lower housing costs.
+
+[^discrepancy]: Our [state-level child allowance post](https://www.ubicenter.org/child-allowance-state-simulation) found that a $100 monthly child allowance would reduce child poverty by 22% instead of 20%. This discrepancy is due to different data sources: that used the Current Population Survey, where this uses the American Community Survey.
 
 How would a child allowance affect child poverty in your state legislative district? Explore the maps below to find out.
 
