@@ -21,27 +21,31 @@ _These may take a few seconds to load, and zooming will be slow. Sorry, we're wo
 
 For example, this shows each California Assembly district.
 
+[_Load it fullscreen here._]({{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_assembly.html)
+
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_14_1").load("{{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_assembly.html");
+      $("#us_child_poverty_map_assembly").load("{{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_assembly.html");
     });
   </script>
 </div>
-<div id = "graph_graph_14_1"></div>
+<div id = "us_child_poverty_map_assembly"></div>
 
 # Map by upper state legislative district
 
 For example, this shows each California Senate district.
 
+[_Load it fullscreen here._]({{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_senate.html)
+
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_14_2").load("{{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_senate.html");
+      $("#us_child_poverty_map_senate").load("{{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_senate.html");
     });
   </script>
 </div>
-<div id = "graph_graph_14_2"></div>
+<div id = "us_child_poverty_map_senate"></div>
 
 
 # How we built it
