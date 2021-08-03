@@ -7,7 +7,7 @@ title: Introducing the Basic Income Builder
 date: 2021-07-21
 tags: [us]
 subclass: 'post'
-author: will, max, nate
+author: [will, max, nate]
 excerpt: Our new tool lets you design and analyze budget-neutral universal basic income policies in real time.
 class: post-template
 usemathjax: true
