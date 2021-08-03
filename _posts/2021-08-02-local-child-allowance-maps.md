@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/markdown_assets/local_child_allowance_maps/pov_child_assembly_map_cover.png
+cover: assets/markdown_assets/local-child-allowance-maps/cover.png
 navigation: True
 title: "Mapping the impact of a $100 monthly child allowance"
 date: 2021-08-02
@@ -23,35 +23,36 @@ How would a child allowance affect child poverty in your state legislative distr
 
 _These may take a few seconds to load, and zooming will be slow. Sorry, we're working on speeding it up!_
 
-# Map by lower state legislative district
-
-For example, this shows each California Assembly district.
-
-[_Load it fullscreen here._]({{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_assembly.html)
-
-<div>
-  <script>
-    $(document).ready(function(){
-      $("#us_child_poverty_map_assembly").load("{{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_assembly.html");
-    });
-  </script>
-</div>
-<div id = "us_child_poverty_map_assembly"></div>
-
 # Map by upper state legislative district
 
 For example, this shows each California Senate district.
 
-[_Load it fullscreen here._]({{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_senate.html)
+[_Load it fullscreen here._]({{site.baseurl}}assets/markdown_assets/local-child-allowance-maps/upper_district.html)
 
 <div>
   <script>
     $(document).ready(function(){
-      $("#us_child_poverty_map_senate").load("{{site.baseurl}}assets/markdown_assets/local_child_allowance_maps/us_child_poverty_map_senate.html");
+      $("#upper_district").load("{{site.baseurl}}assets/markdown_assets/local-child-allowance-maps/upper_district.html");
     });
   </script>
 </div>
-<div id = "us_child_poverty_map_senate"></div>
+<div id = "upper_district"></div>
+
+
+# Map by lower state legislative district
+
+For example, this shows each California Assembly district.
+
+[_Load it fullscreen here._]({{site.baseurl}}assets/markdown_assets/local-child-allowance-maps/lower_district.html)
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#lower_district").load("{{site.baseurl}}assets/markdown_assets/local-child-allowance-maps/lower_district.html");
+    });
+  </script>
+</div>
+<div id = "lower_district"></div>
 
 
 # Appendix: how we built it
