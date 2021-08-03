@@ -7,7 +7,7 @@ title: "Mapping the impact of a $100 monthly child allowance"
 date: 2021-08-02
 tags: [us, child allowance, local]
 subclass: "post"
-author: [ben]
+author: [ben,nicholas]
 excerpt: "The policy would cut child poverty by a fifth nationwide, but effects would vary geographically."
 class: post-template
 useplotly: true
@@ -15,7 +15,7 @@ useplotly: true
 
 With the [recent expansion of the Child Tax Credit](http://ubicenter.org/advance-ctc), including full refundability, child poverty has a new relevance. State and local governments also have an opportunity to reduce child poverty through child allowances of their own. Building on our [state-level child allowance impacts](https://www.ubicenter.org/child-allowance-state-simulation), here we present two maps, for upper and lower state legislative districts, of a simple policy: $100 per month for each child under age 18.
 
-_These may take a few seconds to load, and zooming will be slow. Sorry, we're working on it!_
+_These may take a few seconds to load, and zooming will be slow. Sorry, we're working on speeding it up!_
 
 # Map by lower state legislative district
 
