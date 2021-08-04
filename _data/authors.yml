@@ -6,7 +6,7 @@ max:
   url_full: False
   url: False
   short_bio: Max is the founder and president of the UBI Center.  
-  bio: Max is the founder and president of the UBI Center. He is also a member of the Policy Simulation Library's leadership council, and was previously a data scientist at Google. Max has a master's degree in Data, Economics, and Development Policy from MIT and a bachelor's degree in operations research from UC Berkeley.
+  bio: Max is the founder and president of the UBI Center. He was previously a data scientist at Google. Max has a master's degree in Data, Economics, and Development Policy from MIT and a bachelor's degree in operations research from UC Berkeley.
   picture: assets/images/max_ghenis_headshot.jpg
   github: MaxGhenis
   medium: MaxGhenis
@@ -16,11 +16,11 @@ max:
 nikhil:
   username: nikhil
   name: Nikhil Woodruff
-  title: Quantitative Researcher
+  title: Tech Lead
   location: UK
   url_full: False
   url: False
-  short_bio: Nikhil is a quantitative researcher with the UBI Center.
+  short_bio: Nikhil is a tech lead with the UBI Center.
   bio: Nikhil is a student at the Durham University studying Computer Science, where his interests include data science, simulation and its applications on public policy. He is the author and maintainer of the openfisca-uk microsimulation model of the UK tax and benefit system. Nikhil has previously interned at Caspian, where he worked in improving anti-money laundering investigations.
   picture: assets/images/nikhil_headshot.jpg
   github: nikhilwoodruff
