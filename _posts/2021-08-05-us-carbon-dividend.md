@@ -1,10 +1,10 @@
 ---
 layout: post
 current: post
-cover: 
+cover: assets/markdown_assets/us-carbon-dividend/cover.jpg
 navigation: True
 title: "Carbon dividends as anti-poverty policy"
-date: 2021-08-04
+date: 2021-08-05
 tags: [us, carbon pricing]
 subclass: 'post'
 author: max
@@ -26,8 +26,8 @@ To offset higher prices consumers would face as a result of carbon pricing (or o
 Beyond the climate impacts of carbon dividend---policies like the EICDA are projected to [meet the IPCC's goal](https://www.nature.com/articles/s41558-020-0880-3) of net zero emissions by 2050 and [avert 295,000 deaths](https://www.nature.com/articles/nclimate2935) from air pollution in the first decade---many economists have [documented the](https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf) [progressive](https://taxfoundation.org/carbon-tax/) [distributional](https://www.rff.org/publications/data-tools/carbon-pricing-calculator/) [impacts](https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf) of carbon dividends.
 As one example, University of Pennsylvania researcher [Kevin Ummel found](https://citizensclimatelobby.org/household-impact-study/) that the EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.
 
-Using Ummel's data[^ummel] and the 2018 American Community Survey,[^acsspm] I extend this research to estimate the poverty impacts of a carbon dividend[^cpsp] across a range of prices.
-I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton, though the effects are larger for both child poverty and deep poverty, and especially deep child poverty.
+Using Ummel's data[^ummel] and the 2018 American Community Survey,[^acsspm] I extend this research to estimate the poverty impacts of a carbon dividend[^cpsp] across a range of prices.[^code]
+I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton. Effects are larger for child poverty, deep poverty, and especially deep child poverty.
 
 [^ummel]: I'm grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this paper.
 
@@ -35,6 +35,7 @@ I find that carbon dividends reduce poverty roughly linearly with respect to the
 
 [^cpsp]: The only other study I'm aware of that estimates the impact of a carbon dividend on poverty is from the [Columbia Center on Poverty and Social Policy](https://www.povertycenter.columbia.edu/news-internal/carbontax). They found that a carbon dividend of $42 per ton would reduce poverty by 1.1% and child poverty by 4.6%, where I found effects of 4% and 8%, respectively, for a $40 carbon dividend. Our analyses differed in terms of carbon footprint estimation in the Consumer Expenditure Survey (CPSP only considered direct energy consumption, where Ummel's data considered all consumption categories), poverty dataset (CPSP used the Current Population Survey where I used the American Community Survey), and other factors (e.g., CPSP imputed receipt of underreported benefits with the TRIM3 program, where I did not).
 
+[^code]: All data and code powering this analysis is at [github.com/UBICenter/us-carbon-dividend](http://github.com/UBICenter/us-carbon-dividend).
 
 # How big would the dividend be?
 
