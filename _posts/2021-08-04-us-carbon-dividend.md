@@ -4,11 +4,11 @@ current: post
 cover: 
 navigation: True
 title: "Carbon dividends as anti-poverty policy"
-date: 2021-08-03
+date: 2021-08-04
 tags: [us, carbon pricing]
 subclass: 'post'
 author: max
-excerpt: "Each $10 carbon price cuts poverty by about x%."
+excerpt: "A $100-per-ton carbon price would cut poverty by 10% and deep child poverty by 27%."
 class: post-template
 ---
 
@@ -44,7 +44,7 @@ Since American households currently emit about 5 billion metric tons of carbon p
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/us-carbon-dividend/graph_1_1.html");
+      $("#graph_graph_1_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_1_1.html");
     });
   </script>
 </div>
@@ -53,7 +53,7 @@ Since American households currently emit about 5 billion metric tons of carbon p
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_2").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/us-carbon-dividend/graph_1_2.html");
+      $("#graph_graph_1_2").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_1_2.html");
     });
   </script>
 </div>
@@ -66,7 +66,7 @@ Poverty and deep poverty (the population share with income below half their pove
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_3_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/us-carbon-dividend/graph_3_1.html");
+      $("#graph_graph_3_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_3_1.html");
     });
   </script>
 </div>
@@ -79,7 +79,7 @@ Child and adult poverty also fall linearly with the carbon price, but child pove
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_5_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/us-carbon-dividend/graph_5_1.html");
+      $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_5_1.html");
     });
   </script>
 </div>
@@ -95,7 +95,7 @@ Poverty impacts also vary geographically, largely in line with states' per-capit
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_7_1").load("{{site.baseurl}}ubicenter.org/assets/markdown_assets/us-carbon-dividend/graph_7_1.html");
+      $("#graph_graph_7_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_7_1.html");
     });
   </script>
 </div>
