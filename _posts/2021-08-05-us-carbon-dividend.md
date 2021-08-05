@@ -8,7 +8,7 @@ date: 2021-08-05
 tags: [us, carbon pricing]
 subclass: 'post'
 author: max
-excerpt: "A $100-per-ton carbon price would cut poverty by 10% and deep child poverty by 27%."
+excerpt: "A $100-per-ton carbon dividend would cut poverty by 10% and deep child poverty by 27%."
 class: post-template
 useplotly: True
 ---
