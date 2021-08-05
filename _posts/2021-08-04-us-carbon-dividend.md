@@ -10,10 +10,11 @@ subclass: 'post'
 author: max
 excerpt: "A $100-per-ton carbon price would cut poverty by 10% and deep child poverty by 27%."
 class: post-template
+useplotly: True
 ---
 
 The International Monetary Fund [estimates](https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509) that the United States subsidized $649 billion of fossil fuels in 2015.
-Meanwhile, the Environmental and Energy Study Institute (EASE) [estimates](https://www.eesi.org/papers/view/fact-sheet-fossil-fuel-subsidies-a-closer-look-at-tax-breaks-and-societal-costs) that only about $20 billion of that is in the form of direct subsidies.
+Meanwhile, only about [$20 billion](https://www.eesi.org/papers/view/fact-sheet-fossil-fuel-subsidies-a-closer-look-at-tax-breaks-and-societal-costs) of that is in the form of direct subsidies.
 The remainder is the _implicit_ subsidy of misaligning the price of fossil fuels with their societal harms like air pollution and climate change.
 That is, the vast majority of fossil fuel subsidies is the _absence of carbon pricing_.
 
@@ -22,13 +23,13 @@ Experts including [scientists](https://academic.oup.com/bioscience/advance-artic
 To offset higher prices consumers would face as a result of carbon pricing (or other climate measures), many of these experts suggest rebating the revenue to all Americans as a dividend.
 [Two thirds](https://clcouncil.org/morning-consult-poll.pdf) of American voters support this policy, and as of this writing, 80 House Democrats have cosponsored the [Energy Innovation and Carbon Dividend Act](https://energyinnovationact.org/) (EICDA) which would make it a reality in the US.
 
-Beyond the climate impacts of carbon dividend---policies like the EICDA are [projected](https://www.nature.com/articles/s41558-020-0880-3) to meet the IPCC's goal of net zero emissions by 2050 and [avert 295,000 deaths](https://www.nature.com/articles/nclimate2935) from air pollution in the first decade---many economists have [documented the](https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf) [progressive](https://taxfoundation.org/carbon-tax/) [distributional](https://www.rff.org/publications/data-tools/carbon-pricing-calculator/) [impacts](https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf) of carbon dividends.
-As one example, University of Pennsylvania researcher [Kevin Ummel found](https://citizensclimatelobby.org/household-impact-study/) found that that EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.
+Beyond the climate impacts of carbon dividend---policies like the EICDA are projected to [meet the IPCC's goal](https://www.nature.com/articles/s41558-020-0880-3) of net zero emissions by 2050 and [avert 295,000 deaths](https://www.nature.com/articles/nclimate2935) from air pollution in the first decade---many economists have [documented the](https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf) [progressive](https://taxfoundation.org/carbon-tax/) [distributional](https://www.rff.org/publications/data-tools/carbon-pricing-calculator/) [impacts](https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf) of carbon dividends.
+As one example, University of Pennsylvania researcher [Kevin Ummel found](https://citizensclimatelobby.org/household-impact-study/) that the EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.
 
-Using Kevin Ummel's data[^ummel] and the 2018 American Community Survey,[^acsspm] I extend this research to estimate the poverty impacts of a carbon dividend[^cpsp] across a range of prices.
-I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 15% at $100 per ton, though the effects are larger for both child poverty and deep poverty, and especially deep child poverty.
+Using Ummel's data[^ummel] and the 2018 American Community Survey,[^acsspm] I extend this research to estimate the poverty impacts of a carbon dividend[^cpsp] across a range of prices.
+I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton, though the effects are larger for both child poverty and deep poverty, and especially deep child poverty.
 
-[^ummel]: I'm grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this post.
+[^ummel]: I'm grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this paper.
 
 [^acsspm]: I use the [American Community Survey Supplemental Poverty Measure research file](https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html), which estimates the poverty measure inclusive of taxes, transfers, and housing costs, historically only available in the [Current Population Survey](https://www.census.gov/library/publications/2020/demo/p60-272.html).
 
@@ -39,21 +40,12 @@ I find that carbon dividends reduce poverty roughly linearly with respect to the
 
 Carbon pricing proposals vary in their initial price and the rate at which they increase over time, though they do all increase in some way.
 The EICDA starts at $15 per metric ton in 2021 and rises by $10 per year, while the Senate's [Save Our Future Act](https://www.whitehouse.senate.gov/news/release/whitehouse-and-schatz-introduce-save-our-future-act-to-charge-big-polluters-for-emissions-redirect-trillions-to-american-families-and-communities-harmed-by-pollution) starts at $54 per ton in 2023 and rises by an inflation-adjusted 6% per year (about $4 in the first year).
-Since American households currently emit about 5 billion metric tons of carbon per year, amounting to about 15 tons per person, each $10 carbon price would translate to a monthly dividend of 15 tons * $10 / 12 months = **$13**.
+Since American households currently emit about [5 billion metric tons](https://www.rff.org/publications/data-tools/carbon-pricing-calculator/) of carbon per year, amounting to about 15 tons per person, each $10 carbon price would translate to a monthly dividend of 15 tons * $10 / 12 months = **$13**.
 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_1_1.html");
-    });
-  </script>
-</div>
-<div id = "graph_graph_1_1"></div>
-
-<div>
-  <script>
-    $(document).ready(function(){
-      $("#graph_graph_1_2").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_1_2.html");
+      $("#graph_graph_1_2").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/dividend.html");
     });
   </script>
 </div>
@@ -66,7 +58,7 @@ Poverty and deep poverty (the population share with income below half their pove
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_3_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_3_1.html");
+      $("#graph_graph_3_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/pov_line.html");
     });
   </script>
 </div>
@@ -74,12 +66,12 @@ Poverty and deep poverty (the population share with income below half their pove
 
 # How would the carbon dividend affect poverty by age?
 
-Child and adult poverty also fall linearly with the carbon price, but child poverty falls about three times as much. A $100 carbon price would reduce child poverty by 19% and deep child poverty by 27%.
+Child and adult poverty also fall linearly with the carbon price, but child poverty falls about three times as quickly. A $100 carbon price would reduce child poverty by 19% and deep child poverty by 27%.
 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_5_1.html");
+      $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/age.html");
     });
   </script>
 </div>
@@ -95,7 +87,7 @@ Poverty impacts also vary geographically, largely in line with states' per-capit
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_7_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/graph_7_1.html");
+      $("#graph_graph_7_1").load("{{site.baseurl}}assets/markdown_assets/us-carbon-dividend/map.html");
     });
   </script>
 </div>
@@ -109,6 +101,7 @@ My estimates may even be conservative. For example, I assume that 100% of the ca
 Carbon dividends would also create infrastructure for further cash assistance.
 When the US government had to keep Americans afloat with relief checks in the Covid-19 pandemic, they relied on the IRS, and largely failed to reach nonfilers.
 Had even a small universal payment program existed at the time, they could have simply increased the amount instead.
+
 The carbon dividend is a simple policy that can help the US progress on a slew of objectives: climate change, air pollution, financial resilience, and, yes, even poverty.
 
 [^mw]: The Congressional Budget Office [estimated](https://www.cbo.gov/publication/55681) that the Raise the Wage Act of 2021 would reduce the number of people in poverty by 0.7 million by 2028, or about 1.8% of the roughly 40 million people in poverty. A $20 carbon dividend would lower poverty by 2%. CBO applied the Official Poverty Measure rather than Supplemental Poverty Measure.
