@@ -6,7 +6,7 @@ max:
   url_full: False
   url: False
   short_bio: Max is the founder and president of the UBI Center.  
-  bio: Max is the founder and president of the UBI Center. He is also a member of the Policy Simulation Library's leadership council, and was previously a data scientist at Google. Max has a master's degree in Data, Economics, and Development Policy from MIT and a bachelor's degree in operations research from UC Berkeley.
+  bio: Max is the founder and president of the UBI Center. He was previously a data scientist at Google. Max has a master's degree in Data, Economics, and Development Policy from MIT and a bachelor's degree in operations research from UC Berkeley.
   picture: assets/images/max_ghenis_headshot.jpg
   github: MaxGhenis
   medium: MaxGhenis
@@ -16,11 +16,11 @@ max:
 nikhil:
   username: nikhil
   name: Nikhil Woodruff
-  title: Quantitative Researcher
+  title: Tech Lead
   location: UK
   url_full: False
   url: False
-  short_bio: Nikhil is a quantitative researcher with the UBI Center.
+  short_bio: Nikhil is a tech lead with the UBI Center.
   bio: Nikhil is a student at the Durham University studying Computer Science, where his interests include data science, simulation and its applications on public policy. He is the author and maintainer of the openfisca-uk microsimulation model of the UK tax and benefit system. Nikhil has previously interned at Caspian, where he worked in improving anti-money laundering investigations.
   picture: assets/images/nikhil_headshot.jpg
   github: nikhilwoodruff
@@ -42,6 +42,21 @@ nate:
   github: ngpsu22
   medium: False
   twitter: ngpsu22
+  is_active: True
+ahmed:
+  username: ahmed
+  name: Ahmed Ahmed
+  title: Research Assistant
+  location: US
+  url_full: False
+  url: False
+  short_bio: Ahmed is a research assistant with the UBI Center.
+  bio: Ahmed is a rising senior in high school from Clark County, Nevada. He’s currently the opinion editor of the Southwest Shadow, a high school web paper, and Senior Researcher at the Mission for American Resolve, a policy think tank. He’s most interested in how child allowances can promote strong, stable families.
+  picture: assets/images/ahmed_ahmed_headshot.jpg
+  github: AhmedAhmed8000
+  medium: False
+  twitter: False
+  cover: False
   is_active: True
 ankit:
   username: ankit
@@ -119,6 +134,21 @@ deepak:
   twitter: False
   cover: False
   is_active: False
+ines:
+  username: ines
+  name: Ines Fernandez
+  title: Research Assistant
+  location: Ireland
+  url_full: False
+  url: False
+  short_bio: Ines is a Research Assistant with the UBI Center.
+  bio: Ines is an undergraduate student in computational social science at University College Dublin concentrating in politics and geography. Her interests include public policy, data science, and effective altruism. She is currently working on the UBI Center's United Kingdom team.
+  picture: assets/images/ines-headshot.jpg
+  github: inesfb
+  twitter: inesferhumi
+  cover: False
+  is_active: True
+
 john:
   username: john
   name: John Walker
@@ -162,6 +192,21 @@ katarina:
   github: kvanalebeek
   medium: False
   twitter: False
+  cover: False
+  is_active: True
+leo:
+  username: leo
+  name: Leo Matkovsky
+  title: Communications Intern
+  location: US
+  url_full: False
+  url: False
+  short_bio: Leo is a communications intern with the UBI Center.
+  bio: Leo is a rising third year student at the University of Toronto, studying Political Science and Government. He is also an intern for FairVote Virginia, a former intern for Karishma Mehta's campaign for Virginia State House Delegate, and a co-founder of Joint Effort News, a student-led journalism initiative.
+  picture: assets/images/leo_matkovsky_headshot.jpeg
+  github: leomatkovsky
+  medium: False
+  twitter: leomatkovsky
   cover: False
   is_active: True
 matt:
@@ -209,6 +254,21 @@ praneet:
   twitter: False
   cover: False
   is_active: True
+will:
+  username: will
+  name: Will Fedder
+  title: Research Assistant
+  location: US
+  url_full: False
+  url: False
+  short_bio: Will is a research assistant with the UBI Center.
+  bio: Will Fedder is a Baltimore-based data analyst working in the health care sector. He holds his bachelor’s in Public Policy from the University of North Carolina. In addition to ending poverty with UBI, Will is interested in reform of the US healthcare system and the development of transit-friendly cities. He believes that good data visualization can help people realize that these issues are in fact simple and easy to fix. 
+  picture: assets/images/will_headshot.jpeg
+  github: fedderw
+  medium: False
+  twitter: willfedder
+  cover: False
+  is_active: True
 yuri:
   username: yuri
   name: Yuri Uchida
@@ -224,3 +284,4 @@ yuri:
   twitter: False
   cover: False
   is_active: False
+

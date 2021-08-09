@@ -10,12 +10,8 @@ class: post-template
 subclass: 'post'
 author: [nate, matt, max]
 excerpt: How different forms of cash grants to parents would affect poverty and inequality.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
 
 
 Poverty has a lasting impact on children.  Growing up in poverty increases [stress](https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/) and [incarceration rates](https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/) and decreases [educational](https://www.sciencedirect.com/science/article/abs/pii/S1876285915003836) and [health](https://www.aeaweb.org/articles?id=10.1257/app.2.1.86) outcomes.  These negative consequences not only impact the nation’s poor, but the entire economy as well--child poverty shrinks GDP by more than [$1 trillion annually](https://www.nap.edu/read/25246/chapter/1).

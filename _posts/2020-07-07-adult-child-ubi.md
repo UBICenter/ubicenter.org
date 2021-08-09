@@ -11,13 +11,8 @@ class: post-template
 subclass: 'post'
 author: nate
 excerpt: UBI relieves poverty more when it includes children.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 While [US GDP per capita has more than doubled in the past 50 years](https://fred.stlouisfed.org/series/A939RX0Q048SBEA), many Americans still remain in poverty. According to the Census Bureau's 2018 Supplemental Poverty Measure (SPM), over 40 million Americans live below their SPM poverty threshold.
 
