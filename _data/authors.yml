@@ -246,14 +246,14 @@ connor:
   location: US
   url_full: False
   url: False
-  short_bio: Connor is a research assistant with the UBI Center.
+  short_bio: Connor was a research assistant with the UBI Center.
   bio: Connor is a student at The Ohio State University studying economics and political science. Beyond the UBI Center, he also works as a research assistant in Ohio State's political science department. He has also been involved in multiple political campaigns in the Columbus are
   picture: assets/images/connor_headshot.jpg
   github: cotrag
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
 
 deepak:
   username: deepak
