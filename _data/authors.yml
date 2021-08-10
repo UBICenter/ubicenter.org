@@ -141,13 +141,13 @@ ines:
   location: Ireland
   url_full: False
   url: False
-  short_bio: Ines is a Research Assistant with the UBI Center.
+  short_bio: Ines was a Research Assistant with the UBI Center.
   bio: Ines is an undergraduate student in computational social science at University College Dublin concentrating in politics and geography. Her interests include public policy, data science, and effective altruism. She is currently working on the UBI Center's United Kingdom team.
   picture: assets/images/ines-headshot.jpg
   github: inesfb
   twitter: inesferhumi
   cover: False
-  is_active: True
+  is_active: False
 
 john:
   username: john
@@ -246,14 +246,14 @@ praneet:
   location: US
   url_full: False
   url: False
-  short_bio: Praneet is a research assistant with the UBI Center.
+  short_bio: Praneet was a research assistant with the UBI Center.
   bio: Praneet is a senior in high school from the northern suburbs of Chicago. His interests lie at the intersection of math, computer science, and economics, and he looks forward to study these topics in college. He is excited to see the impact UBI Center will have in facilitating more open discussions regarding eliminating poverty while maintaining the economy.
   picture: assets/images/praneet_headshot.jpg
   github: prrathi
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
 will:
   username: will
   name: Will Fedder
@@ -272,7 +272,7 @@ will:
 yuri:
   username: yuri
   name: Yuri Uchida
-  title: Developer
+  title: Developer  
   location: US
   url_full: False
   url: False
