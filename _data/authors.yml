@@ -284,4 +284,19 @@ yuri:
   twitter: False
   cover: False
   is_active: False
+ lucy:
+  username: lucy
+  name: Lucy Williams
+  title: Research Assistant
+  location: UK
+  url_full: False
+  url: False
+  short_bio: Lucy is a research assistant with the UBI Center
+  bio: Lucy is a second year student at Cass Business School in London where she is studying for a degree in Finance and Risk. She is interested in Macroeconomics and Public Policy. She has previously interned at The House of Commons and for various financial firms and has spent time in Indonesia working as an English language tutor.
+  picture: assets/images/Lwilliams_headshot.jpg
+  github: lucycerysw
+  medium: False
+  twitter: False
+  cover: False
+  is_active: True
 
