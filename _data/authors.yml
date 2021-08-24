@@ -269,6 +269,22 @@ alex:
   is_active: True
   type: board
 
+jesse:
+  username: jesse
+  name: Jesse Horwitz
+  title: Director
+  location: US
+  url_full: False
+  url: False
+  short_bio: Jesse is a UBI Center board member.
+  bio: Jesse is the co-founder of Hubble Contacts. He previously worked as a policy advisor to Andrew Yang's mayoral campaign and as an investment analyst. Jesse holds a J.D. from Harvard University and a bachelor's degree in Economics-Mathematics from Columbia University.
+  picture: assets/images/jesse_horwitz_headshot.jpeg
+  github: jessehorwitz
+  twitter: JesseHorwitz
+  cover: False
+  is_active: True
+  type: board
+
 mindy:
   username: mindy
   name: Mindy Greenberg
@@ -285,21 +301,53 @@ mindy:
   is_active: True
   type: board
 
-jesse:
-  username: jesse
-  name: Jesse Horwitz
-  title: Director
+ben-ogorek:
+  username: ben-ogorek
+  name: Ben Ogorek
+  title: Advisor
   location: US
   url_full: False
   url: False
-  short_bio: Jesse is a UBI Center board member.
-  bio: Jesse is the co-founder of Hubble Contacts. He previously worked as a policy advisor to Andrew Yang's mayoral campaign and as an investment analyst. Jesse holds a J.D. from Harvard University and a bachelor's degree in Economics-Mathematics from Columbia University.
-  picture: assets/images/jesse_horwitz_headshot.jpeg
-  github: jessehorwitz
-  twitter: JesseHorwitz
+  short_bio: Ben is a UBI Center advisor.
+  bio: Ben is the chief data scientist at Spencer Health Solutions. He previous worked in data science roles at Nousot, CUNA Mutual Group, Google, and Nationwide. Ben holds a Ph.D. in Statistics from North Carolina State University.
+  picture: assets/images/ben_ogorek_headshot.jpeg
+  github: baogorek
+  twitter: baogorek
   cover: False
   is_active: True
-  type: board
+  type: advisor
+
+jason:
+  username: jason
+  name: Jason DeBacker
+  title: Advisor
+  location: US
+  url_full: False
+  url: False
+  short_bio: Jason is a UBI Center advisor.
+  bio: Jason M. DeBacker is an associate professor in the Department of Economics at the Darla Moore School of Business. His research interests lie in the areas of public finance and macroeconomics. He has published papers on these topics in the Journal of Financial Economics, the Journal of Law and Economics, the Journal of Public Economics, the Brookings Papers on Economic Activity and other outlets. From 2009 to 2012, he worked as a financial economist in the Office of Tax Analysis at the U.S. Department of the Treasury. Jason holds a bachelor's degree in Management Information Systems from the University of Georgia and a Ph.D. in Economics from the University of Texas at Austin.
+  picture: assets/images/jason_debacker_headshot.jpg
+  github: jdebacker
+  twitter: jdebacker
+  cover: False
+  is_active: True
+  type: advisor
+
+rick:
+  username: rick
+  name: Richard W. Evans
+  title: Advisor
+  location: US
+  url_full: False
+  url: False
+  short_bio: Rick is a UBI Center advisor.
+  bio: Richard is Advisory Board Visiting Fellow at Rice University’s Baker Institute for Public Policy, Director of the Open Source Economics Laboratory, nonresident fellow at the Tax Policy Center, and President of the Open Research Group.  His research focuses on macroeconomics, fiscal policy, and computational modeling. Richard received a B.A. in economics and M.A. in public policy from Brigham Young University and a Ph.D. in economics from the University of Texas at Austin.
+  picture: assets/images/richard_evans_headshot.jpg
+  github: rickecon
+  twitter: rickecon
+  cover: False
+  is_active: True
+  type: advisor
 
 # Deactivated team members.
 connor:
