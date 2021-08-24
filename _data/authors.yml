@@ -263,7 +263,7 @@ alex:
   short_bio: Alex is a UBI Center board member.
   bio: Alex is the owner of Accessible Climate Solutions, a consultancy for climate change and disability issues. He previously worked at the World Institute on Disability. Alex holds a bachelor's degree in Geography and a Master's in Public Policy from the University of California at Berkeley.
   picture: assets/images/alex_ghenis_headshot.jpeg
-  github: False
+  github: alexghenis
   twitter: aghenis
   cover: False
   is_active: True
@@ -279,7 +279,7 @@ mindy:
   short_bio: Mindy is a UBI Center board member.
   bio: Mindy is an accessibility partnerships manager at Google. She is a certified coach and previously worked as a genetic counselor and real estate broker. Mindy holds a bachelor's degree in Psychology from UCLA and a master's in genetic counseling from California State University Northridge.
   picture: assets/images/mindy_greenberg_headshot.jpg
-  github: False
+  github: mindygreenberg
   twitter: mindy_greenberg
   cover: False
   is_active: True
@@ -294,8 +294,8 @@ jesse:
   url: False
   short_bio: Jesse is a UBI Center board member.
   bio: Jesse is the co-founder of Hubble Contacts. He previously worked as a policy advisor to Andrew Yang's mayoral campaign and as an investment analyst. Jesse holds a J.D. from Harvard University and a bachelor's degree in Economics-Mathematics from Columbia University.
-  picture: assets/images/jesse_horwitz_headshot.jpg
-  github: False
+  picture: assets/images/jesse_horwitz_headshot.jpeg
+  github: jessehorwitz
   twitter: JesseHorwitz
   cover: False
   is_active: True
