@@ -13,6 +13,7 @@ max:
   twitter: MaxGhenis
   cover: False
   is_active: True
+  type: staff
 
 nikhil:
   username: nikhil
@@ -29,6 +30,7 @@ nikhil:
   twitter: nikhil_woodruff
   cover: False
   is_active: True
+  type: staff
 
 nate:
   username: nate
@@ -45,6 +47,7 @@ nate:
   medium: False
   twitter: ngpsu22
   is_active: True
+  type: staff
 
 ahmed:
   username: ahmed
@@ -61,6 +64,7 @@ ahmed:
   twitter: False
   cover: False
   is_active: True
+  type: staff
 
 ankit:
   username: ankit
@@ -77,6 +81,7 @@ ankit:
   twitter: False
   cover: False
   is_active: True
+  type: staff
 
 ben:
   username: ben
@@ -93,6 +98,7 @@ ben:
   twitter: bhboehlert
   cover: False
   is_active: True
+  type: staff
 
 charles:
   username: charles
@@ -109,6 +115,7 @@ charles:
   twitter: CharlesRBauman1
   cover: False
   is_active: True
+  type: staff
 
 john:
   username: john
@@ -125,6 +132,7 @@ john:
   twitter: False
   cover: False
   is_active: True
+  type: staff
 
 joshua:
   username: joshua
@@ -141,6 +149,7 @@ joshua:
   twitter: Joshua_Z_Miller
   cover: False
   is_active: True
+  type: staff
 
 katarina:
   username: katarina
@@ -157,6 +166,7 @@ katarina:
   twitter: False
   cover: False
   is_active: True
+  type: staff
 
 leo:
   username: leo
@@ -173,6 +183,7 @@ leo:
   twitter: leomatkovsky
   cover: False
   is_active: True
+  type: staff
 
 lucy:
   username: lucy
@@ -189,6 +200,7 @@ lucy:
   twitter: False
   cover: False
   is_active: True
+  type: staff
 
 matt:
   username: matt
@@ -205,6 +217,7 @@ matt:
   twitter: matt_b_gilbert
   cover: False
   is_active: True
+  type: staff
 
 nicholas:
   username: nicholas
@@ -221,6 +234,7 @@ nicholas:
   twitter: False
   cover: False
   is_active: True
+  type: staff
 
 will:
   username: will
@@ -237,6 +251,7 @@ will:
   twitter: willfedder
   cover: False
   is_active: True
+  type: staff
 
 # Deactivated team members.
 connor:
@@ -254,6 +269,7 @@ connor:
   twitter: False
   cover: False
   is_active: False
+  type: staff
 
 deepak:
   username: deepak
@@ -270,6 +286,7 @@ deepak:
   twitter: False
   cover: False
   is_active: False
+  type: staff
 
 ines:
   username: ines
@@ -285,6 +302,7 @@ ines:
   twitter: inesferhumi
   cover: False
   is_active: False
+  type: staff
 
 praneet:
   username: praneet
@@ -301,6 +319,7 @@ praneet:
   twitter: False
   cover: False
   is_active: False
+  type: staff
   
 yuri:
   username: yuri
@@ -317,3 +336,4 @@ yuri:
   twitter: False
   cover: False
   is_active: False
+  type: staff
