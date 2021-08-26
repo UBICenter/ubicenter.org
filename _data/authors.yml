@@ -7,7 +7,7 @@ max:
   url: False
   short_bio: Max is the founder and president of the UBI Center.  
   bio: Max is the founder and president of the UBI Center. He was previously a data scientist at Google. Max has a master's degree in Data, Economics, and Development Policy from MIT and a bachelor's degree in operations research from UC Berkeley.
-  picture: assets/images/max_ghenis_headshot.jpg
+  picture: assets/images/authors/max-ghenis.jpg
   github: MaxGhenis
   medium: MaxGhenis
   twitter: MaxGhenis
@@ -24,7 +24,7 @@ nikhil:
   url: False
   short_bio: Nikhil is a tech lead with the UBI Center.
   bio: Nikhil is a student at the Durham University studying Computer Science, where his interests include data science, simulation and its applications on public policy. He is the author and maintainer of the openfisca-uk microsimulation model of the UK tax and benefit system. Nikhil has previously interned at Caspian, where he worked in improving anti-money laundering investigations.
-  picture: assets/images/nikhil_headshot.jpg
+  picture: assets/images/authors/nikhil-woodruff.jpg
   github: nikhilwoodruff
   medium: False
   twitter: nikhil_woodruff
@@ -41,7 +41,7 @@ nate:
   url: False
   short_bio: Nate is a research associate with the UBI Center. 
   bio: Nate is a math teacher in DC Public Schools, and formerly worked in the same position in Charlotte Mecklenberg Schools. Additionally, he has worked as a policy advisor for State Representative Leslie Herod of Colorado and a researcher for The Colorado League of Charter Schools through the Urban Leaders Fellowship summer program.  Nate has a bachelor's degree in economics from Penn State University.  He believes in the importance of policy work to alleviate poverty and inequality.
-  picture: assets/images/nate_headshot.jpg
+  picture: assets/images/authors/nate-golden.jpg
   facebook: False
   github: ngpsu22
   medium: False
@@ -58,25 +58,8 @@ ahmed:
   url: False
   short_bio: Ahmed is a research assistant with the UBI Center.
   bio: Ahmed is a rising senior in high school from Clark County, Nevada. He’s currently the opinion editor of the Southwest Shadow, a high school web paper, and Senior Researcher at the Mission for American Resolve, a policy think tank. He’s most interested in how child allowances can promote strong, stable families.
-  picture: assets/images/ahmed_ahmed_headshot.jpg
+  picture: assets/images/authors/ahmed-ahmed.jpg
   github: AhmedAhmed8000
-  medium: False
-  twitter: False
-  cover: False
-  is_active: True
-  type: staff
-
-ankit:
-  username: ankit
-  name: Ankit Dhingra
-  title: Research Assistant
-  location: Canada
-  url_full: False
-  url: False
-  short_bio: Ankit is a research assistant with the UBI Center.
-  bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy. Most recently, Ankit worked with PwC Canada, where he led business intelligence for the retail and telecom sector. In total, he brings 9 years of corporate research and analysis experience. An aspiring policy analyst, Ankit’s interest lies in development and health policy. He is currently preparing his applications for public policy programs in Canada.
-  picture: assets/images/ankit_headshot.jpg
-  github: AD-0703
   medium: False
   twitter: False
   cover: False
@@ -92,7 +75,7 @@ ben:
   url: False
   short_bio: Ben is a research assistant with the UBI Center.
   bio: Ben is a rising senior at McGill University studying economics, along with statistics and political science.
-  picture: assets/images/ben_boehlert_headshot.png
+  picture: assets/images/authors/ben-boehlert.png
   github: ben-boehlert
   medium: False
   twitter: bhboehlert
@@ -109,7 +92,7 @@ charles:
   url: False
   short_bio: Charles is a research assistant with the UBI Center.
   bio: Charles is a recent graduate from London School of Economics and Political Science (LSE), where he completed a Master's degree in Theory and History of International Relations. He previously was an intern for the Institute of Economic Affairs in London, where he researched economic and foreign policy. Charles received a Master's degree in Medieval History from King's College London and a Bachelor's degree in History from Northwest Nazarene University.
-  picture: assets/images/charles_headshot.jpg
+  picture: assets/images/authors/charles-bauman.jpg
   github: False
   medium: False
   twitter: CharlesRBauman1
@@ -126,7 +109,7 @@ john:
   url: False
   short_bio: John is a research assistant with the UBI Center. 
   bio: John is a Master's student in development economics at MIT. Previously, he was a researcher in development and health economics at the University of Sydney, and he's also worked and volunteered in monitoring and evaluation and community engagement roles with development economics-focused NGOs, including the Global Green Growth Institute and RESULTS Australia. John is interested in how evaluation techniques from econometrics can be used to build more robust public policy that is sensitive to the needs of program recipients. John holds a Bachelor of Arts and a Bachelor of Economics from the University of Sydney.
-  picture: assets/images/john_headshot.png
+  picture: assets/images/authors/john-walker.png
   github: jwal1024
   medium: False
   twitter: False
@@ -143,7 +126,7 @@ joshua:
   url: False
   short_bio: Joshua is a research assistant with the UBI Center. 
   bio: Joshua Miller is a Junior in High School interested in monetary economics and neoliberalism. He hosts the ThinkCritical Podcast and runs a blog called InTheAggregate.
-  picture: assets/images/joshua_z_miller_headshot.png
+  picture: assets/images/authors/joshua-miller.png
   github: intheaggregate
   medium: False
   twitter: Joshua_Z_Miller
@@ -160,7 +143,7 @@ katarina:
   url: False
   short_bio: Katarina is a research assistant with the UBI Center.
   bio: Katarina graduated from Stanford University in 2019 with studies in Political Science and Philosophy. Her interest lies in the connection of policy and UBI, especially in how governments can implement effective UBI legislation. She has previously done research in Sarajevo, Bosnia and Herzegovina, on storytelling as a tool for reconciliation and empathy-building.
-  picture: assets/images/katarina_headshot.jpg
+  picture: assets/images/authors/katarina-van-alebeek.jpg
   github: kvanalebeek
   medium: False
   twitter: False
@@ -177,7 +160,7 @@ leo:
   url: False
   short_bio: Leo is a communications intern with the UBI Center.
   bio: Leo is a rising third year student at the University of Toronto, studying Political Science and Government. He is also an intern for FairVote Virginia, a former intern for Karishma Mehta's campaign for Virginia State House Delegate, and a co-founder of Joint Effort News, a student-led journalism initiative.
-  picture: assets/images/leo_matkovsky_headshot.jpeg
+  picture: assets/images/authors/leo-matkovsky.jpeg
   github: leomatkovsky
   medium: False
   twitter: leomatkovsky
@@ -194,27 +177,10 @@ lucy:
   url: False
   short_bio: Lucy is a research assistant with the UBI Center
   bio: Lucy is a second year student at Cass Business School in London where she is studying for a degree in Finance and Risk. She is interested in Macroeconomics and Public Policy. She has previously interned at The House of Commons and for various financial firms and has spent time in Indonesia working as an English language tutor.
-  picture: assets/images/Lwilliams_headshot.jpg
+  picture: assets/images/authors/lucy-williams.jpg
   github: lucycerysw
   medium: False
   twitter: False
-  cover: False
-  is_active: True
-  type: staff
-
-matt:
-  username: matt
-  name: Matt Gilbert
-  title: Developer
-  location: US
-  url_full: False
-  url: False
-  short_bio: Matt is a developer with the UBI Center.
-  bio: Matt is a senior at Harvard University, where he is pursuing a Bachelor of Arts in Computer Science. He has previously worked for two startups in the clean energy field. He has also been involved with Harvard for Yang and Boston Basic Income. Matt has written a series of columns about universal basic income for the Harvard Crimson, a student-run newspaper. He believes that a world without poverty is possible. 
-  picture: assets/images/matt_headshot.jpg
-  github: mgilbert1
-  medium: matt.b.gilbert
-  twitter: matt_b_gilbert
   cover: False
   is_active: True
   type: staff
@@ -228,7 +194,7 @@ nicholas:
   url: False
   short_bio: Nicholas is a research assistant with the UBI Center.
   bio: Nicholas (Nick) is currently a Senior at Boston University, studying Economics. Nick has previously worked as a research assistant for topics in sociology and economics. He also has experience interning in insurance analytics and finance. Outside of school and work, Nick has previously played guitar/bass in a few bands and is an active record collector.
-  picture: assets/images/nicholas_headshot.jpg
+  picture: assets/images/authors/nicholas-rodelo.jpg
   github: nmrodelo
   medium: False
   twitter: False
@@ -245,7 +211,7 @@ will:
   url: False
   short_bio: Will is a research assistant with the UBI Center.
   bio: Will Fedder is a Baltimore-based data analyst working in the health care sector. He holds his bachelor’s in Public Policy from the University of North Carolina. In addition to ending poverty with UBI, Will is interested in reform of the US healthcare system and the development of transit-friendly cities. He believes that good data visualization can help people realize that these issues are in fact simple and easy to fix. 
-  picture: assets/images/will_headshot.jpeg
+  picture: assets/images/authors/will-fedder.jpeg
   github: fedderw
   medium: False
   twitter: willfedder
@@ -262,7 +228,7 @@ alex:
   url: False
   short_bio: Alex is a UBI Center board member.
   bio: Alex is the owner of Accessible Climate Solutions, a consultancy for climate change and disability issues. He previously worked at the World Institute on Disability. Alex holds a bachelor's degree in Geography and a Master's in Public Policy from the University of California at Berkeley.
-  picture: assets/images/alex_ghenis_headshot.jpeg
+  picture: assets/images/authors/alex-ghenis.jpeg
   github: alexghenis
   twitter: aghenis
   cover: False
@@ -278,7 +244,7 @@ jesse:
   url: False
   short_bio: Jesse is a UBI Center board member.
   bio: Jesse is the co-founder of Hubble Contacts. He previously worked as a policy advisor to Andrew Yang's mayoral campaign and as an investment analyst. Jesse holds a J.D. from Harvard University and a bachelor's degree in Economics-Mathematics from Columbia University.
-  picture: assets/images/jesse_horwitz_headshot.jpeg
+  picture: assets/images/authors/jesse-horwitz.jpeg
   github: jessehorwitz
   twitter: JesseHorwitz
   cover: False
@@ -294,7 +260,7 @@ mindy:
   url: False
   short_bio: Mindy is a UBI Center board member.
   bio: Mindy is an accessibility partnerships manager at Google. She is a certified coach and previously worked as a genetic counselor and real estate broker. Mindy holds a bachelor's degree in Psychology from UCLA and a master's in genetic counseling from California State University Northridge.
-  picture: assets/images/mindy_greenberg_headshot.jpg
+  picture: assets/images/authors/mindy-greenberg.jpg
   github: mindygreenberg
   twitter: mindy_greenberg
   cover: False
@@ -310,7 +276,7 @@ ben-ogorek:
   url: False
   short_bio: Ben is a UBI Center advisor.
   bio: Ben is the chief data scientist at Spencer Health Solutions. He previous worked in data science roles at Nousot, CUNA Mutual Group, Google, and Nationwide. Ben holds a Ph.D. in Statistics from North Carolina State University.
-  picture: assets/images/ben_ogorek_headshot.jpeg
+  picture: assets/images/authors/ben-ogorek.jpeg
   github: baogorek
   twitter: baogorek
   cover: False
@@ -326,7 +292,7 @@ jason:
   url: False
   short_bio: Jason is a UBI Center advisor.
   bio: Jason M. DeBacker is an associate professor in the Department of Economics at the Darla Moore School of Business. His research interests lie in the areas of public finance and macroeconomics. He has published papers on these topics in the Journal of Financial Economics, the Journal of Law and Economics, the Journal of Public Economics, the Brookings Papers on Economic Activity and other outlets. From 2009 to 2012, he worked as a financial economist in the Office of Tax Analysis at the U.S. Department of the Treasury. Jason holds a bachelor's degree in Management Information Systems from the University of Georgia and a Ph.D. in Economics from the University of Texas at Austin.
-  picture: assets/images/jason_debacker_headshot.jpg
+  picture: assets/images/authors/jason-debacker.jpg
   github: jdebacker
   twitter: jdebacker
   cover: False
@@ -342,7 +308,7 @@ rick:
   url: False
   short_bio: Rick is a UBI Center advisor.
   bio: Richard is Advisory Board Visiting Fellow at Rice University’s Baker Institute for Public Policy, Director of the Open Source Economics Laboratory, nonresident fellow at the Tax Policy Center, and President of the Open Research Group.  His research focuses on macroeconomics, fiscal policy, and computational modeling. Richard received a B.A. in economics and M.A. in public policy from Brigham Young University and a Ph.D. in economics from the University of Texas at Austin.
-  picture: assets/images/richard_evans_headshot.jpg
+  picture: assets/images/authors/richard-evans.jpg
   github: rickecon
   twitter: rickecon
   cover: False
@@ -350,6 +316,23 @@ rick:
   type: advisor
 
 # Deactivated team members.
+ankit:
+  username: ankit
+  name: Ankit Dhingra
+  title: Research Assistant
+  location: Canada
+  url_full: False
+  url: False
+  short_bio: Ankit is a research assistant with the UBI Center.
+  bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy. Most recently, Ankit worked with PwC Canada, where he led business intelligence for the retail and telecom sector. In total, he brings 9 years of corporate research and analysis experience. An aspiring policy analyst, Ankit’s interest lies in development and health policy. He is currently preparing his applications for public policy programs in Canada.
+  picture: assets/images/authors/ankit-dhingra.jpg
+  github: AD-0703
+  medium: False
+  twitter: False
+  cover: False
+  is_active: False
+  type: staff
+
 connor:
   username: connor
   name: Connor Tragesser
@@ -359,7 +342,7 @@ connor:
   url: False
   short_bio: Connor was a research assistant with the UBI Center.
   bio: Connor is a student at The Ohio State University studying economics and political science. Beyond the UBI Center, he also works as a research assistant in Ohio State's political science department. He has also been involved in multiple political campaigns in the Columbus are
-  picture: assets/images/connor_headshot.jpg
+  picture: assets/images/authors/connor-tragesser.jpg
   github: cotrag
   medium: False
   twitter: False
@@ -376,7 +359,7 @@ deepak:
   url: False
   short_bio: Deepak is a research assistant with the UBI Center.
   bio: Deepak is a rising junior at Harvard University, where he is an A.B. Honors candidate in Philosophy and Computer Science, and an Arete Fellow with Harvard College Effective Altruism. He is the Co-Founder and Co-Director of the Salisbury Open Data Project, and an alumnus of the American Enterprise Institute’s Summer Honors Program. He believes in combining philosophical approaches to public policy with insights from data science and artificial intelligence.
-  picture: assets/images/deepak_headshot.jpg
+  picture: assets/images/authors/deepak-singh.jpg
   github: DeepakSingh98
   medium: False
   twitter: False
@@ -393,9 +376,26 @@ ines:
   url: False
   short_bio: Ines was a Research Assistant with the UBI Center.
   bio: Ines is an undergraduate student in computational social science at University College Dublin concentrating in politics and geography. Her interests include public policy, data science, and effective altruism. She is currently working on the UBI Center's United Kingdom team.
-  picture: assets/images/ines-headshot.jpg
+  picture: assets/images/authors/ines-fernandez.jpg
   github: inesfb
   twitter: inesferhumi
+  cover: False
+  is_active: False
+  type: staff
+
+matt:
+  username: matt
+  name: Matt Gilbert
+  title: Developer
+  location: US
+  url_full: False
+  url: False
+  short_bio: Matt is a developer with the UBI Center.
+  bio: Matt is a software engineer at Capital One. He has previously worked for two startups in the clean energy field. Matt holds a bachelor's degree in computer science from Harvard University.
+  picture: assets/images/authors/matt-gilbert.jpg
+  github: mgilbert1
+  medium: matt.b.gilbert
+  twitter: matt_b_gilbert
   cover: False
   is_active: False
   type: staff
@@ -409,7 +409,7 @@ praneet:
   url: False
   short_bio: Praneet was a research assistant with the UBI Center.
   bio: Praneet is a senior in high school from the northern suburbs of Chicago. His interests lie at the intersection of math, computer science, and economics, and he looks forward to study these topics in college. He is excited to see the impact UBI Center will have in facilitating more open discussions regarding eliminating poverty while maintaining the economy.
-  picture: assets/images/praneet_headshot.jpg
+  picture: assets/images/authors/praneet-rathi.jpg
   github: prrathi
   medium: False
   twitter: False
@@ -426,7 +426,7 @@ yuri:
   url: False
   short_bio: Yuri was a Developer with the UBI Center and was a contributor of the UBI Center homepage
   bio: 
-  picture: assets/images/yuri-headshot.jpg
+  picture: assets/images/authors/yuri-uchida.jpg
   github: yuchida522
   medium: False
   twitter: False
