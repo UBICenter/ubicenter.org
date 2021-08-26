@@ -66,23 +66,6 @@ ahmed:
   is_active: True
   type: staff
 
-ankit:
-  username: ankit
-  name: Ankit Dhingra
-  title: Research Assistant
-  location: Canada
-  url_full: False
-  url: False
-  short_bio: Ankit is a research assistant with the UBI Center.
-  bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy. Most recently, Ankit worked with PwC Canada, where he led business intelligence for the retail and telecom sector. In total, he brings 9 years of corporate research and analysis experience. An aspiring policy analyst, Ankit’s interest lies in development and health policy. He is currently preparing his applications for public policy programs in Canada.
-  picture: assets/images/authors/ankit-dhingra.jpg
-  github: AD-0703
-  medium: False
-  twitter: False
-  cover: False
-  is_active: True
-  type: staff
-
 ben:
   username: ben
   name: Benjamin Boehlert
@@ -198,23 +181,6 @@ lucy:
   github: lucycerysw
   medium: False
   twitter: False
-  cover: False
-  is_active: True
-  type: staff
-
-matt:
-  username: matt
-  name: Matt Gilbert
-  title: Developer
-  location: US
-  url_full: False
-  url: False
-  short_bio: Matt is a developer with the UBI Center.
-  bio: Matt is a senior at Harvard University, where he is pursuing a Bachelor of Arts in Computer Science. He has previously worked for two startups in the clean energy field. He has also been involved with Harvard for Yang and Boston Basic Income. Matt has written a series of columns about universal basic income for the Harvard Crimson, a student-run newspaper. He believes that a world without poverty is possible. 
-  picture: assets/images/authors/matt-gilbert.jpg
-  github: mgilbert1
-  medium: matt.b.gilbert
-  twitter: matt_b_gilbert
   cover: False
   is_active: True
   type: staff
@@ -350,6 +316,23 @@ rick:
   type: advisor
 
 # Deactivated team members.
+ankit:
+  username: ankit
+  name: Ankit Dhingra
+  title: Research Assistant
+  location: Canada
+  url_full: False
+  url: False
+  short_bio: Ankit is a research assistant with the UBI Center.
+  bio: Ankit holds an MBA from Queen’s University, Canada, and is currently finishing his MITx MicroMasters in Data, Economics, and Development Policy. Most recently, Ankit worked with PwC Canada, where he led business intelligence for the retail and telecom sector. In total, he brings 9 years of corporate research and analysis experience. An aspiring policy analyst, Ankit’s interest lies in development and health policy. He is currently preparing his applications for public policy programs in Canada.
+  picture: assets/images/authors/ankit-dhingra.jpg
+  github: AD-0703
+  medium: False
+  twitter: False
+  cover: False
+  is_active: False
+  type: staff
+
 connor:
   username: connor
   name: Connor Tragesser
@@ -396,6 +379,23 @@ ines:
   picture: assets/images/authors/ines-fernandez.jpg
   github: inesfb
   twitter: inesferhumi
+  cover: False
+  is_active: False
+  type: staff
+
+matt:
+  username: matt
+  name: Matt Gilbert
+  title: Developer
+  location: US
+  url_full: False
+  url: False
+  short_bio: Matt is a developer with the UBI Center.
+  bio: Matt is a software engineer at Capital One. He has previously worked for two startups in the clean energy field. Matt holds a bachelor's degree in computer science from Harvard University.
+  picture: assets/images/authors/matt-gilbert.jpg
+  github: mgilbert1
+  medium: matt.b.gilbert
+  twitter: matt_b_gilbert
   cover: False
   is_active: False
   type: staff
