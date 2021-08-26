@@ -139,9 +139,9 @@ ratios.variable.replace({"pr_ratio": "Poverty rate",
 def add_ubi_center_logo(fig, x=0.98, y=-0.14):
     fig.add_layout_image(
         dict(
-            source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+            source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.png",
             # See https://github.com/plotly/plotly.py/issues/2975.
-            # source="../_static/ubi_center_logo_wide_blue.png",
+            # source="../_static/logos/wide-blue.png",
             xref="paper", yref="paper",
             x=x, y=y,
             sizex=0.12, sizey=0.12,

@@ -184,9 +184,9 @@ fig.update_layout(
 
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.png",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.png",
         xref="paper",
         yref="paper",
         x=1,
@@ -429,9 +429,9 @@ fig.update_layout(
 
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.png",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.png",
         xref="paper",
         yref="paper",
         x=1,
@@ -663,9 +663,9 @@ fig.for_each_trace(
 
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.png",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.png",
         xref="paper",
         yref="paper",
         x=1,

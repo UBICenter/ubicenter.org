@@ -3,7 +3,7 @@ layout: page
 current: what-is-ubi
 title: Universal Basic Income is an unconditional cash payment given to every member of society
 navigation: true
-logo: 'assets/images/ubi_center_logo_wide_blue.jpg'
+logo: 'assets/images/logos/wide-blue.jpg'
 class: page-template
 subclass: 'post page'
 ---
