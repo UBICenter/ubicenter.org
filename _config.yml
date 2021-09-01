@@ -11,7 +11,7 @@ baseurl: /
 # Website info
 title: UBI Center
 description: Analyzing universal basic income policies with open-source research
-cover: assets/images/ubi_center_blue.jpg
+cover: assets/images/banner.png
 logo: assets/images/logos/wide-white.jpg
 logo_dark: assets/images/logos/wide-blue.jpg
 favicon: assets/images/logos/square-blue.png
