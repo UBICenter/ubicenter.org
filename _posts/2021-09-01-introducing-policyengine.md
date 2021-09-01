@@ -26,6 +26,9 @@ All of our technologies are open source, and they wouldn't be possible without t
 
 Today, we're bringing together these interactive and microsimulation technologies into a new product: **[PolicyEngine](policyengine.org)**.
 With PolicyEngine, anyone can reform the UK tax and benefit system, and see how it would affect the UK population as well as their own household.
+See the video below for a quick overview of how PolicyEngine works.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/nv_gVtokikU" frameborder="0" allowfullscreen></iframe>
 
 As an example, let's reproduce the reform we studied in July to [replace the personal allowance with a UBI](https://www.ubicenter.org/personal-allowance).
 On the _Policy_ page, start by selecting _Tax > Income tax > Allowances_, and drag the _Personal allowance_ slider to £0.[^params]
@@ -36,15 +39,12 @@ PolicyEngine finds that repealing the personal allowance funds a UBI of £29 per
 
 From there, you can click _Simulate on the population_ to see the poverty impact (-29%, mirroring our report), the budget impact by provision, and other distributional effects.
 You can also enter information about your household to see how the reform would affect your net income, as well as the impact to your net income and marginal tax rates depending on your earnings.
-See the video below for a quick overview of how PolicyEngine works.
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/nv_gVtokikU" frameborder="0" allowfullscreen></iframe>
 
 PolicyEngine supports millions of policy reforms, including those not involving UBI.
 We'll be enhancing it every week and leveraging it for all future UK research.
 We're also working on bringing PolicyEngine to the US and hope to expand its reach more broadly (please consider [supporting these development and hosting costs](http://ubicenter.org/about)).
 
-What policy reforms have you wanted to simulate?
+What policy reforms have you been waiting to simulate?
 Try them out at [policyengine.org](https://policyengine.org) and [let us know what you think](https://zej8fnylwn9.typeform.com/to/XFFu15Xq)!
 
 [_Join us at 6PM BST today for a tour and Q&A of PolicyEngine._](https://us02web.zoom.us/meeting/register/tZAlde6prz4sHNH7Pj1AWRokyrnr7yJDK7tt)
