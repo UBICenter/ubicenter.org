@@ -4,7 +4,7 @@ current: post
 cover: assets/images/policyengine.png
 navigation: True
 title: Introducing PolicyEngine UK
-date: 2021-08-31
+date: 2021-09-01
 tags: [policyengine, uk]
 subclass: 'post'
 author: [max,nikhil]
