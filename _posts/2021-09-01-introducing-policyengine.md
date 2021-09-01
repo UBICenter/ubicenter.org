@@ -42,7 +42,7 @@ You can also enter information about your household to see how the reform would 
 
 PolicyEngine supports millions of policy reforms, including those not involving UBI.
 We'll be enhancing it every week and leveraging it for all future UK research.
-We're also working on bringing PolicyEngine to the US and hope to expand its reach more broadly (please consider [supporting these development and hosting costs](http://ubicenter.org/about)).
+We're also working on bringing PolicyEngine to the US and hope to expand its reach more broadly (please consider [supporting these development and hosting costs](https://ubicenter.org/donate)).
 
 What policy reforms have you been waiting to simulate?
 Try them out at [policyengine.org](https://policyengine.org) and [let us know what you think](https://zej8fnylwn9.typeform.com/to/XFFu15Xq)!
