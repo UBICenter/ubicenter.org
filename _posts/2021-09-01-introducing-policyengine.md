@@ -36,6 +36,9 @@ PolicyEngine finds that repealing the personal allowance funds a UBI of £29 per
 
 From there, you can click _Simulate on the population_ to see the poverty impact (-29%, mirroring our report), the budget impact by provision, and other distributional effects.
 You can also enter information about your household to see how the reform would affect your net income, as well as the impact to your net income and marginal tax rates depending on your earnings.
+See the video below for a quick overview of how PolicyEngine works.
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/nv_gVtokikU" frameborder="0" allowfullscreen></iframe>
 
 PolicyEngine supports millions of policy reforms, including those not involving UBI.
 We'll be enhancing it every week and leveraging it for all future UK research.
