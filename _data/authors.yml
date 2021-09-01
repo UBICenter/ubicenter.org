@@ -299,6 +299,21 @@ jason:
   is_active: True
   type: advisor
 
+matt-jensen:
+  username: matt-jensen
+  title: Advisor
+  location: US
+  url_full: False
+  url: False
+  short_bio: Matt is a UBI Center advisor.
+  bio: Matt Jensen is the founding director of the Open Source Policy Center at the American Enterprise Institute. He is also a co-founder of the Open Research Group, the Policy Simulation Library, and Compute Tooling. Jensen is a graduate of Pomona College with a degree in math.
+  picture: assets/images/authors/matt-jensen.jpg
+  github: matthjensen
+  twitter: matthjensen
+  cover: False
+  is_active: True
+  type: advisor
+
 rick:
   username: rick
   name: Richard W. Evans
