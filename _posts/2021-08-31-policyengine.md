@@ -43,3 +43,5 @@ We're also working on bringing PolicyEngine to the US and hope to expand its rea
 
 What policy reforms have you wanted to simulate?
 Try them out at [policyengine.org](https://policyengine.org) and [let us know what you think](https://zej8fnylwn9.typeform.com/to/XFFu15Xq)!
+
+[_Join us at 6PM BST for a tour and Q&A of PolicyEngine._](https://us02web.zoom.us/meeting/register/tZAlde6prz4sHNH7Pj1AWRokyrnr7yJDK7tt)
