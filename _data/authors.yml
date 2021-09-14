@@ -80,7 +80,7 @@ ben:
   medium: False
   twitter: bhboehlert
   cover: False
-  is_active: True
+  is_active: False
   type: staff
 
 charles:
@@ -165,7 +165,7 @@ leo:
   medium: False
   twitter: leomatkovsky
   cover: False
-  is_active: True
+  is_active: False
   type: staff
 
 lucy:
