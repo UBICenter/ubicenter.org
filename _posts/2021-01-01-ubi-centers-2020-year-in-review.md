@@ -9,10 +9,10 @@ lastmod: 2021-03-25T15:20:43-04:00
 tags: [pilots, external research]
 class: post-template
 subclass: 'post'
-author: max
+author: [max,ankit,john]
 
 
-description: 
+excerpt: We joined scholars around the world in accelerating UBI research.
 subtitle: 
 images:
  - "assets/images/2021-01-01-ubi-centers-2020-year-in-review-0.jpg"
@@ -33,31 +33,31 @@ aliases:
 
 The pandemic has also changed perceptions of social protection programs. With millions unable to work safely, populations are more open to unconditional cash transfers, and governments have delivered.
 
-Researchers have continued to investigate how societies could adopt universal basic income policies, and fueled by our biggest growth year (we now have [ten researchers](https://www.ubicenter.org/about)), we’ve contributed with policy simulations and evidence reviews.
+Researchers have continued to investigate how societies could adopt universal basic income policies, and fueled by our biggest growth year (we now have [ten researchers](about/our-team)), we’ve contributed with policy simulations and evidence reviews.
 
-Following up on our [2019 review](https://medium.com/ubicenter/what-we-learned-about-basic-income-in-2019-48b7db543094), this post summarizes our work from the past year, along with studies from other researchers and the biggest UBI news.
+Following up on our [2019 review](what-we-learned-about-basic-income-in-2019), this post summarizes our work from the past year, along with studies from other researchers and the biggest UBI news.
 
 ### UBI Center research
 
 #### Policy simulation
 
-Our bread-and-butter simulations of UBI policy became more targeted, robust, and policy-relevant throughout 2020. Our simulations showed how UBI would shrink [black-white poverty and wealth gaps](https://medium.com/ubicenter/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps-452e2af1497b), how it would affect [people with disabilities](https://blog.ubicenter.org/20200731/ada30.html), [Indigenous Americans](https://blog.ubicenter.org/20201012/indigenous.html), and [Veterans](https://blog.ubicenter.org/20201111/veterans.html), and how a [child allowance](http://child-allowance.ubicenter.org) would cut child poverty.
+Our bread-and-butter simulations of UBI policy became more targeted, robust, and policy-relevant throughout 2020. Our simulations showed how UBI would shrink [black-white poverty and wealth gaps](how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps), how it would affect [people with disabilities](ada30), [Indigenous Americans](indigenous), and [Veterans](veterans), and how a [child allowance](https://child-allowance.ubicenter.org) would cut child poverty.
 
 ![](assets/images/2021-01-01-ubi-centers-2020-year-in-review-0.jpg#layoutTextWidth)
 
-Our first paper of the Covid era showed how different UBI policy designs could [stabilize the poverty rate](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf) amid income-lowering recessions, and our latest analysis showed how replacing our existing tax code with a [flat income tax](https://blog.ubicenter.org/20201230/us-flat-tax.html) could be made progressive with a UBI.
+Our first paper of the Covid era showed how different UBI policy designs could [stabilize the poverty rate](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf) amid income-lowering recessions, and our latest analysis showed how replacing our existing tax code with a [flat income tax](us-flat-tax) could be made progressive with a UBI.
 
 ![](assets/images/2021-01-01-ubi-centers-2020-year-in-review-1.jpg#layoutTextWidth)
 
-We also compared UBI to other policies (given a fixed budget), finding that it would be more progressive than [canceling student debt](https://blog.ubicenter.org/20201117/student-debt.html), and likely more progressive than expanding additional US [unemployment benefits](http://covid.ubicenter.org/fpuc).
+We also compared UBI to other policies (given a fixed budget), finding that it would be more progressive than [canceling student debt](student-debt), and likely more progressive than expanding additional US [unemployment benefits](http://covid.ubicenter.org/fpuc).
 
 #### Other research
 
-In 2020, we expanded our research portfolio beyond policy simulation to other topics related to UBI. We produced [novel analyses](https://blog.ubicenter.org/20201214/canada-homelessness-experiment.html) and context of a cash transfer experiment targeting Canadians experiencing homelessness. To inform Democratic primaries, we [summarized](https://medium.com/ubicenter/basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel-9d53646a3245) candidates’ stances on UBI. And we tracked and summarized all 27 emergency cash transfer proposals in the US (see [coverage](https://www.thebalance.com/pandemic-tests-universal-basic-income-5078483) of our tracker in The Balance).
+In 2020, we expanded our research portfolio beyond policy simulation to other topics related to UBI. We produced [novel analyses](canada-homelessness-experiment) and context of a cash transfer experiment targeting Canadians experiencing homelessness. To inform Democratic primaries, we [summarized](basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel) candidates' stances on UBI. And we tracked and summarized all 27 emergency cash transfer proposals in the US (see [coverage](https://www.thebalance.com/pandemic-tests-universal-basic-income-5078483) of our tracker in The Balance).
 
 ![](assets/images/2021-01-01-ubi-centers-2020-year-in-review-2.jpg#layoutTextWidth)
 
-We also integrated deeper non-simulation analysis into simulation projects. Our [child allowance project](http://child-allowance.ubicenter.org/empirical) summarized dozens of papers on the impacts of child poverty, while our [flat tax project](https://blog.ubicenter.org/20201230/us-flat-tax.html#generous-transfers-are-the-key-to-inequality-reduction) included original statistical analysis of tax and transfer policies associated with inequality reduction among OECD countries.
+We also integrated deeper non-simulation analysis into simulation projects. Our [child allowance project](http://child-allowance.ubicenter.org/empirical) summarized dozens of papers on the impacts of child poverty, while our [flat tax project](us-flat-tax) included original statistical analysis of tax and transfer policies associated with inequality reduction among OECD countries.
 
 ![](assets/images/2021-01-01-ubi-centers-2020-year-in-review-3.jpg#layoutTextWidth)
 
@@ -67,7 +67,7 @@ We’re the first and only economic policy think tank to open-source all of our 
 
 #### Outreach
 
-We shared our research in numerous forums: op-eds in The Hill on our [unemployment benefit](https://thehill.com/opinion/finance/514672-would-basic-income-be-better-than-additional-unemployment-benefits) and [child allowance](https://thehill.com/opinion/education/529953-child-allowance-would-boost-gdp) analyses; presentations at the [Tax Economists Forum](https://docs.google.com/presentation/d/1456wwH-W24gXrfOhvDRCHyqZRhelUx64XTrXj-HQRYw/edit#slide=id.g6293382480_0_338), the [PyData Global](https://youtu.be/WoHnOqFu6KQ) conference, and [Social Giving](https://youtu.be/lL17YLCGSxs); [and](https://youtu.be/MtDjRauJmE8)[YouTube](https://www.youtube.com/watch?v=wCK_xw0IMDs&feature=youtu.be)[channels](https://medium.com/ubicenter/my-nerds-for-humanity-interview-on-basic-income-6f6a13275b44). We also launched our own [newsletter](https://us3.campaign-archive.com/home/?u=ffee9994a6979a91e881b8c13&id=938462295c) and YouTube [channel](https://www.youtube.com/channel/UCg0PhP-7kCHtAjcVc7XfTfA).
+We shared our research in numerous forums: op-eds in The Hill on our [unemployment benefit](https://thehill.com/opinion/finance/514672-would-basic-income-be-better-than-additional-unemployment-benefits) and [child allowance](https://thehill.com/opinion/education/529953-child-allowance-would-boost-gdp) analyses; presentations at the [Tax Economists Forum](https://docs.google.com/presentation/d/1456wwH-W24gXrfOhvDRCHyqZRhelUx64XTrXj-HQRYw/edit#slide=id.g6293382480_0_338), the [PyData Global](https://youtu.be/WoHnOqFu6KQ) conference, and [Social Giving](https://youtu.be/lL17YLCGSxs); [and](https://youtu.be/MtDjRauJmE8)[YouTube](https://www.youtube.com/watch?v=wCK_xw0IMDs&feature=youtu.be)[channels](my-nerds-for-humanity-interview-on-basic-income). We also launched our own [newsletter](https://us3.campaign-archive.com/home/?u=ffee9994a6979a91e881b8c13&id=938462295c) and YouTube [channel](https://www.youtube.com/channel/UCg0PhP-7kCHtAjcVc7XfTfA).
 
 #### Plans for 2021
 
@@ -164,11 +164,5 @@ Brazil is [expanding](https://www.reuters.com/article/us-brazil-economics/brazil
 On most measures, 2021 has a low bar to clear to outdo 2020. Given this array of studies, UBI research might not be one of those measures, but we expect even more simulations, randomized controlled trials, meta-analyses, and new programs to inform UBI policy design and how UBI compares to the status quo and alternatives. To follow our research on these fronts, subscribe to our [newsletter](https://ubicenter.us3.list-manage.com/subscribe?u=ffee9994a6979a91e881b8c13&id=938462295c) or follow us on social media.
 
 Happy New Year!
+
 The UBI Center team
-
-Written by Max Ghenis, John Walker, and Ankit Dhingra.
-
-* * *
-Written on January 1, 2021 by Max Ghenis.
-
-Originally published on [Medium](https://medium.com/@maxghenis/the-ubi-centers-2020-year-in-review-f788d892a50)

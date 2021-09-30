@@ -30,3 +30,5 @@ tmp
 vendor
 Gemfile.lock
 node_modules
+
+.vscode/settings.json

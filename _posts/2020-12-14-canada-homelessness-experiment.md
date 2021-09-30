@@ -10,12 +10,9 @@ cover: assets/images/2020-12-14-canada-homelessness-experiment/cover.jpg
 class: post-template
 subclass: 'post'
 author: [charles, max]
+excerpt: Recipients spent mostly on their children and stable housing.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
 
 
 [35,000 Canadians](https://homelesshub.ca/sites/default/files/SOHC16_final_20Oct2016.pdf) experience homelessness each night, violating their [right to adequate housing](https://www.ohchr.org/EN/Issues/Housing/Pages/Homelessnessandhumanrights.aspx) and threatening their [health, safety](https://depts.washington.edu/triolive/quest/2007/TTQ07033/effects.html#:~:text=Their%20health%20gets%20worse%20from,Cardio%2DRespiratory%20diseases) and access to [education](https://journals.sagepub.com/doi/pdf/10.3102/0013189X12468210?casa_token=YsJRZhavl9EAAAAA:iKO6XaWu6oNbDgcRzw3Tml-_m6mHEYmRWGY48rzXTStFpmBEWzqa1L_euQoV8WXYkrwZ8vxj-KGMGQ). The Covid-19 pandemic exacerbates the issue, given [crowded living conditions and comorbidities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7206983/), and the Canadian government has taken new steps to address it, such as [moving people experiencing homelessness into hotels](https://www.theglobeandmail.com/canada/article-could-shelter-hotels-be-a-model-for-addressing-homelessness/).
@@ -137,9 +134,9 @@ fig.update_layout(font=dict(family='Roboto'),
                   )
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.jpg",
         xref="paper", yref="paper",
         x=1.04, y=-0.13,
         sizex=0.12, sizey=0.12,
@@ -182,7 +179,7 @@ Another way of quantifying the changes is as a share of spending. Alcohol, drugs
 Cash recipients also spent less time homeless than the control group. The two groups started similarly, but in the month following the intervention, the cash group was only homeless for 49 percent of days, while the control group was homeless for 78 percent of those days. The effect diminished over time, and by the end of the year, the two groups converged at around a fifth of days homeless. Overall, people in the cash group spent an average of 88 fewer days homeless throughout the full year.
 
 
-![Days homeless fell faster over the year for the cash group than the non-cash group](days_homeless_chart.png "Change in days homeless for cash and non-cash groups")
+![Days homeless fell faster over the year for the cash group than the non-cash group](assets/images/days_homeless_chart.png "Change in days homeless for cash and non-cash groups")
 
 
 Those extra 88 days in homelessness housing and services would have cost the government about $8,200, exceeding the $7,500 grant (NLP did not report total costs beyond the grant, which would factor into a comprehensive cost-effectiveness analysis).

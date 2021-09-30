@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+excerpt: Universal designs are most cost-effective.
 subtitle: 
 images:
  - "assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-0.png"
@@ -25,7 +25,7 @@ aliases:
 
 ---
 
-#### [Read the paper here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf)
+*[Read the paper here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf)*
 
 As the Covid-19 coronavirus batters the global economy, United States policymakers are considering a range of responses to keep families afloat. In addition to targeted policies like payroll tax cuts, paid sick leave, and small business loans, a simple approach is gaining traction: sending checks directly to families.
 [Democrats](https://www.congress.gov/bill/116th-congress/house-resolution/897)

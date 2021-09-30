@@ -10,36 +10,21 @@ class: post-template
 cover: assets/images/2021-01-18-racial-poverty-disparities-mlk-day-2021/cover.jpeg
 subclass: 'post'
 author: [max, connor, nate]
+excerpt: $600 per month or more would end one measure of the Black-White poverty disparity.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
 but toward the end of his life, King extended this leadership to the cause of poverty.
 In his [final book](http://www.thekinglegacy.org/books/where-do-we-go-here-chaos-or-community),
 he wrote:
 
-```{epigraph}
-The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty [...] 
-I'm now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.
+>The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty. [...] I'm now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.
 
--- Dr. Martin Luther King, Jr., *Where Do We Go From Here: Chaos or Community?* (1967)
-```
-
-We honor King's call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people.
+We honor King's call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people. [^modeling]
 
 
-:::{admonition,dropdown,tip} Modeling notes
-Data was gathered from the US Census Bureau's March Supplement, which covers economic circumstances in 2019.
-We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP),
-and adjusts for local housing costs.
-The flat income tax is applied on positive adjusted gross income.
-We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race.
-:::
+[^modeling]: Data was gathered from the US Census Bureau's March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP), and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race.
 
 
 Black Americans today are 75 percent more likely to be in poverty than White Americans, with a rate of 18.4 percent compared to 10.5 percent.
@@ -154,9 +139,9 @@ ratios.variable.replace({"pr_ratio": "Poverty rate",
 def add_ubi_center_logo(fig, x=0.98, y=-0.14):
     fig.add_layout_image(
         dict(
-            source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+            source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg",
             # See https://github.com/plotly/plotly.py/issues/2975.
-            # source="../_static/ubi_center_logo_wide_blue.png",
+            # source="../_static/logos/wide-blue.jpg",
             xref="paper", yref="paper",
             x=x, y=y,
             sizex=0.12, sizey=0.12,

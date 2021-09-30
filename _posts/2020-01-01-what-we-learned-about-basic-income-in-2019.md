@@ -12,7 +12,7 @@ subclass: 'post'
 author: max
 
 
-description: 
+excerpt: The research frontier expanded rapidly.
 subtitle: 
 images:
  - "assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg"
@@ -25,8 +25,6 @@ aliases:
 - "/what-we-learned-about-basic-income-in-2019-48b7db543094"
 
 ---
-
-#### The research frontier expanded rapidly
 
 2019 has been a big year for universal basic income (UBI). Web searches for the topic rose over 40 percent since 2018 in the US, and over 130 percent globally. A 2019 Nobel laureate wrote a paper on [UBI in the developing world](https://economics.mit.edu/files/16000), the World Bank published a book of [UBI evidence](https://www.google.com/books/edition/_/00XEDwAAQBAJ?hl=en&gbpv=0), and Palgrave Macmillan published the [fifteenth](https://www.palgrave.com/gp/book/9783030143770) and [sixteenth](https://www.palgrave.com/gp/book/9783030236137) books in their [academic series on UBI](https://www.palgrave.com/gp/series/14981).
 
@@ -46,7 +44,7 @@ Hoynes and Rothstein [argued](https://www.nber.org/papers/w25538) in February th
 
 #### UBI simulations
 
-Multiple researchers, myself included, simulated presidential candidate Andrew Yang’s Freedom Dividend, a UBI of $1,000 per month per adult funded by a 10 percent VAT and other sources. The Committee for a Responsible Federal Budget found that a 10 percent VAT [would be insufficient](https://www.crfb.org/blogs/would-10-vat-pay-1000-month-ubi) to fund a $1,000 UBI. I too found that Yang’s plan would add to the deficit, though it would [dramatically reduce poverty and inequality](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b). I also simulated a [budget-neutral version](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea) of the plan (closer to $500 per month), which would still be distributionally progressive, and found that the citizenship limitation is the [main reason](https://medium.com/ubicenter/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend-c95d0f1cc433) some low-income people are left worse off. Pomerleau found that [raising the VAT to 22 percent and reducing the amount to $750](https://taxfoundation.org/andrew-yang-value-added-tax) would make it budget-neutral. [UBI Calculator](https://ubicalculator.com/) was released, showing that Yang’s plan would add to the deficit but benefit most citizens, especially low-income ones.
+Multiple researchers, myself included, simulated presidential candidate Andrew Yang’s Freedom Dividend, a UBI of $1,000 per month per adult funded by a 10 percent VAT and other sources. The Committee for a Responsible Federal Budget found that a 10 percent VAT [would be insufficient](https://www.crfb.org/blogs/would-10-vat-pay-1000-month-ubi) to fund a $1,000 UBI. I too found that Yang’s plan would add to the deficit, though it would [dramatically reduce poverty and inequality](distributional-analysis-of-andrew-yangs-freedom-dividend). I also simulated a [budget-neutral version](budget-neutral-version-of-andrew-yangs-freedom-dividend) of the plan (closer to $500 per month), which would still be distributionally progressive, and found that the citizenship limitation is the [main reason](why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend) some low-income people are left worse off. Pomerleau found that [raising the VAT to 22 percent and reducing the amount to $750](https://taxfoundation.org/andrew-yang-value-added-tax) would make it budget-neutral. [UBI Calculator](https://ubicalculator.com/) was released, showing that Yang’s plan would add to the deficit but benefit most citizens, especially low-income ones.
 
 Katz and Sarel simulated a [UBI in Israel](https://euiha41fnsb2lyeld3vkc37i-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Basic-Income-in-Israel.pdf) funded by (a) higher income taxes and (b) ending welfare programs and tax benefits. Their plan provided monthly amounts between $340 and $930 per adult, with amount rising with age, and between $40 and $190 per child, depending on the child’s birth number in the family. They found that this plan would reduce inequality and improve work incentives.
 

@@ -23,6 +23,8 @@ production stylesheet in assets/built/screen.css
 
 */
 
+/* Tables */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
@@ -176,7 +178,7 @@ body {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 90px;
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 300;
     letter-spacing: 0.5px;
     opacity: 0.8;
@@ -202,7 +204,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .site-nav-left {
@@ -336,11 +338,19 @@ Slightly hacky code. But nice clean end-result.
 }
 
 .social-link-fb svg {
-    height: 1.5rem;
+    height: 1.7rem;
+}
+
+.social-link-tw svg {
+    height: 1.9rem;
+}
+
+.social-link-gh svg {
+    height: 1.9rem;
 }
 
 .social-link-wb svg {
-    height: 1.6rem;
+    height: 1.8rem;
 }
 
 .social-link-wb svg path {
@@ -348,7 +358,7 @@ Slightly hacky code. But nice clean end-result.
 }
 
 .social-link-rss svg {
-    height: 1.9rem;
+    height: 2.1rem;
 }
 
 .subscribe-button {
@@ -356,7 +366,7 @@ Slightly hacky code. But nice clean end-result.
     padding: 4px 10px;
     border: #fff 1px solid;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1em;
     border-radius: 10px;
     opacity: 0.8;
@@ -496,6 +506,7 @@ Slightly hacky code. But nice clean end-result.
     font-weight: 500;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    line-height: 2.5;
 }
 
 .reading-time {
@@ -503,11 +514,11 @@ Slightly hacky code. But nice clean end-result.
     font-weight: 500;
     line-height: 33px;
     flex-shrink: 0;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     letter-spacing: .5px;
     text-transform: uppercase;
-    float: right;
-    margin-top: -4px;
+    float: left;
+    margin-top: -10px;
     color: var(--midgrey);
 }
 
@@ -1018,9 +1029,6 @@ Usage (In Ghost editor):
         display: none;
     }
 }
-
-/* Tables */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .post-full-content table {
     display: inline-block;

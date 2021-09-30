@@ -10,13 +10,9 @@ class: post-template
 cover: assets/images/2021-02-28-racial-wealth-gap-ks/cover.png
 subclass: 'post'
 author: [will, max]
+excerpt: Going beyond mean and median.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 The large racial wealth gap traces its roots to slavery, redlining, and other discriminatory policies, and persists largely due to [racial income gaps](https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap).
 In honor of Black History month, we explore how closing part of this income gap with a universal basic income would affect the racial wealth gap, using novel measurements that consider how Black and White families differ across the full wealth distribution.

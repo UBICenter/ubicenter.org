@@ -10,12 +10,9 @@ class: post-template
 cover: assets/images/2020-10-12-indigenous/cover.jpg
 subclass: 'post'
 author: nate
+excerpt: Policies of at least $250 per month would close the Indigenous/non-Indigenous poverty gap.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
 
 
 Indigenous People’s Day is a time to celebrate and honor Indigenous Americans, while also recognizing the history of discrimination, oppression, and genocide they have faced since Europeans arrived in the Americas more than 500 years ago.

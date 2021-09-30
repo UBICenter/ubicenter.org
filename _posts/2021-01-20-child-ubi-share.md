@@ -10,20 +10,16 @@ class: post-template
 cover: assets/images/2021-01-20-child-ubi-share/cover.jpg
 subclass: 'post'
 author: [nate, will]
+excerpt: At least some, but it depends on the measurement.
+useplotly: true
 ---
-
-<head>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
 
 While the idea of a universal basic income has been around for centuries, it was recently brought into mainstream American political discourse by 2020 Presidential candidate Andrew Yang.
 Yang centered his campaign around paying every adult citizen $1,000 each month.
 Many other countries take the opposite approach, providing monthly ["child allowance"](http://child-allowance.ubicenter.org) payments for each child, an approach now favored by [many US lawmakers](https://www.vox.com/future-perfect/2019/3/6/18249290/child-poverty-american-family-act-sherrod-brown-michael-bennet).
 Here we explore which mix of these two approaches reduces poverty and inequality most effectively.
 
-In a [July 2020 post](https://blog.ubicenter.org/20200707/adult_child_ubi.html), we found that a child allowance would be more effective at reducing poverty than an adult UBI, for spending levels up to $500 billion, at which point a UBI for both children and adults before more effective; adult-only UBI was never the best option.
+In a [July 2020 post](https://blog.ubicenter.org/20200707/adult_child_ubi.html), we found that a child allowance would be more effective at reducing poverty than an adult UBI, for spending levels up to $500 billion, at which point a UBI for both children and adults becomes more effective; adult-only UBI was never the best option.
 But those three options---adults only, kids only, and equal for adults and kids---aren't the only ones available.
 In this post, we calculate the optimal ratios of adult to child UBIs, depending on the total spending and objective.
 
@@ -188,9 +184,9 @@ fig.update_layout(
 
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.jpg",
         xref="paper",
         yref="paper",
         x=1,
@@ -433,9 +429,9 @@ fig.update_layout(
 
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.jpg",
         xref="paper",
         yref="paper",
         x=1,
@@ -667,9 +663,9 @@ fig.for_each_trace(
 
 fig.add_layout_image(
     dict(
-        source="https://raw.githubusercontent.com/UBICenter/blog/master/jb/_static/ubi_center_logo_wide_blue.png",
+        source="https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg",
         # See https://github.com/plotly/plotly.py/issues/2975.
-        # source="../_static/ubi_center_logo_wide_blue.png",
+        # source="../_static/logos/wide-blue.jpg",
         xref="paper",
         yref="paper",
         x=1,
