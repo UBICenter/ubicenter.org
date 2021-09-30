@@ -23,7 +23,7 @@ nikhil:
   url_full: False
   url: False
   short_bio: Nikhil is a tech lead with the UBI Center.
-  bio: Nikhil is a student at the Durham University studying Computer Science, where his interests include data science, simulation and its applications on public policy. He is the author and maintainer of the openfisca-uk microsimulation model of the UK tax and benefit system. Nikhil has previously interned at Caspian, where he worked in improving anti-money laundering investigations.
+  bio: Nikhil leads technology at the UBI Center, and conducts research on UK policy. He's previously worked as a data scientist improving anti-money laundering investigations. Nikhil is currently on leave from the Durham University's Computer Science program.
   picture: assets/images/authors/nikhil-woodruff.jpg
   github: nikhilwoodruff
   medium: False
@@ -36,11 +36,11 @@ nate:
   username: nate
   name: Nate Golden
   title: Research Associate
-  location: Taiwan
+  location: US
   url_full: False
   url: False
   short_bio: Nate is a research associate with the UBI Center. 
-  bio: Nate is a math teacher in DC Public Schools, and formerly worked in the same position in Charlotte Mecklenberg Schools. Additionally, he has worked as a policy advisor for State Representative Leslie Herod of Colorado and a researcher for The Colorado League of Charter Schools through the Urban Leaders Fellowship summer program.  Nate has a bachelor's degree in economics from Penn State University.  He believes in the importance of policy work to alleviate poverty and inequality.
+  bio: Nate researches child poverty at the UBI Center, and is also an educator in Baltimore. Nate has a bachelor's degree in Economics from Penn State University.
   picture: assets/images/authors/nate-golden.jpg
   facebook: False
   github: ngpsu22
@@ -63,7 +63,7 @@ ahmed:
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
   type: staff
 
 ben:
@@ -91,7 +91,7 @@ charles:
   url_full: False
   url: False
   short_bio: Charles is a research assistant with the UBI Center.
-  bio: Charles is a recent graduate from London School of Economics and Political Science (LSE), where he completed a Master's degree in Theory and History of International Relations. He previously was an intern for the Institute of Economic Affairs in London, where he researched economic and foreign policy. Charles received a Master's degree in Medieval History from King's College London and a Bachelor's degree in History from Northwest Nazarene University.
+  bio: Charles's research focuses on the history of universal basic income. He is also an analyst in the maritime industry, and previously worked in research at the Institute of Economic Affairs. Charles has a bachelor's degree in History from Northwest Nazarene University, a Master's degree in Medieval History from King's College London, and a master's degree in Theory and History of International Relations from LSE.
   picture: assets/images/authors/charles-bauman.jpg
   github: False
   medium: False
@@ -104,11 +104,11 @@ john:
   username: john
   name: John Walker
   title: Research Assistant
-  location: US
+  location: UK
   url_full: False
   url: False
   short_bio: John is a research assistant with the UBI Center. 
-  bio: John is a Master's student in development economics at MIT. Previously, he was a researcher in development and health economics at the University of Sydney, and he's also worked and volunteered in monitoring and evaluation and community engagement roles with development economics-focused NGOs, including the Global Green Growth Institute and RESULTS Australia. John is interested in how evaluation techniques from econometrics can be used to build more robust public policy that is sensitive to the needs of program recipients. John holds a Bachelor of Arts and a Bachelor of Economics from the University of Sydney.
+  bio: John's research focuses on econometrics and the effects of child poverty. He is also a Predoctoral Research Assistant at the University of Oxford's Centre for the Study of African Economies. John has Master's student in development economics at MIT. Previously, he was a researcher in development and health economics at the University of Sydney, and he's also worked and volunteered in monitoring and evaluation and community engagement roles with development economics-focused NGOs, including the Global Green Growth Institute and RESULTS Australia. John is interested in how evaluation techniques from econometrics can be used to build more robust public policy that is sensitive to the needs of program recipients. John holds bachelor's degrees in Economics, Econometrics, and Korean Studies from the University of Sydney, and a master's degree in Data, Economics, and Development Policy from MIT.
   picture: assets/images/authors/john-walker.png
   github: jwal1024
   medium: False
@@ -125,7 +125,7 @@ joshua:
   url_full: False
   url: False
   short_bio: Joshua is a research assistant with the UBI Center. 
-  bio: Joshua Miller is a Junior in High School interested in monetary economics and neoliberalism. He hosts the ThinkCritical Podcast and runs a blog called InTheAggregate.
+  bio: Joshua's research focuses on macroeconomic impacts of universal basic income. He also hosts the ThinkCritical Podcast and runs a blog called InTheAggregate. Joshua is a high school senior in New York.
   picture: assets/images/authors/joshua-miller.png
   github: intheaggregate
   medium: False
@@ -142,7 +142,7 @@ katarina:
   url_full: False
   url: False
   short_bio: Katarina is a research assistant with the UBI Center.
-  bio: Katarina graduated from Stanford University in 2019 with studies in Political Science and Philosophy. Her interest lies in the connection of policy and UBI, especially in how governments can implement effective UBI legislation. She has previously done research in Sarajevo, Bosnia and Herzegovina, on storytelling as a tool for reconciliation and empathy-building.
+  bio: Katarina's research focuses on public opinion around universal basic income. She has previously done research in Sarajevo, Bosnia and Herzegovina, on storytelling as a tool for reconciliation and empathy-building. Katarina has bachelor's degrees from Stanford University in Political Science and Philosophy.
   picture: assets/images/authors/katarina-van-alebeek.jpg
   github: kvanalebeek
   medium: False
@@ -182,7 +182,7 @@ lucy:
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
   type: staff
 
 nicholas:
@@ -193,7 +193,7 @@ nicholas:
   url_full: False
   url: False
   short_bio: Nicholas is a research assistant with the UBI Center.
-  bio: Nicholas (Nick) is currently a Senior at Boston University, studying Economics. Nick has previously worked as a research assistant for topics in sociology and economics. He also has experience interning in insurance analytics and finance. Outside of school and work, Nick has previously played guitar/bass in a few bands and is an active record collector.
+  bio: Nicholas (Nick) researches US benefit policy, and also works as a data scientist in the logistics sector. Nick has a bachelor's degree in Economics from Boston University.
   picture: assets/images/authors/nicholas-rodelo.jpg
   github: nmrodelo
   medium: False
@@ -205,12 +205,12 @@ nicholas:
 will:
   username: will
   name: Will Fedder
-  title: Research Assistant
+  title: Research Analyst
   location: US
   url_full: False
   url: False
   short_bio: Will is a research assistant with the UBI Center.
-  bio: Will Fedder is a Baltimore-based data analyst working in the health care sector. He holds his bachelor’s in Public Policy from the University of North Carolina. In addition to ending poverty with UBI, Will is interested in reform of the US healthcare system and the development of transit-friendly cities. He believes that good data visualization can help people realize that these issues are in fact simple and easy to fix. 
+  bio: Will's research focuses on public opinion around universal basic income. He is also a Baltimore-based data analyst working in the health care sector. Will holds a bachelor's degree in Public Policy from the University of North Carolina.
   picture: assets/images/authors/will-fedder.jpeg
   github: fedderw
   medium: False
