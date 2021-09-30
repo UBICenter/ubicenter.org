@@ -63,7 +63,7 @@ ahmed:
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
   type: staff
 
 ben:
@@ -182,7 +182,7 @@ lucy:
   medium: False
   twitter: False
   cover: False
-  is_active: True
+  is_active: False
   type: staff
 
 nicholas:
@@ -205,7 +205,7 @@ nicholas:
 will:
   username: will
   name: Will Fedder
-  title: Research Assistant
+  title: Research Analyst
   location: US
   url_full: False
   url: False
