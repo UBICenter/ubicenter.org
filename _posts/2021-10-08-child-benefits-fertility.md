@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/2021-10-08-ctc-fertility/cover.png
+cover: assets/images/2021-10-08-ctc-fertility/cover.jpg
 navigation: True
 title: Would an expanded Child Tax Credit grow America's population?
 date: 2021-10-08
@@ -13,16 +13,16 @@ class: post-template
 ---
 
 Next Friday, families will receive the fourth [monthly Child Tax Credit payment](https://www.ubicenter.org/advance-ctc), created as part of the American Rescue Plan.
-As Democrats seek to make that policy permanent in their upcoming reconciliation package, and Senator Joe Manchin suggests adding work or education requirements to the tax credit, the idea of cash assistance for families has returned to the news.
+Each of the first two payments [kept over 3 million children out of poverty](https://www.povertycenter.columbia.edu/news-internal/monthly-poverty-august-2021), and Democrats are seeking to make the policy permanent in their reconciliation package.
 
 We and other researchers have studied child allowances extensively, finding that they reduce poverty [nationwide and across states](https://www.ubicenter.org/child-allowance-state-simulation), and are often [more cost-effective antipoverty interventions](https://www.ubicenter.org/child-ubi-share) than cash assistance to adults.
 These poverty reductions in turn [improve outcomes](https://child-allowance.ubicenter.org/empirical) ranging from education to health to earnings.
-As we discussed in our analysis of Senator Mitt Romney's [Family Security Act](ubicenter.org/family-security-act), the new Child Tax Credit probably would reduce parental labor supply modestly, enabling parents to [spend more time with their children](https://www.econstor.eu/bitstream/10419/55041/1/684016389.pdf).
-But work requirements designed to bring parents back to work [generally don't work](https://www.ideas42.org/wp-content/uploads/2019/04/ideas42-Work-Requirements-Paper.pdf), and the Jain Family Institute has found that they would cut the Child Tax Credit's poverty impact [by a factor of five](https://twitter.com/jainfamilyinst/status/1438895355412811784).
+As we discussed in our analysis of Senator Mitt Romney's [Family Security Act](ubicenter.org/family-security-act), the new Child Tax Credit (CTC) probably would reduce parental labor supply modestly, enabling parents to [spend more time with their children](https://www.econstor.eu/bitstream/10419/55041/1/684016389.pdf).
+But work requirements designed to bring parents back to work [generally don't work](https://www.ideas42.org/wp-content/uploads/2019/04/ideas42-Work-Requirements-Paper.pdf), and the Jain Family Institute has found that they would cut the CTC's poverty impact [by a factor of five](https://twitter.com/jainfamilyinst/status/1438895355412811784).
 
 Many discussions of cash benefits for families also turn to population: how does giving parents money affect the number of children that are born?
 And how would such effects translate to the economy and other aspects of society?
-In this article, we describe the reasons for falling fertility in the US, the evidence that child benefits can reverse that trend, and the economic benefits (and minimal environmental concern) such growth would provide.
+In this article, we describe the reasons for falling fertility in the US, the evidence that child benefits (and the CTC in particular) can reverse that trend, and the economic benefits (and minimal environmental concern) such growth would provide.
 
 # Fertility in the United States
 
@@ -60,22 +60,22 @@ A [randomized controlled trial in Kenya](https://www.aeaweb.org/articles?id=10.1
 ## Women's labor force participation
 
 From 1960 to 2020, US female labor force participation has risen from 38% to 56%, and across countries, this rise has corresponded to falling fertility.
-Evidence suggests a causal relationship in both directions:
-* Across developed countries, [mothers reduce labor force participation after giving birth](https://www.henrikkleven.com/uploads/3/7/3/1/37310663/klevenetal_aea-pp_2019.pdf), with effects persisting for several years (fathers do not).
-* Women in rural India randomly recruited for outsourcing jobs [postponed having children and reported wanting fewer children](https://doi.org/10.1093/qje/qjs002).
 
 <iframe src="https://ourworldindata.org/grapher/fertility-and-female-labor-force-participation?country=~USA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
+Evidence suggests a causal relationship in both directions:
+* Across developed countries, [mothers reduce labor force participation after giving birth](https://www.henrikkleven.com/uploads/3/7/3/1/37310663/klevenetal_aea-pp_2019.pdf), with effects persisting for several years (fathers do not).
+* Women in rural India randomly recruited for outsourcing jobs [postponed having children and reported wanting fewer children](https://doi.org/10.1093/qje/qjs002).
 
 ## Child mortality
 
 In 1950, one in 27 American children died before their fifth birthday.
 Today, only one in 145 do.
 
+<iframe src="https://ourworldindata.org/grapher/fertility-vs-child-mortality?endpointsOnly=1&time=1951..2019&country=~USA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
 With less child mortality, families need fewer births to reach their desired family size, and
 robust empirical evidence confirms that child mortality improvements lower fertility.
-
-<iframe src="https://ourworldindata.org/grapher/fertility-vs-child-mortality?endpointsOnly=1&time=1951..2019&country=~USA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
 ## Other factors
 
