@@ -121,7 +121,7 @@ After adjusting for the smaller impact of child allowances than baby bonuses, an
 
 The Child Tax Credit expansion differs a bit from the AFA, and thus far, [18% of eligible children](https://www.peoplespolicyproject.org/2021/09/28/18-of-eligible-children-are-not-receiving-monthly-ctc-payments/) are not receiving the monthly payments.
 To the extent that the program fails to reach the poorest parents, the CTC's fertility impact will be blunted, given those families would have the greatest percentage increase in income from the payments.
-Nevertheless, Stone's research suggests that making it permanent will close more than half the gap to a replacement fertility rate.
+Nevertheless, Stone's research suggests that making it permanent could close between 15% and 65% of the gap to a replacement fertility rate.
 
 
 # The economic benefits of a younger population
