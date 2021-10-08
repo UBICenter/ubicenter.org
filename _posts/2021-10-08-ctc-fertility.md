@@ -95,6 +95,8 @@ The vast majority of studies find sort of effect that pro-natal policy had on ch
 As Stone notes, "An increase in the present value of child benefits equal to 10% of a household’s income can be expected to produce between 0.5% and 4.1% higher birth rates."
 In economics parlance, this means that the elasticity of birth rates with respect to child benefits falls between 0.05 and 0.41; Stone estimates an average elasticity of 0.25.
 
+![](https://ifstudies.org/ifs-admin/resources/pronatalfigure7appendxi-w640.png)
+
 As an example of this elasticity, let's consider one of the studies in Stone's review: "[Economic Incentives Surrounding Fertility: Evidence from Alaska's Permanent Fund Dividend Fund](https://www.nber.org/papers/w26712)," a paper analyzing the fertility effects of Alaska's annual universal payment that began in 1982.
 The authors "find that fertility increases in Alaska by 11.3 births per 1000 females (all age groups) due to the dividend."
 In 1981, the year prior to the dividend, Alaska's birth rate was 92 per 1,000 women aged 15 to 44.
@@ -121,7 +123,7 @@ After adjusting for the smaller impact of child allowances than baby bonuses, an
 
 The Child Tax Credit expansion differs a bit from the AFA, and thus far, [18% of eligible children](https://www.peoplespolicyproject.org/2021/09/28/18-of-eligible-children-are-not-receiving-monthly-ctc-payments/) are not receiving the monthly payments.
 To the extent that the program fails to reach the poorest parents, the CTC's fertility impact will be blunted, given those families would have the greatest percentage increase in income from the payments.
-Nevertheless, Stone's research suggests that making it permanent will close more than half the gap to a replacement fertility rate.
+Nevertheless, Stone's research suggests that making it permanent could close between 15% and 65% of the gap to a replacement fertility rate.
 
 
 # The economic benefits of a younger population
