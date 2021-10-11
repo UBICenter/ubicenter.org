@@ -91,13 +91,13 @@ Standard economic theory suggests that child allowances would increase fertility
 In a [review for the Institute for Family Studies](https://ifstudies.org/blog/pro-natal-policies-work-but-they-come-with-a-hefty-price-tag), Lyman Stone compiled a [list of 65 studies](https://docs.google.com/spreadsheets/d/1rG74z2tUWm2NAsDCvq87UIgjqFI7lU9iQWwNfh3_0iY/edit) that estimate the magnitude of this effect in the real world.
 These span countries, program designs, generosity, and evaluation methods, but share the goal of quantifying the extent to which parents respond to changes in the price of raising a child.
 
-The vast majority of studies find sort of effect that pro-natal policy had on child-rearing.
+Most of these studies found a significant positive effect of child benefits on births.
 As Stone notes, "An increase in the present value of child benefits equal to 10% of a household’s income can be expected to produce between 0.5% and 4.1% higher birth rates."
 In economics parlance, this means that the elasticity of birth rates with respect to child benefits falls between 0.05 and 0.41; Stone estimates an average elasticity of 0.25.
 
 ![](https://ifstudies.org/ifs-admin/resources/pronatalfigure7appendxi-w640.png)
 
-As an example of this elasticity, let's consider one of the studies in Stone's review: "[Economic Incentives Surrounding Fertility: Evidence from Alaska's Permanent Fund Dividend Fund](https://www.nber.org/papers/w26712)," a paper analyzing the fertility effects of Alaska's annual universal payment that began in 1982.
+As an example of this elasticity, consider one of the studies in Stone's review: "[Economic Incentives Surrounding Fertility: Evidence from Alaska's Permanent Fund Dividend Fund](https://www.nber.org/papers/w26712)," a paper analyzing the fertility effects of Alaska's annual universal payment that began in 1982.
 The authors "find that fertility increases in Alaska by 11.3 births per 1000 females (all age groups) due to the dividend."
 In 1981, the year prior to the dividend, Alaska's birth rate was 92 per 1,000 women aged 15 to 44.
 That is, the dividend increased the birth rate by 12 percent.
