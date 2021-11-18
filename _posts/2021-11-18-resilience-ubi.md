@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:
+cover: assets/images/resilience-ubi/cover.jpg
 navigation: True
 title: The UBI Lab Network's Resilience UBI proposals
 date: 2021-11-18
