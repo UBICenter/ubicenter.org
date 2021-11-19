@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/resilience-ubi/cover.jpg
+cover: assets/images/2021-11-19-resilience-ubi/cover.jpg
 navigation: True
 title: The UBI Lab Network's Resilience UBI proposals
 date: 2021-11-19
@@ -199,7 +199,7 @@ Of the Full UBI provisions omitted from our PolicyEngine analysis, the largest i
 
 As shown in the table below, Murphy finds an effective tax rate on income of 29.4% from 2011 to 2018, and an effective tax rate on wealth increase of 3.4%. 
 
-![](assets/images/resilience-ubi/wealth-tax-table.png)
+![](assets/images/2021-11-19-resilience-ubi/wealth-tax-table.png)
 
 Murphy adds caution to his results:
 >Whether or not it would be desirable, or even technically feasible, to raise £174 billion of additional tax from additional tax charges on wealth is not the primary issue addressed by this paper. Nor does it concern itself with the issue of whether that sum should be redistributed simply to redress wealth inequality. A value judgement is not being offered here on the matter of wealth holding, as such. Instead the issue of concern being addressed is that those most vulnerable to precarity within the UK are also those paying the highest overall effective rates of tax. 
