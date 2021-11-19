@@ -79,17 +79,12 @@ In this report, we describe the features of the Resilience UBI's Covid Dividend 
 
 The UBI Lab Network's [full paper](https://www.ubilabnetwork.org/s/resilience-proposal.pdf) describes the Resilience UBI proposal in greater detail than the website or the op-ed:
 
-
-
-1. **The Covid Dividend **provides £400 a month to people aged 16 to 64, and £200 a month to others (children and pensioners). It would last a year and not alter existing taxes or benefits, instead being funded through money creation. The UBI would not be counted for means-testing or taxation.
-2. **The Full UBI **provides £800 a month to people aged 16 or older, and £400 a month to children. It also would not be counted for means-testing or taxation. On the income tax and National Insurance side, the cost would be offset by [abolishing the Personal Allowance](https://www.ubicenter.org/personal-allowance), adding 15 percentage points to each Income Tax rate, and flattening National Insurance rates for employees and self-employed people to 10%. The Full UBI plan also abolishes State Pension and all means-tested benefits, except those related to housing and disability. Finally, the plan calls for other tax reforms: raising VAT and Corporation Tax by 5 percentage points each, enacting a 'Tobin Tax' form of a Financial Transactions Tax, and levying a wealth tax.
-
+1. **The Covid Dividend** provides £400 a month to people aged 16 to 64, and £200 a month to others (children and pensioners). It would last a year and not alter existing taxes or benefits, instead being funded through money creation. The UBI would not be counted for means-testing or taxation.
+2. **The Full UBI** provides £800 a month to people aged 16 or older, and £400 a month to children. It also would not be counted for means-testing or taxation. On the income tax and National Insurance side, the cost would be offset by [abolishing the Personal Allowance](https://www.ubicenter.org/personal-allowance), adding 15 percentage points to each Income Tax rate, and flattening National Insurance rates for employees and self-employed people to 10%. The Full UBI plan also abolishes State Pension and all means-tested benefits, except those related to housing and disability. Finally, the plan calls for other tax reforms: raising VAT and Corporation Tax by 5 percentage points each, enacting a 'Tobin Tax' form of a Financial Transactions Tax, and levying a wealth tax.
 
 # PolicyEngine analysis
 
 PolicyEngine supports most of the income tax and benefit reforms proposed in the Resilience UBI plans, with these exceptions:
-
-
 
 * For the _Covid Dividend_, PolicyEngine defines pensioner as State Pension Age or above, rather than age 65.
 * For the _Full UBI_, PolicyEngine doesn't currently support VAT, Corporation Tax, wealth tax, or financial transaction tax reforms.
@@ -101,13 +96,13 @@ Among the _Full UBI_ provisions that PolicyEngine can model, the UBI Lab Network
 
 <table>
   <tr>
-   <td>Element
+   <td><strong>Element</strong>
    </td>
-   <td>UBI Lab Network
+   <td><strong>UBI Lab Network</strong>
    </td>
-   <td>PolicyEngine
+   <td><strong>PolicyEngine</strong>
    </td>
-   <td>Difference
+   <td><strong>Difference</strong>
    </td>
   </tr>
   <tr>
@@ -266,15 +261,15 @@ Retaining the same ratio of adults getting double the amount of children, these 
 
 <table>
   <tr>
-   <td>Full UBI version
+   <td><strong>Full UBI version</strong>
    </td>
-   <td>Budget impact
+   <td><strong>Budget impact</strong>
    </td>
-   <td>Poverty
+   <td><strong>Poverty</strong>
    </td>
-   <td>Senior poverty
+   <td><strong>Senior poverty</strong>
    </td>
-   <td>Winner share
+   <td><strong>Winner share</strong>
    </td>
   </tr>
   <tr>
@@ -326,9 +321,9 @@ Of the Full UBI provisions omitted from our PolicyEngine analysis, the largest i
 
 As shown in the table below, Murphy finds an effective tax rate on income of 29.4% from 2011 to 2018, and an effective tax rate on wealth increase of 3.4%. 
 
-![](/assets/images/resilience-ubi/wealth-tax-table.png)
+![](assets/images/resilience-ubi/wealth-tax-table.png)
 
-Murphy adds caution to his results: \
+Murphy adds caution to his results:
 >Whether or not it would be desirable, or even technically feasible, to raise £174 billion of additional tax from additional tax charges on wealth is not the primary issue addressed by this paper. Nor does it concern itself with the issue of whether that sum should be redistributed simply to redress wealth inequality. A value judgement is not being offered here on the matter of wealth holding, as such. Instead the issue of concern being addressed is that those most vulnerable to precarity within the UK are also those paying the highest overall effective rates of tax. 
 
 £116bn is 0.8% of the [total net wealth](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/totalwealthingreatbritain/april2016tomarch2018) of private households from 2016-2018, £14.6tn. Raising that revenue from wealth taxes would require an unprecedentedly broad base and high rates. According to the [Wealth Tax Commission Tax Simulator](http://taxsimulator.ukwealth.tax/#/ ), a wealth tax with no exemption could raise £113bn per year if levied at 0.8% and zero avoidance is assumed.[^3] That means an extra 0.8% per year property tax for every homeowner, as well as a tax on all equities, vehicles, and other assets.
@@ -351,11 +346,11 @@ The £90bn figure comes again from Richard Murphy, in a [2019 blog post](https:/
 
 <table>
   <tr>
-   <td>Component
+   <td><strong>Component</strong>
    </td>
-   <td>HMRC
+   <td><strong>HMRC</strong>
    </td>
-   <td>Murphy
+   <td><strong>Murphy</strong>
    </td>
   </tr>
   <tr>
