@@ -68,14 +68,14 @@ Among the _Full UBI_ provisions that PolicyEngine can model, the UBI Lab Network
 [^sequence]: We simulate provisions of the Full UBI plan in the order shown in the table: [UBI only](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184) (£585bn), [UBI + welfare reforms](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1) (£454bn), [UBI + welfare reforms + Personal Allowance](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000) (£369bn), [UBI + welfare reforms + Personal Allowance + Income Tax bands](https://uk.policyengine.org/population-results?child_UBI=92&adult_UBI=184&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_WTC=1&abolish_SP=1&abolish_PC=1&abolish_IS=1&abolish_JSA_income=1&UC_single_young=0&UC_couple_young=0&UC_single_old=0&UC_couple_old=0&WA_adult_UBI_age=16&personal_allowance=0&basic_rate=35&higher_rate=55&add_rate=60) (£228bn), and the [fully modeled reform](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£222bn). We omit 'People's Quantitative Easing' and 'Citizen's Wealth Fund'.
 
 
-| Element                                          | UBI Lab Network | PolicyEngine | Difference        |
-|--------------------------------------------------|-----------------|--------------|-------------------|
-| Full UBI                                         | (580)           | (585)        | -5 (0.9%)         |
-| Savings from current welfare programmes          | 170             | 131          | -39 (22.9%)       |
-| Scrapping Personal Tax Allowance                 | 111.2           | 85           | -26.2 (24%)       |
-| New Income Tax bands                             | 82.5            | 141          | +58.5 (71%)       |
-| New NIC bands                                    | 30              | 6            | -24 (80%)         |
-| **Net budget impact of PolicyEngine provisions** | **(186.3)**     | **(222)**    | **-35.7 (19.2%)** |
+| Element                                          | UBI Lab Network | PolicyEngine | Difference      |
+|--------------------------------------------------|-----------------|--------------|-----------------|
+| Full UBI                                         | (580)           | (585)        | -5 (1%)         |
+| Savings from current welfare programmes          | 170             | 131          | -39 (23%)       |
+| Scrapping Personal Tax Allowance                 | 111.2           | 85           | -26.2 (24%)     |
+| New Income Tax bands                             | 82.5            | 141          | +58.5 (71%)     |
+| New NIC bands                                    | 30              | 6            | -24 (80%)       |
+| **Net budget impact of PolicyEngine provisions** | **(186.3)**     | **(222)**    | **-35.7 (19%)** |
 
 
 See Appendix A for explanations of these differences.
@@ -291,21 +291,21 @@ The Resilience UBI paper ultimately uses **£2bn**, which seems reasonable.
 
 The UBI Lab Network estimates that their entire Full UBI policy would produce a £33.7bn surplus. Adding the PolicyEngine results with separate estimates of provisions not yet modeled in PolicyEngine, we estimate a **£55.5bn deficit.**
 
-| Element                                              | UBI Lab Network | UBI Center | Difference        |
-|------------------------------------------------------|-----------------|------------|-------------------|
-| Full UBI                                             | (580)           | (585)      | -5 (0.9%)         |
-| Savings from current welfare programmes              | 170             | 131        | -39 (22.9%)       |
-| Scrapping Personal Tax Allowance                     | 111.2           | 85         | -26.2 (24%)       |
-| New Income Tax bands                                 | 82.5            | 141        | +58.5 (71%)       |
-| New NIC bands                                        | 30              | 6          | -24 (80%)         |
-| **Net budget impact of PolicyEngine provisions**     | **(186.3)**     | **(222)**  | **-35.7 (19.2%)** |
-| Wealth Tax                                           | 116             | 116        | -                 |
-| Close tax loopholes                                  | 60              | 2.8        | -57.2 (95%)       |
-| VAT increase                                         | 27.5            | 33.2       | +5.7 (21%)        |
-| Reform Corporation Tax                               | 14.5            | 12.5       | -2 (14%)          |
-| Financial Transactions Tax                           | 2               | 2          | -                 |
-| **Net budget impact of non-PolicyEngine provisions** | **220.0**       | **166.5**  | **-53.5 (24.3%)** |
-| **Net combined budget impact**                       | **33.7**        | **(55.5)** | **-89.2**         |
+| Element                                              | UBI Lab Network | UBI Center | Difference      |
+|------------------------------------------------------|-----------------|------------|-----------------|
+| Full UBI                                             | (580)           | (585)      | -5 (1%)         |
+| Savings from current welfare programmes              | 170             | 131        | -39 (23%)       |
+| Scrapping Personal Tax Allowance                     | 111.2           | 85         | -26.2 (24%)     |
+| New Income Tax bands                                 | 82.5            | 141        | +58.5 (71%)     |
+| New NIC bands                                        | 30              | 6          | -24 (80%)       |
+| **Net budget impact of PolicyEngine provisions**     | **(186.3)**     | **(222)**  | **-35.7 (19%)** |
+| Wealth Tax                                           | 116             | 116        | -               |
+| Close tax loopholes                                  | 60              | 2.8        | -57.2 (95%)     |
+| VAT increase                                         | 27.5            | 33.2       | +5.7 (21%)      |
+| Reform Corporation Tax                               | 14.5            | 12.5       | -2 (14%)        |
+| Financial Transactions Tax                           | 2               | 2          | -               |
+| **Net budget impact of non-PolicyEngine provisions** | **220.0**       | **166.5**  | **-53.5 (24%)** |
+| **Net combined budget impact**                       | **33.7**        | **(55.5)** | **-89.2**       |
 
 
 # Conclusion
