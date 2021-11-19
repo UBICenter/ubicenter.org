@@ -25,8 +25,6 @@ Brown continued:
 
 We worked with the UBI Lab Network to estimate the impact of their plan, which encompasses three policies:
 
-
-
 1. A 'Covid Dividend' as described in Brown's op-ed
 2. A 'Full UBI' which provides a more generous UBI funded by tax and benefit reforms
 3. A 'Transitional UBI' which transitions from the Covid Dividend to the Full UBI
@@ -35,7 +33,9 @@ As Brown wrote:
 
 >We've teamed up with [PolicyEngine UK](https://uk.policyengine.org/), which models the effect of proposed policy changes on the economy, to crunch the numbers. Its modelling of our Resilience UBI shows that overall poverty would fall by 80%, and child poverty by 85%. It also found that the lowest earners would be the biggest winners. It’s even created [a tool](https://uk.policyengine.org/situation?child_UBI=46&adult_UBI=92&senior_UBI=46) so that you can see the effect the Resilience UBI would have on your own household.
 
-The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also embeds PolicyEngine's household page for users to calculate a personalized impact of the Covid Dividend.[^1] Here are high-level results from our analysis, though we caveat that we were only able to model about two thirds of the Full UBI's funding provisions.
+The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also embeds PolicyEngine's household page for users to calculate a personalized impact of the Covid Dividend.[^acknowledgment] Here are high-level results from our analysis, though we caveat that we were only able to model about two thirds of the Full UBI's funding provisions.
+
+[^acknowledgment]: We're excited that the UBI Lab Network has hosted PolicyEngine's first external embed, and we invite other organizations to [contact us](mailto:contact@ubicenter.org) to establish similar partnerships.
 
 
 <table>
@@ -91,7 +91,9 @@ PolicyEngine supports most of the income tax and benefit reforms proposed in the
 
 Given those caveats, we estimate the cost of the Covid Dividend at £266bn, two percent higher than the UBI Lab Network's £261bn.
 
-Among the _Full UBI_ provisions that PolicyEngine can model, the UBI Lab Network estimates a net cost of £186bn, while PolicyEngine estimates £222bn. As shown in this table (in £bn), PolicyEngine estimates similar cost of the UBI itself, and less revenue from all funding provisions except the new Income Tax bands:[^2]
+Among the _Full UBI_ provisions that PolicyEngine can model, the UBI Lab Network estimates a net cost of £186bn, while PolicyEngine estimates £222bn. As shown in this table (in £bn), PolicyEngine estimates similar cost of the UBI itself, and less revenue from all funding provisions except the new Income Tax bands:[^sequence]
+
+[^sequence]: We simulate provisions of the Full UBI plan in the order shown in the table: [UBI only](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184) (£585bn), [UBI + welfare reforms](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1) (£454bn), [UBI + welfare reforms + Personal Allowance](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000) (£369bn), [UBI + welfare reforms + Personal Allowance + Income Tax bands](https://uk.policyengine.org/population-results?child_UBI=92&adult_UBI=184&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_WTC=1&abolish_SP=1&abolish_PC=1&abolish_IS=1&abolish_JSA_income=1&UC_single_young=0&UC_couple_young=0&UC_single_old=0&UC_couple_old=0&WA_adult_UBI_age=16&personal_allowance=0&basic_rate=35&higher_rate=55&add_rate=60) (£228bn), and the [fully modeled reform](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£222bn). We omit 'People's Quantitative Easing' and 'Citizen's Wealth Fund'.
 
 
 <table>
@@ -326,9 +328,13 @@ As shown in the table below, Murphy finds an effective tax rate on income of 29.
 Murphy adds caution to his results:
 >Whether or not it would be desirable, or even technically feasible, to raise £174 billion of additional tax from additional tax charges on wealth is not the primary issue addressed by this paper. Nor does it concern itself with the issue of whether that sum should be redistributed simply to redress wealth inequality. A value judgement is not being offered here on the matter of wealth holding, as such. Instead the issue of concern being addressed is that those most vulnerable to precarity within the UK are also those paying the highest overall effective rates of tax. 
 
-£116bn is 0.8% of the [total net wealth](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/totalwealthingreatbritain/april2016tomarch2018) of private households from 2016-2018, £14.6tn. Raising that revenue from wealth taxes would require an unprecedentedly broad base and high rates. According to the [Wealth Tax Commission Tax Simulator](http://taxsimulator.ukwealth.tax/#/ ), a wealth tax with no exemption could raise £113bn per year if levied at 0.8% and zero avoidance is assumed.[^3] That means an extra 0.8% per year property tax for every homeowner, as well as a tax on all equities, vehicles, and other assets.
+£116bn is 0.8% of the [total net wealth](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/totalwealthingreatbritain/april2016tomarch2018) of private households from 2016-2018, £14.6tn. Raising that revenue from wealth taxes would require an unprecedentedly broad base and high rates. According to the [Wealth Tax Commission Tax Simulator](http://taxsimulator.ukwealth.tax/#/ ), a wealth tax with no exemption could raise £113bn per year if levied at 0.8% and zero avoidance is assumed.[^wtc-detail] That means an extra 0.8% per year property tax for every homeowner, as well as a tax on all equities, vehicles, and other assets.
 
-As a benchmark, [Norway's wealth tax](https://www.lifeinnorway.net/wealth-tax/) levies a 0.85% tax on wealth above 1.5 million NOK (£130,000), or 3 million NOK (£260,000) for married couples. Norway also taxes primary residence at a quarter of their market value. The WTC Tax Simulator can approximate Norway's structure with a 0.9% tax on wealth above £250,000, which yields £78bn per year when assuming no avoidance (there's no option to reduce the value of primary residences). This falls to £69bn when assuming avoidance rates in line with the empirical literature.[^4] Raising £117bn under these assumptions would require a 1.7% tax rate.
+[^wtc-detail]: £118.5bn when including the 'rich list' of UK citizens who may not be residents of the UK, minus £6.0bn per in administration. The Wealth Tax Commission also estimates that this would require a one-time cost of £0.6bn to set up.
+
+As a benchmark, [Norway's wealth tax](https://www.lifeinnorway.net/wealth-tax/) levies a 0.85% tax on wealth above 1.5 million NOK (£130,000), or 3 million NOK (£260,000) for married couples. Norway also taxes primary residence at a quarter of their market value. The WTC Tax Simulator can approximate Norway's structure with a 0.9% tax on wealth above £250,000, which yields £78bn per year when assuming no avoidance (there's no option to reduce the value of primary residences). This falls to £69bn when assuming avoidance rates in line with the empirical literature.[^wealth-tax-avoidance] Raising £117bn under these assumptions would require a 1.7% tax rate.
+
+[^wealth-tax-avoidance]: Table A1 in Penn Wharton Budget Model's [analysis](https://budgetmodel.wharton.upenn.edu/issues/2019/12/12/senator-elizabeth-warrens-wealth-tax-projected-budgetary-and-economic-effects) of US Senator Elizabeth Warren's Wealth Tax shows an average semi-elasticity of taxable wealth of 13. We show results based on the closest value in the WTC Tax Simulator: 12%.
 
 As we explored in our [land value tax report](https://www.ubicenter.org/uk-lvt), funding transfers with taxes on assets can push some the interaction of wealth and income could yield counterintuitive distributional impacts depending on measurement, with a wealth-tax-funded UBI pushing some high-asset low-income pensioners into poverty. Nevertheless, while it would be unprecedented for a wealth tax to raise £117bn per year, the Resilience UBI proposal leaves the door open for unprecedented actions, so it does seem to be possible.
 
@@ -354,7 +360,7 @@ The £90bn figure comes again from Richard Murphy, in a [2019 blog post](https:/
    </td>
   </tr>
   <tr>
-   <td>Domestic evasion[^5]
+   <td>Domestic evasion[^evasion]
    </td>
    <td>20.4
    </td>
@@ -362,7 +368,7 @@ The £90bn figure comes again from Richard Murphy, in a [2019 blog post](https:/
    </td>
   </tr>
   <tr>
-   <td>Avoidance[^6]
+   <td>Avoidance[^avoidance]
    </td>
    <td>7.3
    </td>
@@ -403,14 +409,23 @@ The £90bn figure comes again from Richard Murphy, in a [2019 blog post](https:/
   </tr>
 </table>
 
+[^evasion]: We group into a single 'Evasion' category HMRC's behaviours of *Failure* to take reasonable care, Evasion, Criminal attacks,* and *Hidden economy*, as well as Murphy's breakout of *Domestic evasion *and *Evasion by wealthy using offshore*.
+
+[^avoidance]: We follow Murphy and include in *Avoidance* the *Legal interpretation* category, in which HMRC and the taxpayer arrive at different interpretations of laws governing liabilities.
 
 Avoidance results from tax laws rather than enforcement. Since the Resilience paper does not specify tax reforms in this section, the core difference with respect to enforcement is the sum of domestic evasion, non-payment, and error. HMRC estimates that these categories sum to £28.1bn, a third of Murphy's £78.3bn.
 
-Murphy's biggest difference from HMRC is the estimate of domestic evasion. Rather than HMRC's bottom-up approach of comparing records for specific industries, Murphy assumes that the shadow economy represents 10% of GDP,[^7] and multiplies that 10% by the 33.1% average tax to GDP share. Murphy based his estimate of a 10% shadow economy on (a) the VAT tax gap at the time ([now 8.4%](https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020)), (b) an [IMF paper](https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583) estimating an 8.3% shadow economy as of 2015, (c) the [EU's estimate](https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en) of the VAT gap as 10.9% in 2015[^8] (12.2% as of 2018), and (d) [Raczkowski (2015)](https://www.researchgate.net/publication/301803819_Measuring_the_Tax_Gap_in_the_European_Economy)'s estimate of a 9.7% total tax gap as of 2014.
+Murphy's biggest difference from HMRC is the estimate of domestic evasion. Rather than HMRC's bottom-up approach of comparing records for specific industries, Murphy assumes that the shadow economy represents 10% of GDP,[^shadow-economy] and multiplies that 10% by the 33.1% average tax to GDP share. Murphy based his estimate of a 10% shadow economy on (a) the VAT tax gap at the time ([now 8.4%](https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020)), (b) an [IMF paper](https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583) estimating an 8.3% shadow economy as of 2015, (c) the [EU's estimate](https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en) of the VAT gap as 10.9% in 2015[^tax-gap] (12.2% as of 2018), and (d) [Raczkowski (2015)](https://www.researchgate.net/publication/301803819_Measuring_the_Tax_Gap_in_the_European_Economy)'s estimate of a 9.7% total tax gap as of 2014.
+
+[^shadow-economy]: Murphy also assumes that this 10% shadow economy is not counted in GDP today.
+
+[^tax-gap]: The [current EU report](https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en) shows 9.9% as of 2015 (Table B7). Murphy reports 10.88% for the same source in [his 2019 report](https://www.socialistsanddemocrats.eu/sites/default/files/2019-01/the_european_tax_gap_en_190123.pdf) (Table 5).
 
 A 10% shadow economy therefore seems plausible, though Murphy's approach may overstate the tax gap because participants in the shadow economy could have lower incomes. This would assign them lower effective tax rates if the tax gap were closed, due to progressive taxation.
 
-Additional resources—the Resilience paper proposes reassigning DWP workers to HMRC enforcement, for example—can plausibly shrink the tax gap by reducing evasion, errors, and non-payment. However, it's unlikely that even significant additional resources could close the tax gap entirely. In 2016, HMRC [celebrated](https://www.gov.uk/government/news/hmrc-taskforces-raise-more-than-half-a-billion) enforcement actions raising £250 million, less than 1% of the [total tax gap](https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020) that year. The US government [estimates](https://home.treasury.gov/news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap) that significant investment in US tax enforcement can close about 10% of the US tax gap in the next decade.[^9]
+Additional resources—the Resilience paper proposes reassigning DWP workers to HMRC enforcement, for example—can plausibly shrink the tax gap by reducing evasion, errors, and non-payment. However, it's unlikely that even significant additional resources could close the tax gap entirely. In 2016, HMRC [celebrated](https://www.gov.uk/government/news/hmrc-taskforces-raise-more-than-half-a-billion) enforcement actions raising £250 million, less than 1% of the [total tax gap](https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020) that year. The US government [estimates](https://home.treasury.gov/news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap) that significant investment in US tax enforcement can close about 10% of the US tax gap in the next decade.[^us-tax-gap]
+
+[^us-tax-gap]: The US Treasury Department estimates the current tax gap at about $600 billion. They also estimate that "$80 billion of investment over the coming ten years in enforcement, IT, and taxpayer services [would generate] an estimated $320 billion in additional tax collections over the next ten years" and that "changes to the third-party information reports are estimated to generate $460 billion over a decade." After the investment, that's an average of $70 billion per year, or 12% of the current tax gap, which might shrink to around 10% given the projected growth of the tax gap.
 
 Overall, we expect that HMRC more accurately captures the tax gap, and that additional enforcement could close it by the 10% estimated in the US. This comes to **£2.8bn per year.**
 
@@ -424,7 +439,9 @@ The Office for Budget Responsibility reports that ["in 2019-20 VAT raised £134 
 
 ## Corporation Tax
 
-While the Resilience UBI paper explores a number of Corporation Tax reforms, such as variable rates based on codetermination, wages, and local investments, as well as adding a Robot Tax, Carbon Tax, or Data Tax, its core proposal is a "5% net increase in the overall Corporation Tax rate", implying a rise from its current 19% to 24%. Based on the current revenue of £55bn,[^10] they estimate that this would raise £14.5bn.
+While the Resilience UBI paper explores a number of Corporation Tax reforms, such as variable rates based on codetermination, wages, and local investments, as well as adding a Robot Tax, Carbon Tax, or Data Tax, its core proposal is a "5% net increase in the overall Corporation Tax rate", implying a rise from its current 19% to 24%. Based on the current revenue of £55bn,[^corp-tax] they estimate that this would raise £14.5bn.
+
+[^corp-tax]: They cite the 2018-19 Corporation Tax revenue of £55bn. Corporation Tax liabilities remained at that £55bn in [2019-20](https://www.gov.uk/government/statistics/corporation-tax-statistics-2021/corporation-tax-statistics-commentary-2021).
 
 However, Corporation Tax is already [slated to rise](https://www.legislation.gov.uk/ukpga/2021/26/enacted) from 19% to 25% for corporations with profits above £250,000 in 2023, and corporations with profits between £50,000 and £250,000 will see their rate rise on a sliding scale from 19% to 25%. The Office of Budget Responsibility [estimates](https://obr.uk/download/march-2021-economic-and-fiscal-outlook-corporation-tax-rate-increase/) that this will raise £11.9bn in 2023; dynamic responses cut this 14% below their static estimate of £13.9bn.
 
@@ -594,40 +611,4 @@ Beyond poverty and inequality reduction, the Resilience UBI would have other pro
 * _Welfare savings_: the report cites the benefit expenditure and caseload tables produced by the DWP, and states that the savings are estimated from £100bn in State Pension payments and £70bn in income-related benefits. However,
     * £100bn in State Pension payments is the total amount of gross payments, not net of income tax repayments. Repealing it would lower income tax revenues, reducing the total revenue raised.
     * “Income-related benefits” in the table includes Housing Benefit, as well as Universal Credit. Housing benefit is not repealed by the Resilience UBI plan, but its repeal is included in the costing. Furthermore, the Universal Credit figure is reached by the tables as a composite of working-age Housing Benefit, and other related benefits. It’s not clear whether Resilience UBI would leave in the housing costs element of Universal Credit (we’ve assumed they would).
-* _National Insurance bands_: it’s unclear how the figures were reached in the paper. The paper states: _“A flat rate of 10%, for example, would represent a 2% rebate to lower earners, an 8% increase on higher earners and a net increase of 6% in NIC income overall, bringing in approximately £30bn extra a year.”_ The marginal application of NIC rates is an important detail but isn’t the determinant of the revenue impact. 
-
-<!-- Footnotes themselves at the bottom. -->
-## Notes
-
-[^1]:
-     We're excited that the UBI Lab Network has hosted PolicyEngine's first external embed, and we invite other organizations to [contact us](mailto:contact@ubicenter.org) to establish similar partnerships.
-
-[^2]:
-     We simulate provisions of the Full UBI plan in the order shown in the table: [UBI only](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184) (£585bn), [UBI + welfare reforms](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1) (£454bn), [UBI + welfare reforms + Personal Allowance](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000) (£369bn), [UBI + welfare reforms + Personal Allowance + Income Tax bands](https://uk.policyengine.org/population-results?child_UBI=92&adult_UBI=184&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_WTC=1&abolish_SP=1&abolish_PC=1&abolish_IS=1&abolish_JSA_income=1&UC_single_young=0&UC_couple_young=0&UC_single_old=0&UC_couple_old=0&WA_adult_UBI_age=16&personal_allowance=0&basic_rate=35&higher_rate=55&add_rate=60) (£228bn), and the [fully modeled reform](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£222bn). We omit 'People's Quantitative Easing' and 'Citizen's Wealth Fund'.
-
-[^3]:
-     £118.5bn when including the 'rich list' of UK citizens who may not be residents of the UK, minus £6.0bn per in administration. The Wealth Tax Commission also estimates that this would require a one-time cost of £0.6bn to set up.
-
-[^4]:
-     Table A1 in Penn Wharton Budget Model's [analysis](https://budgetmodel.wharton.upenn.edu/issues/2019/12/12/senator-elizabeth-warrens-wealth-tax-projected-budgetary-and-economic-effects) of US Senator Elizabeth Warren's Wealth Tax shows an average semi-elasticity of taxable wealth of 13. We show results based on the closest value in the WTC Tax Simulator: 12%.
-
-[^5]:
-<p>
-     We group into a single 'Evasion' category HMRC's behaviours of <em>Failure to take reasonable care, Evasion, Criminal attacks, </em>and <em>Hidden economy</em>, as well as Murphy's breakout of <em>Domestic evasion </em>and <em>Evasion by wealthy using offshore</em>.
-
-[^6]:
-<p>
-     We follow Murphy and include in <em>Avoidance</em> the <em>Legal interpretation</em> category, in which HMRC and the taxpayer arrive at different interpretations of laws governing liabilities.
-
-[^7]:
-     Murphy also assumes that this 10% shadow economy is not counted in GDP today.
-
-[^8]:
-     The [current EU report](https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en) shows 9.9% as of 2015 (Table B7). Murphy reports 10.88% for the same source in [his 2019 report](https://www.socialistsanddemocrats.eu/sites/default/files/2019-01/the_european_tax_gap_en_190123.pdf) (Table 5).
-
-[^9]:
-     The US Treasury Department estimates the current tax gap at about $600 billion. They also estimate that "$80 billion of investment over the coming ten years in enforcement, IT, and taxpayer services [would generate] an estimated $320 billion in additional tax collections over the next ten years" and that "changes to the third-party information reports are estimated to generate $460 billion over a decade." After the investment, that's an average of $70 billion per year, or 12% of the current tax gap, which might shrink to around 10% given the projected growth of the tax gap.
-
-[^10]:
-     They cite the 2018-19 Corporation Tax revenue of £55bn. Corporation Tax liabilities remained at that £55bn in [2019-20](https://www.gov.uk/government/statistics/corporation-tax-statistics-2021/corporation-tax-statistics-commentary-2021).
-
+* _National Insurance bands_: it’s unclear how the figures were reached in the paper. The paper states: _“A flat rate of 10%, for example, would represent a 2% rebate to lower earners, an 8% increase on higher earners and a net increase of 6% in NIC income overall, bringing in approximately £30bn extra a year.”_ The marginal application of NIC rates is an important detail but isn’t the determinant of the revenue impact.
