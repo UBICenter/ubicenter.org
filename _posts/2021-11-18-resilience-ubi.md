@@ -5,7 +5,7 @@ cover: assets/images/resilience-ubi/cover.jpg
 navigation: True
 title: The UBI Lab Network's Resilience UBI proposals
 date: 2021-11-18
-tags: [uk]
+tags: [uk,policyengine]
 subclass: "post"
 author: [max, nikhil]
 excerpt: "We modeled the new comprehensive plans in PolicyEngine UK."
@@ -36,6 +36,7 @@ As Brown wrote:
 The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also embeds PolicyEngine's household page for users to calculate a personalized impact of the Covid Dividend.[^acknowledgment] Here are high-level results from our analysis, though we caveat that we were only able to model about two thirds of the Full UBI's funding provisions.
 
 [^acknowledgment]: We're excited that the UBI Lab Network has hosted PolicyEngine's first external embed, and we invite other organizations to [contact us](mailto:contact@ubicenter.org) to establish similar partnerships.
+
 
 | Policy         | Net cost | Poverty reduction | % coming out ahead |
 |----------------|----------|-------------------|--------------------|
@@ -91,6 +92,7 @@ Keeping the £222bn deficit in mind, the Full UBI cuts poverty by 84%, including
 </div>
 <div id = "graph_graph_1_1"></div>
 
+
 <div>
   <script>
     $(document).ready(function(){
@@ -100,7 +102,9 @@ Keeping the £222bn deficit in mind, the Full UBI cuts poverty by 84%, including
 </div>
 <div id = "graph_graph_1_2"></div>
 
+
 It nearly triples the bottom decile's net income, and leaves each of the bottom nine deciles better off, on average.
+
 
 <div>
   <script>
@@ -111,7 +115,9 @@ It nearly triples the bottom decile's net income, and leaves each of the bottom 
 </div>
 <div id = "graph_graph_3_1"></div>
 
+
 About nine in ten people come out ahead, and five in six gain at least 5%. Other than the bottom decile, nearly all of whom come out ahead, less than one in ten people in each of the bottom nine deciles are worse off.
+
 
 <div>
   <script>
@@ -122,9 +128,11 @@ About nine in ten people come out ahead, and five in six gain at least 5%. Other
 </div>
 <div id = "graph_graph_5_1"></div>
 
+
 ## Sample households
 
 Consider a family with two parents, each earning £20,000, and two children. PolicyEngine shows that their net income would rise by £16k (45%). While their taxes rise by £11k, their benefits (including UBI) rise by £27k.
+
 
 <div>
   <script>
@@ -135,7 +143,9 @@ Consider a family with two parents, each earning £20,000, and two children. Pol
 </div>
 <div id = "graph_graph_7_1"></div>
 
+
 They'd continue to be better off until their income exceeds about £153k.
+
 
 <div>
   <script>
@@ -146,8 +156,10 @@ They'd continue to be better off until their income exceeds about £153k.
 </div>
 <div id = "graph_graph_9_1"></div>
 
+
 They'd continue to be better off until their income exceeds about £153k.
 The reform would also simplify their marginal tax rate schedule, making it monotonically progressive. Currently, this family faces their highest marginal tax rates when their combined income is below £28k, losing 63p of every marginal £1 due to Universal Credit withdrawal. Their marginal tax rate jumps around nine times before landing on the 47% top rate. Under the Full UBI scheme, their top marginal rate rises to 70%, but it gets there steadily from 35% and only once their income exceeds £170k.
+
 
 <div>
   <script>
@@ -158,6 +170,7 @@ The reform would also simplify their marginal tax rate schedule, making it monot
 </div>
 <div id = "graph_graph_12_1"></div>
 
+
 Since the policy is not budget-neutral, most families would experience gains like these, and most would also see more predictable work incentives as above.
 
 
@@ -167,11 +180,15 @@ As shown above, the Full UBI of £800 a month for adults and £400 for children,
 
 Retaining the same ratio of adults getting double the amount of children, these revenue sources would fund about [£250 a month for children and £500 for adults](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=114&child_UBI=57&senior_UBI=114&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£57 and £114 a week, respectively). Setting a single UBI without separating by age would yield about [£450 a month](https://policyengine.org/uk/population-impact?adult_UBI=103&child_UBI=103&senior_UBI=103&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£103 a week).
 
+
 | Full UBI version                 | Budget impact | Poverty | Senior poverty | Winner share |
 |----------------------------------|---------------|---------|----------------|--------------|
 | [£800/mo adults, £400/mo children](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) | (222bn)       | -84%    | -45%           | 89%          |
 | [£500/mo adults, £250/mo children](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=114&child_UBI=57&senior_UBI=114&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) | 1bn           | -26%    | +75%           | 62%          |
 | [£450/mo all](https://policyengine.org/uk/population-impact?adult_UBI=103&child_UBI=103&senior_UBI=103&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10)                      | 1bn           | -34%    | +96%           | 61%          |
+
+
+Poverty falls substantially in both budget-neutral versions---especially when children receive a full share---and most come out ahead. However, senior poverty also rises substantially. The Resilience UBI authors set the Full UBI adult roughly to replace the full new State Pension of [£179.60 per week](https://www.gov.uk/new-state-pension/what-youll-get). Continuing to fully repeal State Pension while shrinking its replacement leaves many pensioners worse off, demonstrating the importance of making UBI generous if it's to replace large benefits.
 
 
 # Provisions PolicyEngine doesn't model
