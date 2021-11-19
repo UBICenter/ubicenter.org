@@ -37,39 +37,10 @@ The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also 
 
 [^acknowledgment]: We're excited that the UBI Lab Network has hosted PolicyEngine's first external embed, and we invite other organizations to [contact us](mailto:contact@ubicenter.org) to establish similar partnerships.
 
-
-<table>
-  <tr>
-   <td><strong>Policy</strong>
-   </td>
-   <td><strong>Net cost</strong>
-   </td>
-   <td><strong>Poverty reduction</strong>
-   </td>
-   <td><strong>% coming out ahead</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://policyengine.org/uk/population-impact?child_UBI=46&adult_UBI=92&senior_UBI=46&WA_adult_UBI_age=16">Covid Dividend</a></strong>
-   </td>
-   <td>£266bn
-   </td>
-   <td>77%
-   </td>
-   <td>100%
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10">Full UBI</a></strong>
-   </td>
-   <td>£222bn
-   </td>
-   <td>84%
-   </td>
-   <td>89%
-   </td>
-  </tr>
-</table>
+| Policy         | Net cost | Poverty reduction | % coming out ahead |
+|----------------|----------|-------------------|--------------------|
+| [Covid Dividend](https://policyengine.org/uk/population-impact?child_UBI=46&adult_UBI=92&senior_UBI=46&WA_adult_UBI_age=16) | £266bn   | 77%               | 100%               |
+| [Full UBI](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10)       | £222bn   | 84%               | 89%                |
 
 
 In this report, we describe the features of the Resilience UBI's Covid Dividend and Full UBI policies, how we modelled them, PolicyEngine results, and some supplementary analysis to fill in the gaps of our formal modelling.
@@ -96,78 +67,14 @@ Among the _Full UBI_ provisions that PolicyEngine can model, the UBI Lab Network
 [^sequence]: We simulate provisions of the Full UBI plan in the order shown in the table: [UBI only](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184) (£585bn), [UBI + welfare reforms](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1) (£454bn), [UBI + welfare reforms + Personal Allowance](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000) (£369bn), [UBI + welfare reforms + Personal Allowance + Income Tax bands](https://uk.policyengine.org/population-results?child_UBI=92&adult_UBI=184&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_WTC=1&abolish_SP=1&abolish_PC=1&abolish_IS=1&abolish_JSA_income=1&UC_single_young=0&UC_couple_young=0&UC_single_old=0&UC_couple_old=0&WA_adult_UBI_age=16&personal_allowance=0&basic_rate=35&higher_rate=55&add_rate=60) (£228bn), and the [fully modeled reform](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£222bn). We omit 'People's Quantitative Easing' and 'Citizen's Wealth Fund'.
 
 
-<table>
-  <tr>
-   <td><strong>Element</strong>
-   </td>
-   <td><strong>UBI Lab Network</strong>
-   </td>
-   <td><strong>PolicyEngine</strong>
-   </td>
-   <td><strong>Difference</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Full UBI
-   </td>
-   <td>(580)
-   </td>
-   <td>(585)
-   </td>
-   <td>-5 (0.9%)
-   </td>
-  </tr>
-  <tr>
-   <td>Savings from current welfare programmes
-   </td>
-   <td>170
-   </td>
-   <td>131
-   </td>
-   <td>-39 (22.9%)
-   </td>
-  </tr>
-  <tr>
-   <td>Scrapping Personal Tax Allowance
-   </td>
-   <td>111.2
-   </td>
-   <td>85
-   </td>
-   <td>-26.2 (24%)
-   </td>
-  </tr>
-  <tr>
-   <td>New Income Tax bands
-   </td>
-   <td>82.5
-   </td>
-   <td>141
-   </td>
-   <td>+58.5 (71%)
-   </td>
-  </tr>
-  <tr>
-   <td>New NIC bands
-   </td>
-   <td>30
-   </td>
-   <td>6
-   </td>
-   <td>-24 (80%)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Net cost of modelled features</strong>
-   </td>
-   <td><strong>(186.3)</strong>
-   </td>
-   <td><strong>(222)</strong>
-   </td>
-   <td><strong>-35.7 (19.2%)</strong>
-   </td>
-  </tr>
-</table>
+| Element                                 | UBI Lab Network | PolicyEngine | Difference        |
+|-----------------------------------------|-----------------|--------------|-------------------|
+| Full UBI                                | (580)           | (585)        | -5 (0.9%)         |
+| Savings from current welfare programmes | 170             | 131          | -39 (22.9%)       |
+| Scrapping Personal Tax Allowance        | 111.2           | 85           | -26.2 (24%)       |
+| New Income Tax bands                    | 82.5            | 141          | +58.5 (71%)       |
+| New NIC bands                           | 30              | 6            | -24 (80%)         |
+| **Net cost of modelled features**       | **(186.3)**     | **(222)**    | **-35.7 (19.2%)** |
 
 
 See Appendix A for explanations of these differences.
@@ -260,62 +167,14 @@ As shown above, the Full UBI of £800 a month for adults and £400 for children,
 
 Retaining the same ratio of adults getting double the amount of children, these revenue sources would fund about [£250 a month for children and £500 for adults](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=114&child_UBI=57&senior_UBI=114&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£57 and £114 a week, respectively). Setting a single UBI without separating by age would yield about [£450 a month](https://policyengine.org/uk/population-impact?adult_UBI=103&child_UBI=103&senior_UBI=103&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£103 a week).
 
-
-<table>
-  <tr>
-   <td><strong>Full UBI version</strong>
-   </td>
-   <td><strong>Budget impact</strong>
-   </td>
-   <td><strong>Poverty</strong>
-   </td>
-   <td><strong>Senior poverty</strong>
-   </td>
-   <td><strong>Winner share</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10">£800/mo adults, £400/mo children</a>
-   </td>
-   <td>(222bn)
-   </td>
-   <td>-84%
-   </td>
-   <td>-45%
-   </td>
-   <td>89%
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=114&child_UBI=57&senior_UBI=114&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10">£500/mo adults, £250/mo children</a>
-   </td>
-   <td>1bn
-   </td>
-   <td>-26%
-   </td>
-   <td>+75%
-   </td>
-   <td>62%
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://policyengine.org/uk/population-impact?adult_UBI=103&child_UBI=103&senior_UBI=103&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10">£450/mo all</a>
-   </td>
-   <td>1bn
-   </td>
-   <td>-34%
-   </td>
-   <td>+96%
-   </td>
-   <td>61%
-   </td>
-  </tr>
-</table>
-
+| Full UBI version                 | Budget impact | Poverty | Senior poverty | Winner share |
+|----------------------------------|---------------|---------|----------------|--------------|
+| [£800/mo adults, £400/mo children](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) | (222bn)       | -84%    | -45%           | 89%          |
+| [£500/mo adults, £250/mo children](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=114&child_UBI=57&senior_UBI=114&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) | 1bn           | -26%    | +75%           | 62%          |
+| [£450/mo all](https://policyengine.org/uk/population-impact?adult_UBI=103&child_UBI=103&senior_UBI=103&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10)                      | 1bn           | -34%    | +96%           | 61%          |
 
 
 # Provisions PolicyEngine doesn't model
-
 
 ## Wealth tax
 
@@ -349,65 +208,14 @@ In its section titled 'Close tax loopholes', the Resilience UBI report states:
 
 The £90bn figure comes again from Richard Murphy, in a [2019 blog post](https://www.taxresearch.org.uk/Blog/2019/06/19/the-uk-tax-gap-is-90-billion-a-year/ ). Here are the differences in £bn:
 
-
-<table>
-  <tr>
-   <td><strong>Component</strong>
-   </td>
-   <td><strong>HMRC</strong>
-   </td>
-   <td><strong>Murphy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Domestic evasion[^evasion]
-   </td>
-   <td>20.4
-   </td>
-   <td>71.7
-   </td>
-  </tr>
-  <tr>
-   <td>Avoidance[^avoidance]
-   </td>
-   <td>7.3
-   </td>
-   <td>11
-   </td>
-  </tr>
-  <tr>
-   <td>Non-payment
-   </td>
-   <td>4
-   </td>
-   <td>3.4
-   </td>
-  </tr>
-  <tr>
-   <td>Error
-   </td>
-   <td>3.7
-   </td>
-   <td>3.2
-   </td>
-  </tr>
-  <tr>
-   <td>Total
-   </td>
-   <td>35.4
-   </td>
-   <td>89.3
-   </td>
-  </tr>
-  <tr>
-   <td>Total excl. avoidance
-   </td>
-   <td>28.1
-   </td>
-   <td>78.3
-   </td>
-  </tr>
-</table>
+| Component                  | HMRC     | Murphy     |
+|----------------------------|----------|------------|
+| Domestic evasion[^evasion] | 20.4     | 71.7       |
+| Avoidance[^avoidance]      | 7.3      | 11         |
+| Non-payment                | 4        | 3.4        |
+| Error                      | 3.7      | 3.2        |
+| **Total**                  | **35.4** | **89.3**   |
+| **Total excl. avoidance**  | **28.1** | **78.3**   |
 
 [^evasion]: We group into a single 'Evasion' category HMRC's behaviours of *Failure* to take reasonable care, Evasion, Criminal attacks,* and *Hidden economy*, as well as Murphy's breakout of *Domestic evasion *and *Evasion by wealthy using offshore*.
 
@@ -466,130 +274,19 @@ The Resilience UBI paper ultimately uses £2bn, which seems reasonable.
 
 The UBI Lab Network estimates that their entire Full UBI policy would produce a £33.7bn surplus. Adding the PolicyEngine results with separate estimates of provisions not yet modeled in PolicyEngine, we estimate a £47.5bn deficit.
 
-
-<table>
-  <tr>
-   <td>Element
-   </td>
-   <td>UBI Lab Network
-   </td>
-   <td>UBI Center
-   </td>
-   <td>Difference
-   </td>
-  </tr>
-  <tr>
-   <td>Full UBI
-   </td>
-   <td>(580)
-   </td>
-   <td>(568)
-   </td>
-   <td>-10 (1.7%)
-   </td>
-  </tr>
-  <tr>
-   <td>Savings from current welfare programmes
-   </td>
-   <td>170
-   </td>
-   <td>123
-   </td>
-   <td>-47 (28%)
-   </td>
-  </tr>
-  <tr>
-   <td>Scrapping Personal Tax Allowance
-   </td>
-   <td>111.2
-   </td>
-   <td>81
-   </td>
-   <td>-30 (19%)
-   </td>
-  </tr>
-  <tr>
-   <td>New Income Tax bands
-   </td>
-   <td>82.5
-   </td>
-   <td>147
-   </td>
-   <td>+64.5 (82%)
-   </td>
-  </tr>
-  <tr>
-   <td>New NIC bands
-   </td>
-   <td>30
-   </td>
-   <td>3
-   </td>
-   <td>-27.1 (100%)
-   </td>
-  </tr>
-  <tr>
-   <td>VAT increase
-   </td>
-   <td>27.5
-   </td>
-   <td>33.2
-   </td>
-   <td>+5.7 (21%)
-   </td>
-  </tr>
-  <tr>
-   <td>Close tax loopholes
-   </td>
-   <td>60
-   </td>
-   <td>2.8
-   </td>
-   <td>-57.2 (95%)
-   </td>
-  </tr>
-  <tr>
-   <td>Financial Transactions Tax
-   </td>
-   <td>2
-   </td>
-   <td>2
-   </td>
-   <td>-
-   </td>
-  </tr>
-  <tr>
-   <td>Wealth Tax
-   </td>
-   <td>116
-   </td>
-   <td>116
-   </td>
-   <td>-
-   </td>
-  </tr>
-  <tr>
-   <td>Reform Corporation Tax
-   </td>
-   <td>14.5
-   </td>
-   <td>12.5
-   </td>
-   <td>-2 (14%)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Net budget impact</strong>
-   </td>
-   <td><strong>33.7</strong>
-   </td>
-   <td><strong>(47.5)</strong>
-   </td>
-   <td><strong>-81.2</strong>
-   </td>
-  </tr>
-</table>
-
+| Element                                 | UBI Lab Network | UBI Center | Difference   |
+|-----------------------------------------|-----------------|------------|--------------|
+| Full UBI                                | (580)           | (568)      | -10 (1.7%)   |
+| Savings from current welfare programmes | 170             | 123        | -47 (28%)    |
+| Scrapping Personal Tax Allowance        | 111.2           | 81         | -30 (19%)    |
+| New Income Tax bands                    | 82.5            | 147        | +64.5 (82%)  |
+| New NIC bands                           | 30              | 3          | -27.1 (100%) |
+| VAT increase                            | 27.5            | 33.2       | +5.7 (21%)   |
+| Close tax loopholes                     | 60              | 2.8        | -57.2 (95%)  |
+| Financial Transactions Tax              | 2               | 2          | -            |
+| Wealth Tax                              | 116             | 116        | -            |
+| Reform Corporation Tax                  | 14.5            | 12.5       | -2 (14%)     |
+| **Net budget impact**                   | **33.7**        | **(47.5)** | **-81.2**    |
 
 
 # Conclusion
@@ -604,8 +301,6 @@ Beyond poverty and inequality reduction, the Resilience UBI would have other pro
 
 
 # Appendix A: Differences in revenue estimates
-
-
 
 * _Personal Allowance repeal_: the report gives examples of how the new tax rates and personal allowance repeal would be administered ([page 15](https://static1.squarespace.com/static/5a7b08c0d0e628f80b2cce36/t/61604d8538f8954ba0e3349c/1633701328005/resilience-proposal.pdf/page=16)), which imply that the higher rate threshold will be increased from £37,700 to £50,000 (this would not happen automatically, as the Income Tax rate thresholds are defined over taxable income minus allowances). The New Economics Foundation also costed a repeal of the Personal Allowance ([clarifying this mechanic](https://neweconomics.org/uploads/files/NEF_WeeklyNationalAllowance_2019.pdf#page=5)) and found the full repeal without adjusting the higher threshold was £111bn.
 * _Welfare savings_: the report cites the benefit expenditure and caseload tables produced by the DWP, and states that the savings are estimated from £100bn in State Pension payments and £70bn in income-related benefits. However,
