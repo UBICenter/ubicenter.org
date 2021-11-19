@@ -4,7 +4,7 @@ current: post
 cover: assets/images/resilience-ubi/cover.jpg
 navigation: True
 title: The UBI Lab Network's Resilience UBI proposals
-date: 2021-11-18
+date: 2021-11-19
 tags: [uk,policyengine]
 subclass: "post"
 author: [max, nikhil]
