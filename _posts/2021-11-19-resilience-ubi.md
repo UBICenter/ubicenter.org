@@ -4,7 +4,7 @@ current: post
 cover: assets/images/2021-11-19-resilience-ubi/cover.jpg
 navigation: True
 title: The UBI Lab Network's Resilience UBI proposals
-date: 2021-11-19
+date: 2021-11-18
 tags: [uk,policyengine]
 subclass: "post"
 author: [max, nikhil]
@@ -33,7 +33,7 @@ As Brown wrote:
 
 >We've teamed up with [PolicyEngine UK](https://uk.policyengine.org/), which models the effect of proposed policy changes on the economy, to crunch the numbers. Its modelling of our Resilience UBI shows that overall poverty would fall by 80%, and child poverty by 85%. It also found that the lowest earners would be the biggest winners. It’s even created [a tool](https://uk.policyengine.org/situation?child_UBI=46&adult_UBI=92&senior_UBI=46) so that you can see the effect the Resilience UBI would have on your own household.
 
-The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also embeds PolicyEngine's household page for users to calculate a personalized impact of the Covid Dividend.[^acknowledgment] Here are high-level results from our analysis, though we caveat that we were only able to model about two thirds of the Full UBI's funding provisions.
+The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also embeds PolicyEngine's household page for users to calculate a personalized impact of the Covid Dividend.[^acknowledgment] Here are high-level results from our analysis, though we caveat that PolicyEngine only models about two thirds of the Full UBI's funding provisions.
 
 [^acknowledgment]: We're excited that the UBI Lab Network has hosted PolicyEngine's first external embed, and we invite other organizations to [contact us](mailto:contact@ubicenter.org) to establish similar partnerships.
 
@@ -41,8 +41,8 @@ The [Resilience UBI website](https://www.ubilabnetwork.org/resilience-ubi) also 
 | Policy         | Net cost | Poverty reduction | % coming out ahead |
 |----------------|----------|-------------------|--------------------|
 | [Covid Dividend](https://policyengine.org/uk/population-impact?child_UBI=46&adult_UBI=92&senior_UBI=46&WA_adult_UBI_age=16) | £266bn   | 77%               | 100%               |
-| [Full UBI](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10)       | £222bn   | 84%               | 89%                |
-
+| [Full UBI (PolicyEngine only)](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10)       | £222bn   | 84%               | 89%                |
+| Full UBI, with non-PolicyEngine provisions | £55.5bn | ? | ? |
 
 In this report, we describe the features of the Resilience UBI's Covid Dividend and Full UBI policies, how we modelled them, PolicyEngine results, and some supplementary analysis to fill in the gaps of our formal modelling.
 
@@ -68,14 +68,14 @@ Among the _Full UBI_ provisions that PolicyEngine can model, the UBI Lab Network
 [^sequence]: We simulate provisions of the Full UBI plan in the order shown in the table: [UBI only](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184) (£585bn), [UBI + welfare reforms](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1) (£454bn), [UBI + welfare reforms + Personal Allowance](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000) (£369bn), [UBI + welfare reforms + Personal Allowance + Income Tax bands](https://uk.policyengine.org/population-results?child_UBI=92&adult_UBI=184&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_WTC=1&abolish_SP=1&abolish_PC=1&abolish_IS=1&abolish_JSA_income=1&UC_single_young=0&UC_couple_young=0&UC_single_old=0&UC_couple_old=0&WA_adult_UBI_age=16&personal_allowance=0&basic_rate=35&higher_rate=55&add_rate=60) (£228bn), and the [fully modeled reform](https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&adult_UBI=184&child_UBI=92&senior_UBI=184&abolish_CB=1&abolish_CTC=1&abolish_ESA_income=1&abolish_IS=1&abolish_JSA_income=1&abolish_PC=1&abolish_SP=1&abolish_UC_carer=1&abolish_UC_child=1&abolish_UC_childcare=1&abolish_UC_standard=1&abolish_WTC=1&personal_allowance=0&higher_threshold=50000&add_rate=60&basic_rate=35&higher_rate=55&NI_add_rate=10&NI_class_4_add_rate=10&NI_class_4_main_rate=10&NI_main_rate=10) (£222bn). We omit 'People's Quantitative Easing' and 'Citizen's Wealth Fund'.
 
 
-| Element                                 | UBI Lab Network | PolicyEngine | Difference        |
-|-----------------------------------------|-----------------|--------------|-------------------|
-| Full UBI                                | (580)           | (585)        | -5 (0.9%)         |
-| Savings from current welfare programmes | 170             | 131          | -39 (22.9%)       |
-| Scrapping Personal Tax Allowance        | 111.2           | 85           | -26.2 (24%)       |
-| New Income Tax bands                    | 82.5            | 141          | +58.5 (71%)       |
-| New NIC bands                           | 30              | 6            | -24 (80%)         |
-| **Net cost of modelled features**       | **(186.3)**     | **(222)**    | **-35.7 (19.2%)** |
+| Element                                          | UBI Lab Network | PolicyEngine | Difference        |
+|--------------------------------------------------|-----------------|--------------|-------------------|
+| Full UBI                                         | (580)           | (585)        | -5 (0.9%)         |
+| Savings from current welfare programmes          | 170             | 131          | -39 (22.9%)       |
+| Scrapping Personal Tax Allowance                 | 111.2           | 85           | -26.2 (24%)       |
+| New Income Tax bands                             | 82.5            | 141          | +58.5 (71%)       |
+| New NIC bands                                    | 30              | 6            | -24 (80%)         |
+| **Net budget impact of PolicyEngine provisions** | **(186.3)**     | **(222)**    | **-35.7 (19.2%)** |
 
 
 See Appendix A for explanations of these differences.
@@ -252,14 +252,14 @@ Additional resources—the Resilience paper proposes reassigning DWP workers to 
 
 [^us-tax-gap]: The US Treasury Department estimates the current tax gap at about $600 billion. They also estimate that "$80 billion of investment over the coming ten years in enforcement, IT, and taxpayer services [would generate] an estimated $320 billion in additional tax collections over the next ten years" and that "changes to the third-party information reports are estimated to generate $460 billion over a decade." After the investment, that's an average of $70 billion per year, or 12% of the current tax gap, which might shrink to around 10% given the projected growth of the tax gap.
 
-Overall, we expect that HMRC more accurately captures the tax gap, and that additional enforcement could close it by the 10% estimated in the US. This comes to **£2.8bn per year.**
+Overall, we expect that HMRC more accurately captures the tax gap, and that additional enforcement could close it by the 10% estimated in the US. This comes to **£2.8bn** per year.
 
 
 ## VAT
 
 The standard VAT rate is currently 20%, and the Resilience UBI paper proposes raising it to 25%. The paper does not mention increasing the reduced rate of 5% for domestic fuel and power, children’s car seats and some other goods.
 
-The Office for Budget Responsibility reports that ["in 2019-20 VAT raised £134 billion"](https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/). They also find that around half of household expenditure is subject to the 20% rate, 3% is subject to the 5% rate, and the remainder is exempt or 'zero-rated'. That indicates that £664 billion of household expenditure was subject to the 20% rate. Raising the standard VAT rate to 25% would therefore raise £33.2bn, 21% more than the £27.5bn estimated in the Resilience paper. Increasing the reduced rate from 5% to 10% would raise an additional £2bn.
+The Office for Budget Responsibility reports that ["in 2019-20 VAT raised £134 billion"](https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/). They also find that around half of household expenditure is subject to the 20% rate, 3% is subject to the 5% rate, and the remainder is exempt or 'zero-rated'. That indicates that £664 billion of household expenditure was subject to the 20% rate. Raising the standard VAT rate to 25% would therefore raise **£33.2bn**, 21% more than the £27.5bn estimated in the Resilience paper. Increasing the reduced rate from 5% to 10% would raise an additional £2bn.
 
 
 ## Corporation Tax
@@ -272,7 +272,7 @@ However, Corporation Tax is already [slated to rise](https://www.legislation.gov
 
 Further raising Corporation Tax to 30% would push the UK above the average Corporation Tax rate among peer countries, which is generally around 27%. As a result, corporations would benefit more from shifting operations and profits to other countries, and the revenue opportunity would shrink.
 
-Conservatively applying OBR's 14% haircut, we estimate that the tax would raise £12.5bn rather than the static estimate of £14.5bn.
+Conservatively applying OBR's 14% haircut, we estimate that the tax would raise **£12.5bn** rather than the static estimate of £14.5bn.
 
 
 ## Financial Transactions Tax
@@ -284,33 +284,35 @@ The Resilience UBI paper says of the Financial Transactions Tax (FTT):
 They cite an [op-ed](https://www.opendemocracy.net/en/oureconomy/why-uk-needs-financial-transaction-tax/) for the £2bn figure, which then cites an [IFS analysis](https://election2019.ifs.org.uk/uploads/IFS-General-Election-Analysis-Stuart-Adam-Tax_.pdf) stating that it is "doubtful [the FTT] will raise the £9bn Labour assumes" though not estimating a particular value. In a [2019 article](https://www.internationaltaxreview.com/article/b1ht7s272j2rvq/uk-election-puts-the-financial-transaction-tax-on-the-agenda), Josh White says (without providing a source): \
 >The UK has an SDRT [stamp duty reserve tax] rate of 0.5% on share trading, which raised £3.5 billion ($4.5 billion) in 2017/18. Labour’s proposal would expand this to include transactions involving corporate bonds, equity and credit derivatives, raising an extra £2.1 billion in annual tax revenues.
 
-The Resilience UBI paper ultimately uses £2bn, which seems reasonable.
+The Resilience UBI paper ultimately uses **£2bn**, which seems reasonable.
 
 
 ## Bringing it all together
 
-The UBI Lab Network estimates that their entire Full UBI policy would produce a £33.7bn surplus. Adding the PolicyEngine results with separate estimates of provisions not yet modeled in PolicyEngine, we estimate a £47.5bn deficit.
+The UBI Lab Network estimates that their entire Full UBI policy would produce a £33.7bn surplus. Adding the PolicyEngine results with separate estimates of provisions not yet modeled in PolicyEngine, we estimate a **£55.5bn deficit.**
 
-| Element                                 | UBI Lab Network | UBI Center | Difference   |
-|-----------------------------------------|-----------------|------------|--------------|
-| Full UBI                                | (580)           | (568)      | -10 (1.7%)   |
-| Savings from current welfare programmes | 170             | 123        | -47 (28%)    |
-| Scrapping Personal Tax Allowance        | 111.2           | 81         | -30 (19%)    |
-| New Income Tax bands                    | 82.5            | 147        | +64.5 (82%)  |
-| New NIC bands                           | 30              | 3          | -27.1 (100%) |
-| VAT increase                            | 27.5            | 33.2       | +5.7 (21%)   |
-| Close tax loopholes                     | 60              | 2.8        | -57.2 (95%)  |
-| Financial Transactions Tax              | 2               | 2          | -            |
-| Wealth Tax                              | 116             | 116        | -            |
-| Reform Corporation Tax                  | 14.5            | 12.5       | -2 (14%)     |
-| **Net budget impact**                   | **33.7**        | **(47.5)** | **-81.2**    |
+| Element                                              | UBI Lab Network | UBI Center | Difference        |
+|------------------------------------------------------|-----------------|------------|-------------------|
+| Full UBI                                             | (580)           | (585)      | -5 (0.9%)         |
+| Savings from current welfare programmes              | 170             | 131        | -39 (22.9%)       |
+| Scrapping Personal Tax Allowance                     | 111.2           | 85         | -26.2 (24%)       |
+| New Income Tax bands                                 | 82.5            | 141        | +58.5 (71%)       |
+| New NIC bands                                        | 30              | 6          | -24 (80%)         |
+| **Net budget impact of PolicyEngine provisions**     | **(186.3)**     | **(222)**  | **-35.7 (19.2%)** |
+| Wealth Tax                                           | 116             | 116        | -                 |
+| Close tax loopholes                                  | 60              | 2.8        | -57.2 (95%)       |
+| VAT increase                                         | 27.5            | 33.2       | +5.7 (21%)        |
+| Reform Corporation Tax                               | 14.5            | 12.5       | -2 (14%)          |
+| Financial Transactions Tax                           | 2               | 2          | -                 |
+| **Net budget impact of non-PolicyEngine provisions** | **220.0**       | **166.5**  | **-53.5 (24.3%)** |
+| **Net combined budget impact**                       | **33.7**        | **(55.5)** | **-89.2**         |
 
 
 # Conclusion
 
 The UBI Lab Network's Resilience UBI is among the more comprehensive UBI plans put forth. Its Full UBI incorporates a range of revenue sources that nearly meets the tall task of funding a generous UBI. Even budget-neutral versions of the plan, limiting to PolicyEngine capabilities, reduce poverty by at least a quarter and benefit most UK residents.
 
-And yet, even with generous assumptions, we estimate that it falls short by nearly £50bn. This can be fully explained by a £57bn gap in estimated revenue from closing tax loopholes (a relatively subjective reform), though other assumptions like savings from welfare programs (which PolicyEngine measures precisely) also play a part.
+And yet, even with generous assumptions, we estimate that it falls short by over £50bn. This can be fully explained by a £57bn gap in estimated revenue from closing tax loopholes (a relatively subjective reform), though other assumptions like savings from welfare programs (which PolicyEngine measures precisely) also play a part.
 
 In the future, PolicyEngine will support modelling more components of this policy, such as the VAT increase and a wealth tax. While that full analysis will clarify these points, one area of potential concern is pensioner impact. Budget-neutral versions of the Full UBI left pensioner poverty rising 75-95%, as the UBI failed to cover State Pension. The true Full UBI cuts pension poverty 45%, but the VAT and wealth tax could offset that. As we showed in our [land dividend](https://www.ubicenter.org/uk-lvt) report, some low-income pensioners have enough wealth for taxes on wealth or components of it (such as land) can exceed UBI payments, especially at the high rates needed to raise £116bn per year. Similarly, pensioners continue to consume goods and services subject to VAT. Fully modelling this out may justify optimising the UBI amount, as we did in our [Blank Slate UBI](https://www.ubicenter.org/uk-blank-slate-ubi) report, which provided a larger UBI to pensioners than to working-age adults.
 
