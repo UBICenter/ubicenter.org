@@ -282,43 +282,44 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^4]: For example, Alaska provides an annual dividend of between $1,000 and $3,000 per person, funded by its oil wealth. A number of countries have universal child allowances or flat old-age pensions.
 
-[^5]: For example, the Economic Security Project and others are funding an experiment in Stockton, California (Martin-West et al., 2019), and OpenResearch (formerly Y-Combinator Research) is running an experiment across two US states (OpenResearch, 2020).
+[^5]: For example, the Economic Security Project and others are funding an [experiment in Stockton, California](https://static1.squarespace.com/static/6039d612b17d055cac14070f/t/603ef1194c474b329f33c329/1614737690661/SEED_Preliminary+Analysis-SEEDs+First+Year_Final+Report_Individual+Pages+-2.pdf), and OpenResearch (formerly Y-Combinator Research) is [running an experiment across two US states](https://openresearchlab.org/assets/publications/Basic-Income-Proposal.pdf).
 
-[^6]: See Preston (1975) and Gortmaker (1979).
+[^6]: See [Preston (1975)](https://www.tandfonline.com/doi/abs/10.1080/00324728.1975.10410201) and [Gortmaker (1979)](https://doi.org/10.2307/2094510).
 
-[^7]: Based on World Bank data on 183 countries for income, or 76 countries for poverty, weighted by country population (Ghenis, 2020). Regressions including both log income and the extreme poverty rate show similar t-statistics between the two predictors across outcomes, both around 6 in absolute value and coefficients falling by roughly half compared to 1-predictor regressions; poverty and life expectancy is an exception at around -2.8, suggesting that extreme poverty has a stronger effect on infant and child mortality than on life expectancy. Infant and child mortality are defined as deaths of children under age 1 and 5, respectively.
+[^7]: [My calculations](https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8) based on World Bank data on 183 countries for income, or 76 countries for poverty, weighted by country population. Regressions including both log income and the extreme poverty rate show similar t-statistics between the two predictors across outcomes, both around 6 in absolute value and coefficients falling by roughly half compared to 1-predictor regressions; poverty and life expectancy is an exception at around -2.8, suggesting that extreme poverty has a stronger effect on infant and child mortality than on life expectancy. Infant and child mortality are defined as deaths of children under age 1 and 5, respectively.
 
-[^8]: Despite the relatively few cases of child mortality, the result was statistically significant with a t-statistic of -2.05 (McIntosh & Zeitlin, 2018).
+[^8]: Despite the relatively few cases of child mortality, the result was statistically significant with a t-statistic of -2.05 [(McIntosh & Zeitlin, 2018)](https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf).
 
-[^9]: Progresa transfers increased income by about 22 percent (Barham, 2011). Infant and neonatal mortality are defined as death in the first year and 28 days of life, respectively (UNICEF, 2020).
+[^9]: Progresa transfers increased income by about 22 percent [(Barham, 2011)](https://doi.org/10.1016/j.jdeveco.2010.01.003
+). Infant and neonatal mortality are defined as death in the first year and 28 days of life, respectively [(UNICEF, 2020)](https://data.unicef.org/topic/child-survival/neonatal-mortality/).
 
-[^10]: Bolsa Familia “transfers ranged from $18 to $175 per month, depending on the income and composition of the family”; the effect size varied with the program’s coverage by municipality, the unit of analysis (Rasella et al., 2013).
+[^10]: Bolsa Familia “transfers ranged from $18 to $175 per month, depending on the income and composition of the family”; the effect size varied with the program’s coverage by municipality, the unit of analysis [(Rasella et al., 2013)](https://doi.org/10.1016/S0140-6736(13)60715-1).
 
-[^11]: Haushofer & Shapiro (2016).
+[^11]: [Haushofer & Shapiro (2016)](https://doi.org/10.1093/qje/qjw025).
 
-[^12]: Malawi (Abdoulayi et al., 2016) and Zambia (Seidenfeld et al., 2016; Seidenfeld & Handa, 2014).
+[^12]: Malawi [(Abdoulayi et al., 2016)](https://www.unicef.org/evaldatabase/index_94228.html) and Zambia ([Seidenfeld et al., 2016](https://www.air.org/system/files/downloads/report/MCTG_36Month_Final_Feb2016.pdf); [Seidenfeld & Handa, 2014](https://www.unicef.org/evaldatabase/files/Zambia_Child_Grant_Programe_-_36_month_impact_report.pdf)).
 
-[^13]: McIntosh & Zeitlin (2018).
+[^13]: [McIntosh & Zeitlin (2018)](http://arxiv.org/abs/2009.01749).
 
-[^14]: Reproduced from Table 6.1 (Ord, 2020).
+[^14]: Reproduced from Table 6.1 of _The Precipice_.
 
 [^15]: Ord defines existential risk more broadly than killing all of humanity, as risks that destroy humanity’s potential. Climate change could, for example, threaten to kill so much of humanity, and leave the remainder in such uninhabitable environs, that our species spends the rest of its days living on subsistence without the capacity to advance; this would also qualify as an existential catastrophe.
 
-[^16]: 55.8 percent of the world population lived in democratic states as of 2015 (Roser, 2013).
+[^16]: 55.8 percent of the world population lived in democratic states as of 2015 [(Roser, 2013)](https://ourworldindata.org/democracy).
 
-[^17]: Mischel & Ebbesen (1970).
+[^17]: [Mischel & Ebbesen (1970)](https://content.apa.org/record/1971-02138-001).
 
-[^18]: Dickman (1990).
+[^18]: [Dickman (1990)](https://doi.org/10.1037/0022-3514.58.1.95).
 
-[^19]: Based on a “representative data set on time preferences from 80,000 individuals in 76 countries,” this study also found correlations between income and discount factors	 at the individual level (Dohmen et al., 2015).
+[^19]: Based on a “representative data set on time preferences from 80,000 individuals in 76 countries,” this study also found correlations between income and discount factors	 at the individual level [(Dohmen et al., 2015)](https://econpapers.repec.org/paper/hkawpaper/2016-012.htm).
 
-[^20]: Mexico (Carvalho, 2008) and Guatemala (Aycinena et al., 2019).
+[^20]: Mexico [(Carvalho, 2008)](https://www.rand.org/pubs/working_papers/WR759.html) and Guatemala [(Aycinena et al., 2019)](https://doi.org/10.1080/15140326.2019.1596641).
 
-[^21]: Lawrance (1991).
+[^21]: [Lawrance (1991)](https://doi.org/10.1086/261740).
 
-[^22]: Lynam et al. (2000).
+[^22]: [Lynam et al. (2000)](https://pubmed.ncbi.nlm.nih.gov/11195980/).
 
-[^23]: Assari et al. (2018).
+[^23]: [Assari et al. (2018)](https://doi.org/10.3390/children5050058).
 
 [^24]: Aguiar et al. (2020).
 
@@ -338,13 +339,13 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^32]: Pew Research Center (2019).
 
-[^33]: Using World Bank data from 186 countries, weighted by population (Ghenis, 2020).
+[^33]: Using World Bank data from 186 countries, weighted by population [(Ghenis, 2020)](https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8).
 
 [^34]: Ferraro & Simorangkir (2020).
 
 [^35]: Nawaz & Iqbal (2020).
 
-[^36]: As of 2018, global carbon emissions were 4.5 metric tons per capita, compared to 15.2 in the US and 4.6 in France (World Bank, 2021). NB: I updated this number compared to the book chapter, which used data from 2014, the latest available at its publication.
+[^36]: As of 2018, global carbon emissions were 4.5 metric tons per capita, compared to 15.2 in the US and 4.6 in France [(World Bank, 2021)](https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=FR-US-1W). NB: I updated this number compared to the book chapter, which used data from 2014, the latest available at its publication.
 
 [^37]: IPCC (2018).
 
@@ -352,11 +353,11 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^39]: Climate Leadership Council (n.d.).
 
-[^40]: The US Treasury Department found that a carbon tax of $49 per metric ton could fund a rebate of $583 per person; this would raise the incomes of the bottom seven deciles, on average, at the cost of the upper three deciles (Horowitz et al., 2017). Another study found that a $50 per ton carbon dividend “benefits 56 percent of people, including 85 percent in the bottom half of the distribution” (Fremstad & Paul, 2019).
+[^40]: The US Treasury Department found that a carbon tax of $49 per metric ton could fund a rebate of $583 per person; this would raise the incomes of the bottom seven deciles, on average, at the cost of the upper three deciles [(Horowitz et al., 2017)](https://www.treasury.gov/resource-center/tax-policy/tax-analysis/Documents/WP-115.pdf). Another study found that a $50 per ton carbon dividend “benefits 56 percent of people, including 85 percent in the bottom half of the distribution” [(Fremstad & Paul, 2019)](https://econpapers.repec.org/article/eeeecolec/v_3a163_3ay_3a2019_3ai_3ac_3ap_3a88-97.htm).
 
 [^41]: Morning Consult (2020).
 
-[^42]: Per a poll from the Economic Security Project (Isenberg, 2017).
+[^42]: Per a poll from the Economic Security Project [(Isenberg, 2017)](https://medium.com/economicsecproj/what-a-new-survey-from-alaska-can-teach-us-about-public-support-for-basic-income-ccd0c3c16b42).
 
 [^43]: New York Times (2020).
 
