@@ -4,7 +4,7 @@ current: post
 cover: assets/images/2021-11-30-mortality-existential-risk-ubi/cover.png
 navigation: True
 title: Mortality, existential risk, and universal basic income
-date: 2021-11-29
+date: 2021-11-30
 tags: [effective altruism]
 subclass: "post"
 author: [max]
@@ -13,15 +13,12 @@ class: post-template
 ---
 
 Below is a chapter I wrote for the book [*Death And Anti-Death, Volume 18: Fifty Years After Earth Day*](https://www.amazon.com/Death-Anti-Death-18-Fifty-University/dp/1934297348), published in December 2020.
-In it, I argue that poverty alleviation would reduce both mortality and existential risk, and that, among anti-poverty programs, universal basic income has a number of advantages over targeted and in-kind benefits.
-I'm posting it on Giving Tuesday both to highlight the work of GiveDirectly, which provides cash transfers to extremely poor people and conducts research on those payments that I cite extensively, and to invite readers to consider tax and benefit policy research as a cause area for effective giving.
+In the chapter, I argue that poverty alleviation would reduce both mortality and existential risk, and that, among anti-poverty programs, universal basic income has a number of advantages over targeted and in-kind benefits.
+I'm posting it on Giving Tuesday both to highlight the work of [GiveDirectly](https://givedirectly.org), which provides cash transfers to extremely poor people and conducts research on those payments that I cite extensively, and to invite readers to consider tax and benefit policy research as a cause area for effective giving--research like we and our sister nonprofit, [PolicyEngine](https://policyengine.org), conduct.
 
-
-_Disclaimer: I founded and currently lead two nonprofits in this space: the [UBI Center](https://ubicenter.org), which researches universal basic income policies, and [PolicyEngine](https://policyengine.org), which builds technology to empower people to understand and change public policy._
-
-Beyond the information in this chapter, I believe trends in the past year increase the potential of tax and benefit policy as a cause area.
+Beyond the information in this chapter, trends from the past year suggest greater potential for tax and benefit policy as a cause area.
 [GiveWell has said](https://www.givewell.org/international/technical/programs/cash-transfers) that "Cash transfers have the strongest track record we've seen for a non-health intervention," yet governments continue to restrict uses of benefit dollars.
-The US Bipartisan Infrastructure Package, for example, created a \$14 billion broadband subsidy, and the Build Back Better Act would spend \$500 billion on childcare subsidies (double the amount that it would spend on the Child Tax Credit).
+The US Bipartisan Infrastructure Package, for example, created a [\$14 billion broadband subsidy](https://www.fcc.gov/broadbandbenefit), and the Build Back Better Act would spend [\$500 billion on childcare subsidies](https://www.whitehouse.gov/briefing-room/statements-releases/2021/10/28/president-biden-announces-the-build-back-better-framework/) (twice as much as on the Child Tax Credit).
 Both of these programs create _welfare cliffs_, in which higher earnings can leave people worse off due to lost benefits.
 Developing countries enact policies that are similarly flawed, if not worse.
 
@@ -30,7 +27,7 @@ In their [response](https://www.givedirectly.org/dont-wait/), GiveDirectly claim
 And in their [previous blog post](https://www.givedirectly.org/1-million-households/), GiveDirectly said that, despite having sent cash transfers to a million households, they've reached under one percent of extremely poor households in Kenya, the country where they have the largest presence.
 
 GiveDirectly continues to be exceptionally worthy, but governments too have a role to play.
-The scale of reforming tax and benefit policy is enormous: OECD countries collect a third of GDP in taxes, and redistribute a third of that as cash benefits--and those shares are growing as economies get richer.
+The scale of reforming tax and benefit policy is enormous: OECD countries collect [a third of GDP in taxes](https://www.oecd.org/tax/tax-policy/revenue-statistics-highlights-brochure.pdf), and redistribute [a third of that as cash benefits](https://www.oecd.org/els/soc/OECD2020-Social-Expenditure-SOCX-Update.pdf)--and those shares are growing as economies get richer.
 We believe we're targeting neglected angles on the broad cause area (technology and considering taxes and benefits together), and our early traction with policymakers in the UK suggests that these novel angles can make reform tractable as well.
 
 With that, here is **Mortality, existential risk, and universal basic income**:
@@ -255,7 +252,7 @@ Of course, universal programs cost more than targeted programs. Simply spreading
 
 Societies that pursue this strategy achieve lower disposable income inequality (inequality of income after taxes and transfers). The US, for example, ranks in the middle of OECD countries in market income inequality, but because it doesn’t redistribute much, its disposable income inequality is third from the bottom, more equal only than Chile and Mexico. Despite similar market income inequality to the US, Germany and Finland reduce inequality about twice as much as the US does.[^74]
 
-How do these European social democracies reduce inequality so much? Counterintuitively, it’s not through progressive taxation, in which tax rates rise with income; the US actually taxes more progressively than any other OECD country. It’s through _high _taxation that supports generous transfers. The US taxes 24 percent of its GDP, compared to the 34 percent OECD average; only Ireland, Chile, and Mexico tax less.[^75]
+How do these European social democracies reduce inequality so much? Counterintuitively, it’s not through progressive taxation, in which tax rates rise with income; the US actually taxes more progressively than any other OECD country. It’s through _high_ taxation that supports generous transfers. The US taxes 24 percent of its GDP, compared to the 34 percent OECD average; only Ireland, Chile, and Mexico tax less.[^75]
 
 Low US taxes are largely explained by the absence of a _value added tax_ (VAT), the type of consumption tax levied in all other OECD countries.[^76] 2020 US presidential candidate Andrew Yang proposed remedying that: the Freedom Dividend plan at the heart of his campaign featured a UBI of $1,000 per month per adult citizen, primarily funded by a 10 percent VAT. In a distributional analysis of his plan, which also included other reforms like a carbon dividend, welfare reform, and treating capital gains as ordinary income, I found that this plan would be progressive, lowering US inequality by 15 percent.[^77] Others have also found VAT-funded UBIs to be progressive;[^78] although VAT incidence is slightly regressive, as consumption as a share of income falls with income, the considerable progressiveness of the UBI makes the overall policy progressive.
 
@@ -290,8 +287,7 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^8]: Despite the relatively few cases of child mortality, the result was statistically significant with a t-statistic of -2.05 [(McIntosh & Zeitlin, 2018)](https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf).
 
-[^9]: Progresa transfers increased income by about 22 percent [(Barham, 2011)](https://doi.org/10.1016/j.jdeveco.2010.01.003
-). Infant and neonatal mortality are defined as death in the first year and 28 days of life, respectively [(UNICEF, 2020)](https://data.unicef.org/topic/child-survival/neonatal-mortality/).
+[^9]: Progresa transfers increased income by about 22 percent [(Barham, 2011)](https://doi.org/10.1016/j.jdeveco.2010.01.003). Infant and neonatal mortality are defined as death in the first year and 28 days of life, respectively [(UNICEF, 2020)](https://data.unicef.org/topic/child-survival/neonatal-mortality/).
 
 [^10]: Bolsa Familia “transfers ranged from $18 to $175 per month, depending on the income and composition of the family”; the effect size varied with the program’s coverage by municipality, the unit of analysis [(Rasella et al., 2013)](https://doi.org/10.1016/S0140-6736(13)60715-1).
 
@@ -371,7 +367,7 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^48]: As of May 5, 2020, the COVID-19 death rate per 100,000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York [(Chen & Krieger, 2020)](https://doi.org/10.1097/PHH.0000000000001263).
 
-[^49]: Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly _more _likely to wear masks than higher-income people [(Gallup, 2020)](https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx).
+[^49]: Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly _more_ likely to wear masks than higher-income people [(Gallup, 2020)](https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx).
 
 [^50]: [Bargain & Aminjonov (2020)](https://papers.ssrn.com/abstract=3596671).
 
