@@ -321,116 +321,116 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^23]: [Assari et al. (2018)](https://doi.org/10.3390/children5050058).
 
-[^24]: Aguiar et al. (2020).
+[^24]: [Aguiar et al. (2020)](https://doi.org/10.3386/w26643).
 
-[^25]: Balboni et al. (2020).
+[^25]: [Balboni et al. (2020)](https://papers.ssrn.com/abstract=3594155).
 
-[^26]: Becker & Mulligan (1997).
+[^26]: [Becker & Mulligan (1997)](https://doi.org/10.1162/003355397555334).
 
-[^27]: Mughan & Paxton (2006).
+[^27]: [Mughan & Paxton (2006)](https://doi.org/10.1017/S0007123406000184).
 
-[^28]: Jetten et al. (2015).
+[^28]: [Jetten et al. (2015)](https://doi.org/10.1371/journal.pone.0139156).
 
-[^29]: Muñoz & Pardos-Prado (2019).
+[^29]: [Muñoz & Pardos-Prado (2019)](https://doi.org/10.1017/psrm.2017.18).
 
-[^30]: Gallup (2019).
+[^30]: [Gallup (2019)](https://news.gallup.com/poll/315590/americans-face-mask-usage-varies-greatly-demographics.aspx).
 
-[^31]: Heckman et al. (2018).
+[^31]: [Heckman et al. (2018)](https://doi.org/10.1086/697535).
 
-[^32]: Pew Research Center (2019).
+[^32]: [Pew Research Center (2019)](https://www.pewresearch.org/fact-tank/2019/09/23/united-nations-gets-mostly-positive-marks-from-people-around-the-world/).
 
 [^33]: Using World Bank data from 186 countries, weighted by population [(Ghenis, 2020)](https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8).
 
-[^34]: Ferraro & Simorangkir (2020).
+[^34]: [Ferraro & Simorangkir (2020)](https://doi.org/10.1126/sciadv.aaz1298).
 
-[^35]: Nawaz & Iqbal (2020).
+[^35]: [Nawaz & Iqbal (2020)](https://doi.org/10.1016/j.enpol.2020.111535).
 
 [^36]: As of 2018, global carbon emissions were 4.5 metric tons per capita, compared to 15.2 in the US and 4.6 in France [(World Bank, 2021)](https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=FR-US-1W). NB: I updated this number compared to the book chapter, which used data from 2014, the latest available at its publication.
 
-[^37]: IPCC (2018).
+[^37]: [IPCC (2018)](https://www.ipcc.ch/sr15/).
 
-[^38]: Climate Interactive (2019).
+[^38]: [Climate Interactive (2019)](https://en-roads.climateinteractive.org/scenario.html).
 
-[^39]: Climate Leadership Council (n.d.).
+[^39]: [Climate Leadership Council (n.d.)](https://www.econstatement.org).
 
 [^40]: The US Treasury Department found that a carbon tax of $49 per metric ton could fund a rebate of $583 per person; this would raise the incomes of the bottom seven deciles, on average, at the cost of the upper three deciles [(Horowitz et al., 2017)](https://www.treasury.gov/resource-center/tax-policy/tax-analysis/Documents/WP-115.pdf). Another study found that a $50 per ton carbon dividend “benefits 56 percent of people, including 85 percent in the bottom half of the distribution” [(Fremstad & Paul, 2019)](https://econpapers.repec.org/article/eeeecolec/v_3a163_3ay_3a2019_3ai_3ac_3ap_3a88-97.htm).
 
-[^41]: Morning Consult (2020).
+[^41]: [Morning Consult (2020)](https://clcouncil.org/morning-consult-poll.pdf).
 
 [^42]: Per a poll from the Economic Security Project [(Isenberg, 2017)](https://medium.com/economicsecproj/what-a-new-survey-from-alaska-can-teach-us-about-public-support-for-basic-income-ccd0c3c16b42).
 
-[^43]: New York Times (2020).
+[^43]: [New York Times (2020)](https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html).
 
-[^44]: As of August 12, 2020, US excess mortality was about 200,000, while official Covid-19 deaths were about 140,000 (Lu, 2020).
+[^44]: As of August 12, 2020, US excess mortality was about 200,000, while official Covid-19 deaths were about 140,000 [(Lu, 2020)](https://www.nytimes.com/interactive/2020/08/12/us/covid-deaths-us.html).
 
-[^45]: As of September 28, 2020, a group of “superforecasters,” selected based on prediction accuracy across other outcomes, had assigned a 57 percent probability to global Covid-19 deaths exceeding 2.7 million by March 2020 (Good Judgment Project, 2020).
+[^45]: As of September 28, 2020, a group of “superforecasters,” selected based on prediction accuracy across other outcomes, had assigned a 57 percent probability to global Covid-19 deaths exceeding 2.7 million by March 2020 [(Good Judgment Project, 2020)](https://goodjudgment.io/superforecasts/#1388).
 
-[^46]: Covid-19 is projected to kill 145 Hawaiians per million population, vs. 693 Americans per million (Gu, 2020). 
+[^46]: Covid-19 is projected to kill 145 Hawaiians per million population, vs. 693 Americans per million [(Gu, 2020)](https://covid19-projections.com/). 
 
-[^47]: Banerjee et al. (2020).
+[^47]: [Banerjee et al. (2020)](https://www.poverty-action.org/publication/effects-universal-basic-income-during-pandemic).
 
-[^48]: As of May 5, 2020, the COVID-19 death rate per 100,000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York (Chen & Krieger, 2020).
+[^48]: As of May 5, 2020, the COVID-19 death rate per 100,000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York [(Chen & Krieger, 2020)](https://doi.org/10.1097/PHH.0000000000001263).
 
-[^49]: Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly _more _likely to wear masks than higher-income people (Gallup, 2020).
+[^49]: Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly _more _likely to wear masks than higher-income people [(Gallup, 2020)](https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx).
 
-[^50]: Bargain & Aminjonov (2020).
+[^50]: [Bargain & Aminjonov (2020)](https://papers.ssrn.com/abstract=3596671).
 
-[^51]: Russell (2019).
+[^51]: [Russell (2019)](https://www.amazon.com/Human-Compatible-Artificial-Intelligence-Problem-ebook/dp/B07N5J5FTS).
 
-[^52]: Bruenig (2019).
+[^52]: [Bruenig (2019)](https://www.peoplespolicyproject.org/2019/09/16/the-us-welfare-state-cut-poverty-by-two-thirds-in-2018/).
 
-[^53]: Minton & Giannarelli (2019).
+[^53]: [Minton & Giannarelli (2019)](https://www.urban.org/research/publication/five-things-you-may-not-know-about-us-social-safety-net).
 
-[^54]: Greenstein (2012).
+[^54]: [Greenstein (2012)](https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is).
 
-[^55]: Ghenis (2017).
+[^55]: [Ghenis (2017)](https://medium.com/basic-income/if-we-can-afford-our-current-welfare-system-we-can-afford-basic-income-9ae9b5f186af).
 
-[^56]: _GiveDirectly_ (2020).
+[^56]: [_GiveDirectly_ (2020)](https://www.givedirectly.org/).
 
-[^57]: See papers on benchmarking UCTs to a child nutrition program (McIntosh & Zeitlin, 2018) and to an workforce training program (McIntosh & Zeitlin, 2020).
+[^57]: See papers on benchmarking UCTs to a child nutrition program [(McIntosh & Zeitlin, 2018)](https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf) and to an workforce training program [(McIntosh & Zeitlin, 2020)](http://arxiv.org/abs/2009.01749).
 
-[^58]: National Low Income Housing Coalition (2016).
+[^58]: [National Low Income Housing Coalition (2016)](https://nlihc.org/resource/housing-spotlight-volume-6-issue-1).
 
-[^59]: Cavaille & Ferwerda (2017).
+[^59]: [Cavaille & Ferwerda (2017)](https://ideas.repec.org/p/cge/wacage/328.html).
 
-[^60]: Hammond (2018).
+[^60]: [Hammond (2018)](https://www.niskanencenter.org/denmark-ghettos-public-housing/).
 
-[^61]: USDA (2013).
+[^61]: [USDA (2013)](https://www.fns.usda.gov/wic/wic-food-packages-regulatory-requirements-wic-eligible-foods#MILK).
 
-[^62]: USDA (2020).
+[^62]: [USDA (2020)](https://www.fns.usda.gov/snap/eligible-food-items).
 
 [^63]: Purchase limitations prevent the poor from accessing normal markets, which in turn will make commercially-motivated AIs more uncertain about their preferences.
 
-[^64]: Cash transfers do not raise consumption of alcohol and tobacco (Evans & Popova, 2014).
+[^64]: Cash transfers do not raise consumption of alcohol and tobacco [(Evans & Popova, 2014)](https://blogs.worldbank.org/impactevaluations/do-poor-waste-transfers-booze-and-cigarettes-no).
 
-[^65]: Mok (2018).
+[^65]: [Mok (2018)](https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/50923-marginaltaxrates.pdf).
 
-[^66]: Stapleton et al. (2006).
+[^66]: [Stapleton et al. (2006)](https://doi.org/10.1111/j.1468-0009.2006.00465.x).
 
 [^67]: Only the Additional Child Tax Credit component of the Child Tax Credit is refundable, meaning that it can reduce federal tax liability below zero.
 
-[^68]: Greenstein (2012).
+[^68]: [Greenstein (2012)](https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is).
 
-[^69]: Millar & Whiteford (2020).
+[^69]: [Millar & Whiteford (2020)](https://doi.org/10.1332/175982719X15723525915871).
 
-[^70]: Kangas et al. (2019).
+[^70]: [Kangas et al. (2019)](https://julkaisut.valtioneuvosto.fi/handle/10024/161361).
 
-[^71]: Muñoz & Pardos-Prado (2019).
+[^71]: [Muñoz & Pardos-Prado (2019)](https://doi.org/10.1017/psrm.2017.18).
 
-[^72]: Kidd & Athias (2020).
+[^72]: [Kidd & Athias (2020)](https://www.developmentpathways.co.uk/publications/hit-and-miss-an-assessment-of-targeting-effectiveness-in-social-protection).
 
-[^73]: Hoynes & Rothstein (2019).
+[^73]: [Hoynes & Rothstein (2019)](https://doi.org/10.3386/w25538).
 
-[^74]: Roser & Ortiz-Ospina (2016).
+[^74]: [Roser & Ortiz-Ospina (2016)](https://ourworldindata.org/income-inequality).
 
-[^75]: OECD (2019a).
+[^75]: [OECD (2019a)](https://www.oecd.org/tax/revenue-statistics-2522770x.htm).
 
-[^76]: OECD (2019b).
+[^76]: [OECD (2019b)](https://doi.org/10.1787/ctt-2018-7-en).
 
-[^77]: I found that Yang’s plan would not be fully paid for (Ghenis, 2019a), as did the Tax Foundation (Pomerleau, 2019). A budget-neutral version of Yang’s plan, providing a monthly payment of $471 rather than $1,000, would reduce inequality by 9 percent instead, as measured by the Gini index (Ghenis, 2019b)
+[^77]: I found that Yang’s plan would not be fully paid for [(Ghenis, 2019a)](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b), as did the Tax Foundation [(Pomerleau, 2019)](https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/). A budget-neutral version of Yang’s plan, providing a monthly payment of $471 rather than $1,000, would reduce inequality by 9 percent instead, as measured by the Gini index [(Ghenis, 2019b)](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea).
 
-[^78]: Gale (2020).
+[^78]: [Gale (2020)](https://www.brookings.edu/wp-content/uploads/2020/01/Gale_LO_01.13.pdf).
 
-[^79]: A death from malaria can be averted for under $4,000, and most of these averted deaths are of children under 5 (GiveWell, 2020).
+[^79]: A death from malaria can be averted for under $4,000, and most of these averted deaths are of children under 5 [(GiveWell, 2020)](https://docs.google.com/spreadsheets/d/1BmFwVYeGMkpys6hG0tnfHyq__ZFZf-bmXYLSHODGpLY).
 
-[^80]: Shaw (2020).
+[^80]: [Shaw (2020)](https://medium.com/basic-income/how-to-build-a-movement-in-record-time-456c620dcf1c).
