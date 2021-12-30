@@ -76,14 +76,14 @@ Through a combination of evidence and expert opinion, Ord estimated the probabil
 
 | Existential catastrophe via       | Chance within the next 100 years |
 |-----------------------------------|----------------------------------|
-| Asteroid or comet impact          | ~1 in 1, 000, 000                |
-| Supervolcanic eruption            | ~1 in 10, 000                    |
-| Stellar explosion                 | ~1 in 1, 000, 000, 000           |
-| **Total natural risk**            | **~1 in 10, 000**                |
-| Nuclear war                       | ~1 in 1, 000                     |
-| Climate change                    | ~1 in 1, 000                     |
-| Other environmental damage        | ~1 in 1, 000                     |
-| ‘Naturally’ arising pandemics     | ~1 in 10, 000                    |
+| Asteroid or comet impact          | ~1 in 1, 000, 000                  |
+| Supervolcanic eruption            | ~1 in 10, 000                     |
+| Stellar explosion                 | ~1 in 1, 000, 000, 000              |
+| **Total natural risk**            | **~1 in 10, 000**                 |
+| Nuclear war                       | ~1 in 1, 000                      |
+| Climate change                    | ~1 in 1, 000                      |
+| Other environmental damage        | ~1 in 1, 000                      |
+| ‘Naturally’ arising pandemics     | ~1 in 10, 000                     |
 | Engineered pandemics              | ~1 in 30                         |
 | Unaligned artificial intelligence | ~1 in 10                         |
 | Unforeseen anthropogenic risks    | ~1 in 30                         |
