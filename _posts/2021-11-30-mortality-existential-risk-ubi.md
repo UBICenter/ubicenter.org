@@ -17,7 +17,7 @@ In the chapter, I argue that poverty alleviation would reduce both mortality and
 I'm posting it on Giving Tuesday both to highlight the work of [GiveDirectly](https://givedirectly.org), which provides cash transfers to extremely poor people and conducts research on those payments that I cite extensively, and to invite readers to consider tax and benefit policy research as a cause area for effective giving--research like we and our sister nonprofit, [PolicyEngine](https://policyengine.org), conduct.
 
 Beyond the information in this chapter, trends from the past year suggest greater potential for tax and benefit policy as a cause area.
-[GiveWell has said](https://www.givewell.org/international/technical/programs/cash-transfers) that "Cash transfers have the strongest track record we've seen for a non-health intervention," yet governments continue to restrict uses of benefit dollars.
+[GiveWell has said](https://www.givewell.org/international/technical/programs/cash-transfers) that "Cash transfers have the strongest track record we've seen for a non-health intervention, " yet governments continue to restrict uses of benefit dollars.
 The US Bipartisan Infrastructure Package, for example, created a [\$14 billion broadband subsidy](https://www.fcc.gov/broadbandbenefit), and the Build Back Better Act would spend [\$500 billion on childcare subsidies](https://www.whitehouse.gov/briefing-room/statements-releases/2021/10/28/president-biden-announces-the-build-back-better-framework/) (twice as much as on the Child Tax Credit).
 Both of these programs create _welfare cliffs_, in which higher earnings can leave people worse off due to lost benefits.
 Developing countries enact policies that are similarly flawed, if not worse.
@@ -34,23 +34,21 @@ With that, here is **Mortality, existential risk, and universal basic income**:
 
 ## Introduction
 
-
 Toby Ord didn’t start his career thinking about the far future. When the Oxford philosopher created the organization _Giving What We Can_ (GWWC) in 2009, it focused on finding the most cost-effective charities for saving or improving lives today, like malaria bed nets, and encouraging members to pledge 10 percent of their income to those charities. This marked the beginning of the movement known as _effective altruism_ (EA), which [describes itself as](https://www.centreforeffectivealtruism.org/ceas-guiding-principles/) “about using evidence and reason to figure out how to benefit others as much as possible, and taking action on that basis.”
 
 Thirty-seven years before Ord created the EA movement, Princeton philosopher Peter Singer formed the ideas that now underpin it. In his 1972 essay, [_Famine, Affluence, and Morality_](https://www.jstor.org/stable/2265052), Singer offered the following thought experiment:
 
->...if I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a bad thing...It makes no moral difference whether the person I can help is a neighbor’s child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.
+> ...if I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a bad thing... It makes no moral difference whether the person I can help is a neighbor’s child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.
 
 Singer taught, as EA now does, to look beyond one’s immediate circle to humanity as a whole when weighing how to do good. If saving a drowning child in front of you is worth some sacrifice, it must be worth the same sacrifice to save an out-of-view child from perishing, as well.
 
-But what if the metaphorical drowning child, rather than being 10,000 miles away, is 10,000 years in the future? This is the question Ord explores in his 2020 book, [_The Precipice._](https://theprecipice.com/) The risks he considers are not children dying from preventable disease, but of children never being born at all—not hundreds or thousands of children, but billions or trillions of them throughout humanity’s vast potential future. Whether our species can end suffering, explore other worlds, and experience the unimaginable, all depends on whether we can survive to continue our story.
+But what if the metaphorical drowning child, rather than being 10, 000 miles away, is 10, 000 years in the future? This is the question Ord explores in his 2020 book, [_The Precipice._](https://theprecipice.com/) The risks he considers are not children dying from preventable disease, but of children never being born at all—not hundreds or thousands of children, but billions or trillions of them throughout humanity’s vast potential future. Whether our species can end suffering, explore other worlds, and experience the unimaginable, all depends on whether we can survive to continue our story.
 
 Ord argues that we may be living through the most important time in history, when our technological power is growing so rapidly that we could make humanity’s final mistake. Climate change, nuclear war, pandemics, or unaligned artificial intelligence could all spell the end of humanity if we’re not careful. The extremely high stakes of safeguarding humanity’s future potential makes it worth fighting for, even if the probability of catastrophe is low—and in estimating its odds at 1 in 6, Ord doesn’t believe it to be so low. He brought his optimism from addressing global poverty, identifying specific ways that individuals can help, not just by donating to effective organizations working to minimize existential risks, but also by directing their own careers to make the biggest difference.
 
 While EA has grown over the past decade, so too has a much older idea: universal basic income, or UBI. UBI is an unconditional cash payment given to every member of society on a regular basis, typically monthly, sufficient to meet basic needs. No government has yet implemented it, though many have enacted programs that check some of the boxes.[^4] A number of cities have also pursued philanthropically-funded UBI pilots and experiments.[^5]
 
 In this chapter, I will connect UBI to the theme of this book series, through the lens of effective altruism. In short, I will review how reducing poverty could save lives in the short and (very) long run, and how UBI policies could effectively achieve that egalitarianism.
-
 
 ## Poverty and mortality
 
@@ -62,14 +60,13 @@ Evidence comes largely from cash transfer programs, studies of which compare rec
 
 The simplest form of evidence is randomized controlled trials (RCTs), in which individuals are randomly assigned to a treatment or control group, as in medical trials. An RCT in Rwanda, for example, found that a one-time $500 UCT to households that contain poor or underweight children, or pregnant or lactating women, reduced child mortality by 70 percent compared to a control group.[^8] However, the small sample size—two children died in the treatment group, compared to 13 children in the larger control group—justifies considering other evidence as well.
 
-When cash transfers aren’t randomly assigned, they can often be evaluated when governments deploy them semi-randomly, as Mexico did when it staggered the rollout of its _Progresa_ CCT across geographies. Compared to households who would have received Progresa transfers if they’d been in early-rollout areas, treated rural households experienced 17 percent less infant mortality, though neonatal mortality did not significantly change.[^9] Brazil’s similar CCT, _Bolsa Familia,_ reduced child mortality by between 6 and 17 percent.[^10]
+When cash transfers aren’t randomly assigned, they can often be evaluated when governments deploy them semi-randomly, as Mexico did when it staggered the rollout of its _Progresa_ CCT across geographies. Compared to households who would have received Progresa transfers if they’d been in early-rollout areas, treated rural households experienced 17 percent less infant mortality, though neonatal mortality did not significantly change.[^9] Brazil’s similar CCT, _Bolsa Familia, _ reduced child mortality by between 6 and 17 percent.[^10]
 
 In 1911, the US government established its first welfare program, the Mother's Pension Program, which provided cash transfers representing 12 to 25 percent of family income, generally for about 3 years. Male children of mothers accepted for the US Mother's Pension Program lived one year longer than male children of mothers who were rejected after initial acceptance (Aizer et al., 2016). This study also reported other medium-term outcomes, which can help estimate the effects of other cash transfer results for which mortality data is not yet reliably available. The program "resulted in a significant 50 percent decrease in under-nutrition, a 13 percent increase in income, and an increase of 0.4 years of school among young adults." By comparing these results to other research on mortality and being underweight (Flegal et al., 2005), income (Deaton & Paxson, 2001), and education (Cutler & Lleras-Muney, 2006), the authors establish that education and income explain 75 to 95 percent of the longevity increase, while the underweight channel explains a small share.
 
-Cash transfer experiments have established robust causal relationships between poverty and intermediate outcomes identified in the Mothers Pension Program study. A $1,000 UCT to extremely poor households in Kenya raised subsequent earnings by $270.[^11] UCTs in Malawi and Zambia raise school enrollment by between 4 and 19 percentage points.[^12] A UCT in Rwanda also raised height-for-age and weight-for-age, indicators of healthy child development.[^13] 
+Cash transfer experiments have established robust causal relationships between poverty and intermediate outcomes identified in the Mothers Pension Program study. A $1, 000 UCT to extremely poor households in Kenya raised subsequent earnings by $270.[^11] UCTs in Malawi and Zambia raise school enrollment by between 4 and 19 percentage points.[^12] A UCT in Rwanda also raised height-for-age and weight-for-age, indicators of healthy child development.[^13] 
 
 With time, researchers will be able to follow up with treatment and control groups from these experiments to determine long-run mortality effects. This will add precision to the existing finding that poverty shortens lives, via channels including income, education, and nutrition.
-
 
 ## Poverty and existential risk
 
@@ -79,14 +76,14 @@ Through a combination of evidence and expert opinion, Ord estimated the probabil
 
 | Existential catastrophe via       | Chance within the next 100 years |
 |-----------------------------------|----------------------------------|
-| Asteroid or comet impact          | ~1 in 1,000,000                  |
-| Supervolcanic eruption            | ~1 in 10,000                     |
-| Stellar explosion                 | ~1 in 1,000,000,000              |
-| **Total natural risk**            | **~1 in 10,000**                 |
-| Nuclear war                       | ~1 in 1,000                      |
-| Climate change                    | ~1 in 1,000                      |
-| Other environmental damage        | ~1 in 1,000                      |
-| ‘Naturally’ arising pandemics     | ~1 in 10,000                     |
+| Asteroid or comet impact          | ~1 in 1, 000, 000                |
+| Supervolcanic eruption            | ~1 in 10, 000                    |
+| Stellar explosion                 | ~1 in 1, 000, 000, 000           |
+| **Total natural risk**            | **~1 in 10, 000**                |
+| Nuclear war                       | ~1 in 1, 000                     |
+| Climate change                    | ~1 in 1, 000                     |
+| Other environmental damage        | ~1 in 1, 000                     |
+| ‘Naturally’ arising pandemics     | ~1 in 10, 000                    |
 | Engineered pandemics              | ~1 in 30                         |
 | Unaligned artificial intelligence | ~1 in 10                         |
 | Unforeseen anthropogenic risks    | ~1 in 30                         |
@@ -100,10 +97,9 @@ The second is that risk probabilities vary by orders of magnitude. Nuclear war a
 
 The third, and most relevant to this analysis, is that the risks share common threads. Avoiding nuclear war and engineered pandemics will require international safeguards of hazardous material. Avoiding unaligned artificial intelligence will require a more patient approach to developing this transformational technology. Avoiding disasters from climate change—and to a large degree, all these risks—will require both international cooperation and emphasis on sustainability.
 
-As a growing share of the world’s population—now over half—lives under democracy,[^16] the extent to which individual citizens support cooperation and sustainability will affect country-level outcomes.
+As a growing share of the world’s population—now over half—lives under democracy, [^16] the extent to which individual citizens support cooperation and sustainability will affect country-level outcomes.
 
 The available evidence suggests that lifting people out of poverty increases their future orientation and trust in the institutions, thereby increasing support for future-oriented, globally-cooperative public policy. Poverty reduction may also address specific risks, and I discuss its links to three of the top ones: climate change, pandemics, and unaligned AI.
-
 
 ### Patience
 
@@ -113,10 +109,9 @@ Researchers characterize the patience of individuals and societies with a range 
 
 Across countries, income correlates with patience.[^19] Cash transfers have helped measure patience, since the share of the new income spent vs. saved offers clear exogenous variation. Such designs show that households in rural Mexico and Guatemala are much less (economically) patient than households in the US[^20]
 
-Economic panel data also shows that income and patience correlate within the US.[^21] This could be reverse causality, as more patient people could take the time to build careers that would generate higher lifetime income, but sociological and psychological research suggests that patience is largely cemented in childhood through cultural and socioeconomic circumstances. For example, residents of poorer neighborhoods have higher impulsivity,[^22] and income and maternal education at birth negatively correlate with impulsivity among 15-year-olds.[^23]
+Economic panel data also shows that income and patience correlate within the US.[^21] This could be reverse causality, as more patient people could take the time to build careers that would generate higher lifetime income, but sociological and psychological research suggests that patience is largely cemented in childhood through cultural and socioeconomic circumstances. For example, residents of poorer neighborhoods have higher impulsivity, [^22] and income and maternal education at birth negatively correlate with impulsivity among 15-year-olds.[^23]
 
-The question is: is it causal? Recent evidence on “hand to mouth” households—those who consume their entire income—offers conflicting accounts. The hand-to-mouth share generally exceeds the share that standard time preference models would predict. A 2020 paper on US households attributes this to heterogeneous preferences, rather than impatience.[^24] However, another 2020 paper from Bangladesh finds that large randomized asset transfers enable poor households to break out of consistent hand-to-mouth poverty;[^25] this would only occur if the wealth shock made them more patient, as some theories predict.[^26] As with many traits, patience results from more than economic conditions, but poverty reduction would likely have some positive effect on patience.
-
+The question is: is it causal? Recent evidence on “hand to mouth” households—those who consume their entire income—offers conflicting accounts. The hand-to-mouth share generally exceeds the share that standard time preference models would predict. A 2020 paper on US households attributes this to heterogeneous preferences, rather than impatience.[^24] However, another 2020 paper from Bangladesh finds that large randomized asset transfers enable poor households to break out of consistent hand-to-mouth poverty; [^25] this would only occur if the wealth shock made them more patient, as some theories predict.[^26] As with many traits, patience results from more than economic conditions, but poverty reduction would likely have some positive effect on patience.
 
 ### Trust and global cooperation
 
@@ -134,7 +129,6 @@ Education may be a channel through which income affects international views; for
 
 More research is needed to understand these ties; for example, support for the United Nations is not significantly related to support for populist parties in Europe, though US Democrats are more than twice as likely to support the UN than Republicans.[^32] Overall, though, the available evidence is consistent with the hypothesis that reducing poverty would engender support for the international cooperation needed to fight existential risks.
 
-
 ### Climate change
 
 Whether income increases carbon emissions is controversial and uncertain. From a purely correlational perspective, people in richer countries emit more carbon. In 2016 across countries, a 1 percent increase in per-capita income and a 1pp decrease in extreme poverty were associated with increases in per-capita carbon emissions of 1.3 and 1.0 percent, respectively.[^33]
@@ -147,26 +141,25 @@ Regardless, the ethics of slowing global poverty reduction in order to slow clim
 
 Unlike targeted policies like electric vehicle subsidies, carbon pricing reduces emissions throughout the economy. The state assesses fees on carbon emissions at the source—the oil well, coal mine, gas site, or border for imported goods—and the internalized cost of carbon emissions then flows through manufacturers, services, and consumers, each of whom chooses lower-carbon options, with encouragement from the price signal.
 
-In its 2018 special report on global warming,[^37] the Intergovernmental Panel on Climate Change (IPCC) made carbon pricing a core benchmark for countries’ progress on climate goals. Simulations from MIT and Climate Interactive show that carbon pricing reduces temperature changes more than any other individual policy; it has a positive marginal effect even at low rates and with or without other policies; and without it, staying under 1.5℃ will be nearly impossible.[^38]
+In its 2018 special report on global warming, [^37] the Intergovernmental Panel on Climate Change (IPCC) made carbon pricing a core benchmark for countries’ progress on climate goals. Simulations from MIT and Climate Interactive show that carbon pricing reduces temperature changes more than any other individual policy; it has a positive marginal effect even at low rates and with or without other policies; and without it, staying under 1.5℃ will be nearly impossible.[^38]
 
-The environmental benefits of a carbon pricing policy would extend beyond the borders of the country that implements it. Domestic manufacturers could export the clean, innovative products promoted by the carbon pricing. And because carbon pricing bills typically come with a “border adjustment,” which equivalizes trading partners by adding a fee to carbon-intensive imports from countries without their own carbon prices, other countries would be incentivized to add their own carbon pricing to make exports competitive.
+The environmental benefits of a carbon pricing policy would extend beyond the borders of the country that implements it. Domestic manufacturers could export the clean, innovative products promoted by the carbon pricing. And because carbon pricing bills typically come with a “border adjustment, ” which equivalizes trading partners by adding a fee to carbon-intensive imports from countries without their own carbon prices, other countries would be incentivized to add their own carbon pricing to make exports competitive.
 
-The question is: how should the revenue be used? The answer, according to over 3,500 US economists, is equal dividends. These “carbon dividends” would offset the higher costs of goods and services with carbon-based inputs.[^39] Signatories to the letter, the largest statement in the history of the economics profession, include 45 Nobel Prize winning economists, as well as former Treasury secretaries and chairs of the Federal Reserve and Council of Economic Advisors, from both political parties.
+The question is: how should the revenue be used? The answer, according to over 3, 500 US economists, is equal dividends. These “carbon dividends” would offset the higher costs of goods and services with carbon-based inputs.[^39] Signatories to the letter, the largest statement in the history of the economics profession, include 45 Nobel Prize winning economists, as well as former Treasury secretaries and chairs of the Federal Reserve and Council of Economic Advisors, from both political parties.
 
 Several studies of carbon dividends find that it would be progressive on a net basis and benefit most people.[^40] This result follows from carbon consumption increasing with income.
 
-65 percent of Americans support carbon dividends,[^41] following from another popular proposal for universal dividends: the Alaska Permanent Fund Dividend, a small UBI funded by the state’s oil wealth. 90 percent of Alaskans favor the dividend going to everyone, and 64 percent say they would rather raise state income taxes than end the program.[^42] A clean, habitable environment is a type of shared natural resource, and carbon dividends essentially require that people who consume more of it compensate the rest of society.
+65 percent of Americans support carbon dividends, [^41] following from another popular proposal for universal dividends: the Alaska Permanent Fund Dividend, a small UBI funded by the state’s oil wealth. 90 percent of Alaskans favor the dividend going to everyone, and 64 percent say they would rather raise state income taxes than end the program.[^42] A clean, habitable environment is a type of shared natural resource, and carbon dividends essentially require that people who consume more of it compensate the rest of society.
 
 Poverty reduction may or may not reduce emissions to avert climate change directly, but poverty reduction policies like cash transfers can make carbon pricing more attractive, raising the odds of enacting effective climate policy.
-
 
 ### Pandemics
 
 Ord published _The Precipice_ on March 3, 2020. By the end of that month, the Covid-19 pandemic had shut down much of the planet. Despite being unaware of the virus when writing the book, Ord warned of the risk of natural and engineered pandemics as the second most likely cause of existential catastrophe in the coming century. The combination of historical precedent (the Black Death is estimated to have killed between 30 and 60 percent of Europeans) and rapid investment in synthetic biology indicated that this area deserves caution. 
 
-As I write this on September 28, 2020,  Covid-19 has just taken its millionth life worldwide.[^43] Excess mortality estimates suggest official statistics may significantly undercount the virus’s true impact,[^44] and forecasters expect its death toll to reach 3 million by March 2021.[^45] It has been one of the worst disasters in human history.
+As I write this on September 28, 2020, Covid-19 has just taken its millionth life worldwide.[^43] Excess mortality estimates suggest official statistics may significantly undercount the virus’s true impact, [^44] and forecasters expect its death toll to reach 3 million by March 2021.[^45] It has been one of the worst disasters in human history.
 
-And yet, to wipe out humanity, a future pandemic would have to be orders of magnitude more deadly than Covid-19. It would have to kill over 2,000 times as many people, swinging its scythe at children and younger adults, who have been less vulnerable thus far. It would also have to reach isolated populations, not only to islands like those of Hawaii, whose death rate is projected to be 80 percent lower than that of the US,[^46] but also to uncontacted tribes and people in other remote locations.
+And yet, to wipe out humanity, a future pandemic would have to be orders of magnitude more deadly than Covid-19. It would have to kill over 2, 000 times as many people, swinging its scythe at children and younger adults, who have been less vulnerable thus far. It would also have to reach isolated populations, not only to islands like those of Hawaii, whose death rate is projected to be 80 percent lower than that of the US, [^46] but also to uncontacted tribes and people in other remote locations.
 
 The tools needed to contain such a calamitous pandemic will therefore differ from those deployed for Covid-19. Nevertheless, our current episode may help identify solutions to prepare for worse ones to come.
 
@@ -180,14 +173,13 @@ Other evidence points to poverty as a risk factor for contracting and dying from
 
 Poverty reduction may also improve public health behaviors through education. For example, 85 percent of American college graduates reported wearing masks “always” or “very often” when going outside in summer 2020, compared to 65 percent of non-college graduates.[^49] The relationship between education and trust may explain this effect, as evidence from Europe during Covid-19 shows that “high-trust regions decrease their mobility related to non-necessary activities significantly more than low-trust regions.”[^50]
 
-
 ### Unaligned artificial intelligence
 
 Ord’s top existential risk is that of unaligned artificial intelligence, at about 1 in 10 odds of destroying humanity’s future. This has caused EA organizations to promote AI research organizations as primary donation sites and places to work to make the greatest impact. But what is unaligned AI, and how could it end humanity’s potential?
 
 The canonical thought experiment on the topic dates back to 2003, from Nick Bostrom, a philosophy professor at Oxford and now director of its Future of Humanity Institute:
 
->The risks in developing superintelligence [advanced AI] include...a well-meaning team of programmers [making] a big mistake in designing its goal system. This could result...in a superintelligence whose top goal is the manufacturing of paperclips, with the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities. 
+> The risks in developing superintelligence [advanced AI] include...a well-meaning team of programmers [making] a big mistake in designing its goal system. This could result...in a superintelligence whose top goal is the manufacturing of paperclips, with the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities. 
 
 A real paperclip manufacturer might add constraints to the AI’s optimization function, for example preventing it from killing any humans, or penalizing it for any mountains destroyed. This is similar to how social media recommendation systems work: they optimize for engagement, but also take down content that violates rules, and penalize content that comes close to rule-breaking or otherwise opposes the goals of the company. This can work as long as we humans stay ahead of the AI. But what if the paperclip maximizer AI finds the one way around our constraints and, for example, just pulls minerals from the ocean, killing all fish on Earth? AI technology is progressing quickly, so these possibilities might strike before we know it, before we’re prepared.
 
@@ -203,17 +195,15 @@ Whether an AI can be built under Russell’s framework is an engineering questio
 
 As long as the AI fully recognizes its uncertainty around poorer people’s preferences, their absence from the commercial systems that train them might not pose an existential threat. But uncertainty is difficult to get right, and without broad input, there’s a risk of recreating humanity disproportionately in the image of its market participants. Equalizing access to those markets by reducing poverty may be a safer bet.
 
-
 ## UBI among antipoverty programs
 
 If poverty reduction reduces mortality and existential risk, how should societies reduce poverty? Why would they pursue UBI, specifically?
 
 Existing antipoverty programs have unquestionably helped. The US safety net reduced the poverty rate by 46 percent in 2018, and reduced the poverty gap—which measures how far below the poverty line households are—by 66 percent.[^52] This chapter has cited a number of non-UBI programs that improved outcomes from mortality to income to sustainability.
 
-Yet, those programs have drawbacks. One in four Americans living in poverty do not receive any antipoverty program support.[^53] Even the largest federal programs, which benefit from economies of scale, spend about 10 cents of each dollar on administration,[^54] and this administration costs recipients time and effort applying and complying with its rules. Purchase restrictions prevent recipients from meeting their particular needs, and means-testing penalizes their labor.
+Yet, those programs have drawbacks. One in four Americans living in poverty do not receive any antipoverty program support.[^53] Even the largest federal programs, which benefit from economies of scale, spend about 10 cents of each dollar on administration, [^54] and this administration costs recipients time and effort applying and complying with its rules. Purchase restrictions prevent recipients from meeting their particular needs, and means-testing penalizes their labor.
 
-UBI addresses these drawbacks in three eponymous ways: it is Universal (not means-tested or restricted by conditions like work-seeking), Basic (sufficient to meet basic needs), and Income (cash, not in-kind). Given the subjectivity of defining “basic needs,” the move toward UBI arguably constitutes the parallel moves from non-cash benefits to cash, and from targeting to universality.[^55]
-
+UBI addresses these drawbacks in three eponymous ways: it is Universal (not means-tested or restricted by conditions like work-seeking), Basic (sufficient to meet basic needs), and Income (cash, not in-kind). Given the subjectivity of defining “basic needs, ” the move toward UBI arguably constitutes the parallel moves from non-cash benefits to cash, and from targeting to universality.[^55]
 
 ### Cash vs. in-kind benefits
 
@@ -226,7 +216,6 @@ Some in-kind benefits produce subtler concerns. The inability of housing benefit
 There’s evidence that this perceived scarcity of housing benefits primes people to view the world as zero-sum. In Austria, opening up public housing to immigrants increased support for populist anti-immigrant parties.[^59] Samuel Hammond of the Niskanen Center has argued that “Social welfare systems that rely heavily on ‘in-kind’ benefits (as opposed to direct cash transfers or vouchers) are comparatively supply-inelastic, which creates conflict during waves of immigration.”[^60]
 
 Not all drawbacks of in-kind benefits are as quantifiable. The embarrassment of a mother trying to buy a block of cheese, only to be told at the register that her WIC card won’t allow it because the cheese was made outside the US.[^61] The annoyance of a minimum-wage worker preparing and transporting a sandwich to their job, because they can’t use SNAP to buy prepared food near their workplace.[^62] The risk of purchasing groceries in person amid a pandemic, because neither program can be used for grocery delivery.[^63] These hurdles follow from distrust of how the poor consume, now proven to be unwarranted.[^64]
-
 
 ### Universality vs. targeting
 
@@ -254,8 +243,7 @@ Societies that pursue this strategy achieve lower disposable income inequality (
 
 How do these European social democracies reduce inequality so much? Counterintuitively, it’s not through progressive taxation, in which tax rates rise with income; the US actually taxes more progressively than any other OECD country. It’s through _high_ taxation that supports generous transfers. The US taxes 24 percent of its GDP, compared to the 34 percent OECD average; only Ireland, Chile, and Mexico tax less.[^75]
 
-Low US taxes are largely explained by the absence of a _value added tax_ (VAT), the type of consumption tax levied in all other OECD countries.[^76] 2020 US presidential candidate Andrew Yang proposed remedying that: the Freedom Dividend plan at the heart of his campaign featured a UBI of $1,000 per month per adult citizen, primarily funded by a 10 percent VAT. In a distributional analysis of his plan, which also included other reforms like a carbon dividend, welfare reform, and treating capital gains as ordinary income, I found that this plan would be progressive, lowering US inequality by 15 percent.[^77] Others have also found VAT-funded UBIs to be progressive;[^78] although VAT incidence is slightly regressive, as consumption as a share of income falls with income, the considerable progressiveness of the UBI makes the overall policy progressive.
-
+Low US taxes are largely explained by the absence of a _value added tax_ (VAT), the type of consumption tax levied in all other OECD countries.[^76] 2020 US presidential candidate Andrew Yang proposed remedying that: the Freedom Dividend plan at the heart of his campaign featured a UBI of $1, 000 per month per adult citizen, primarily funded by a 10 percent VAT. In a distributional analysis of his plan, which also included other reforms like a carbon dividend, welfare reform, and treating capital gains as ordinary income, I found that this plan would be progressive, lowering US inequality by 15 percent.[^77] Others have also found VAT-funded UBIs to be progressive; [^78] although VAT incidence is slightly regressive, as consumption as a share of income falls with income, the considerable progressiveness of the UBI makes the overall policy progressive.
 
 ## Conclusion
 
@@ -277,7 +265,7 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^3]: Ord (2020).
 
-[^4]: For example, Alaska provides an annual dividend of between $1,000 and $3,000 per person, funded by its oil wealth. A number of countries have universal child allowances or flat old-age pensions.
+[^4]: For example, Alaska provides an annual dividend of between $1, 000 and $3, 000 per person, funded by its oil wealth. A number of countries have universal child allowances or flat old-age pensions.
 
 [^5]: For example, the Economic Security Project and others are funding an [experiment in Stockton, California](https://static1.squarespace.com/static/6039d612b17d055cac14070f/t/603ef1194c474b329f33c329/1614737690661/SEED_Preliminary+Analysis-SEEDs+First+Year_Final+Report_Individual+Pages+-2.pdf), and OpenResearch (formerly Y-Combinator Research) is [running an experiment across two US states](https://openresearchlab.org/assets/publications/Basic-Income-Proposal.pdf).
 
@@ -307,7 +295,7 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^18]: [Dickman (1990)](https://doi.org/10.1037/0022-3514.58.1.95).
 
-[^19]: Based on a “representative data set on time preferences from 80,000 individuals in 76 countries,” this study also found correlations between income and discount factors	 at the individual level [(Dohmen et al., 2015)](https://econpapers.repec.org/paper/hkawpaper/2016-012.htm).
+[^19]: Based on a “representative data set on time preferences from 80, 000 individuals in 76 countries, ” this study also found correlations between income and discount factors	 at the individual level [(Dohmen et al., 2015)](https://econpapers.repec.org/paper/hkawpaper/2016-012.htm).
 
 [^20]: Mexico [(Carvalho, 2008)](https://www.rand.org/pubs/working_papers/WR759.html) and Guatemala [(Aycinena et al., 2019)](https://doi.org/10.1080/15140326.2019.1596641).
 
@@ -357,17 +345,17 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^43]: [New York Times (2020)](https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html).
 
-[^44]: As of August 12, 2020, US excess mortality was about 200,000, while official Covid-19 deaths were about 140,000 [(Lu, 2020)](https://www.nytimes.com/interactive/2020/08/12/us/covid-deaths-us.html).
+[^44]: As of August 12, 2020, US excess mortality was about 200, 000, while official Covid-19 deaths were about 140, 000 [(Lu, 2020)](https://www.nytimes.com/interactive/2020/08/12/us/covid-deaths-us.html).
 
-[^45]: As of September 28, 2020, a group of “superforecasters,” selected based on prediction accuracy across other outcomes, had assigned a 57 percent probability to global Covid-19 deaths exceeding 2.7 million by March 2020 [(Good Judgment Project, 2020)](https://goodjudgment.io/superforecasts/#1388).
+[^45]: As of September 28, 2020, a group of “superforecasters, ” selected based on prediction accuracy across other outcomes, had assigned a 57 percent probability to global Covid-19 deaths exceeding 2.7 million by March 2020 [(Good Judgment Project, 2020)](https://goodjudgment.io/superforecasts/#1388).
 
 [^46]: Covid-19 is projected to kill 145 Hawaiians per million population, vs. 693 Americans per million [(Gu, 2020)](https://covid19-projections.com/). 
 
 [^47]: [Banerjee et al. (2020)](https://www.poverty-action.org/publication/effects-universal-basic-income-during-pandemic).
 
-[^48]: As of May 5, 2020, the COVID-19 death rate per 100,000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York [(Chen & Krieger, 2020)](https://doi.org/10.1097/PHH.0000000000001263).
+[^48]: As of May 5, 2020, the COVID-19 death rate per 100, 000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York [(Chen & Krieger, 2020)](https://doi.org/10.1097/PHH.0000000000001263).
 
-[^49]: Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly _more_ likely to wear masks than higher-income people [(Gallup, 2020)](https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx).
+[^49]: Counterintuitively, the same survey found that Americans earning under $36, 000 per year were slightly _more_ likely to wear masks than higher-income people [(Gallup, 2020)](https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx).
 
 [^50]: [Bargain & Aminjonov (2020)](https://papers.ssrn.com/abstract=3596671).
 
@@ -423,10 +411,10 @@ UBI advocate Conrad Shaw has said, “we may almost resemble a new species when 
 
 [^76]: [OECD (2019b)](https://doi.org/10.1787/ctt-2018-7-en).
 
-[^77]: I found that Yang’s plan would not be fully paid for [(Ghenis, 2019a)](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b), as did the Tax Foundation [(Pomerleau, 2019)](https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/). A budget-neutral version of Yang’s plan, providing a monthly payment of $471 rather than $1,000, would reduce inequality by 9 percent instead, as measured by the Gini index [(Ghenis, 2019b)](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea).
+[^77]: I found that Yang’s plan would not be fully paid for [(Ghenis, 2019a)](https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b), as did the Tax Foundation [(Pomerleau, 2019)](https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/). A budget-neutral version of Yang’s plan, providing a monthly payment of $471 rather than $1, 000, would reduce inequality by 9 percent instead, as measured by the Gini index [(Ghenis, 2019b)](https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea).
 
 [^78]: [Gale (2020)](https://www.brookings.edu/wp-content/uploads/2020/01/Gale_LO_01.13.pdf).
 
-[^79]: A death from malaria can be averted for under $4,000, and most of these averted deaths are of children under 5 [(GiveWell, 2020)](https://docs.google.com/spreadsheets/d/1BmFwVYeGMkpys6hG0tnfHyq__ZFZf-bmXYLSHODGpLY).
+[^79]: A death from malaria can be averted for under $4, 000, and most of these averted deaths are of children under 5 [(GiveWell, 2020)](https://docs.google.com/spreadsheets/d/1BmFwVYeGMkpys6hG0tnfHyq__ZFZf-bmXYLSHODGpLY).
 
 [^80]: [Shaw (2020)](https://medium.com/basic-income/how-to-build-a-movement-in-record-time-456c620dcf1c).
