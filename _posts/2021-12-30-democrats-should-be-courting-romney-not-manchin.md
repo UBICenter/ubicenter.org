@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/2021-12-30-democrats-should-be-courting-romney-not-manchin/cover.jpeg
+cover: assets/images/2021-12-30-democrats-should-be-courting-romney-not-manchin/cover.png
 navigation: True
 title: "Op-ed: Democrats should be courting Romney, not Manchin"
 date: 2021-12-30
