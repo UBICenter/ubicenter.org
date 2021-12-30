@@ -34,12 +34,11 @@ With that, here is **Mortality, existential risk, and universal basic income**:
 
 ## Introduction
 
-
 Toby Ord didn’t start his career thinking about the far future. When the Oxford philosopher created the organization _Giving What We Can_ (GWWC) in 2009, it focused on finding the most cost-effective charities for saving or improving lives today, like malaria bed nets, and encouraging members to pledge 10 percent of their income to those charities. This marked the beginning of the movement known as _effective altruism_ (EA), which [describes itself as](https://www.centreforeffectivealtruism.org/ceas-guiding-principles/) “about using evidence and reason to figure out how to benefit others as much as possible, and taking action on that basis.”
 
 Thirty-seven years before Ord created the EA movement, Princeton philosopher Peter Singer formed the ideas that now underpin it. In his 1972 essay, [_Famine, Affluence, and Morality_](https://www.jstor.org/stable/2265052), Singer offered the following thought experiment:
 
->...if I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a bad thing...It makes no moral difference whether the person I can help is a neighbor’s child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.
+> ...if I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a bad thing...It makes no moral difference whether the person I can help is a neighbor’s child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.
 
 Singer taught, as EA now does, to look beyond one’s immediate circle to humanity as a whole when weighing how to do good. If saving a drowning child in front of you is worth some sacrifice, it must be worth the same sacrifice to save an out-of-view child from perishing, as well.
 
@@ -50,7 +49,6 @@ Ord argues that we may be living through the most important time in history, whe
 While EA has grown over the past decade, so too has a much older idea: universal basic income, or UBI. UBI is an unconditional cash payment given to every member of society on a regular basis, typically monthly, sufficient to meet basic needs. No government has yet implemented it, though many have enacted programs that check some of the boxes.[^4] A number of cities have also pursued philanthropically-funded UBI pilots and experiments.[^5]
 
 In this chapter, I will connect UBI to the theme of this book series, through the lens of effective altruism. In short, I will review how reducing poverty could save lives in the short and (very) long run, and how UBI policies could effectively achieve that egalitarianism.
-
 
 ## Poverty and mortality
 
@@ -69,7 +67,6 @@ In 1911, the US government established its first welfare program, the Mother's P
 Cash transfer experiments have established robust causal relationships between poverty and intermediate outcomes identified in the Mothers Pension Program study. A $1,000 UCT to extremely poor households in Kenya raised subsequent earnings by $270.[^11] UCTs in Malawi and Zambia raise school enrollment by between 4 and 19 percentage points.[^12] A UCT in Rwanda also raised height-for-age and weight-for-age, indicators of healthy child development.[^13] 
 
 With time, researchers will be able to follow up with treatment and control groups from these experiments to determine long-run mortality effects. This will add precision to the existing finding that poverty shortens lives, via channels including income, education, and nutrition.
-
 
 ## Poverty and existential risk
 
@@ -104,7 +101,6 @@ As a growing share of the world’s population—now over half—lives under dem
 
 The available evidence suggests that lifting people out of poverty increases their future orientation and trust in the institutions, thereby increasing support for future-oriented, globally-cooperative public policy. Poverty reduction may also address specific risks, and I discuss its links to three of the top ones: climate change, pandemics, and unaligned AI.
 
-
 ### Patience
 
 Investing in existential risk avoidance requires giving up short-term gains to secure long-term stability; indeed, those now espousing such investments often describe themselves as _longtermists._
@@ -116,7 +112,6 @@ Across countries, income correlates with patience.[^19] Cash transfers have help
 Economic panel data also shows that income and patience correlate within the US.[^21] This could be reverse causality, as more patient people could take the time to build careers that would generate higher lifetime income, but sociological and psychological research suggests that patience is largely cemented in childhood through cultural and socioeconomic circumstances. For example, residents of poorer neighborhoods have higher impulsivity,[^22] and income and maternal education at birth negatively correlate with impulsivity among 15-year-olds.[^23]
 
 The question is: is it causal? Recent evidence on “hand to mouth” households—those who consume their entire income—offers conflicting accounts. The hand-to-mouth share generally exceeds the share that standard time preference models would predict. A 2020 paper on US households attributes this to heterogeneous preferences, rather than impatience.[^24] However, another 2020 paper from Bangladesh finds that large randomized asset transfers enable poor households to break out of consistent hand-to-mouth poverty;[^25] this would only occur if the wealth shock made them more patient, as some theories predict.[^26] As with many traits, patience results from more than economic conditions, but poverty reduction would likely have some positive effect on patience.
-
 
 ### Trust and global cooperation
 
@@ -133,7 +128,6 @@ Similar patterns are observed from trade: high income Americans are about 10 per
 Education may be a channel through which income affects international views; for example, a dynamic model of education choice shows that it raises trust (as well as voter participation).[^31] The US survey also found a 10-point delta in trade sentiment by college completion.
 
 More research is needed to understand these ties; for example, support for the United Nations is not significantly related to support for populist parties in Europe, though US Democrats are more than twice as likely to support the UN than Republicans.[^32] Overall, though, the available evidence is consistent with the hypothesis that reducing poverty would engender support for the international cooperation needed to fight existential risks.
-
 
 ### Climate change
 
@@ -159,7 +153,6 @@ Several studies of carbon dividends find that it would be progressive on a net b
 
 Poverty reduction may or may not reduce emissions to avert climate change directly, but poverty reduction policies like cash transfers can make carbon pricing more attractive, raising the odds of enacting effective climate policy.
 
-
 ### Pandemics
 
 Ord published _The Precipice_ on March 3, 2020. By the end of that month, the Covid-19 pandemic had shut down much of the planet. Despite being unaware of the virus when writing the book, Ord warned of the risk of natural and engineered pandemics as the second most likely cause of existential catastrophe in the coming century. The combination of historical precedent (the Black Death is estimated to have killed between 30 and 60 percent of Europeans) and rapid investment in synthetic biology indicated that this area deserves caution. 
@@ -180,14 +173,13 @@ Other evidence points to poverty as a risk factor for contracting and dying from
 
 Poverty reduction may also improve public health behaviors through education. For example, 85 percent of American college graduates reported wearing masks “always” or “very often” when going outside in summer 2020, compared to 65 percent of non-college graduates.[^49] The relationship between education and trust may explain this effect, as evidence from Europe during Covid-19 shows that “high-trust regions decrease their mobility related to non-necessary activities significantly more than low-trust regions.”[^50]
 
-
 ### Unaligned artificial intelligence
 
 Ord’s top existential risk is that of unaligned artificial intelligence, at about 1 in 10 odds of destroying humanity’s future. This has caused EA organizations to promote AI research organizations as primary donation sites and places to work to make the greatest impact. But what is unaligned AI, and how could it end humanity’s potential?
 
 The canonical thought experiment on the topic dates back to 2003, from Nick Bostrom, a philosophy professor at Oxford and now director of its Future of Humanity Institute:
 
->The risks in developing superintelligence [advanced AI] include...a well-meaning team of programmers [making] a big mistake in designing its goal system. This could result...in a superintelligence whose top goal is the manufacturing of paperclips, with the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities. 
+> The risks in developing superintelligence [advanced AI] include...a well-meaning team of programmers [making] a big mistake in designing its goal system. This could result...in a superintelligence whose top goal is the manufacturing of paperclips, with the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities. 
 
 A real paperclip manufacturer might add constraints to the AI’s optimization function, for example preventing it from killing any humans, or penalizing it for any mountains destroyed. This is similar to how social media recommendation systems work: they optimize for engagement, but also take down content that violates rules, and penalize content that comes close to rule-breaking or otherwise opposes the goals of the company. This can work as long as we humans stay ahead of the AI. But what if the paperclip maximizer AI finds the one way around our constraints and, for example, just pulls minerals from the ocean, killing all fish on Earth? AI technology is progressing quickly, so these possibilities might strike before we know it, before we’re prepared.
 
@@ -203,7 +195,6 @@ Whether an AI can be built under Russell’s framework is an engineering questio
 
 As long as the AI fully recognizes its uncertainty around poorer people’s preferences, their absence from the commercial systems that train them might not pose an existential threat. But uncertainty is difficult to get right, and without broad input, there’s a risk of recreating humanity disproportionately in the image of its market participants. Equalizing access to those markets by reducing poverty may be a safer bet.
 
-
 ## UBI among antipoverty programs
 
 If poverty reduction reduces mortality and existential risk, how should societies reduce poverty? Why would they pursue UBI, specifically?
@@ -213,7 +204,6 @@ Existing antipoverty programs have unquestionably helped. The US safety net redu
 Yet, those programs have drawbacks. One in four Americans living in poverty do not receive any antipoverty program support.[^53] Even the largest federal programs, which benefit from economies of scale, spend about 10 cents of each dollar on administration,[^54] and this administration costs recipients time and effort applying and complying with its rules. Purchase restrictions prevent recipients from meeting their particular needs, and means-testing penalizes their labor.
 
 UBI addresses these drawbacks in three eponymous ways: it is Universal (not means-tested or restricted by conditions like work-seeking), Basic (sufficient to meet basic needs), and Income (cash, not in-kind). Given the subjectivity of defining “basic needs,” the move toward UBI arguably constitutes the parallel moves from non-cash benefits to cash, and from targeting to universality.[^55]
-
 
 ### Cash vs. in-kind benefits
 
@@ -226,7 +216,6 @@ Some in-kind benefits produce subtler concerns. The inability of housing benefit
 There’s evidence that this perceived scarcity of housing benefits primes people to view the world as zero-sum. In Austria, opening up public housing to immigrants increased support for populist anti-immigrant parties.[^59] Samuel Hammond of the Niskanen Center has argued that “Social welfare systems that rely heavily on ‘in-kind’ benefits (as opposed to direct cash transfers or vouchers) are comparatively supply-inelastic, which creates conflict during waves of immigration.”[^60]
 
 Not all drawbacks of in-kind benefits are as quantifiable. The embarrassment of a mother trying to buy a block of cheese, only to be told at the register that her WIC card won’t allow it because the cheese was made outside the US.[^61] The annoyance of a minimum-wage worker preparing and transporting a sandwich to their job, because they can’t use SNAP to buy prepared food near their workplace.[^62] The risk of purchasing groceries in person amid a pandemic, because neither program can be used for grocery delivery.[^63] These hurdles follow from distrust of how the poor consume, now proven to be unwarranted.[^64]
-
 
 ### Universality vs. targeting
 
@@ -255,7 +244,6 @@ Societies that pursue this strategy achieve lower disposable income inequality (
 How do these European social democracies reduce inequality so much? Counterintuitively, it’s not through progressive taxation, in which tax rates rise with income; the US actually taxes more progressively than any other OECD country. It’s through _high_ taxation that supports generous transfers. The US taxes 24 percent of its GDP, compared to the 34 percent OECD average; only Ireland, Chile, and Mexico tax less.[^75]
 
 Low US taxes are largely explained by the absence of a _value added tax_ (VAT), the type of consumption tax levied in all other OECD countries.[^76] 2020 US presidential candidate Andrew Yang proposed remedying that: the Freedom Dividend plan at the heart of his campaign featured a UBI of $1,000 per month per adult citizen, primarily funded by a 10 percent VAT. In a distributional analysis of his plan, which also included other reforms like a carbon dividend, welfare reform, and treating capital gains as ordinary income, I found that this plan would be progressive, lowering US inequality by 15 percent.[^77] Others have also found VAT-funded UBIs to be progressive;[^78] although VAT incidence is slightly regressive, as consumption as a share of income falls with income, the considerable progressiveness of the UBI makes the overall policy progressive.
-
 
 ## Conclusion
 
