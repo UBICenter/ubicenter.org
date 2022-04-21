@@ -16,7 +16,7 @@ useplotly: true
 
 Last month, Governor Gavin Newsom [proposed an $11 billion package](https://www.gov.ca.gov/2022/03/23/governor-newsom-proposes-11-billion-relief-package-for-californians-facing-higher-gas-prices/) for Californians facing higher gas prices. Newsom reserved $9 billion of this to send each vehicle owner $400 for each registered vehicle, up to two per person.
 
-In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. By including Californians who don't own vehicles, we find that per-person payments have about a 30% larger antipoverty impact, and about twice the impact on deep child poverty.
+In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. We find that 93% of Californians are in households that would benefit from the per-vehicle payment. Replacing that policy with a per-person payment would leave 56% of Californians better off, cut poverty 32% more, deep child poverty 118% more, and inequality 29% more.
 
 ## Why Californians might get $400 per vehicle
 
