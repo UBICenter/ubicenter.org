@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/2022-04-23-uk-carbon-dividend.jpeg
+cover:
 navigation: True
 title: The progressivity of a UK carbon dividend
 date: 2022-04-23
@@ -50,7 +50,7 @@ The policy would disproportionately lift children out of poverty, while still si
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_1").load("{{site.baseurl}}resources/graph_1_1.html");
+      $("#graph_graph_1_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_1_1.html");
     });
   </script>
 </div>
@@ -59,7 +59,7 @@ The policy would disproportionately lift children out of poverty, while still si
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_2").load("{{site.baseurl}}resources/graph_1_2.html");
+      $("#graph_graph_1_2").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_1_2.html");
     });
   </script>
 </div>
@@ -71,7 +71,7 @@ The bottom decile would gain 6.2%, and the top decile would lose 2.1%.
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_3_1").load("{{site.baseurl}}resources/graph_3_1.html");
+      $("#graph_graph_3_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_3_1.html");
     });
   </script>
 </div>
@@ -84,7 +84,7 @@ Any household whose members consume less than the national average per-capita ca
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_5_1").load("{{site.baseurl}}resources/graph_5_1.html");
+      $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_5_1.html");
     });
   </script>
 </div>
@@ -96,7 +96,7 @@ For example, the Gini index, a comprehensive measure of inequality, would fall 3
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_7_1").load("{{site.baseurl}}resources/graph_7_1.html");
+      $("#graph_graph_7_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_7_1.html");
     });
   </script>
 </div>
@@ -111,7 +111,7 @@ Each £10 per tonne funds a weekly dividend of £1.56 per person.
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_10_1").load("{{site.baseurl}}resources/graph_10_1.html");
+      $("#graph_graph_10_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_10_1.html");
     });
   </script>
 </div>
@@ -122,7 +122,7 @@ As the carbon dividend increases in price, impacts on poverty and deep poverty (
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_12_1").load("{{site.baseurl}}resources/graph_12_1.html");
+      $("#graph_graph_12_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_12_1.html");
     });
   </script>
 </div>
@@ -133,7 +133,7 @@ At each level of the carbon tax, deep poverty and child poverty (and especially 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_14_1").load("{{site.baseurl}}resources/graph_14_1.html");
+      $("#graph_graph_14_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_14_1.html");
     });
   </script>
 </div>
