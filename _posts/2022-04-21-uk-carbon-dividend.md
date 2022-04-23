@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:
+cover: assets/images/2022-04-23-uk-carbon-dividend.jpeg
 navigation: True
 title: The progressivity of a UK carbon dividend
 date: 2022-04-23
