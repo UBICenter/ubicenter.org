@@ -16,7 +16,7 @@ useplotly: true
 
 Last month, Governor Gavin Newsom [proposed an $11 billion package](https://www.gov.ca.gov/2022/03/23/governor-newsom-proposes-11-billion-relief-package-for-californians-facing-higher-gas-prices/) for Californians facing higher gas prices. Newsom reserved $9 billion of this to send each vehicle owner $400 for each registered vehicle, up to two per person.
 
-In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. We find that 93% of Californians are in households that would benefit from the per-vehicle payment. Replacing that policy with a per-person payment would leave 56% of Californians better off, cut poverty 32% more, deep child poverty 118% more, and inequality 29% more.
+In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. By including Californians who don't own vehicles, we find that per-person payments have about a 30% larger antipoverty impact, and about twice the impact on deep child poverty.
 
 ## Why Californians might get $400 per vehicle
 
@@ -43,7 +43,7 @@ The 2019 American Community Survey, which we use for this analysis[^1], reports 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_1").load("{{site.baseurl}}resources/graph_1_1.html");
+      $("#graph_graph_1_1").load("{{site.baseurl}}assets/markdown_assets/california-vehicle-payment/graph_1_1.html");
     });
   </script>
 </div>
@@ -52,7 +52,7 @@ The 2019 American Community Survey, which we use for this analysis[^1], reports 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_1_2").load("{{site.baseurl}}resources/graph_1_2.html");
+      $("#graph_graph_1_2").load("{{site.baseurl}}assets/markdown_assets/california-vehicle-payment/graph_1_2.html");
     });
   </script>
 </div>
@@ -67,7 +67,7 @@ That $10 billion vehicle payment would reduce the poverty rate by 3.8%, roughly 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_3_1").load("{{site.baseurl}}resources/graph_3_1.html");
+      $("#graph_graph_3_1").load("{{site.baseurl}}assets/markdown_assets/california-vehicle-payment/graph_3_1.html");
     });
   </script>
 </div>
@@ -78,7 +78,7 @@ The per-person payment especially lowers child poverty, a [major determinant of 
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_5_1").load("{{site.baseurl}}resources/graph_5_1.html");
+      $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/california-vehicle-payment/graph_5_1.html");
     });
   </script>
 </div>
@@ -89,7 +89,7 @@ These poverty effects form a pattern: the universal payments would have higher i
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_7_1").load("{{site.baseurl}}resources/graph_7_1.html");
+      $("#graph_graph_7_1").load("{{site.baseurl}}assets/markdown_assets/california-vehicle-payment/graph_7_1.html");
     });
   </script>
 </div>
@@ -103,7 +103,7 @@ On average, the per-person payment is more generous than the per-vehicle payment
 <div>
   <script>
     $(document).ready(function(){
-      $("#graph_graph_9_1").load("{{site.baseurl}}resources/graph_9_1.html");
+      $("#graph_graph_9_1").load("{{site.baseurl}}assets/markdown_assets/california-vehicle-payment/graph_9_1.html");
     });
   </script>
 </div>
