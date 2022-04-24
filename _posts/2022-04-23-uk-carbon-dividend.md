@@ -7,7 +7,7 @@ title: The progressivity of a UK carbon dividend
 date: 2022-04-23
 tags: [uk, carbon pricing]
 subclass: "post"
-author: max, nikhil
+author: [max, nikhil]
 excerpt: "A £100-per-tonne carbon dividend would cut poverty by 14% and deep child poverty by 33%."
 class: post-template
 useplotly: true
@@ -49,18 +49,22 @@ The policy would disproportionately lift children out of poverty, while still si
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_1_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_1_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_1_1"></div>
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_1_2").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_1_2.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_1_2"></div>
@@ -70,9 +74,11 @@ The bottom decile would gain 6.2%, and the top decile would lose 2.1%.
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_3_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_3_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_3_1"></div>
@@ -83,9 +89,11 @@ Any household whose members consume less than the national average per-capita ca
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_5_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_5_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_5_1"></div>
@@ -95,9 +103,11 @@ For example, the Gini index, a comprehensive measure of inequality, would fall 3
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_7_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_7_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_7_1"></div>
@@ -107,12 +117,13 @@ For example, the Gini index, a comprehensive measure of inequality, would fall 3
 Since PolicyEngine is static, the revenue--and therefore the dividend--increases linearly with the carbon price.
 Each £10 per tonne funds a weekly dividend of £1.56 per person.
 
-
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_10_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_10_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_10_1"></div>
@@ -121,9 +132,11 @@ As the carbon dividend increases in price, impacts on poverty and deep poverty (
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_12_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_12_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_12_1"></div>
@@ -132,9 +145,11 @@ At each level of the carbon tax, deep poverty and child poverty (and especially 
 
 <div>
   <script>
+
     $(document).ready(function(){
       $("#graph_graph_14_1").load("{{site.baseurl}}assets/markdown_assets/uk-carbon-dividend/graph_14_1.html");
     });
+
   </script>
 </div>
 <div id = "graph_graph_14_1"></div>
