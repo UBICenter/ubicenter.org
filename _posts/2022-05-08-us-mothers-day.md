@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/2022-05-08-us-mothers-day/cover.jpeg
+cover: cover.jpeg
 navigation: True
 title: "How a child allowance would lift moms out of poverty"
 date: 2022-05-08
@@ -29,6 +29,9 @@ While child allowances chiefly reduce child poverty, they also lift mothers out 
 For example, a \$200 per month child allowance would lift one million mothers out of poverty, at an annual cost of \$173 billion.[^funding]
 
 [^funding]: This static analysis assumes no funding and no behavioral responses. It uses the open source [OpenFisca US](https://openfisca.us) microsimulation model from [PolicyEngine](https://policyengine.org).
+
+
+
 
 
 <div>
