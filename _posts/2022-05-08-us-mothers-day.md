@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: cover.jpeg
+cover: assets/images/2022-05-08-us-mothers-day/cover.jpeg
 navigation: True
 title: "How a child allowance would lift moms out of poverty"
 date: 2022-05-08
