@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/2022-06-09-big-conference-2022/cover.webp
+cover: assets/images/2022-06-09-big-conference-2022/cover.png
 navigation: True
 title: "The UBI Center at the Basic Income Guarantee Conference"
 date: 2022-06-09
