@@ -38,7 +38,7 @@ These immediate losses of benefits over a threshold are known as "benefit cliffs
 
 ![](assets/images/2022-08-03-ira-ev-credit-cliff/snap_cliff.png)
 
-Similarly, the IRA's EV credits create earnings dead zones for EV purchasers. Using, I've calculated the size of these earnings dead zones for different household types.
+Similarly, the IRA's EV credits create earnings dead zones for EV purchasers. Using [PolicyEngine](https://policyengine.org), a free open-source app for tax and benefit analysis, I've calculated the size of these earnings dead zones for different household types.
 
 Consider that same family of four living in Massachusetts. If they purchase a used EV for $20,000 and earn $150,000, they are eligible for the full $4,000 tax credit. Their income after other taxes and benefits is $117,700, bringing their total net income to $121,700. But if they earn $150,001, they lose the full $4,000 tax credit, and their net income falls back to $117,700. To return to $121,700 net income, they would have to earn $155,600. The EV credit creates an earnings dead zone for this household $5,600 wide.
 
