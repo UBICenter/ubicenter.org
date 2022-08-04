@@ -8,7 +8,7 @@ date: 2022-08-03
 tags: [us]
 subclass: "post"
 author: [max]
-excerpt: "The bill's tax credits create welfare cliffs of up to $7,500."
+excerpt: "The bill's tax credits create benefit cliffs of up to $7,500."
 class: post-template
 ---
 Last week, Senators Chuck Schumer (D-NY) and Joe Manchin (D-WV) [announced an agreement](https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs) to add the Inflation Reduction Act (IRA) to the FY2022 Budget Reconciliation bill. The legislation reforms taxes and prescription drug pricing and funds healthcare and energy programs, including new and expanded tax credits for electric vehicle (EV) purchases.
