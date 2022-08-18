@@ -37,7 +37,7 @@ Some of these programs phase in with income, and nearly all phase out with incom
 
 # Impact of Maryland's tax programs
 
-Using [PolicyEngine](policyengine.org), a free open-source web app that computes the impact of public policy (incubated within the UBI Center), we evaluate Maryland's tax policies as they situate alongside the federal tax and benefit system.
+Using [PolicyEngine](https://policyengine.org), a free open-source web app that computes the impact of public policy (incubated within the UBI Center), we evaluate Maryland's tax policies as they situate alongside the federal tax and benefit system.
 
 Consider a single parent with two children, paying $1,000 per month in rent and $500 per month in childcare, and working full time at Maryland's standard minimum wage of $12.50 per hour. Their net income is $41,554 per year:[^1]
 
@@ -47,11 +47,11 @@ Consider a single parent with two children, paying $1,000 per month in rent and 
 * $8,138 in net federal taxes (that is, net negative tax liability due to refundable credits)
 * $2,395 in state taxes (also due to refundable credits)
 
-Maryland supplements their income by six percent. But as they earn more, the state withdraws that assistance. Suppose the parent picks up an extra hour of work per week, adding $650 to their annual earnings. Their net income rises to $41,640—they don't even capture $100 of their extra work. Their true wage is not $12.50, but $86 / 52 hours = $1.65 per hour.
+Maryland supplements their income by six percent. But as they earn more, the state withdraws that assistance. Suppose the parent picks up an extra hour of work per week, adding $650 to their annual earnings. Their net income rises to $41,640—they don't even capture $100 of their extra work. Their true wage is not $12.50, but $86 / 52 hours = **$1.65 per hour**.
 
 ![](../assets/images/2022-08-18-whom-does-maryland-tax/net-income-single-parent-of-two.png)
 
-We can characterize the difference between one's nominal wage and their take-home wage as the _marginal tax rate_—the share of an extra dollar of earnings that the government takes, either through taxes or through withdrawing benefits. In this case, their marginal tax rate on the $650 of marginal wages is ($650-$86)/$650=87%. The PolicyEngine chart below details how this single parent’s marginal tax rate changes with additional income (the spikes are from programs that step down rather than phase out smoothly).
+We can characterize the difference between one's nominal wage and their take-home wage as the _marginal tax rate_—the share of an extra dollar of earnings that the government takes, either through taxes or through withdrawing benefits. In this case, their marginal tax rate on the $650 of marginal wages is ($650-$86)/$650=**87%**. The PolicyEngine chart below details how this single parent’s marginal tax rate changes with additional income (the spikes are from programs that step down rather than phase out smoothly).
 
 ![](../assets/images/2022-08-18-whom-does-maryland-tax/mtr-single-parent-of-two.png)
 
