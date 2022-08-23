@@ -49,19 +49,19 @@ Consider a single parent with two children, paying $1,000 per month in rent and 
 
 Maryland supplements their income by six percent. But as they earn more, the state withdraws that assistance. Suppose the parent picks up an extra hour of work per week, adding $650 to their annual earnings. Their net income rises to $41,640—they don't even capture $100 of their extra work. Their true wage is not $12.50, but $86 / 52 hours = **$1.65 per hour**.
 
-![](../assets/images/2022-08-18-whom-does-maryland-tax/net-income-single-parent-of-two.png)
+![](../assets/images/2022-08-23-whom-does-maryland-tax/net-income-single-parent-of-two.png)
 
 We can characterize the difference between one's nominal wage and their take-home wage as the _marginal tax rate_—the share of an extra dollar of earnings that the government takes, either through taxes or through withdrawing benefits. In this case, their marginal tax rate on the $650 of marginal wages is ($650-$86)/$650=**87%**. The PolicyEngine chart below details how this single parent’s marginal tax rate changes with additional income (the spikes are from programs that step down rather than phase out smoothly).
 
-![](../assets/images/2022-08-18-whom-does-maryland-tax/mtr-single-parent-of-two.png)
+![](../assets/images/2022-08-23-whom-does-maryland-tax/mtr-single-parent-of-two.png)
 
 [Maryland's tax code](https://policyengine.github.io/openfisca-us//programs/states/md/tax/income/index.html) explains about one-sixth of this marginal tax rate; at $25,000 income, they face a 13.5% marginal tax rate from state taxes.
 
-![](../assets/images/2022-08-18-whom-does-maryland-tax/md-mtr-single-parent-of-two.png)
+![](../assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-single-parent-of-two.png)
 
 Many types of families at or near the poverty line face high marginal tax rates. For example, Maryland taxes married families with children at two to three times the top rate of 5.75%, if they earn between about $25,000 and $60,000. Maryland's true top marginal rate is 15.3%, and that's placed to stack atop federal tax and benefit marginal rates that often exceed 50%.
 
-![](../assets/images/2022-08-18-whom-does-maryland-tax/md-mtr-married-parents.png)
+![](../assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-married-parents.png)
 
 # Where Maryland can go from here
 
