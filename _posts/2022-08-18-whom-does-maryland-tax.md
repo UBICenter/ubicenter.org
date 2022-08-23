@@ -2,7 +2,7 @@
 layout: post
 current: post
 cover: assets/images/2022-08-18-whom-does-maryland-tax/cover.jpeg
-navigation: True
+navigation: False
 title: "Whom does Maryland tax?"
 date: 2022-08-18
 tags: [us, maryland]
