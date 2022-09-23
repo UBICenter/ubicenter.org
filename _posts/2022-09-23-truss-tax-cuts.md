@@ -14,7 +14,7 @@ useplotly: true
 
 ---
 
-## See the head-to-head in PolicyEngine
+## [See the head-to-head in PolicyEngine]((https://policyengine.org/uk/population-impact?dividend_basic_rate=7_5&dividend_higher_rate=32_5&NI_add_rate=2&NI_class_4_add_rate=2&NI_main_rate=12&NI_class_4_main_rate=9&dividend_additional_rate=38_1&basic_rate=19&sdlt_on_non_first_home_2_rate=0&sdlt_first_time_buyer_value_limit=625000&sdlt_on_first_time_buyer_homes_2_threshold=425000&add_rate=40))
 
 On Friday, the UK Chancellor Kwasi Kwarteng [announced a series of tax cuts](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1105989/CCS207_CCS0822746402-001_SECURE_HMT_Autumn_Statement_2022_BOOK_Web_Accessible.pdf) to National Insurance, Income Tax, and stamp duty, reaffirming key campaign pledges by UK Prime Minister Liz Truss. The most prominent of these cuts is the reversal of an [earlier tax rise](https://www.gov.uk/government/publications/health-and-social-care-levy/health-and-social-care-levy) by the previous Chancellor, Rishi Sunak: cutting all National Insurance rates by 1.25 percentage points.
 
