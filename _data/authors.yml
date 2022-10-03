@@ -23,7 +23,7 @@ nikhil:
   url_full: False
   url: False
   short_bio: Nikhil is a tech lead with the UBI Center.
-  bio: Nikhil leads technology at the UBI Center, and conducts research on UK policy. He's previously worked as a data scientist improving anti-money laundering investigations. Nikhil is currently on leave from the Durham University's Computer Science program.
+  bio: Nikhil leads technology at the UBI Center, and conducts research on UK policy. He's previously worked as a data scientist improving anti-money laundering investigations. Nikhil is currently completing Durham University's Computer Science program.
   picture: assets/images/authors/nikhil-woodruff.jpg
   github: nikhilwoodruff
   medium: False
@@ -215,6 +215,23 @@ will:
   github: fedderw
   medium: False
   twitter: willfedder
+  cover: False
+  is_active: True
+  type: staff
+
+pratyush:
+  username: pratyush
+  name: Pratyush Mallick
+  title: Research Assistant
+  location: US
+  url_full: False
+  url: False
+  short_bio: Pratyush is a research assistant at the UBI Center.
+  bio: Pratyush's research focuses on US-UK tax & benefits systems and tax policy. He is pursuing a bachelor's degree in Government and Computer Science and a concurrent Master's in Applied Math at Harvard University.
+  picture: assets/images/authors/pratyush-mallick.jpeg
+  github: mallick-prat
+  medium: False
+  twitter: mallickprat
   cover: False
   is_active: True
   type: staff
