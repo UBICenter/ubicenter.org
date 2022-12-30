@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/yuri/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/yuri/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Welcome to our new open-source website</title>
+      <link href="/new-open-source-website" rel="alternate" type="text/html" title="Welcome to our new open-source website" />
+      <published>2021-04-22T00:00:00+00:00</published>
+      <updated>2021-04-22T00:00:00+00:00</updated>
+      <id>/new-open-source-website</id>
+      <content type="html" xml:base="/new-open-source-website">&lt;p&gt;The UBI Center’s mission is to produce open-source research that informs a robust policy debate around universal basic income. We emphasize “open-source” because we believe that the public deserves full transparency into research that influences economic policy, and because we know that feedback and contributions improve our work, whether or not it comes from our staff. As our friends at the &lt;a href=&quot;https://pslmodels.org/&quot;&gt;Policy Simulation Library&lt;/a&gt; say, “Open Models == Better Policy.”&lt;/p&gt;
+
+&lt;p&gt;The UBI Center has been dedicated to open-source research since its inception. In our &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;first&lt;/a&gt; &lt;a href=&quot;https://www.ubicenter.org/budgetneutral-version-of-andrew-yangs-freedom-dividend&quot;&gt;studies&lt;/a&gt; of Andrew Yang’s Freedom Dividend, we just cited Jupyter &lt;a href=&quot;https://github.com/UBICenter/ubi-center/tree/master/notebooks/yang&quot;&gt;notebooks&lt;/a&gt; stored on GitHub. Later, we moved to the &lt;a href=&quot;https://jupyterbook.org/&quot;&gt;Jupyter Book&lt;/a&gt; platform for our &lt;a href=&quot;https://blog.ubicenter.org&quot;&gt;blog&lt;/a&gt; and &lt;a href=&quot;https://child-allowance.ubicenter.org&quot;&gt;child allowance&lt;/a&gt; website; we published Jupyter notebooks directly as webpages using GitHub Pages and GitHub Actions. We’ve also been developing open-source software with the Policy Simulation Library like &lt;a href=&quot;https://github.com/pslmodels/openfisca-uk&quot;&gt;openfisca-uk&lt;/a&gt;, a microsimulation model of the UK tax and benefit system, and &lt;a href=&quot;https://github.com/pslmodels/microdf&quot;&gt;microdf&lt;/a&gt;, a data analysis package for weighted survey microdata.&lt;/p&gt;
+
+&lt;p&gt;This week, we’re taking the open-source part of our mission to a new level: we’re re-launching &lt;a href=&quot;https://ubicenter.org&quot;&gt;ubicenter.org&lt;/a&gt; as a new website hosted entirely on GitHub. We’ve moved all our posts from &lt;a href=&quot;https://medium.com/ubicenter&quot;&gt;Medium&lt;/a&gt; and &lt;a href=&quot;https://blog.ubicenter.org&quot;&gt;blog.ubicenter.org&lt;/a&gt; (which was hosted with &lt;a href=&quot;https://jupyterbook.org/&quot;&gt;JupyterBook&lt;/a&gt;) to the format you’re seeing here, as well as content from our old Google Sites website. We’re using the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; blogging platform, the &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;Jasper2&lt;/a&gt; theme (based on &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;’s &lt;a href=&quot;https://github.com/TryGhost/Casper&quot;&gt;Casper&lt;/a&gt; theme), &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, and &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;, plus a &lt;a href=&quot;github.com/UBICenter/plotly-converter&quot;&gt;utility&lt;/a&gt; we built for turning Jupyter notebooks into Markdown files with interactive graphics. All the code is at &lt;a href=&quot;https://github.com/ubicenter/ubicenter.org&quot;&gt;github.com/ubicenter/ubicenter.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Beyond the advantages of open-source, our new website provides a cleaner look, more immediate access to our new research, a unified view of our projects, and organization by author and topic. For example, you can see all our research on UBI and race at &lt;a href=&quot;https://ubicenter.org/tag/race&quot;&gt;ubicenter.org/tag/race&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-04-22-new-open-source-website/race-tag.webp&quot; alt=&quot;Posts with the &amp;quot;race&amp;quot; tag&quot; title=&quot;image_tooltip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And just like our previous JupyterBook sites like &lt;a href=&quot;https://blog.ubicenter.org/&quot;&gt;blog.ubicenter.org&lt;/a&gt;, we still have interactive visualizations and a toggle to see the Python code that generates them, like this chart from our &lt;a href=&quot;https://www.ubicenter.org/womens-day-2021&quot;&gt;Women’s Day 2021 post&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import ubicenter
+
+df = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[
+        &quot;MARSUPWT&quot;,
+        &quot;SPM_RESOURCES&quot;,
+        &quot;SPM_POVTHRESHOLD&quot;,
+        &quot;SPM_WEIGHT&quot;,
+        &quot;SPM_NUMPER&quot;,
+        &quot;A_SEX&quot;,
+        &quot;A_AGE&quot;,
+        &quot;SPM_ID&quot;,
+        &quot;AGI&quot;,
+    ],
+)
+df.columns = df.columns.str.lower()
+df[&quot;weight&quot;] = df.marsupwt / 100
+df[&quot;spm_weight&quot;] = df.spm_weight / 100
+df[&quot;female&quot;] = df.a_sex == 2
+df[&quot;poverty&quot;] = df.spm_resources &amp;lt; df.spm_povthreshold
+df[&quot;deep_poverty&quot;] = df.spm_resources &amp;lt; (df.spm_povthreshold / 2)
+df[&quot;sex&quot;] = np.where(df.female, &quot;Female&quot;, &quot;Male&quot;)
+
+spm = df.groupby(
+    [&quot;spm_id&quot;, &quot;spm_resources&quot;, &quot;spm_weight&quot;, &quot;spm_povthreshold&quot;, &quot;spm_numper&quot;]
+)[[&quot;agi&quot;]].sum()
+spm[&quot;agi_pos&quot;] = np.maximum(spm.agi, 0)
+spm.reset_index(inplace=True)
+
+total_population = df.weight.sum()
+total_agi_pos = mdf.weighted_sum(spm, &quot;agi_pos&quot;, &quot;spm_weight&quot;)
+
+# Bin into ages aligning with 18 year old threshold.
+DARK_PURPLE = &quot;#46296E&quot;  # Official Intl Womens Day Color.
+LIGHT_PURPLE = &quot;#907EA8&quot;  # Lightened version.
+DARK_GREY = &quot;#9E9E9E&quot;  # Gray 500 from Material Design.
+LIGHT_GREY = &quot;#BDBDBD&quot;  # Gray 400.
+
+COLOR_MAP = {
+    &quot;Female&quot;: DARK_PURPLE,
+    &quot;Male&quot;: LIGHT_GREY,
+    &quot;Female poverty&quot;: DARK_PURPLE,
+    &quot;Female deep poverty&quot;: LIGHT_PURPLE,
+    &quot;Male poverty&quot;: DARK_GREY,
+    &quot;Male deep poverty&quot;: LIGHT_GREY,
+    &quot;Poverty&quot;: DARK_PURPLE,
+    &quot;Deep poverty&quot;: LIGHT_PURPLE,
+}
+
+df[&quot;age_group&quot;] = pd.cut(df.a_age + 1, np.arange(0, 91, 5), labels=np.arange(0, 86, 5))
+pov_age = mdf.weighted_mean(
+    df, [&quot;poverty&quot;, &quot;deep_poverty&quot;], &quot;marsupwt&quot;, groupby=[&quot;age_group&quot;, &quot;sex&quot;]
+)
+pov_age = pov_age.round(3)
+pov_age.reset_index(inplace=True)
+pov_age = pov_age.melt([&quot;age_group&quot;, &quot;sex&quot;], [&quot;poverty&quot;, &quot;deep_poverty&quot;])
+pov_age[&quot;label&quot;] = (
+    pov_age.sex
+    + &quot; &quot;
+    + np.where(pov_age.variable == &quot;poverty&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;)
+)
+
+fig = px.line(
+    pov_age, x=&quot;age_group&quot;, y=&quot;value&quot;, color=&quot;label&quot;, color_discrete_map=COLOR_MAP
+)
+fig.update_layout(
+    title=&quot;Poverty by gender and age&quot;,
+    xaxis_title=&quot;Age (in 5-year bins)&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    yaxis_range=[0, pov_age.value.max() * 1.1] #fig.update_xaxes(range=[1.5, 4.5])
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;We have much more to do, as we’ve listed on &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues&quot;&gt;github.com/UBICenter/ubicenter.org/issues&lt;/a&gt;. From completing the &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/161&quot;&gt;migration&lt;/a&gt; &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/162&quot;&gt;from JupyterBook&lt;/a&gt; to &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/3&quot;&gt;adding a search bar&lt;/a&gt; to &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/149&quot;&gt;embedding our Twitter feed&lt;/a&gt;, we’re prioritizing openness in our future development. If you see something off, or if there’s something you’d like to see, feel free to &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/new&quot;&gt;submit an issue&lt;/a&gt;. And if you’d like to contribute, check out our open &lt;a href=&quot;https://ubicenter.org/about/join/&quot;&gt;research assistantships and internships&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;matt&quot;, &quot;yuri&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="open source" />
+      
+        <category term="website" />
+      
+
+      
+        <summary type="html">Bringing together all our research in one GitHub-served platform.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

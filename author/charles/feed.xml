@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/charles/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/charles/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">&amp;amp;#147There you may behold the rent&amp;amp;#148: Effects of a UK land dividend</title>
+      <link href="/uk-lvt" rel="alternate" type="text/html" title="&amp;#147There you may behold the rent&amp;#148: Effects of a UK land dividend" />
+      <published>2021-09-19T00:00:00+00:00</published>
+      <updated>2021-09-19T00:00:00+00:00</updated>
+      <id>/uk-lvt</id>
+      <content type="html" xml:base="/uk-lvt">&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;See the simulation in PolicyEngine&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a 1775 lecture, an English Radical proposed making the land in every parish “the property of the corporation or parish,” and sharing the rents with society.
+About two-thirds of the revenue would fund public services, and the remainder would be divided “among the whole number of souls, male and female, married and single in a parish from the infant of a day old to the second infantage of hoary hairs.”
+That Radical was named Thomas Spence, and the lecture, &lt;em&gt;&lt;a href=&quot;https://quod.lib.umich.edu/e/ecco/004808953.0001.000/1:3?rgn=div1;view=fulltext&quot;&gt;The Meridian Sun of Liberty&lt;/a&gt;&lt;/em&gt;, became the first known mention of a universal basic income (UBI).&lt;/p&gt;
+
+&lt;p&gt;While Spence was the first to call for UBI, proposals for common ownership of land predated him by centuries.
+Today, the only large-scale government UBI, Alaska’s Permanent Fund Dividend, follows this model of funding through natural resources.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we simulate a UBI funded by a land value tax (LVT), or what we call a &lt;em&gt;land dividend&lt;/em&gt;, in the UK.
+We find that a 1 percent land dividend could fund a UBI of £16 per week, reducing poverty by 20% and leaving 70% of the population better off (&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;you can explore the simulation in PolicyEngine&lt;/a&gt;).
+Unlike our previous simulations, this is a tax on wealth, and we discuss challenges measuring distributional effects given imperfect correlation between assets and income.
+But first, some background on the oldest idea in the UBI chronology.&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-the-land-dividend&quot;&gt;History of the land dividend&lt;/h1&gt;
+
+&lt;p&gt;Five and a half centuries before Spence, King Henry III sealed a pair of revolutionary English documents: the &lt;em&gt;Magna Carta&lt;/em&gt;, and the &lt;em&gt;Charter of the Forest&lt;/em&gt;.
+The latter sought to rebalance access to the commons, following decades of Kings closing off their forests, charging fees, rents, and penalties to those who hunted on or otherwise used the royal lands.
+The 1217 document allowed all to use the forest as pasture, providing that “Every freeman may agest his own wood within our forest at his pleasure, and shall take his pawnage.”
+So began England’s expansion of rights to common lands, and the subsistence they afford.&lt;/p&gt;
+
+&lt;p&gt;Thomas Paine became the first prominent advocate of a land tax, notably in his 1797 pamphlet, &lt;em&gt;Agrarian Justice&lt;/em&gt;, which called for taxing land inheritances.
+While he stopped short of a full UBI, Paine proposed that the land tax be used for semi-universal payments, in what is also described as the first old-age pension proposal:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[Government must] create a national fund, out of which there shall be paid to every person, when arrived at the age of twenty-one years, the sum of fifteen pounds sterling, as a compensation in part, for the loss of his or her natural inheritance, by the introduction of the system of landed property. And also, the sum of ten pounds per annum, during life, to every person now living, of the age of fifty years, and to all others as they shall arrive at that age.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Spence’s proposal was partly a response to Paine’s (while they were both published in 1796-1797, they had spoken of their respective ideas prior).
+He felt that land was a source of wealth, and that it should be shared with all people—not only once upon a 21st birthday and then in older years.
+In &lt;em&gt;The Meridian Sun of Liberty&lt;/em&gt;, Spence spoke of the universality in liberatory terms:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;By this one bold resolve your chains are eternally broken, and your enemies annihilated. By this one resolve the power, the pride, and the arrogance of the landed interest, those universal and never ceasing scourges and plunderers of your race, are instantane∣ously and for ever broken and cut off. For being thus deprived and shorn of their revenues they become like shorn Sampson, weak as other men; weak as the poor dejected wretches whom they have so long been grinding and treading under toot. There you may behold the rent, which the people have paid into the parish treasuries…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nearly a century later, American political economist Henry George introduced the idea of an annual land value tax.
+While Paine proposed taxing land upon inheritance and Spence proposed collective ownership of land, George sought to marry the concept of collective land ownership with the administrative difficulty of seizing the land; taxing land values each year based on market rents was his solution.
+George did not call for any specific use of the LVT revenue (such as UBI), but his 1879 book &lt;em&gt;Progress and Poverty&lt;/em&gt; claimed that the private capture of land rents explains the persistence of poverty amid economic progress:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The great cause of inequality in the distribution of wealth is inequality in the ownership of land. The ownership of land is the great fundamental fact which ultimately determines the social, the political, and consequently the intellectual and moral condition of a people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the modern era, the economist Milton Friedman supported both the LVT and UBI, though not apparently together.
+Friedman, one of the most influential economists of the 20th century, proposed in his 1962 book &lt;a href=&quot;https://en.wikipedia.org/wiki/Capitalism_and_Freedom&quot;&gt;&lt;em&gt;Capitalism and Freedom&lt;/em&gt;&lt;/a&gt; replacing the existing safety net with a negative income tax (a means-tested UBI).
+&lt;a href=&quot;https://www.youtube.com/watch?v=yS7Jb58hcsc&quot;&gt;In 1978&lt;/a&gt;, he then stated his support for LVT:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There’s a sense in which all taxes are antagonistic to free enterprise – and yet we need taxes. …So the question is, which are the least bad taxes? In my opinion the least bad tax is the property tax on the unimproved value of land, the Henry George argument of many, many years ago.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Today, only one government has enacted a true UBI: Alaska, through its Permanent Fund Dividend.
+Each year, every resident of Alaska receives a payment of between $1,000 and $3,000, regardless of age or income.
+How is it funded?
+The return on the Alaska Permanent Fund, its fund built from oil reserves.
+That is, the only true UBI on Earth is an expression of the shared ownership of land and natural resources.&lt;/p&gt;
+
+&lt;h1 id=&quot;land-and-land-taxation-in-the-uk&quot;&gt;Land and land taxation in the UK&lt;/h1&gt;
+
+&lt;p&gt;The UK Office of National Statistics (ONS) estimates that UK land is worth &lt;a href=&quot;https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/bulletins/nationalbalancesheet/2018&quot;&gt;£5.7 trillion&lt;/a&gt;, 51% of the country’s total net worth; this is a larger share than peer countries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-09-19-uk-lvt/land_wealth_share_G7_countries.png&quot; alt=&quot;Land value as a share of G7 countries net worth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UK does not have a direct land value tax, but it does have three taxes that indirectly tax the value of land:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/council-tax&quot;&gt;Council Tax&lt;/a&gt;&lt;/strong&gt; is a tax on residential property levied on residents (owner-occupiers or renters). Councils assign each property a Council Tax band depending on its value, and then levy flat tax levels for all properties in the same band. Council Tax is means tested through &lt;a href=&quot;https://www.gov.uk/apply-council-tax-reduction&quot;&gt;Council Tax Reduction&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/introduction-to-business-rates&quot;&gt;Business rates&lt;/a&gt;&lt;/strong&gt; are taxes on commercial property, set at roughly 0.5% of the property value.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/stamp-duty-land-tax&quot;&gt;Stamp Duty Land Tax&lt;/a&gt;&lt;/strong&gt; (or just “Stamp Duty”) is a tax on the transfer of property, set progressively between 0% and 12% of the sale price. Despite its name, it taxes the full property value, including both land and structures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For simplicity, our simulation leaves these taxes intact, though we return to these taxes in the conclusion.
+Our simulation did require land value and income in a single dataset; since this does not exist, 
+we &lt;a href=&quot;https://policyengine.github.io/openfisca-uk-data/imputation.html#imputing-land-value-to-the-frs&quot;&gt;fused data from three sources&lt;/a&gt; with machine learning to arrive at our estimates.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We model a 1% tax on the £5.5 trillion in non-government land value, which raises £55 billion per year.
+By itself, this tax is essentially flat from a distributional perspective, raising the Gini inequality index by 0.08%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;However, when distributing the proceeds as UBI, the 1% LVT funds £16 per person per week, and becomes highly progressive.
+The bottom decile’s income would rise 16% and the top decile’s income would fall by 2%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The 1% land dividend would cut poverty by 20% overall, though with significant heterogeneity by age: child poverty would fall 30%, while pensioner poverty would fall only 4%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Impacts vary within income deciles as well.
+89% of the bottom decile comes out ahead, though 7% of them would experience net income decreases of 5% or more (high-asset, low-income people, like many pensioners).
+Conversely, two in five members of the upper decile would come out ahead (low-asset, high-income people, like newly-graduated physicians).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To illustrate the effect on an high-asset low-income person, consider a single pensioner who owns a £1 million home.
+Given the average 62% land value share, they would own £620,000 of land, and thus face a £6,200 annual land tax bill.
+About £830 of which would be offset by the UBI.
+If their main income is the £7,200 from &lt;a href=&quot;https://www.gov.uk/state-pension&quot;&gt;State Pension&lt;/a&gt;, the policy would push them well below the poverty line.&lt;/p&gt;
+
+&lt;p&gt;But is that person actually poor? They’re living in a £1 million home, which, based on the &lt;a href=&quot;https://www.globalpropertyguide.com/Europe/United-Kingdom/price-rent-ratio&quot;&gt;average price-to-rent ratio&lt;/a&gt;, would cost £28,000 per year to rent.
+If they were renting instead of being a homeowner, they’d need £28,000 extra income; indeed, it’s as if they are a renter in their own home, paying themselves rent each month. This concept has a name: &lt;em&gt;imputed rent&lt;/em&gt;.
+Imputed rents factor prominently into measurements like GDP and inflation, but they’re not part of poverty measurements.&lt;/p&gt;
+
+&lt;p&gt;Or consider if this person doesn’t just have a £1 million home, but also £1 million in equities.
+Under a 1% LVT, they’d pay another £3,300 per year in taxes through their £330,000 in indirect land holdings.
+But in practice, this would just lower the value of their holdings, rather than being a tax they’d pay in that year, as our accounting would assume.&lt;/p&gt;
+
+&lt;p&gt;These scenarios can also intersect.
+Suppose the pensioner wanted to sell some stock to pay the LVT bill on their home.
+Even if we included capital gains in income (neither we nor the UK government do), we lack the behavioral knowledge to model how much they would sell.&lt;/p&gt;
+
+&lt;p&gt;There’s no straightforward way to marry asset-based taxes like LVT with income-based measurements like poverty.
+Accounting for imputed rents and capital gains would be a start, but ultimately these concepts differ in ways that cannot be fully reconciled, only explained.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-pro-growth-step-toward-ubi&quot;&gt;A pro-growth step toward UBI&lt;/h2&gt;
+
+&lt;p&gt;Economic theory states that the deadweight loss (economic inefficiency) of a tax depends, in part, on how elastic (responsive) the supply is to the tax.
+Personal income taxes shrink the economy because people reduce their labor supply in response to the tax; VATs shrink the economy because people reduce their consumption in response to the tax; and so on.
+Sometimes this responsiveness can grow the economy, when the reduced behavior has negative externalities, and these Pigouvian taxes like &lt;a href=&quot;http://ubicenter.org/us-carbon-dividend&quot;&gt;carbon taxes&lt;/a&gt; are generally considered the most economically efficient taxes.&lt;/p&gt;
+
+&lt;p&gt;Short of Pigouvian taxes, though, land taxes are most efficient, because their supply is fixed.
+That is, there is zero deadweight loss from land value taxes, because the price elasticity of supply is zero.
+A &lt;a href=&quot;https://www.oecd-ilibrary.org/docserver/241216205486.pdf?expires=1625154113&amp;amp;id=id&amp;amp;accname=guest&amp;amp;checksum=1C37382017FFC08ADBEAB9DB5DD0F96C&quot;&gt;2008 paper from the OECD Economics Department&lt;/a&gt; confirms this theory:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The reviewed evidence and the empirical work suggests recurrent taxes on immovable property being the least distortive tax instrument in terms of reducing long-run GDP per capita.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;LVTs will be more efficient than the property taxes lauded in the OECD report, which include Council Tax and Business rates in the UK.
+Property taxes tax both land and structures, and taxes on structures suppress construction.
+LVT will be especially more efficient than the non-recurrent Stamp Duty, which discourages transferring property to owners that can make more productive use of it.
+The &lt;a href=&quot;https://fairershare.org.uk&quot;&gt;Fairer Share campaign&lt;/a&gt; proposes replacing these three taxes with a proportional property tax, reducing complexity and distortions from Stamp Duty, though stopping short of removing the tax on structures as an LVT would.&lt;/p&gt;
+
+&lt;p&gt;LVT is far from new: most of the world levies some form of land tax, even if it’s typically paired with an equal tax on structures and dubbed a property tax.
+In addition, some jurisdictions levy land only taxes, such as the progressive land tax up to 2.25% of &lt;a href=&quot;https://www.sro.vic.gov.au/land-tax&quot;&gt;Victoria, Australia&lt;/a&gt;, and the flat 4% tax (atop a 1% property tax) of &lt;a href=&quot;https://www.strongtowns.org/journal/2019/3/6/non-glamorous-gains-the-pennsylvania-land-tax-experiment&quot;&gt;Allentown, Pennsylvania, USA&lt;/a&gt;.
+Progressive land taxes can be avoided by splitting parcels, while flat land taxes can produce distributional issues if not offset by transfers.
+This analysis shows that pairing LVT with UBI can produce economically efficient, progressive redistribution.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="policyengine" />
+      
+        <category term="land" />
+      
+
+      
+        <summary type="html">Funding universal basic income with a land value tax would reduce poverty and inequality, while raising questions about distributional measurement.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Research we’re presenting at the upcoming Basic Income Earth Network Congress</title>
+      <link href="/bien-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming Basic Income Earth Network Congress" />
+      <published>2021-08-17T00:00:00+00:00</published>
+      <updated>2021-08-17T00:00:00+00:00</updated>
+      <id>/bien-2021</id>
+      <content type="html" xml:base="/bien-2021">&lt;h2 id=&quot;register-to-attend-the-bien-congress-here&quot;&gt;Register to attend the BIEN Congress &lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;From Wednesday through Saturday, the &lt;a href=&quot;https://basicincome.org/&quot;&gt;Basic Income Earth Network (BIEN)&lt;/a&gt; will hold its &lt;a href=&quot;https://cbin.scot/bien2021/&quot;&gt;annual BIEN Congress&lt;/a&gt;.
+The virtual conference includes presentations from researchers and activists around the world, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;Here are the sessions we’ll be presenting (times are given as British Standard Time; subtract five hours for Eastern Time and eight hours for Pacific Time):&lt;/p&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-lessons-for-basic-income-policies-pilots-and-modelling&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841162&quot;&gt;Thursday at 6:30PM BST: Lessons for Basic Income policies, pilots and modelling&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their paper, &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/author/deepak&quot;&gt;Deepak Singh&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Rick Evans will present progress toward constructing a general equilibrium model of UBI in the UK (a collaboration with Nikhil Woodruff, Jason DeBacker, Jonathan Pycroft, and Max Ghenis).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-considering-public-attitudes-to-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841151&quot;&gt;Thursday at 6:30PM BST: Considering public attitudes to Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/katarina/&quot;&gt;Katarina van Alebeek&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/will&quot;&gt;Will Fedder&lt;/a&gt; will present our new UBI Poll Tracker (link coming soon).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;friday-at-900am-bst-guaranteeing-a-standard-of-living-with-a-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841181&quot;&gt;Friday at 9:00AM BST: Guaranteeing a standard of living with a Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present his paper, &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;“Replacing tax and benefit allowances with UBI in the UK”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their research on funding a UBI with a land value tax in the UK (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-bien-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;Registration for BIEN is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;katarina&quot;, &quot;will&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="global" />
+      
+        <category term="conferences" />
+      
+
+      
+        <summary type="html">We'll give five talks across three sessions on Thursday and Friday.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Blank slate UBI: A constructive challenge for the UK basic income debate</title>
+      <link href="/uk-blank-slate-ubi" rel="alternate" type="text/html" title="Blank slate UBI: A constructive challenge for the UK basic income debate" />
+      <published>2021-05-12T00:00:00+00:00</published>
+      <updated>2021-05-12T00:00:00+00:00</updated>
+      <id>/uk-blank-slate-ubi</id>
+      <content type="html" xml:base="/uk-blank-slate-ubi">&lt;h2 id=&quot;read-the-report-here&quot;&gt;&lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;Read the report here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;We’re thrilled to have launched our first report in the UK: &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;“Blank Slate UBI: A Constructive Challenge for the UK Basic Income Debate.”&lt;/a&gt; The report, which we published with the UK’s &lt;a href=&quot;https://www.socialliberal.net/&quot;&gt;Social Liberal Forum&lt;/a&gt;, models three audacious budget-neutral UBI plans. These plans replace the existing tax and benefit system with a 50 percent flat income tax, which funds UBIs of between £60 and £221 per week, depending on age and policy design, including supplements for disability and region. As a result, poverty would fall by 32 percent or more, deep poverty by 86 percent, and the Gini inequality index by at least 8 percent; 58 percent of Britons would come out ahead on a net basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/table.png&quot; alt=&quot;Summary statistics&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This report is the UBI Center’s first simulation of UBI in the UK, and the first application of the &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca-UK&lt;/a&gt; open-source microsimulation model of the UK tax and benefit system, which the UBI Center developed with &lt;a href=&quot;http://openfisca.org&quot;&gt;OpenFisca&lt;/a&gt; and the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;. The report also demonstrates the first budget-neutral UK simulation to fund such generous UBI amounts—an average of £140 per week—and to reduce poverty to such a degree.&lt;/p&gt;
+
+&lt;p&gt;As an example of the progressivity that can be achieved with this kind of wholesale reform, consider the effect by decile. Under each of the three reforms, the bottom decile benefits by at least 50 percent on average, while the upper three deciles lose 6-7 percent of their income.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/decile_pct.png&quot; alt=&quot;Average percent effect by decile&quot; title=&quot;Average percent effect by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The effect is progressive not only on an average basis but also within deciles; for example, 92 percent of the bottom decile would see their incomes rise by at least 5 percent, compared to only 8 percent of the top decile with major gains (considering our reform with a disability supplement). We applied optimization algorithms to design the UBI policies as to minimize these losses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/within_decile_2.png&quot; alt=&quot;Distribution of effects by decile&quot; title=&quot;Distribution of effects by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UBI discussion may be more advanced in the UK than in any country on Earth, and this launch marks only the beginning of our investment to contribute data and evidence to that discussion.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To hear more about this report, join the &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi&quot;&gt;Social Liberal Forum’s event&lt;/a&gt; today (Thursday) at 19:00 UK time, including Max Ghenis (president of the UBI Center and one of the report’s authors), along with Paul Noblet (chair of the Liberal Democrats UBI Policy Working Group), Christine Jardine (MP for Edinburgh West and Liberal Democrat lead on the Cross-Party Parliamentary and Local Government Working Group on UBI), and Jane Dodds (Leader of the Liberal Democrats in Wales, and chair of the Lib Dems for Basic Income campaign group).&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;deepak&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our first UK report, published with the Social Liberal Forum, simulates audacious UBI-centered reforms to the tax and benefit systems.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">What a Canadian experiment tells us about cash transfers and homelessness</title>
+      <link href="/canada-homelessness-experiment" rel="alternate" type="text/html" title="What a Canadian experiment tells us about cash transfers and homelessness" />
+      <published>2020-12-14T00:00:00+00:00</published>
+      <updated>2020-12-14T00:00:00+00:00</updated>
+      <id>/canada-homelessness-experiment</id>
+      <content type="html" xml:base="/canada-homelessness-experiment">&lt;p&gt;&lt;a href=&quot;https://homelesshub.ca/sites/default/files/SOHC16_final_20Oct2016.pdf&quot;&gt;35,000 Canadians&lt;/a&gt; experience homelessness each night, violating their &lt;a href=&quot;https://www.ohchr.org/EN/Issues/Housing/Pages/Homelessnessandhumanrights.aspx&quot;&gt;right to adequate housing&lt;/a&gt; and threatening their &lt;a href=&quot;https://depts.washington.edu/triolive/quest/2007/TTQ07033/effects.html#:~:text=Their%20health%20gets%20worse%20from,Cardio%2DRespiratory%20diseases&quot;&gt;health, safety&lt;/a&gt; and access to &lt;a href=&quot;https://journals.sagepub.com/doi/pdf/10.3102/0013189X12468210?casa_token=YsJRZhavl9EAAAAA:iKO6XaWu6oNbDgcRzw3Tml-_m6mHEYmRWGY48rzXTStFpmBEWzqa1L_euQoV8WXYkrwZ8vxj-KGMGQ&quot;&gt;education&lt;/a&gt;. The Covid-19 pandemic exacerbates the issue, given &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7206983/&quot;&gt;crowded living conditions and comorbidities&lt;/a&gt;, and the Canadian government has taken new steps to address it, such as &lt;a href=&quot;https://www.theglobeandmail.com/canada/article-could-shelter-hotels-be-a-model-for-addressing-homelessness/&quot;&gt;moving people experiencing homelessness into hotels&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Prior to the pandemic, a Vancouver nonprofit, &lt;a href=&quot;https://forsocialchange.org/&quot;&gt;Foundations for Social Change&lt;/a&gt;, worked with the University of British Columbia to test a novel homelessness intervention: &lt;a href=&quot;https://static1.squarespace.com/static/5f07a92f21d34b403c788e05/t/5f751297fcfe7968a6a957a8/1601507995038/2020_09_30_FSC_Statement_of_Impact_w_Expansion.pdf&quot;&gt;unconditional cash transfers&lt;/a&gt;. In spring 2018, their &lt;a href=&quot;https://forsocialchange.org/new-leaf-project-overview&quot;&gt;New Leaf Project&lt;/a&gt; (NLP) granted a lump sum cash transfer to &lt;a href=&quot;https://www.britishcolumbia.ca/invest/communities/british-columbia/lower-mainland-southwest/&quot;&gt;Lower Mainland&lt;/a&gt; residents experiencing homelessness, and compared their outcomes to a control group. While some questions remain, the findings reveal that unconditional cash transfers, which are otherwise shown to improve &lt;a href=&quot;https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011135.pub2/full&quot;&gt;health&lt;/a&gt;, &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1570677X18303575&quot;&gt;education&lt;/a&gt;, and other outcomes, offer potential to reduce homelessness.&lt;/p&gt;
+
+&lt;h2 id=&quot;study-overview&quot;&gt;Study overview&lt;/h2&gt;
+
+&lt;p&gt;NLP selected 115 long-term residents or citizens of Canada aged 19 to 64 who had experienced homelessness within the previous six months. This group is fairly representative of Canada’s homeless population, given only about &lt;a href=&quot;https://www.homelesshub.ca/about-homelessness/homelessness-101/how-many-people-are-homeless-canada&quot;&gt;10 percent&lt;/a&gt; of people experiencing homelessness in a year were homeless for more than a month, and about &lt;a href=&quot;https://homelesshub.ca/sites/default/files/SOHC16_final_20Oct2016.pdf&quot;&gt;four percent&lt;/a&gt; are aged 65 or older. People with severe substance abuse or mental health disorders were ineligible for NLP.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the experiment, NLP deposited CAD 7,500&lt;sup id=&quot;fnref:cad&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cad&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; into the bank accounts of 50 participants, randomly selected from the full group of 115. Each cash recipient was also provided access to workshops, and 25 also had access to coaching. Of the 65 who did not receive cash, 19 were provided access to workshops and coaching, while the other 46 were not.&lt;sup id=&quot;fnref:unbalanced&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:unbalanced&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Workshops focused on the development of a personal financial plan and self-affirmation exercises, and the coaching was offered for six months, aiming to develop and sustain life skills and strategies. Researchers tracked participants over twelve months, filling out questionnaires at one, three, six, nine and twelve months and open-ended qualitative interviews at six and twelve months.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+import plotly.express as px
+
+design = pd.DataFrame(
+    {
+        &quot;Workshop&quot;: [25, 0],
+        &quot;Workshop + coaching&quot;: [25, 19],
+        &quot;Neither&quot;: [0, 46]
+    },
+    index=[&quot;Cash&quot;, &quot;No cash&quot;],
+)
+design
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/canada-homelessness-experiment/2020-12-14-canada-homelessness-experiment-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h3 id=&quot;spending&quot;&gt;Spending&lt;/h3&gt;
+
+&lt;p&gt;The cash group spent an average of CAD 426 per month more than the non cash group over the course of the year. This amounts to 42 percent more than the non-cash group, or 6 percent of the total CAD 7,500 lump sum transfer. This extra spending covered a diverse range of categories: 54 percent more on transit, 113 percent more on clothing, 34 percent more on food, and so on. Of the treatment groups, the cash group increased its expenditure on alcohol, drugs, and cigarettes by the smallest proportion (11 percent).&lt;sup id=&quot;fnref:alcohol&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:alcohol&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; It also increased its expenditure on food and clothing for the children of recipients by the largest proportion (171 percent).&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Construct data from report.
+raw = pd.read_csv(&quot;new_leaf_homeless_expenditures.csv&quot;)
+raw.set_index('spending_category', inplace=True)
+# Sum food and clothing categories.
+food_clothes_kids = raw.loc[['Food for kids', 'Clothes for kids']].sum()
+food_clothes_self = raw.loc[['Food', 'Clothes']].sum()
+spending = raw.drop([&quot;Food&quot;, &quot;Clothes&quot;, &quot;Food for kids&quot;, &quot;Clothes for kids&quot;])
+spending.loc[&quot;Food and clothes for self&quot;] = food_clothes_self
+spending.loc[&quot;Food and clothes for kids&quot;] = food_clothes_kids
+
+# Add total row and label total for graph.
+spending.loc['TOTAL'] = spending.sum()
+spending['is_total'] = spending.index == 'TOTAL'
+
+spending.index.rename('Category', inplace=True)
+spending['% difference'] = (
+    100 * (spending.cash / spending.non_cash - 1)).round()
+
+
+import plotly.graph_objects as go
+
+# Plot % difference.
+BLUE = '#1976D2'
+DARK_BLUE = '#0D47A1'
+COLOR_MAP = {True: DARK_BLUE, False: BLUE}  # Total vs non-total.
+spending_order = spending.sort_values('% difference')
+spending_order.rename({'cash': 'Cash', 'non_cash': 'Non-cash',
+                       'is_total': 'Total'},
+                      axis=1, inplace=True)
+fig = px.bar(spending_order, y=spending_order.index, x='% difference',
+             color='Total', color_discrete_map=COLOR_MAP,
+             orientation='h', hover_data=['Cash', 'Non-cash'])
+
+fig.update_layout(font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  paper_bgcolor='white',
+                  showlegend=False,
+                  xaxis_title='Difference between cash and non-cash group',
+                  yaxis_title='',
+                  xaxis_ticksuffix='%',
+                  yaxis={'categoryorder': 'array',
+                         'categoryarray': spending_order.index},
+                  title='Spending differences between cash and non-cash groups'
+                  )
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/logos/wide-blue.jpg&quot;,
+        xref=&quot;paper&quot;, yref=&quot;paper&quot;,
+        x=1.04, y=-0.13,
+        sizex=0.12, sizey=0.12,
+        xanchor=&quot;right&quot;, yanchor=&quot;bottom&quot;
+    )
+)
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/canada-homelessness-experiment/2020-12-14-canada-homelessness-experiment-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Another way of quantifying the changes is as a share of spending. Alcohol, drugs, and cigarettes made up 9 percent of the cash group’s spending, a fifth less than the non-cash group’s 11.4 percent, while food and clothes for children made up 7.9 percent of the cash group’s spending, nearly double the 4.1 percent share in the non-cash group. The cash group also spent a larger share on clothes (for themselves) and transit, and a smaller share on rent and food.&lt;/p&gt;
+
+&lt;h3 id=&quot;transitions-to-stable-housing&quot;&gt;Transitions to stable housing&lt;/h3&gt;
+
+&lt;p&gt;Cash recipients also spent less time homeless than the control group. The two groups started similarly, but in the month following the intervention, the cash group was only homeless for 49 percent of days, while the control group was homeless for 78 percent of those days. The effect diminished over time, and by the end of the year, the two groups converged at around a fifth of days homeless. Overall, people in the cash group spent an average of 88 fewer days homeless throughout the full year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/days_homeless_chart.png&quot; alt=&quot;Days homeless fell faster over the year for the cash group than the non-cash group&quot; title=&quot;Change in days homeless for cash and non-cash groups&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those extra 88 days in homelessness housing and services would have cost the government about $8,200, exceeding the $7,500 grant (NLP did not report total costs beyond the grant, which would factor into a comprehensive cost-effectiveness analysis).&lt;/p&gt;
+
+&lt;p&gt;In open-ended surveys, cash recipients reported that they did not have to depend on social services and could move into housing that better met their preferences. For instance, one participant said, “The impact it had on my life was huge. I was able to do a lot of things that I couldn’t do before. It has changed my ability to make proper choices. If I had not received the cash transfer, I wouldn’t be able to move out. Wouldn’t be able to get my car back on the road. None of that.”&lt;/p&gt;
+
+&lt;h2 id=&quot;comparison-with-other-studies&quot;&gt;Comparison with other studies&lt;/h2&gt;
+
+&lt;p&gt;While NLP is the first randomized controlled trial giving unconditional cash transfers to people experiencing homelessness, it aligns with other studies on how cash transfers are spent.&lt;/p&gt;
+
+&lt;p&gt;The diversity of NLP participants’ spending is not unusual. The NGO GiveDirectly, which distributes unconditional cash transfers to extremely poor households in East Africa, &lt;a href=&quot;https://academic.oup.com/qje/article/131/4/1973/2468874?casa_token=r0_EGO-olVkAAAAA:D-gM7NEQ05yqBPV7qpwoDUZdQYeBkc0k0VD25VTBNDC9UAJbhM12Z45LDcGE3YRDELaGfBD7ktbJjA&quot;&gt;found&lt;/a&gt; in a randomized controlled trial that “With the exception of temptation goods (alcohol and tobacco), transfers increase expenditures in all categories, including food, medical and education expenditure, and social events.” GiveDirectly’s &lt;a href=&quot;https://live.givedirectly.org/&quot;&gt;GDLive tool&lt;/a&gt; shows unfiltered, unedited stories from recipients of their unconditional cash transfers and &lt;a href=&quot;https://www.givedirectly.org/ubi-study&quot;&gt;universal basic income&lt;/a&gt; payments; perusing the stories of UBI recipients reveals variety in spending, from &lt;a href=&quot;https://live.givedirectly.org/newsfeed/1b0ed686-5aef-4386-8fc3-0c00078d810d/199799?context=search-UBI#payment_26&quot;&gt;poultry&lt;/a&gt; and &lt;a href=&quot;https://live.givedirectly.org/newsfeed/a048e9ee-4ee3-4af4-9a95-3e3a64b2d568/199175?context=search-UBI#payment_23&quot;&gt;tea seedlings&lt;/a&gt; to &lt;a href=&quot;https://live.givedirectly.org/newsfeed/6e54ba92-ddde-4634-8c8e-f092303c56e6/199793?context=search-UBI#payment_26&quot;&gt;school fees&lt;/a&gt; and &lt;a href=&quot;https://live.givedirectly.org/newsfeed/65e70a79-f575-49e4-82e4-88bcf186e395/199033?context=search-UBI#payment_26&quot;&gt;dowries&lt;/a&gt; to &lt;a href=&quot;https://live.givedirectly.org/newsfeed/cf2ec5ca-0fa8-4cab-98ed-3b8712ccf0e9/199064?context=search-UBI#payment_26&quot;&gt;water tanks&lt;/a&gt; and &lt;a href=&quot;https://live.givedirectly.org/newsfeed/822e173e-d163-4472-a6ac-5124a59f44d1/199001?context=search-UBI#payment_26&quot;&gt;homebuilding materials&lt;/a&gt;. A study of Australia’s Covid-19 economic support payment also found that recipients—mostly pensioners—increased spending across a &lt;a href=&quot;https://www.smh.com.au/business/the-economy/groceries-vs-video-games-how-women-and-men-spend-their-stimulus-payments-differently-20200419-p54l88.html&quot;&gt;diverse range of categories&lt;/a&gt;. Given many in-kind assistance programs target just one or two categories each, such as food and rent, cash can fill in gaps for other needs that might be harder for policymakers to anticipate.&lt;/p&gt;
+
+&lt;p&gt;Spending on children is especially common, as evidenced by the robust evidence that cash transfers benefit children. As we summarize in &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;our child allowance paper&lt;/a&gt;, cash transfers consistently improve education and nutrition, as well as long-term outcomes like earnings and even lifespan, across both developing and developed countries. &lt;a href=&quot;https://www.nber.org/system/files/working_papers/w14624/w14624.pdf&quot;&gt;One study&lt;/a&gt; from Canada found that when Manitoba increased its child benefit in 2001, children ages 0 to 3 showed improved motor and social development, children ages 4-5 showed lower aggression and anxiety.&lt;/p&gt;
+
+&lt;p&gt;A common concern around giving money to poor people is that they will spend on temptation goods like alcohol, drugs, and cigarettes. This worry motivated San Francisco voters to &lt;a href=&quot;https://en.wikipedia.org/wiki/San_Francisco_Proposition_N_(2002)&quot;&gt;replace cash assistance&lt;/a&gt; for people experiencing homelessness with in-kind benefits like housing, in a 2002 program called &lt;a href=&quot;https://www.latimes.com/politics/la-pol-ca-gavin-newsom-homelessness-san-francisco-20181023-story.html&quot;&gt;“Care Not Cash.”&lt;/a&gt; A number of studies show such concerns to be misplaced. Data from San Francisco’s pre-Care-Not-Cash days indicates that homeless cash recipients were &lt;a href=&quot;https://link.springer.com/article/10.1093/jurban/jti015&quot;&gt;less likely to use drugs&lt;/a&gt; than those who didn’t receive cash (they were also less likely to receive income from selling drugs or be incarcerated, and more likely to find shelter). A &lt;a href=&quot;https://news.gallup.com/poll/184358/drinking-highest-among-educated-upper-income-americans.aspx&quot;&gt;2015 Gallup poll&lt;/a&gt; and a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3185179/&quot;&gt;2011 analysis&lt;/a&gt; of the Panel Study of Income Dynamics also found that low-income people consume less alcohol than higher-income people (though they’re more likely to drink heavy quantities and similarly likely to report that they drink more than they should). A &lt;a href=&quot;http://documents1.worldbank.org/curated/en/617631468001808739/pdf/WPS6886.pdf&quot;&gt;2014 World Bank meta-analysis&lt;/a&gt; demonstrates that these results are not mere correlations: data from 19 quantitative papers, including several randomized controlled trials, found that cash transfers most often &lt;em&gt;reduced&lt;/em&gt; or had no effect on temptation good consumption.&lt;sup id=&quot;fnref:temptation&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:temptation&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Canada has long welcomed unconditional cash transfers, from the 1970s &lt;a href=&quot;https://www.bbc.com/worklife/article/20200624-canadas-forgotten-universal-basic-income-experiment&quot;&gt;“Mincome” program&lt;/a&gt; in Manitoba to its unusually generous &lt;a href=&quot;https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html&quot;&gt;child benefit&lt;/a&gt; to its prematurely-cancelled &lt;a href=&quot;https://www.pbs.org/newshour/economy/making-sense/ontario-is-canceling-its-basic-income-experiment&quot;&gt;basic income pilot&lt;/a&gt; in Ontario. And as &lt;a href=&quot;https://www.un.org/development/desa/dspd/wp-content/uploads/sites/22/2019/05/CASEY_Louise_Paper.pdf&quot;&gt;developed&lt;/a&gt; and &lt;a href=&quot;https://www.un.org/development/desa/dspd/wp-content/uploads/sites/22/2019/05/SPEAK_Suzanne_Paper.pdf&quot;&gt;developing&lt;/a&gt; countries tackle homelessness, discussions inevitably include cash, whether it’s San Francisco &lt;a href=&quot;https://en.wikipedia.org/wiki/San_Francisco_Proposition_N_(2002)&quot;&gt;retracting cash assistance&lt;/a&gt; in 2002 or Manila introducing a &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-81-322-2160-9_15&quot;&gt;conditional cash transfer&lt;/a&gt; in 2012.&lt;/p&gt;
+
+&lt;p&gt;NLP unites Canadian interest in cash transfers with homelessness research. It shows that people experiencing homelessness spread lump-sum transfers over time and across spending categories—especially focusing on their children—and that cash transfers accelerate transitions into stable housing.&lt;/p&gt;
+
+&lt;p&gt;Some questions following this study remain. For example, how would cash transfers affect the &lt;a href=&quot;https://canadiancentreforaddictions.org/addiction-in-the-homeless-population/&quot;&gt;40 percent&lt;/a&gt; of Canadians experiencing homelessness who have substance abuse disorders? Or the &lt;a href=&quot;https://lop.parl.ca/staticfiles/PublicWebsite/Home/ResearchPublications/InBriefs/PDF/2014-11-e.pdf&quot;&gt;similar share&lt;/a&gt; with mental illness? NLP excluded both groups from this round, though a &lt;a href=&quot;https://science.sciencemag.org/content/370/6522/eaay0214&quot;&gt;recent Science meta-review&lt;/a&gt; found that “cash transfers and broader anti-poverty programs reduce depression and anxiety in randomized trials.” The long-term effects on children experiencing homelessness may be even starker, as the review also finds that “poverty experienced in childhood and in utero [results] in impaired cognitive development and adult mental illness.”&lt;/p&gt;
+
+&lt;p&gt;Another question is: how do lump sum transfers, as used in the NLP experiment, compare to recurring payments for people experiencing homelessness? Research to date on this question has largely focused on developing countries. For example, a review of &lt;a href=&quot;https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/5745.pdf&quot;&gt;post-emergency aid and development&lt;/a&gt; contexts suggests that regular payments are less prone to corruption than lump sum transfers, and that they outperform on measures of social protection, while lump-sum transfers can more effectively spur investment if targeted to entrepreneurs. Similarly, a &lt;a href=&quot;https://academic.oup.com/qje/article/131/4/1973/2468874?casa_token=r0_EGO-olVkAAAAA:D-gM7NEQ05yqBPV7qpwoDUZdQYeBkc0k0VD25VTBNDC9UAJbhM12Z45LDcGE3YRDELaGfBD7ktbJjA&quot;&gt;GiveDirectly study&lt;/a&gt; among poor households in rural Kenya found: “Monthly transfers are more likely than lump-sum transfers to improve food security, whereas lump-sum transfers are more likely to be spent on durables,” and forthcoming results from its &lt;a href=&quot;https://www.givedirectly.org/ubi-study/&quot;&gt;basic income experiment&lt;/a&gt; will shed more light on the topic.&lt;/p&gt;
+
+&lt;p&gt;Beyond helping people currently experiencing homelessness, how can cash transfers prevent homelessness? Studies from &lt;a href=&quot;https://www.latimes.com/business/la-fi-ucla-anderson-forecast-20180613-story.html&quot;&gt;UCLA&lt;/a&gt; and &lt;a href=&quot;https://www.zillow.com/research/homelessness-rent-affordability-22247/&quot;&gt;Zillow&lt;/a&gt; link housing affordability and homelessness, suggesting that (along with reducing housing costs) raising incomes via cash transfers could keep people housed.&lt;/p&gt;
+
+&lt;p&gt;Finally: how much of these effects can be attributed to cash transfers compared to coaching, workshops, and other overhead, and how do these other costs affect cost-benefit analysis? This first experimental design makes it difficult to disentangle effects, but future experiments could omit other components to focus on the cash transfer, or test other components in a grid or hierarchical design. For example, a &lt;a href=&quot;https://www.nber.org/papers/w28106&quot;&gt;recent study&lt;/a&gt; on psychological well-being in rural Kenya employed a two-by-two experimental design to study the effect of cash transfers, a psychotherapy program, and the combination of the two. This revealed that, while the cash transfer improved well-being, psychotherapy did not—either by itself or in conjunction with the cash. A similar approach could quantify the effect of coaching or workshops, conditional on cash transfers.&lt;/p&gt;
+
+&lt;p&gt;Foundations for Social Change has committed to publishing a peer-reviewed paper on this round of results, and they are raising $10 million to enroll more participants across more Canadian cities and expand research capacity. Any follow-up research is likely to improve the precision of these estimates on expenditures and housing stability, and quantify the external validity to new contexts, even if only geographic. Open questions on cash and homelessness makes this fertile ground for further research, whether from NLP or other organizations. If nothing else, this study suggests that expanding cash assistance will increase spending on diverse needs—especially of children—and accelerate transitions to stable housing, thereby improving the range of outcomes associated with homelessness.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:cad&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;CAD 7,500 is equivalent to about USD 5,900 as of December 2020. &lt;a href=&quot;#fnref:cad&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:unbalanced&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Researchers did not explain their choice to have unbalanced treatment and control groups, or to give workshop access only to the cash group. &lt;a href=&quot;#fnref:unbalanced&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:alcohol&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://static1.squarespace.com/static/5f07a92f21d34b403c788e05/t/5f751297fcfe7968a6a957a8/1601507995038/2020_09_30_FSC_Statement_of_Impact_w_Expansion.pdf&quot;&gt;study&lt;/a&gt; claims a “39% reduction in spending on alcohol, cigarettes and drugs.” In email correspondence, Foundations for Social Change clarified that this is a comparison of pre-pilot spending with that at the end of 12 months for the cash group (i.e. not compared to the non-cash group). &lt;a href=&quot;#fnref:alcohol&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:temptation&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Temptation goods are defined as: “goods that generate positive utility for the self that consumes them, but not for any previous self that anticipates that they will be consumed in the future.” But the meta study focuses principally on alcohol and tobacco. Similarly, the study suggests that temptation goods are synonymous with demerit goods or, “goods that were so demeritorious (either to the consumer or to others) that the government may be correct in regulating their use. That term is sometimes used in reference to alcohol and tobacco in cash transfer studies.” &lt;a href=&quot;#fnref:temptation&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;charles&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="canada" />
+      
+        <category term="homelessness" />
+      
+        <category term="pilots" />
+      
+
+      
+        <summary type="html">Recipients spent mostly on their children and stable housing.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

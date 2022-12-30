@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/tag/disability/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/tag/disability/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">One in five Americans with disabilities is in poverty. Even small basic incomes would help.</title>
+      <link href="/ada30" rel="alternate" type="text/html" title="One in five Americans with disabilities is in poverty. Even small basic incomes would help." />
+      <published>2020-07-31T00:00:00+00:00</published>
+      <updated>2020-07-31T00:00:00+00:00</updated>
+      <id>/ada30</id>
+      <content type="html" xml:base="/ada30">&lt;p&gt;As the Americans with Disabilities Act reaches its 30th anniversary, we wanted to look beyond the workplace to poverty, safety net programs, and basic income. Today, more than 1 in 5 Americans with disabilities live below the poverty threshold, nearly twice the rate of Americans without disabilities.&lt;/p&gt;
+
+&lt;p&gt;While America provides some income support to its citizens with disabilities through Supplemental Security Income (SSI) and Social Security Disability Insurance (SSDI), these programs inevitably leave many out.  Today, 22% of households with people with disabilities do not receive any federal government assistance.  Further, just 14% of households of families where someone is disabled collected SSI, a program “designed to help aged, blind, and &lt;a href=&quot;https://www.ssa.gov/ssi/&quot;&gt;disabled people&lt;/a&gt;, who have little or no income.”  Unemployment insurance was the only program in our analysis that was more likely to go to families without people with disabilities&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+### LOAD PACKAGES ####
+
+import pandas as pd
+import plotly.express as px
+import microdf as mdf
+import numpy as np
+
+### COLORS ###
+
+# Colors from https://material.io/design/color/the-color-system.html
+BLUE = '#1976D2'
+DARK_BLUE = '#0D47A1'
+BARELY_BLUE = '#E3F2FD'
+GRAY = '#BDBDBD'
+
+
+### LOAD DATA ###
+
+person_raw = pd.read_csv('https://github.com/MaxGhenis/datarepo/raw/master/pppub19.csv.gz',
+                         usecols=['MARSUPWT', 'SPM_ID', 'SPM_RESOURCES',
+                                  'SPM_POVTHRESHOLD', 'A_AGE', 'PEDISDRS',
+                                  'PEDISEAR', 'PEDISEYE', 'PEDISOUT',
+                                  'PEDISPHY', 'PEDISREM', 'SPM_NUMPER',
+                                  'SS_VAL', 'SSI_VAL', 'SPM_SNAPSUB',
+                                  'PAW_TYP', 'SPM_CAPHOUSESUB', 'UC_VAL'])
+
+### PREPROCESS ###
+
+person = person_raw.copy(deep = True)
+person.columns = person.columns.str.lower()
+person['weight'] = person.marsupwt / 100
+# Create a new dataframe that only includes adults.
+adults = person[person['a_age'] &amp;gt; 17].copy(deep=True)
+
+# Create a column that shows if people have any disabilities.
+adults['any_disability'] = ((adults.pedisdrs == 1) | 
+                            (adults.pedisear == 1) | 
+                            (adults.pediseye == 1) |
+                            (adults.pedisout == 1) | 
+                            (adults.pedisphy == 1) |
+                            (adults.pedisrem == 1))
+
+# Map the ASEC codes to disability types.
+PWD_MAP = ({'pedisdrs': 'Self-care',
+            'pedisear': 'Hearing',
+            'pediseye': 'Vision',
+            'pedisout': 'Mobility',
+            'pedisphy': 'Physical',
+            'pedisrem': 'Cognitive',
+            'any_disability': 'Any'
+           })
+
+# group individual questions by spm group
+adults['got_tanf'] = np.where(adults.paw_typ == 1, 1, 0)
+PERSON_SPM_COLS = ['ss_val', 'ssi_val', 'uc_val', 'got_tanf']
+groups = adults.groupby('spm_id')[PERSON_SPM_COLS].sum()
+groups.columns = ['spm_' + i for i in PERSON_SPM_COLS]
+adults2 = adults.merge(groups, left_on='spm_id', right_index=True)
+# Also look into OI_OFF column: Value 3 = AFDC
+
+# All PWD records.
+adults_pwd = adults2[adults2.any_disability]
+
+# Note these columns don't represent anything consistent
+# except that &amp;gt;0 values indicate that the SPM unit received it.
+
+# create a columns map
+BEN_MAP = ({'spm_ss_val': 'Social Security', 
+            'spm_ssi_val': 'Supplemental Security Income',
+            'spm_got_tanf': 'TANF',
+            'spm_uc_val': 'Unemployment',
+            'spm_snapsub': 'SNAP',
+            'spm_caphousesub': 'Housing Assistance',
+            'spm_any_ben': 'Any'
+            })
+
+# Sum up all columns except the last (which is any, itself).
+adults2['spm_any_ben'] = adults2[list(BEN_MAP.keys())[:-1]].sum(axis=1)
+
+
+# Create a function that calculates percent of people with disabilities
+# receiving each benefit.
+def percent_bens(ben_column, has_disability):
+    target_adults = adults2[adults2.any_disability == has_disability]
+    total_w_ben = ((target_adults[ben_column] &amp;gt; 0) * target_adults.weight)
+    return ((total_w_ben.sum() / target_adults.weight.sum()) * 100).round(1)
+
+def percent_bens_row(row):
+    return percent_bens(row.ben_column, row.has_disability)
+
+benefits = mdf.cartesian_product({'ben_column': BEN_MAP.keys(),
+                                  'has_disability': [True, False]
+                                  })
+
+benefits['percentage'] = benefits.apply(percent_bens_row, axis=1)
+benefits['benefit'] = benefits.ben_column.map(BEN_MAP)
+benefits = (benefits.sort_values(['percentage','benefit'],
+                               ascending=(True, True)))
+benefits['disability_text'] = np.where(benefits.has_disability,
+                                       'Has disability', 'No disability')
+
+fig = px.bar(benefits, x='percentage', y='benefit', color='disability_text',
+             labels={'percentage': 'Percent receiving benefit',
+                      'benefit': 'Benefit'},
+             title='Share of Americans in families receiving benefits',
+             text='percentage',
+             orientation='h',
+             barmode='group',
+             color_discrete_map={'Has disability': BLUE, 'No disability': GRAY}
+)
+
+fig.update_layout(barmode='group',
+                  font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  yaxis_title='',
+                  legend_title='',
+                  xaxis_ticksuffix='%',
+                  legend={'traceorder': 'reversed'}
+                 )
+
+fig.update_traces(texttemplate='%{text}%')
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/ada30/2020-07-31-ada30-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Universal payments would ensure that all households receive government assistance.  The remainder of this paper examines how universal payments can alleviate poverty for Americans with disabilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;To conduct this analysis, we used the most recent Current Population Survey March Supplement, which reflects 2018 income.  Using this data, we simulated how various UBI levels impact the poverty rate of Americans with a variety of disabilities. For reference, the chart below shows the amount of Americans identifying with each type of disability.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# data for bar graph that shows amount of people with each disability
+
+total_cognitive_m = (adults.weight * (adults.pedisrem==1)).sum()/1e6
+total_mobility_m = (adults.weight * (adults.pedisout==1)).sum()/1e6
+total_self_care_m = (adults.weight * (adults.pedisdrs==1)).sum()/1e6
+total_physical_m = (adults.weight * (adults.pedisphy==1)).sum()/1e6 
+total_vision_m = (adults.weight * (adults.pediseye==1)).sum()/1e6
+total_hearing_m = (adults.weight* (adults.pedisear==1)).sum()/1e6
+total_pwd_m = (adults.weight * adults.any_disability).sum()/1e6
+total_pwd = (adults.weight * adults.any_disability).sum()
+
+total_dict = {'disability_type': ['Cognitive', 'Mobility', 'Self-care', 'Physical',
+                       'Vision', 'Hearing', 'Any'],
+              'total_millions': [total_cognitive_m, total_mobility_m, total_self_care_m, 
+                        total_physical_m, total_vision_m, total_hearing_m,
+                        total_pwd_m] 
+}
+
+total_df = pd.DataFrame(total_dict)
+total_df = total_df.round(1)
+total_df = (total_df.sort_values(['total_millions','disability_type'],
+                               ascending=(False, True)))
+
+fig = px.bar(total_df, x = 'total_millions', y='disability_type',
+             title='Number of adults reporting each disability type',
+             color='disability_type',
+             text='total_millions',
+             orientation = 'h',
+             color_discrete_map={'Cognitive': BLUE,
+                                 'Mobility': BLUE,
+                                 'Self-care': BLUE,
+                                 'Physical': BLUE,
+                                 'Vision': BLUE,
+                                 'Hearing': BLUE,
+                                 'Any': DARK_BLUE})
+
+fig.update_layout(showlegend=False,
+                  xaxis_ticksuffix='M',
+                  font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  xaxis_title='',
+                  yaxis_title=''
+                 )
+fig.update_traces(texttemplate='%{text}M')
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/ada30/2020-07-31-ada30-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;findings&quot;&gt;Findings&lt;/h2&gt;
+&lt;p&gt;We found that  a UBI has the potential to drastically reduce poverty among adults with disabilities and that a $300 monthly UBI would cut the poverty rate in half, from 20.7 percent to 9.2 percent.  A UBI of $1,000 per month, such as in &lt;a href=&quot;https://www.ubicenter.org/plans&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, would shrink the poverty rate among people with disabilities to 1.3 percent.&lt;/p&gt;
+
+&lt;p&gt;With the status quo, poverty rates are highest among people with cognitive, physical, and self-care disabilities, which all exceed 24 percent.  A UBI of $500 per month would slash all these rates below 7 percent, a third of their current level.&lt;/p&gt;
+
+&lt;p&gt;The interactive chart below shows the poverty rate for each group with various monthly UBI levels up to $1,000 at $100 intervals.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Determine the poverty rate impact for Americans with disabilities of a UBI from $0 per month to $1000 per month
+
+def pwd_pov(type_of_disability, monthly_ubi=0):
+    target_persons = adults[adults[type_of_disability]==1].copy(deep=True)
+    target_persons['total_ubi'] = person.spm_numper * monthly_ubi * 12
+    target_persons['new_spm_resources'] = (target_persons.total_ubi
+                                           + target_persons.spm_resources)
+    target_persons['poor'] = (target_persons.new_spm_resources 
+                              &amp;lt; target_persons.spm_povthreshold)
+    population_target = target_persons.weight.sum()
+    total_target_poor = (target_persons.poor * target_persons.weight).sum()
+    total_pov_rate = total_target_poor / population_target
+
+    return (total_pov_rate * 100).round(1)
+
+def pwd_pov_row(row):
+    return pwd_pov(row.type_of_disability, row.monthly_ubi)
+
+# Create a dataframe that summarizes the outputs of the function
+
+summary = mdf.cartesian_product({'type_of_disability':PWD_MAP,
+                       'monthly_ubi': np.arange(0,1001,100)})
+
+summary['poverty_rate'] = summary.apply(pwd_pov_row, axis=1)
+summary['disability_type'] = summary.type_of_disability.map(PWD_MAP)
+summary = (summary.sort_values(['poverty_rate','disability_type'],
+                               ascending=(False, True)))
+
+# Add new rows for the difference between original and current (w/UBI) pov.
+original_pov = summary[summary.monthly_ubi == 0].copy(deep=True)
+original_pov.drop(['monthly_ubi', 'disability_type'], axis=1, inplace=True)
+original_pov.rename(columns = {'poverty_rate': 'original_poverty_rate'},
+                    inplace=True)
+summary = summary.merge(original_pov, on='type_of_disability')
+
+# Calculate the difference
+summary['poverty_delta'] = (summary.original_poverty_rate -
+                            summary.poverty_rate).round(1)
+
+SUM_MAP = ({'poverty_rate': 'People in poverty',
+            'poverty_delta': 'People no longer in poverty'})
+
+summary_long = summary.melt(id_vars=['disability_type', 'monthly_ubi',
+                                     'original_poverty_rate'],
+                            value_vars=['poverty_rate', 'poverty_delta'])
+summary_long['poverty_in_out'] = summary_long.variable.map(SUM_MAP)
+summary_long.sort_values(['original_poverty_rate', 'monthly_ubi'],
+                         ascending=[True, True], inplace=True)
+
+fig = px.bar(summary_long, x='value', y='disability_type',
+             color='poverty_in_out',
+             animation_frame='monthly_ubi', range_x=[0,25],
+             labels={&quot;value&quot;: &quot;SPM poverty rate&quot;,
+                     &quot;disability_type&quot;: &quot;Disability type&quot;,
+                     &quot;monthly_ubi&quot;: &quot;Monthly UBI&quot;
+                    },
+             title='Effect of UBI on poverty among adults with disabilities',
+             orientation='h',
+             color_discrete_map={'People in poverty': BLUE,
+                                 'People no longer in poverty': BARELY_BLUE
+                                }
+             )
+
+fig.update_layout(xaxis_ticksuffix='%',
+                  plot_bgcolor='white',
+                  font=dict(family='Roboto'),
+                  legend_title_text=''
+                 )
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/ada30/2020-07-31-ada30-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This research fits a growing trend, that stripping benefits of their bureaucracy, and making payments truly universal, is often the simplest way to reach target groups.  Programs that impose administrative burdens will continue to miss many Americans with disabilities, while a UBI will not.  Still, it is important to acknowledge that cash transfers alone are not sufficient in protecting the rights of Americans with disabilities and that  we should follow disability rights advocates in the fight for equal access to healthcare, transportation, independent living, and more workplace portections.   But reducing poverty among people with disabilities is a worthy goal of its own, and our analysis shows that a UBI would be a powerful tool in accomplishing that aim.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="disability" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html">$300 per month would cut the rate to one in ten.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/tag/us/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/tag/us/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">2022 year in review</title>
+      <link href="/2022-year-in-review" rel="alternate" type="text/html" title="2022 year in review" />
+      <published>2022-12-30T00:00:00+00:00</published>
+      <updated>2022-12-30T00:00:00+00:00</updated>
+      <id>/2022-year-in-review</id>
+      <content type="html" xml:base="/2022-year-in-review">&lt;p&gt;2022 was a busy year for the UBI Center, with numerous events and research projects focused on universal basic income (UBI) and related policies. We contributed in particular to two national conversations in the US around climate and child benefits, though we also researched topics ranging from UK policy to food assistance to public opinion.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ubicenter.org/california-vehicle-payment&quot;&gt;Our first report&lt;/a&gt; described the potential impact of California Governor Gavin Newsom’s proposal to send $400 for each vehicle owned by households. We estimated that such a policy could increase vehicle sales by 1%, harming environmental goals, and that replacing it with a universal per-person payment would leave 56% of Californians better off, cut poverty by 32% more, deep child poverty by 118% more, and inequality by 29% more. Newsom and the Legislature ultimately scrapped the per-vehicle payment, opting instead for a cash transfer called the &lt;a href=&quot;https://www.ftb.ca.gov/about-ftb/newsroom/middle-class-tax-refund/index.html&quot;&gt;Middle Class Tax Refund&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also &lt;a href=&quot;https://www.ubicenter.org/big-conference-2022&quot;&gt;shared research on carbon dividends at the Basic Income Guarantee Conference&lt;/a&gt;, and wrote a &lt;a href=&quot;https://www.ubicenter.org/uk-carbon-dividend&quot;&gt;report on carbon dividends in the UK&lt;/a&gt;. In both contexts, we found that ambitious carbon dividends could cut not only emissions, but also poverty—by as much as 10%. While the Inflation Reduction Act didn’t include a carbon dividend, they did include means-tested clean vehicle tax credits, and we &lt;a href=&quot;https://www.ubicenter.org/ira-ev-credit-cliff&quot;&gt;showed how that program creates “earnings” dead zones of $11,000 or more&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/ev_cliff.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Child allowances and Child Tax Credits also played a large role in the US policy conversation, and our simulations shed light on targeted impacts of those kinds of programs. &lt;a href=&quot;https://www.ubicenter.org/us-mothers-day'&quot;&gt;Our Mother’s Day post&lt;/a&gt; estimated the impact of a child allowance on maternal poverty in the US, overall and by state. And when we &lt;a href=&quot;https://www.ubicenter.org/big-conference-2022&quot;&gt;presented nine research projects at the Basic Income Guarantee Conference&lt;/a&gt;, three directly concerned child benefits: an analysis of the End Child Poverty Act, the &lt;a href=&quot;www.marylandchildalliance.org&quot;&gt;Maryland Child Alliance&lt;/a&gt;’s policy analysis work, and benchmarking childcare subsidies against a universal child allowance.&lt;/p&gt;
+
+&lt;p&gt;Programs for children tend to be highly means-tested, creating situations where low-income parents face higher marginal tax rates than other populations—including the rich. We partnered with the Maryland Child Alliance to show how &lt;a href=&quot;https://www.ubicenter.org/whom-does-maryland-tax&quot;&gt;Maryland in particular levies a regressive marginal tax rate schedule&lt;/a&gt;, with low-income parents facing marginal tax rates almost three times as high as the highest earners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-married-parents.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Much of our research applied &lt;a href=&quot;policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;’s software for public policy analysis. We incubated PolicyEngine within the UBI Center before launching it as a separate nonprofit in late 2021, and this year it &lt;a href=&quot;https://blog.policyengine.org/policyengine-comes-stateside-cef88b122e48&quot;&gt;expanded from the UK to the US&lt;/a&gt; and added many important features. For example, at the Basic Income Guarantee Conference we ran a session on using PolicyEngine for crafting and analyzing UBI policies, and showed it in action for several studies like the Blank Slate UBI. We also showed how &lt;a href=&quot;https://www.ubicenter.org/truss-tax-cuts&quot;&gt;universal payments would have been more progressive than former UK Prime Minister Liz Truss’s tax cut proposals&lt;/a&gt; (which have since been reversed). &lt;a href=&quot;https://blog.policyengine.org/policyengine-2022-year-in-review-35984ec3917c&quot;&gt;Read PolicyEngine’s year in review here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, the UBI Center’s research this year highlighted the potential for cash transfer programs to improve the well-being and economic security of individuals and families. The team looks forward to continuing this work in the coming year.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our computational policy analysis connected basic income to child poverty, the climate, and more.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Whom does Maryland tax?</title>
+      <link href="/whom-does-maryland-tax" rel="alternate" type="text/html" title="Whom does Maryland tax?" />
+      <published>2022-08-23T00:00:00+00:00</published>
+      <updated>2022-08-23T00:00:00+00:00</updated>
+      <id>/whom-does-maryland-tax</id>
+      <content type="html" xml:base="/whom-does-maryland-tax">&lt;p&gt;Many basic income proposals in the US have a national scope, allowing blue-sky thinking to fund a costly new program. For example, we’ve simulated &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, a &lt;a href=&quot;https://www.ubicenter.org/us-flat-tax&quot;&gt;UBI funded by a flat income tax&lt;/a&gt;, and a &lt;a href=&quot;https://www.ubicenter.org/us-carbon-dividend&quot;&gt;national carbon dividend&lt;/a&gt;, and we’re working on a “Blank Slate UBI” for the US, emulating the &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;UK report we published last year&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, recent campaigns have considered more state-level action, following the &lt;a href=&quot;https://pfd.alaska.gov/&quot;&gt;Alaska Permanent Fund Dividend&lt;/a&gt;, &lt;a href=&quot;https://tax.idaho.gov/i-1043.cfm&quot;&gt;Idaho’s Grocery Credit&lt;/a&gt;, and the dozens of states that have enacted &lt;a href=&quot;https://www.taxcreditsforworkersandfamilies.org/state-tax-credits/&quot;&gt;tax credits for low-income families&lt;/a&gt;. A grasp of existing tax and benefit programs in states creates 50 more canvases for fundamental policy experimentation and analysis.&lt;/p&gt;
+
+&lt;p&gt;In this report, rather than simulating basic income policies, we zoom in on one state: Maryland; specifically, Maryland’s tax policies. We find that, just as the federal tax-benefit system levies the highest marginal tax rates on the poor, Maryland does too. Our results suggest that policymakers who wish for a more equitable incentive structure—both at the federal and state level—have opportunities for reform by relying less on means-tested tax credits.&lt;/p&gt;
+
+&lt;h1 id=&quot;marylands-tax-policy&quot;&gt;Maryland’s tax policy&lt;/h1&gt;
+
+&lt;p&gt;Maryland has six million residents and a &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2021/demo/p60-275.pdf#page=32&quot;&gt;poverty rate of 10.8 percent&lt;/a&gt;, slightly below the national average. It has the &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income&quot;&gt;highest median income of any state&lt;/a&gt;, owing both to its relatively high GDP per capita (&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP&quot;&gt;15th among states&lt;/a&gt;) and low inequality (&lt;a href=&quot;https://www.epi.org/multimedia/unequal-states-of-america/#/Maryland&quot;&gt;35th among states&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Like the US and many states, Maryland’s core income tax rates rise with income. The progressive structure ranges from 2 percent on income below $1,000 to 5.75 percent on income above $250,000 (single) or $300,000 (non-single).&lt;/p&gt;
+
+&lt;p&gt;But also like the US and many states, that core income tax is a small part of the puzzle, especially for low-income families. Here are just a few of the other provisions Maryland enacts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standard deduction set at 15 percent of adjusted gross income, with upper and lower limits based on filing status&lt;/li&gt;
+  &lt;li&gt;Personal exemptions that phase out with income&lt;/li&gt;
+  &lt;li&gt;Earned Income Tax Credit that matches part of the federal program&lt;/li&gt;
+  &lt;li&gt;Child and Dependent Care Tax Credit that phases out with income&lt;/li&gt;
+  &lt;li&gt;Poverty Line Tax Credit that matches up to 5 percent of earned income&lt;/li&gt;
+  &lt;li&gt;Child Tax Credit for low-income families with children under 6 who have disabilities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of these programs phase in with income, and nearly all phase out with income. As a result, Maryland households with income in the phase-out region face marginal tax rates beyond the standard 2 percent to 5.75 percent: the loss of tax benefits acts as an additional marginal tax.&lt;/p&gt;
+
+&lt;h1 id=&quot;impact-of-marylands-tax-programs&quot;&gt;Impact of Maryland’s tax programs&lt;/h1&gt;
+
+&lt;p&gt;Using &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, a free open-source web app that computes the impact of public policy (incubated within the UBI Center), we evaluate Maryland’s tax policies as they situate alongside the federal tax and benefit system.&lt;/p&gt;
+
+&lt;p&gt;Consider a single parent with two children, paying $1,000 per month in rent and $500 per month in childcare, and working full time at Maryland’s standard minimum wage of $12.50 per hour. Their net income is $41,554 per year:&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$25,000 in earnings&lt;/li&gt;
+  &lt;li&gt;$7,934 in benefits&lt;/li&gt;
+  &lt;li&gt;$1,912 in payroll taxes&lt;/li&gt;
+  &lt;li&gt;$8,138 in net federal taxes (that is, net negative tax liability due to refundable credits)&lt;/li&gt;
+  &lt;li&gt;$2,395 in state taxes (also due to refundable credits)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maryland supplements their income by six percent. But as they earn more, the state withdraws that assistance. Suppose the parent picks up an extra hour of work per week, adding $650 to their annual earnings. Their net income rises to $41,640—they don’t even capture $100 of their extra work. Their true wage is not $12.50, but $86 / 52 hours = &lt;strong&gt;$1.65 per hour&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/net-income-single-parent-of-two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can characterize the difference between one’s nominal wage and their take-home wage as the &lt;em&gt;marginal tax rate&lt;/em&gt;—the share of an extra dollar of earnings that the government takes, either through taxes or through withdrawing benefits. In this case, their marginal tax rate on the $650 of marginal wages is ($650-$86)/$650=&lt;strong&gt;87%&lt;/strong&gt;. The PolicyEngine chart below details how this single parent’s marginal tax rate changes with additional income (the spikes are from programs that step down rather than phase out smoothly).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/mtr-single-parent-of-two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://policyengine.github.io/openfisca-us//programs/states/md/tax/income/index.html&quot;&gt;Maryland’s tax code&lt;/a&gt; explains about one-sixth of this marginal tax rate; at $25,000 income, they face a 13.5% marginal tax rate from state taxes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-single-parent-of-two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many types of families at or near the poverty line face high marginal tax rates. For example, Maryland taxes married families with children at two to three times the top rate of 5.75%, if they earn between about $25,000 and $60,000. Maryland’s true top marginal rate is 15.3%, and that’s placed to stack atop federal tax and benefit marginal rates that often exceed 50%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-married-parents.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;where-maryland-can-go-from-here&quot;&gt;Where Maryland can go from here&lt;/h1&gt;
+
+&lt;p&gt;Maryland’s enhanced Earned Income Tax Credit and Child Tax Credit will expire after the 2022 tax year, and lawmakers are already considering legislation to remake and extend these programs in 2023 and beyond. Policymakers should consider the impacts on work incentives in addition to poverty when designing their replacements and future benefit reforms.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis applies 2022 law, assuming that SNAP Covid emergency allotments have expired. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="maryland" />
+      
+
+      
+        <summary type="html">Low-income families face the highest marginal tax rates.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Inflation Reduction Act discourages electric vehicle buyers from working</title>
+      <link href="/ira-ev-credit-cliff" rel="alternate" type="text/html" title="The Inflation Reduction Act discourages electric vehicle buyers from working" />
+      <published>2022-08-03T00:00:00+00:00</published>
+      <updated>2022-08-03T00:00:00+00:00</updated>
+      <id>/ira-ev-credit-cliff</id>
+      <content type="html" xml:base="/ira-ev-credit-cliff">&lt;p&gt;Last week, Senators Chuck Schumer (D-NY) and Joe Manchin (D-WV) &lt;a href=&quot;https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs&quot;&gt;announced an agreement&lt;/a&gt; to add the Inflation Reduction Act (IRA) to the FY2022 Budget Reconciliation bill. The legislation reforms taxes and prescription drug pricing and funds healthcare and energy programs, including new and expanded tax credits for electric vehicle (EV) purchases.&lt;/p&gt;
+
+&lt;p&gt;The US &lt;a href=&quot;https://en.wikipedia.org/wiki/Energy_Policy_Act_of_2005&quot;&gt;first established EV tax credits in 2005&lt;/a&gt;, and &lt;a href=&quot;https://www.law.cornell.edu/uscode/text/26/30D&quot;&gt;current law&lt;/a&gt; has been on the books since 2008. Today, these tax credits range from $2,500 to $7,500, though EV buyers can only claim the credit if purchasing from a manufacturer that hasn’t exceeded certain EV production limits. &lt;a href=&quot;https://www.cars.com/articles/which-electric-cars-are-still-eligible-for-the-7500-federal-tax-credit-429824/&quot;&gt;Tesla and GM have surpassed their limits&lt;/a&gt;, so purchases of their vehicles no longer qualify for the credit, and &lt;a href=&quot;https://electrek.co/2022/04/11/federal-tax-credits-will-soon-be-phased-out-for-toyota-ev-customers-in-the-us/&quot;&gt;Toyota credits will phase out over the next year&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.democrats.senate.gov/imo/media/doc/inflation_reduction_act_of_2022.pdf#page=366&quot;&gt;The IRA scraps those manufacturer limits&lt;/a&gt; and sets the credit at a flat $7,500 for vehicles with batteries made in North America and MSRPs below certain limits. It also creates a new tax credit for the purchase of used EVs bought for under $25,000, set at the lesser of $4,000 and 30% of the sale price. &lt;a href=&quot;https://www.finance.senate.gov/imo/media/doc/7.29.22%20Estimate%20of%20Manchin%20Schumer%20agreement.pdf&quot;&gt;Congress estimates&lt;/a&gt; that the new and used EV credits will cost $7.5 billion and $1.3 billion over the next decade, respectively.&lt;/p&gt;
+
+&lt;p&gt;Both the new and existing EV credits are non-refundable, meaning that they can’t reduce a filer’s tax liability below zero. As a result, they provide no or partial value to low-income filers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 1: Net tax benefit to an unmarried filer from purchasing a high-capacity electric vehicle under current law&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/current.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, the IRA makes taxpayers ineligible for EV credits if their income exceeds limits shown in the table below.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; For example, a single filer who purchases a new EV will receive a $7,500 credit if they earn $150,000, but $0 if they earn $150,001.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table 1: Electric vehicle tax credits under the Inflation Reduction Act&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;EV type&lt;/th&gt;
+      &lt;th&gt;Amount&lt;/th&gt;
+      &lt;th&gt;Vehicle price limit&lt;/th&gt;
+      &lt;th&gt;Income limit&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New&lt;/td&gt;
+      &lt;td&gt;$7,500&lt;/td&gt;
+      &lt;td&gt;$80,000 (vans, SUVs, trucks)&lt;br /&gt;$55,000 (other)&lt;/td&gt;
+      &lt;td&gt;$150,000 (single)&lt;br /&gt;$225,000 (head of household)&lt;br /&gt;$300,000 (joint)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Used&lt;/td&gt;
+      &lt;td&gt;Lesser of $4,000 and&lt;br /&gt;30% of sale price&lt;/td&gt;
+      &lt;td&gt;$25,000&lt;/td&gt;
+      &lt;td&gt;$75,000 (single)&lt;br /&gt;$125,000 (head of household)&lt;br /&gt;$150,000 (joint)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These immediate losses of benefits over a threshold are known as “benefit cliffs,” and as I wrote in an &lt;a href=&quot;https://www.thecgo.org/research/how-does-targeted-cash-assistance-affect-incentives-to-work/&quot;&gt;analysis of a cash assistance proposal&lt;/a&gt; in Cambridge, Massachusetts, they can require thousands of dollars of additional earnings to escape. For example, a Massachusetts family of four today loses about $10,400 when they earn above 200% of the poverty line, or about $55,500. This cliff is largely due to their ineligibility for the Supplemental Nutrition Assistance Program, which Massachusetts and other states have temporarily expanded due to Covid-19. To return to their net income before the benefit cliff, they would have to increase their earnings to $69,500. I called this $14,000 gap the “earnings dead zone.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 2: How earnings affect net income for a Massachusetts family with two parents and two children under current law&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/snap_cliff.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly, the IRA’s EV credits create earnings dead zones for EV purchasers. Using &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, a free open-source app for tax and benefit analysis, I’ve calculated the size of these earnings dead zones for different household types.&lt;/p&gt;
+
+&lt;p&gt;Consider that same family of four living in Massachusetts. If they purchase a used EV for $20,000 and earn $150,000, they are eligible for the full $4,000 tax credit. Their income after other taxes and benefits is $117,700, bringing their total net income to $121,700. But if they earn $150,001, they lose the full $4,000 tax credit, and their net income falls back to $117,700. To return to $121,700 net income, they would have to earn $155,600. The EV credit creates an earnings dead zone for this household $5,600 wide.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 3: How earnings affect net income for a Massachusetts family with two parents and two children purchasing a used electric vehicle under the Inflation Reduction Act&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/ev_cliff.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on the household’s state and structure, EV tax credits create earnings dead zones ranging from about $5,000 to $6,000 for the used EVs to about $10,000 to $11,000 for new EVs.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table 2: Earnings dead zones in the Inflation Reduction Act for various households and EV purchases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td rowspan=&quot;2&quot;&gt;Household
+   &lt;/td&gt;
+   &lt;td rowspan=&quot;2&quot;&gt;State
+   &lt;/td&gt;
+   &lt;td colspan=&quot;2&quot;&gt;Earnings dead zone
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Used EV
+   &lt;/td&gt;
+   &lt;td&gt;New EV
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Family of four
+   &lt;/td&gt;
+   &lt;td&gt;MA
+   &lt;/td&gt;
+   &lt;td&gt;$5,600
+   &lt;/td&gt;
+   &lt;td&gt;$11,000
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Family of four
+   &lt;/td&gt;
+   &lt;td&gt;MD
+   &lt;/td&gt;
+   &lt;td&gt;$6,000
+   &lt;/td&gt;
+   &lt;td&gt;$11,100
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Family of four
+   &lt;/td&gt;
+   &lt;td&gt;WA
+   &lt;/td&gt;
+   &lt;td&gt;$5,300
+   &lt;/td&gt;
+   &lt;td&gt;$10,200
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Single person
+   &lt;/td&gt;
+   &lt;td&gt;MA
+   &lt;/td&gt;
+   &lt;td&gt;$6,200
+   &lt;/td&gt;
+   &lt;td&gt;$10,800
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Single person
+   &lt;/td&gt;
+   &lt;td&gt;MD
+   &lt;/td&gt;
+   &lt;td&gt;$6,100
+   &lt;/td&gt;
+   &lt;td&gt;$11,000
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Single person
+   &lt;/td&gt;
+   &lt;td&gt;WA
+   &lt;/td&gt;
+   &lt;td&gt;$5,700
+   &lt;/td&gt;
+   &lt;td&gt;$10,100
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Policymakers understandably want to maximize benefits to lower-income households and the environment using finite resources. If richer households are less price-elastic toward EVs, then restricting the credits may promote EV ownership more per dollar. While analysts have not yet broken out emissions impacts by IRA provision, several project that the full bill would reduce greenhouse gas emissions by 10–20% by 2030.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Potential EV buyers will likely consider the policy’s structure not only when making purchase decisions, but also labor supply decisions. While more research would improve predictions of labor supply effects for specific policies like these, &lt;a href=&quot;https://www.cbo.gov/sites/default/files/cbofiles/attachments/10-25-2012-Labor_Supply_and_Fiscal_Policy.pdf&quot;&gt;studies consistently show&lt;/a&gt; that people respond to tax and benefit structures that affect their take-home pay. As policymakers consider opportunities to reverse perverse incentives and unfairness of benefit cliffs in existing laws, they should also take caution to avoid introducing new ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Thanks to Rick Evans, Megan Jenkins, and Erica Royer at the &lt;a href=&quot;https://thecgo.org&quot;&gt;Center for Growth and Opportunity&lt;/a&gt; for their valuable feedback on this report. The CGO supports state tax models used in parts of this analysis.&lt;/sub&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The IRA’s EV tax credit income definition is the lesser of their modified adjusted gross income in the year of purchase and the prior year. It also allows buyers to claim the credit at the dealer. In this analysis, I assume that filers have equal income in the current and prior year, and claim the credit on their tax returns rather than at the dealer. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Assumes all income is from one earner’s wages, that used EVs are purchased for between $13,333 and $25,000 (such that the credit provides $4,000), and that the new EVs meet current and IRA conditions. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://rhg.com/research/inflation-reduction-act/&quot;&gt;The Rhodium Group projects&lt;/a&gt; that US emissions would be 24-35% below 2005 levels by 2030 under business as usual (BAU), and 31-44% below 2005 levels under the IRA; this corresponds to a 9-14% reduction. &lt;a href=&quot;https://energyinnovation.org/wp-content/uploads/2022/08/Modeling-the-Inflation-Reduction-Act-with-the-US-Energy-Policy-Simulator_8.1.22.pdf&quot;&gt;Energy Innovation projects&lt;/a&gt; 24% below 2005 levels by 2030 under BAU and 39% under their IRA moderate scenario; this corresponds to a 20% reduction. &lt;a href=&quot;https://www.nytimes.com/interactive/2022/08/02/climate/manchin-deal-emissions-cuts.html&quot;&gt;The REPEAT Project projects&lt;/a&gt; 26% below 2005 levels by 2030 under BAU and 41% under the IRA; this corresponds to a 20% reduction. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">The bill's tax credits create benefit cliffs of up to $7,500.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The UBI Center at the Basic Income Guarantee Conference</title>
+      <link href="/big-conference-2022" rel="alternate" type="text/html" title="The UBI Center at the Basic Income Guarantee Conference" />
+      <published>2022-06-09T00:00:00+00:00</published>
+      <updated>2022-06-09T00:00:00+00:00</updated>
+      <id>/big-conference-2022</id>
+      <content type="html" xml:base="/big-conference-2022">&lt;h2 id=&quot;register-at-thebigconferenceorg&quot;&gt;&lt;a href=&quot;https://thebigconference.org&quot;&gt;Register at thebigconference.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In two weeks, we’ll join researchers, activists, and others in the policy community at the 20th Annual Basic Income Guarantee Conference. The event will take place in Portland, Oregon from June 23-24, followed by a virtual day on June 25.&lt;/p&gt;
+
+&lt;p&gt;We’ll present research in the following sessions:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploring and evaluating basic income policies with the PolicyEngine app for US tax and benefit analysis&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis and Nikhil Woodruff will run a workshop for participants to design customizable UBI policies and compute their impact, using the &lt;a href=&quot;policyengine.org/us&quot;&gt;PolicyEngine US app&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 23, 11:00AM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Carbon dividends and universal basic income&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis will present his paper, &lt;a href=&quot;http://ubicenter.org/us-carbon-dividend&quot;&gt;Carbon dividends as anti-poverty policy&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 23, 3:00PM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The distributional impacts of universal basic income policies&lt;/strong&gt; &lt;br /&gt;
+Nikhil Woodruff will present his forthcoming paper, a Blank Slate UBI in the US, modeled after his paper on &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;Blank Slate UBI in the UK&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 24, 9:00AM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In-kind benefits vs. direct cash&lt;/strong&gt; &lt;br /&gt;
+Tola Ouk and Max Ghenis benchmark childcare subsidies (those embedded in the SNAP program and the Child and Dependent Care Tax Credit) against a universal child allowance. &lt;br /&gt;
+&lt;em&gt;June 24, 1:00PM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploring the macroeconomic effects of a basic income&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis and Joshua Z. Miller show the theory behind how UBI would affect labor supply, and forecast the impact of the US Blank Slate UBI on the labor supply of different types of workers. &lt;br /&gt;
+&lt;em&gt;June 24, 2:30PM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Guaranteed income and the current safety net&lt;/strong&gt; &lt;br /&gt;
+Nicholas Rodelo benchmarks food assistance programs against a negative income tax. &lt;br /&gt;
+&lt;em&gt;June 25, 8:00AM PT, virtual&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public opinion around basic income&lt;/strong&gt; &lt;br /&gt;
+Will Fedder and Katarina van Alebeek present the &lt;a href=&quot;polls.ubicenter.org&quot;&gt;UBI Poll Tracker&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 25, 12:30PM PT, virtual&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simulating and advocating child allowances&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis and Yash Vijay analyze the End Child Poverty Act from Representatives Rashida Tlaib and Mondaire Jones. Nate Golden shares how the &lt;a href=&quot;https://www.marylandchildalliance.org/&quot;&gt;Maryland Child Alliance&lt;/a&gt;, uses data its in advocacy for universal child allowances. &lt;br /&gt;
+&lt;em&gt;June 25, 3:00PM PT, virtual&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.thebigconference.org/&quot;&gt;You can register here.&lt;/a&gt;&lt;/strong&gt; Hope to see you there!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="events" />
+      
+
+      
+        <summary type="html">Join us in Portland, Oregon from June 23-24 and virtually on June 25.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How a child allowance would lift moms out of poverty</title>
+      <link href="/us-mothers-day" rel="alternate" type="text/html" title="How a child allowance would lift moms out of poverty" />
+      <published>2022-05-08T00:00:00+00:00</published>
+      <updated>2022-05-08T00:00:00+00:00</updated>
+      <id>/us-mothers-day</id>
+      <content type="html" xml:base="/us-mothers-day">&lt;p&gt;52 million mothers in the United States live with their children.
+Of those, over 4.5 million are in poverty.&lt;/p&gt;
+
+&lt;p&gt;That poverty rate of 9.0 percent is a bit lower than the overall poverty rate of 9.3 percent,&lt;sup id=&quot;fnref:spm&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:spm&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; largely thanks to safety net programs that target families with children.
+Yet, many of those programs fail to reach low-income mothers due to qualification rules and complex bureaucracies.
+For example, &lt;a href=&quot;https://tcf.org/content/report/what-a-child-allowance-like-canadas-would-do-for-child-poverty-in-america/?session=1&quot;&gt;70 percent of single moms do not receive the full Child Tax Credit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A simpler alternative, which &lt;a href=&quot;https://child-allowance.ubicenter.org/policies.html#other-countries&quot;&gt;other countries adopt&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/tag/child-allowance/&quot;&gt;which we’ve written about in several other reports&lt;/a&gt;, is a universal child allowance: a flat amount given each month to parents for each of their children.&lt;/p&gt;
+
+&lt;p&gt;While child allowances chiefly reduce child poverty, they also lift mothers out of poverty.
+For example, a $200 per month child allowance would lift one million mothers out of poverty, at an annual cost of $173 billion.&lt;sup id=&quot;fnref:funding&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:funding&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/us-mothers-day-2022/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_2&quot;).load(&quot;/assets/markdown_assets/us-mothers-day-2022/graph_5_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Child allowances would cut maternal poverty at similar relative rates across states.
+For example, a $200 monthly child allowance would cut it by about 15 percent in both California and Maryland.
+In California, the policy would cost $21 billion per year and lift 114,000 mothers out of poverty, while in Maryland, it would cost $3.1 billion per year and lift 16,000 mothers out of poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/us-mothers-day-2022/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Maternal poverty is associated with &lt;a href=&quot;https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/1467-8624.00379&quot;&gt;depression and worsened child development&lt;/a&gt;.
+Mothers spend about &lt;a href=&quot;https://www.bls.gov/charts/american-time-use/activity-by-parent.htm&quot;&gt;1.7 hours per day&lt;/a&gt; caring for children.
+And of course, mothers suffer from the consequences of poverty like any other person does.
+Child allowances can improve child outcomes, compensate parents for raising the next generation, and improve the well-being of moms everywhere.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:spm&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis uses the 2020 Current Population Survey March Supplement, and the &lt;a href=&quot;https://www.census.gov/library/publications/2021/demo/p60-275.html&quot;&gt;Supplemental Poverty Measure&lt;/a&gt;. The official SPM poverty rate was 9.1 percent in 2020, but the public use microdata that powers our analysis produces slightly different results. &lt;a href=&quot;#fnref:spm&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:funding&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This static analysis assumes no funding and no behavioral responses. It uses the open source &lt;a href=&quot;https://openfisca.us&quot;&gt;OpenFisca US&lt;/a&gt; microsimulation model from &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;. &lt;a href=&quot;#fnref:funding&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="child allowance" />
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">A $200 per month child allowance would lift a million mothers out of poverty.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">What if California gave money to everyone, not only vehicle owners?</title>
+      <link href="/california-vehicle-payment" rel="alternate" type="text/html" title="What if California gave money to everyone, not only vehicle owners?" />
+      <published>2022-04-21T00:00:00+00:00</published>
+      <updated>2022-04-21T00:00:00+00:00</updated>
+      <id>/california-vehicle-payment</id>
+      <content type="html" xml:base="/california-vehicle-payment">&lt;p&gt;Last month, Governor Gavin Newsom &lt;a href=&quot;https://www.gov.ca.gov/2022/03/23/governor-newsom-proposes-11-billion-relief-package-for-californians-facing-higher-gas-prices/&quot;&gt;proposed an $11 billion package&lt;/a&gt; for Californians facing higher gas prices. Newsom reserved $9 billion of this to send each vehicle owner $400 for each registered vehicle, up to two per person.&lt;/p&gt;
+
+&lt;p&gt;In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. We find that 93% of Californians are in households that would benefit from the per-vehicle payment. Replacing that policy with a per-person payment would leave 56% of Californians better off, cut poverty 32% more, deep child poverty 118% more, and inequality 29% more.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-californians-might-get-400-per-vehicle&quot;&gt;Why Californians might get $400 per vehicle&lt;/h2&gt;
+
+&lt;p&gt;Like other goods and services, gasoline has gotten more expensive over the past year. But when &lt;a href=&quot;https://www.usnews.com/news/best-countries/slideshows/a-timeline-of-the-russia-ukraine-conflict&quot;&gt;Russia invaded Ukraine on February 24&lt;/a&gt;, the global oil market contracted in anticipation of sanctions against the &lt;a href=&quot;https://www.eia.gov/tools/faqs/faq.php?id=709&amp;amp;t=6&quot;&gt;world’s third-largest oil producer&lt;/a&gt;. In the first two weeks of March, &lt;a href=&quot;https://fred.stlouisfed.org/series/GASREGW&quot;&gt;gas prices jumped 20 percent nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://fred.stlouisfed.org/graph/graph-landing.php?g=OoCX&amp;amp;width=670&amp;amp;height=475&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;overflow:hidden; width:670px; height:525px;&quot; allowtransparency=&quot;true&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The oil crunch has affected California similarly to the rest of the country. Compared to a year ago, as of April 19, AAA reports that &lt;a href=&quot;https://gasprices.aaa.com/?state=CA&quot;&gt;gasoline is up 44% in California and 43% nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Governor Newsom announced his $11 billion package to address high gas prices on March 23, a week after they peaked. This package pauses the inflation adjustment for the gas and diesel taxes ($1.1 billion, as &lt;a href=&quot;https://www.ebudget.ca.gov/2022-23/pdf/BudgetSummary/FullBudgetSummary.pdf#page=216&quot;&gt;Newsom’s January budget&lt;/a&gt; previously called for) and creates grants to encourage transit agencies to make transit free for three months ($750 million). The most expensive element is the $9 billion vehicle payment.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-cars-california-households-own&quot;&gt;How many cars California households own&lt;/h2&gt;
+
+&lt;p&gt;The 2019 American Community Survey, which we use for this analysis&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, reports a total of 25.7 million vehicles owned by households&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. That’s an average of 0.92 per adult, though that ratio increases with income, and adults in poverty&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; own 26% fewer vehicles than those not in poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;benchmarking-against-a-universal-per-person-payment&quot;&gt;Benchmarking against a universal per-person payment&lt;/h2&gt;
+
+&lt;p&gt;Allocating each household’s vehicles randomly among the adults in each household, we estimate that the vehicle payment would cost $10.0 billion. This likely exceeds Newsom’s estimate (which probably uses restricted DMV data) because households may concentrate vehicle ownership among specific adults rather than randomly, which would make fewer vehicles eligible due to the cap of two per person.&lt;/p&gt;
+
+&lt;p&gt;That $10 billion vehicle payment would reduce the poverty rate by 3.8%, roughly equally across age groups. However, distributing that $10 billion across each California resident yields a payment of $269 per person, and that would cut poverty by 1.3pp more than the vehicle payment.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The per-person payment especially lowers child poverty, a &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;major determinant of child development&lt;/a&gt;. Compared to the vehicle payment, a per-person payment would have double the impact on deep child poverty (the share of children below half the poverty line).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;These poverty effects form a pattern: the universal payments would have higher impacts on poverty rates overall, especially for children, but around the same impact on poverty among people aged 65 and older.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the per-person payment is more generous than the per-vehicle payment to households in the first five income deciles,&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and less generous to households in higher deciles. As a result, the per-person payment reduces inequality 29% more than the per-vehicle payment (the Gini index falls 0.88%, compared to 0.68%).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;California can achieve greater poverty and inequality reductions by replacing its vehicle payment with a personal payment. Doing so would yield other benefits, as well, especially when considering that Californians will expect similar policies in the future.&lt;/p&gt;
+
+&lt;p&gt;Most directly, paying people for owning vehicles encourages them to own more vehicles. A &lt;a href=&quot;https://lindseyresearch.com/wp-content/uploads/2021/12/NHTSA-2021-0053-1575-Exhibit-41-McCarthy-1996.pdf&quot;&gt;1987 paper&lt;/a&gt; found that each 1 percent reduction in vehicle prices increases vehicle purchases by 0.87 percent. Given &lt;a href=&quot;https://www.kbb.com/car-news/average-new-car-price-tops-47000/&quot;&gt;new vehicles cost about $47,000&lt;/a&gt; and &lt;a href=&quot;https://www.kbb.com/car-news/average-used-car-price-now-over-28000/&quot;&gt;used vehicles cost about $28,000&lt;/a&gt;, a $400 payment lowers the cost by about 0.9 to 1.4 percent, increasing vehicle purchases by about one percent. But that’s only one payment; to the extent that this policy announcement suggests to consumers that vehicle payments will repeat when gasoline gets more expensive in the future, that could be thousands of dollars over the life of a vehicle.&lt;/p&gt;
+
+&lt;p&gt;Those expectations will increase the number of vehicles on the road, which will harm the environment and public health. &lt;a href=&quot;https://www.gov.ca.gov/2022/02/25/california-leads-the-nations-zev-market-surpassing-1-million-electric-vehicles-sold/#:~:text=Over%20the%20past%2010%20years,other%20zero%2Demission%20vehicle%20metrics%2C&quot;&gt;Seven in eight new vehicles sold in California&lt;/a&gt; are powered by gasoline, and the transportation sector produces &lt;a href=&quot;https://ww2.arb.ca.gov/ghg-inventory-data&quot;&gt;41 percent of California’s carbon emissions&lt;/a&gt; and &lt;a href=&quot;https://www.epa.gov/transportation-air-pollution-and-climate-change/smog-soot-and-other-air-pollution-transportation&quot;&gt;55% of US nitrogen oxide emissions&lt;/a&gt;, which &lt;a href=&quot;https://www.epa.gov/no2-pollution/basic-information-about-no2&quot;&gt;causes respiratory diseases like asthma&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More vehicles on the road also means more demand for gasoline, the good whose scarcity the program aims to address. Combined with the gas tax cut, these programs would partly offset themselves as that increased demand raises prices.&lt;/p&gt;
+
+&lt;p&gt;Californians without vehicles have not been immune from higher prices, and disproportionately they face inflation with lower incomes. Excluding them from payments misses an opportunity for effective, environmentally-friendly poverty reduction.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis uses PolicyEngine’s open-source OpenFisca US microsimulation model. The code is available at &lt;a href=&quot;https://github.com/UBICenter/california-vehicle-payment&quot;&gt;github.com/UBICenter/california-vehicle-payment&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of 2021, the DMV reported that California had &lt;a href=&quot;https://www.dmv.ca.gov/portal/file/california-dmv-statistics-pdf/&quot;&gt;36.2 million registered vehicles and 27.5 million licensed drivers&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Our poverty estimates use the Census Bureau’s &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;Supplemental Poverty Measure (SPM) research file&lt;/a&gt; for the American Community Survey. Unlike the Official Poverty Measure, the &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;SPM considers taxes, non-cash benefits, and local housing costs&lt;/a&gt;. California has had the highest SPM poverty rate of any state since the measure was introduced, &lt;a href=&quot;https://www.ubicenter.org/california-ab65-calubi&quot;&gt;largely due to its high housing costs&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We group all US households into ten groups of equal population size by their equivalised income according to &lt;a href=&quot;https://www.oecd.org/economy/growth/OECD-Note-EquivalenceScales.pdf&quot;&gt;the OECD standard&lt;/a&gt; (dividing by the square root of the number of people in the household). &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="california" />
+      
+
+      
+        <summary type="html">Benchmarking Governor Newsom's proposed per-vehicle payment against a per-person payment.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">2021 year in review</title>
+      <link href="/2021-year-in-review" rel="alternate" type="text/html" title="2021 year in review" />
+      <published>2021-12-31T00:00:00+00:00</published>
+      <updated>2021-12-31T00:00:00+00:00</updated>
+      <id>/2021-year-in-review</id>
+      <content type="html" xml:base="/2021-year-in-review">&lt;p&gt;2021 was another difficult year. Amid the tragedy and chaos, societies continued to discuss the role of unconditional safety net policies. We seized the moment, and over a dozen UBI Center researchers produced over 30 works examining universal basic income from all angles: legislation, technology, macroeconomics, public opinion, and more. Here’s what we’ve done in the past year.&lt;/p&gt;
+
+&lt;h3 id=&quot;legislative-research&quot;&gt;Legislative research&lt;/h3&gt;
+
+&lt;p&gt;Our very first report in June 2019 analyzed &lt;a href=&quot;distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, and we returned to Yang in June 2021 to study his &lt;a href=&quot;yang-nyc&quot;&gt;Basic Income for New York City&lt;/a&gt;. We also researched other UBI-related policy proposals in the US, including Senator Mitt Romney’s &lt;a href=&quot;family-security-act&quot;&gt;Family Security Act&lt;/a&gt;, California Assemblymember Evan Low’s &lt;a href=&quot;california-ab65-calubi&quot;&gt;“CalUBI” bill&lt;/a&gt;, and Representative Ilhan Omar’s &lt;a href=&quot;omar-support-act&quot;&gt;SUPPORT Act&lt;/a&gt;. With the Child Tax Credit in the news, we put out reports on &lt;a href=&quot;advance-ctc&quot;&gt;its expansion&lt;/a&gt; and what that means for &lt;a href=&quot;ctc-fertility&quot;&gt;population growth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of our most exciting milestones this year was entering the UK policy conversation. When the Liberal Democrats released a UBI policy paper in May, we &lt;a href=&quot;lib-dem-policy-paper&quot;&gt;produced an analysis&lt;/a&gt; of the options laid out in their paper, as well as a follow-up describing &lt;a href=&quot;progressive-adjustments-lib-dem-working-group&quot;&gt;adjustments to those options&lt;/a&gt; that could further reduce poverty and inequality. We also analyzed the UBI Lab Network’s &lt;a href=&quot;resilience-ubi&quot;&gt;Resilience UBI&lt;/a&gt;, one of the more comprehensive UBI proposals to date.&lt;/p&gt;
+
+&lt;h3 id=&quot;stylized-research&quot;&gt;Stylized research&lt;/h3&gt;
+
+&lt;p&gt;Our bread and butter of researching UBI policies has long extended beyond specific legislation to demonstrate the impact of stylized UBI reforms, and in 2021 this flavor of UBI Center reports became increasingly sophisticated, immersive, and diverse.&lt;/p&gt;
+
+&lt;p&gt;In the US, we showed how tax-funded UBI policies would &lt;a href=&quot;racial-poverty-disparities-mlk-day-2021&quot;&gt;shrink racial poverty disparities&lt;/a&gt;, &lt;a href=&quot;womens-day-2021&quot;&gt;gender poverty disparities&lt;/a&gt;, and &lt;a href=&quot;racial-wealth-gap-ks&quot;&gt;racial wealth gaps&lt;/a&gt;. We calculated how the &lt;a href=&quot;child-ubi-share&quot;&gt;share of UBI budgets devoted to children&lt;/a&gt; affects poverty and inequality, and showed how &lt;a href=&quot;us-carbon-dividend&quot;&gt;carbon dividends cut poverty&lt;/a&gt; across states. We &lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view&quot;&gt;benchmarked child allowances against free childcare&lt;/a&gt;, reviewed &lt;a href=&quot;https://drive.google.com/file/d/1_PnYOuJ4TiuOdsCfuzlSUkWDAzAYXyhC/view&quot;&gt;UBI and child allowances in California&lt;/a&gt;, and applied machine learning to estimate the &lt;a href=&quot;https://drive.google.com/open?id=1Zw1JysANBjeWi2JnY4quUpiptXaCigtU&quot;&gt;impact of tax-funded UBI on likely voters&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our first UK report blurred the lines between stylized and specific reforms, presenting a &lt;a href=&quot;uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; that replaced the full tax and benefit system with a flat income tax and computer-optimized UBI amounts across demographic groups; this was also our first report published with a partner (the &lt;a href=&quot;https://www.socialliberal.net/blank_slate_ubi&quot;&gt;Social Liberal Forum&lt;/a&gt;). Having then built a microsimulation model of the UK tax and benefit system (the first and only open source one), we used it to calculate the impacts of a UBI funded by a &lt;a href=&quot;uk-lvt&quot;&gt;land value tax&lt;/a&gt; and by &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;repealing allowances&lt;/a&gt;, with a deep dive into &lt;a href=&quot;personal-allowance&quot;&gt;repealing the personal tax allowance&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;outreach&quot;&gt;Outreach&lt;/h3&gt;
+
+&lt;p&gt;We shared our research in op-eds for national publications, on topics from the &lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;American Rescue Plan&lt;/a&gt; to &lt;a href=&quot;https://thenevadaindependent.com/article/the-democratic-supported-child-allowance-is-good-for-nevada-families-they-should-look-to-mitt-romneys-idea-to-make-it-better&quot;&gt;child allowances&lt;/a&gt; to &lt;a href=&quot;https://www.nydailynews.com/opinion/ny-oped-a-deeper-dive-into-yangs-income-plan-20210620-4oq4ybgkcrfspovnb4vhzs3dqi-story.html&quot;&gt;Andrew Yang’s NYC basic income plan&lt;/a&gt; to &lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;Build Back Better&lt;/a&gt;. We even published our first book chapter, on &lt;a href=&quot;mortality-existential-risk-ubi&quot;&gt;UBI and Effective Altruism&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many grassroots organizations offered us the chance to speak with their communities about our research: &lt;a href=&quot;https://youtu.be/1Bfa0qI9EpU&quot;&gt;People’s Platform&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=IDuukYky6PY&amp;amp;t=1s&quot;&gt;Nerds for Humanity&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=se7VFMuiST0&quot;&gt;Boston Basic Income&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=6SaDmrUlvDs&amp;amp;t=1s&quot;&gt;Level Up California&lt;/a&gt;, &lt;a href=&quot;https://usbig.net/what-would-andrew-yangs-basic-income-plan-have-meant-for-new-yorkers/&quot;&gt;USBIG&lt;/a&gt;, &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi&quot;&gt;Social Liberal Forum&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/watch/live/?ref=watch_permalink&amp;amp;v=325218815629530&quot;&gt;Atlas Movement&lt;/a&gt;, and Income Movement’s &lt;a href=&quot;https://twitter.com/income_movement/status/1451616862161276948&quot;&gt;State of the Movement&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/LA_BasicIncome/status/1422348617180844034&quot;&gt;multiple&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LA_BasicIncome/status/1424869256642981892&quot;&gt;Clubhouse&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LA_BasicIncome/status/1419802558441295890&quot;&gt;UBI&lt;/a&gt; &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1417210475301916683&quot;&gt;Updates&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/MaxGhenis/status/1409617744710885376&quot;&gt;actually&lt;/a&gt; &lt;a href=&quot;https://twitter.com/MaxGhenis/status/1407001945840095246&quot;&gt;even&lt;/a&gt; &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1402008728648372230&quot;&gt;more&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;We presented our work in academic settings as well. Several of us shared multiple papers, including on broader topics like &lt;a href=&quot;https://drive.google.com/file/d/1BMiRmdPWgWT1lnb20J8-PiZs5MijoCYy/view&quot;&gt;inflation&lt;/a&gt; and dynamic macroeconomic modeling, at the two basic income conferences: &lt;a href=&quot;nabig-2021&quot;&gt;NABIG&lt;/a&gt; (North America) and &lt;a href=&quot;bien-2021&quot;&gt;BIEN&lt;/a&gt; (global). We also presented  &lt;a href=&quot;https://www.youtube.com/watch?v=DddwUj8W2Tw&quot;&gt;PolicyEngine&lt;/a&gt;, &lt;a href=&quot;https://docs.google.com/presentation/d/1t1VBAwxmbNC_traV5DPqswvwO0wywIMjtbWP6rNr9zU/edit#slide=id.g6293382480_0_338&quot;&gt;synthimpute&lt;/a&gt;, and the &lt;a href=&quot;https://www.youtube.com/watch?v=8K_FsPYVras&quot;&gt;Basic Income Builder&lt;/a&gt; at the Policy Simulation Library Demo Days, and presented at the &lt;a href=&quot;https://docs.google.com/presentation/d/1t1VBAwxmbNC_traV5DPqswvwO0wywIMjtbWP6rNr9zU/edit#slide=id.g6293382480_0_338&quot;&gt;PyData Global conference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, our goal is to provide policymakers better information on UBI, and we had the greatest opportunity to do so in the UK. We shared our research directly with policymakers at the &lt;a href=&quot;https://docs.google.com/presentation/d/1oYtmwHKwdjdvV6ryl57WY9XnOAON8lfB7ORN5pWXX-Y/edit#slide=id.ge15e8a9daf_0_128&quot;&gt;All Party Parliamentary Group on Land Value Capture&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1463566659856203778&quot;&gt;Cross Party Parliamentary &amp;amp; Local Government Group on Universal Basic Income&lt;/a&gt;, and &lt;a href=&quot;https://www.libdemvoice.org/alter-fringe-simulating-a-lvt-funded-universal-basic-income-68556.html&quot;&gt;Liberal Democrat conference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;technology&quot;&gt;Technology&lt;/h3&gt;
+
+&lt;p&gt;While our mission is to make universal basic income the most thoroughly researched economic policy, we also strive to be the most technologically sophisticated think tank. Transparency has been at the heart of that technological emphasis, and this year we took a major stride by &lt;a href=&quot;new-open-source-website&quot;&gt;transitioning our entire website to GitHub&lt;/a&gt;, making us the world’s first and only 100% open source think tank (to our knowledge).&lt;/p&gt;
+
+&lt;p&gt;That modern open source technology enabled us to launch new interactive tools, from the &lt;a href=&quot;introducing-basic-income-builder&quot;&gt;Basic Income Builder&lt;/a&gt; to &lt;a href=&quot;local-child-allowance-maps&quot;&gt;maps of child allowance impacts by state legislative district&lt;/a&gt; to the &lt;a href=&quot;poll-tracker&quot;&gt;UBI Poll Tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;policyengine&quot;&gt;&lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The most important product we built in 2021 was &lt;a href=&quot;introducing-policyengine&quot;&gt;PolicyEngine UK&lt;/a&gt;, the world’s first product that allows anyone to reform the tax and benefit system and see the impact on society and their own household. PolicyEngine grew from our creation of OpenFisca UK, a microsimulation model of the UK tax and benefit system which powered our UK reports, offering users the power of that model without the programming required to access it directly.&lt;/p&gt;
+
+&lt;p&gt;We launched PolicyEngine in September, and after recognizing its potential beyond UBI, we spun it off into a new nonprofit in October. You can now see it at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt;, and read their progress in this &lt;a href=&quot;https://blog.policyengine.org/policyengines-2021-year-in-review-cfb4893ecf2e&quot;&gt;2021-in-review blog post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-year&quot;&gt;Next year&lt;/h3&gt;
+
+&lt;p&gt;Many of us are now focused on PolicyEngine, which future UBI Center research will increasingly leverage. While we’ve diversified into exciting projects like the UBI Poll Tracker, our research has always been rooted in policy simulation, so we want to make PolicyEngine the best policy simulation product for the UBI Center and any other researchers to use.&lt;/p&gt;
+
+&lt;p&gt;We’re especially eager to bring PolicyEngine US to life, so we can show the full impact of UBI reforms in the US. PolicyEngine will be the first unified tax-benefit model in the US, enabling a complete view of poverty, budgets, and marginal tax rates at the household and societal levels for the first time.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to support our work, you can do so with a &lt;a href=&quot;https://www.ubicenter.org/donate/&quot;&gt;donation&lt;/a&gt;. We also encourage &lt;a href=&quot;https://opencollective.com/psl&quot;&gt;tax-deductible donations to PolicyEngine&lt;/a&gt; via their fiscal sponsor, the PSL Foundation, and to &lt;a href=&quot;http://givedirectly.org/donate&quot;&gt;GiveDirectly&lt;/a&gt;, which provides direct cash transfers to the extreme poor.&lt;/p&gt;
+
+&lt;p&gt;On behalf of the UBI Center team, thank you for your support, and we’ll see you in 2022!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">We produced over 30 works examining universal basic income from all angles.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Op-ed: Democrats should be courting Romney, not Manchin</title>
+      <link href="/democrats-should-be-courting-romney-not-manchin" rel="alternate" type="text/html" title="Op-ed: Democrats should be courting Romney, not Manchin" />
+      <published>2021-12-30T00:00:00+00:00</published>
+      <updated>2021-12-30T00:00:00+00:00</updated>
+      <id>/democrats-should-be-courting-romney-not-manchin</id>
+      <content type="html" xml:base="/democrats-should-be-courting-romney-not-manchin">&lt;h2 id=&quot;read-the-op-ed-in-the-hill&quot;&gt;&lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;Read the op-ed in The Hill&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;new op-ed&lt;/a&gt;, I argue that Democrats are more likely to pass cash assistance in reconciliation with Senator Mitt Romney as the 50th vote than with Senator Joe Manchin.
+Unlike Manchin, Romney supports a fully refundable Child Tax Credit, and has proposed a plan to achieve it called the Family Security Act.
+&lt;a href=&quot;family-security-act&quot;&gt;My UBI Center analysis&lt;/a&gt; of the Family Security Act shows that it would be progressive and effective, largely by virtue of its near-universality among children.
+And while Manchin has opposed multiple carbon pricing proposals, Romney supports a carbon dividend, a small UBI funded by fees on polluting corporations.
+In a &lt;a href=&quot;us-carbon-dividend&quot;&gt;separate UBI Center analysis&lt;/a&gt;, I showed that a carbon dividend would reduce poverty as well as emissions.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;read the full op-ed in The Hill&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="op-ed" />
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">On the issues of child poverty and climate change, Democrats have a closer ally across the aisle.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Would an expanded Child Tax Credit grow America’s population?</title>
+      <link href="/ctc-fertility" rel="alternate" type="text/html" title="Would an expanded Child Tax Credit grow America's population?" />
+      <published>2021-10-08T00:00:00+00:00</published>
+      <updated>2021-10-08T00:00:00+00:00</updated>
+      <id>/ctc-fertility</id>
+      <content type="html" xml:base="/ctc-fertility">&lt;p&gt;Next Friday, families will receive the fourth &lt;a href=&quot;https://www.ubicenter.org/advance-ctc&quot;&gt;monthly Child Tax Credit payment&lt;/a&gt;, created as part of the American Rescue Plan.
+Each of the first two payments &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/monthly-poverty-august-2021&quot;&gt;kept over 3 million children out of poverty&lt;/a&gt;, and Democrats are seeking to make the policy permanent in their reconciliation package.&lt;/p&gt;
+
+&lt;p&gt;We and other researchers have studied child allowances extensively, finding that they reduce poverty &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;nationwide and across states&lt;/a&gt;, and are often &lt;a href=&quot;https://www.ubicenter.org/child-ubi-share&quot;&gt;more cost-effective antipoverty interventions&lt;/a&gt; than cash assistance to adults.
+These poverty reductions in turn &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;improve outcomes&lt;/a&gt; ranging from education to health to earnings.
+As we discussed in our analysis of Senator Mitt Romney’s &lt;a href=&quot;ubicenter.org/family-security-act&quot;&gt;Family Security Act&lt;/a&gt;, the new Child Tax Credit (CTC) probably would reduce parental labor supply modestly, enabling parents to &lt;a href=&quot;https://www.econstor.eu/bitstream/10419/55041/1/684016389.pdf&quot;&gt;spend more time with their children&lt;/a&gt;.
+But work requirements designed to bring parents back to work &lt;a href=&quot;https://www.ideas42.org/wp-content/uploads/2019/04/ideas42-Work-Requirements-Paper.pdf&quot;&gt;generally don’t work&lt;/a&gt;, and the Jain Family Institute has found that they would cut the CTC’s poverty impact &lt;a href=&quot;https://twitter.com/jainfamilyinst/status/1438895355412811784&quot;&gt;by a factor of five&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many discussions of cash benefits for families also turn to population: how does giving parents money affect the number of children that are born?
+And how would such effects translate to the economy and other aspects of society?
+In this article, we describe the reasons for falling fertility in the US, the evidence that child benefits (and the CTC in particular) can reverse that trend, and the economic benefits (and minimal environmental concern) such growth would provide.&lt;/p&gt;
+
+&lt;h1 id=&quot;fertility-in-the-united-states&quot;&gt;Fertility in the United States&lt;/h1&gt;
+
+&lt;p&gt;Researchers measure children born as the &lt;em&gt;fertility rate&lt;/em&gt;, or the number of children per woman.&lt;sup id=&quot;fnref:birthrate&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:birthrate&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+As of 2020, the fertility rate was 1.77 in the United States and 2.44 globally.
+Global fertility has fallen consistently over time, and US fertility recently peaked at 3.60 in 1957 before falling roughly to its current value by 1980.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population?country=USA+%28whites%29~USA+%28blacks%29&quot;&gt;US birth rates&lt;/a&gt; are available separately for White and Black people, dating to the early 1900s.
+This measure has also declined over time, other than a rise from about 1940 to 1960.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/children-per-woman-UN?tab=chart&amp;amp;time=1950..latest&amp;amp;country=OWID_WRL~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To maintain the current population level, the fertility rate must be at least 2: one for each parent.
+This is called the &lt;em&gt;replacement rate&lt;/em&gt;, and in practice it exceeds 2 due to child mortality:
+the Centers for Disease Control and Prevention estimates it to be &lt;a href=&quot;https://www.cdc.gov/nchs/data/vsrr/vsrr012-508.pdf&quot;&gt;2.1 in the US&lt;/a&gt;.
+The US has long been well below replacement rate, last hitting 2.1 in 1971.&lt;/p&gt;
+
+&lt;p&gt;Why has fertility fallen?
+Max Roser of Our World In Data presents trends and evidence from around the world on this question, claiming that:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Particularly important are 1) the empowerment of women in society and in relationships – through education, labor force participation, and strengthened women’s rights – and 2) the increased well-being and status of children.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ourworldindata.org/fertility-rate&quot;&gt;Roser’s article&lt;/a&gt; includes many of the charts that we use in this article (we filter them to the US).&lt;/p&gt;
+
+&lt;h2 id=&quot;womens-education&quot;&gt;Women’s education&lt;/h2&gt;
+
+&lt;p&gt;In 1950, American women aged 15 to 49 had an average of 9.3 years of schooling, and the fertility rate was 3.1.
+By 2010, education attainment had risen to 13.3 years, and US fertility had fallen to 2.0.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/womens-educational-attainment-vs-fertility?zoomToSelection=true&amp;amp;country=~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This pattern is consistent across countries, and empirical research finds that the relationship goes beyond correlation.
+A &lt;a href=&quot;https://www.aeaweb.org/articles?id=10.1257/aer.20121607&quot;&gt;randomized controlled trial in Kenya&lt;/a&gt; found that educational subsidies reduced fertility, and other analyses of natural experiments from &lt;a href=&quot;https://www.econstor.eu/bitstream/10419/62482/1/722415397.pdf&quot;&gt;primary school extension&lt;/a&gt;, &lt;a href=&quot;http://www.nber.org/papers/w10513&quot;&gt;school construction&lt;/a&gt;, and &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0304387807000855&quot;&gt;universal primary education&lt;/a&gt; also find that women’s educational attainment lowers fertility.&lt;/p&gt;
+
+&lt;h2 id=&quot;womens-labor-force-participation&quot;&gt;Women’s labor force participation&lt;/h2&gt;
+
+&lt;p&gt;From 1960 to 2020, US female labor force participation has risen from 38% to 56%, and across countries, this rise has corresponded to falling fertility.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/fertility-and-female-labor-force-participation?country=~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Evidence suggests a causal relationship in both directions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Across developed countries, &lt;a href=&quot;https://www.henrikkleven.com/uploads/3/7/3/1/37310663/klevenetal_aea-pp_2019.pdf&quot;&gt;mothers reduce labor force participation after giving birth&lt;/a&gt;, with effects persisting for several years (fathers do not).&lt;/li&gt;
+  &lt;li&gt;Women in rural India randomly recruited for outsourcing jobs &lt;a href=&quot;https://doi.org/10.1093/qje/qjs002&quot;&gt;postponed having children and reported wanting fewer children&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;child-mortality&quot;&gt;Child mortality&lt;/h2&gt;
+
+&lt;p&gt;In 1950, one in 27 American children died before their fifth birthday.
+Today, only one in 145 do.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/fertility-vs-child-mortality?endpointsOnly=1&amp;amp;time=1951..2019&amp;amp;country=~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;With less child mortality, families need fewer births to reach their desired family size, and
+robust empirical evidence confirms that child mortality improvements lower fertility.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-factors&quot;&gt;Other factors&lt;/h2&gt;
+
+&lt;p&gt;In addition to the rise of women’s education and labor force participation and the fall of child mortality, Roser points to declining child labor, increased education costs—and technological changes raising the importance of this education—and contraceptive access as other main reasons for the decline of fertility rates.
+While female empowerment has changed women’s desired fertility, family planning has enabled them to realize it; for example, &lt;a href=&quot;https://www3.nd.edu/~kbuckles/BGS_june2020.pdf&quot;&gt;fewer unintended births represent 64% of the drop in US fertility from 2007 to 2016&lt;/a&gt;.
+Roser also presents hypotheses with less empirical backing, such as people in the past having children to provide for them at an old age, general prosperity, cultural norms, and religion.
+These explanations shed light on historical drivers, but evidence supports the simple supply and demand theory as well.&lt;/p&gt;
+
+&lt;h1 id=&quot;can-child-allowances-boost-fertility&quot;&gt;Can child allowances boost fertility?&lt;/h1&gt;
+
+&lt;p&gt;Standard economic theory suggests that child allowances would increase fertility (children born per woman), since they reduce the cost of childbearing: given a level of demand, price reductions increase supply.
+In a &lt;a href=&quot;https://ifstudies.org/blog/pro-natal-policies-work-but-they-come-with-a-hefty-price-tag&quot;&gt;review for the Institute for Family Studies&lt;/a&gt;, Lyman Stone compiled a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1rG74z2tUWm2NAsDCvq87UIgjqFI7lU9iQWwNfh3_0iY/edit&quot;&gt;list of 65 studies&lt;/a&gt; that estimate the magnitude of this effect in the real world.
+These span countries, program designs, generosity, and evaluation methods, but share the goal of quantifying the extent to which parents respond to changes in the price of raising a child.&lt;/p&gt;
+
+&lt;p&gt;Most of these studies found a significant positive effect of child benefits on births.
+As Stone notes, “An increase in the present value of child benefits equal to 10% of a household’s income can be expected to produce between 0.5% and 4.1% higher birth rates.”
+In economics parlance, this means that the elasticity of birth rates with respect to child benefits falls between 0.05 and 0.41; Stone estimates an average elasticity of 0.25.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ifstudies.org/ifs-admin/resources/pronatalfigure7appendxi-w640.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As an example of this elasticity, consider one of the studies in Stone’s review: “&lt;a href=&quot;https://www.nber.org/papers/w26712&quot;&gt;Economic Incentives Surrounding Fertility: Evidence from Alaska’s Permanent Fund Dividend Fund&lt;/a&gt;,” a paper analyzing the fertility effects of Alaska’s annual universal payment that began in 1982.
+The authors “find that fertility increases in Alaska by 11.3 births per 1000 females (all age groups) due to the dividend.”
+In 1981, the year prior to the dividend, Alaska’s birth rate was 92 per 1,000 women aged 15 to 44.
+That is, the dividend increased the birth rate by 12 percent.
+Stone calculates that the dividend provided about $20,000 in present-value income (that is, discounting future payments to 1982), which was about 60 percent of &lt;a href=&quot;https://fred.stlouisfed.org/series/MEHOINUSAKA646N&quot;&gt;Alaska’s median household income&lt;/a&gt; at the time of $33,000 (all in 2019 dollars).
+The elasticity would therefore be 12% / 60% = 0.20.
+As Stone put it earlier, a 10% increase in income from the child benefit (or in this case, the pseudo-UBI) increased fertility by 2%.&lt;/p&gt;
+
+&lt;p&gt;Most papers focus on the short-term fertility impact, and suggest that benefits can shift the timing of births rather than change long-term fertility.
+For example, parents with two children may have a third earlier than they would have without the benefit.
+However, some studies, including the aforementioned one on Alaska, do evaluate effects on long-term fertility, and find effects that are smaller in magnitude but still positive.&lt;/p&gt;
+
+&lt;p&gt;Researchers at Statistics Norway arrived at a &lt;a href=&quot;https://ssb.brage.unit.no/ssb-xmlui/handle/11250/2652050&quot;&gt;similar conclusion to Stone&lt;/a&gt;, finding in a review of 57 studies that “Childcare and universal transfers seem to have the most positive effects on fertility.”&lt;/p&gt;
+
+&lt;h1 id=&quot;how-about-the-child-tax-credit&quot;&gt;How about the Child Tax Credit?&lt;/h1&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://ifstudies.org/blog/cash-for-kids-assessing-the-american-family-act&quot;&gt;separate report on the American Family Act (AFA)&lt;/a&gt;—the Child Tax Credit expansion legislation that the American Rescue Plan effectively adopted—Stone simplifies the math question to: how much does it cost to spur an extra birth?
+Based on this, he estimates the additional births that the AFA would yield.&lt;/p&gt;
+
+&lt;p&gt;Stone cites several studies of Australia’s baby bonus program—a one-time payment to parents upon their baby’s birth—which find that an extra baby was born for somewhere between $30,000 and $300,000.
+After adjusting for the smaller impact of child allowances than baby bonuses, and marrying the data with the AFA’s structure, he estimates:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instead of having a national total fertility rate of about 1.73 in 2018, yielding 3.8 million births, with the AFA, we would have 3.9 to 4.3 million births, and a fertility rate of between 1.78 and 1.97 children per woman.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Child Tax Credit expansion differs a bit from the AFA, and thus far, &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/09/28/18-of-eligible-children-are-not-receiving-monthly-ctc-payments/&quot;&gt;18% of eligible children&lt;/a&gt; are not receiving the monthly payments.
+To the extent that the program fails to reach the poorest parents, the CTC’s fertility impact will be blunted, given those families would have the greatest percentage increase in income from the payments.
+Nevertheless, Stone’s research suggests that making it permanent could close between 15% and 65% of the gap to a replacement fertility rate.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-economic-benefits-of-a-younger-population&quot;&gt;The economic benefits of a younger population&lt;/h1&gt;
+
+&lt;p&gt;Move fertility rates forward a few decades, and you get the &lt;em&gt;age dependency ratio&lt;/em&gt;, the number of children and senior per person aged 15 to 64.
+A higher age dependency ratio threatens the economy by pushing more of the burden of care (for the young and old, through private contributions and taxation) onto a smaller set of workers.
+And ours has been rising for the past decade, now at the highest level since 1977.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://data.worldbank.org/share/widget?indicators=SP.POP.DPND&amp;amp;locations=US-1W&quot; width=&quot;450&quot; height=&quot;300&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Numerous studies show that fertility and its downstream population measures like the age dependency ratio drive the economy:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://link.springer.com/article/10.1057/s41308-021-00138-4&quot;&gt;Gagnon, Johannsen and López-Salido (2021)&lt;/a&gt; of the International Monetary Fund found that, had fertility remained at the (higher) 1960 level, real US GDP growth would have stayed constant or risen slightly from 1980 on, rather than declining.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nber.org/system/files/working_papers/w22452/w22452.pdf&quot;&gt;Maestras, Mullen, and Powell (2016)&lt;/a&gt; found that a “10% increase in the fraction of the population ages 60+ decreases the growth rate of GDP per capita by 5.5%,” due mostly to lower worker productivity, and also partly to fewer hours worked. The study projects that population aging will slow annual GDP growth by 0.6 percentage points in the 2020s.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://onlinelibrary.wiley.com/doi/pdf/10.1002/sej.117?casa_token=DW45fyTseHsAAAAA%3A3jahLfXPL0l80h7klALFwD8oitux9wh_02L3jLGu_-xN4mwuqfCTDZ37Chd14aXtO6HLJsL4bdQZ612U&quot;&gt;Levesque and Minniti (2011)&lt;/a&gt; find that “Because of rigidities in the mobility of resources and the substitutability of employment across age groups, countries whose populations are excessively skewed toward old or young cohorts may experience low levels of entrepreneurial activity.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;what-about-climate-change&quot;&gt;What about climate change?&lt;/h1&gt;
+
+&lt;p&gt;A first-order effect of larger populations is greater carbon emissions from higher consumption levels.
+However, the evolving policy landscape and the connection between youth and environmentalism dramatically shrink this first order effect, and suggest that higher fertility could even help us decarbonize.&lt;/p&gt;
+
+&lt;p&gt;Researchers at Founders Pledge estimated that, accounting for policies in place to limit carbon emissions, having a child today creates &lt;a href=&quot;https://founderspledge.com/stories/climate-and-lifestyle-report&quot;&gt;four metric tons of carbon emissions per year&lt;/a&gt;.
+They also estimate that a $10 donation to an effective climate charity can abate a metric ton of carbon emissions (and this number could plausibly fall as carbon capture technology improves).
+Therefore, one could negate the climate impacts of having a child for about $40 per year.&lt;/p&gt;
+
+&lt;p&gt;Younger people are also more likely to care about climate change.
+&lt;a href=&quot;https://www.pewresearch.org/fact-tank/2021/05/26/key-findings-how-americans-attitudes-about-climate-change-differ-by-generation-party-and-other-factors/&quot;&gt;In a 2021 poll&lt;/a&gt;, the Pew Research Center found that Gen Z Americans are about ten percentage points more likely than Baby Boomers to describe climate change as a top priority.
+This pattern persists across a range of survey questions, indicating that a younger electorate would support stronger policy to reduce carbon emissions.
+Indeed, a &lt;a href=&quot;https://assets.morningconsult.com/wp-uploads/2021/04/28122000/2104106_crosstabs_MC_ENERGY_PARIS_ACCORD_RVs_v3_LM.pdf&quot;&gt;2021 poll from Morning Consult&lt;/a&gt; found that Millennials supported a carbon tax as a way to fund infrastructure by 32 points, vs. Boomers who supported it by 16 points.&lt;sup id=&quot;fnref:morningconsult&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:morningconsult&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.pewresearch.org/wp-content/uploads/2021/05/ft_2021.05.26_keyfindingsclimate_01a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;economic-growth-happiness-and-human-development&quot;&gt;Economic growth, happiness, and human development&lt;/h1&gt;
+
+&lt;p&gt;On average, American women want 2.7 children, &lt;a href=&quot;https://www.nytimes.com/2018/02/13/upshot/american-fertility-is-falling-short-of-what-women-want.html&quot;&gt;50% more than the number they actually have&lt;/a&gt;.&lt;sup id=&quot;fnref:men-desired-fertility&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:men-desired-fertility&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;
+When Millennials are asked why they have fewer children than they want, &lt;a href=&quot;https://www.nytimes.com/2018/07/05/upshot/americans-are-having-fewer-babies-they-told-us-why.html&quot;&gt;seven of the top eight reasons&lt;/a&gt; are economic in nature; nearly half say that their worries about the economy in general disincentivize them from having more children, and 64% point to the high price of child care.&lt;/p&gt;
+
+&lt;p&gt;Evidence is early, but other countries have started to reverse the fertility decline as they’ve become highly developed.
+Three countries stand out as scoring very high on the Human Development Index (along with the US), recently increasing their fertility rates, and having generous child benefits: &lt;a href=&quot;https://expat-in-france.com/child-benefit-in-france/&quot;&gt;France&lt;/a&gt;, &lt;a href=&quot;https://www.iamexpat.de/expat-info/social-security/child-benefits-germany-kindergeld&quot;&gt;Germany&lt;/a&gt;, and &lt;a href=&quot;https://www.iamexpat.nl/expat-info/allowances-benefits-netherlands/child-benefits&quot;&gt;the Netherlands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/children-per-woman-vs-human-development-index?time=1990..2014&amp;amp;country=FRA~NLD~DEU~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Before us is an opportunity not only to permanently reduce child poverty, relieving suffering and providing youngsters opportunities they’ll take into adulthood.
+Nor is it only the economic growth of stemming population decline.
+Making the expanded Child Tax Credit permanent could accelerate America’s transition into ultra-high development, giving adults the chance to have the families they want and giving children a solid footing for true human flourishing.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:birthrate&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The birth rate, births per 1,000 population, is an alternative to the fertility rate. &lt;a href=&quot;#fnref:birthrate&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:morningconsult&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Gen Z supported a carbon tax by 14 points, but Morning Consult only surveyed 150 Gen Zers compared to 498 Millennials and 760 Baby Boomers. &lt;a href=&quot;#fnref:morningconsult&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:men-desired-fertility&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Per the New York Times article: “From 1972 to 2016, men have expressed almost exactly the same ideal fertility rates as women: In a given year, they average just 0.04 children below what women say is ideal.” &lt;a href=&quot;#fnref:men-desired-fertility&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;ahmed&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">And what would more babies mean for society?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Carbon dividends as anti-poverty policy</title>
+      <link href="/us-carbon-dividend" rel="alternate" type="text/html" title="Carbon dividends as anti-poverty policy" />
+      <published>2021-08-05T00:00:00+00:00</published>
+      <updated>2021-08-05T00:00:00+00:00</updated>
+      <id>/us-carbon-dividend</id>
+      <content type="html" xml:base="/us-carbon-dividend">&lt;p&gt;The International Monetary Fund &lt;a href=&quot;https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509&quot;&gt;estimates&lt;/a&gt; that the United States subsidized $649 billion of fossil fuels in 2015.
+Meanwhile, only about &lt;a href=&quot;https://www.eesi.org/papers/view/fact-sheet-fossil-fuel-subsidies-a-closer-look-at-tax-breaks-and-societal-costs&quot;&gt;$20 billion&lt;/a&gt; of that is in the form of direct subsidies.
+The remainder is the &lt;em&gt;implicit&lt;/em&gt; subsidy of misaligning the price of fossil fuels with their societal harms like air pollution and climate change.
+That is, the vast majority of fossil fuel subsidies is the &lt;em&gt;absence of carbon pricing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;All developed countries except the &lt;a href=&quot;https://citizensclimatelobby.org/laser-talks/carbon-prices-around-world/&quot;&gt;US and Australia&lt;/a&gt; cut down on fossil fuel subsidies by pricing carbon emissions.
+Experts including &lt;a href=&quot;https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biab079/6325731&quot;&gt;scientists&lt;/a&gt; and the &lt;a href=&quot;https://www.igmchicago.org/surveys/carbon-taxes-ii/&quot;&gt;vast majority&lt;/a&gt; of &lt;a href=&quot;http://econstatement.org&quot;&gt;leading economists&lt;/a&gt; have called on the US to follow suit.
+To offset higher prices consumers would face as a result of carbon pricing (or other climate measures), many of these experts suggest rebating the revenue to all Americans as a dividend.
+&lt;a href=&quot;https://clcouncil.org/morning-consult-poll.pdf&quot;&gt;Two thirds&lt;/a&gt; of American voters support this policy, and as of this writing, 80 House Democrats have cosponsored the &lt;a href=&quot;https://energyinnovationact.org/&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; (EICDA) which would make it a reality in the US.&lt;/p&gt;
+
+&lt;p&gt;Beyond the climate impacts of carbon dividend—policies like the EICDA are projected to &lt;a href=&quot;https://www.nature.com/articles/s41558-020-0880-3&quot;&gt;meet the IPCC’s goal&lt;/a&gt; of net zero emissions by 2050 and &lt;a href=&quot;https://www.nature.com/articles/nclimate2935&quot;&gt;avert 295,000 deaths&lt;/a&gt; from air pollution in the first decade—many economists have &lt;a href=&quot;https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf&quot;&gt;documented the&lt;/a&gt; &lt;a href=&quot;https://taxfoundation.org/carbon-tax/&quot;&gt;progressive&lt;/a&gt; &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;distributional&lt;/a&gt; &lt;a href=&quot;https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf&quot;&gt;impacts&lt;/a&gt; of carbon dividends.
+As one example, University of Pennsylvania researcher &lt;a href=&quot;https://citizensclimatelobby.org/household-impact-study/&quot;&gt;Kevin Ummel found&lt;/a&gt; that the EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.&lt;/p&gt;
+
+&lt;p&gt;Using Ummel’s data&lt;sup id=&quot;fnref:ummel&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:ummel&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and the 2018 American Community Survey,&lt;sup id=&quot;fnref:acsspm&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:acsspm&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; I extend this research to estimate the poverty impacts of a carbon dividend&lt;sup id=&quot;fnref:cpsp&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cpsp&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; across a range of prices.&lt;sup id=&quot;fnref:code&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:code&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;
+I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton. Effects are larger for child poverty, deep poverty, and especially deep child poverty.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-big-would-the-dividend-be&quot;&gt;How big would the dividend be?&lt;/h1&gt;
+
+&lt;p&gt;Carbon pricing proposals vary in their initial price and the rate at which they increase over time, though they do all increase in some way.
+The EICDA starts at $15 per metric ton in 2021 and rises by $10 per year, while the Senate’s &lt;a href=&quot;https://www.whitehouse.senate.gov/news/release/whitehouse-and-schatz-introduce-save-our-future-act-to-charge-big-polluters-for-emissions-redirect-trillions-to-american-families-and-communities-harmed-by-pollution&quot;&gt;Save Our Future Act&lt;/a&gt; starts at $54 per ton in 2023 and rises by an inflation-adjusted 6% per year (about $4 in the first year).
+Since American households currently emit about &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;5 billion metric tons&lt;/a&gt; of carbon per year, amounting to about 15 tons per person, each $10 carbon price would translate to a monthly dividend of 15 tons * $10 / 12 months = &lt;strong&gt;$13&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/dividend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-overall-poverty&quot;&gt;How would the carbon dividend affect overall poverty?&lt;/h1&gt;
+
+&lt;p&gt;Poverty and deep poverty (the population share with income below half their poverty threshold) fall roughly linearly with respect to the carbon price: each $10 carbon price would reduce poverty by 1% and deep poverty by 1.2%. A carbon dividend of $100 per ton would reduce poverty by 10% and deep poverty by 12%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/pov_line.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-age&quot;&gt;How would the carbon dividend affect poverty by age?&lt;/h1&gt;
+
+&lt;p&gt;Child and adult poverty also fall linearly with the carbon price, but child poverty falls about three times as quickly. A $100 carbon price would reduce child poverty by 19% and deep child poverty by 27%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/age.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-state&quot;&gt;How would the carbon dividend affect poverty by state?&lt;/h1&gt;
+
+&lt;p&gt;Poverty impacts also vary geographically, largely in line with states’ per-capita carbon emissions, which in turn correlate to &lt;a href=&quot;https://doi.org/10.1016/S0928-7655(00)00027-0&quot;&gt;cold weather&lt;/a&gt; and &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0301421516300167?via%3Dihub&quot;&gt;low population density&lt;/a&gt;. For example, consider the two extremes of how carbon dividends lower poverty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;California ranks &lt;a href=&quot;http://www.usa.com/rank/us--average-temperature--state-rank.htm&quot;&gt;#10 on average temperature&lt;/a&gt;, &lt;a href=&quot;https://skyscraperpage.com/forum/showthread.php?t=211827&quot;&gt;#3 on population density&lt;/a&gt;, &lt;a href=&quot;https://www.eia.gov/environment/emissions/state/analysis/&quot;&gt;#49 on per-capita carbon emissions&lt;/a&gt;, and #1 in terms of poverty reduction from a carbon dividend. A $100 per ton carbon dividend would lower poverty in California by 14%, and lower deep child poverty by 30%.&lt;/li&gt;
+  &lt;li&gt;North Dakota ranks #49 on average temperature, #32 on population density, #2 on per-capita carbon emissions, and #50 in terms of poverty reduction from a carbon dividend. In fact, North Dakota is the only state for which a carbon dividend would increase poverty, though only by 3% at $100 per ton; child poverty would still fall, and its poverty rate would remain one of the lowest in the country.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/map.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Politicians from &lt;a href=&quot;https://grist.org/climate-energy/sanders-and-boxer-introduce-fee-and-dividend-climate-bill-greens-tickled-pink/&quot;&gt;Bernie Sanders&lt;/a&gt; to &lt;a href=&quot;https://thehill.com/policy/energy-environment/444330-buttigieg-climate-plan-includes-a-carbon-tax&quot;&gt;Pete Buttigieg&lt;/a&gt; to &lt;a href=&quot;https://twitter.com/citizensclimate/status/1369059303995437058&quot;&gt;Mitt Romney&lt;/a&gt; have endorsed carbon dividends, primarily framing the dividend as a way to offset potential regressive effects of the carbon price.
+However, the dividend more than neutralizes the carbon price: it makes a significant reduction to poverty in America. A $20 carbon dividend would cut poverty more than a fully-phased-in $15 minimum wage would,&lt;sup id=&quot;fnref:mw&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:mw&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; while a $100 carbon dividend (as the US would reach within a decade under proposed legislation) would approach the impact of the &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded Child Tax Credit&lt;/a&gt;.&lt;sup id=&quot;fnref:ctc&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:ctc&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;My estimates may even be conservative. For example, I assume that 100% of the carbon price is passed on to consumers, but &lt;a href=&quot;https://cowles.yale.edu/sites/default/files/files/pub/d20/d2038-r.pdf&quot;&gt;one study finds&lt;/a&gt; that only 70% is passed on. In his analysis of the EICDA, Ummel applies pass-through rates of 70%, 85%, and 100%, with the remainder borne by people in proportion to their investable assets; he finds that lower pass-through assumptions yield more progressive distributional impacts.&lt;/p&gt;
+
+&lt;p&gt;Carbon dividends would also create infrastructure for further cash assistance.
+When the US government had to keep Americans afloat with relief checks in the Covid-19 pandemic, they relied on the IRS, and largely failed to reach nonfilers.
+Had even a small universal payment program existed at the time, they could have simply increased the amount instead.&lt;/p&gt;
+
+&lt;p&gt;The carbon dividend is a simple policy that can help the US progress on a slew of objectives: climate change, air pollution, financial resilience, and, yes, even poverty.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ummel&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I’m grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this paper. &lt;a href=&quot;#fnref:ummel&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:acsspm&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I use the &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;American Community Survey Supplemental Poverty Measure research file&lt;/a&gt;, which estimates the poverty measure inclusive of taxes, transfers, and housing costs, historically only available in the &lt;a href=&quot;https://www.census.gov/library/publications/2020/demo/p60-272.html&quot;&gt;Current Population Survey&lt;/a&gt;. &lt;a href=&quot;#fnref:acsspm&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cpsp&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The only other study I’m aware of that estimates the impact of a carbon dividend on poverty is from the &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/carbontax&quot;&gt;Columbia Center on Poverty and Social Policy&lt;/a&gt;. They found that a carbon dividend of $42 per ton would reduce poverty by 1.1% and child poverty by 4.6%, where I found effects of 4% and 8%, respectively, for a $40 carbon dividend. Our analyses differed in terms of carbon footprint estimation in the Consumer Expenditure Survey (CPSP only considered direct energy consumption, where Ummel’s data considered all consumption categories), poverty dataset (CPSP used the Current Population Survey where I used the American Community Survey), and other factors (e.g., CPSP imputed receipt of underreported benefits with the TRIM3 program, where I did not). &lt;a href=&quot;#fnref:cpsp&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:code&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;All data and code powering this analysis is at &lt;a href=&quot;http://github.com/UBICenter/us-carbon-dividend&quot;&gt;github.com/UBICenter/us-carbon-dividend&lt;/a&gt;. &lt;a href=&quot;#fnref:code&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:mw&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The Congressional Budget Office &lt;a href=&quot;https://www.cbo.gov/publication/55681&quot;&gt;estimated&lt;/a&gt; that the Raise the Wage Act of 2021 would reduce the number of people in poverty by 0.7 million by 2028, or about 1.8% of the roughly 40 million people in poverty. A $20 carbon dividend would lower poverty by 2%. CBO applied the Official Poverty Measure rather than Supplemental Poverty Measure. &lt;a href=&quot;#fnref:mw&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ctc&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Carbon dividends may also have greater success fulfilling their theoretical antipoverty potential, since they are universal and thus can be administered outside the tax system. The Child Tax Credit is expected to reach only 90% of eligible children, and the remaining 10% are disproportionately poor children whose parents don’t earn enough to have to file taxes. &lt;a href=&quot;#fnref:ctc&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="carbon pricing" />
+      
+
+      
+        <summary type="html">A $100-per-ton carbon dividend would cut poverty by 10% and deep child poverty by 27%.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

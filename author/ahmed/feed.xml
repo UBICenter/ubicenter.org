@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/ahmed/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/ahmed/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Would an expanded Child Tax Credit grow America’s population?</title>
+      <link href="/ctc-fertility" rel="alternate" type="text/html" title="Would an expanded Child Tax Credit grow America's population?" />
+      <published>2021-10-08T00:00:00+00:00</published>
+      <updated>2021-10-08T00:00:00+00:00</updated>
+      <id>/ctc-fertility</id>
+      <content type="html" xml:base="/ctc-fertility">&lt;p&gt;Next Friday, families will receive the fourth &lt;a href=&quot;https://www.ubicenter.org/advance-ctc&quot;&gt;monthly Child Tax Credit payment&lt;/a&gt;, created as part of the American Rescue Plan.
+Each of the first two payments &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/monthly-poverty-august-2021&quot;&gt;kept over 3 million children out of poverty&lt;/a&gt;, and Democrats are seeking to make the policy permanent in their reconciliation package.&lt;/p&gt;
+
+&lt;p&gt;We and other researchers have studied child allowances extensively, finding that they reduce poverty &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;nationwide and across states&lt;/a&gt;, and are often &lt;a href=&quot;https://www.ubicenter.org/child-ubi-share&quot;&gt;more cost-effective antipoverty interventions&lt;/a&gt; than cash assistance to adults.
+These poverty reductions in turn &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;improve outcomes&lt;/a&gt; ranging from education to health to earnings.
+As we discussed in our analysis of Senator Mitt Romney’s &lt;a href=&quot;ubicenter.org/family-security-act&quot;&gt;Family Security Act&lt;/a&gt;, the new Child Tax Credit (CTC) probably would reduce parental labor supply modestly, enabling parents to &lt;a href=&quot;https://www.econstor.eu/bitstream/10419/55041/1/684016389.pdf&quot;&gt;spend more time with their children&lt;/a&gt;.
+But work requirements designed to bring parents back to work &lt;a href=&quot;https://www.ideas42.org/wp-content/uploads/2019/04/ideas42-Work-Requirements-Paper.pdf&quot;&gt;generally don’t work&lt;/a&gt;, and the Jain Family Institute has found that they would cut the CTC’s poverty impact &lt;a href=&quot;https://twitter.com/jainfamilyinst/status/1438895355412811784&quot;&gt;by a factor of five&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many discussions of cash benefits for families also turn to population: how does giving parents money affect the number of children that are born?
+And how would such effects translate to the economy and other aspects of society?
+In this article, we describe the reasons for falling fertility in the US, the evidence that child benefits (and the CTC in particular) can reverse that trend, and the economic benefits (and minimal environmental concern) such growth would provide.&lt;/p&gt;
+
+&lt;h1 id=&quot;fertility-in-the-united-states&quot;&gt;Fertility in the United States&lt;/h1&gt;
+
+&lt;p&gt;Researchers measure children born as the &lt;em&gt;fertility rate&lt;/em&gt;, or the number of children per woman.&lt;sup id=&quot;fnref:birthrate&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:birthrate&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+As of 2020, the fertility rate was 1.77 in the United States and 2.44 globally.
+Global fertility has fallen consistently over time, and US fertility recently peaked at 3.60 in 1957 before falling roughly to its current value by 1980.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population?country=USA+%28whites%29~USA+%28blacks%29&quot;&gt;US birth rates&lt;/a&gt; are available separately for White and Black people, dating to the early 1900s.
+This measure has also declined over time, other than a rise from about 1940 to 1960.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/children-per-woman-UN?tab=chart&amp;amp;time=1950..latest&amp;amp;country=OWID_WRL~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To maintain the current population level, the fertility rate must be at least 2: one for each parent.
+This is called the &lt;em&gt;replacement rate&lt;/em&gt;, and in practice it exceeds 2 due to child mortality:
+the Centers for Disease Control and Prevention estimates it to be &lt;a href=&quot;https://www.cdc.gov/nchs/data/vsrr/vsrr012-508.pdf&quot;&gt;2.1 in the US&lt;/a&gt;.
+The US has long been well below replacement rate, last hitting 2.1 in 1971.&lt;/p&gt;
+
+&lt;p&gt;Why has fertility fallen?
+Max Roser of Our World In Data presents trends and evidence from around the world on this question, claiming that:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Particularly important are 1) the empowerment of women in society and in relationships – through education, labor force participation, and strengthened women’s rights – and 2) the increased well-being and status of children.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ourworldindata.org/fertility-rate&quot;&gt;Roser’s article&lt;/a&gt; includes many of the charts that we use in this article (we filter them to the US).&lt;/p&gt;
+
+&lt;h2 id=&quot;womens-education&quot;&gt;Women’s education&lt;/h2&gt;
+
+&lt;p&gt;In 1950, American women aged 15 to 49 had an average of 9.3 years of schooling, and the fertility rate was 3.1.
+By 2010, education attainment had risen to 13.3 years, and US fertility had fallen to 2.0.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/womens-educational-attainment-vs-fertility?zoomToSelection=true&amp;amp;country=~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This pattern is consistent across countries, and empirical research finds that the relationship goes beyond correlation.
+A &lt;a href=&quot;https://www.aeaweb.org/articles?id=10.1257/aer.20121607&quot;&gt;randomized controlled trial in Kenya&lt;/a&gt; found that educational subsidies reduced fertility, and other analyses of natural experiments from &lt;a href=&quot;https://www.econstor.eu/bitstream/10419/62482/1/722415397.pdf&quot;&gt;primary school extension&lt;/a&gt;, &lt;a href=&quot;http://www.nber.org/papers/w10513&quot;&gt;school construction&lt;/a&gt;, and &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0304387807000855&quot;&gt;universal primary education&lt;/a&gt; also find that women’s educational attainment lowers fertility.&lt;/p&gt;
+
+&lt;h2 id=&quot;womens-labor-force-participation&quot;&gt;Women’s labor force participation&lt;/h2&gt;
+
+&lt;p&gt;From 1960 to 2020, US female labor force participation has risen from 38% to 56%, and across countries, this rise has corresponded to falling fertility.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/fertility-and-female-labor-force-participation?country=~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Evidence suggests a causal relationship in both directions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Across developed countries, &lt;a href=&quot;https://www.henrikkleven.com/uploads/3/7/3/1/37310663/klevenetal_aea-pp_2019.pdf&quot;&gt;mothers reduce labor force participation after giving birth&lt;/a&gt;, with effects persisting for several years (fathers do not).&lt;/li&gt;
+  &lt;li&gt;Women in rural India randomly recruited for outsourcing jobs &lt;a href=&quot;https://doi.org/10.1093/qje/qjs002&quot;&gt;postponed having children and reported wanting fewer children&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;child-mortality&quot;&gt;Child mortality&lt;/h2&gt;
+
+&lt;p&gt;In 1950, one in 27 American children died before their fifth birthday.
+Today, only one in 145 do.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/fertility-vs-child-mortality?endpointsOnly=1&amp;amp;time=1951..2019&amp;amp;country=~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;With less child mortality, families need fewer births to reach their desired family size, and
+robust empirical evidence confirms that child mortality improvements lower fertility.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-factors&quot;&gt;Other factors&lt;/h2&gt;
+
+&lt;p&gt;In addition to the rise of women’s education and labor force participation and the fall of child mortality, Roser points to declining child labor, increased education costs—and technological changes raising the importance of this education—and contraceptive access as other main reasons for the decline of fertility rates.
+While female empowerment has changed women’s desired fertility, family planning has enabled them to realize it; for example, &lt;a href=&quot;https://www3.nd.edu/~kbuckles/BGS_june2020.pdf&quot;&gt;fewer unintended births represent 64% of the drop in US fertility from 2007 to 2016&lt;/a&gt;.
+Roser also presents hypotheses with less empirical backing, such as people in the past having children to provide for them at an old age, general prosperity, cultural norms, and religion.
+These explanations shed light on historical drivers, but evidence supports the simple supply and demand theory as well.&lt;/p&gt;
+
+&lt;h1 id=&quot;can-child-allowances-boost-fertility&quot;&gt;Can child allowances boost fertility?&lt;/h1&gt;
+
+&lt;p&gt;Standard economic theory suggests that child allowances would increase fertility (children born per woman), since they reduce the cost of childbearing: given a level of demand, price reductions increase supply.
+In a &lt;a href=&quot;https://ifstudies.org/blog/pro-natal-policies-work-but-they-come-with-a-hefty-price-tag&quot;&gt;review for the Institute for Family Studies&lt;/a&gt;, Lyman Stone compiled a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1rG74z2tUWm2NAsDCvq87UIgjqFI7lU9iQWwNfh3_0iY/edit&quot;&gt;list of 65 studies&lt;/a&gt; that estimate the magnitude of this effect in the real world.
+These span countries, program designs, generosity, and evaluation methods, but share the goal of quantifying the extent to which parents respond to changes in the price of raising a child.&lt;/p&gt;
+
+&lt;p&gt;Most of these studies found a significant positive effect of child benefits on births.
+As Stone notes, “An increase in the present value of child benefits equal to 10% of a household’s income can be expected to produce between 0.5% and 4.1% higher birth rates.”
+In economics parlance, this means that the elasticity of birth rates with respect to child benefits falls between 0.05 and 0.41; Stone estimates an average elasticity of 0.25.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ifstudies.org/ifs-admin/resources/pronatalfigure7appendxi-w640.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As an example of this elasticity, consider one of the studies in Stone’s review: “&lt;a href=&quot;https://www.nber.org/papers/w26712&quot;&gt;Economic Incentives Surrounding Fertility: Evidence from Alaska’s Permanent Fund Dividend Fund&lt;/a&gt;,” a paper analyzing the fertility effects of Alaska’s annual universal payment that began in 1982.
+The authors “find that fertility increases in Alaska by 11.3 births per 1000 females (all age groups) due to the dividend.”
+In 1981, the year prior to the dividend, Alaska’s birth rate was 92 per 1,000 women aged 15 to 44.
+That is, the dividend increased the birth rate by 12 percent.
+Stone calculates that the dividend provided about $20,000 in present-value income (that is, discounting future payments to 1982), which was about 60 percent of &lt;a href=&quot;https://fred.stlouisfed.org/series/MEHOINUSAKA646N&quot;&gt;Alaska’s median household income&lt;/a&gt; at the time of $33,000 (all in 2019 dollars).
+The elasticity would therefore be 12% / 60% = 0.20.
+As Stone put it earlier, a 10% increase in income from the child benefit (or in this case, the pseudo-UBI) increased fertility by 2%.&lt;/p&gt;
+
+&lt;p&gt;Most papers focus on the short-term fertility impact, and suggest that benefits can shift the timing of births rather than change long-term fertility.
+For example, parents with two children may have a third earlier than they would have without the benefit.
+However, some studies, including the aforementioned one on Alaska, do evaluate effects on long-term fertility, and find effects that are smaller in magnitude but still positive.&lt;/p&gt;
+
+&lt;p&gt;Researchers at Statistics Norway arrived at a &lt;a href=&quot;https://ssb.brage.unit.no/ssb-xmlui/handle/11250/2652050&quot;&gt;similar conclusion to Stone&lt;/a&gt;, finding in a review of 57 studies that “Childcare and universal transfers seem to have the most positive effects on fertility.”&lt;/p&gt;
+
+&lt;h1 id=&quot;how-about-the-child-tax-credit&quot;&gt;How about the Child Tax Credit?&lt;/h1&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://ifstudies.org/blog/cash-for-kids-assessing-the-american-family-act&quot;&gt;separate report on the American Family Act (AFA)&lt;/a&gt;—the Child Tax Credit expansion legislation that the American Rescue Plan effectively adopted—Stone simplifies the math question to: how much does it cost to spur an extra birth?
+Based on this, he estimates the additional births that the AFA would yield.&lt;/p&gt;
+
+&lt;p&gt;Stone cites several studies of Australia’s baby bonus program—a one-time payment to parents upon their baby’s birth—which find that an extra baby was born for somewhere between $30,000 and $300,000.
+After adjusting for the smaller impact of child allowances than baby bonuses, and marrying the data with the AFA’s structure, he estimates:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instead of having a national total fertility rate of about 1.73 in 2018, yielding 3.8 million births, with the AFA, we would have 3.9 to 4.3 million births, and a fertility rate of between 1.78 and 1.97 children per woman.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Child Tax Credit expansion differs a bit from the AFA, and thus far, &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/09/28/18-of-eligible-children-are-not-receiving-monthly-ctc-payments/&quot;&gt;18% of eligible children&lt;/a&gt; are not receiving the monthly payments.
+To the extent that the program fails to reach the poorest parents, the CTC’s fertility impact will be blunted, given those families would have the greatest percentage increase in income from the payments.
+Nevertheless, Stone’s research suggests that making it permanent could close between 15% and 65% of the gap to a replacement fertility rate.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-economic-benefits-of-a-younger-population&quot;&gt;The economic benefits of a younger population&lt;/h1&gt;
+
+&lt;p&gt;Move fertility rates forward a few decades, and you get the &lt;em&gt;age dependency ratio&lt;/em&gt;, the number of children and senior per person aged 15 to 64.
+A higher age dependency ratio threatens the economy by pushing more of the burden of care (for the young and old, through private contributions and taxation) onto a smaller set of workers.
+And ours has been rising for the past decade, now at the highest level since 1977.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://data.worldbank.org/share/widget?indicators=SP.POP.DPND&amp;amp;locations=US-1W&quot; width=&quot;450&quot; height=&quot;300&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Numerous studies show that fertility and its downstream population measures like the age dependency ratio drive the economy:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://link.springer.com/article/10.1057/s41308-021-00138-4&quot;&gt;Gagnon, Johannsen and López-Salido (2021)&lt;/a&gt; of the International Monetary Fund found that, had fertility remained at the (higher) 1960 level, real US GDP growth would have stayed constant or risen slightly from 1980 on, rather than declining.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nber.org/system/files/working_papers/w22452/w22452.pdf&quot;&gt;Maestras, Mullen, and Powell (2016)&lt;/a&gt; found that a “10% increase in the fraction of the population ages 60+ decreases the growth rate of GDP per capita by 5.5%,” due mostly to lower worker productivity, and also partly to fewer hours worked. The study projects that population aging will slow annual GDP growth by 0.6 percentage points in the 2020s.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://onlinelibrary.wiley.com/doi/pdf/10.1002/sej.117?casa_token=DW45fyTseHsAAAAA%3A3jahLfXPL0l80h7klALFwD8oitux9wh_02L3jLGu_-xN4mwuqfCTDZ37Chd14aXtO6HLJsL4bdQZ612U&quot;&gt;Levesque and Minniti (2011)&lt;/a&gt; find that “Because of rigidities in the mobility of resources and the substitutability of employment across age groups, countries whose populations are excessively skewed toward old or young cohorts may experience low levels of entrepreneurial activity.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;what-about-climate-change&quot;&gt;What about climate change?&lt;/h1&gt;
+
+&lt;p&gt;A first-order effect of larger populations is greater carbon emissions from higher consumption levels.
+However, the evolving policy landscape and the connection between youth and environmentalism dramatically shrink this first order effect, and suggest that higher fertility could even help us decarbonize.&lt;/p&gt;
+
+&lt;p&gt;Researchers at Founders Pledge estimated that, accounting for policies in place to limit carbon emissions, having a child today creates &lt;a href=&quot;https://founderspledge.com/stories/climate-and-lifestyle-report&quot;&gt;four metric tons of carbon emissions per year&lt;/a&gt;.
+They also estimate that a $10 donation to an effective climate charity can abate a metric ton of carbon emissions (and this number could plausibly fall as carbon capture technology improves).
+Therefore, one could negate the climate impacts of having a child for about $40 per year.&lt;/p&gt;
+
+&lt;p&gt;Younger people are also more likely to care about climate change.
+&lt;a href=&quot;https://www.pewresearch.org/fact-tank/2021/05/26/key-findings-how-americans-attitudes-about-climate-change-differ-by-generation-party-and-other-factors/&quot;&gt;In a 2021 poll&lt;/a&gt;, the Pew Research Center found that Gen Z Americans are about ten percentage points more likely than Baby Boomers to describe climate change as a top priority.
+This pattern persists across a range of survey questions, indicating that a younger electorate would support stronger policy to reduce carbon emissions.
+Indeed, a &lt;a href=&quot;https://assets.morningconsult.com/wp-uploads/2021/04/28122000/2104106_crosstabs_MC_ENERGY_PARIS_ACCORD_RVs_v3_LM.pdf&quot;&gt;2021 poll from Morning Consult&lt;/a&gt; found that Millennials supported a carbon tax as a way to fund infrastructure by 32 points, vs. Boomers who supported it by 16 points.&lt;sup id=&quot;fnref:morningconsult&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:morningconsult&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.pewresearch.org/wp-content/uploads/2021/05/ft_2021.05.26_keyfindingsclimate_01a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;economic-growth-happiness-and-human-development&quot;&gt;Economic growth, happiness, and human development&lt;/h1&gt;
+
+&lt;p&gt;On average, American women want 2.7 children, &lt;a href=&quot;https://www.nytimes.com/2018/02/13/upshot/american-fertility-is-falling-short-of-what-women-want.html&quot;&gt;50% more than the number they actually have&lt;/a&gt;.&lt;sup id=&quot;fnref:men-desired-fertility&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:men-desired-fertility&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;
+When Millennials are asked why they have fewer children than they want, &lt;a href=&quot;https://www.nytimes.com/2018/07/05/upshot/americans-are-having-fewer-babies-they-told-us-why.html&quot;&gt;seven of the top eight reasons&lt;/a&gt; are economic in nature; nearly half say that their worries about the economy in general disincentivize them from having more children, and 64% point to the high price of child care.&lt;/p&gt;
+
+&lt;p&gt;Evidence is early, but other countries have started to reverse the fertility decline as they’ve become highly developed.
+Three countries stand out as scoring very high on the Human Development Index (along with the US), recently increasing their fertility rates, and having generous child benefits: &lt;a href=&quot;https://expat-in-france.com/child-benefit-in-france/&quot;&gt;France&lt;/a&gt;, &lt;a href=&quot;https://www.iamexpat.de/expat-info/social-security/child-benefits-germany-kindergeld&quot;&gt;Germany&lt;/a&gt;, and &lt;a href=&quot;https://www.iamexpat.nl/expat-info/allowances-benefits-netherlands/child-benefits&quot;&gt;the Netherlands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ourworldindata.org/grapher/children-per-woman-vs-human-development-index?time=1990..2014&amp;amp;country=FRA~NLD~DEU~USA&quot; loading=&quot;lazy&quot; style=&quot;width: 100%; height: 600px; border: 0px none;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Before us is an opportunity not only to permanently reduce child poverty, relieving suffering and providing youngsters opportunities they’ll take into adulthood.
+Nor is it only the economic growth of stemming population decline.
+Making the expanded Child Tax Credit permanent could accelerate America’s transition into ultra-high development, giving adults the chance to have the families they want and giving children a solid footing for true human flourishing.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:birthrate&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The birth rate, births per 1,000 population, is an alternative to the fertility rate. &lt;a href=&quot;#fnref:birthrate&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:morningconsult&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Gen Z supported a carbon tax by 14 points, but Morning Consult only surveyed 150 Gen Zers compared to 498 Millennials and 760 Baby Boomers. &lt;a href=&quot;#fnref:morningconsult&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:men-desired-fertility&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Per the New York Times article: “From 1972 to 2016, men have expressed almost exactly the same ideal fertility rates as women: In a given year, they average just 0.04 children below what women say is ideal.” &lt;a href=&quot;#fnref:men-desired-fertility&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;ahmed&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">And what would more babies mean for society?</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

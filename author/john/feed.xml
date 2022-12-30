@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/john/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/john/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">The UBI Center’s 2020 year in review</title>
+      <link href="/ubi-centers-2020-year-in-review" rel="alternate" type="text/html" title="The UBI Center’s 2020 year in review" />
+      <published>2021-01-01T07:14:31+00:00</published>
+      <updated>2021-01-01T07:14:31+00:00</updated>
+      <id>/ubi-centers-2020-year-in-review</id>
+      <content type="html" xml:base="/ubi-centers-2020-year-in-review">&lt;h4 id=&quot;our-work-studies-from-other-researchers-and-the-biggest-ubi-news-from-the-pastyear&quot;&gt;Our work, studies from other researchers, and the biggest UBI news from the past year&lt;/h4&gt;
+
+&lt;p&gt;2020 has been a devastating year. Covid-19 has killed &lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;nearly two million people&lt;/a&gt; worldwide, thrown &lt;a href=&quot;https://www.worldbank.org/en/news/feature/2020/10/07/global-action-urgently-needed-to-halt-historic-threats-to-poverty-reduction&quot;&gt;tens of millions&lt;/a&gt; into extreme poverty, and disrupted virtually every aspect of society.&lt;/p&gt;
+
+&lt;p&gt;The pandemic has also changed perceptions of social protection programs. With millions unable to work safely, populations are more open to unconditional cash transfers, and governments have delivered.&lt;/p&gt;
+
+&lt;p&gt;Researchers have continued to investigate how societies could adopt universal basic income policies, and fueled by our biggest growth year (we now have &lt;a href=&quot;about/our-team&quot;&gt;ten researchers&lt;/a&gt;), we’ve contributed with policy simulations and evidence reviews.&lt;/p&gt;
+
+&lt;p&gt;Following up on our &lt;a href=&quot;what-we-learned-about-basic-income-in-2019&quot;&gt;2019 review&lt;/a&gt;, this post summarizes our work from the past year, along with studies from other researchers and the biggest UBI news.&lt;/p&gt;
+
+&lt;h3 id=&quot;ubi-centerresearch&quot;&gt;UBI Center research&lt;/h3&gt;
+
+&lt;h4 id=&quot;policy-simulation&quot;&gt;Policy simulation&lt;/h4&gt;
+
+&lt;p&gt;Our bread-and-butter simulations of UBI policy became more targeted, robust, and policy-relevant throughout 2020. Our simulations showed how UBI would shrink &lt;a href=&quot;how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps&quot;&gt;black-white poverty and wealth gaps&lt;/a&gt;, how it would affect &lt;a href=&quot;ada30&quot;&gt;people with disabilities&lt;/a&gt;, &lt;a href=&quot;indigenous&quot;&gt;Indigenous Americans&lt;/a&gt;, and &lt;a href=&quot;veterans&quot;&gt;Veterans&lt;/a&gt;, and how a &lt;a href=&quot;https://child-allowance.ubicenter.org&quot;&gt;child allowance&lt;/a&gt; would cut child poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-01-01-ubi-centers-2020-year-in-review-0.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our first paper of the Covid era showed how different UBI policy designs could &lt;a href=&quot;https://docs.google.com/viewer?url=https://raw.githubusercontent.com/UBICenter/covid19/master/UBI_for_Covid_19.pdf&quot;&gt;stabilize the poverty rate&lt;/a&gt; amid income-lowering recessions, and our latest analysis showed how replacing our existing tax code with a &lt;a href=&quot;us-flat-tax&quot;&gt;flat income tax&lt;/a&gt; could be made progressive with a UBI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-01-01-ubi-centers-2020-year-in-review-1.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also compared UBI to other policies (given a fixed budget), finding that it would be more progressive than &lt;a href=&quot;student-debt&quot;&gt;canceling student debt&lt;/a&gt;, and likely more progressive than expanding additional US &lt;a href=&quot;http://covid.ubicenter.org/fpuc&quot;&gt;unemployment benefits&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;other-research&quot;&gt;Other research&lt;/h4&gt;
+
+&lt;p&gt;In 2020, we expanded our research portfolio beyond policy simulation to other topics related to UBI. We produced &lt;a href=&quot;canada-homelessness-experiment&quot;&gt;novel analyses&lt;/a&gt; and context of a cash transfer experiment targeting Canadians experiencing homelessness. To inform Democratic primaries, we &lt;a href=&quot;basic-income-plans-from-congressional-candidates-mike-broihier-and-suraj-patel&quot;&gt;summarized&lt;/a&gt; candidates’ stances on UBI. And we tracked and summarized all 27 emergency cash transfer proposals in the US (see &lt;a href=&quot;https://www.thebalance.com/pandemic-tests-universal-basic-income-5078483&quot;&gt;coverage&lt;/a&gt; of our tracker in The Balance).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-01-01-ubi-centers-2020-year-in-review-2.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also integrated deeper non-simulation analysis into simulation projects. Our &lt;a href=&quot;http://child-allowance.ubicenter.org/empirical&quot;&gt;child allowance project&lt;/a&gt; summarized dozens of papers on the impacts of child poverty, while our &lt;a href=&quot;us-flat-tax&quot;&gt;flat tax project&lt;/a&gt; included original statistical analysis of tax and transfer policies associated with inequality reduction among OECD countries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-01-01-ubi-centers-2020-year-in-review-3.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;open-source-contributions&quot;&gt;Open source contributions&lt;/h4&gt;
+
+&lt;p&gt;We’re the first and only economic policy think tank to open-source all of our work, and we take pride in using and contributing to open source software for economic policy research. This year, the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt; accepted two of our Python packages — &lt;a href=&quot;http://pslmodels.github.io/openfisca-uk&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;microdf&lt;/code&gt;&lt;/a&gt;for analyzing survey data, and &lt;a href=&quot;http://pslmodels.github.io/openfisca-uk&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openfisca-uk&lt;/code&gt;&lt;/a&gt; for simulating UK economic policy — to its catalog, adding two of our staff to its leadership council. We also created new incubating models to work with the &lt;a href=&quot;https://github.com/PSLmodels/scf&quot;&gt;US Survey of Consumer Finances&lt;/a&gt; and the &lt;a href=&quot;https://github.com/nikhilwoodruff/frs&quot;&gt;UK Family Resources Survey&lt;/a&gt;. Our researchers contributed to several open source projects on GitHub, from improving documentation in PSL’s &lt;a href=&quot;https://github.com/PSLmodels/Tax-Calculator/pull/2420&quot;&gt;Tax-Calculator&lt;/a&gt; and &lt;a href=&quot;https://github.com/PSLmodels/OG-USA/pull/634&quot;&gt;OG-USA&lt;/a&gt; economic models to &lt;a href=&quot;https://github.com/mwburke/stargazer/pull/53&quot;&gt;enhancing&lt;/a&gt; Python’s support for producing publication-grade regression tables. Finally, we made our own research more open and reproducible by moving most content to &lt;a href=&quot;https://jupyterbook.org/&quot;&gt;Jupyter-Book&lt;/a&gt;, which shows hideable code within the interactive web document.&lt;/p&gt;
+
+&lt;h4 id=&quot;outreach&quot;&gt;Outreach&lt;/h4&gt;
+
+&lt;p&gt;We shared our research in numerous forums: op-eds in The Hill on our &lt;a href=&quot;https://thehill.com/opinion/finance/514672-would-basic-income-be-better-than-additional-unemployment-benefits&quot;&gt;unemployment benefit&lt;/a&gt; and &lt;a href=&quot;https://thehill.com/opinion/education/529953-child-allowance-would-boost-gdp&quot;&gt;child allowance&lt;/a&gt; analyses; presentations at the &lt;a href=&quot;https://docs.google.com/presentation/d/1456wwH-W24gXrfOhvDRCHyqZRhelUx64XTrXj-HQRYw/edit#slide=id.g6293382480_0_338&quot;&gt;Tax Economists Forum&lt;/a&gt;, the &lt;a href=&quot;https://youtu.be/WoHnOqFu6KQ&quot;&gt;PyData Global&lt;/a&gt; conference, and &lt;a href=&quot;https://youtu.be/lL17YLCGSxs&quot;&gt;Social Giving&lt;/a&gt;; &lt;a href=&quot;https://youtu.be/MtDjRauJmE8&quot;&gt;and&lt;/a&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wCK_xw0IMDs&amp;amp;feature=youtu.be&quot;&gt;YouTube&lt;/a&gt;&lt;a href=&quot;my-nerds-for-humanity-interview-on-basic-income&quot;&gt;channels&lt;/a&gt;. We also launched our own &lt;a href=&quot;https://us3.campaign-archive.com/home/?u=ffee9994a6979a91e881b8c13&amp;amp;id=938462295c&quot;&gt;newsletter&lt;/a&gt; and YouTube &lt;a href=&quot;https://www.youtube.com/channel/UCg0PhP-7kCHtAjcVc7XfTfA&quot;&gt;channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;plans-for2021&quot;&gt;Plans for 2021&lt;/h4&gt;
+
+&lt;p&gt;2021 promises to be an even bigger year, with upcoming simulations of UBI in the UK, benchmarks of UBI against competing policies, macroeconomic and behavioral effects, interactive tools, events and partnerships, a new website, and more.&lt;/p&gt;
+
+&lt;h3 id=&quot;external-research&quot;&gt;External research&lt;/h3&gt;
+
+&lt;h4 id=&quot;reviews-andtools&quot;&gt;Reviews and tools&lt;/h4&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://basicincome.stanford.edu/uploads/Umbrella%20Review%20BI_final.pdf&quot;&gt;Stanford Basic Income Lab UBI study cross-synthesis&lt;/a&gt; affirmed that UBI-type programs alleviate poverty, improve health and education outcomes, while having minimal effects on labour market participation. It nominated understanding of the “tradeoffs between UBI and other programs,” and particularly the impact of “financing a UBI through new revenue streams or diversions from existing programs” as a key gap in the existing research — precisely the gap our research aims to close.&lt;/p&gt;
+
+&lt;p&gt;The cash transfer evidence base also became more navigable with the creation of new tools to access studies that address the impact of cash transfer. The &lt;a href=&quot;https://basicincome.stanford.edu/&quot;&gt;Basic Income Lab&lt;/a&gt; expanded its platform, providing new &lt;a href=&quot;https://basicincome.stanford.edu/research/ubi-visualization/&quot;&gt;visualizations&lt;/a&gt; that allow users to dive into studies related to UBIs categorized by outcome. &lt;a href=&quot;https://www.givedirectly.org/&quot;&gt;GiveDirectly&lt;/a&gt; created a &lt;a href=&quot;https://www.givedirectly.org/cash-research-explorer/&quot;&gt;Cash Research Explorer&lt;/a&gt; that enables users to filter and sort a large database of existing cash transfer studies.&lt;/p&gt;
+
+&lt;h4 id=&quot;policy-simulations&quot;&gt;Policy simulations&lt;/h4&gt;
+
+&lt;p&gt;We welcomed not being the only UBI simulators in town, with studies on various policy designs being conducted around the world.&lt;/p&gt;
+
+&lt;p&gt;In the US, Columbia University’s &lt;a href=&quot;https://www.povertycenter.columbia.edu/&quot;&gt;Center on Poverty &amp;amp; Social Policy&lt;/a&gt; released a series of policy briefs on how a guaranteed income would affect poverty, comparing recent policy proposals and addressing child inclusion in a carbon tax and universal dividend program. A &lt;a href=&quot;https://www.brookings.edu/blog/up-front/2020/01/30/how-a-vat-could-tax-the-rich-and-pay-for-universal-basic-income/&quot;&gt;simulation from Brookings&lt;/a&gt; found 10% VAT could reduce the debt by $2.9 trillion over 10 years, boost means-tested programs and Social Security, and provide a UBI at 20% of the poverty line, raising bottom-quintile income by 17%. And a &lt;a href=&quot;https://www.nber.org/papers/w27351&quot;&gt;dynamic macro model&lt;/a&gt; found that most Americans would prefer UBI today, but future generations would not.&lt;/p&gt;
+
+&lt;p&gt;An &lt;a href=&quot;https://journals.sagepub.com/doi/10.1177/1035304620964272&quot;&gt;Australian study&lt;/a&gt; found that an “affluence-tested” UBI would reduce inequality and poverty to levels similar to Nordic welfare states, requiring an increase in taxation to approximately the OECD average. Other simulations in &lt;a href=&quot;https://link.springer.com/article/10.1007/s41825-017-0007-2&quot;&gt;Gulf states&lt;/a&gt; and &lt;a href=&quot;https://works.bepress.com/widerquist/119/&quot;&gt;the UK&lt;/a&gt; showed similarly egalitarian results.&lt;/p&gt;
+
+&lt;p&gt;Optimal taxation papers continued to study policies that rebate excess revenue as UBI. &lt;a href=&quot;https://www.nber.org/papers/w28098&quot;&gt;One such paper&lt;/a&gt; found that optimal tax rates and welfare rise when incorporating uncertainty around labor responses, and &lt;a href=&quot;https://www.nber.org/papers/w27622&quot;&gt;another from NBER&lt;/a&gt; found that “a uniform flat tax on capital and labor income combined with a lump-sum transfer is nearly optimal.”&lt;/p&gt;
+
+&lt;h4 id=&quot;resilience-and-adherence-covid-19&quot;&gt;Resilience and adherence: COVID-19&lt;/h4&gt;
+
+&lt;p&gt;In a difficult year in which COVID-19 brought economies around the world to a standstill, we learned more about how cash transfers can create resilience to income shocks. The continuation of &lt;a href=&quot;https://www.givedirectly.org/&quot;&gt;GiveDirectly&lt;/a&gt;’s UBI experiment in Kenya during the COVID-19 crisis offered the opportunity to estimate the impact of unconditional cash transfers to poor families. As the first true UBI experiment in history — guaranteeing payments that meet basic needs for each member of randomly selected villages for up to 12 years — its first results deserve special attention.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://econweb.ucsd.edu/~pniehaus/papers/ubi_covid.pdf&quot;&gt;Banerjee et al.&lt;/a&gt; found that the UBI, which began in 2016, significantly reduced recipient hunger, sickness and depression in spite of the pandemic, though with modest effect sizes. It also reduced hospital visits and decreased social interactions, indicating that access to a UBI offered people a greater capacity to follow public health recommendations about social distancing and thereby likely reduced contagion rates. While recipients lost the income gains from starting non-agricultural enterprises during the pandemic, they suffered smaller increases in hunger, indicating that the UBI induced recipients to accept more income risk by mitigating the effects of adverse income shocks.&lt;/p&gt;
+
+&lt;h4 id=&quot;mental-health&quot;&gt;Mental health&lt;/h4&gt;
+
+&lt;p&gt;This year, numerous studies shed light on how cash transfers can reduce stress, improve self-reported well-being and enable participants to make more rational long-term economic decisions.&lt;/p&gt;
+
+&lt;p&gt;Finland’s &lt;a href=&quot;https://www.kela.fi/web/en/news-archive/-/asset_publisher/lN08GY2nIrZo/content/results-of-the-basic-income-experiment-small-employment-effects-better-perceived-economic-security-and-mental-wellbeing&quot;&gt;basic income experiment&lt;/a&gt;, which was carried out in 2017–18, reported this year that basic income recipients were more satisfied with their lives, experienced less mental strain and had a more positive perception of their economic welfare.&lt;/p&gt;
+
+&lt;p&gt;In a developing context, &lt;a href=&quot;https://academic.oup.com/jae/advance-article/doi/10.1093/jae/ejaa010/6015888&quot;&gt;Molotsky and Handa&lt;/a&gt; found that national cash transfers in Malawi reduced stress and improved positive affect among recipients; these psychological effects directly impacted on economic decision-making, encouraging recipients to make more long term decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nber.org/papers/w28106&quot;&gt;Haushofer et al., 2020b&lt;/a&gt; found that cash transfers in rural Kenya outperformed more costly psychotherapy programs both in economic and psychological well-being outcomes, and that a combination of cash transfers and psychotherapy was no more effective than cash alone.&lt;/p&gt;
+
+&lt;p&gt;That said, &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0304387818310289?via%3Dihub&quot;&gt;Haushofer et al., 2020a&lt;/a&gt; found that in Nairobi, free health insurance outperformed a uniform cash transfer of the same value in reducing self-reported stress and cortisol levels, though the most conservative statistical bounds render the difference statistically insignificant. It found no effect of either program on other economic and health outcomes.&lt;/p&gt;
+
+&lt;p&gt;A large-scale &lt;a href=&quot;https://www.happierlivesinstitute.org/uploads/1/0/9/9/109970865/cash_transfer_meta-analysis_working_paper_1.53.pdf&quot;&gt;meta-analysis&lt;/a&gt; found that cash transfers improved self-reported subjective well-being and mental health and that the higher the transfer, the greater the impact. Unconditional cash transfers outperformed conditional cash transfers. And a &lt;a href=&quot;https://science.sciencemag.org/content/370/6522/eaay0214?rss%253D1=&quot;&gt;review in Science Magazine&lt;/a&gt; found that “cash transfers and broader antipoverty programs reduce depression and anxiety in randomized trials […] poverty experienced in childhood and in utero [results] in impaired cognitive development and adult mental illness.”&lt;/p&gt;
+
+&lt;h4 id=&quot;other-effects-of-cash-transfers&quot;&gt;Other effects of cash transfers&lt;/h4&gt;
+
+&lt;p&gt;The voluminous literature on cash transfers continued to grow rapidly in 2020. Here are a sample of influential papers from the year.&lt;/p&gt;
+
+&lt;p&gt;In India, a &lt;a href=&quot;https://www.nber.org/system/files/working_papers/w28074/w28074.pdf&quot;&gt;multifaceted intervention&lt;/a&gt; that included a cash transfer for 30 to 40 weeks improved consumption, food security, income, and health for up to a decade. In Mexico, cash transfers &lt;a href=&quot;https://drive.google.com/file/d/1uYloKO69ESDXHIU5n-1XmiLK3APrMs0_/view&quot;&gt;halved homicides&lt;/a&gt; on hot days by reducing stress and increasing air conditioning. In Rwanda, cash transfers &lt;a href=&quot;https://arxiv.org/abs/2009.01749&quot;&gt;outperformed&lt;/a&gt; a USAID workforce readiness program on key outcomes like income.&lt;/p&gt;
+
+&lt;p&gt;In the US, the 1990s retraction of cash assistance to poor mothers &lt;a href=&quot;https://www.nber.org/papers/w28077&quot;&gt;worsened child-parent interactions&lt;/a&gt; (the effect was not traced to changes in the mother’s labor supply). The Alaska Permanent Fund Dividend &lt;a href=&quot;https://www.nber.org/papers/w26712&quot;&gt;increased fertility&lt;/a&gt; (births per woman) by 13 percent after its introduction, mostly among women aged 20 to 44.&lt;/p&gt;
+
+&lt;h4 id=&quot;conditionality-and-targeting&quot;&gt;Conditionality and targeting&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300024#f0010&quot;&gt;New evidence&lt;/a&gt; from the Kenya Cash Transfer Programme for Orphans and Vulnerable Children for at-risk children shows that enforcing compliance with health conditions with monitoring and fines doesn’t improve program effectiveness compared to ‘labelling’ transfers — providing suggestions for how recipients should use transfers. The study also showed that fines had regressive impacts. Among the poorest transfer recipients, fines for noncompliance were associated with a significant decline in non-food consumption.&lt;/p&gt;
+
+&lt;p&gt;Researchers also quantified the cost of &lt;a href=&quot;https://wagner.nyu.edu/impact/research/publications/program-recertification-costs-evidence-snap&quot;&gt;administrative burdens&lt;/a&gt; for SNAP recipients in the US, and the New York Times centered this research in an &lt;a href=&quot;https://www.nytimes.com/interactive/2020/01/28/upshot/administrative-burden-quiz.html&quot;&gt;interactive story&lt;/a&gt;. The Jain Family Institute published two papers in its &lt;a href=&quot;https://www.jainfamilyinstitute.org/projects/from-idea-to-reality-the-future-of-guaranteed-income/&quot;&gt;series on guaranteed income&lt;/a&gt;, describing implementation of guaranteed income in the US and a framework for considering what programs the guaranteed income could suitably replace.&lt;/p&gt;
+
+&lt;h4 id=&quot;polls&quot;&gt;Polls&lt;/h4&gt;
+
+&lt;p&gt;Pollsters asked people from all over the world how they felt about UBI and cash transfers, and the timing of these polls showed how Covid-19 affected sentiments toward the welfare state.&lt;/p&gt;
+
+&lt;p&gt;The first polls came from the US, where &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1245575691082428423&quot;&gt;in February&lt;/a&gt;, 63% of people aged 18–36 supported a universal basic income of $1,000 per month for adults. Data for Progress &lt;a href=&quot;https://www.dataforprogress.org/blog/2020/3/19/voters-want-the-government-to-send-everyone-1000&quot;&gt;found&lt;/a&gt; that net support for sending each American a check for $1,000 rose from -15 to +32 between March 2 and March 17, when the gravity of the pandemic became apparent. &lt;a href=&quot;https://www.dataforprogress.org/blog/3/21/voters-support-a-robust-cash-payment&quot;&gt;Also in March&lt;/a&gt;, Data for Progress found that Americans prefer ongoing payments to one-time payments by a 38-point margin, and between monthly payments of (a) $2,000/adult + $1,000/child and (b) $1,000/adult, voters prefer the larger amount by a 15-point margin.&lt;/p&gt;
+
+&lt;p&gt;Polls outside the US found majority support for the policy, too. A &lt;a href=&quot;https://eupinions.eu/de/text/in-crisis-europeans-support-radical-positions&quot;&gt;March poll&lt;/a&gt; found that 71% of Europeans support UBI; an &lt;a href=&quot;https://docs.cdn.yougov.com/5y7qpjzd6v/NEON_CoronavirusClimate_200417_W.pdf&quot;&gt;April poll&lt;/a&gt; found that 51% of Brits supported it; &lt;a href=&quot;https://www.probe-research.com/polls/manitobans-support-universal-basic-income-higher-taxes-high-income-earners-and-larger&quot;&gt;also in April&lt;/a&gt;, 62% of Manitoba, Canada residents supported UBI; and &lt;a href=&quot;https://www.abc.net.au/news/2020-12-11/survey-says-most-australians-welcome-universal-basic-income/12970924&quot;&gt;as of October&lt;/a&gt;, 58% of Australians supported it.&lt;/p&gt;
+
+&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
+
+&lt;h4 id=&quot;calls-forubi&quot;&gt;Calls for UBI&lt;/h4&gt;
+
+&lt;p&gt;Government leaders and other influential people and organizations called for UBI pilots and policies, especially relating to (but not limited to) the Covid-19 pandemic.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most forceful voices came from the UK. The Liberal Democrats (the third largest party, which received &lt;a href=&quot;https://en.wikipedia.org/wiki/Results_breakdown_of_the_2019_United_Kingdom_general_election&quot;&gt;12 percent of votes&lt;/a&gt; in 2019) &lt;a href=&quot;https://www.libdems.org.uk/a20-ubi&quot;&gt;endorsed UBI&lt;/a&gt; in September, and in October, &lt;a href=&quot;https://www.ubilabnetwork.org/letter-to-rishi-sunak&quot;&gt;over 500 MPs, peers and councillors&lt;/a&gt; requested that the Chancellor support UBI trials. Throughout the year, &lt;a href=&quot;https://www.theguardian.com/society/2020/oct/31/covid-job-losses-lead-mps-to-call-for-trials-of-universal-basic-income&quot;&gt;several councils&lt;/a&gt; campaigned to launch UBI pilots in their areas, including Liverpool, Brighton, Leeds, Norwich and Belfast.&lt;/p&gt;
+
+&lt;p&gt;Leaders in Canada have been similarly enthusiastic. Canada has a rich history of unconditional cash transfers: they created the &lt;a href=&quot;https://www.bbc.com/worklife/article/20200624-canadas-forgotten-universal-basic-income-experiment&quot;&gt;Mincome experiment&lt;/a&gt; in the 1970s, a UBI pilot in the province of Ontario (&lt;a href=&quot;https://www.pbs.org/newshour/economy/making-sense/ontario-is-canceling-its-basic-income-experiment&quot;&gt;prematurely cancelled&lt;/a&gt; in 2019), a generous &lt;a href=&quot;https://www.ubiworks.ca/ccb&quot;&gt;child benefit&lt;/a&gt;, and the CERB program providing CAD 2,000 (USD 1,570) per month through September to people who’d lost employment due to Covid-19. In July, &lt;a href=&quot;https://nationalpost.com/news/politics/now-is-the-time-to-bring-a-basic-income-program-to-canada-says-b-c-senator-but-the-pilot-project-could-cost-100-million&quot;&gt;British Columbia Senator Yuen Pau&lt;/a&gt; Woo suggested testing UBI, and in the same month, the Senate national finance committee released a &lt;a href=&quot;https://sencanada.ca/en/info-page/parl-43-1/nffn-covid-19-relief-in-times-of-crisis/&quot;&gt;report&lt;/a&gt; highlighting the need for UBI. In September, &lt;a href=&quot;https://www.thestar.com/news/canada/2020/09/15/coalition-calls-on-federal-liberals-to-bring-in-a-basic-income-to-address-gender-inequity.html&quot;&gt;a coalition&lt;/a&gt; of nearly 4,000 individuals and organizations called on the federal government to work toward UBI.&lt;/p&gt;
+
+&lt;p&gt;In the United States, several members of Congress called for one-time and recurring unconditional payments amid Covid-19 (see our &lt;a href=&quot;http://covid19tracker.ubicenter.org&quot;&gt;tracker&lt;/a&gt;), including a proposal for $2,000 monthly checks per person from Senator Bernie Sanders and Vice President-elect Kamala Harris. The one-time relief payments of $1,200 from March were renewed at $600 in the December bill, along with flat payments of $300 per week for unemployed people (down from $600 from April through July). The governor of Alaska also &lt;a href=&quot;https://www.alaskapublic.org/2020/12/14/dunleavy-proposes-nearly-5000-in-dividends-for-alaskans-cuts-other-state-spending/&quot;&gt;proposed&lt;/a&gt; increasing the Alaska Permanent Fund Dividend from its normal value of $1,000-$3,000 to $5,000 due to the coronavirus.&lt;/p&gt;
+
+&lt;p&gt;Pro-UBI US voices were elevated in 2021, too. In April, Jack Dorsey created a &lt;a href=&quot;https://www.vox.com/recode/2020/4/7/21212757/coronavirus-jack-dorsey-charity-billion-llc&quot;&gt;$1 billion philanthropic fund&lt;/a&gt; from his holdings in Square; the fund has since grown to $3.7 billion, of which he’s spent $330 million, including &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1uT6Tw0lrYMj9YSQpkMAyf_i31Urf0IWW5wIJ76Rckv8/edit?usp=sharing&quot;&gt;$44 million&lt;/a&gt; for UBI pilots. &lt;a href=&quot;https://twitter.com/elonmusk/status/1286675223434141697&quot;&gt;Pro-UBI&lt;/a&gt; Elon Musk became the world’s &lt;a href=&quot;https://www.forbes.com/sites/sergeiklebnikov/2020/12/08/elon-musk-passes-bernard-arnault-to-become-the-worlds-second-richest-person/?sh=ab0da895cb0d&quot;&gt;second wealthiest person&lt;/a&gt; in December. Andrew Yang, who centered his presidential campaign on UBI (we &lt;a href=&quot;https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b&quot;&gt;published&lt;/a&gt;&lt;a href=&quot;https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea&quot;&gt;three&lt;/a&gt;&lt;a href=&quot;https://medium.com/ubicenter/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend-c95d0f1cc433&quot;&gt;studies&lt;/a&gt; and a &lt;a href=&quot;http://plans.ubicenter.org&quot;&gt;calculator&lt;/a&gt; on his plan in 2019), &lt;a href=&quot;https://www.cnn.com/2020/02/11/politics/andrew-yang-ends-2020-presidential-campaign/index.html&quot;&gt;ended his presidential campaign&lt;/a&gt; in February, but he is &lt;a href=&quot;https://thehill.com/homenews/state-watch/531337-poll-finds-andrew-yang-favored-for-new-york-city-mayor&quot;&gt;now the favorite&lt;/a&gt; for New York City’s 2021 mayoral race.&lt;/p&gt;
+
+&lt;p&gt;Leaders in various other countries have supported UBI as well. In March, one of Australia’s largest unions &lt;a href=&quot;https://www.dailymail.co.uk/news/article-8154513/Australian-union-pushes-universal-income-740-week.html&quot;&gt;called for a guaranteed income&lt;/a&gt; throughout the pandemic, structured as a job guarantee plus AUD 740 (USD 725) per week for people who don’t participate in the job guarantee program. In South Africa, the governing party &lt;a href=&quot;https://www.groundup.org.za/media/uploads/documents/anc_nec_stsc_big-1.pdf&quot;&gt;highlighted&lt;/a&gt; the need for a UBI, but plans for a 2020 policy were &lt;a href=&quot;https://www.reuters.com/article/us-safrica-economy-universalincomegrant/south-africa-will-not-have-universal-basic-income-grant-this-year-minister-says-idUSKCN24W2WK&quot;&gt;scrapped in July&lt;/a&gt;. Finally, the United Nations &lt;a href=&quot;https://www.cepal.org/en/publications/45544-social-challenge-times-covid-19&quot;&gt;Economic Commission for Latin America and the Caribbean&lt;/a&gt; and UN Development Program’s &lt;a href=&quot;https://news.un.org/en/story/2020/05/1063312&quot;&gt;Asia-Pacific bureau&lt;/a&gt; have called for UBI.&lt;/p&gt;
+
+&lt;h4 id=&quot;guaranteed-income-initiatives&quot;&gt;Guaranteed income initiatives&lt;/h4&gt;
+
+&lt;p&gt;In addition to one-time payments and ongoing payments to unemployed people like those in the US and Canada, several governments and nonprofits are sending regular cash payments to broad sets of people without requiring work history.&lt;/p&gt;
+
+&lt;p&gt;In the US, &lt;a href=&quot;https://www.mayorsforagi.org/&quot;&gt;Mayors for a Guaranteed Income&lt;/a&gt; — which now includes over 30 mayors — is driving a number of new philanthropically-funded guaranteed income pilots, including in &lt;a href=&quot;https://www.latimes.com/california/story/2020-10-18/800-compton-residents-to-get&quot;&gt;Compton&lt;/a&gt;, and established the &lt;a href=&quot;https://www.sp2.upenn.edu/center-for-guaranteed-income-research-recently-launched/&quot;&gt;Center for Guaranteed Income Research&lt;/a&gt; at the University of Pennsylvania. &lt;a href=&quot;https://reason.com/2020/10/13/san-francisco-will-pay-artists-1000-a-month-in-universal-basic-income/&quot;&gt;San Francisco&lt;/a&gt; and &lt;a href=&quot;https://basicincometoday.com/long-beach-moves-ahead-with-guaranteed-basic-income-for-some-artists/&quot;&gt;Long Beach&lt;/a&gt; will also both give basic incomes to artists (see our comments in coverage of the San Francisco program). But the nonprofit &lt;a href=&quot;https://www.givedirectly.org/covid-19/us/&quot;&gt;GiveDirectly&lt;/a&gt; has already distributed the most — since March, they’ve transferred $1,000 to each of 134,000 SNAP recipients, with &lt;a href=&quot;https://www.givedirectly.org/wp-content/uploads/2020/12/GiveDirectly-End-of-Year-Update.pdf?utm_source=email&amp;amp;utm_medium=email&amp;amp;utm_campaign=202012eoyupdatematch&amp;amp;utm_content=eoy_update&quot;&gt;99% efficiency&lt;/a&gt; and an average of two days between enrollment and first payment.&lt;/p&gt;
+
+&lt;p&gt;GiveDirectly also delivered transfers to over 500,000 recipients outside the US, creating new contact-free payment models and adding new programs. For example, they provided USAID-funded &lt;a href=&quot;https://www.liberianobserver.com/news/givedirectly-educational-stipends-for-12th-graders-writing-the-wassce-exam/&quot;&gt;educational stipends&lt;/a&gt; of $50 to 37,000 12th-graders in every high school in Liberia, and &lt;a href=&quot;https://www.fastcompany.com/90585079/how-givedirectly-is-finding-the-poorest-people-in-the-world-and-sending-them-cash&quot;&gt;applied machine learning&lt;/a&gt; to identify and pay extremely poor households in Togo.&lt;/p&gt;
+
+&lt;p&gt;Brazil is &lt;a href=&quot;https://www.reuters.com/article/us-brazil-economics/brazils-government-backs-new-basic-income-payments-to-poor-idUKKBN26J381&quot;&gt;expanding&lt;/a&gt; its Bolsa Familia cash transfer into a new program called Renda Cidada (“citizen income”), and Bogota, Colombia, is giving cash and food aid to &lt;a href=&quot;https://www.economist.com/the-world-ahead/2020/11/17/claudia-lopez-on-the-acceleration-of-social-innovation&quot;&gt;over 700,000 households&lt;/a&gt;. Spain introduced a &lt;a href=&quot;https://www.aljazeera.com/economy/2020/5/30/spain-introduces-basic-income-scheme-to-tackle-poverty&quot;&gt;minimum income program&lt;/a&gt; that intended to benefit over 2 million individuals, but &lt;a href=&quot;https://www.barrons.com/news/spain-struggles-to-put-in-place-basic-income-scheme-01598763004&quot;&gt;implementation challenges&lt;/a&gt; are slowing it down.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-01-01-ubi-centers-2020-year-in-review-4.png#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On most measures, 2021 has a low bar to clear to outdo 2020. Given this array of studies, UBI research might not be one of those measures, but we expect even more simulations, randomized controlled trials, meta-analyses, and new programs to inform UBI policy design and how UBI compares to the status quo and alternatives. To follow our research on these fronts, subscribe to our &lt;a href=&quot;https://ubicenter.us3.list-manage.com/subscribe?u=ffee9994a6979a91e881b8c13&amp;amp;id=938462295c&quot;&gt;newsletter&lt;/a&gt; or follow us on social media.&lt;/p&gt;
+
+&lt;p&gt;Happy New Year!&lt;/p&gt;
+
+&lt;p&gt;The UBI Center team&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;ankit&quot;, &quot;john&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pilots" />
+      
+        <category term="external research" />
+      
+
+      
+        <summary type="html">We joined scholars around the world in accelerating UBI research.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Our new child allowance project</title>
+      <link href="/child-allowance-project" rel="alternate" type="text/html" title="Our new child allowance project" />
+      <published>2020-11-25T00:00:00+00:00</published>
+      <updated>2020-11-25T00:00:00+00:00</updated>
+      <id>/child-allowance-project</id>
+      <content type="html" xml:base="/child-allowance-project">&lt;p&gt;&lt;em&gt;See the full project at &lt;a href=&quot;https://child-allowance.ubicenter.org&quot;&gt;child-allowance.ubicenter.org&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;1 in 7 children in the United States lives in poverty, &lt;a href=&quot;https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/&quot;&gt;raising&lt;/a&gt; stress and crime rates, &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S1876285915003836&quot;&gt;worsening&lt;/a&gt; educational outcomes, and &lt;a href=&quot;https://www.nap.edu/catalog/25246/a-roadmap-to-reducing-child-poverty&quot;&gt;shrinking&lt;/a&gt; the economy by up to $1 trillion annually. Research shows that giving money to families with children, as &lt;a href=&quot;https://www.vox.com/future-perfect/2019/3/6/18249290/child-poverty-american-family-act-sherrod-brown-michael-bennet&quot;&gt;most developed countries do&lt;/a&gt;, reduces each of these issues. A child allowance is a policy that gives families an equal amount for each child.&lt;/p&gt;
+
+&lt;p&gt;This project examines child allowances through various lenses:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;2020-11-25-child-allowance-state-simulation&quot;&gt;&lt;strong&gt;Simulations&lt;/strong&gt;&lt;/a&gt; quantifying the effects of child allowance policies (deficit- and tax-funded) on poverty and inequality across US states.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;&lt;strong&gt;Research&lt;/strong&gt;&lt;/a&gt; on the effects of child allowances and similar policies on children, based on randomized controlled trials and other empirical techniques.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://child-allowance.ubicenter.org/policies&quot;&gt;&lt;strong&gt;Policy context&lt;/strong&gt;&lt;/a&gt; of existing US child benefits and child allowances in other countries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, this interactive map is one of several visualizations in our &lt;a href=&quot;2020-11-25-child-allowance-state-simulation&quot;&gt;simulations page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# TODO: Add tax reforms as a drop-down (mirrored from simulation.ipynb).
+
+# Imports.
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+
+# Load data.
+summary = pd.read_csv('https://github.com/ngpsu22/Child_Allowance_States/raw/main/poverty_gini_tax_child_allowance')
+
+# General configs.
+LABELS = {'monthly_ca': 'Monthly child allowance',
+          'decile': 'Decile',
+          'net_chg': 'Net change',
+          'pct_chg': 'Net change',
+          'child_allowance':'Monthly child allowance',
+          'code': 'State',
+          'state': 'State',
+          'fed_tax_rate': 'Tax rate',
+          'state_tax_rate': 'Tax rate',
+          'non_funded_poverty_rate': 'Poverty rate',
+          'fed_poverty_rate': 'Poverty rate',
+          'state_poverty_rate': 'Poverty rate',
+          'non_funded_gini': 'Gini index',
+          'fed_gini': 'Gini index',
+          'state_gini': 'Gini index'}
+
+CONFIG = {'displayModeBar': False}
+
+# Preprocess data.
+summary.drop('Unnamed: 0', 1, inplace = True)
+state_dict = summary[['code', 'state']].set_index('code').to_dict()['state']
+
+# data labels
+FUNDING = {'fed_poverty_rate': 'Federal tax',
+           'state_poverty_rate': 'State tax',
+           'non_funded_poverty_rate': 'No funding'}
+
+ca_amts = summary.child_allowance.unique()
+child_poverty = summary[(summary['age_group'] == 'child') &amp;amp;
+                        (summary['race'] == 'All')]
+
+# create figure dictionary
+fig_dict = {
+    'data': [],
+    'layout': {},
+    'frames': []
+}
+
+# fill in most of layout
+fig_dict['layout'] = {
+    'plot_bgcolor': 'white',
+    'font': dict(family = 'Roboto'),
+    'height': 600,
+    'margin': dict(t=100, b=0, l=0, r=10)
+}
+fig_dict['layout']['title'] = {
+    'text': ('Child poverty by state and child allowance amount'),
+    'y': 0.97,
+    'x': 0.05,
+    'xanchor': 'left',
+    'yanchor': 'top'
+}
+
+# add slider specifications
+slidermenu =  {
+    'buttons': [
+        {
+            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                            'fromcurrent': True,
+                            'transition': {'duration': 300,
+                                           'easing': 'quadratic-in-out'}}],
+            'label': '&amp;#9654;',
+            'method': 'animate'
+        },
+        {
+            &quot;args&quot;: [[None], {&quot;frame&quot;: {&quot;duration&quot;: 0, &quot;redraw&quot;: True},
+                              &quot;mode&quot;: &quot;immediate&quot;,
+                              &quot;transition&quot;: {&quot;duration&quot;: 0}}],
+            &quot;label&quot;: &quot;&amp;#9724;&quot;,
+            &quot;method&quot;: &quot;animate&quot;
+        }
+    ],
+    'direction': 'left',
+    'pad': {'r': 15, 't': 75},
+    'showactive': True,
+    'type': 'buttons',
+    'x': 0.1,
+    'xanchor': 'right',
+    'y': 0,
+    'yanchor': 'top'
+}
+    
+sliders_dict = {
+    'active': 0,
+    'yanchor': 'top',
+    'xanchor': 'left',
+    'currentvalue': {
+        'font': {'size': 20},
+        'prefix': 'Monthly child allowance: ',
+        'visible': True,
+        'xanchor': 'right'
+    },
+    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+    'pad': {'b': 10, 't': 50},
+    'len': 0.9,
+    'x': 0.1,
+    'y': 0,
+    'steps': []
+}
+
+steps = []
+for ca in ca_amts:
+    slider_step = {
+        'args': [
+            [ca],
+            {'frame': {'duration': 300, 'redraw': True},
+             'mode': 'immediate',
+             'transition': {'duration': 300}}
+        ],
+        'label': '$' + str(ca),
+        'method': 'animate'
+    }
+    steps.append(slider_step)
+sliders_dict['steps'] = steps
+
+# generate frames
+frames = []
+locations = child_poverty.code
+zero_poverty = child_poverty[child_poverty.child_allowance == 0]
+for ca in ca_amts:
+    data_list = []
+    ca_data = child_poverty[child_poverty.child_allowance == ca]
+    for funding in FUNDING:
+        data_list.append({
+            'hovertemplate': 
+                '&lt;b&gt;%{customdata[1]}&lt;/b&gt;' + 
+                '&lt;br /&gt;Child poverty rate: %{z}%&lt;br /&gt;' + 
+                'Poverty reduction: %{customdata[0]}%' +
+                '&lt;extra&gt;&lt;/extra&gt;',
+            'locationmode': 'USA-states',
+            'locations': child_poverty.code.unique(),
+            'z': ca_data[funding].tolist(),
+            'type': 'choropleth',
+            'customdata': list(map(lambda x, y, z: (round(100 * (1 - y / x)), state_dict[z]),
+                                   zero_poverty[funding], ca_data[funding], state_dict))
+        })
+    
+    frame = {'data': data_list, 'name': str(ca), 'traces': [0,1,2]}
+    frames.append(frame)
+    
+# add frames to figure dictionary
+fig_dict['frames'] = frames
+
+# add traces to figure dictionary
+for i in (range(len(FUNDING))):
+    fig_dict['data'].append(frames[0]['data'][0])
+
+# generate figure
+fig = go.Figure(fig_dict)
+
+# generate dropdown menu buttons
+buttons = []
+for funding in FUNDING:
+    new_button = {'method': 'update',
+                  'label': FUNDING[funding],
+                  'args': [{'visible': [f == funding for f in FUNDING.keys()]}
+                          ]}
+    buttons.append(new_button)
+    
+# construct button menu
+updatemenu = {'buttons': buttons,
+              'direction': 'down',
+              'showactive': True,
+              'pad':{&quot;r&quot;: 10, 't': 20, 'l': 50},
+              'xanchor': 'left',
+              'yanchor': 'top',
+              'x': 0,
+              'y': 1.2
+             }
+
+# add slider, dropdown menu, and set geo scope
+fig.update_layout(
+    geo_scope='usa', # limite map scope to USA
+    sliders=[sliders_dict],
+    updatemenus=[slidermenu, updatemenu]
+)
+
+# update visual attributes
+fig.update_traces(showscale=False, colorscale='Reds', zmin=0, zmax=22)
+fig.update_layout(
+    hoverlabel=dict(
+        bgcolor=&quot;white&quot;,
+        font=dict(family='Roboto')
+    ),
+    title_font_size=20,
+)
+fig.update(layout_showlegend=False)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/index/2020-11-25-index-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;We also review the evidence around child allowances from the United States and Canada, and a special deep dive into research from sub-Saharan Africa, where randomized cash transfer rollouts produce particularly high-quality estimates. For example, cash transfer programs consistently reduced consumption poverty (below). See the &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;&lt;strong&gt;full paper&lt;/strong&gt;&lt;/a&gt; for evidence across other outcomes like education and health.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+pov = pd.DataFrame({
+    &quot;effect_pp&quot;: [-2.1, -3.9, 3.8, -14.9, -8.3, -4.1, -0.5],
+    &quot;baseline_pp&quot;: [93, 88, 68, 82, 44, 94, 92],
+    &quot;stars&quot;: [2, 0, 0, 3, 1, 2, 0]
+}, index=['Ghana LEAP', 'Kenya HSNP', 'Lesotho CGP', 'Malawi SCTP',
+          'Uganda SAGE', 'Zambia CGP', 'Zimbabwe HSCT']
+)
+pov['pct_effect'] = 100 * pov.effect_pp / pov.baseline_pp
+pov['significance'] = pov.stars.map({0: '&amp;gt;10%',
+                                     1: '5-10%',
+                                     2: '1-5%',
+                                     3: '&amp;lt;1%'})
+# Sort by stars for proper legend ordering.
+pov.sort_values('stars', ascending=False, inplace=True)
+
+DARK_BLUE = '#0D47A1'
+BLUE = '#2196F3'
+BARELY_BLUE = '#BBDEFB'
+GRAY = '#E0E0E0'
+
+fig = px.bar(pov, 'pct_effect', color='significance',
+             labels={'pct_effect': 'Poverty change',
+                     'index': 'Program',
+                     'significance': 'Significance'},
+             title='Poverty reductions across cash transfer RCTs in SSA',
+             color_discrete_map={'&amp;gt;10%': GRAY,
+                                 '5-10%': BARELY_BLUE,
+                                 '1-5%': BLUE,
+                                 '&amp;lt;1%': DARK_BLUE},
+)
+
+fig.update_layout(font=dict(family='Roboto'),
+                  plot_bgcolor='white',
+                  yaxis_title='Cash transfer program',
+                  legend_title='Statistical significance',
+                  xaxis_title='Percent change in poverty headcount rate',
+                  xaxis_ticksuffix='%',
+                  # Sort by effect size
+                  # (since data is sorted by stars for legend order)
+                  yaxis={'categoryorder':'total descending'},
+                  title_font_size=20,
+                 )
+
+fig.show(config={'displayModeBar': False})
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/index/2020-11-25-index-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, we consider the political state of child allowances, such as the &lt;a href=&quot;https://www.bennet.senate.gov/public/index.cfm/american-family-act&quot;&gt;American Family Act&lt;/a&gt;, which would ensure all low-income children in the US receive the full benefits of the Child Tax Credit, and how such a policy would align US child benefits with those from other developed countries.&lt;/p&gt;
+
+&lt;p&gt;By efficiently reducing child poverty, child allowances provide kids with basic needs, improve access to opportunity, and invest in our future.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;john&quot;, &quot;matt&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+
+      
+        <summary type="html">We're examining universal payments to parents across multiple angles.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

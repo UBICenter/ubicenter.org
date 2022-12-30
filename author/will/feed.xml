@@ -1,0 +1,2529 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/will/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/will/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Introducing the UBI Poll Tracker</title>
+      <link href="/poll-tracker" rel="alternate" type="text/html" title="Introducing the UBI Poll Tracker" />
+      <published>2021-10-18T00:00:00+00:00</published>
+      <updated>2021-10-18T00:00:00+00:00</updated>
+      <id>/poll-tracker</id>
+      <content type="html" xml:base="/poll-tracker">&lt;h2 id=&quot;try-it-out-at-pollsubicenterorg&quot;&gt;&lt;em&gt;Try it out at &lt;a href=&quot;https://polls.ubicenter.org&quot;&gt;polls.ubicenter.org&lt;/a&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;How does the public feel about universal basic income? How does this vary by country or demographics? Does the phrasing and context of the question affect public opinion?&lt;/p&gt;
+
+&lt;p&gt;As UBI has become more newsworthy—through political campaigns, pilots, and pandemic response policies—pollsters have researched these questions at length. While these single surveys reveal valuable insight, we sought to follow poll aggregators like &lt;a href=&quot;https://projects.fivethirtyeight.com/biden-approval-rating/?ex_cid=rrpromo&quot;&gt;FiveThirtyEight&lt;/a&gt; and show a broader representation, across time and demographics, of attitudes toward universal basic income.&lt;/p&gt;
+
+&lt;h2 id=&quot;constructing-the-dataset&quot;&gt;Constructing the dataset&lt;/h2&gt;
+
+&lt;p&gt;We started by building a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ulqohI6YLYFsz3wm8f5j6BS_JVelu2Ea8SXXa-wwkhQ/&quot;&gt;structured dataset&lt;/a&gt; of all known UBI favorability polls from reputable pollsters. For each poll in the dataset, we’ve included relevant cross-variables offered by the pollster, such as age, race, income level, and political affiliation. At this time, our dataset represents 30 unique polls from at least 30 different countries, primarily in the EU and US, comprising 13,000 total cells of data. If you see a poll we’ve missed, please &lt;a href=&quot;https://github.com/UBICenter/polls/issues/new?assignees=&amp;amp;labels=new-poll&amp;amp;template=new-poll.md&amp;amp;title=Add+poll+from+%5Bpollster%5D+on+%5Bdates%5D&quot;&gt;submit it for us to add&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To help the public glean insights from this dataset, we created the UBI Poll Tracker.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-ubi-poll-tracker&quot;&gt;The UBI Poll Tracker&lt;/h2&gt;
+
+&lt;p&gt;The UBI Poll Tracker starts with a bubble chart of all polls in our dataset over time. On the y axis is &lt;em&gt;net favorability&lt;/em&gt;, or the percentage that supports the policy minus the percentage that opposes it. Each bubble represents a unique poll question, colored by country, and hovering reveals details on the poll question. You can also filter the chart by country or demographics. Our demo video below walks through an example:&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wDA2e_5BNI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The lower chart shows more detail on individual polls. By default, it shows the most recent poll, but you can click a bubble or select a poll with the drop down menus to see a different one. Let’s stick with the most recent poll, which is from Data for Progress. 32 percent of respondents strongly supported monthly payments of $500 to $1,000, and 23 percent somewhat supported this policy. 12 percent somewhat opposed it and 27 percent strongly opposed it, for a net favorability rating of plus 12. This poll had only one question, but it showed cross-tabs breaking down results by partisanship, gender, and race. Selecting race reveals that UBI is much more popular with Black and Hispanic Americans than with White Americans.&lt;/p&gt;
+
+&lt;p&gt;For a deeper look, you can download our poll data as a CSV or explore our &lt;a href=&quot;github.com/ubicenter/polls&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;trends-revealed-by-the-ubi-poll-tracker&quot;&gt;Trends revealed by the UBI Poll Tracker&lt;/h2&gt;
+
+&lt;p&gt;The UBI Poll Tracker reveals remarkable variation in public opinion around basic income, across countries, demographic groups, time, and question framing.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most consistent source of variation is political ideology: across countries and polls, liberals support UBI more than conservatives. The most recent UK poll found net favorability of +17 among those who most recently voted Conservative, and +57 among those who most recently voted Labour; the other four UK polls that sliced by party found almost an identical 40-point spread. Party differences are even starker in the US: the most recent poll, from Data for Progress, found +56 support among Democrats and -31 support among Republicans, and a Pew poll from August 2020 found +33 support among Democrats and -56 support among Republicans. This represents similar consistency as the UK polls, but of twice the magnitude.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-10-18-poll-tracker/party.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other correlates to political affiliation also predict UBI support, notably age and race. A cross-country 2019 poll from Gallup found that adults aged 18 to 29 had net favorability 30 to 50 points higher than adults aged 65 or older.  The latest US poll from Data for Progress finds net favorability of +66 among Blacks, +58 among Hispanics, and +2 among Whites. Even among Democrats in New York City, net favorability was ten points higher among Blacks than Whites.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-10-18-poll-tracker/age.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, some splits are either too small or too sparse to identify. In recent polls, sentiment among men is within one to eight points of sentiment among women, sometimes in different directions. Opinion is similarly ambiguous by education, though the swings are larger. More polling outside the US and the UK is needed to establish geographic differences, though the UK consistently supports UBI more than the US. And while existing data suggests some clues around verbiage that elicits more or less support—Gallup finds that net favorability falls by over 50 points across countries when asked about paying higher taxes—more polls that consistently vary the verbiage would reveal this more clearly.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
+
+&lt;p&gt;We’ll keep enhancing the UBI Poll Tracker by expanding the set of polls, improving useability, and adding features to analyze multiple polls together and identify general trends. Please &lt;a href=&quot;github.com/ubicenter/polls&quot;&gt;file an issue on GitHub&lt;/a&gt; if you see a poll we’ve missed or find a bug, and feel free to reach out at &lt;a href=&quot;mailto:contact@ubicenter.org&quot;&gt;contact@ubicenter.org&lt;/a&gt; if you’d like to partner. We look forward to seeing what trends our users find!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;katarina&quot;, &quot;will&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">Our new tool shows public opinion toward basic income from around the world.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Research we’re presenting at the upcoming Basic Income Earth Network Congress</title>
+      <link href="/bien-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming Basic Income Earth Network Congress" />
+      <published>2021-08-17T00:00:00+00:00</published>
+      <updated>2021-08-17T00:00:00+00:00</updated>
+      <id>/bien-2021</id>
+      <content type="html" xml:base="/bien-2021">&lt;h2 id=&quot;register-to-attend-the-bien-congress-here&quot;&gt;Register to attend the BIEN Congress &lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;From Wednesday through Saturday, the &lt;a href=&quot;https://basicincome.org/&quot;&gt;Basic Income Earth Network (BIEN)&lt;/a&gt; will hold its &lt;a href=&quot;https://cbin.scot/bien2021/&quot;&gt;annual BIEN Congress&lt;/a&gt;.
+The virtual conference includes presentations from researchers and activists around the world, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;Here are the sessions we’ll be presenting (times are given as British Standard Time; subtract five hours for Eastern Time and eight hours for Pacific Time):&lt;/p&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-lessons-for-basic-income-policies-pilots-and-modelling&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841162&quot;&gt;Thursday at 6:30PM BST: Lessons for Basic Income policies, pilots and modelling&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their paper, &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/author/deepak&quot;&gt;Deepak Singh&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Rick Evans will present progress toward constructing a general equilibrium model of UBI in the UK (a collaboration with Nikhil Woodruff, Jason DeBacker, Jonathan Pycroft, and Max Ghenis).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-considering-public-attitudes-to-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841151&quot;&gt;Thursday at 6:30PM BST: Considering public attitudes to Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/katarina/&quot;&gt;Katarina van Alebeek&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/will&quot;&gt;Will Fedder&lt;/a&gt; will present our new UBI Poll Tracker (link coming soon).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;friday-at-900am-bst-guaranteeing-a-standard-of-living-with-a-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841181&quot;&gt;Friday at 9:00AM BST: Guaranteeing a standard of living with a Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present his paper, &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;“Replacing tax and benefit allowances with UBI in the UK”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their research on funding a UBI with a land value tax in the UK (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-bien-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;Registration for BIEN is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;katarina&quot;, &quot;will&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="global" />
+      
+        <category term="conferences" />
+      
+
+      
+        <summary type="html">We'll give five talks across three sessions on Thursday and Friday.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing the Basic Income Builder</title>
+      <link href="/introducing-basic-income-builder" rel="alternate" type="text/html" title="Introducing the Basic Income Builder" />
+      <published>2021-07-21T00:00:00+00:00</published>
+      <updated>2021-07-21T00:00:00+00:00</updated>
+      <id>/introducing-basic-income-builder</id>
+      <content type="html" xml:base="/introducing-basic-income-builder">&lt;h1 id=&quot;try-the-basic-income-builder-at-bibubicenterorg&quot;&gt;Try the Basic Income Builder at &lt;a href=&quot;http://bib.ubicenter.org&quot;&gt;bib.ubicenter.org&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Using Python and Plotly Dash’s dashboarding tools, we’ve created the Basic Income Builder: an interactive calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal’s effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead. Read on for more information, or try it yourself at &lt;a href=&quot;http://bib.ubicenter.org&quot;&gt;bib.ubicenter.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;Our recent research at the UBI Center has demonstrated the remarkable effectiveness of unconditional cash transfers in reducing poverty and inequality across different demographics and regions in the United States. We have found that the UBI shrinks &lt;a href=&quot;https://www.ubicenter.org/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps&quot;&gt;racial poverty and wealth gaps&lt;/a&gt;, reduces poverty among &lt;a href=&quot;https://www.ubicenter.org/ada30&quot;&gt;people with disabilities&lt;/a&gt;, and is more progressive than cancelling &lt;a href=&quot;https://www.ubicenter.org/student-debt&quot;&gt;student loan debt&lt;/a&gt; in terms of wealth inequality.&lt;/p&gt;
+
+&lt;p&gt;Inspired by calculators such as &lt;a href=&quot;https://taxjusticenow.org/#/#makeYourOwnTaxPlan&quot;&gt;Tax Justice Now&lt;/a&gt;, &lt;a href=&quot;https://ubicalculator.com/&quot;&gt;UBI Calculator&lt;/a&gt;, and PSL’s &lt;a href=&quot;https://compute.studio/PSLmodels/Tax-Brain/new/&quot;&gt;Tax Brain&lt;/a&gt;, and building on our prior work with the &lt;a href=&quot;plans.ubicenter.org&quot;&gt;UBI Plan Explorer&lt;/a&gt;, we created Basic Income Builder, an interactive, customizable policy simulation tool built on our own research on UBI proposals. We sought to create a tool that is useful for policy analysts and policy makers at both the state and federal level, while yielding comprehensible results for a general audience.&lt;/p&gt;
+
+&lt;p&gt;As our research has shown that funding Basic Income with a &lt;a href=&quot;https://www.ubicenter.org/us-flat-tax&quot;&gt;flat tax&lt;/a&gt; of 25% or more would reduce both poverty and inequality, we can create a funding mechanism that funds a robust UBI program, but does not require the user to create or adjust complicated income tax brackets.&lt;/p&gt;
+
+&lt;p&gt;All code powering this calculator is at &lt;a href=&quot;https://github.com/UBICenter/us-calc&quot;&gt;github.com/UBICenter/us-calc&lt;/a&gt;, and the app is hosted on the open source &lt;a href=&quot;http://compute.studio&quot;&gt;Compute Studio platform&lt;/a&gt;.&lt;sup id=&quot;fnref:hank&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hank&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;data&quot;&gt;Data&lt;/h1&gt;
+
+&lt;p&gt;We use three years of data (2017-2019) from the Annual Social and Economic Supplement (ASEC) of the Current Population Survey (CPS). The CPS is a monthly survey of U.S. households conducted by the U.S. Census Bureau and the Bureau of Labor Statistics. The CPS is conducted for the purposes of finding employment and earnings statistics of all individuals 15 and over in the household. Data is reported on the level of the individual persons in the household.&lt;/p&gt;
+
+&lt;p&gt;The ASEC provides additional information such as after-tax money income and non-cash benefits. The ASEC also calculates the poverty thresholds for each unit used in our calculations. The ASEC includes all CPS survey respondents in March, with additional oversamples from other months.&lt;/p&gt;
+
+&lt;p&gt;The ASEC provides weighted individual and household level economic and demographic variables that we use to determine the total revenue impacts of our available tax, benefit, and eligibility criteria, as well as the impact on poverty and inequality for the entire population, and the impact on poverty rates for a number of selected demographics.&lt;/p&gt;
+
+&lt;p&gt;We use the Census Bureau’s Supplemental Poverty Measure (SPM) rather than the official poverty measure. The SPM resource measure is cash income plus in-kind benefits minus non discretionary expenses (including taxes, out of pocket health expenses, and work-related expenses). The SPM poverty thresholds are based on a core of annually updated core expenditures, adjusted for the size of the SPM resource unit and geographical variation in the cost of living.&lt;/p&gt;
+
+&lt;p&gt;All of our simulation’s results with respect to poverty are calculated in terms of SPM resources, adjusted for the size of the UBI benefit, as well as any changes to the tax and benefit system selected by the user.&lt;/p&gt;
+
+&lt;p&gt;The SPM resource unit is a broadened definition of the traditional Census family of related individuals, expanded to include any cohabiters and their relatives who are likely to share resources. We use the Gini coefficient of SPM resources among SPM units as our primary inequality measure.&lt;/p&gt;
+
+&lt;p&gt;Our data is limited in two primary ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The systematic underreporting of means-tested benefits in survey responses; depending on the benefit, up to half may be missing from the Current Population Survey (&lt;a href=&quot;https://harris.uchicago.edu/files/underreporting.pdf&quot;&gt;Meyer Mok and Sullivan 2015&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The underreporting of incomes above one million dollars, due to the Census Bureau’s income “top-coding” which intends to avoid disclosure of respondents’ personally identifiable data.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;simulation&quot;&gt;Simulation&lt;/h1&gt;
+
+&lt;p&gt;The user does not select a UBI benefit amount directly – rather, the user selects from a number of budget-neutral “pay-fors”, which produces a benefit size as an output.&lt;/p&gt;
+
+&lt;p&gt;On the tax side, users can repeal the personal income tax and the employee-side payroll tax. In addition, there is a slider available for the user to select an additional flat tax of 0% to 50% on all adjusted gross income (AGI) above $0.&lt;/p&gt;
+
+&lt;p&gt;On the benefit side, the user can repeal the Child Tax Credit, Supplemental Security Income (SSI), Supplemental Nutrition Assistance Program (SNAP, formerly food stamps), Earned Income Tax Credit, Unemployment Benefits, and the Low Income Heating and Energy Assistance Program (LIHEAP).&lt;/p&gt;
+
+&lt;p&gt;Users may also select whether adults, children, and/or non-citizens are eligible for benefits.&lt;/p&gt;
+
+&lt;p&gt;We can describe our model as follows, where \(t\) is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and \(NT_i\) is the value of a new user-specified tax on AGI for SPM unit \(i\):&lt;/p&gt;
+
+\[NT_i = t * \max(AGI_i, 0)\]
+
+&lt;p&gt;RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where \(r_n\) represents a Boolean where a value of \(r_n=1\) indicates that the user has chosen to repeal the benefit, and \(r_n=0\) if not.&lt;/p&gt;
+
+\[RT_i = r_{IT}IT_i + r_{PT}PT_i\]
+
+&lt;p&gt;We define \(RB\) as the value of SPM unit’s benefits that have been repealed by the user.&lt;/p&gt;
+
+\[RB_i = r_{CTC} * CTC_i + r_{SSI} * SSI_i + r_{SNAP} * SNAP_i + r_{EITC} * EITC_i + r_{UI} * UI_i + r_{LIHEAP} * LIHEAP_i\]
+
+&lt;p&gt;Thus, the total revenue raised by the user is equal to:&lt;/p&gt;
+
+\[Revenue = \sum_i NT_i - RT_i + RB_i\]
+
+&lt;p&gt;The new UBI amount paid out to each eligible beneficiary is simply equal to:&lt;/p&gt;
+
+\[UBI = \frac{\it Revenue}{\it NumberOfBeneficiaries}\]
+
+&lt;p&gt;We then adjust the SPM resources of each unit to account for the new UBI payment, as well as the earlier changes made to taxes and benefits. The new SPM resource amount is expressed by the following equation, where n represents the number of eligible UBI beneficiaries in the SPM unit.&lt;/p&gt;
+
+\[NewSPMResources_i = CurrentSPMResources_i + UBI * n_i + RT_i -NT_i - B_i\]
+
+&lt;p&gt;We then assign a new value indicating poverty status for each person belonging to an SPM unit where their new SPM resources are below the Census-provided SPM poverty threshold. We then divide the count of all individuals living under this poverty line by the total population.&lt;/p&gt;
+
+&lt;p&gt;The poverty gap is the sum of the total amount of additional resources required to lift each SPM unit to the SPM poverty threshold. Using our new SPM resources value for each SPM unit i, we calculate the poverty gap with the following formula:&lt;/p&gt;
+
+\[PovertyGap = \sum_i \max(SPMPovertyThreshold_i - NewSPMResources_i, 0)\]
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;To illustrate Basic Income Builder’s capabilities, we present the results of three different budget-neutral UBI reforms. Each reform provides an equal UBI to child and adult citizens.&lt;/p&gt;
+
+&lt;p&gt;In the first reform, we repeal all six available benefits while holding all else constant; this funds a $64 monthly UBI. To illustrate how our app works in practice, the below screenshot shows the configuration necessary to create this scenario:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-1.png&quot; alt=&quot;alt_text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While this leaves most of the population at least slightly better off, it causes poverty and inequality to increase across all categories, as shown by the simulation results below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the second reform, we keep all taxes and benefits as is, but apply an additional 1% income tax on top of the existing system. This funds a $31 monthly benefit, but reduces poverty and inequality across all measures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-3.png&quot; alt=&quot;alt_text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our third reform entails a repeal of the existing income tax system (preserving payroll taxes and benefits), replaced with a 25% flat income tax. This funds a $400 monthly UBI while leaving 51% of Americans better off, while reducing poverty overall by 39% and across each demographic group by between 21% and 55%.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;Baseline
+   &lt;/td&gt;
+   &lt;td&gt;Repeal All Benefits
+   &lt;/td&gt;
+   &lt;td&gt;1% Income Tax Increase
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat tax, repeal income tax
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Monthly UBI
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$64
+   &lt;/td&gt;
+   &lt;td&gt;$31
+   &lt;/td&gt;
+   &lt;td&gt;$400
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Share better off
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;0.641
+   &lt;/td&gt;
+   &lt;td&gt;0.641[^1]
+   &lt;/td&gt;
+   &lt;td&gt;0.513
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Average change in resources per person
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty Gap (Billions USD)
+   &lt;/td&gt;
+   &lt;td&gt;$173 B
+   &lt;/td&gt;
+   &lt;td&gt;+19.1%
+   &lt;/td&gt;
+   &lt;td&gt;-6.1%
+   &lt;/td&gt;
+   &lt;td&gt;-41.7%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Gini Index
+   &lt;/td&gt;
+   &lt;td&gt;0.446
+   &lt;/td&gt;
+   &lt;td&gt;+2.2%
+   &lt;/td&gt;
+   &lt;td&gt;-1.4%
+   &lt;/td&gt;
+   &lt;td&gt;-8.0%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty rate
+   &lt;/td&gt;
+   &lt;td&gt;0.128
+   &lt;/td&gt;
+   &lt;td&gt;+20.9%
+   &lt;/td&gt;
+   &lt;td&gt;-6.1%
+   &lt;/td&gt;
+   &lt;td&gt;-38.5%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Child
+   &lt;/td&gt;
+   &lt;td&gt;0.139
+   &lt;/td&gt;
+   &lt;td&gt;+42.3%
+   &lt;/td&gt;
+   &lt;td&gt;-8.3%
+   &lt;/td&gt;
+   &lt;td&gt;-45.7%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Adult
+   &lt;/td&gt;
+   &lt;td&gt;0.125
+   &lt;/td&gt;
+   &lt;td&gt;+13.6%
+   &lt;/td&gt;
+   &lt;td&gt;-5.4%
+   &lt;/td&gt;
+   &lt;td&gt;-36.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  People with Disabilities
+   &lt;/td&gt;
+   &lt;td&gt;0.203
+   &lt;/td&gt;
+   &lt;td&gt;+18.2%
+   &lt;/td&gt;
+   &lt;td&gt;-6.2%
+   &lt;/td&gt;
+   &lt;td&gt;-55.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  White
+   &lt;/td&gt;
+   &lt;td&gt;0.089
+   &lt;/td&gt;
+   &lt;td&gt;+12.8%
+   &lt;/td&gt;
+   &lt;td&gt;-6.3%
+   &lt;/td&gt;
+   &lt;td&gt;-46.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Black
+   &lt;/td&gt;
+   &lt;td&gt;0.201
+   &lt;/td&gt;
+   &lt;td&gt;+26.4%
+   &lt;/td&gt;
+   &lt;td&gt;-7.5%
+   &lt;/td&gt;
+   &lt;td&gt;-52.3%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Hispanic
+   &lt;/td&gt;
+   &lt;td&gt;0.201
+   &lt;/td&gt;
+   &lt;td&gt;+28.6%
+   &lt;/td&gt;
+   &lt;td&gt;-5.3%
+   &lt;/td&gt;
+   &lt;td&gt;-21.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;To demonstrate Basic Income Builder’s state-level capabilities, we return to the reform that replaces existing income taxes with a 25% flat income tax, focusing on North Carolina as an example. When selecting North Carolina from the state menu and leaving everything else unchanged, the calculator shows the effect of the federal reform on North Carolina. The UBI amount is the same ($400 per month), but other distributional effects differ, and we can see that North Carolinians come out ahead by an average of $276 per person per year.&lt;/p&gt;
+
+&lt;p&gt;When selecting “State” as the Reform level, the 25% flat income tax instead replaces the North Carolina state income tax. This results in a larger UBI, primarily due to North Carolina’s state income tax raising less revenue than the federal income tax in North Carolina. Consequently, the poverty impacts are substantially greater with this reform, even as it’s no longer a net inflow to the state.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;Baseline (NC)
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat Tax, Federal
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat Tax, State
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Monthly UBI
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$400
+   &lt;/td&gt;
+   &lt;td&gt;$561
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Share better off
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;0.554
+   &lt;/td&gt;
+   &lt;td&gt;0.635
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Average change in resources per person
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$276
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty Gap (Billions USD)
+   &lt;/td&gt;
+   &lt;td&gt;$5 B
+   &lt;/td&gt;
+   &lt;td&gt;-44.6%
+   &lt;/td&gt;
+   &lt;td&gt;-58.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Gini Index
+   &lt;/td&gt;
+   &lt;td&gt;0.449
+   &lt;/td&gt;
+   &lt;td&gt;-10.2%
+   &lt;/td&gt;
+   &lt;td&gt;-26.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty rate
+   &lt;/td&gt;
+   &lt;td&gt;0.136
+   &lt;/td&gt;
+   &lt;td&gt;-44.9%
+   &lt;/td&gt;
+   &lt;td&gt;-68.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Child
+   &lt;/td&gt;
+   &lt;td&gt;0.149
+   &lt;/td&gt;
+   &lt;td&gt;-57.8%
+   &lt;/td&gt;
+   &lt;td&gt;-85.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Adult
+   &lt;/td&gt;
+   &lt;td&gt;0.132
+   &lt;/td&gt;
+   &lt;td&gt;-40.9%
+   &lt;/td&gt;
+   &lt;td&gt;-62.5%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;People with Disabilities
+   &lt;/td&gt;
+   &lt;td&gt;0.210
+   &lt;/td&gt;
+   &lt;td&gt;-55.5%
+   &lt;/td&gt;
+   &lt;td&gt;-73.4%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;White
+   &lt;/td&gt;
+   &lt;td&gt;0.099
+   &lt;/td&gt;
+   &lt;td&gt;-49.3%
+   &lt;/td&gt;
+   &lt;td&gt;-69.8%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Black
+   &lt;/td&gt;
+   &lt;td&gt;0.203
+   &lt;/td&gt;
+   &lt;td&gt;-62.8%
+   &lt;/td&gt;
+   &lt;td&gt;-76.2%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Hispanic
+   &lt;/td&gt;
+   &lt;td&gt;0.198
+   &lt;/td&gt;
+   &lt;td&gt;+5.1%
+   &lt;/td&gt;
+   &lt;td&gt;-50.2%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;For each of these scenarios, checking the “Children” and “Non-citizens” boxes reveals that including children and non-citizens in the UBI produces larger poverty and inequality reductions. This aligns with other research, such as &lt;a href=&quot;https://www.ubicenter.org/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19&quot;&gt;Ghenis (2020)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;future-research&quot;&gt;Future research&lt;/h1&gt;
+
+&lt;p&gt;We aim to improve Basic Income Builder in the future in several ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Addressing income data deficiencies by incorporating data from the IRS Public Use File&lt;/li&gt;
+  &lt;li&gt;Addressing benefit deficiencies by imputing unreported benefits with algorithms like PSL’s &lt;a href=&quot;https://github.com/PSLmodels/C-TAM&quot;&gt;CPS Transfer Augmentation Model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Adjusting for labor supply responses to the changes in the tax code, any effects of repealed benefits on marginal tax rates for low-income individuals, or the income effects of the UBI itself.&lt;/li&gt;
+  &lt;li&gt;Supporting side-by-side comparison of different user specified proposals.&lt;/li&gt;
+  &lt;li&gt;Including more tax and benefit reforms on both the federal level, such as repealing deductions.&lt;/li&gt;
+  &lt;li&gt;Relaxing the requirement for budget-neutrality; instead of determining the UBI amount by changing taxes and benefits, the user could select the desired UBI amount and explore different ways to meet that target.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The UBI Center Basic Income Builder provides users with access to rapid experimentation and analysis to determine the effects of UBI. Some results are intuitive, such as the regressiveness of replacing benefits with UBI without also raising additional tax revenue, while other results may surprise some audiences, such as the large effects on poverty from even modest taxes—even flat income taxes. We hope that this tool and others like it empower the public to learn more about public policy impacts and that they ultimately produce more evidence-based policymaking.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:hank&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We’re grateful to Hank Doupe of Compute Studio for technical assistance and hosting of this app. &lt;a href=&quot;#fnref:hank&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;will&quot;, &quot;max&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">Our new tool lets you design and analyze budget-neutral universal basic income policies in real time.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The effect of universal basic income on a novel measure of the racial wealth gap</title>
+      <link href="/racial-wealth-gap-ks" rel="alternate" type="text/html" title="The effect of universal basic income on a novel measure of the racial wealth gap" />
+      <published>2021-02-28T00:00:00+00:00</published>
+      <updated>2021-02-28T00:00:00+00:00</updated>
+      <id>/racial-wealth-gap-ks</id>
+      <content type="html" xml:base="/racial-wealth-gap-ks">&lt;p&gt;The large racial wealth gap traces its roots to slavery, redlining, and other discriminatory policies, and persists largely due to &lt;a href=&quot;https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap&quot;&gt;racial income gaps&lt;/a&gt;.
+In honor of Black History month, we explore how closing part of this income gap with a universal basic income would affect the racial wealth gap, using novel measurements that consider how Black and White families differ across the full wealth distribution.&lt;/p&gt;
+
+&lt;p&gt;The two most common measures of the racial wealth gap simply compare mean and median wealth between White and Black families.&lt;sup id=&quot;fnref:head&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:head&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Based on the 2019 Survey of Consumer Finances&lt;sup id=&quot;fnref:scf&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:scf&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, White families have mean wealth 5.7 times that of Black families, and median wealth 6.4 times that of Black families.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import warnings
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.io as pio
+import ubicenter
+from plotly.subplots import make_subplots
+
+cdfs = pd.read_csv(&quot;data/cdfs.csv&quot;)
+ubi_summary = pd.read_csv(&quot;data/ubi_summary.csv&quot;)
+nw_quant = pd.read_csv(&quot;data/deciles.csv&quot;)
+
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+DARK_GRAY = &quot;#616161&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+colors = [BLUE, DARK_BLUE, LIGHT_BLUE, GRAY, BARELY_BLUE]
+
+bl = ubi_summary.iloc[0].round(-2)
+params = pd.DataFrame(
+    {
+        &quot;Mean&quot;: {
+            &quot;White&quot;: bl.white_mean_networth_pa,
+            &quot;Black&quot;: bl.black_mean_networth_pa,
+        },
+        &quot;Median&quot;: {
+            &quot;White&quot;: bl.white_median_networth_pa,
+            &quot;Black&quot;: bl.black_median_networth_pa,
+        },
+    }
+)
+
+fig = go.Figure(
+    data=[
+        go.Bar(name=&quot;White&quot;, x=params.T.index, y=params.T[&quot;White&quot;], marker_color=GRAY),
+        go.Bar(name=&quot;Black&quot;, x=params.T.index, y=params.T[&quot;Black&quot;], marker_color=BLUE),
+    ]
+)
+
+fig.update_layout(
+    title=&quot;Traditional measures of the racial wealth gap&quot;,
+    hovermode=&quot;x&quot;,
+    xaxis_title=&quot;&quot;,
+    yaxis_title=&quot;Wealth per adult (2019)&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.75),
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;As Matt Bruenig pointed out in his &lt;a href=&quot;https://www.peoplespolicyproject.org/2020/06/29/the-racial-wealth-gap-is-about-the-upper-classes/&quot;&gt;June 2020 piece&lt;/a&gt;, the mean wealth gap is largely shaped by overall wealth inequality, with over 70 percent of both Black and White families’ wealth held by the top decile.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+hovertemplate = &quot;%{x:.1f}%&quot;
+
+fig = px.bar(
+    nw_quant[nw_quant.variable.isin([&quot;White&quot;, &quot;Black&quot;])],
+    y=&quot;percentile&quot;,
+    x=&quot;value&quot;,
+    color=&quot;variable&quot;,
+    labels={
+        &quot;percentile&quot;: &quot;Percent receiving benefit&quot;,
+        &quot;value&quot;: &quot;Share of within-group wealth&quot;,
+    },
+    orientation=&quot;h&quot;,
+    barmode=&quot;group&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: BLUE},
+)
+
+fig.update_traces(hovertemplate=&quot;Share of Wealth: &quot; + hovertemplate)
+
+# apply formatting
+fig.update_layout(
+    title=&quot;Within-race wealth inequality&quot;,
+    hovermode=&quot;y&quot;,
+    xaxis_title=&quot;Share of total within-group wealth held by decile&quot;,
+    yaxis_title=&quot;Decile of wealth per adult (2019)&quot;,
+    xaxis_ticksuffix=&quot;%&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_dtick=1,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While the median tells us where the middle of the distributions lay, it can obscure what is going on throughout the rest of the distribution.
+To visualize a variable’s distribution in full, we can turn to the cumulative distribution function (CDF), which shows the population share with less than a specified value.&lt;/p&gt;
+
+&lt;p&gt;The following graph shows how to interpret a CDF graph of of wealth per adult for all families in the U.S. (Note that while we have logarithmically transformed the x-axis, the y-axis remains linear.)&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+all_hh = cdfs.loc[cdfs.ubi_mo == 0].copy(deep=True)
+
+# select 5000k
+med = all_hh.loc[all_hh[&quot;networth_pa_new&quot;] == 50000, :].copy(deep=True)
+med[&quot;x&quot;] = np.log10(med.networth_pa_new)
+med[&quot;y&quot;] = med.loc[:, &quot;total_share&quot;]
+
+# plot curve
+fig = px.line(x=all_hh.networth_pa_new, y=all_hh.total_share.round(3))
+# change line coloar
+fig[&quot;data&quot;][0][&quot;line&quot;][&quot;color&quot;] = BLUE
+
+# add explanation for arrow pointing to y-axis
+fig.add_annotation(
+    x=2,
+    y=med.y.values[0],
+    text=&quot;Look at y-axis to see share of families &lt;br /&gt; whose wealth is below the x-value&quot;,
+    showarrow=True,
+    arrowhead=0,
+    ay=-50,
+    ax=150,
+    font=dict(size=16),
+)
+
+# add dotted line pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],
+    y=0,
+    text=&quot;For a given wealth on the x-axis&quot;,
+    showarrow=True,
+    arrowhead=0,
+    # yshift=-60,
+    # xshift=-130,
+    ax=160,
+    ay=-50,
+    font=dict(size=16),
+)
+
+# add red arrow pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=0,  # arrows' tail
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+    axref=&quot;x&quot;,
+    ayref=&quot;y&quot;,
+    text=&quot;&quot;,  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+# add arrow pointing from point to y-axis
+fig.add_annotation(
+    x=2,  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=med.y.values[0],  # arrows' tail
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+    axref=&quot;x&quot;,
+    ayref=&quot;y&quot;,
+    text=&quot;&quot;,  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+fig.update_layout(
+    showlegend=False,
+    title=&quot;Cumulative wealth distribution&quot;,
+    xaxis_title=&quot;Wealth per adult (2019)&quot;,
+    yaxis_title=&quot;Share of families with less than value in wealth&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    hovermode=&quot;x&quot;,
+)
+
+fig.update_xaxes(
+    dict(
+        range=[2, 9],
+        autorange=False,
+        showspikes=False,  # Show spike line for x-axis
+        # Format spike
+        spikethickness=1,
+        spikedash=&quot;dot&quot;,
+        spikecolor=&quot;grey&quot;,
+        spikemode=&quot;toaxis&quot;,
+    ),
+    type=&quot;log&quot;,
+)
+fig.update_yaxes(
+    dict(
+        range=[0, 1.01],
+        showspikes=True,
+        spikethickness=1,
+        spikedash=&quot;dot&quot;,
+        spikecolor=&quot;grey&quot;,
+        spikemode=&quot;toaxis&quot;,
+    )
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, how can we compare the distributions of wealth between Black and White families?
+The two-sample Kolmogorov-Smirnov (KS) statistical test offers a way to test the difference between two distributions.
+The KS statistic, or D-statistic (for “distance”), is the maximum absolute vertical distance between two CDFs.&lt;/p&gt;
+
+&lt;p&gt;One advantage to this statistical method is that it is quite simple to explain visually.
+The below chart plots the CDF for White and Black families.
+The dotted line drawn between the two curves shows where the vertical distance between them is at its greatest.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+with warnings.catch_warnings():  # ignore &quot;FutureWarning&quot;
+    &quot;&quot;&quot;
+    Ignore numpy 'FutureWarning' :
+    &quot;Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result.&quot;
+    &quot;&quot;&quot;
+    warnings.filterwarnings(&quot;ignore&quot;, category=FutureWarning)
+
+    # Create traces
+    fig = go.Figure()
+
+    # create df for baseline
+    cdfs_bl = cdfs[cdfs.ubi_mo == 0]
+    # plot ECDFs
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.white_share.round(3),
+            name=&quot;White&quot;,
+            marker_color=GRAY,
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.black_share.round(3),
+            name=&quot;Black&quot;,
+            marker_color=BLUE,
+        )
+    )
+
+    # define ks_stat
+    ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;d_stat_cand&quot;].max()
+
+    # find networth where the d-statistic is found
+    max_x = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;networth_pa_new&quot;].max()
+
+    # find networth where abs distance between ecdfs is is @  max
+    y1 = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;white_share&quot;].max()
+    y0 = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;black_share&quot;].max()
+
+    # # add a dashed line showing where max abs distance between ECDFs is
+
+    dash_names = &quot;Max abs. distance between CDFs&quot;
+    dash_color = &quot;black&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=[max_x, max_x],
+            y=[y0, y1],
+            mode=&quot;lines+text&quot;,
+            line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+            visible=True,
+            name=dash_names,
+            text=[&quot;D-statistic: &quot; + str(round(ks_stat, 3)) + &quot;        &quot;, None],
+            textfont=dict(size=16),
+            textposition=&quot;top left&quot;,
+            showlegend=False,
+        )
+    )
+
+    fig.add_annotation(
+        x=np.log10(max_x),
+        y=(y1 + y0) / 2,
+        text=&quot;The Kolmogorov-Smirnov D-statistic &lt;br /&gt;&quot;
+        + &quot;is the maximum absolute vertical &lt;br /&gt;&quot;
+        + &quot;distance between the two curves&quot;,
+        showarrow=True,
+        arrowhead=3,
+        yshift=1,
+        ax=200,
+        bordercolor=&quot;#c7c7c7&quot;,
+        borderwidth=2,
+        borderpad=4,
+        bgcolor=&quot;dark blue&quot;,
+        opacity=1,
+        font=dict(size=16),
+    )
+
+    fig.update_layout(
+        title=&quot;Cumulative distribution function (CDF) of wealth by race&quot;,
+        xaxis_title=&quot;Wealth per adult (2019)&quot;,
+        yaxis_title=&quot;Share of families with less than value in wealth&quot;,
+        yaxis_ticksuffix=&quot;&quot;,
+        yaxis_tickprefix=&quot;&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+        legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+    )
+
+    fig.update_xaxes(type=&quot;log&quot;)
+    fig = ubicenter.format_fig(fig, show = False)
+    fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This shows us that approximately 65.9% of Black families have a wealth of less than $50,000 per adult, whereas only 33.3% of White families fall below that line.
+As we will see, the threshold can be at any point along these curves; the KS statistic is the value measuring the size of the gap where the gap is the largest, at 0.326 (the actual wealth value corresponding to the D-statistic was $50,888).&lt;/p&gt;
+
+&lt;p&gt;In the following model, we simulate how saving a total of one year’s UBI payments could change the racial wealth gap. We apply a flat tax on all income to fund the UBI program, and subtract each family’s new tax payment from their wealth.&lt;/p&gt;
+
+&lt;p&gt;In the bottom graph, you can see the vertical distance between the two curves at each point along the x-axis from $0 to $2,000 per month.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button5&quot; onclick=&quot;f5()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_5&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def ecdf_slider(data):
+    # Create traces
+    fig = go.Figure()
+
+    # create empty list for payment size for sliders
+    payments = []
+    ks_stats = []
+    max_xs = []
+
+    # create 2 subplots
+    fig = make_subplots(
+        rows=2,
+        cols=1,
+        shared_xaxes=False,
+        # Apply x axis title elsewhere so it doesn't interfere with slider.
+        y_title=&quot;Share of families with less than value in wealth&quot;,
+    )
+
+    for i, step in enumerate(data.ubi_mo.unique()):
+        # append payment to list
+        payments.append(step)
+        step_data = data[data.ubi_mo == step]
+        # add trace 0
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.white_share.round(3),
+                name=&quot;White&quot;,
+                visible=False,
+                marker_color=GRAY,
+            ),
+            row=1,
+            col=1,
+        )
+        # add trace 1
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.black_share.round(3),
+                name=&quot;Black&quot;,
+                visible=False,
+                marker_color=BLUE,
+            ),
+            row=1,
+            col=1,
+        )
+        # append ks-statistics to list
+        ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;d_stat_cand&quot;].values[0]
+        ks_stats.append(ks_stat)
+
+        # add plot to candidate
+        # add trace 2, the d-statistic candidates
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.d_stat_cand.round(3),
+                mode=&quot;lines&quot;,
+                visible=False,
+                name=&quot;Absolute distance between CDFs&quot;,
+                marker_color=LIGHT_BLUE,
+            ),
+            row=2,
+            col=1,
+        )
+
+        # find networth where the d-statistic
+        max_x = (
+            ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;networth_pa_new&quot;]
+            .iloc[0]
+            .round(3)
+        )
+        max_xs.append(max_x)
+
+        # find networth where abs distance between ecdfs is is @  max
+        y1 = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;white_share&quot;].iloc[0].round(3)
+        y0 = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;black_share&quot;].iloc[0].round(3)
+
+        dash_names = &quot;Max abs. distance between CDFs&quot;
+        dash_color = &quot;black&quot;
+        # dotted line between two curves
+        fig.add_trace(
+            go.Scatter(
+                x=[max_x, max_x],
+                y=[y0, y1],
+                mode=&quot;lines+text&quot;,
+                line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+                visible=False,
+                name=dash_names,
+                text=[&quot;D-statistic: &quot; + str(round(ks_stat, 3)) + &quot;     &quot;, None],
+                textfont=dict(size=16),
+                textposition=&quot;top left&quot;,
+                showlegend=False,
+            ),
+            row=1,
+            col=1,
+        )
+        # dotted line to peak on bottom chart
+        fig.add_trace(
+            go.Scatter(
+                x=[round(max_x, 3), round(max_x, 3)],
+                y=[0, round(y0 - y1, 3)],
+                mode=&quot;lines&quot;,
+                line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+                visible=False,
+                name=dash_names,
+                showlegend=False,
+            ),
+            row=2,
+            col=1,
+        )
+
+    # define number of plots in each step
+    n = 5
+    # Make first n traces visible
+    for i in range(0, n):
+        fig.data[i].visible = True
+
+    # Create and add slider
+    steps = []
+    for i in range(0, len(fig.data), n):
+        step = dict(
+            method=&quot;update&quot;,
+            args=[{&quot;visible&quot;: [False] * len(fig.data)},],  # layout attribute
+            label=(&quot;$&quot; + str(payments[i // n])),
+        )
+        for j in range(0, n):
+            step[&quot;args&quot;][0][&quot;visible&quot;][i + j] = True  # Toggle i'th trace to &quot;visible&quot;
+        steps.append(step)
+    sliders = [
+        dict(
+            active=0,
+            currentvalue={&quot;prefix&quot;: &quot;Monthly universal basic income payment: &quot;},
+            pad={&quot;t&quot;: 50},
+            steps=steps,
+        )
+    ]
+
+    fig.update_traces(xaxis=&quot;x1&quot;)
+
+    # update shapes
+    fig.update_shapes(dict(xref=&quot;x&quot;, yref=&quot;y&quot;))
+
+    # fig.update_yaxes(showspikes=True)
+    fig.update_layout(
+        sliders=sliders,
+        xaxis=dict(
+            visible=True,
+            type=&quot;log&quot;,
+            range=[2, 9],
+            autorange=False,
+            showspikes=True,  # Show spike line for X-axis
+            # Format spike
+            spikethickness=2,
+            spikedash=&quot;dot&quot;,
+            spikecolor=&quot;#999999&quot;,
+            spikemode=&quot;across&quot;,
+        ),
+        title=&quot;The Kolmogorov-Smirnov measure of the racial wealth gap&quot;,
+        xaxis_title=&quot;Wealth per adult (2019)&quot;,
+        hovermode=&quot;x&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+    )
+
+    fig.update_xaxes(
+        visible=True,
+        type=&quot;log&quot;,
+        row=2,
+        col=1,
+    )
+    fig.update_yaxes(
+        dict(
+            range=[0, 1],
+            autorange=False,
+            showspikes=False,  # Show spike line for y-axis
+            # Format spike
+            spikethickness=2,
+            spikedash=&quot;dot&quot;,
+            spikecolor=&quot;#999999&quot;,
+            spikemode=&quot;toaxis&quot;,
+        ),
+        row=2,
+        col=1,
+    )
+
+    return ubicenter.format_fig(fig, show = False)
+
+
+with warnings.catch_warnings():  # ignore &quot;FutureWarning&quot;
+    &quot;&quot;&quot;
+    Ignore numpy 'FutureWarning' :
+    &quot;Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result.&quot;
+    &quot;&quot;&quot;
+    warnings.filterwarnings(&quot;ignore&quot;, category=FutureWarning)
+    fig = ecdf_slider(cdfs)
+    fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f5() {
+  var x = document.getElementById(&quot;asset_code_5&quot;);
+  var b = document.getElementById(&quot;button5&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset5&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-5.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset5&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It is notable that while the KS D-statistics declines overall, it fluctuates until we get to $500 payments, at which point the D-statistic begins a steady decline to minimum of 0.300 under the $2,000 monthly benefit scenario.
+This is because the distances between the two curves are much larger around the center of the distributions than around the tails, thus the changes in the KS test are not picking up changes at lower incomes, where the curves were much closer together to begin with.&lt;/p&gt;
+
+&lt;p&gt;In our simulations, the wealth point at which the curves are furthest apart increases with the UBI amount.
+The wealth at which the gap is the biggest rises to just above $121,000, from $50,000 at baseline.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button6&quot; onclick=&quot;f6()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_6&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = make_subplots(
+    rows=2,
+    cols=1,
+    shared_xaxes=True,
+    x_title=&quot;Monthly universal basic income payment&quot;,
+    subplot_titles=[
+        &quot;Black vs White wealth KS statistic&quot;,
+        &quot;Wealth where Black and White cumulative distributions differ most&quot;,
+    ],
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.d_stat_cand.round(3),
+        mode=&quot;lines+markers&quot;,
+        name=&quot;KS statistic&quot;,
+        marker_color=BLUE,
+    ),
+    row=1,
+    col=1,
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.networth_pa_new,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Wealth at KS D-stat&quot;,
+        marker_color=LIGHT_BLUE,
+    ),
+    row=2,
+    col=1,
+)
+
+fig.update_layout(showlegend=False, hovermode=&quot;x&quot;, xaxis_tickprefix=&quot;$&quot;)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f6() {
+  var x = document.getElementById(&quot;asset_code_6&quot;);
+  var b = document.getElementById(&quot;button6&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset6&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-6.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset6&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Further, without UBI the median White family has $6.45 for every $1 held by the median Black family. Under a $1,000 monthly payment, this falls to $3.49 for every $1, and further down to $2.64 with a $2,000 monthly payment.&lt;/p&gt;
+
+&lt;p&gt;The median wealth for White families rises from $115,103 without a UBI to $119,425 under a $1,000 monthly payment, and rises to $127,505 with a $2,000 monthly payment.
+For Black families, a $1,000 UBI nearly doubles the median wealth, from $17,853 to $34,183, and a $2,000 monthly benefit grows it further to $48,310.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that the median wealth per adult&lt;sup id=&quot;fnref:peradult&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:peradult&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; rises among White families, it merely rises by less than that of Black families.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button7&quot; onclick=&quot;f7()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_7&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+hovertemplate = &quot;$%{y:.0f}&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_median_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_median_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = ubi_summary[[&quot;black_median_networth_pa&quot;, &quot;white_median_networth_pa&quot;]].max().max() * 1.1
+
+fig.update_layout(
+    title=&quot;How UBI affects median wealth by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Median wealth per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f7() {
+  var x = document.getElementById(&quot;asset_code_7&quot;);
+  var b = document.getElementById(&quot;button7&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset7&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-7.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset7&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Unlike the rising median wealth for White families under the same UBI, mean wealth for White families declines from $557,216 without any UBI to 555,135 under a $1,000 monthly payment, and falls further to $553,054 with a $2,000 monthly payment.
+For Black families, the mean wealth rises from $97,167 to $104,768 with a $1,000 benefit, and further to $112,369 with a $2,000 benefit.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button8&quot; onclick=&quot;f8()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_8&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+hovertemplate = &quot;$%{y:.0f}&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_mean_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_mean_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[[&quot;black_mean_networth_pa&quot;, &quot;white_mean_networth_pa&quot;]].max().max() * 1.1
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects mean wealth by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Mean wealth per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f8() {
+  var x = document.getElementById(&quot;asset_code_8&quot;);
+  var b = document.getElementById(&quot;button8&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset8&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-8.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset8&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, we look at the share of families that fall below $50,000 per adult, the point at which those two curves were further apart in our baseline scenario.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button9&quot; onclick=&quot;f9()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_9&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+hovertemplate = &quot;%{y:.0f}%&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary[&quot;ubi_mo&quot;],
+        y=ubi_summary[&quot;black_share_above_50k&quot;] * 100,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary[&quot;ubi_mo&quot;],
+        y=ubi_summary[&quot;white_share_above_50k&quot;] * 100,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[[&quot;white_share_above_50k&quot;, &quot;black_share_above_50k&quot;]].max().max()
+    * 100
+    * 1.1
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects the share of families with wealth above $50,000 by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Share of families with wealth above $50,000 per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f9() {
+  var x = document.getElementById(&quot;asset_code_9&quot;);
+  var b = document.getElementById(&quot;button9&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset9&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-9.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset9&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The share of Black families with a per adult networth of over $50,000 rises from 65.9 percent to 61.2 percent when we raise the monthly UBI to $1,000 monthly, and falls further to 51.7 percent when we raise the benefit to $2,000 monthly.&lt;/p&gt;
+
+&lt;p&gt;In the scenarios we explore, the outcomes for Black families improve in the share of families with wealth per adult below $50,000 declines, median family wealth increases.
+In the final plot below, you can explore the relative changes in all of the metrics we’ve chosen.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button10&quot; onclick=&quot;f10()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_10&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+
+def trace(col, chg_col, name, string, color):
+    &quot;&quot;&quot;
+    Args:
+        col: Column name.
+        chg_col: Column name of change.
+        name: Name of column for printing.
+        string: Formatting of customdata[1].
+        color: Line color.
+    &quot;&quot;&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=ubi_summary[&quot;ubi_mo&quot;],
+            y=ubi_summary[chg_col] * 100,
+            mode=&quot;lines+markers&quot;,
+            name=name,
+            marker_color=color,
+            marker=dict(size=5),
+            customdata=np.stack((ubi_summary.ubi_mo, ubi_summary[col]), axis=-1),
+            hovertemplate=name
+            + &quot;: &quot;
+            + string
+            + &quot;&lt;br /&gt;&quot;
+            + &quot;Percent change: %{y:.0f}%&lt;br /&gt;&quot;,
+        )
+    )
+
+
+trace(
+    &quot;white_mean_nw_as_pct_of_mean_black&quot;,
+    &quot;white_mean_nw_as_pct_of_mean_black_pc&quot;,
+    &quot;White/Black mean wealth&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    DARK_GRAY,
+)
+# median wealth
+trace(
+    &quot;white_median_nw_as_pct_of_median_black&quot;,
+    &quot;white_median_nw_as_pct_of_median_black_pc&quot;,
+    &quot;White/Black median wealth&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    GRAY,
+)
+trace(
+    &quot;d_stat_cand&quot;, &quot;d_stat_cand_pc&quot;, &quot;KS statistic&quot;, &quot;%{customdata[1]: .3f}&quot;, DARK_BLUE
+)
+trace(
+    &quot;white_share_above_50k_pct_of_black&quot;,
+    &quot;white_share_above_50k_pct_of_black_pc&quot;,
+    &quot;White/Black share of families over $50k&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    LIGHT_BLUE,
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects different measures of the racial wealth gap&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Percent change in measure over baseline (2019)&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f10() {
+  var x = document.getElementById(&quot;asset_code_10&quot;);
+  var b = document.getElementById(&quot;button10&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset10&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-10.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset10&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While these metrics aren’t truly comparable, we can see that the KS statistic is more stubborn than other measures, especially the gap in median wealth.
+Median Black wealth is so low that even modest redistribution can close that gap quickly, but larger gaps in the middle of the distribution will persist.&lt;/p&gt;
+
+&lt;p&gt;We will continue this line of research, especially longer-term dynamic analysis to reflect the accumulative nature of wealth.
+Our simplifying assumption that the entire tax and transfer system flows straight to wealth, rather than consumption, may exaggerate these trends given propensities to consume decrease with wealth. But recurring redistribution would likely have a significantly larger effect in closing the gap, even accounting for consumption.
+UBI isn’t the only policy that can reduce racial wealth disparities, but it certainly helps.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:head&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;White and Black families are families headed by a White and Black person, respectively. &lt;a href=&quot;#fnref:head&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:scf&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We used the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;’s &lt;a href=&quot;https://github.com/PSLmodels/scf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scf&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/PSLmodels/microdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;microdf&lt;/code&gt;&lt;/a&gt; Python packages for extracting and processing this data in &lt;a href=&quot;https://github.com/UBICenter/blog/blob/master/jb/20210228/data/gen_data.py&quot;&gt;this script&lt;/a&gt;. &lt;a href=&quot;#fnref:scf&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:peradult&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Family wealth conventionally adjusts for number of adults to avoid distorting statistics due to marriage patterns; for example, see &lt;a href=&quot;https://www.credit-suisse.com/about-us/en/reports-research/global-wealth-report.html&quot;&gt;Credit Suisse’s Global Net Worth Report&lt;/a&gt;. &lt;a href=&quot;#fnref:peradult&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;will&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="race" />
+      
+        <category term="wealth" />
+      
+
+      
+        <summary type="html">Going beyond mean and median.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How much UBI spending should go to children?</title>
+      <link href="/child-ubi-share" rel="alternate" type="text/html" title="How much UBI spending should go to children?" />
+      <published>2021-01-20T00:00:00+00:00</published>
+      <updated>2021-01-20T00:00:00+00:00</updated>
+      <id>/child-ubi-share</id>
+      <content type="html" xml:base="/child-ubi-share">&lt;p&gt;While the idea of a universal basic income has been around for centuries, it was recently brought into mainstream American political discourse by 2020 Presidential candidate Andrew Yang.
+Yang centered his campaign around paying every adult citizen $1,000 each month.
+Many other countries take the opposite approach, providing monthly &lt;a href=&quot;http://child-allowance.ubicenter.org&quot;&gt;“child allowance”&lt;/a&gt; payments for each child, an approach now favored by &lt;a href=&quot;https://www.vox.com/future-perfect/2019/3/6/18249290/child-poverty-american-family-act-sherrod-brown-michael-bennet&quot;&gt;many US lawmakers&lt;/a&gt;.
+Here we explore which mix of these two approaches reduces poverty and inequality most effectively.&lt;/p&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://blog.ubicenter.org/20200707/adult_child_ubi.html&quot;&gt;July 2020 post&lt;/a&gt;, we found that a child allowance would be more effective at reducing poverty than an adult UBI, for spending levels up to $500 billion, at which point a UBI for both children and adults becomes more effective; adult-only UBI was never the best option.
+But those three options—adults only, kids only, and equal for adults and kids—aren’t the only ones available.
+In this post, we calculate the optimal ratios of adult to child UBIs, depending on the total spending and objective.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+
+# Turn off display bar
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+july_post = pd.read_csv(&quot;https://github.com/ngpsu22/blog/raw/master/july_2020.csv&quot;)
+
+colors = {0: DARK_BLUE, 1: LIGHT_BLUE, 2: GRAY}
+
+fig = px.line(
+    july_post,
+    x=&quot;spending_in_billions&quot;,
+    y=&quot;poverty_rate&quot;,
+    color=&quot;ubi_type&quot;,
+    color_discrete_map={
+        &quot;Child allowance&quot;: DARK_BLUE,
+        &quot;Adult UBI&quot;: LIGHT_BLUE,
+        &quot;All UBI&quot;: GRAY,
+    },
+)
+fig.update_layout(
+    title=&quot;Overall poverty rate and spending on cash transfer programs&quot;,
+    xaxis_title=&quot;Spending in billions&quot;,
+    yaxis_title=&quot;SPM poverty rate&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    font=dict(family=&quot;Roboto&quot;),
+    hovermode=&quot;x&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    xaxis_ticksuffix=&quot;B&quot;,
+    plot_bgcolor=&quot;white&quot;,
+    legend_title_text=&quot;&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To start, we modeled how different UBI amounts (funded by a flat tax on taxable income) would impact the poverty rate if children were excluded, received half the UBI, or received the full benefit.
+Our model simulated up until $3 trillion in total UBI spending and found that including children further reduces poverty at every level.
+For example, at $1.5 trillion in spending, excluding children would give each adult about $500 a month and reduce the overall poverty rate from 11.7 percent to 4.5 percent.
+However, at the same amount of spending, including children in the full benefit would lower the poverty rate to 4 percent, lifting an additional 1.6 million people out of poverty.
+Poverty is generally similar between giving children a full-size UBI or half the adult amount.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+summary2 = pd.read_csv(
+    &quot;https://github.com/ngpsu22/blog/raw/master/child_share_ubi_summary.csv.gz&quot;,
+    compression=&quot;gzip&quot;,
+)
+# Turn off display bar
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+# Create figure
+fig = px.line()
+
+names = {
+    0: &quot;No UBI for children&quot;,
+    1: &quot;Half-sized UBI for children&quot;,
+    2: &quot;Full-sized UBI for children&quot;,
+}
+
+colors = {0: GRAY, 1: LIGHT_BLUE, 2: DARK_BLUE}
+
+percent_steps = [0, 50, 100]
+
+zero = summary2[summary2[&quot;child_percent_ubi&quot;] == 0]
+fifty = summary2[summary2[&quot;child_percent_ubi&quot;] == 50]
+hundred = summary2[summary2[&quot;child_percent_ubi&quot;] == 100]
+
+dfs = [zero, fifty, hundred]
+
+for i, df in enumerate(dfs):
+    # add trace for optimal poverty df
+    fig.add_trace(
+        go.Scatter(
+            x=df[&quot;funding_billions&quot;],
+            y=df[&quot;poverty_rate&quot;],
+            mode=&quot;markers+lines&quot;,
+            name=names[i],
+            # assign numpy array with child &amp;amp; adult ubi to customdata argument
+            customdata=np.stack(
+                (df[&quot;monthly_child_ubi&quot;], df[&quot;monthly_adult_ubi&quot;]), axis=-1
+            ),
+            # add customdata to hovertemplate
+            hovertemplate=(
+                &quot;&lt;i&gt;Poverty rate&lt;/i&gt;: %{y:.1f}%&lt;br /&gt;&quot;
+                + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+                + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            ),
+            line=dict(color=colors[i]),
+        )
+    )
+fig.update_layout(
+    title=&quot;Poverty by proportion of adult benefit paid to children&quot;,
+    xaxis_title=&quot;Funding in billions&quot;,
+    yaxis_title=&quot;SPM poverty rate&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    font=dict(family=&quot;Roboto&quot;),
+    hovermode=&quot;x&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    xaxis_ticksuffix=&quot;B&quot;,
+    plot_bgcolor=&quot;white&quot;,
+    height=600,
+    width=1000,
+    margin_b=90,  # add bottom margin for caption
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.7)
+)
+
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/logos/wide-blue.jpg&quot;,
+        xref=&quot;paper&quot;,
+        yref=&quot;paper&quot;,
+        x=1,
+        y=-0.15,
+        sizex=0.12,
+        sizey=0.12,
+        xanchor=&quot;right&quot;,
+        yanchor=&quot;bottom&quot;,
+    )
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Still, the results above only model three scenarios.
+In our next simulation, we examined the optimal share of spending that should go to children in order to minimize poverty or reduce inequality.
+For each spending level, we simulated 101 scenarios that range from 0 percent of the overall funding going to children to 100 percent.
+As a benchmark, we show a line at 22%, which corresponds to equal UBI levels for adults and children (since children comprise 22% of the US population).&lt;/p&gt;
+
+&lt;p&gt;The simplest case is inequality reduction, for which optimal policy would give vast majorities of funds to children.
+In fact, an annual child allowance should reach over $17,000 per child before any spending goes towards adults.
+Even at $3 trillion in new spending, over half of the money would go towards children, resulting in $1,743 a month for kids and $648 per adult.
+This is, to some degree, by construction, as our inequality metric considers per-capita resources; other inequality measures may produce different results.&lt;/p&gt;
+
+&lt;p&gt;If the goal is to minimize the poverty rate, the story is a bit more complicated.
+For spending levels below $1 trillion, children should receive more than adults; for spending levels above $2 trillion, children should receive less; for spending levels in between, it varies.
+Because many people have incomes just below or above their poverty threshold, the poverty rate responds to transfer policy in a volatile way.&lt;/p&gt;
+
+&lt;p&gt;Finally, we examined the effect of UBI design on the  poverty gap, the summation of the distance poor families are from their poverty threshold.
+The 2019 poverty gap is $153 billion.
+To optimize its reduction, adults should receive more than children at every level above $150 billion in new spending.
+With $2 trillion in funding, the poverty gap could be reduced to $45 billion by sending every adult $628 per month and parents $114 per month per child.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+summary = pd.read_csv(
+    &quot;https://github.com/ngpsu22/blog/raw/master/children_share_funding_summary%20(4).csv.gz&quot;,
+    compression=&quot;gzip&quot;,
+)
+
+optimal_poverty_gap = summary.sort_values(&quot;poverty_gap&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;first&quot;
+)
+# Drop rows where funding level is 0
+optimal_poverty_gap = optimal_poverty_gap.drop(
+    optimal_poverty_gap[optimal_poverty_gap.funding_billions == 0].index
+)
+
+optimal_poverty_rate = summary.sort_values(&quot;poverty_rate&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;first&quot;
+)
+# Drop rows where funding level is 0
+optimal_poverty_rate = optimal_poverty_rate.drop(
+    optimal_poverty_rate[optimal_poverty_rate.funding_billions == 0].index
+)
+
+optimal_inequality = summary.sort_values(&quot;gini&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;first&quot;
+)
+# Drop rows where funding level is 0
+optimal_inequality = optimal_inequality.drop(
+    optimal_inequality[optimal_inequality.funding_billions == 0].index
+)
+
+optimal_winners = summary.sort_values(&quot;percent_better_off&quot;).drop_duplicates(
+    &quot;funding_billions&quot;, keep=&quot;last&quot;
+)
+optimal_winners = optimal_winners.drop(
+    optimal_winners[optimal_winners.funding_billions == 0].index
+)
+
+# Define adult population size, as determined in data preprocessing
+adult_pop = 252117111.14000002
+# Define child population size
+child_pop = 73151070.56999998
+# Calculate total population
+pop = child_pop + adult_pop
+
+# Create figure
+fig = px.line()
+
+# Add inequality trace
+fig.add_trace(
+    go.Scatter(
+        x=optimal_inequality[&quot;funding_billions&quot;],
+        y=optimal_inequality[&quot;child_percent_funding&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Gini index&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_inequality[&quot;monthly_child_ubi&quot;],
+                optimal_inequality[&quot;monthly_adult_ubi&quot;],
+                optimal_inequality[&quot;gini&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;i&gt;Children's share of spending&lt;/i&gt;: %{y:.0f}%&lt;br /&gt;&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            &quot;&lt;br /&gt;&lt;b&gt;Gini index &lt;/b&gt;: %{customdata[2]: .3f}&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#499167&quot;),
+    )
+)
+
+# Add poverty gap trace
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_gap[&quot;funding_billions&quot;],
+        y=optimal_poverty_gap[&quot;child_percent_funding&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty gap&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_gap[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_gap[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_gap[&quot;poverty_gap&quot;] / 1e9,
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;i&gt;Children's share of spending&lt;/i&gt;: %{y:.0f}%&lt;br /&gt;&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            &quot;&lt;br /&gt;&lt;b&gt;Poverty gap &lt;/b&gt;: $%{customdata[2]: .0f} billion&lt;br /&gt;&quot;
+        ),
+        line=dict(color=DARK_BLUE),
+    )
+)
+
+# Add poverty gap trace
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_rate[&quot;funding_billions&quot;],
+        y=optimal_poverty_rate[&quot;child_percent_funding&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty rate&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_rate[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_rate[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_rate[&quot;poverty_rate&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;i&gt;Children's share of spending&lt;/i&gt;: %{y:.0f}%&lt;br /&gt;&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Adult UBI/mo &lt;/b&gt;: $%{customdata[1]: .0f}&lt;br /&gt;&quot;
+            &quot;&lt;br /&gt;&lt;b&gt;Poverty rate &lt;/b&gt;: %{customdata[2]: .0f}%&lt;br /&gt;&quot;
+        ),
+        line=dict(color=LIGHT_BLUE),
+    )
+)
+
+
+ratio = (child_pop / pop) * 100
+
+fig.add_shape(
+    type=&quot;line&quot;, line=dict(dash=&quot;dot&quot;, color=GRAY), x0=-1, x1=3000, y0=ratio, y1=ratio
+)
+
+# plot line where adult benefit is same size as child benefit
+fig.add_annotation(
+    text=&quot;Adult UBI = Child UBI&quot;,
+    xref=&quot;paper&quot;,
+    yref=&quot;paper&quot;,
+    x=0.98,
+    y=0.22,
+    showarrow=False,
+    font=dict(color=GRAY, size=12),
+)
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Funding in billions&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;B&quot;,
+    tickprefix=&quot;$&quot;,
+    range=[0, 3050],
+)
+
+fig.update_yaxes(
+    title_text=&quot;Children's share of UBI spending&quot;,
+    ticksuffix=&quot;%&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    range=[0, 105],
+)
+
+fig.update_layout(
+    title_text=&quot;Optimal share of UBI spending on children by optimization criterion&quot;,
+    hoverlabel_align=&quot;right&quot;,
+    margin_b=90,
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.7),
+    font=dict(family=&quot;Roboto&quot;),
+    plot_bgcolor=&quot;white&quot;,
+    height=600,
+    width=1000,
+    hovermode=&quot;x&quot;,
+)
+
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/logos/wide-blue.jpg&quot;,
+        xref=&quot;paper&quot;,
+        yref=&quot;paper&quot;,
+        x=1,
+        y=-0.15,
+        sizex=0.12,
+        sizey=0.12,
+        xanchor=&quot;right&quot;,
+        yanchor=&quot;bottom&quot;,
+    )
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;,)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The next chart shows the monthly amount given to children and adults under each optimization (you can hover over points in the prior chart to view this information as well).
+Because the poverty gap is less volatile to changes at the margin, the UBI amounts increases are nearly linear. At the highest level of spending in our model, $3 trillion, adults would receive $942 per month and children would receive $171 while optimizing for poverty gap reduction.
+Poverty rate amounts are more erratic, while inequality-minimizing amounts are roughly linear with a kink at the point where optimal adult amounts exceed $0.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+# Create UBI amount figure
+fig = px.line()
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_gap[&quot;funding_billions&quot;],
+        y=optimal_poverty_gap[&quot;monthly_child_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty gap - child&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_gap[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_gap[&quot;poverty_gap&quot;] / 1e9,
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty gap &lt;/b&gt;: $%{customdata[1]: .0f} billion&lt;br /&gt;&quot;
+        ),
+        line=dict(color=DARK_BLUE),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_gap[&quot;funding_billions&quot;],
+        y=optimal_poverty_gap[&quot;monthly_adult_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty gap - adult&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_gap[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_gap[&quot;poverty_gap&quot;] / 1e9,
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Adult UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty gap &lt;/b&gt;: %{customdata[1]: .0f} billion&quot;
+        ),
+        line=dict(color=LIGHT_BLUE),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_rate[&quot;funding_billions&quot;],
+        y=optimal_poverty_rate[&quot;monthly_child_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty rate - child&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_rate[&quot;monthly_child_ubi&quot;],
+                optimal_poverty_rate[&quot;poverty_rate&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty rate &lt;/b&gt;: %{customdata[1]: .0f}%&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#484848&quot;),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_poverty_rate[&quot;funding_billions&quot;],
+        y=optimal_poverty_rate[&quot;monthly_adult_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Poverty rate - adult&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (
+                optimal_poverty_rate[&quot;monthly_adult_ubi&quot;],
+                optimal_poverty_rate[&quot;poverty_rate&quot;],
+            ),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Adult UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Poverty rate &lt;/b&gt;: %{customdata[1]: .0f}%&quot;
+        ),
+        line=dict(color=GRAY),
+    )
+)
+
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_inequality[&quot;funding_billions&quot;],
+        y=optimal_inequality[&quot;monthly_child_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Inequality - child&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (optimal_inequality[&quot;monthly_child_ubi&quot;], optimal_inequality[&quot;gini&quot;]),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Child UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Gini &lt;/b&gt;: %{customdata[1]: .3f}&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#499167&quot;),
+    )
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=optimal_inequality[&quot;funding_billions&quot;],
+        y=optimal_inequality[&quot;monthly_adult_ubi&quot;],
+        mode=&quot;markers+lines&quot;,
+        name=&quot;Inequality - adult&quot;,
+        # assign numpy array with child &amp;amp; adult ubi to customdata argument
+        customdata=np.stack(
+            (optimal_inequality[&quot;monthly_adult_ubi&quot;], optimal_inequality[&quot;gini&quot;]),
+            axis=-1,
+        ),
+        # add customdata to hovertemplate
+        hovertemplate=(
+            &quot;&lt;b&gt;Adult UBI/mo&lt;/b&gt;: $%{customdata[0]: .0f}&quot;
+            + &quot;&lt;br /&gt;&lt;b&gt;Gini &lt;/b&gt;: %{customdata[1]: .3f}&lt;br /&gt;&quot;
+        ),
+        line=dict(color=&quot;#5FDD9D&quot;),
+    )
+)
+
+fig.update_xaxes(
+    tickangle=0,
+    title_text=&quot;Funding in billions&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+    ticksuffix=&quot;B&quot;,
+    tickprefix=&quot;$&quot;,
+    range=[0, 3050],
+)
+
+fig.update_yaxes(
+    title_text=&quot;Monthly UBI amount&quot;,
+    tickprefix=&quot;$&quot;,
+    tickfont={&quot;size&quot;: 14},
+    title_standoff=25,
+)
+
+fig.update_xaxes(title_font=dict(size=14, color=&quot;black&quot;))
+fig.update_yaxes(title_font=dict(size=14, color=&quot;black&quot;))
+fig.update_layout(
+    title_text=&quot;UBI amounts for each optimization&quot;,
+    hoverlabel_align=&quot;right&quot;,
+    margin_b=90,
+    legend=dict(yanchor=&quot;top&quot;, y=1, xanchor=&quot;left&quot;, x=1.03),
+    font=dict(family=&quot;Roboto&quot;),
+    plot_bgcolor=&quot;white&quot;,
+    height=600,
+    width=1000,
+    hovermode=&quot;x&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;)
+
+hide_line = [
+    &quot;Poverty rate - child&quot;,
+    &quot;Poverty rate - adult&quot;,
+    &quot;Inequality - child&quot;,
+    &quot;Inequality - adult&quot;,
+]
+fig.for_each_trace(
+    lambda trace: trace.update(visible=&quot;legendonly&quot;) if trace.name in hide_line else ()
+)
+
+fig.add_layout_image(
+    dict(
+        source=&quot;https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg&quot;,
+        # See https://github.com/plotly/plotly.py/issues/2975.
+        # source=&quot;../_static/logos/wide-blue.jpg&quot;,
+        xref=&quot;paper&quot;,
+        yref=&quot;paper&quot;,
+        x=1,
+        y=-0.15,
+        sizex=0.12,
+        sizey=0.12,
+        xanchor=&quot;right&quot;,
+        yanchor=&quot;bottom&quot;,
+    )
+)
+
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/child-ubi-share/2021-01-20-child-ubi-share-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Our research shows that different policy objectives and funding levels may lead to starkly different amounts of cash transfer funding going towards children.
+Each optimization, however, called for children to receive a nonzero share of UBI spending, and often a larger monthly amount than adults, especially with small budgets and when minimizing inequality.
+These results underline the importance of including children in UBI conversations and policy analysis.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;will&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+
+      
+        <summary type="html">At least some, but it depends on the measurement.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

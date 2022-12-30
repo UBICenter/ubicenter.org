@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/tag/wealth/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/tag/wealth/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">The effect of universal basic income on a novel measure of the racial wealth gap</title>
+      <link href="/racial-wealth-gap-ks" rel="alternate" type="text/html" title="The effect of universal basic income on a novel measure of the racial wealth gap" />
+      <published>2021-02-28T00:00:00+00:00</published>
+      <updated>2021-02-28T00:00:00+00:00</updated>
+      <id>/racial-wealth-gap-ks</id>
+      <content type="html" xml:base="/racial-wealth-gap-ks">&lt;p&gt;The large racial wealth gap traces its roots to slavery, redlining, and other discriminatory policies, and persists largely due to &lt;a href=&quot;https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap&quot;&gt;racial income gaps&lt;/a&gt;.
+In honor of Black History month, we explore how closing part of this income gap with a universal basic income would affect the racial wealth gap, using novel measurements that consider how Black and White families differ across the full wealth distribution.&lt;/p&gt;
+
+&lt;p&gt;The two most common measures of the racial wealth gap simply compare mean and median wealth between White and Black families.&lt;sup id=&quot;fnref:head&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:head&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Based on the 2019 Survey of Consumer Finances&lt;sup id=&quot;fnref:scf&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:scf&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, White families have mean wealth 5.7 times that of Black families, and median wealth 6.4 times that of Black families.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import warnings
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.io as pio
+import ubicenter
+from plotly.subplots import make_subplots
+
+cdfs = pd.read_csv(&quot;data/cdfs.csv&quot;)
+ubi_summary = pd.read_csv(&quot;data/ubi_summary.csv&quot;)
+nw_quant = pd.read_csv(&quot;data/deciles.csv&quot;)
+
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+DARK_GRAY = &quot;#616161&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+colors = [BLUE, DARK_BLUE, LIGHT_BLUE, GRAY, BARELY_BLUE]
+
+bl = ubi_summary.iloc[0].round(-2)
+params = pd.DataFrame(
+    {
+        &quot;Mean&quot;: {
+            &quot;White&quot;: bl.white_mean_networth_pa,
+            &quot;Black&quot;: bl.black_mean_networth_pa,
+        },
+        &quot;Median&quot;: {
+            &quot;White&quot;: bl.white_median_networth_pa,
+            &quot;Black&quot;: bl.black_median_networth_pa,
+        },
+    }
+)
+
+fig = go.Figure(
+    data=[
+        go.Bar(name=&quot;White&quot;, x=params.T.index, y=params.T[&quot;White&quot;], marker_color=GRAY),
+        go.Bar(name=&quot;Black&quot;, x=params.T.index, y=params.T[&quot;Black&quot;], marker_color=BLUE),
+    ]
+)
+
+fig.update_layout(
+    title=&quot;Traditional measures of the racial wealth gap&quot;,
+    hovermode=&quot;x&quot;,
+    xaxis_title=&quot;&quot;,
+    yaxis_title=&quot;Wealth per adult (2019)&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.75),
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;As Matt Bruenig pointed out in his &lt;a href=&quot;https://www.peoplespolicyproject.org/2020/06/29/the-racial-wealth-gap-is-about-the-upper-classes/&quot;&gt;June 2020 piece&lt;/a&gt;, the mean wealth gap is largely shaped by overall wealth inequality, with over 70 percent of both Black and White families’ wealth held by the top decile.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+hovertemplate = &quot;%{x:.1f}%&quot;
+
+fig = px.bar(
+    nw_quant[nw_quant.variable.isin([&quot;White&quot;, &quot;Black&quot;])],
+    y=&quot;percentile&quot;,
+    x=&quot;value&quot;,
+    color=&quot;variable&quot;,
+    labels={
+        &quot;percentile&quot;: &quot;Percent receiving benefit&quot;,
+        &quot;value&quot;: &quot;Share of within-group wealth&quot;,
+    },
+    orientation=&quot;h&quot;,
+    barmode=&quot;group&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: BLUE},
+)
+
+fig.update_traces(hovertemplate=&quot;Share of Wealth: &quot; + hovertemplate)
+
+# apply formatting
+fig.update_layout(
+    title=&quot;Within-race wealth inequality&quot;,
+    hovermode=&quot;y&quot;,
+    xaxis_title=&quot;Share of total within-group wealth held by decile&quot;,
+    yaxis_title=&quot;Decile of wealth per adult (2019)&quot;,
+    xaxis_ticksuffix=&quot;%&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_dtick=1,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While the median tells us where the middle of the distributions lay, it can obscure what is going on throughout the rest of the distribution.
+To visualize a variable’s distribution in full, we can turn to the cumulative distribution function (CDF), which shows the population share with less than a specified value.&lt;/p&gt;
+
+&lt;p&gt;The following graph shows how to interpret a CDF graph of of wealth per adult for all families in the U.S. (Note that while we have logarithmically transformed the x-axis, the y-axis remains linear.)&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+all_hh = cdfs.loc[cdfs.ubi_mo == 0].copy(deep=True)
+
+# select 5000k
+med = all_hh.loc[all_hh[&quot;networth_pa_new&quot;] == 50000, :].copy(deep=True)
+med[&quot;x&quot;] = np.log10(med.networth_pa_new)
+med[&quot;y&quot;] = med.loc[:, &quot;total_share&quot;]
+
+# plot curve
+fig = px.line(x=all_hh.networth_pa_new, y=all_hh.total_share.round(3))
+# change line coloar
+fig[&quot;data&quot;][0][&quot;line&quot;][&quot;color&quot;] = BLUE
+
+# add explanation for arrow pointing to y-axis
+fig.add_annotation(
+    x=2,
+    y=med.y.values[0],
+    text=&quot;Look at y-axis to see share of families &lt;br /&gt; whose wealth is below the x-value&quot;,
+    showarrow=True,
+    arrowhead=0,
+    ay=-50,
+    ax=150,
+    font=dict(size=16),
+)
+
+# add dotted line pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],
+    y=0,
+    text=&quot;For a given wealth on the x-axis&quot;,
+    showarrow=True,
+    arrowhead=0,
+    # yshift=-60,
+    # xshift=-130,
+    ax=160,
+    ay=-50,
+    font=dict(size=16),
+)
+
+# add red arrow pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=0,  # arrows' tail
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+    axref=&quot;x&quot;,
+    ayref=&quot;y&quot;,
+    text=&quot;&quot;,  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+# add arrow pointing from point to y-axis
+fig.add_annotation(
+    x=2,  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=med.y.values[0],  # arrows' tail
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+    axref=&quot;x&quot;,
+    ayref=&quot;y&quot;,
+    text=&quot;&quot;,  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+fig.update_layout(
+    showlegend=False,
+    title=&quot;Cumulative wealth distribution&quot;,
+    xaxis_title=&quot;Wealth per adult (2019)&quot;,
+    yaxis_title=&quot;Share of families with less than value in wealth&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    hovermode=&quot;x&quot;,
+)
+
+fig.update_xaxes(
+    dict(
+        range=[2, 9],
+        autorange=False,
+        showspikes=False,  # Show spike line for x-axis
+        # Format spike
+        spikethickness=1,
+        spikedash=&quot;dot&quot;,
+        spikecolor=&quot;grey&quot;,
+        spikemode=&quot;toaxis&quot;,
+    ),
+    type=&quot;log&quot;,
+)
+fig.update_yaxes(
+    dict(
+        range=[0, 1.01],
+        showspikes=True,
+        spikethickness=1,
+        spikedash=&quot;dot&quot;,
+        spikecolor=&quot;grey&quot;,
+        spikemode=&quot;toaxis&quot;,
+    )
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, how can we compare the distributions of wealth between Black and White families?
+The two-sample Kolmogorov-Smirnov (KS) statistical test offers a way to test the difference between two distributions.
+The KS statistic, or D-statistic (for “distance”), is the maximum absolute vertical distance between two CDFs.&lt;/p&gt;
+
+&lt;p&gt;One advantage to this statistical method is that it is quite simple to explain visually.
+The below chart plots the CDF for White and Black families.
+The dotted line drawn between the two curves shows where the vertical distance between them is at its greatest.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+with warnings.catch_warnings():  # ignore &quot;FutureWarning&quot;
+    &quot;&quot;&quot;
+    Ignore numpy 'FutureWarning' :
+    &quot;Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result.&quot;
+    &quot;&quot;&quot;
+    warnings.filterwarnings(&quot;ignore&quot;, category=FutureWarning)
+
+    # Create traces
+    fig = go.Figure()
+
+    # create df for baseline
+    cdfs_bl = cdfs[cdfs.ubi_mo == 0]
+    # plot ECDFs
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.white_share.round(3),
+            name=&quot;White&quot;,
+            marker_color=GRAY,
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.black_share.round(3),
+            name=&quot;Black&quot;,
+            marker_color=BLUE,
+        )
+    )
+
+    # define ks_stat
+    ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;d_stat_cand&quot;].max()
+
+    # find networth where the d-statistic is found
+    max_x = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;networth_pa_new&quot;].max()
+
+    # find networth where abs distance between ecdfs is is @  max
+    y1 = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;white_share&quot;].max()
+    y0 = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;black_share&quot;].max()
+
+    # # add a dashed line showing where max abs distance between ECDFs is
+
+    dash_names = &quot;Max abs. distance between CDFs&quot;
+    dash_color = &quot;black&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=[max_x, max_x],
+            y=[y0, y1],
+            mode=&quot;lines+text&quot;,
+            line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+            visible=True,
+            name=dash_names,
+            text=[&quot;D-statistic: &quot; + str(round(ks_stat, 3)) + &quot;        &quot;, None],
+            textfont=dict(size=16),
+            textposition=&quot;top left&quot;,
+            showlegend=False,
+        )
+    )
+
+    fig.add_annotation(
+        x=np.log10(max_x),
+        y=(y1 + y0) / 2,
+        text=&quot;The Kolmogorov-Smirnov D-statistic &lt;br /&gt;&quot;
+        + &quot;is the maximum absolute vertical &lt;br /&gt;&quot;
+        + &quot;distance between the two curves&quot;,
+        showarrow=True,
+        arrowhead=3,
+        yshift=1,
+        ax=200,
+        bordercolor=&quot;#c7c7c7&quot;,
+        borderwidth=2,
+        borderpad=4,
+        bgcolor=&quot;dark blue&quot;,
+        opacity=1,
+        font=dict(size=16),
+    )
+
+    fig.update_layout(
+        title=&quot;Cumulative distribution function (CDF) of wealth by race&quot;,
+        xaxis_title=&quot;Wealth per adult (2019)&quot;,
+        yaxis_title=&quot;Share of families with less than value in wealth&quot;,
+        yaxis_ticksuffix=&quot;&quot;,
+        yaxis_tickprefix=&quot;&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+        legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+    )
+
+    fig.update_xaxes(type=&quot;log&quot;)
+    fig = ubicenter.format_fig(fig, show = False)
+    fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This shows us that approximately 65.9% of Black families have a wealth of less than $50,000 per adult, whereas only 33.3% of White families fall below that line.
+As we will see, the threshold can be at any point along these curves; the KS statistic is the value measuring the size of the gap where the gap is the largest, at 0.326 (the actual wealth value corresponding to the D-statistic was $50,888).&lt;/p&gt;
+
+&lt;p&gt;In the following model, we simulate how saving a total of one year’s UBI payments could change the racial wealth gap. We apply a flat tax on all income to fund the UBI program, and subtract each family’s new tax payment from their wealth.&lt;/p&gt;
+
+&lt;p&gt;In the bottom graph, you can see the vertical distance between the two curves at each point along the x-axis from $0 to $2,000 per month.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button5&quot; onclick=&quot;f5()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_5&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def ecdf_slider(data):
+    # Create traces
+    fig = go.Figure()
+
+    # create empty list for payment size for sliders
+    payments = []
+    ks_stats = []
+    max_xs = []
+
+    # create 2 subplots
+    fig = make_subplots(
+        rows=2,
+        cols=1,
+        shared_xaxes=False,
+        # Apply x axis title elsewhere so it doesn't interfere with slider.
+        y_title=&quot;Share of families with less than value in wealth&quot;,
+    )
+
+    for i, step in enumerate(data.ubi_mo.unique()):
+        # append payment to list
+        payments.append(step)
+        step_data = data[data.ubi_mo == step]
+        # add trace 0
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.white_share.round(3),
+                name=&quot;White&quot;,
+                visible=False,
+                marker_color=GRAY,
+            ),
+            row=1,
+            col=1,
+        )
+        # add trace 1
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.black_share.round(3),
+                name=&quot;Black&quot;,
+                visible=False,
+                marker_color=BLUE,
+            ),
+            row=1,
+            col=1,
+        )
+        # append ks-statistics to list
+        ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;d_stat_cand&quot;].values[0]
+        ks_stats.append(ks_stat)
+
+        # add plot to candidate
+        # add trace 2, the d-statistic candidates
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.d_stat_cand.round(3),
+                mode=&quot;lines&quot;,
+                visible=False,
+                name=&quot;Absolute distance between CDFs&quot;,
+                marker_color=LIGHT_BLUE,
+            ),
+            row=2,
+            col=1,
+        )
+
+        # find networth where the d-statistic
+        max_x = (
+            ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;networth_pa_new&quot;]
+            .iloc[0]
+            .round(3)
+        )
+        max_xs.append(max_x)
+
+        # find networth where abs distance between ecdfs is is @  max
+        y1 = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;white_share&quot;].iloc[0].round(3)
+        y0 = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;black_share&quot;].iloc[0].round(3)
+
+        dash_names = &quot;Max abs. distance between CDFs&quot;
+        dash_color = &quot;black&quot;
+        # dotted line between two curves
+        fig.add_trace(
+            go.Scatter(
+                x=[max_x, max_x],
+                y=[y0, y1],
+                mode=&quot;lines+text&quot;,
+                line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+                visible=False,
+                name=dash_names,
+                text=[&quot;D-statistic: &quot; + str(round(ks_stat, 3)) + &quot;     &quot;, None],
+                textfont=dict(size=16),
+                textposition=&quot;top left&quot;,
+                showlegend=False,
+            ),
+            row=1,
+            col=1,
+        )
+        # dotted line to peak on bottom chart
+        fig.add_trace(
+            go.Scatter(
+                x=[round(max_x, 3), round(max_x, 3)],
+                y=[0, round(y0 - y1, 3)],
+                mode=&quot;lines&quot;,
+                line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+                visible=False,
+                name=dash_names,
+                showlegend=False,
+            ),
+            row=2,
+            col=1,
+        )
+
+    # define number of plots in each step
+    n = 5
+    # Make first n traces visible
+    for i in range(0, n):
+        fig.data[i].visible = True
+
+    # Create and add slider
+    steps = []
+    for i in range(0, len(fig.data), n):
+        step = dict(
+            method=&quot;update&quot;,
+            args=[{&quot;visible&quot;: [False] * len(fig.data)},],  # layout attribute
+            label=(&quot;$&quot; + str(payments[i // n])),
+        )
+        for j in range(0, n):
+            step[&quot;args&quot;][0][&quot;visible&quot;][i + j] = True  # Toggle i'th trace to &quot;visible&quot;
+        steps.append(step)
+    sliders = [
+        dict(
+            active=0,
+            currentvalue={&quot;prefix&quot;: &quot;Monthly universal basic income payment: &quot;},
+            pad={&quot;t&quot;: 50},
+            steps=steps,
+        )
+    ]
+
+    fig.update_traces(xaxis=&quot;x1&quot;)
+
+    # update shapes
+    fig.update_shapes(dict(xref=&quot;x&quot;, yref=&quot;y&quot;))
+
+    # fig.update_yaxes(showspikes=True)
+    fig.update_layout(
+        sliders=sliders,
+        xaxis=dict(
+            visible=True,
+            type=&quot;log&quot;,
+            range=[2, 9],
+            autorange=False,
+            showspikes=True,  # Show spike line for X-axis
+            # Format spike
+            spikethickness=2,
+            spikedash=&quot;dot&quot;,
+            spikecolor=&quot;#999999&quot;,
+            spikemode=&quot;across&quot;,
+        ),
+        title=&quot;The Kolmogorov-Smirnov measure of the racial wealth gap&quot;,
+        xaxis_title=&quot;Wealth per adult (2019)&quot;,
+        hovermode=&quot;x&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+    )
+
+    fig.update_xaxes(
+        visible=True,
+        type=&quot;log&quot;,
+        row=2,
+        col=1,
+    )
+    fig.update_yaxes(
+        dict(
+            range=[0, 1],
+            autorange=False,
+            showspikes=False,  # Show spike line for y-axis
+            # Format spike
+            spikethickness=2,
+            spikedash=&quot;dot&quot;,
+            spikecolor=&quot;#999999&quot;,
+            spikemode=&quot;toaxis&quot;,
+        ),
+        row=2,
+        col=1,
+    )
+
+    return ubicenter.format_fig(fig, show = False)
+
+
+with warnings.catch_warnings():  # ignore &quot;FutureWarning&quot;
+    &quot;&quot;&quot;
+    Ignore numpy 'FutureWarning' :
+    &quot;Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result.&quot;
+    &quot;&quot;&quot;
+    warnings.filterwarnings(&quot;ignore&quot;, category=FutureWarning)
+    fig = ecdf_slider(cdfs)
+    fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f5() {
+  var x = document.getElementById(&quot;asset_code_5&quot;);
+  var b = document.getElementById(&quot;button5&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset5&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-5.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset5&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It is notable that while the KS D-statistics declines overall, it fluctuates until we get to $500 payments, at which point the D-statistic begins a steady decline to minimum of 0.300 under the $2,000 monthly benefit scenario.
+This is because the distances between the two curves are much larger around the center of the distributions than around the tails, thus the changes in the KS test are not picking up changes at lower incomes, where the curves were much closer together to begin with.&lt;/p&gt;
+
+&lt;p&gt;In our simulations, the wealth point at which the curves are furthest apart increases with the UBI amount.
+The wealth at which the gap is the biggest rises to just above $121,000, from $50,000 at baseline.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button6&quot; onclick=&quot;f6()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_6&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = make_subplots(
+    rows=2,
+    cols=1,
+    shared_xaxes=True,
+    x_title=&quot;Monthly universal basic income payment&quot;,
+    subplot_titles=[
+        &quot;Black vs White wealth KS statistic&quot;,
+        &quot;Wealth where Black and White cumulative distributions differ most&quot;,
+    ],
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.d_stat_cand.round(3),
+        mode=&quot;lines+markers&quot;,
+        name=&quot;KS statistic&quot;,
+        marker_color=BLUE,
+    ),
+    row=1,
+    col=1,
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.networth_pa_new,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Wealth at KS D-stat&quot;,
+        marker_color=LIGHT_BLUE,
+    ),
+    row=2,
+    col=1,
+)
+
+fig.update_layout(showlegend=False, hovermode=&quot;x&quot;, xaxis_tickprefix=&quot;$&quot;)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f6() {
+  var x = document.getElementById(&quot;asset_code_6&quot;);
+  var b = document.getElementById(&quot;button6&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset6&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-6.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset6&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Further, without UBI the median White family has $6.45 for every $1 held by the median Black family. Under a $1,000 monthly payment, this falls to $3.49 for every $1, and further down to $2.64 with a $2,000 monthly payment.&lt;/p&gt;
+
+&lt;p&gt;The median wealth for White families rises from $115,103 without a UBI to $119,425 under a $1,000 monthly payment, and rises to $127,505 with a $2,000 monthly payment.
+For Black families, a $1,000 UBI nearly doubles the median wealth, from $17,853 to $34,183, and a $2,000 monthly benefit grows it further to $48,310.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that the median wealth per adult&lt;sup id=&quot;fnref:peradult&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:peradult&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; rises among White families, it merely rises by less than that of Black families.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button7&quot; onclick=&quot;f7()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_7&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+hovertemplate = &quot;$%{y:.0f}&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_median_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_median_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = ubi_summary[[&quot;black_median_networth_pa&quot;, &quot;white_median_networth_pa&quot;]].max().max() * 1.1
+
+fig.update_layout(
+    title=&quot;How UBI affects median wealth by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Median wealth per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f7() {
+  var x = document.getElementById(&quot;asset_code_7&quot;);
+  var b = document.getElementById(&quot;button7&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset7&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-7.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset7&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Unlike the rising median wealth for White families under the same UBI, mean wealth for White families declines from $557,216 without any UBI to 555,135 under a $1,000 monthly payment, and falls further to $553,054 with a $2,000 monthly payment.
+For Black families, the mean wealth rises from $97,167 to $104,768 with a $1,000 benefit, and further to $112,369 with a $2,000 benefit.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button8&quot; onclick=&quot;f8()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_8&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+hovertemplate = &quot;$%{y:.0f}&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_mean_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_mean_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[[&quot;black_mean_networth_pa&quot;, &quot;white_mean_networth_pa&quot;]].max().max() * 1.1
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects mean wealth by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Mean wealth per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f8() {
+  var x = document.getElementById(&quot;asset_code_8&quot;);
+  var b = document.getElementById(&quot;button8&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset8&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-8.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset8&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, we look at the share of families that fall below $50,000 per adult, the point at which those two curves were further apart in our baseline scenario.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button9&quot; onclick=&quot;f9()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_9&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+hovertemplate = &quot;%{y:.0f}%&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary[&quot;ubi_mo&quot;],
+        y=ubi_summary[&quot;black_share_above_50k&quot;] * 100,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary[&quot;ubi_mo&quot;],
+        y=ubi_summary[&quot;white_share_above_50k&quot;] * 100,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[[&quot;white_share_above_50k&quot;, &quot;black_share_above_50k&quot;]].max().max()
+    * 100
+    * 1.1
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects the share of families with wealth above $50,000 by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Share of families with wealth above $50,000 per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f9() {
+  var x = document.getElementById(&quot;asset_code_9&quot;);
+  var b = document.getElementById(&quot;button9&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset9&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-9.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset9&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The share of Black families with a per adult networth of over $50,000 rises from 65.9 percent to 61.2 percent when we raise the monthly UBI to $1,000 monthly, and falls further to 51.7 percent when we raise the benefit to $2,000 monthly.&lt;/p&gt;
+
+&lt;p&gt;In the scenarios we explore, the outcomes for Black families improve in the share of families with wealth per adult below $50,000 declines, median family wealth increases.
+In the final plot below, you can explore the relative changes in all of the metrics we’ve chosen.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button10&quot; onclick=&quot;f10()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_10&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+
+def trace(col, chg_col, name, string, color):
+    &quot;&quot;&quot;
+    Args:
+        col: Column name.
+        chg_col: Column name of change.
+        name: Name of column for printing.
+        string: Formatting of customdata[1].
+        color: Line color.
+    &quot;&quot;&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=ubi_summary[&quot;ubi_mo&quot;],
+            y=ubi_summary[chg_col] * 100,
+            mode=&quot;lines+markers&quot;,
+            name=name,
+            marker_color=color,
+            marker=dict(size=5),
+            customdata=np.stack((ubi_summary.ubi_mo, ubi_summary[col]), axis=-1),
+            hovertemplate=name
+            + &quot;: &quot;
+            + string
+            + &quot;&lt;br /&gt;&quot;
+            + &quot;Percent change: %{y:.0f}%&lt;br /&gt;&quot;,
+        )
+    )
+
+
+trace(
+    &quot;white_mean_nw_as_pct_of_mean_black&quot;,
+    &quot;white_mean_nw_as_pct_of_mean_black_pc&quot;,
+    &quot;White/Black mean wealth&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    DARK_GRAY,
+)
+# median wealth
+trace(
+    &quot;white_median_nw_as_pct_of_median_black&quot;,
+    &quot;white_median_nw_as_pct_of_median_black_pc&quot;,
+    &quot;White/Black median wealth&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    GRAY,
+)
+trace(
+    &quot;d_stat_cand&quot;, &quot;d_stat_cand_pc&quot;, &quot;KS statistic&quot;, &quot;%{customdata[1]: .3f}&quot;, DARK_BLUE
+)
+trace(
+    &quot;white_share_above_50k_pct_of_black&quot;,
+    &quot;white_share_above_50k_pct_of_black_pc&quot;,
+    &quot;White/Black share of families over $50k&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    LIGHT_BLUE,
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects different measures of the racial wealth gap&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Percent change in measure over baseline (2019)&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f10() {
+  var x = document.getElementById(&quot;asset_code_10&quot;);
+  var b = document.getElementById(&quot;button10&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset10&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-10.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset10&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While these metrics aren’t truly comparable, we can see that the KS statistic is more stubborn than other measures, especially the gap in median wealth.
+Median Black wealth is so low that even modest redistribution can close that gap quickly, but larger gaps in the middle of the distribution will persist.&lt;/p&gt;
+
+&lt;p&gt;We will continue this line of research, especially longer-term dynamic analysis to reflect the accumulative nature of wealth.
+Our simplifying assumption that the entire tax and transfer system flows straight to wealth, rather than consumption, may exaggerate these trends given propensities to consume decrease with wealth. But recurring redistribution would likely have a significantly larger effect in closing the gap, even accounting for consumption.
+UBI isn’t the only policy that can reduce racial wealth disparities, but it certainly helps.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:head&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;White and Black families are families headed by a White and Black person, respectively. &lt;a href=&quot;#fnref:head&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:scf&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We used the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;’s &lt;a href=&quot;https://github.com/PSLmodels/scf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scf&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/PSLmodels/microdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;microdf&lt;/code&gt;&lt;/a&gt; Python packages for extracting and processing this data in &lt;a href=&quot;https://github.com/UBICenter/blog/blob/master/jb/20210228/data/gen_data.py&quot;&gt;this script&lt;/a&gt;. &lt;a href=&quot;#fnref:scf&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:peradult&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Family wealth conventionally adjusts for number of adults to avoid distorting statistics due to marriage patterns; for example, see &lt;a href=&quot;https://www.credit-suisse.com/about-us/en/reports-research/global-wealth-report.html&quot;&gt;Credit Suisse’s Global Net Worth Report&lt;/a&gt;. &lt;a href=&quot;#fnref:peradult&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;will&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="race" />
+      
+        <category term="wealth" />
+      
+
+      
+        <summary type="html">Going beyond mean and median.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How universal basic income would affect the black-white poverty and wealth gaps</title>
+      <link href="/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps" rel="alternate" type="text/html" title="How universal basic income would affect the black-white poverty and wealth gaps" />
+      <published>2020-06-20T01:02:31+00:00</published>
+      <updated>2020-06-20T01:02:31+00:00</updated>
+      <id>/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps</id>
+      <content type="html" xml:base="/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps">&lt;p&gt;Today, one in five black Americans lives in poverty, nearly double the rate of white Americans. Meanwhile, the average net worth of white families is more than five times that of black families, and the median is more than seven times higher.&lt;/p&gt;
+
+&lt;p&gt;These gaps are the product of slavery, Jim Crow laws, housing laws denying black Americans federal mortgage subsidies, and many more injustices. Like &lt;a href=&quot;https://www.cnn.com/2020/02/15/us/racist-deeds-covenants/index.html&quot;&gt;whites-only covenants&lt;/a&gt; in housing deeds across America, we have yet to erase the economic legacies of our racist history.&lt;/p&gt;
+
+&lt;p&gt;A number of economic policies have been proposed to reduce these gaps, from &lt;a href=&quot;https://static1.squarespace.com/static/5743308460b5e922a25a6dc7/t/5c4339f67ba7fc4a9add58f9/1547909624486/Zewde-Baby-Bonds-WP-10-30-18.pdf&quot;&gt;“baby bonds”&lt;/a&gt; to &lt;a href=&quot;https://www.cbpp.org/research/federal-tax/working-families-tax-relief-act-would-raise-incomes-of-46-million-households&quot;&gt;expansions of refundable tax credits&lt;/a&gt; to &lt;a href=&quot;https://www.brookings.edu/blog/up-front/2020/06/15/black-reparations-and-the-racial-wealth-gap/&quot;&gt;reparations&lt;/a&gt;. How would universal basic income fare?&lt;/p&gt;
+
+&lt;p&gt;To answer this question, I went to the Census Bureau’s 2018 &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;Supplemental Poverty Measure&lt;/a&gt; (SPM; see this &lt;a href=&quot;https://www.vox.com/2015/9/16/9337041/supplemental-poverty-measure&quot;&gt;Vox explainer&lt;/a&gt; on SPM’s improvements over the Official Poverty Measure) and the Federal Reserve’s 2016 &lt;a href=&quot;https://www.federalreserve.gov/econres/scfindex.htm&quot;&gt;Survey of Consumer Finances&lt;/a&gt;. I modeled how the black-white gaps&lt;sup id=&quot;fnref:gaps&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:gaps&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in the SPM poverty rate, median wealth, and mean wealth change when providing each person (children, too) an unconditional payment each month. I don’t assume any funding, so this can be thought of as a lower bound on the gap closure, if the UBI were to be funded through progressive taxes.&lt;/p&gt;
+
+&lt;p&gt;The results show large effects from even modest UBIs. For example, a $200 per month payment would more than halve the black poverty rate, putting it below the current white poverty rate. This would cost about $800 billion per year. A $1,000 monthly UBI would reduce the poverty rate from its current 13 percent to roughly 1 percent for all racial groups, costing about $4 trillion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-0.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;UBI wouldn’t only reduce the black poverty rate on an absolute basis, it would also close the black-white poverty gap. Currently, the black poverty rate is 1.82 times the white poverty rate; a $200-per-month UBI would reduce that to 1.65, and a $1,000-per-month UBI would reduce it to 1.38.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-1.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The scale of racial wealth inequality — hundreds of years in the making — dampens the effect compared to poverty. White families have median wealth of $125,000, 7.7 times the median black wealth of $16,300. The mean wealth delta is relatively smaller but larger on an absolute basis: white families have average wealth of $800,000, 5.7 times the $140,000 mean wealth of black families.&lt;/p&gt;
+
+&lt;p&gt;Again there are significant effects from even the $200-per-month UBI, which would cut the median wealth gap from 7.7 to 6.0 and cut the mean wealth gap from 5.7 to 5.5.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-2.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While this assumes people save their entire UBI, it only reflects the program’s first year. Given how income inequality &lt;a href=&quot;https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap&quot;&gt;contributes to&lt;/a&gt; wealth inequality, we can expect that the policy would shrink the racial wealth gap more in later years, as families accrue, invest, and bequeath parts of their ongoing UBI payments over time.&lt;/p&gt;
+
+&lt;p&gt;Putting it all together and benchmarking against today, the black-white poverty and wealth gaps shrink more as the UBI grows. A $200-per-month UBI would reduce the mean wealth gap by 3.6 percent, the poverty gap by 21 percent, and the median wealth gap by 25 percent. $1,000 per month would cut the mean wealth gap by 16 percent, the poverty gap by 53 percent, and the median wealth gap by 70 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2020-06-20-how-universal-basic-income-would-affect-the-blackwhite-poverty-and-wealth-gaps-3.jpg#layoutTextWidth&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The severity of economic disparities between black and white families justifies considering a wide range of solutions. By avoiding exclusions or strings, UBI reaches everyone and cuts the gaps substantially. Let’s include it in the conversation.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:gaps&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;White includes Hispanic. White and black mean white only and black only. The code behind these analyses is published at &lt;a href=&quot;https://github.com/UBICenter/black_ubi&quot;&gt;github.com/UBICenter/black_ubi&lt;/a&gt;. &lt;a href=&quot;#fnref:gaps&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="race" />
+      
+        <category term="poverty" />
+      
+        <category term="wealth" />
+      
+
+      
+        <summary type="html">The bigger the UBI, the smaller the racial disparities.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

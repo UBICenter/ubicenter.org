@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/connor/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/connor/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Basic income would shrink racial poverty disparities</title>
+      <link href="/racial-poverty-disparities-mlk-day-2021" rel="alternate" type="text/html" title="Basic income would shrink racial poverty disparities" />
+      <published>2021-01-18T00:00:00+00:00</published>
+      <updated>2021-01-18T00:00:00+00:00</updated>
+      <id>/racial-poverty-disparities-mlk-day-2021</id>
+      <content type="html" xml:base="/racial-poverty-disparities-mlk-day-2021">&lt;p&gt;Dr. Martin Luther King Jr. is remembered chiefly for his leadership of the civil rights movement,
+but toward the end of his life, King extended this leadership to the cause of poverty.
+In his &lt;a href=&quot;http://www.thekinglegacy.org/books/where-do-we-go-here-chaos-or-community&quot;&gt;final book&lt;/a&gt;,
+he wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The time has come for us to civilize ourselves by the total, direct and immediate abolition of poverty. […] I’m now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We honor King’s call by showing how a universal basic income (UBI), funded by a flat income tax, would not only reduce overall poverty, but also shrink the poverty disparities between Black and White people. &lt;sup id=&quot;fnref:modeling&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:modeling&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Black Americans today are 75 percent more likely to be in poverty than White Americans, with a rate of 18.4 percent compared to 10.5 percent.
+A $250 monthly UBI would cut both Black and White poverty roughly in half (this is similar to what we found in a &lt;a href=&quot;https://medium.com/ubicenter/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps-452e2af1497b&quot;&gt;July 2020 post&lt;/a&gt;, which used older data and did not simulate taxes to fund the UBI).
+A $1,000 monthly UBI funded by a flat income tax would reduce poverty for both White and Black people to about 1 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+import numpy as np
+import microdf as mdf
+import plotly.express as px
+
+SPM_COLS = [
+    &quot;spm_&quot; + i for i in [&quot;id&quot;, &quot;weight&quot;, &quot;povthreshold&quot;, &quot;resources&quot;, &quot;numper&quot;]
+]
+raw = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[&quot;PRDTRACE&quot;, &quot;MARSUPWT&quot;, &quot;AGI&quot;] + [i.upper() for i in SPM_COLS],
+)
+person = raw.copy(deep=True)
+person.columns = person.columns.str.lower()
+person[&quot;weight&quot;] = person.marsupwt / 100
+person.spm_weight /= 100
+person = person.rename(columns={&quot;prdtrace&quot;: &quot;race&quot;})
+# Add indicators for white only and black only (not considering other races).
+person[&quot;white&quot;] = person.race == 1
+person[&quot;black&quot;] = person.race == 2
+# Limit to positive AGI.
+person[&quot;agi_pos&quot;] = np.maximum(person.agi, 0)
+# Need total population to calculate UBI and total AGI for required tax rate.
+total_population = person.weight.sum()
+total_agi = mdf.weighted_sum(person, &quot;agi_pos&quot;, &quot;weight&quot;)
+# Sum up AGI for each SPM unit and merge that back to person level.
+spm = person.groupby(SPM_COLS)[[&quot;agi_pos&quot;, &quot;white&quot;, &quot;black&quot;]].sum()
+spm.columns = [&quot;spm_&quot; + i for i in spm.columns]
+# Merge these back to person to calculate population in White and Black spmus.
+person = person.merge(spm, on=&quot;spm_id&quot;)
+pop_in_race_spmu = pd.Series(
+    {
+        &quot;Black&quot;: person[person.spm_black &amp;gt; 0].weight.sum(),
+        &quot;White&quot;: person[person.spm_white &amp;gt; 0].weight.sum(),
+    }
+)
+spm.reset_index(inplace=True)
+
+
+def pov_gap(df, resources, threshold, weight):
+    # df: Should be SPM-unit level.
+    gaps = np.maximum(df[threshold] - df[resources], 0)
+    return (gaps * df[weight]).sum()
+
+
+def pov(race, monthly_ubi):
+    # Total cost and associated tax rate.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi
+    # Calculate new tax, UBI and resources per SPM unit.
+    spm[&quot;new_spm_resources&quot;] = (
+        spm.spm_resources - 
+        (tax_rate * spm.spm_agi_pos) +  # New tax
+        (12 * monthly_ubi * spm.spm_numper))  # UBI
+    # Merge back to person.
+    person2 = person.merge(spm[[&quot;spm_id&quot;, &quot;new_spm_resources&quot;]], on=&quot;spm_id&quot;)
+    # Based on new resources, calculate
+    person2[&quot;new_poor&quot;] = person2.new_spm_resources &amp;lt; person2.spm_povthreshold
+    # Calculate poverty rate for specified race.
+    poverty_rate = mdf.weighted_mean(
+        person2[person2[race.lower()]], &quot;new_poor&quot;, &quot;weight&quot;
+    )
+    # Calculate poverty gap for specified race.
+    poverty_gap = pov_gap(
+        spm[spm[&quot;spm_&quot; + race.lower()] &amp;gt; 0], &quot;new_spm_resources&quot;,
+        &quot;spm_povthreshold&quot;, &quot;spm_weight&quot;
+    )
+    poverty_gap_per_capita = (poverty_gap / pop_in_race_spmu[race])
+
+    return pd.Series({
+        &quot;poverty_rate&quot;: poverty_rate,
+        &quot;poverty_gap_per_capita&quot;: poverty_gap_per_capita
+    })
+
+
+def pov_row(row):
+    return pov(row.race, row.monthly_ubi)
+
+
+summary = mdf.cartesian_product(
+    {&quot;race&quot;: [&quot;White&quot;, &quot;Black&quot;], &quot;monthly_ubi&quot;: np.arange(0, 1001, 50)}
+)
+summary = pd.concat([summary, summary.apply(pov_row, axis=1)], axis=1)
+# Format results.
+summary.poverty_rate = 100 * summary.poverty_rate.round(3)
+summary.poverty_gap_per_capita = summary.poverty_gap_per_capita.round(0)
+wide = summary.pivot_table(
+    [&quot;poverty_rate&quot;, &quot;poverty_gap_per_capita&quot;], &quot;monthly_ubi&quot;, &quot;race&quot;
+)
+wide.columns = [&quot;pg_black&quot;, &quot;pg_white&quot;, &quot;pr_black&quot;, &quot;pr_white&quot;]
+wide[&quot;pg_ratio&quot;] = (wide.pg_black / wide.pg_white).round(2)
+wide[&quot;pr_ratio&quot;] = (wide.pr_black / wide.pr_white).round(2)
+wide.reset_index(inplace=True)
+ratios = wide.melt(id_vars=&quot;monthly_ubi&quot;, value_vars=[&quot;pr_ratio&quot;, &quot;pg_ratio&quot;])
+# Change for chart.
+ratios.variable.replace({&quot;pr_ratio&quot;: &quot;Poverty rate&quot;,
+                         &quot;pg_ratio&quot;: &quot;Poverty gap per capita&quot;},
+                        inplace=True)
+
+
+def add_ubi_center_logo(fig, x=0.98, y=-0.14):
+    fig.add_layout_image(
+        dict(
+            source=&quot;https://raw.githubusercontent.com/UBICenter/ubicenter.org/master/assets/images/logos/wide-blue.jpg&quot;,
+            # See https://github.com/plotly/plotly.py/issues/2975.
+            # source=&quot;../_static/logos/wide-blue.jpg&quot;,
+            xref=&quot;paper&quot;, yref=&quot;paper&quot;,
+            x=x, y=y,
+            sizex=0.12, sizey=0.12,
+            xanchor=&quot;right&quot;, yanchor=&quot;bottom&quot;
+        )
+    )
+
+
+def line_graph(
+    df,
+    x,
+    y,
+    color,
+    title,
+    xaxis_title,
+    yaxis_title,
+    color_discrete_map,
+    yaxis_ticksuffix,
+    yaxis_tickprefix,
+):
+    &quot;&quot;&quot;Style for line graphs.
+    
+    Arguments
+    df: DataFrame with data to be plotted.
+    x: The string representing the column in df that holds the new spending in billions.
+    y: The string representing the column in df that holds the poverty rate.
+    color: The string representing the UBI type.
+    xaxis_title: The string represnting the xaxis-title.
+    yaxis_title: The string representing the yaxis-title.
+    
+    Returns
+    Nothing. Shows the plot.
+    &quot;&quot;&quot;
+    fig = px.line(
+        df, x=x, y=y, color=color, color_discrete_map=color_discrete_map
+    )
+    fig.update_layout(
+        title=title,
+        xaxis_title=xaxis_title,
+        yaxis_title=yaxis_title,
+        yaxis_ticksuffix=yaxis_ticksuffix,
+        yaxis_tickprefix=yaxis_tickprefix,
+        font=dict(family=&quot;Roboto&quot;),
+        hovermode=&quot;x&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+        plot_bgcolor=&quot;white&quot;,
+        legend_title_text=&quot;&quot;,
+        height=600,
+        width=1000,
+    )
+
+    fig.update_layout(
+        legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.9)
+    )
+
+    fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+    
+    add_ubi_center_logo(fig)
+
+    return fig
+    
+
+DARK_BLUE = &quot;#1565C0&quot;
+GRAY = &quot;#9E9E9E&quot;
+DARK_GREEN = &quot;#388E3C&quot;
+LIGHT_GREEN = &quot;#66BB6A&quot;
+CONFIG = {&quot;displayModeBar&quot;: False}
+
+fig = line_graph(
+    df=summary,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;poverty_rate&quot;,
+    color=&quot;race&quot;,
+    title=&quot;Black and White poverty rate by UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income funded by flat income tax&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: DARK_BLUE},
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+)
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The poverty rate only tells part of the story, though.
+When someone goes from deep in poverty to just below the poverty line, the poverty rate is left unchanged, despite the person’s material conditions improving.&lt;/p&gt;
+
+&lt;p&gt;An alternative measure is the &lt;em&gt;poverty gap&lt;/em&gt;, which aggregates each household’s difference between its resources and its poverty threshold. This counts improvements of people who remain in poverty, and can be thought of as the total amount of money required to lift everyone out of poverty, if that money could be perfectly targeted.&lt;/p&gt;
+
+&lt;p&gt;Applying this measure and adjusting for population differences, the Black poverty gap exceeds the White poverty gap by 50 percent: $654 per person, vs. $434 per person.
+Given a $250 monthly UBI, which cuts poverty rates in half, poverty gaps also fall by about half, and the difference falls such that the Black poverty gap is about 36 percent higher.
+For UBIs above $600 per month, the Black poverty gap even falls below the White poverty gap, likely due to Black people living in areas with lower-cost housing.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(
+    df=summary,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;poverty_gap_per_capita&quot;,
+    color=&quot;race&quot;,
+    title=&quot;Black and White poverty gap per capita by UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income funded by flat income tax&quot;,
+    yaxis_title=&quot;Poverty gap per capita (2019)&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: DARK_BLUE},
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+)
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Viewing these together, it’s clear that UBIs don’t only reduce poverty rates and poverty gaps for both races, but also bring them closer together, reducing racial disparities in poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = line_graph(
+    df=ratios,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;value&quot;,
+    color=&quot;variable&quot;,
+    title=&quot;Black poverty relative to White poverty by UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income funded by flat income tax&quot;,
+    yaxis_title=&quot;Ratio of Black to White poverty measure (2019)&quot;,
+    color_discrete_map={&quot;Poverty rate&quot;: LIGHT_GREEN,
+                        &quot;Poverty gap per capita&quot;: DARK_GREEN},
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+)
+fig.add_hline(1, line_dash=&quot;dot&quot;)
+fig.show(config=CONFIG)
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/racial-poverty-disparities-mlk-day-2021/2021-01-18-racial-poverty-disparities-mlk-day-2021-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Dr. King didn’t live to see today’s renaissance of guaranteed income, with pandemic responses including &lt;a href=&quot;https://www.cbsnews.com/news/stimulus-check-600-2000-dollars-eligibility-2021-1-1/&quot;&gt;generous unconditional cash transfers&lt;/a&gt;, &lt;a href=&quot;http://mayorsforagi.org&quot;&gt;mayors across America&lt;/a&gt; calling for pilots, and &lt;a href=&quot;https://www.express.co.uk/news/politics/1316702/nicola-sturgeon-news-scotland-ubi-Universal-Basic-Income-SNP-latest-economy&quot;&gt;leaders across the world&lt;/a&gt; embracing the idea.
+But our analysis validates his intuition and the intertwining of his racial justice and economic justice emphases: guaranteed income will produce not only a less impoverished world, but also a less racially disparate one.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:modeling&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Data was gathered from the US Census Bureau’s March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP), and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. We calculate per-capita poverty gaps by race as the total poverty gap of SPM units with at least one person of that race, divided by the number of people in SPM units with at least one person of that race. &lt;a href=&quot;#fnref:modeling&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;connor&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="race" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html">$600 per month or more would end one measure of the Black-White poverty disparity.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

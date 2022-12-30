@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>What we learned about basic income in 2019</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Analyzing universal basic income policies with open-source research" />
+    <link rel="shortcut icon" href="/assets/images/logos/square-blue.png" type="image/jpg" />
+    <link rel="canonical" href="/what-we-learned-about-basic-income-in-2019" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="UBI Center" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="What we learned about basic income in 2019" />
+    <meta property="og:description" content="The research frontier expanded rapidly." />
+    <meta property="og:url" content="/what-we-learned-about-basic-income-in-2019" />
+    <meta property="og:image" content="https://ubicenter.org/assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:author" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:published_time" content="2020-01-01T07:58:02+00:00" />
+    <meta property="article:modified_time" content="2020-01-01T07:58:02+00:00" />
+    <meta property="article:tag" content="PILOTS" />
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@">
+    <meta name="twitter:creator" content="@max">
+    <meta name="twitter:title"   content="What we learned about basic income in 2019">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="What we learned about basic income in 2019" />
+    <meta name="twitter:description" content="The research frontier expanded rapidly." />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="https://ubicenter.org/assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg" /> 
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="UBI Center" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="pilots" />
+    <meta name="twitter:site" content="@TheUBICenter" />
+    <meta name="twitter:creator" content="@TheUBICenter" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "UBI Center",
+        "logo": "/assets/images/logos/wide-white.jpg"
+    },
+    "url": "/what-we-learned-about-basic-income-in-2019",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/what-we-learned-about-basic-income-in-2019"
+    },
+    "description": "The research frontier expanded rapidly."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="What we learned about basic income in 2019" href="/feed.xml" />
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/0702499f362bc2046ada2a7d0.js");</script>
+    <!-- <meta http-equiv="refresh" content="0;URL=//subscribe"/> -->
+
+    <!-- for mathjax support -->
+    
+
+    <!-- for plotly support -->
+    
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/a07effe536897743f4f5a1837.js");</script>
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/"><img src="/assets/images/logos/wide-white.jpg" alt="UBI Center" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <div class="dropdown">
+      <li><a href="/what-is-ubi/">What is UBI? &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/what-is-ubi/why-ubi/">Why UBI?</a></li>
+        <li><a href="/what-is-ubi/why-not-ubi/">Why not UBI?</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">Projects &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="https://polls.ubicenter.org">UBI Poll Tracker</a></li>
+        <li><a href="http://bib.ubicenter.org">Basic Income Builder</a></li>
+        <li><a href="https://covid.ubicenter.org">Covid</a></li>
+        <li><a href="http://child-allowance.ubicenter.org/">Child allowance</a></li>
+        <li><a href="/projects/plan-explorer/">Plan Explorer</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">About &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/about/mission/">Mission</a></li>
+        <li><a href="/about/our-team/">Our team</a></li>
+        <li><a href="/about/join/">Join us</a></li>
+        <li><a href="/about/open-source/">Open source</a></li>
+        <li><a href="/about/press/">Press</a></li>
+      </div>
+    </div>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-gh" href="https://github.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+        <p style="width:15px;"></p>
+        <a class="subscribe-button" href="/donate">Donate</a>
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-pilots tag-external-research post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime=" 1 January 2020"> 1 January 2020</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/pilots/'>PILOTS</a>,
+                            
+                        
+                            
+                               <a href='/tag/external-research/'>EXTERNAL RESEARCH</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">What we learned about basic income in 2019</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url('/assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg')">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>2019 has been a big year for universal basic income (UBI). Web searches for the topic rose over 40 percent since 2018 in the US, and over 130 percent globally. A 2019 Nobel laureate wrote a paper on <a href="https://economics.mit.edu/files/16000">UBI in the developing world</a>, the World Bank published a book of <a href="https://www.google.com/books/edition/_/00XEDwAAQBAJ?hl=en&amp;gbpv=0">UBI evidence</a>, and Palgrave Macmillan published the <a href="https://www.palgrave.com/gp/book/9783030143770">fifteenth</a> and <a href="https://www.palgrave.com/gp/book/9783030236137">sixteenth</a> books in their <a href="https://www.palgrave.com/gp/series/14981">academic series on UBI</a>.</p>
+
+<p><img src="assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-0.jpg#layoutTextWidth" alt="" /></p>
+
+<p>This post reviews a slice of the UBI-related research that came out this year. It begins with evaluations of UBI programs and experiments, then considers simulations of UBI policy, followed by studies of related programs like cash transfers, and finally how the public feels about UBI and cash transfers (and what affects those sentiments).</p>
+
+<h3 id="ubi-programs">UBI programs</h3>
+
+<p>A number of new studies came out on the Alaska Permanent Fund Dividend (PFD), which pays residents between $1,000 and $3,000 per year from returns on oil wealth. Guettabi’s <a href="https://scholarworks.alaska.edu/xmlui/bitstream/handle/11122/10581/2019_05_20-EffectsOfAKPFD.pdf?sequence=1">review</a> of research to date summarizes the null effect on employment, positive effects on birthweight and consumption of non-durable goods (e.g. food, not cars) and services, and reductions of childhood obesity and poverty; the review also showed increased income inequality. Feinberg and Keuhn found that <a href="https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=IIOC2019&amp;paper_id=40">entrepreneurship rose</a> after the PFD’s introduction, though the effect faded. The PFD increased <a href="https://pubs.iseralaska.org/media/7c5b42d2-02b3-46dc-8221-5d32776ec51f/Universal_Cash_and_Crime.pdf">substance abuse</a> incidents, had no effect on violent crime, and reduced property crime (Watson et al; <a href="https://www.westminster.ac.uk/sites/default/public-files/general-documents/WPS%202019_02_Dorsett%20R.pdf">Dorsett</a> also found reduced property crime, but only when the PFD payouts were large). Lerner found no detectable effect of the PFD on <a href="https://arxiv.org/pdf/1910.04083.pdf">high school completion</a>. Mahdavi goes back to the PFD’s introduction in 1976, finding that receiving the PFD just before an election <a href="http://www.paashamahdavi.com/LBP-aug2019.pdf">reduces voter turnout</a> compared to receiving it just afterwards.</p>
+
+<p><a href="http://julkaisut.valtioneuvosto.fi/bitstream/handle/10024/161361/Report_The%20Basic%20Income%20Experiment%2020172018%20in%20Finland.pdf">Finland’s UBI experiment</a> had no effect on employment, but significantly improved each of 14 questions asked about well-being, from trust to confidence to health, and raised appetite for UBI. The Stockton Economic Empowerment Demonstration (SEED) launched a <a href="https://seed.sworps.tennessee.edu/employment.html">dashboard</a> characterizing the recipients and comparison groups, but no experiment results yet.</p>
+
+<h3 id="simulations">Simulations</h3>
+
+<p>Hoynes and Rothstein <a href="https://www.nber.org/papers/w25538">argued</a> in February that “UBI pilot studies will do little to resolve the major outstanding questions,” and that design questions — for example, how it’s funded and what it replaces — deserve more attention. Researchers started to answer that call throughout the year, simulating full UBIs, UBIs for children, and smaller UBIs funded by fees on carbon emissions.</p>
+
+<h4 id="ubi-simulations">UBI simulations</h4>
+
+<p>Multiple researchers, myself included, simulated presidential candidate Andrew Yang’s Freedom Dividend, a UBI of $1,000 per month per adult funded by a 10 percent VAT and other sources. The Committee for a Responsible Federal Budget found that a 10 percent VAT <a href="https://www.crfb.org/blogs/would-10-vat-pay-1000-month-ubi">would be insufficient</a> to fund a $1,000 UBI. I too found that Yang’s plan would add to the deficit, though it would <a href="distributional-analysis-of-andrew-yangs-freedom-dividend">dramatically reduce poverty and inequality</a>. I also simulated a <a href="budget-neutral-version-of-andrew-yangs-freedom-dividend">budget-neutral version</a> of the plan (closer to $500 per month), which would still be distributionally progressive, and found that the citizenship limitation is the <a href="why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend">main reason</a> some low-income people are left worse off. Pomerleau found that <a href="https://taxfoundation.org/andrew-yang-value-added-tax">raising the VAT to 22 percent and reducing the amount to $750</a> would make it budget-neutral. <a href="https://ubicalculator.com/">UBI Calculator</a> was released, showing that Yang’s plan would add to the deficit but benefit most citizens, especially low-income ones.</p>
+
+<p>Katz and Sarel simulated a <a href="https://euiha41fnsb2lyeld3vkc37i-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Basic-Income-in-Israel.pdf">UBI in Israel</a> funded by (a) higher income taxes and (b) ending welfare programs and tax benefits. Their plan provided monthly amounts between $340 and $930 per adult, with amount rising with age, and between $40 and $190 per child, depending on the child’s birth number in the family. They found that this plan would reduce inequality and improve work incentives.</p>
+
+<p><img src="assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-1.jpg#layoutTextWidth" alt="" /></p>
+
+<p>Lansley and Reed modeled <a href="https://www.compassonline.org.uk/wp-content/uploads/2019/03/Compass_BasicIncomeForAll_2019.pdf">two versions of a UBI for the UK</a>: one funded by tax and benefit changes, and the other funded by a social wealth fund. They find that “a basic income even at modest levels would be highly progressive, reduce poverty and inequality, and cut dependency on means testing.”</p>
+
+<p><img src="assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-2.jpg#layoutTextWidth" alt="" /></p>
+
+<p>Plá et al found that <a href="https://www.euromod.ac.uk/sites/default/files/working-papers/em8-19.pdf">replacing Spain’s existing benefit system</a> with a budget-neutral UBI would be modestly regressive, and Gentilini and Rigolini <a href="http://pubdocs.worldbank.org/en/103921528839429277/SSN-Day8-1pm-Ugo-UBI.pdf">found the same</a> with respect to Russia and Brazil.</p>
+
+<p>Colombino reviewed <a href="https://wol.iza.org/articles/is-unconditional-basic-income-viable-alternative-to-other-social-welfare-measures/long">10 simulation studies</a> of UBI and negative income taxes (NITs) from multiple countries (as well as 11 non-simulation studies), finding:</p>
+
+<blockquote>
+  <p>When the evaluation criterion goes beyond labor supply effects (e.g. takes into account the effects on inequality and on the values of non-market activities), NIT and UBI in most cases turn out to be superior to the current systems.</p>
+</blockquote>
+
+<h4 id="child-allowance-simulations">Child allowance simulations</h4>
+
+<p>Child allowances are UBIs for children; they exist in some form in many countries, and the US has considered reforms to create one.</p>
+
+<p>The most significant US child assistance proposal is the American Family Act (AFA), which would reform the Child Tax Credit to eliminate the phase-in and increase the amount. This would create a near-child allowance, excluding only high earners. <a href="https://www.povertycenter.columbia.edu/news-internal/2019/3/5/the-afa-and-child-poverty">Collyer et al</a> found “that the AFA would move 4 million children out of poverty and cut deep poverty among children in half,” with the phase-in removal being particularly important for poverty reduction. Hammond and Orr arrive at a <a href="https://www.expandthechildtaxcredit.com/the-american-family-act">similar conclusion</a>, while also finding that the AFA would reduce adult poverty by 10 percent and that its average benefit would be higher for non-white families.</p>
+
+<p>Wunder found that a <a href="https://www.tandfonline.com/doi/abs/10.1080/00213624.2019.1603769">$9,330 annual child allowance</a> would reduce US child poverty by 75 percent, and CANCEA found that <a href="https://ubiworks.ca/wp-content/uploads/2019/09/Economic-Contribution-of-the-Canada-Child-Benefit.pdf">Canada would have 588,000 more children in poverty</a> if not for their Child Benefit.</p>
+
+<h4 id="carbon-dividend-simulations">Carbon dividend simulations</h4>
+
+<p>Carbon dividends are carbon fees whose revenue is distributed as an unconditional cash transfer, i.e. as a (small) UBI. Several carbon pricing bills are in the US Congress, but only one fully rebates the revenue as a UBI: the Energy Innovation and Carbon Dividend Act (EICDA).</p>
+
+<p>Kaufman et al found that the EICDA would reduce emissions and air pollution, and also would be <a href="https://energypolicy.columbia.edu/research/report/assessment-energy-innovation-and-carbon-dividend-act">highly progressive</a>. Hafstead found that the EICDA would be a <a href="https://www.rff.org/cpc/">net financial gain</a> for the bottom three quintiles (on average) and reduce annual emissions by 53 percent by 2035, though it would also reduce GDP by 2.5 percent by 2035.</p>
+
+<p><img src="assets/images/2020-01-01-what-we-learned-about-basic-income-in-2019-3.jpg#layoutTextWidth" alt="" /></p>
+
+<h3 id="related-programs">Related programs</h3>
+
+<h4 id="givedirectly-cash-transfers">GiveDirectly cash transfers</h4>
+
+<p><a href="http://givedirectly.org">GiveDirectly</a> is a charity that provides unconditional cash transfers (UCTs) to extremely poor families, mostly in East Africa. They were founded by economists and continue to study the effect of their work in randomized controlled trials.</p>
+
+<p>Their most newsworthy paper, released in December, examined the general equilibrium effects of their transfers. In this experiment, entire villages were treated, with transfers restricted to low-income households. Egger et al found that <a href="http://emiguel.econ.berkeley.edu/assets/miguel_research/88/GE-Paper_2019-12-18.pdf">non-recipients also benefited</a>: households receiving the transfers saw consumption rise, but so did households in the same village who didn’t get the money — and their consumption rose a similar amount. Each dollar of cash transfers grew the local economy by $2.60.</p>
+
+<p>Other studies also found substantial benefits from the GiveDirectly UCTs. Haushofer et al found that <a href="https://www.princeton.edu/~joha/publications/Haushofer_Ringdal_Shapiro_Wang_IPV_2019-07-13_jh.pdf">UCTs reduce intimate partner violence</a>, with larger benefits when given to women; like Egger, they find spillovers, with violence toward non-recipient women in treated villages falling nearly as much as for recipient women. In another paper, Haushofer et al found that UCTs <a href="https://www.princeton.edu/~joha/publications/Haushofer_Reisinger_Shapiro_Inequality_2019.pdf">worsen psychological well-being for non-recipients</a>. Finally, Cooke et al find <a href="https://www.givedirectly.org/wp-content/uploads/2019/06/Cash_Crop_Ugandan_CoffeeRCT.pdf">significant increases in consumption and revenue</a> for coffee farmer recipients of GiveDirectly UCTs.</p>
+
+<p>GiveDirectly will release results from their universal basic income experiment next year; the 2019 Nobel laureate Abhijit Banerjee is researching it. They also published a <a href="https://www.givedirectly.org/basic-income/">guide to UBI</a> this year, which includes relevant academic research and their planned contribution.</p>
+
+<h4 id="other-cash-transfers">Other cash transfers</h4>
+
+<p>Carneiro et al found that <a href="http://www.homepages.ucl.ac.uk/~uctpimr/research/CDGP.pdf">providing extremely poor Nigerian families UCTs</a> from pregnancy until the child turned 2, combined with pre- and neo-natal information, reduced children’s stunting by 8 percent.</p>
+
+<p>Tracing Mexican families 20 years after their receipt of a conditional cash transfer (CCT), Aguilar et al found <a href="http://documents.worldbank.org/curated/en/423621568052375850/pdf/Long-Term-Effects-of-PROSPERA-on-Welfare.pdf">positive effects</a> on household formation, migration, durable assets, consumption expenditures and food security, and intergenerational mobility.</p>
+
+<p>Baird et al evaluated a <a href="https://gps.ucsd.edu/_files/faculty/mcintosh/mcintosh_research_when-the-money-runs-out.pdf">two-year CCT-UCT experiment</a> for adolescent females in Malawi, finding that the CCT caused sustained improvements on education and fertility (having children when they want to). While the UCT did not cause sustained benefits among recipients, it improved fertility and reduced HIV infections in the short term, and improved health of the recipients’ children.</p>
+
+<p>Daidone et al reviewed evaluations of <a href="https://academic.oup.com/ajae/article/101/5/1401/5420281">government cash transfer programs in seven countries in sub-Saharan Africa</a>, which show consistently positive effects on consumption and moving workers from casual agricultural wage labor to more productive work on family farms or elsewhere, though other effects varied by country.</p>
+
+<h4 id="universality-and-unconditionality">Universality and unconditionality</h4>
+
+<p>New research compares the traditional means testing and requirements to the universality and unconditionality of UBI.</p>
+
+<p>Kidd and Athias examined <a href="https://www.developmentpathways.co.uk/wp-content/uploads/2019/03/Hit-and-Miss-March13-1.pdf">38 programs across 23 low- and middle-income countries</a>, finding that the four universal programs were significantly more effective at reaching the poor than means-tested programs, mistakenly excluding under 10 percent of its intended audience, compared to exclusion errors above 50 percent in most means-tested programs.</p>
+
+<p>ILO and UNICEF published a report <a href="https://reliefweb.int/sites/reliefweb.int/files/resources/wcms_669336.pdf">advocating universal child grants</a> across countries as a tool of meeting the UN’s goal of ending global poverty.</p>
+
+<p>Neuert et al reviewed the behavioral economics literature in their paper, <a href="https://www.ideas42.org/wp-content/uploads/2019/04/ideas42-Work-Requirements-Paper.pdf">Work Requirements Don’t Work</a>. Harris studied the <a href="https://research.upjohn.org/up_workingpapers/297/">US SNAP program</a> (food stamps) specifically, finding that “work requirements significantly decreased SNAP participation and marginally increased employment for ABAWD [Able-Bodied Adults without Dependents].”</p>
+
+<h3 id="sentiment">Sentiment</h3>
+
+<p>In the US, a Hill-HarrisX poll found <a href="https://thehill.com/hilltv/rising/463055-more-voters-support-universal-basic-income">rising support</a> for a $1,000 per month UBI to help Americans whose jobs are threatened by automation, from 43 percent in February to 49 percent in September; it is especially popular with voters under age 35 and Democrats. Echelon Insights <a href="http://echeloninsights.com/wp-content/uploads/Omnibus-June-2019_Policies.pdf">asked voters</a> about UBI without the automation framing, emphasizing its unconditionality, and found that 40 percent supported it; they too found higher support among Democrats and young people, as well as those with lower incomes.</p>
+
+<p>The late Alan Krueger conducted a <a href="https://healthpolicy.usc.edu/evidence-base/what-do-americans-think-about-universal-basic-income/">survey experiment</a>, asking Americans whether they support (a) a UBI in the US, and (b) a UBI in poor parts of Africa, randomizing the order of (a) and (b). Respondents who were asked first about UBI in Africa were more favorable to UBI in the US, and those who were asked first about UBI in the US were less favorable to UBI in Africa.</p>
+
+<p>Stadelmann-Steffen and Dermont identified <a href="https://boris.unibe.ch/135192/1/JSP-StadelmannSteffenDermont2019.pdf">greater UBI support in Finland</a> than in Switzerland, with people in both countries favoring UBIs that are (a) more generous, and (b) restricted to citizens.</p>
+
+<p>Reminiscently of both Krueger’s survey experiment and Mahdavi’s PFD paper, Mosec and Mo conducted a <a href="http://ebrary.ifpri.org/utils/getfile/collection/p15738coll2/id/133270/filename/133484.pdf">survey experiment in Pakistan</a>, finding that cash transfers increase support for political leaders and institutions only when they are primed to think of inequality (salience of inequality also reduces political support among those denied cash transfers). Similarly, Zucco et al conducted <a href="https://www.tandfonline.com/doi/full/10.1080/00220388.2019.1577388">survey experiments in Brazil and Turkey</a> finding that “conditional transfers are only marginally more popular than similar unconditional transfers in nationally representative samples, but that this difference is substantially larger among the better-off and among those primed to think of themselves as different from beneficiaries.” Finally, Rios et al <a href="https://onlinelibrary.wiley.com/doi/10.1111/disa.12378">also show</a> that “residents of Fiji who received a post‐disaster cash transfer are up to 20 per cent more likely to be very satisfied with the government than are those who did not.”</p>
+
+<p>What are some common threads from UBI research in 2019? New evidence from Alaska, Finland, and developing countries find that UBIs and cash transfers have generally similar effects: positive effects on consumption and children’s health, and on incomes in developing countries. UCTs in Kenya had positive economic spillovers but negative psychological spillovers, which may also be evident in Pakistan. Simulated UBIs were regressive when only replacing means-tested programs, but progressive when other funding sources were included, and various studies found that universal transfers can better reach the poor. Finally, UBI appears to be getting more popular, though its reception varies by country and framing.</p>
+
+<p>The most important evidence on UBI in 2020 may come from GiveDirectly’s UBI experiment in Kenya, which is randomized by village and guarantees recipients transfers for up to 12 years. But if it’s anything like 2019, we’ll have much more research to look forward to, as well.</p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to the UBI Center</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/max-ghenis.jpg" alt="max" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/max">Max Ghenis</a></h4>
+                                    
+                                        <p>Max is the founder and president of the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/max">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url('/assets/images/banner.png')"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; UBI Center &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/pilots/" style="text-transform: uppercase">Pilots</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/ubi-centers-2020-year-in-review">The UBI Center’s 2020 year in review</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/canada-homelessness-experiment">What a Canadian experiment tells us about cash transfers and homelessness</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/pilots/">
+                                
+                                    See all 2 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19">
+                <div class="post-card-image" style="background-image: url(/assets/images/2020-03-20-how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19-1.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Us</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Covid</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Poverty</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">How universal basic income can keep poverty from rising amid Covid-19</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                    </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/authors/max-ghenis.jpg" alt="Max Ghenis" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/max/">Max Ghenis</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend">
+                <div class="post-card-image" style="background-image: url(/assets/images/2019-06-28-why-some-lowincome-people-come-out-behind-in-andrew-yangs-freedom-dividend-1.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Us</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Andrew yang</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Vat</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Why some low-income people come out behind in Andrew Yang’s Freedom Dividend</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/authors/max-ghenis.jpg" alt="Max Ghenis" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/max/">Max Ghenis</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+                <img src="/assets/images/logos/wide-blue.jpg" alt="UBI Center icon" />
+            
+        </a>
+    </div>
+    <div class="floating-header-title">What we learned about basic income in 2019</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=What+we+learned+about+basic+income+in+2019&amp;url=https://ubicenter.org/what-we-learned-about-basic-income-in-2019"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://ubicenter.org/what-we-learned-about-basic-income-in-2019"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">UBI Center</a> &copy; 2022</section>
+                <nav class="site-footer-nav">
+                    <a href="/donate">Donate</a>
+                    <a href="/">Latest posts</a>
+                    <a href="mailto:contact@ubicenter.org">Email us</a>
+                    <a href="https://facebook.com/UBICenter" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/UBICenter">GitHub</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/logos/wide-white.jpg" alt="UBI Center" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to the UBI Center</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts, news, and more delivered straight to your inbox</p>
+                <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-138885251-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

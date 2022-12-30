@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/tag/policyengine/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/tag/policyengine/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">The UBI Lab Network’s Resilience UBI proposals</title>
+      <link href="/resilience-ubi" rel="alternate" type="text/html" title="The UBI Lab Network's Resilience UBI proposals" />
+      <published>2021-11-19T00:00:00+00:00</published>
+      <updated>2021-11-19T00:00:00+00:00</updated>
+      <id>/resilience-ubi</id>
+      <content type="html" xml:base="/resilience-ubi">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Explore their &lt;a href=&quot;https://uk.policyengine.org/population-results?child_UBI=46&amp;amp;adult_UBI=92&amp;amp;senior_UBI=46&amp;amp;WA_adult_UBI_age=16&quot;&gt;Covid Dividend&lt;/a&gt; and &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;Full UBI&lt;/a&gt; plans in PolicyEngine&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Last month, the &lt;a href=&quot;https://www.ubilabnetwork.org/&quot;&gt;UBI Lab Network&lt;/a&gt; announced their &lt;a href=&quot;https://www.ubilabnetwork.org/resilience-ubi&quot;&gt;proposal for a ‘Resilience UBI’&lt;/a&gt;. In an &lt;a href=&quot;https://www.opendemocracy.net/en/oureconomy/we-want-to-give-everyone-in-britain-400-a-month-no-strings-attached/&quot;&gt;op-ed for OpenDemocracy&lt;/a&gt;, the proposal’s lead author Patrick Brown wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We want to give every working-age adult (16-64) resident in the UK £400 a month for a year – no strings attached. We also want to give all children and pensioners £200 a month. This would be without any changes to existing benefits or the State Pension.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Brown continued:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Resilience UBI would initially last for a year, but it could be extended depending on the circumstances of the pandemic. In our &lt;a href=&quot;https://www.ubilabnetwork.org/resilience-ubi&quot;&gt;full proposal paper&lt;/a&gt;, we’ve also outlined how it could be transitioned into a permanent Universal Basic Income for everyone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We worked with the UBI Lab Network to estimate the impact of their plan, which encompasses three policies:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A ‘Covid Dividend’ as described in Brown’s op-ed&lt;/li&gt;
+  &lt;li&gt;A ‘Full UBI’ which provides a more generous UBI funded by tax and benefit reforms&lt;/li&gt;
+  &lt;li&gt;A ‘Transitional UBI’ which transitions from the Covid Dividend to the Full UBI&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As Brown wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’ve teamed up with &lt;a href=&quot;https://uk.policyengine.org/&quot;&gt;PolicyEngine UK&lt;/a&gt;, which models the effect of proposed policy changes on the economy, to crunch the numbers. Its modelling of our Resilience UBI shows that overall poverty would fall by 80%, and child poverty by 85%. It also found that the lowest earners would be the biggest winners. It’s even created &lt;a href=&quot;https://uk.policyengine.org/situation?child_UBI=46&amp;amp;adult_UBI=92&amp;amp;senior_UBI=46&quot;&gt;a tool&lt;/a&gt; so that you can see the effect the Resilience UBI would have on your own household.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.ubilabnetwork.org/resilience-ubi&quot;&gt;Resilience UBI website&lt;/a&gt; also embeds PolicyEngine’s household page for users to calculate a personalized impact of the Covid Dividend.&lt;sup id=&quot;fnref:acknowledgment&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:acknowledgment&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Here are high-level results from our analysis, though we caveat that PolicyEngine only models about two thirds of the Full UBI’s funding provisions.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Policy&lt;/th&gt;
+      &lt;th&gt;Net cost&lt;/th&gt;
+      &lt;th&gt;Poverty reduction&lt;/th&gt;
+      &lt;th&gt;% coming out ahead&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?child_UBI=46&amp;amp;adult_UBI=92&amp;amp;senior_UBI=46&amp;amp;WA_adult_UBI_age=16&quot;&gt;Covid Dividend&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;£266bn&lt;/td&gt;
+      &lt;td&gt;77%&lt;/td&gt;
+      &lt;td&gt;100%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;Full UBI (PolicyEngine only)&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;£222bn&lt;/td&gt;
+      &lt;td&gt;84%&lt;/td&gt;
+      &lt;td&gt;89%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Full UBI, with non-PolicyEngine provisions&lt;/td&gt;
+      &lt;td&gt;£55.5bn&lt;/td&gt;
+      &lt;td&gt;?&lt;/td&gt;
+      &lt;td&gt;?&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In this report, we describe the features of the Resilience UBI’s Covid Dividend and Full UBI policies, how we modelled them, PolicyEngine results, and some supplementary analysis to fill in the gaps of our formal modelling.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-resilience-ubi&quot;&gt;The Resilience UBI&lt;/h1&gt;
+
+&lt;p&gt;The UBI Lab Network’s &lt;a href=&quot;https://www.ubilabnetwork.org/s/resilience-proposal.pdf&quot;&gt;full paper&lt;/a&gt; describes the Resilience UBI proposal in greater detail than the website or the op-ed:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;The Covid Dividend&lt;/strong&gt; provides £400 a month to people aged 16 to 64, and £200 a month to others (children and pensioners). It would last a year and not alter existing taxes or benefits, instead being funded through money creation. The UBI would not be counted for means-testing or taxation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Full UBI&lt;/strong&gt; provides £800 a month to people aged 16 or older, and £400 a month to children. It also would not be counted for means-testing or taxation. On the income tax and National Insurance side, the cost would be offset by &lt;a href=&quot;https://www.ubicenter.org/personal-allowance&quot;&gt;abolishing the Personal Allowance&lt;/a&gt;, adding 15 percentage points to each Income Tax rate, and flattening National Insurance rates for employees and self-employed people to 10%. The Full UBI plan also abolishes State Pension and all means-tested benefits, except those related to housing and disability. Finally, the plan calls for other tax reforms: raising VAT and Corporation Tax by 5 percentage points each, enacting a ‘Tobin Tax’ form of a Financial Transactions Tax, and levying a wealth tax.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;policyengine-analysis&quot;&gt;PolicyEngine analysis&lt;/h1&gt;
+
+&lt;p&gt;PolicyEngine supports most of the income tax and benefit reforms proposed in the Resilience UBI plans, with these exceptions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For the &lt;em&gt;Covid Dividend&lt;/em&gt;, PolicyEngine defines pensioner as State Pension Age or above, rather than age 65.&lt;/li&gt;
+  &lt;li&gt;For the &lt;em&gt;Full UBI&lt;/em&gt;, PolicyEngine doesn’t currently support VAT, Corporation Tax, wealth tax, or financial transaction tax reforms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given those caveats, we estimate the cost of the Covid Dividend at £266bn, two percent higher than the UBI Lab Network’s £261bn.&lt;/p&gt;
+
+&lt;p&gt;Among the &lt;em&gt;Full UBI&lt;/em&gt; provisions that PolicyEngine can model, the UBI Lab Network estimates a net cost of £186bn, while PolicyEngine estimates £222bn. As shown in this table (in £bn), PolicyEngine estimates similar cost of the UBI itself, and less revenue from all funding provisions except the new Income Tax bands:&lt;sup id=&quot;fnref:sequence&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sequence&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Element&lt;/th&gt;
+      &lt;th&gt;UBI Lab Network&lt;/th&gt;
+      &lt;th&gt;PolicyEngine&lt;/th&gt;
+      &lt;th&gt;Difference&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Full UBI&lt;/td&gt;
+      &lt;td&gt;(580)&lt;/td&gt;
+      &lt;td&gt;(585)&lt;/td&gt;
+      &lt;td&gt;-5 (1%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Savings from current welfare programmes&lt;/td&gt;
+      &lt;td&gt;170&lt;/td&gt;
+      &lt;td&gt;131&lt;/td&gt;
+      &lt;td&gt;-39 (23%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrapping Personal Tax Allowance&lt;/td&gt;
+      &lt;td&gt;111.2&lt;/td&gt;
+      &lt;td&gt;85&lt;/td&gt;
+      &lt;td&gt;-26.2 (24%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New Income Tax bands&lt;/td&gt;
+      &lt;td&gt;82.5&lt;/td&gt;
+      &lt;td&gt;141&lt;/td&gt;
+      &lt;td&gt;+58.5 (71%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New NIC bands&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;-24 (80%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net budget impact of PolicyEngine provisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(186.3)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(222)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-35.7 (19%)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;See Appendix A for explanations of these differences.&lt;/p&gt;
+
+&lt;p&gt;Keeping the £222bn deficit in mind, the Full UBI cuts poverty by 84%, including all but eliminating child poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It nearly triples the bottom decile’s net income, and leaves each of the bottom nine deciles better off, on average.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;About nine in ten people come out ahead, and five in six gain at least 5%. Other than the bottom decile, nearly all of whom come out ahead, less than one in ten people in each of the bottom nine deciles are worse off.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;sample-households&quot;&gt;Sample households&lt;/h2&gt;
+
+&lt;p&gt;Consider a family with two parents, each earning £20,000, and two children. PolicyEngine shows that their net income would rise by £16k (45%). While their taxes rise by £11k, their benefits (including UBI) rise by £27k.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;They’d continue to be better off until their income exceeds about £153k.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;They’d continue to be better off until their income exceeds about £153k.
+The reform would also simplify their marginal tax rate schedule, making it monotonically progressive. Currently, this family faces their highest marginal tax rates when their combined income is below £28k, losing 63p of every marginal £1 due to Universal Credit withdrawal. Their marginal tax rate jumps around nine times before landing on the 47% top rate. Under the Full UBI scheme, their top marginal rate rises to 70%, but it gets there steadily from 35% and only once their income exceeds £170k.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_12_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Since the policy is not budget-neutral, most families would experience gains like these, and most would also see more predictable work incentives as above.&lt;/p&gt;
+
+&lt;h1 id=&quot;policyengines-budget-neutral-full-ubi&quot;&gt;PolicyEngine’s budget-neutral Full UBI&lt;/h1&gt;
+
+&lt;p&gt;As shown above, the Full UBI of £800 a month for adults and £400 for children, combined with Income Tax, National Insurance, and means-tested benefit reforms, would leave a £222bn net cost. What if the UBI is shrunk to be budget-neutral?&lt;/p&gt;
+
+&lt;p&gt;Retaining the same ratio of adults getting double the amount of children, these revenue sources would fund about &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=114&amp;amp;child_UBI=57&amp;amp;senior_UBI=114&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£250 a month for children and £500 for adults&lt;/a&gt; (£57 and £114 a week, respectively). Setting a single UBI without separating by age would yield about &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_UBI=103&amp;amp;child_UBI=103&amp;amp;senior_UBI=103&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£450 a month&lt;/a&gt; (£103 a week).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Full UBI version&lt;/th&gt;
+      &lt;th&gt;Budget impact&lt;/th&gt;
+      &lt;th&gt;Poverty&lt;/th&gt;
+      &lt;th&gt;Senior poverty&lt;/th&gt;
+      &lt;th&gt;Winner share&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£800/mo adults, £400/mo children&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;(222bn)&lt;/td&gt;
+      &lt;td&gt;-84%&lt;/td&gt;
+      &lt;td&gt;-45%&lt;/td&gt;
+      &lt;td&gt;89%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=114&amp;amp;child_UBI=57&amp;amp;senior_UBI=114&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£500/mo adults, £250/mo children&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1bn&lt;/td&gt;
+      &lt;td&gt;-26%&lt;/td&gt;
+      &lt;td&gt;+75%&lt;/td&gt;
+      &lt;td&gt;62%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_UBI=103&amp;amp;child_UBI=103&amp;amp;senior_UBI=103&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£450/mo all&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1bn&lt;/td&gt;
+      &lt;td&gt;-34%&lt;/td&gt;
+      &lt;td&gt;+96%&lt;/td&gt;
+      &lt;td&gt;61%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Poverty falls substantially in both budget-neutral versions—especially when children receive a full share—and most come out ahead. However, senior poverty also rises substantially. The Resilience UBI authors set the Full UBI adult roughly to replace the full new State Pension of &lt;a href=&quot;https://www.gov.uk/new-state-pension/what-youll-get&quot;&gt;£179.60 per week&lt;/a&gt;. Continuing to fully repeal State Pension while shrinking its replacement leaves many pensioners worse off, demonstrating the importance of making UBI generous if it’s to replace large benefits.&lt;/p&gt;
+
+&lt;h1 id=&quot;provisions-policyengine-doesnt-model&quot;&gt;Provisions PolicyEngine doesn’t model&lt;/h1&gt;
+
+&lt;h2 id=&quot;wealth-tax&quot;&gt;Wealth tax&lt;/h2&gt;
+
+&lt;p&gt;Of the Full UBI provisions omitted from our PolicyEngine analysis, the largest is the wealth tax, which the Resilience paper estimates could raise £116bn per year. The UBI Lab Network bases this figure on a &lt;a href=&quot;http://www.taxresearch.org.uk/Documents/WealthTaxData420.pdf&quot;&gt;2020 analysis&lt;/a&gt; from Richard Murphy, who finds that “if increases in wealth had been taxed at the same rate as income then an additional £174 billion of tax revenue might have been raised in the UK each year.” They then scale that down by a third to arrive at £116bn.&lt;/p&gt;
+
+&lt;p&gt;As shown in the table below, Murphy finds an effective tax rate on income of 29.4% from 2011 to 2018, and an effective tax rate on wealth increase of 3.4%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-11-19-resilience-ubi/wealth-tax-table.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Murphy adds caution to his results:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Whether or not it would be desirable, or even technically feasible, to raise £174 billion of additional tax from additional tax charges on wealth is not the primary issue addressed by this paper. Nor does it concern itself with the issue of whether that sum should be redistributed simply to redress wealth inequality. A value judgement is not being offered here on the matter of wealth holding, as such. Instead the issue of concern being addressed is that those most vulnerable to precarity within the UK are also those paying the highest overall effective rates of tax.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;£116bn is 0.8% of the &lt;a href=&quot;https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/totalwealthingreatbritain/april2016tomarch2018&quot;&gt;total net wealth&lt;/a&gt; of private households from 2016-2018, £14.6tn. Raising that revenue from wealth taxes would require an unprecedentedly broad base and high rates. According to the &lt;a href=&quot;http://taxsimulator.ukwealth.tax/#/&quot;&gt;Wealth Tax Commission Tax Simulator&lt;/a&gt;, a wealth tax with no exemption could raise £113bn per year if levied at 0.8% and zero avoidance is assumed.&lt;sup id=&quot;fnref:wtc-detail&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:wtc-detail&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; That means an extra 0.8% per year property tax for every homeowner, as well as a tax on all equities, vehicles, and other assets.&lt;/p&gt;
+
+&lt;p&gt;As a benchmark, &lt;a href=&quot;https://www.lifeinnorway.net/wealth-tax/&quot;&gt;Norway’s wealth tax&lt;/a&gt; levies a 0.85% tax on wealth above 1.5 million NOK (£130,000), or 3 million NOK (£260,000) for married couples. Norway also taxes primary residence at a quarter of their market value. The WTC Tax Simulator can approximate Norway’s structure with a 0.9% tax on wealth above £250,000, which yields £78bn per year when assuming no avoidance (there’s no option to reduce the value of primary residences). This falls to £69bn when assuming avoidance rates in line with the empirical literature.&lt;sup id=&quot;fnref:wealth-tax-avoidance&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:wealth-tax-avoidance&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; Raising £117bn under these assumptions would require a 1.7% tax rate.&lt;/p&gt;
+
+&lt;p&gt;As we explored in our &lt;a href=&quot;https://www.ubicenter.org/uk-lvt&quot;&gt;land value tax report&lt;/a&gt;, funding transfers with taxes on assets can push some the interaction of wealth and income could yield counterintuitive distributional impacts depending on measurement, with a wealth-tax-funded UBI pushing some high-asset low-income pensioners into poverty. Nevertheless, while it would be unprecedented for a wealth tax to raise £117bn per year, the Resilience UBI proposal leaves the door open for unprecedented actions, so it does seem to be possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;close-tax-loopholes&quot;&gt;Close tax loopholes&lt;/h2&gt;
+
+&lt;p&gt;In its section titled ‘Close tax loopholes’, the Resilience UBI report states:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The figures on the amount lost each year in tax varies widely, with HMRC estimating it at just over £30bn per year and some commentators estimating it as high as £90bn, depending on which legal and illegal means of paying less tax are considered.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020&quot;&gt;HMRC’s latest estimate of the ‘tax gap’ is 35bn&lt;/a&gt;, reflecting data for the 2019-2020 fiscal year. They define it as ‘the difference between the amount of tax that should, in theory, be paid to HMRC, and what is actually paid.’&lt;/p&gt;
+
+&lt;p&gt;The £90bn figure comes again from Richard Murphy, in a &lt;a href=&quot;https://www.taxresearch.org.uk/Blog/2019/06/19/the-uk-tax-gap-is-90-billion-a-year/&quot;&gt;2019 blog post&lt;/a&gt;. Here are the differences in £bn:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Component&lt;/th&gt;
+      &lt;th&gt;HMRC&lt;/th&gt;
+      &lt;th&gt;Murphy&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Domestic evasion&lt;sup id=&quot;fnref:evasion&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:evasion&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;20.4&lt;/td&gt;
+      &lt;td&gt;71.7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Avoidance&lt;sup id=&quot;fnref:avoidance&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:avoidance&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;7.3&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-payment&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Error&lt;/td&gt;
+      &lt;td&gt;3.7&lt;/td&gt;
+      &lt;td&gt;3.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;35.4&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;89.3&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total excl. avoidance&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;28.1&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;78.3&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Avoidance results from tax laws rather than enforcement. Since the Resilience paper does not specify tax reforms in this section, the core difference with respect to enforcement is the sum of domestic evasion, non-payment, and error. HMRC estimates that these categories sum to £28.1bn, a third of Murphy’s £78.3bn.&lt;/p&gt;
+
+&lt;p&gt;Murphy’s biggest difference from HMRC is the estimate of domestic evasion. Rather than HMRC’s bottom-up approach of comparing records for specific industries, Murphy assumes that the shadow economy represents 10% of GDP,&lt;sup id=&quot;fnref:shadow-economy&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:shadow-economy&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; and multiplies that 10% by the 33.1% average tax to GDP share. Murphy based his estimate of a 10% shadow economy on (a) the VAT tax gap at the time (&lt;a href=&quot;https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020&quot;&gt;now 8.4%&lt;/a&gt;), (b) an &lt;a href=&quot;https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583&quot;&gt;IMF paper&lt;/a&gt; estimating an 8.3% shadow economy as of 2015, (c) the &lt;a href=&quot;https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en&quot;&gt;EU’s estimate&lt;/a&gt; of the VAT gap as 10.9% in 2015&lt;sup id=&quot;fnref:tax-gap&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:tax-gap&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; (12.2% as of 2018), and (d) &lt;a href=&quot;https://www.researchgate.net/publication/301803819_Measuring_the_Tax_Gap_in_the_European_Economy&quot;&gt;Raczkowski (2015)&lt;/a&gt;’s estimate of a 9.7% total tax gap as of 2014.&lt;/p&gt;
+
+&lt;p&gt;A 10% shadow economy therefore seems plausible, though Murphy’s approach may overstate the tax gap because participants in the shadow economy could have lower incomes. This would assign them lower effective tax rates if the tax gap were closed, due to progressive taxation.&lt;/p&gt;
+
+&lt;p&gt;Additional resources—the Resilience paper proposes reassigning DWP workers to HMRC enforcement, for example—can plausibly shrink the tax gap by reducing evasion, errors, and non-payment. However, it’s unlikely that even significant additional resources could close the tax gap entirely. In 2016, HMRC &lt;a href=&quot;https://www.gov.uk/government/news/hmrc-taskforces-raise-more-than-half-a-billion&quot;&gt;celebrated&lt;/a&gt; enforcement actions raising £250 million, less than 1% of the &lt;a href=&quot;https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020&quot;&gt;total tax gap&lt;/a&gt; that year. The US government &lt;a href=&quot;https://home.treasury.gov/news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap&quot;&gt;estimates&lt;/a&gt; that significant investment in US tax enforcement can close about 10% of the US tax gap in the next decade.&lt;sup id=&quot;fnref:us-tax-gap&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:us-tax-gap&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Overall, we expect that HMRC more accurately captures the tax gap, and that additional enforcement could close it by the 10% estimated in the US. This comes to &lt;strong&gt;£2.8bn&lt;/strong&gt; per year.&lt;/p&gt;
+
+&lt;h2 id=&quot;vat&quot;&gt;VAT&lt;/h2&gt;
+
+&lt;p&gt;The standard VAT rate is currently 20%, and the Resilience UBI paper proposes raising it to 25%. The paper does not mention increasing the reduced rate of 5% for domestic fuel and power, children’s car seats and some other goods.&lt;/p&gt;
+
+&lt;p&gt;The Office for Budget Responsibility reports that &lt;a href=&quot;https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/&quot;&gt;“in 2019-20 VAT raised £134 billion”&lt;/a&gt;. They also find that around half of household expenditure is subject to the 20% rate, 3% is subject to the 5% rate, and the remainder is exempt or ‘zero-rated’. That indicates that £664 billion of household expenditure was subject to the 20% rate. Raising the standard VAT rate to 25% would therefore raise &lt;strong&gt;£33.2bn&lt;/strong&gt;, 21% more than the £27.5bn estimated in the Resilience paper. Increasing the reduced rate from 5% to 10% would raise an additional £2bn.&lt;/p&gt;
+
+&lt;h2 id=&quot;corporation-tax&quot;&gt;Corporation Tax&lt;/h2&gt;
+
+&lt;p&gt;While the Resilience UBI paper explores a number of Corporation Tax reforms, such as variable rates based on codetermination, wages, and local investments, as well as adding a Robot Tax, Carbon Tax, or Data Tax, its core proposal is a “5% net increase in the overall Corporation Tax rate”, implying a rise from its current 19% to 24%. Based on the current revenue of £55bn,&lt;sup id=&quot;fnref:corp-tax&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:corp-tax&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt; they estimate that this would raise £14.5bn.&lt;/p&gt;
+
+&lt;p&gt;However, Corporation Tax is already &lt;a href=&quot;https://www.legislation.gov.uk/ukpga/2021/26/enacted&quot;&gt;slated to rise&lt;/a&gt; from 19% to 25% for corporations with profits above £250,000 in 2023, and corporations with profits between £50,000 and £250,000 will see their rate rise on a sliding scale from 19% to 25%. The Office of Budget Responsibility &lt;a href=&quot;https://obr.uk/download/march-2021-economic-and-fiscal-outlook-corporation-tax-rate-increase/&quot;&gt;estimates&lt;/a&gt; that this will raise £11.9bn in 2023; dynamic responses cut this 14% below their static estimate of £13.9bn.&lt;/p&gt;
+
+&lt;p&gt;Further raising Corporation Tax to 30% would push the UK above the average Corporation Tax rate among peer countries, which is generally around 27%. As a result, corporations would benefit more from shifting operations and profits to other countries, and the revenue opportunity would shrink.&lt;/p&gt;
+
+&lt;p&gt;Conservatively applying OBR’s 14% haircut, we estimate that the tax would raise &lt;strong&gt;£12.5bn&lt;/strong&gt; rather than the static estimate of £14.5bn.&lt;/p&gt;
+
+&lt;h2 id=&quot;financial-transactions-tax&quot;&gt;Financial Transactions Tax&lt;/h2&gt;
+
+&lt;p&gt;The Resilience UBI paper says of the Financial Transactions Tax (FTT):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…the Labour Party’s 2019 manifesto references plans for additional UK based FTT on foreign exchange which the party estimates could raise as much as £8.8bn. However, other sources put this figure as low as £2bn.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They cite an &lt;a href=&quot;https://www.opendemocracy.net/en/oureconomy/why-uk-needs-financial-transaction-tax/&quot;&gt;op-ed&lt;/a&gt; for the £2bn figure, which then cites an &lt;a href=&quot;https://election2019.ifs.org.uk/uploads/IFS-General-Election-Analysis-Stuart-Adam-Tax_.pdf&quot;&gt;IFS analysis&lt;/a&gt; stating that it is “doubtful [the FTT] will raise the £9bn Labour assumes” though not estimating a particular value. In a &lt;a href=&quot;https://www.internationaltaxreview.com/article/b1ht7s272j2rvq/uk-election-puts-the-financial-transaction-tax-on-the-agenda&quot;&gt;2019 article&lt;/a&gt;, Josh White says (without providing a source): \&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The UK has an SDRT [stamp duty reserve tax] rate of 0.5% on share trading, which raised £3.5 billion ($4.5 billion) in 2017/18. Labour’s proposal would expand this to include transactions involving corporate bonds, equity and credit derivatives, raising an extra £2.1 billion in annual tax revenues.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Resilience UBI paper ultimately uses &lt;strong&gt;£2bn&lt;/strong&gt;, which seems reasonable.&lt;/p&gt;
+
+&lt;h2 id=&quot;bringing-it-all-together&quot;&gt;Bringing it all together&lt;/h2&gt;
+
+&lt;p&gt;The UBI Lab Network estimates that their entire Full UBI policy would produce a £33.7bn surplus. Adding the PolicyEngine results with separate estimates of provisions not yet modeled in PolicyEngine, we estimate a &lt;strong&gt;£55.5bn deficit.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Element&lt;/th&gt;
+      &lt;th&gt;UBI Lab Network&lt;/th&gt;
+      &lt;th&gt;UBI Center&lt;/th&gt;
+      &lt;th&gt;Difference&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Full UBI&lt;/td&gt;
+      &lt;td&gt;(580)&lt;/td&gt;
+      &lt;td&gt;(585)&lt;/td&gt;
+      &lt;td&gt;-5 (1%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Savings from current welfare programmes&lt;/td&gt;
+      &lt;td&gt;170&lt;/td&gt;
+      &lt;td&gt;131&lt;/td&gt;
+      &lt;td&gt;-39 (23%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrapping Personal Tax Allowance&lt;/td&gt;
+      &lt;td&gt;111.2&lt;/td&gt;
+      &lt;td&gt;85&lt;/td&gt;
+      &lt;td&gt;-26.2 (24%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New Income Tax bands&lt;/td&gt;
+      &lt;td&gt;82.5&lt;/td&gt;
+      &lt;td&gt;141&lt;/td&gt;
+      &lt;td&gt;+58.5 (71%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New NIC bands&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;-24 (80%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net budget impact of PolicyEngine provisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(186.3)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(222)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-35.7 (19%)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Wealth Tax&lt;/td&gt;
+      &lt;td&gt;116&lt;/td&gt;
+      &lt;td&gt;116&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Close tax loopholes&lt;/td&gt;
+      &lt;td&gt;60&lt;/td&gt;
+      &lt;td&gt;2.8&lt;/td&gt;
+      &lt;td&gt;-57.2 (95%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;VAT increase&lt;/td&gt;
+      &lt;td&gt;27.5&lt;/td&gt;
+      &lt;td&gt;33.2&lt;/td&gt;
+      &lt;td&gt;+5.7 (21%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reform Corporation Tax&lt;/td&gt;
+      &lt;td&gt;14.5&lt;/td&gt;
+      &lt;td&gt;12.5&lt;/td&gt;
+      &lt;td&gt;-2 (14%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Financial Transactions Tax&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net budget impact of non-PolicyEngine provisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;220.0&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;166.5&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-53.5 (24%)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net combined budget impact&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;33.7&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(55.5)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-89.2&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The UBI Lab Network’s Resilience UBI is among the more comprehensive UBI plans put forth. Its Full UBI incorporates a range of revenue sources that nearly meets the tall task of funding a generous UBI. Even budget-neutral versions of the plan, limiting to PolicyEngine capabilities, reduce poverty by at least a quarter and benefit most UK residents.&lt;/p&gt;
+
+&lt;p&gt;And yet, even with generous assumptions, we estimate that it falls short by over £50bn. This can be fully explained by a £57bn gap in estimated revenue from closing tax loopholes (a relatively subjective reform), though other assumptions like savings from welfare programs (which PolicyEngine measures precisely) also play a part.&lt;/p&gt;
+
+&lt;p&gt;In the future, PolicyEngine will support modelling more components of this policy, such as the VAT increase and a wealth tax. While that full analysis will clarify these points, one area of potential concern is pensioner impact. Budget-neutral versions of the Full UBI left pensioner poverty rising 75-95%, as the UBI failed to cover State Pension. The true Full UBI cuts pension poverty 45%, but the VAT and wealth tax could offset that. As we showed in our &lt;a href=&quot;https://www.ubicenter.org/uk-lvt&quot;&gt;land dividend&lt;/a&gt; report, some low-income pensioners have enough wealth for taxes on wealth or components of it (such as land) can exceed UBI payments, especially at the high rates needed to raise £116bn per year. Similarly, pensioners continue to consume goods and services subject to VAT. Fully modelling this out may justify optimising the UBI amount, as we did in our &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;Blank Slate UBI&lt;/a&gt; report, which provided a larger UBI to pensioners than to working-age adults.&lt;/p&gt;
+
+&lt;p&gt;Beyond poverty and inequality reduction, the Resilience UBI would have other pros and cons, from a simpler, more streamlined welfare state and more predictable marginal tax rates, to higher average marginal tax rates and increased taxes on production, both of which risk shrinking the economy. Nevertheless, as our Blank Slate UBI paper did six months ago, the UBI Lab Network’s proposal marks an important step in the discussion of how to model a true—and truly funded—universal basic income. We look forward to continuing that discussion in the future.&lt;/p&gt;
+
+&lt;h1 id=&quot;appendix-a-differences-in-revenue-estimates&quot;&gt;Appendix A: Differences in revenue estimates&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Personal Allowance repeal&lt;/em&gt;: the report gives examples of how the new tax rates and personal allowance repeal would be administered (&lt;a href=&quot;https://static1.squarespace.com/static/5a7b08c0d0e628f80b2cce36/t/61604d8538f8954ba0e3349c/1633701328005/resilience-proposal.pdf/page=16&quot;&gt;page 15&lt;/a&gt;), which imply that the higher rate threshold will be increased from £37,700 to £50,000 (this would not happen automatically, as the Income Tax rate thresholds are defined over taxable income minus allowances). The New Economics Foundation also costed a repeal of the Personal Allowance (&lt;a href=&quot;https://neweconomics.org/uploads/files/NEF_WeeklyNationalAllowance_2019.pdf#page=5&quot;&gt;clarifying this mechanic&lt;/a&gt;) and found the full repeal without adjusting the higher threshold was £111bn.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Welfare savings&lt;/em&gt;: the report cites the benefit expenditure and caseload tables produced by the DWP, and states that the savings are estimated from £100bn in State Pension payments and £70bn in income-related benefits. However,
+    &lt;ul&gt;
+      &lt;li&gt;£100bn in State Pension payments is the total amount of gross payments, not net of income tax repayments. Repealing it would lower income tax revenues, reducing the total revenue raised.&lt;/li&gt;
+      &lt;li&gt;“Income-related benefits” in the table includes Housing Benefit, as well as Universal Credit. Housing benefit is not repealed by the Resilience UBI plan, but its repeal is included in the costing. Furthermore, the Universal Credit figure is reached by the tables as a composite of working-age Housing Benefit, and other related benefits. It’s not clear whether Resilience UBI would leave in the housing costs element of Universal Credit (we’ve assumed they would).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;National Insurance bands&lt;/em&gt;: it’s unclear how the figures were reached in the paper. The paper states: &lt;em&gt;“A flat rate of 10%, for example, would represent a 2% rebate to lower earners, an 8% increase on higher earners and a net increase of 6% in NIC income overall, bringing in approximately £30bn extra a year.”&lt;/em&gt; The marginal application of NIC rates is an important detail but isn’t the determinant of the revenue impact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:acknowledgment&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We’re excited that the UBI Lab Network has hosted PolicyEngine’s first external embed, and we invite other organizations to &lt;a href=&quot;mailto:contact@ubicenter.org&quot;&gt;contact us&lt;/a&gt; to establish similar partnerships. &lt;a href=&quot;#fnref:acknowledgment&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:sequence&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We simulate provisions of the Full UBI plan in the order shown in the table: &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&quot;&gt;UBI only&lt;/a&gt; (£585bn), &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&quot;&gt;UBI + welfare reforms&lt;/a&gt; (£454bn), &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&quot;&gt;UBI + welfare reforms + Personal Allowance&lt;/a&gt; (£369bn), &lt;a href=&quot;https://uk.policyengine.org/population-results?child_UBI=92&amp;amp;adult_UBI=184&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_WTC=1&amp;amp;abolish_SP=1&amp;amp;abolish_PC=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;UC_single_young=0&amp;amp;UC_couple_young=0&amp;amp;UC_single_old=0&amp;amp;UC_couple_old=0&amp;amp;WA_adult_UBI_age=16&amp;amp;personal_allowance=0&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;add_rate=60&quot;&gt;UBI + welfare reforms + Personal Allowance + Income Tax bands&lt;/a&gt; (£228bn), and the &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;fully modeled reform&lt;/a&gt; (£222bn). We omit ‘People’s Quantitative Easing’ and ‘Citizen’s Wealth Fund’. &lt;a href=&quot;#fnref:sequence&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:wtc-detail&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;£118.5bn when including the ‘rich list’ of UK citizens who may not be residents of the UK, minus £6.0bn per in administration. The Wealth Tax Commission also estimates that this would require a one-time cost of £0.6bn to set up. &lt;a href=&quot;#fnref:wtc-detail&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:wealth-tax-avoidance&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Table A1 in Penn Wharton Budget Model’s &lt;a href=&quot;https://budgetmodel.wharton.upenn.edu/issues/2019/12/12/senator-elizabeth-warrens-wealth-tax-projected-budgetary-and-economic-effects&quot;&gt;analysis&lt;/a&gt; of US Senator Elizabeth Warren’s Wealth Tax shows an average semi-elasticity of taxable wealth of 13. We show results based on the closest value in the WTC Tax Simulator: 12%. &lt;a href=&quot;#fnref:wealth-tax-avoidance&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:evasion&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We group into a single ‘Evasion’ category HMRC’s behaviours of &lt;em&gt;Failure&lt;/em&gt; to take reasonable care, Evasion, Criminal attacks,* and &lt;em&gt;Hidden economy&lt;/em&gt;, as well as Murphy’s breakout of &lt;em&gt;Domestic evasion *and *Evasion by wealthy using offshore&lt;/em&gt;. &lt;a href=&quot;#fnref:evasion&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:avoidance&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We follow Murphy and include in &lt;em&gt;Avoidance&lt;/em&gt; the &lt;em&gt;Legal interpretation&lt;/em&gt; category, in which HMRC and the taxpayer arrive at different interpretations of laws governing liabilities. &lt;a href=&quot;#fnref:avoidance&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:shadow-economy&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Murphy also assumes that this 10% shadow economy is not counted in GDP today. &lt;a href=&quot;#fnref:shadow-economy&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:tax-gap&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en&quot;&gt;current EU report&lt;/a&gt; shows 9.9% as of 2015 (Table B7). Murphy reports 10.88% for the same source in &lt;a href=&quot;https://www.socialistsanddemocrats.eu/sites/default/files/2019-01/the_european_tax_gap_en_190123.pdf&quot;&gt;his 2019 report&lt;/a&gt; (Table 5). &lt;a href=&quot;#fnref:tax-gap&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:us-tax-gap&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The US Treasury Department estimates the current tax gap at about $600 billion. They also estimate that “$80 billion of investment over the coming ten years in enforcement, IT, and taxpayer services [would generate] an estimated $320 billion in additional tax collections over the next ten years” and that “changes to the third-party information reports are estimated to generate $460 billion over a decade.” After the investment, that’s an average of $70 billion per year, or 12% of the current tax gap, which might shrink to around 10% given the projected growth of the tax gap. &lt;a href=&quot;#fnref:us-tax-gap&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:corp-tax&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;They cite the 2018-19 Corporation Tax revenue of £55bn. Corporation Tax liabilities remained at that £55bn in &lt;a href=&quot;https://www.gov.uk/government/statistics/corporation-tax-statistics-2021/corporation-tax-statistics-commentary-2021&quot;&gt;2019-20&lt;/a&gt;. &lt;a href=&quot;#fnref:corp-tax&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="policyengine" />
+      
+
+      
+        <summary type="html">We modeled the new comprehensive plans in PolicyEngine UK.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">&amp;amp;#147There you may behold the rent&amp;amp;#148: Effects of a UK land dividend</title>
+      <link href="/uk-lvt" rel="alternate" type="text/html" title="&amp;#147There you may behold the rent&amp;#148: Effects of a UK land dividend" />
+      <published>2021-09-19T00:00:00+00:00</published>
+      <updated>2021-09-19T00:00:00+00:00</updated>
+      <id>/uk-lvt</id>
+      <content type="html" xml:base="/uk-lvt">&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;See the simulation in PolicyEngine&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a 1775 lecture, an English Radical proposed making the land in every parish “the property of the corporation or parish,” and sharing the rents with society.
+About two-thirds of the revenue would fund public services, and the remainder would be divided “among the whole number of souls, male and female, married and single in a parish from the infant of a day old to the second infantage of hoary hairs.”
+That Radical was named Thomas Spence, and the lecture, &lt;em&gt;&lt;a href=&quot;https://quod.lib.umich.edu/e/ecco/004808953.0001.000/1:3?rgn=div1;view=fulltext&quot;&gt;The Meridian Sun of Liberty&lt;/a&gt;&lt;/em&gt;, became the first known mention of a universal basic income (UBI).&lt;/p&gt;
+
+&lt;p&gt;While Spence was the first to call for UBI, proposals for common ownership of land predated him by centuries.
+Today, the only large-scale government UBI, Alaska’s Permanent Fund Dividend, follows this model of funding through natural resources.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we simulate a UBI funded by a land value tax (LVT), or what we call a &lt;em&gt;land dividend&lt;/em&gt;, in the UK.
+We find that a 1 percent land dividend could fund a UBI of £16 per week, reducing poverty by 20% and leaving 70% of the population better off (&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;you can explore the simulation in PolicyEngine&lt;/a&gt;).
+Unlike our previous simulations, this is a tax on wealth, and we discuss challenges measuring distributional effects given imperfect correlation between assets and income.
+But first, some background on the oldest idea in the UBI chronology.&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-the-land-dividend&quot;&gt;History of the land dividend&lt;/h1&gt;
+
+&lt;p&gt;Five and a half centuries before Spence, King Henry III sealed a pair of revolutionary English documents: the &lt;em&gt;Magna Carta&lt;/em&gt;, and the &lt;em&gt;Charter of the Forest&lt;/em&gt;.
+The latter sought to rebalance access to the commons, following decades of Kings closing off their forests, charging fees, rents, and penalties to those who hunted on or otherwise used the royal lands.
+The 1217 document allowed all to use the forest as pasture, providing that “Every freeman may agest his own wood within our forest at his pleasure, and shall take his pawnage.”
+So began England’s expansion of rights to common lands, and the subsistence they afford.&lt;/p&gt;
+
+&lt;p&gt;Thomas Paine became the first prominent advocate of a land tax, notably in his 1797 pamphlet, &lt;em&gt;Agrarian Justice&lt;/em&gt;, which called for taxing land inheritances.
+While he stopped short of a full UBI, Paine proposed that the land tax be used for semi-universal payments, in what is also described as the first old-age pension proposal:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[Government must] create a national fund, out of which there shall be paid to every person, when arrived at the age of twenty-one years, the sum of fifteen pounds sterling, as a compensation in part, for the loss of his or her natural inheritance, by the introduction of the system of landed property. And also, the sum of ten pounds per annum, during life, to every person now living, of the age of fifty years, and to all others as they shall arrive at that age.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Spence’s proposal was partly a response to Paine’s (while they were both published in 1796-1797, they had spoken of their respective ideas prior).
+He felt that land was a source of wealth, and that it should be shared with all people—not only once upon a 21st birthday and then in older years.
+In &lt;em&gt;The Meridian Sun of Liberty&lt;/em&gt;, Spence spoke of the universality in liberatory terms:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;By this one bold resolve your chains are eternally broken, and your enemies annihilated. By this one resolve the power, the pride, and the arrogance of the landed interest, those universal and never ceasing scourges and plunderers of your race, are instantane∣ously and for ever broken and cut off. For being thus deprived and shorn of their revenues they become like shorn Sampson, weak as other men; weak as the poor dejected wretches whom they have so long been grinding and treading under toot. There you may behold the rent, which the people have paid into the parish treasuries…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nearly a century later, American political economist Henry George introduced the idea of an annual land value tax.
+While Paine proposed taxing land upon inheritance and Spence proposed collective ownership of land, George sought to marry the concept of collective land ownership with the administrative difficulty of seizing the land; taxing land values each year based on market rents was his solution.
+George did not call for any specific use of the LVT revenue (such as UBI), but his 1879 book &lt;em&gt;Progress and Poverty&lt;/em&gt; claimed that the private capture of land rents explains the persistence of poverty amid economic progress:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The great cause of inequality in the distribution of wealth is inequality in the ownership of land. The ownership of land is the great fundamental fact which ultimately determines the social, the political, and consequently the intellectual and moral condition of a people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the modern era, the economist Milton Friedman supported both the LVT and UBI, though not apparently together.
+Friedman, one of the most influential economists of the 20th century, proposed in his 1962 book &lt;a href=&quot;https://en.wikipedia.org/wiki/Capitalism_and_Freedom&quot;&gt;&lt;em&gt;Capitalism and Freedom&lt;/em&gt;&lt;/a&gt; replacing the existing safety net with a negative income tax (a means-tested UBI).
+&lt;a href=&quot;https://www.youtube.com/watch?v=yS7Jb58hcsc&quot;&gt;In 1978&lt;/a&gt;, he then stated his support for LVT:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There’s a sense in which all taxes are antagonistic to free enterprise – and yet we need taxes. …So the question is, which are the least bad taxes? In my opinion the least bad tax is the property tax on the unimproved value of land, the Henry George argument of many, many years ago.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Today, only one government has enacted a true UBI: Alaska, through its Permanent Fund Dividend.
+Each year, every resident of Alaska receives a payment of between $1,000 and $3,000, regardless of age or income.
+How is it funded?
+The return on the Alaska Permanent Fund, its fund built from oil reserves.
+That is, the only true UBI on Earth is an expression of the shared ownership of land and natural resources.&lt;/p&gt;
+
+&lt;h1 id=&quot;land-and-land-taxation-in-the-uk&quot;&gt;Land and land taxation in the UK&lt;/h1&gt;
+
+&lt;p&gt;The UK Office of National Statistics (ONS) estimates that UK land is worth &lt;a href=&quot;https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/bulletins/nationalbalancesheet/2018&quot;&gt;£5.7 trillion&lt;/a&gt;, 51% of the country’s total net worth; this is a larger share than peer countries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-09-19-uk-lvt/land_wealth_share_G7_countries.png&quot; alt=&quot;Land value as a share of G7 countries net worth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UK does not have a direct land value tax, but it does have three taxes that indirectly tax the value of land:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/council-tax&quot;&gt;Council Tax&lt;/a&gt;&lt;/strong&gt; is a tax on residential property levied on residents (owner-occupiers or renters). Councils assign each property a Council Tax band depending on its value, and then levy flat tax levels for all properties in the same band. Council Tax is means tested through &lt;a href=&quot;https://www.gov.uk/apply-council-tax-reduction&quot;&gt;Council Tax Reduction&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/introduction-to-business-rates&quot;&gt;Business rates&lt;/a&gt;&lt;/strong&gt; are taxes on commercial property, set at roughly 0.5% of the property value.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/stamp-duty-land-tax&quot;&gt;Stamp Duty Land Tax&lt;/a&gt;&lt;/strong&gt; (or just “Stamp Duty”) is a tax on the transfer of property, set progressively between 0% and 12% of the sale price. Despite its name, it taxes the full property value, including both land and structures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For simplicity, our simulation leaves these taxes intact, though we return to these taxes in the conclusion.
+Our simulation did require land value and income in a single dataset; since this does not exist, 
+we &lt;a href=&quot;https://policyengine.github.io/openfisca-uk-data/imputation.html#imputing-land-value-to-the-frs&quot;&gt;fused data from three sources&lt;/a&gt; with machine learning to arrive at our estimates.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We model a 1% tax on the £5.5 trillion in non-government land value, which raises £55 billion per year.
+By itself, this tax is essentially flat from a distributional perspective, raising the Gini inequality index by 0.08%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;However, when distributing the proceeds as UBI, the 1% LVT funds £16 per person per week, and becomes highly progressive.
+The bottom decile’s income would rise 16% and the top decile’s income would fall by 2%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The 1% land dividend would cut poverty by 20% overall, though with significant heterogeneity by age: child poverty would fall 30%, while pensioner poverty would fall only 4%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Impacts vary within income deciles as well.
+89% of the bottom decile comes out ahead, though 7% of them would experience net income decreases of 5% or more (high-asset, low-income people, like many pensioners).
+Conversely, two in five members of the upper decile would come out ahead (low-asset, high-income people, like newly-graduated physicians).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To illustrate the effect on an high-asset low-income person, consider a single pensioner who owns a £1 million home.
+Given the average 62% land value share, they would own £620,000 of land, and thus face a £6,200 annual land tax bill.
+About £830 of which would be offset by the UBI.
+If their main income is the £7,200 from &lt;a href=&quot;https://www.gov.uk/state-pension&quot;&gt;State Pension&lt;/a&gt;, the policy would push them well below the poverty line.&lt;/p&gt;
+
+&lt;p&gt;But is that person actually poor? They’re living in a £1 million home, which, based on the &lt;a href=&quot;https://www.globalpropertyguide.com/Europe/United-Kingdom/price-rent-ratio&quot;&gt;average price-to-rent ratio&lt;/a&gt;, would cost £28,000 per year to rent.
+If they were renting instead of being a homeowner, they’d need £28,000 extra income; indeed, it’s as if they are a renter in their own home, paying themselves rent each month. This concept has a name: &lt;em&gt;imputed rent&lt;/em&gt;.
+Imputed rents factor prominently into measurements like GDP and inflation, but they’re not part of poverty measurements.&lt;/p&gt;
+
+&lt;p&gt;Or consider if this person doesn’t just have a £1 million home, but also £1 million in equities.
+Under a 1% LVT, they’d pay another £3,300 per year in taxes through their £330,000 in indirect land holdings.
+But in practice, this would just lower the value of their holdings, rather than being a tax they’d pay in that year, as our accounting would assume.&lt;/p&gt;
+
+&lt;p&gt;These scenarios can also intersect.
+Suppose the pensioner wanted to sell some stock to pay the LVT bill on their home.
+Even if we included capital gains in income (neither we nor the UK government do), we lack the behavioral knowledge to model how much they would sell.&lt;/p&gt;
+
+&lt;p&gt;There’s no straightforward way to marry asset-based taxes like LVT with income-based measurements like poverty.
+Accounting for imputed rents and capital gains would be a start, but ultimately these concepts differ in ways that cannot be fully reconciled, only explained.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-pro-growth-step-toward-ubi&quot;&gt;A pro-growth step toward UBI&lt;/h2&gt;
+
+&lt;p&gt;Economic theory states that the deadweight loss (economic inefficiency) of a tax depends, in part, on how elastic (responsive) the supply is to the tax.
+Personal income taxes shrink the economy because people reduce their labor supply in response to the tax; VATs shrink the economy because people reduce their consumption in response to the tax; and so on.
+Sometimes this responsiveness can grow the economy, when the reduced behavior has negative externalities, and these Pigouvian taxes like &lt;a href=&quot;http://ubicenter.org/us-carbon-dividend&quot;&gt;carbon taxes&lt;/a&gt; are generally considered the most economically efficient taxes.&lt;/p&gt;
+
+&lt;p&gt;Short of Pigouvian taxes, though, land taxes are most efficient, because their supply is fixed.
+That is, there is zero deadweight loss from land value taxes, because the price elasticity of supply is zero.
+A &lt;a href=&quot;https://www.oecd-ilibrary.org/docserver/241216205486.pdf?expires=1625154113&amp;amp;id=id&amp;amp;accname=guest&amp;amp;checksum=1C37382017FFC08ADBEAB9DB5DD0F96C&quot;&gt;2008 paper from the OECD Economics Department&lt;/a&gt; confirms this theory:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The reviewed evidence and the empirical work suggests recurrent taxes on immovable property being the least distortive tax instrument in terms of reducing long-run GDP per capita.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;LVTs will be more efficient than the property taxes lauded in the OECD report, which include Council Tax and Business rates in the UK.
+Property taxes tax both land and structures, and taxes on structures suppress construction.
+LVT will be especially more efficient than the non-recurrent Stamp Duty, which discourages transferring property to owners that can make more productive use of it.
+The &lt;a href=&quot;https://fairershare.org.uk&quot;&gt;Fairer Share campaign&lt;/a&gt; proposes replacing these three taxes with a proportional property tax, reducing complexity and distortions from Stamp Duty, though stopping short of removing the tax on structures as an LVT would.&lt;/p&gt;
+
+&lt;p&gt;LVT is far from new: most of the world levies some form of land tax, even if it’s typically paired with an equal tax on structures and dubbed a property tax.
+In addition, some jurisdictions levy land only taxes, such as the progressive land tax up to 2.25% of &lt;a href=&quot;https://www.sro.vic.gov.au/land-tax&quot;&gt;Victoria, Australia&lt;/a&gt;, and the flat 4% tax (atop a 1% property tax) of &lt;a href=&quot;https://www.strongtowns.org/journal/2019/3/6/non-glamorous-gains-the-pennsylvania-land-tax-experiment&quot;&gt;Allentown, Pennsylvania, USA&lt;/a&gt;.
+Progressive land taxes can be avoided by splitting parcels, while flat land taxes can produce distributional issues if not offset by transfers.
+This analysis shows that pairing LVT with UBI can produce economically efficient, progressive redistribution.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="policyengine" />
+      
+        <category term="land" />
+      
+
+      
+        <summary type="html">Funding universal basic income with a land value tax would reduce poverty and inequality, while raising questions about distributional measurement.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing PolicyEngine UK</title>
+      <link href="/introducing-policyengine" rel="alternate" type="text/html" title="Introducing PolicyEngine UK" />
+      <published>2021-09-01T00:00:00+00:00</published>
+      <updated>2021-09-01T00:00:00+00:00</updated>
+      <id>/introducing-policyengine</id>
+      <content type="html" xml:base="/introducing-policyengine">&lt;h2 id=&quot;try-it-at-policyengineorg&quot;&gt;Try it at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Here at the UBI Center, technology has long supported our mission to make universal basic income the world’s most thoroughly researched economic policy.
+Along with our &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;first analysis&lt;/a&gt;, we created &lt;a href=&quot;plans.ubicenter.org&quot;&gt;Plan Explorer&lt;/a&gt; to help people understand the impact of Andrew Yang’s Freedom Dividend on households like theirs.
+We’ve since integrated interactive graphics to a growing share of our reports.
+And just last month, we launched the &lt;a href=&quot;bib.ubicenter.org&quot;&gt;Basic Income Builder&lt;/a&gt; to enable anyone to model the impact of various budget-neutral UBI policies on poverty and inequality in the US.&lt;/p&gt;
+
+&lt;p&gt;We’ve also built technology behind the scenes to model taxes and benefits as demanded by UBI policies.
+Over the past year, we’ve developed &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca UK&lt;/a&gt;, the UK’s first open source tax and benefit microsimulation model, and we’ve used it to produce &lt;a href=&quot;https://www.ubicenter.org/tag/uk/&quot;&gt;four reports&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/bien-2021&quot;&gt;three conference presentations&lt;/a&gt; on UBI in the UK.
+All of our technologies are open source, and they wouldn’t be possible without the prior work of other open source projects (&lt;a href=&quot;openfisca.org&quot;&gt;OpenFisca&lt;/a&gt;, &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;pandas&lt;/a&gt;, &lt;a href=&quot;https://github.com/plotly&quot;&gt;plotly&lt;/a&gt;, and &lt;a href=&quot;http://taxcalc.pslmodels.org/&quot;&gt;Tax-Calculator&lt;/a&gt;, just to name a few).&lt;/p&gt;
+
+&lt;p&gt;Today, we’re bringing together these interactive and microsimulation technologies into a new product: &lt;strong&gt;&lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;&lt;/strong&gt;.
+With PolicyEngine, anyone can reform the UK tax and benefit system, and see how it would affect the UK population as well as their own household.
+See the video below for a quick overview of how PolicyEngine works.&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nv_gVtokikU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As an example, let’s reproduce the reform we studied in July to &lt;a href=&quot;https://www.ubicenter.org/personal-allowance&quot;&gt;replace the personal allowance with a UBI&lt;/a&gt;.
+On the &lt;em&gt;Policy&lt;/em&gt; page, start by selecting &lt;em&gt;Tax &amp;gt; Income tax &amp;gt; Allowances&lt;/em&gt;, and drag the &lt;em&gt;Personal allowance&lt;/em&gt; slider to £0.&lt;sup id=&quot;fnref:params&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:params&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Then head to &lt;em&gt;Benefits &amp;gt; UBI&lt;/em&gt;, and toggle &lt;em&gt;AutoUBI&lt;/em&gt; to calculate the budget-neutral UBI.
+PolicyEngine finds that repealing the personal allowance funds a UBI of £29 per week, matching our July report.&lt;/p&gt;
+
+&lt;p&gt;From there, you can click &lt;em&gt;Simulate on the population&lt;/em&gt; to see the poverty impact (-29%, mirroring our report), the budget impact by provision, and other distributional effects.
+You can also enter information about your household to see how the reform would affect your net income, as well as the impact to your net income and marginal tax rates depending on your earnings.&lt;/p&gt;
+
+&lt;p&gt;PolicyEngine supports millions of policy reforms, including those not involving UBI.
+We’ll be enhancing it every week and leveraging it for all future UK research.
+We’re also working on bringing PolicyEngine to the US and hope to expand its reach more broadly (please consider &lt;a href=&quot;https://ubicenter.org/donate&quot;&gt;supporting these development and hosting costs&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;What policy reforms have you been waiting to simulate?
+Try them out at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt; and &lt;a href=&quot;https://zej8fnylwn9.typeform.com/to/XFFu15Xq&quot;&gt;let us know what you think&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://us02web.zoom.us/meeting/register/tZAlde6prz4sHNH7Pj1AWRokyrnr7yJDK7tt&quot;&gt;&lt;em&gt;Join us at 6PM BST today for a tour and Q&amp;amp;A of PolicyEngine.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:params&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;PolicyEngine uses policy parameters as of 2021-01-01, when the personal allowance was £12,500, rather than its current value of £12,570. We’re working on updating policy parameters to the current date. Our FAQ shows other caveats. &lt;a href=&quot;#fnref:params&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="policyengine" />
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our new product democratises tax and benefit analysis. Try it at policyengine.org.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

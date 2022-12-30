@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/tag/california/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/tag/california/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">What if California gave money to everyone, not only vehicle owners?</title>
+      <link href="/california-vehicle-payment" rel="alternate" type="text/html" title="What if California gave money to everyone, not only vehicle owners?" />
+      <published>2022-04-21T00:00:00+00:00</published>
+      <updated>2022-04-21T00:00:00+00:00</updated>
+      <id>/california-vehicle-payment</id>
+      <content type="html" xml:base="/california-vehicle-payment">&lt;p&gt;Last month, Governor Gavin Newsom &lt;a href=&quot;https://www.gov.ca.gov/2022/03/23/governor-newsom-proposes-11-billion-relief-package-for-californians-facing-higher-gas-prices/&quot;&gt;proposed an $11 billion package&lt;/a&gt; for Californians facing higher gas prices. Newsom reserved $9 billion of this to send each vehicle owner $400 for each registered vehicle, up to two per person.&lt;/p&gt;
+
+&lt;p&gt;In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. We find that 93% of Californians are in households that would benefit from the per-vehicle payment. Replacing that policy with a per-person payment would leave 56% of Californians better off, cut poverty 32% more, deep child poverty 118% more, and inequality 29% more.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-californians-might-get-400-per-vehicle&quot;&gt;Why Californians might get $400 per vehicle&lt;/h2&gt;
+
+&lt;p&gt;Like other goods and services, gasoline has gotten more expensive over the past year. But when &lt;a href=&quot;https://www.usnews.com/news/best-countries/slideshows/a-timeline-of-the-russia-ukraine-conflict&quot;&gt;Russia invaded Ukraine on February 24&lt;/a&gt;, the global oil market contracted in anticipation of sanctions against the &lt;a href=&quot;https://www.eia.gov/tools/faqs/faq.php?id=709&amp;amp;t=6&quot;&gt;world’s third-largest oil producer&lt;/a&gt;. In the first two weeks of March, &lt;a href=&quot;https://fred.stlouisfed.org/series/GASREGW&quot;&gt;gas prices jumped 20 percent nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://fred.stlouisfed.org/graph/graph-landing.php?g=OoCX&amp;amp;width=670&amp;amp;height=475&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;overflow:hidden; width:670px; height:525px;&quot; allowtransparency=&quot;true&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The oil crunch has affected California similarly to the rest of the country. Compared to a year ago, as of April 19, AAA reports that &lt;a href=&quot;https://gasprices.aaa.com/?state=CA&quot;&gt;gasoline is up 44% in California and 43% nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Governor Newsom announced his $11 billion package to address high gas prices on March 23, a week after they peaked. This package pauses the inflation adjustment for the gas and diesel taxes ($1.1 billion, as &lt;a href=&quot;https://www.ebudget.ca.gov/2022-23/pdf/BudgetSummary/FullBudgetSummary.pdf#page=216&quot;&gt;Newsom’s January budget&lt;/a&gt; previously called for) and creates grants to encourage transit agencies to make transit free for three months ($750 million). The most expensive element is the $9 billion vehicle payment.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-cars-california-households-own&quot;&gt;How many cars California households own&lt;/h2&gt;
+
+&lt;p&gt;The 2019 American Community Survey, which we use for this analysis&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, reports a total of 25.7 million vehicles owned by households&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. That’s an average of 0.92 per adult, though that ratio increases with income, and adults in poverty&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; own 26% fewer vehicles than those not in poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;benchmarking-against-a-universal-per-person-payment&quot;&gt;Benchmarking against a universal per-person payment&lt;/h2&gt;
+
+&lt;p&gt;Allocating each household’s vehicles randomly among the adults in each household, we estimate that the vehicle payment would cost $10.0 billion. This likely exceeds Newsom’s estimate (which probably uses restricted DMV data) because households may concentrate vehicle ownership among specific adults rather than randomly, which would make fewer vehicles eligible due to the cap of two per person.&lt;/p&gt;
+
+&lt;p&gt;That $10 billion vehicle payment would reduce the poverty rate by 3.8%, roughly equally across age groups. However, distributing that $10 billion across each California resident yields a payment of $269 per person, and that would cut poverty by 1.3pp more than the vehicle payment.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The per-person payment especially lowers child poverty, a &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;major determinant of child development&lt;/a&gt;. Compared to the vehicle payment, a per-person payment would have double the impact on deep child poverty (the share of children below half the poverty line).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;These poverty effects form a pattern: the universal payments would have higher impacts on poverty rates overall, especially for children, but around the same impact on poverty among people aged 65 and older.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the per-person payment is more generous than the per-vehicle payment to households in the first five income deciles,&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and less generous to households in higher deciles. As a result, the per-person payment reduces inequality 29% more than the per-vehicle payment (the Gini index falls 0.88%, compared to 0.68%).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;California can achieve greater poverty and inequality reductions by replacing its vehicle payment with a personal payment. Doing so would yield other benefits, as well, especially when considering that Californians will expect similar policies in the future.&lt;/p&gt;
+
+&lt;p&gt;Most directly, paying people for owning vehicles encourages them to own more vehicles. A &lt;a href=&quot;https://lindseyresearch.com/wp-content/uploads/2021/12/NHTSA-2021-0053-1575-Exhibit-41-McCarthy-1996.pdf&quot;&gt;1987 paper&lt;/a&gt; found that each 1 percent reduction in vehicle prices increases vehicle purchases by 0.87 percent. Given &lt;a href=&quot;https://www.kbb.com/car-news/average-new-car-price-tops-47000/&quot;&gt;new vehicles cost about $47,000&lt;/a&gt; and &lt;a href=&quot;https://www.kbb.com/car-news/average-used-car-price-now-over-28000/&quot;&gt;used vehicles cost about $28,000&lt;/a&gt;, a $400 payment lowers the cost by about 0.9 to 1.4 percent, increasing vehicle purchases by about one percent. But that’s only one payment; to the extent that this policy announcement suggests to consumers that vehicle payments will repeat when gasoline gets more expensive in the future, that could be thousands of dollars over the life of a vehicle.&lt;/p&gt;
+
+&lt;p&gt;Those expectations will increase the number of vehicles on the road, which will harm the environment and public health. &lt;a href=&quot;https://www.gov.ca.gov/2022/02/25/california-leads-the-nations-zev-market-surpassing-1-million-electric-vehicles-sold/#:~:text=Over%20the%20past%2010%20years,other%20zero%2Demission%20vehicle%20metrics%2C&quot;&gt;Seven in eight new vehicles sold in California&lt;/a&gt; are powered by gasoline, and the transportation sector produces &lt;a href=&quot;https://ww2.arb.ca.gov/ghg-inventory-data&quot;&gt;41 percent of California’s carbon emissions&lt;/a&gt; and &lt;a href=&quot;https://www.epa.gov/transportation-air-pollution-and-climate-change/smog-soot-and-other-air-pollution-transportation&quot;&gt;55% of US nitrogen oxide emissions&lt;/a&gt;, which &lt;a href=&quot;https://www.epa.gov/no2-pollution/basic-information-about-no2&quot;&gt;causes respiratory diseases like asthma&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More vehicles on the road also means more demand for gasoline, the good whose scarcity the program aims to address. Combined with the gas tax cut, these programs would partly offset themselves as that increased demand raises prices.&lt;/p&gt;
+
+&lt;p&gt;Californians without vehicles have not been immune from higher prices, and disproportionately they face inflation with lower incomes. Excluding them from payments misses an opportunity for effective, environmentally-friendly poverty reduction.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis uses PolicyEngine’s open-source OpenFisca US microsimulation model. The code is available at &lt;a href=&quot;https://github.com/UBICenter/california-vehicle-payment&quot;&gt;github.com/UBICenter/california-vehicle-payment&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of 2021, the DMV reported that California had &lt;a href=&quot;https://www.dmv.ca.gov/portal/file/california-dmv-statistics-pdf/&quot;&gt;36.2 million registered vehicles and 27.5 million licensed drivers&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Our poverty estimates use the Census Bureau’s &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;Supplemental Poverty Measure (SPM) research file&lt;/a&gt; for the American Community Survey. Unlike the Official Poverty Measure, the &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;SPM considers taxes, non-cash benefits, and local housing costs&lt;/a&gt;. California has had the highest SPM poverty rate of any state since the measure was introduced, &lt;a href=&quot;https://www.ubicenter.org/california-ab65-calubi&quot;&gt;largely due to its high housing costs&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We group all US households into ten groups of equal population size by their equivalised income according to &lt;a href=&quot;https://www.oecd.org/economy/growth/OECD-Note-EquivalenceScales.pdf&quot;&gt;the OECD standard&lt;/a&gt; (dividing by the square root of the number of people in the household). &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="california" />
+      
+
+      
+        <summary type="html">Benchmarking Governor Newsom's proposed per-vehicle payment against a per-person payment.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">California’s basic income bill still needs work</title>
+      <link href="/california-ab65-calubi" rel="alternate" type="text/html" title="California's basic income bill still needs work" />
+      <published>2021-04-03T00:00:00+00:00</published>
+      <updated>2021-04-03T00:00:00+00:00</updated>
+      <id>/california-ab65-calubi</id>
+      <content type="html" xml:base="/california-ab65-calubi">&lt;p&gt;In 2018, the California Democratic Party &lt;a href=&quot;https://www.cnbc.com/2018/03/12/california-democratic-party-platform-supports-universal-basic-income.html&quot;&gt;added&lt;/a&gt; Universal Basic Income (UBI) to their party platform. Two years later, Assemblymember Evan Low (D-Campbell), who served as a &lt;a href=&quot;https://www.ebar.com/news/latest_news//286838&quot;&gt;national co-chair&lt;/a&gt; for Andrew Yang’s presidential campaign, introduced a &lt;a href=&quot;https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB2712&quot;&gt;UBI bill&lt;/a&gt; for California. In December 2020, Low reintroduced the bill for the 2020-21 legislative session, this time with Senator Scott Wiener (D-San Francisco) as a coauthor and adding some minor revisions.&lt;/p&gt;
+
+&lt;p&gt;That bill, &lt;a href=&quot;https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB65&quot;&gt;AB65&lt;/a&gt;, establishes the CalUBI program to provide $1,000 per month to most California adults. We estimate that CalUBI would cut poverty by 83% while adding $282 billion to the annual state deficit. In this article, we provide more detail into these estimates and suggest paths toward feasible legislation.&lt;/p&gt;
+
+&lt;h2 id=&quot;californias-extreme-economy&quot;&gt;California’s extreme economy&lt;/h2&gt;
+
+&lt;p&gt;California is both rich and poor. It ranks #8 among US states on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP_per_capita&quot;&gt;GDP per capita&lt;/a&gt;, and #7 on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income&quot;&gt;median household income&lt;/a&gt;. It also ranks &lt;a href=&quot;https://www.epi.org/multimedia/unequal-states-of-america/#/California&quot;&gt;#7 on income inequality&lt;/a&gt;,&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and accordingly, its poverty rate is higher than its GDP would predict, &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate#cite_note-9&quot;&gt;ranking #25&lt;/a&gt; based on the Official Poverty Measure (OPM).&lt;/p&gt;
+
+&lt;p&gt;When using the Supplemental Poverty Measure&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; (SPM), however, California ranks &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-272.pdf&quot;&gt;#1 on both overall poverty and child poverty&lt;/a&gt;: 17.2% of Californians are in poverty, compared to 12.5% of Americans. In fact, California has ranked #1 on SPM poverty every year since the Census Bureau first reported it by state in &lt;a href=&quot;https://www2.census.gov/library/publications/2012/demo/p60-244.pdf&quot;&gt;2011&lt;/a&gt;. That’s because the SPM, unlike the OPM, adjusts for taxes, in-kind benefits (like the Supplemental Nutrition Assistance Program), and, most importantly for California, local housing costs. As a result of its housing shortage (California has the &lt;a href=&quot;https://twitter.com/MaxGhenis/status/1187898060409466882&quot;&gt;fewest housing units per adult&lt;/a&gt; of any state), housing in California is notoriously expensive—&lt;a href=&quot;https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state&quot;&gt;second only to Hawaii&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;California also stands out in terms of taxation.
+Due to Prop 13 (1978), a ballot measure that limits property taxes, it ranks &lt;a href=&quot;https://wallethub.com/edu/states-with-the-highest-and-lowest-property-taxes/11585&quot;&gt;#35 on local property taxes&lt;/a&gt;.
+The state offsets that revenue loss with high income taxes—its &lt;a href=&quot;https://taxfoundation.org/publications/state-individual-income-tax-rates-and-brackets/&quot;&gt;top marginal rate is 13.3%&lt;/a&gt;, the highest of any state—and high sales taxes—its &lt;a href=&quot;https://taxfoundation.org/2020-sales-taxes/&quot;&gt;state rate is 7.25%&lt;/a&gt;, the highest of any state, and its state and local combined rate ranks #9. It is among the 41 states that &lt;a href=&quot;https://www.cbpp.org/research/state-budget-and-tax/state-taxes-on-capital-gains&quot;&gt;tax capital gains as ordinary income&lt;/a&gt;, which raises significant revenue given its residents claim 8.1% of their income in capital gains, a higher share than all but three states. The net result is a &lt;a href=&quot;https://taxfoundation.org/publications/state-local-tax-burden-rankings/&quot;&gt;state and local tax burden of 11.5%&lt;/a&gt;, ranking #8 across states.&lt;/p&gt;
+
+&lt;p&gt;The state deploys these higher-than-average tax revenues for generous transfers. It matches the federal Earned Income Tax Credit at &lt;a href=&quot;https://www.urban.org/policy-centers/cross-center-initiatives/state-and-local-finance-initiative/state-and-local-backgrounders/state-earned-income-tax-credits&quot;&gt;85% for low income workers&lt;/a&gt;, a higher rate than any other state, and adds a &lt;a href=&quot;https://www.ftb.ca.gov/file/personal/credits/california-earned-income-tax-credit.html&quot;&gt;Young Child Tax Credit&lt;/a&gt; supplement for qualifying families with children under age 6. Due to generously funding the Aid to Dependent Families Children (cash welfare) matching grant in the 1990s, California today gets &lt;a href=&quot;https://www.niskanencenter.org/inequitable-and-inadequate-reforming-federal-grants-for-state-social-assistance-programs/&quot;&gt;more per child&lt;/a&gt; from its replacement, Temporary Assistance for Needy Families (TANF), than all states but New York and Vermont. And while California has &lt;a href=&quot;https://ca.db101.org/ca/programs/income_support/calworks/program2.htm&quot;&gt;not yet eliminated asset limits for TANF&lt;/a&gt;, it is among the 33 states to have &lt;a href=&quot;https://www.cbpp.org/research/food-assistance/snaps-broad-based-categorical-eligibility-supports-working-families-and&quot;&gt;raised income and asset limits for SNAP&lt;/a&gt;. It &lt;a href=&quot;https://www.kff.org/medicaid/issue-brief/status-of-state-medicaid-expansion-decisions-interactive-map/&quot;&gt;expanded Medicaid&lt;/a&gt; as quickly as it could following the passage of the Affordable Care Act, and overall spends more &lt;a href=&quot;https://www.taxpolicycenter.org/statistics/state-and-local-general-expenditures-capita&quot;&gt;per capita on public welfare&lt;/a&gt; than 43 states.&lt;/p&gt;
+
+&lt;p&gt;Lack of welfare spending doesn’t explain California’s highest-in-the-nation poverty rate, but more inclusive and generous welfare programs can nonetheless ameliorate it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-impact-of-ab65&quot;&gt;The impact of AB65&lt;/h2&gt;
+
+&lt;p&gt;AB65 creates the CalUBI program, which provides $1,000 per month to Californians meeting these eligibility conditions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(A) Is a resident, and has been a resident for the three most recent consecutive taxable years.&lt;/p&gt;
+
+  &lt;p&gt;(B) Is at least 18 years of age.&lt;/p&gt;
+
+  &lt;p&gt;(C) Is not currently incarcerated in a county jail or the state prison.&lt;/p&gt;
+
+  &lt;p&gt;(D) Reported gross income that does not exceed 200 percent of the median per capita income for the eligible recipient’s current county of residence, as determined by the United States Census Bureau.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;AB65 also levies a 1% tax on incomes above $2 million.&lt;/p&gt;
+
+&lt;p&gt;Using data from the 2017-2019 Current Population Survey March Supplements, we estimate that 58% of Californians would be eligible for CalUBI. 77% meet the age requirement, 83% meet the income requirement,&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 97% meet the migration requirement,&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and 99.5% meet the incarceration requirement.&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; Providing the $12,000 payment to each of the 23.6 million eligible recipients would cost $283 billion per year.&lt;/p&gt;
+
+&lt;p&gt;Enacting the policy would reduce poverty by 83%, to 3.0%; for context, Minnesota currently has the lowest poverty rate, at 6.5%. It would also reduce inequality by 26%.&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; For these calculations, we assume that the CalUBI would not be counted as income for tax liabilities or benefit eligibility, though this may be unrealistic: Alaska’s Permanent Fund Dividend does not affect eligibility for programs like &lt;a href=&quot;https://ak.db101.org/ak/programs/income_support/ssi/faqs.htm#_q7329&quot;&gt;Supplemental Security Income&lt;/a&gt;, but the payments are &lt;a href=&quot;https://pfd.alaska.gov/Payments/Tax-Information#:~:text=Even%20if%20part%20or%20all,Permanent%20Fund%20Dividend%20is%20%24992.00.&quot;&gt;subject&lt;/a&gt; to federal income tax (Alaska has &lt;a href=&quot;http://tax.alaska.gov/programs/programs/index.aspx?10001&quot;&gt;no state income tax&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;However, the program lacks funding. Using the Policy Simulation Library’s &lt;a href=&quot;https://www.compute.studio/PSLmodels/Tax-Brain/&quot;&gt;TaxBrain&lt;/a&gt; tool and the IRS Public Use File, we estimate that a 1% tax on incomes above $2 million would raise &lt;a href=&quot;https://compute.studio/PSLmodels/Tax-Brain/50389/&quot;&gt;$2.33 billion federally&lt;/a&gt;. Scaling that down to California by its share of personal income in excess of $100,000&lt;sup id=&quot;fnref:7&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; yields a revenue estimate of $340 million, or 0.1% of CalUBI’s cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;perverse-incentives-from-means-testing&quot;&gt;Perverse incentives from means-testing&lt;/h2&gt;
+
+&lt;p&gt;The CalUBI means-testing approach creates perverse incentives in two ways: its immediate benefit cliff discourages people from working, and its geographic cliff discourages people from residing in lower-income counties.&lt;/p&gt;
+
+&lt;p&gt;As an example, consider a single resident of Santa Clara County earning $100,000 per year, let’s call them Alex. Santa Clara County is home to Google, Apple, San Jose, and Assemblymember Evan Low, and its median personal income is about $53,500, second only to San Francisco County ($55,000) in California. With income below twice the median, Alex would be eligible for CalUBI. Their net income would be $100,000 minus $28,743 in federal, FICA, and state income taxes,&lt;sup id=&quot;fnref:8&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; plus $12,000 in CalUBI, totaling $83,257.&lt;/p&gt;
+
+&lt;p&gt;Now suppose Alex is offered a job that pays 10% more. At $110,000 income, they exceed the $107,000 CalUBI threshold for Santa Clara County, so they no longer receive the $12,000 payment. As a result of their raise, Alex’s net income &lt;em&gt;falls 7%&lt;/em&gt; from $83,257 to $77,162. To get back to their original net income, they’d have to earn more than $120,000; if Alex can’t get at least a 20% raise, they’re better off with their current income.&lt;/p&gt;
+
+&lt;p&gt;Suppose that instead of taking a new higher-paying job in Santa Clara County, Alex considers moving to neighboring Santa Cruz County for a job paying the same $100,000. Where the median income in Santa Clara County is over $53,000, it’s under $33,000 in Santa Cruz County. Alex would lose CalUBI eligibility, and their net income would therefore fall $12,000—a full 14%—if they were to cross the county border.&lt;/p&gt;
+
+&lt;p&gt;These welfare cliffs and discontinuities harmfully distort behavior. People like Alex will avoid earning too much money, or perhaps they’ll favor a job with deferred compensation plans to lower their income, or they’ll defer capital gains themselves, all to stay under the threshold in their county. They’ll also avoid moving to lower-income areas, maybe choosing to commute from a more expensive area instead to retain CalUBI eligibility. This would increase geographic inequalities by raising high-income people’s demand to live in high-income areas. Just as &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0094119011000520&quot;&gt;school district boundaries determine housing prices&lt;/a&gt;, county boundaries would do the same under this policy.&lt;/p&gt;
+
+&lt;h2 id=&quot;universal-designs&quot;&gt;Universal designs&lt;/h2&gt;
+
+&lt;p&gt;AB65’s cliff could be mitigated by phasing the benefit out with income, as programs like SNAP and the Earned Income Tax Credit do, and as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Negative_income_tax&quot;&gt;negative income tax&lt;/a&gt; cousin of UBI does. Depending on the design, this could avoid Alex’s quagmire and ensure that any additional dollar they earn raises their net income.&lt;/p&gt;
+
+&lt;p&gt;However, this phase-out would be a hidden tax: if the benefit phases out at 50 cents per dollar of earnings, that’s equivalent to a 50% marginal tax, on top of normal taxes and phase-outs of other benefits. The array of means-tested benefits explains why parents around the poverty line currently face &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;higher marginal tax rates&lt;/a&gt; than any other group in the country, often exceeding 50% and sometimes exceeding 100%.&lt;/p&gt;
+
+&lt;p&gt;Further, if the benefit is means-tested but distributed monthly, recipients would be required to report changes to their income regularly. This costs recipients of existing benefits time and explains some of the &lt;a href=&quot;https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is&quot;&gt;high administrative overhead costs&lt;/a&gt;. To support income reporting requirements for the American Rescue Plan’s monthly Child Tax Credit expansion, the IRS is building a portal, an endeavor that’s &lt;a href=&quot;https://abc11.com/child-tax-credit-irs-stimulus-delay/10432494/&quot;&gt;slowing the delivery&lt;/a&gt; of funds to low and middle income parents. The alternative is how refundable tax credits work today: calculated from income often a year or more in the past, without the ability to meet real-time needs, especially when financial circumstances change.&lt;/p&gt;
+
+&lt;p&gt;Other AB65 targeting provisions have drawbacks, too. County-level income thresholds will induce migration even with phase-outs. A three-year residency requirement conflicts with Californians’ &lt;a href=&quot;https://www.latimes.com/california/story/2021-04-01/skelton-ppic-poll-immigration-healthcare-california&quot;&gt;pro-immigration sentiment&lt;/a&gt; (the Alaska Permanent Fund Dividend only has a &lt;a href=&quot;https://pfd.alaska.gov/Eligibility/Requirements&quot;&gt;one-year requirement&lt;/a&gt;). And as our other research shows, excluding children misses an opportunity to &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;improve lifelong development&lt;/a&gt;, and to &lt;a href=&quot;https://blog.ubicenter.org/20210120/child-ubi-share.html&quot;&gt;cost-effectively reduce poverty&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Universality bypasses all of these issues. Universal payments don’t discourage work through hidden taxes or cliffs; they don’t require recipients to report income more than once per tax year; they can be efficiently distributed; they demonstrate inclusiveness toward newcomers; and they provide kids the resources they need to thrive.&lt;/p&gt;
+
+&lt;p&gt;Of course, universality is more expensive. Expanding CalUBI to each person in California would raise the cost from $283 billion to $472 billion—a sixth of the &lt;a href=&quot;https://fred.stlouisfed.org/series/CARGSP&quot;&gt;state’s GDP&lt;/a&gt; and more than twice the &lt;a href=&quot;https://www.gov.ca.gov/2021/01/08/governor-newsom-proposes-2021-22-state-budget&quot;&gt;current state budget&lt;/a&gt;. If funds could be conjured to pay for it, it would drive down the poverty rate to 1.2%.&lt;/p&gt;
+
+&lt;p&gt;But given a fixed budget, poverty is often minimized by spreading it across more of the population in smaller amounts. Spreading the $283 billion across each person in California would give each about $590 per month, and this would have virtually the same antipoverty impact as the original proposal.&lt;sup id=&quot;fnref:9&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; That is, excluding children and newcomers offsets the progressivity of excluding higher-income people (not to mention the distortions).&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, the $283 billion price tag makes AB65 unworkable as written. What policies could make progress toward its goals?&lt;/p&gt;
+
+&lt;h2 id=&quot;a-california-child-allowance&quot;&gt;A California child allowance&lt;/h2&gt;
+
+&lt;p&gt;Monthly cash transfers can efficiently relieve poverty and reduce inequality at the state level, but given to everyone, they’re costly. Even a $100 monthly UBI would cost California $48 billion per year, more than a fifth of the current state budget.&lt;/p&gt;
+
+&lt;p&gt;A focus on children could be a tenable, effective starting point. Given &lt;a href=&quot;https://www.census.gov/quickfacts/CA&quot;&gt;9 million&lt;/a&gt; of California’s 40 million residents are under 18, a $100 monthly child allowance (cash payments given to parents for each child) would cost $11 billion annually. That’s 0.4% of &lt;a href=&quot;https://fred.stlouisfed.org/series/CARGSP&quot;&gt;California’s $2.9 trillion GDP&lt;/a&gt; or 5% of its proposed &lt;a href=&quot;http://www.ebudget.ca.gov/2021-22/pdf/BudgetSummary/SummaryCharts.pdf&quot;&gt;$227 billion budget&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href=&quot;https://child-allowance.ubicenter.org/simulation.html&quot;&gt;child allowance simulation&lt;/a&gt; shows that this would be achievable and impactful in California. The state could fund a $100 monthly child allowance with a 1% income tax, cutting child poverty by 16%, adult poverty by 5%, and overall poverty by 7%. The bottom decile of Californians would see incomes rise by 11%, and on average only the upper three deciles would lose income, and only by under 1%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2021-04-03-california-ab65-calubi/deciles_100_child_allowance.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A number of revenue options could fund such a program:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adding to the income tax, as described in the above simulation.&lt;/li&gt;
+  &lt;li&gt;Applying California’s expected &lt;a href=&quot;https://apnews.com/article/gavin-newsom-california-coronavirus-pandemic-8d01e88ceeb4b0bc6cb1fb0d6a8d72b7&quot;&gt;$15 billion surplus&lt;/a&gt; in 2021. This wouldn’t fund a permanent policy, but could fund a $100 monthly child allowance, plus a $100 monthly young child supplement, for a trial year.&lt;/li&gt;
+  &lt;li&gt;Taxing commercial property at market value would raise between &lt;a href=&quot;https://lao.ca.gov/BallotAnalysis/Proposition?number=15&amp;amp;year=2020#:~:text=The%20measure%20requires%20commercial%20and,over%20time%20starting%20in%202022.&quot;&gt;$6.5 and $11.5 billion&lt;/a&gt; per year. A ballot measure to do this &lt;a href=&quot;https://www.latimes.com/california/story/2020-11-10/proposition-15-commercial-property-tax-defeated&quot;&gt;narrowly lost&lt;/a&gt; in 2020.&lt;/li&gt;
+  &lt;li&gt;Ending the mortgage interest deduction on second homes would raise $250 million per year. &lt;a href=&quot;https://a25.asmdc.org/press-releases/20210219-assemblymember-alex-lee-introduces-repeal-regressive-mortgage-interest&quot;&gt;AB946&lt;/a&gt; proposes to do this, though the revenue is used for a first-time home buyer program.&lt;/li&gt;
+  &lt;li&gt;Conforming parts of the state income tax code with federal tax code changes enacted as part of the 2017 Tax Cuts and Jobs Act; this would raise &lt;a href=&quot;https://lao.ca.gov/Publications/Report/3959&quot;&gt;$1.7 billion&lt;/a&gt; per year.&lt;/li&gt;
+  &lt;li&gt;Replacing other benefit programs, such as CalWORKS (the state TANF program), Special Supplemental Nutrition Program for Women, Infants, and Children (WIC), the child component of CalEITC, and the Young Child Tax Credit.&lt;/li&gt;
+  &lt;li&gt;Instituting an estate tax, as was &lt;a href=&quot;https://sd11.senate.ca.gov/news/20190326-senator-wiener-introduces-california-estate-tax-proposal-fund-programs-reducing-wealth&quot;&gt;proposed in 2017&lt;/a&gt; and which was estimated to raise between $500 million and $1 billion per year.&lt;/li&gt;
+  &lt;li&gt;Repealing other state tax deductions that primarily benefit high income households, such as the property tax deduction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;or-a-california-young-child-allowance&quot;&gt;Or a California young child allowance&lt;/h2&gt;
+
+&lt;p&gt;For greater affordability, California could focus on the group whose development is most sensitive to financial conditions, and whose needs are most costly due to childcare: young kids. Providing a young child allowance of $100 per month to each of California’s 3 million Californians children under age 6 would cost $4 billion annually.&lt;/p&gt;
+
+&lt;p&gt;Washington and Sacramento have both already prioritized the needs of young kids: the American Rescue Plan’s &lt;a href=&quot;https://www.brookings.edu/blog/up-front/2021/03/11/new-child-tax-credit-could-slash-poverty-now-and-boost-social-mobility-later/&quot;&gt;Child Tax Credit expansion&lt;/a&gt; provides an extra $50 per month to children under age 6 compared to older kids, and California provides a Young Child Tax Credit (YCTC) of up to $1,000 per year to families who qualify for the federal Earned Income Tax Credit and have at least one child under age 6.&lt;/p&gt;
+
+&lt;p&gt;Transforming the YCTC into a young child allowance of $100 per month per child would have several benefits, by:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Including families with no earned income who are ineligible for EITC&lt;/li&gt;
+  &lt;li&gt;Providing more money for families with multiple young children&lt;/li&gt;
+  &lt;li&gt;Avoiding adding a 20% marginal tax to qualifying families with income between the phase-out region of $25,000 and $30,000&lt;/li&gt;
+  &lt;li&gt;Including children whose parents earn above $30,000&lt;/li&gt;
+  &lt;li&gt;Enhancing the benefit by at least $200 per year for all current recipients&lt;/li&gt;
+  &lt;li&gt;Meeting needs on a monthly basis&lt;/li&gt;
+  &lt;li&gt;Potentially sending parents money proactively, rather than relying on families filing tax returns (many of whom don’t have to file since they don’t owe taxes)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;california-can-make-policy-progress-toward-ubi&quot;&gt;California can make policy progress toward UBI&lt;/h2&gt;
+
+&lt;p&gt;California is in many ways the center of the UBI conversation. Its tech community has long promoted the idea as an insurance policy against technological unemployment, supporting Andrew Yang’s candidacy, funding basic income pilots, and donating to &lt;a href=&quot;https://www.givedirectly.org/basic-income/&quot;&gt;GiveDirectly’s basic income experiment&lt;/a&gt; in Kenya. Of the 40 mayors in the &lt;a href=&quot;https://www.mayorsforagi.org/&quot;&gt;Mayors for a Guaranteed Income&lt;/a&gt; network, 6 lead California cities, including its founder, Michael Tubbs. The pilot in Tubbs’s hometown of Stockton was one of the first of a &lt;a href=&quot;https://basicincome.stanford.edu/experiments-map/&quot;&gt;wave&lt;/a&gt; that now includes Compton, Long Beach, Oakland, Marin County, and San Francisco.&lt;/p&gt;
+
+&lt;p&gt;These pilots may provide more precise estimates of how people respond to guaranteed income, but we already know from a slew of studies that cash transfers &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;improve health, well-being, and educational outcomes&lt;/a&gt;, and that they &lt;a href=&quot;https://scholar.harvard.edu/files/remahanna/files/151016_labor_supply_paper_draft_final.pdf&quot;&gt;don’t reduce labor supply much&lt;/a&gt; or &lt;a href=&quot;https://blogs.worldbank.org/impactevaluations/do-poor-waste-transfers-booze-and-cigarettes-no&quot;&gt;raise spending on vices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In introducing AB65, Assemblymember Low has started the next phase of California’s UBI conversation. The idea is ready for policy implementation, but if it’s to be more than signaling, it will need to fit in a budget the governor can sign.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nick Rodelo provided research assistance for this post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;California has the 7th highest ratio of top 1% to bottom 99% income: 30.7, compared to 26.3 nationwide. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Poverty researchers &lt;a href=&quot;https://www.vox.com/2015/9/16/9337041/supplemental-poverty-measure&quot;&gt;generally prefer the SPM&lt;/a&gt; over the OPM, and that’s what the UBI Center uses in its analysis. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We interpreted a county’s “median per capita income” as the median personal income among people with income greater than zero. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The Current Population Survey only includes migration data from one year ago. 1.0% of Californians lived in a different state one year ago. To approximate the three-year requirement, we tripled the observation weights for this 1%; this also served to “age” the data from the 2017-2019 period to 2021, as it produces a total population estimate of 40.1 million. The University of Virginia Weldon Cooper Center for Public Service &lt;a href=&quot;https://demographics.coopercenter.org/united-states-interactive-map&quot;&gt;projects&lt;/a&gt; that California’s 2020 population was 40.4 million. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://www.census.gov/programs-surveys/cps/technical-documentation/methodology.html&quot;&gt;Current Population Survey omits prisoners&lt;/a&gt;, so we used data from the &lt;a href=&quot;https://www.prisonpolicy.org/profiles/CA.html&quot;&gt;Prison Policy Initiative&lt;/a&gt;, which estimates that 213,000 Californians were in state prison or county jail as of 2018. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We measure inequality as the Gini index of the ratio between a person’s poverty unit’s (similar to a household) resources and its poverty threshold. The current value is 0.42, and under CalUBI it would fall to 0.31. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;High incomes in the Current Population Survey are obscured for privacy, such that only three records show personal income above $2 million. It estimates that Californians have a total of $321 billion of income in excess of $100,000, 15% of the $2.18 trillion of US personal income in excess of $100,000. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This and other calculations apply &lt;a href=&quot;https://smartasset.com/taxes/california-tax-calculator#VBrctYjFhi&quot;&gt;SmartAsset’s calculator&lt;/a&gt;. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;3.08% vs 3.03%. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="california" />
+      
+
+      
+        <summary type="html">AB65 would cut poverty by 83%, but add $282 billion to the state deficit.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

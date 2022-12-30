@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/max/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/max/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">2022 year in review</title>
+      <link href="/2022-year-in-review" rel="alternate" type="text/html" title="2022 year in review" />
+      <published>2022-12-30T00:00:00+00:00</published>
+      <updated>2022-12-30T00:00:00+00:00</updated>
+      <id>/2022-year-in-review</id>
+      <content type="html" xml:base="/2022-year-in-review">&lt;p&gt;2022 was a busy year for the UBI Center, with numerous events and research projects focused on universal basic income (UBI) and related policies. We contributed in particular to two national conversations in the US around climate and child benefits, though we also researched topics ranging from UK policy to food assistance to public opinion.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ubicenter.org/california-vehicle-payment&quot;&gt;Our first report&lt;/a&gt; described the potential impact of California Governor Gavin Newsom’s proposal to send $400 for each vehicle owned by households. We estimated that such a policy could increase vehicle sales by 1%, harming environmental goals, and that replacing it with a universal per-person payment would leave 56% of Californians better off, cut poverty by 32% more, deep child poverty by 118% more, and inequality by 29% more. Newsom and the Legislature ultimately scrapped the per-vehicle payment, opting instead for a cash transfer called the &lt;a href=&quot;https://www.ftb.ca.gov/about-ftb/newsroom/middle-class-tax-refund/index.html&quot;&gt;Middle Class Tax Refund&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also &lt;a href=&quot;https://www.ubicenter.org/big-conference-2022&quot;&gt;shared research on carbon dividends at the Basic Income Guarantee Conference&lt;/a&gt;, and wrote a &lt;a href=&quot;https://www.ubicenter.org/uk-carbon-dividend&quot;&gt;report on carbon dividends in the UK&lt;/a&gt;. In both contexts, we found that ambitious carbon dividends could cut not only emissions, but also poverty—by as much as 10%. While the Inflation Reduction Act didn’t include a carbon dividend, they did include means-tested clean vehicle tax credits, and we &lt;a href=&quot;https://www.ubicenter.org/ira-ev-credit-cliff&quot;&gt;showed how that program creates “earnings” dead zones of $11,000 or more&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/ev_cliff.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Child allowances and Child Tax Credits also played a large role in the US policy conversation, and our simulations shed light on targeted impacts of those kinds of programs. &lt;a href=&quot;https://www.ubicenter.org/us-mothers-day'&quot;&gt;Our Mother’s Day post&lt;/a&gt; estimated the impact of a child allowance on maternal poverty in the US, overall and by state. And when we &lt;a href=&quot;https://www.ubicenter.org/big-conference-2022&quot;&gt;presented nine research projects at the Basic Income Guarantee Conference&lt;/a&gt;, three directly concerned child benefits: an analysis of the End Child Poverty Act, the &lt;a href=&quot;www.marylandchildalliance.org&quot;&gt;Maryland Child Alliance&lt;/a&gt;’s policy analysis work, and benchmarking childcare subsidies against a universal child allowance.&lt;/p&gt;
+
+&lt;p&gt;Programs for children tend to be highly means-tested, creating situations where low-income parents face higher marginal tax rates than other populations—including the rich. We partnered with the Maryland Child Alliance to show how &lt;a href=&quot;https://www.ubicenter.org/whom-does-maryland-tax&quot;&gt;Maryland in particular levies a regressive marginal tax rate schedule&lt;/a&gt;, with low-income parents facing marginal tax rates almost three times as high as the highest earners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-married-parents.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Much of our research applied &lt;a href=&quot;policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;’s software for public policy analysis. We incubated PolicyEngine within the UBI Center before launching it as a separate nonprofit in late 2021, and this year it &lt;a href=&quot;https://blog.policyengine.org/policyengine-comes-stateside-cef88b122e48&quot;&gt;expanded from the UK to the US&lt;/a&gt; and added many important features. For example, at the Basic Income Guarantee Conference we ran a session on using PolicyEngine for crafting and analyzing UBI policies, and showed it in action for several studies like the Blank Slate UBI. We also showed how &lt;a href=&quot;https://www.ubicenter.org/truss-tax-cuts&quot;&gt;universal payments would have been more progressive than former UK Prime Minister Liz Truss’s tax cut proposals&lt;/a&gt; (which have since been reversed). &lt;a href=&quot;https://blog.policyengine.org/policyengine-2022-year-in-review-35984ec3917c&quot;&gt;Read PolicyEngine’s year in review here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, the UBI Center’s research this year highlighted the potential for cash transfer programs to improve the well-being and economic security of individuals and families. The team looks forward to continuing this work in the coming year.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our computational policy analysis connected basic income to child poverty, the climate, and more.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Whom does Maryland tax?</title>
+      <link href="/whom-does-maryland-tax" rel="alternate" type="text/html" title="Whom does Maryland tax?" />
+      <published>2022-08-23T00:00:00+00:00</published>
+      <updated>2022-08-23T00:00:00+00:00</updated>
+      <id>/whom-does-maryland-tax</id>
+      <content type="html" xml:base="/whom-does-maryland-tax">&lt;p&gt;Many basic income proposals in the US have a national scope, allowing blue-sky thinking to fund a costly new program. For example, we’ve simulated &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, a &lt;a href=&quot;https://www.ubicenter.org/us-flat-tax&quot;&gt;UBI funded by a flat income tax&lt;/a&gt;, and a &lt;a href=&quot;https://www.ubicenter.org/us-carbon-dividend&quot;&gt;national carbon dividend&lt;/a&gt;, and we’re working on a “Blank Slate UBI” for the US, emulating the &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;UK report we published last year&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, recent campaigns have considered more state-level action, following the &lt;a href=&quot;https://pfd.alaska.gov/&quot;&gt;Alaska Permanent Fund Dividend&lt;/a&gt;, &lt;a href=&quot;https://tax.idaho.gov/i-1043.cfm&quot;&gt;Idaho’s Grocery Credit&lt;/a&gt;, and the dozens of states that have enacted &lt;a href=&quot;https://www.taxcreditsforworkersandfamilies.org/state-tax-credits/&quot;&gt;tax credits for low-income families&lt;/a&gt;. A grasp of existing tax and benefit programs in states creates 50 more canvases for fundamental policy experimentation and analysis.&lt;/p&gt;
+
+&lt;p&gt;In this report, rather than simulating basic income policies, we zoom in on one state: Maryland; specifically, Maryland’s tax policies. We find that, just as the federal tax-benefit system levies the highest marginal tax rates on the poor, Maryland does too. Our results suggest that policymakers who wish for a more equitable incentive structure—both at the federal and state level—have opportunities for reform by relying less on means-tested tax credits.&lt;/p&gt;
+
+&lt;h1 id=&quot;marylands-tax-policy&quot;&gt;Maryland’s tax policy&lt;/h1&gt;
+
+&lt;p&gt;Maryland has six million residents and a &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2021/demo/p60-275.pdf#page=32&quot;&gt;poverty rate of 10.8 percent&lt;/a&gt;, slightly below the national average. It has the &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income&quot;&gt;highest median income of any state&lt;/a&gt;, owing both to its relatively high GDP per capita (&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP&quot;&gt;15th among states&lt;/a&gt;) and low inequality (&lt;a href=&quot;https://www.epi.org/multimedia/unequal-states-of-america/#/Maryland&quot;&gt;35th among states&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Like the US and many states, Maryland’s core income tax rates rise with income. The progressive structure ranges from 2 percent on income below $1,000 to 5.75 percent on income above $250,000 (single) or $300,000 (non-single).&lt;/p&gt;
+
+&lt;p&gt;But also like the US and many states, that core income tax is a small part of the puzzle, especially for low-income families. Here are just a few of the other provisions Maryland enacts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standard deduction set at 15 percent of adjusted gross income, with upper and lower limits based on filing status&lt;/li&gt;
+  &lt;li&gt;Personal exemptions that phase out with income&lt;/li&gt;
+  &lt;li&gt;Earned Income Tax Credit that matches part of the federal program&lt;/li&gt;
+  &lt;li&gt;Child and Dependent Care Tax Credit that phases out with income&lt;/li&gt;
+  &lt;li&gt;Poverty Line Tax Credit that matches up to 5 percent of earned income&lt;/li&gt;
+  &lt;li&gt;Child Tax Credit for low-income families with children under 6 who have disabilities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of these programs phase in with income, and nearly all phase out with income. As a result, Maryland households with income in the phase-out region face marginal tax rates beyond the standard 2 percent to 5.75 percent: the loss of tax benefits acts as an additional marginal tax.&lt;/p&gt;
+
+&lt;h1 id=&quot;impact-of-marylands-tax-programs&quot;&gt;Impact of Maryland’s tax programs&lt;/h1&gt;
+
+&lt;p&gt;Using &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, a free open-source web app that computes the impact of public policy (incubated within the UBI Center), we evaluate Maryland’s tax policies as they situate alongside the federal tax and benefit system.&lt;/p&gt;
+
+&lt;p&gt;Consider a single parent with two children, paying $1,000 per month in rent and $500 per month in childcare, and working full time at Maryland’s standard minimum wage of $12.50 per hour. Their net income is $41,554 per year:&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$25,000 in earnings&lt;/li&gt;
+  &lt;li&gt;$7,934 in benefits&lt;/li&gt;
+  &lt;li&gt;$1,912 in payroll taxes&lt;/li&gt;
+  &lt;li&gt;$8,138 in net federal taxes (that is, net negative tax liability due to refundable credits)&lt;/li&gt;
+  &lt;li&gt;$2,395 in state taxes (also due to refundable credits)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maryland supplements their income by six percent. But as they earn more, the state withdraws that assistance. Suppose the parent picks up an extra hour of work per week, adding $650 to their annual earnings. Their net income rises to $41,640—they don’t even capture $100 of their extra work. Their true wage is not $12.50, but $86 / 52 hours = &lt;strong&gt;$1.65 per hour&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/net-income-single-parent-of-two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can characterize the difference between one’s nominal wage and their take-home wage as the &lt;em&gt;marginal tax rate&lt;/em&gt;—the share of an extra dollar of earnings that the government takes, either through taxes or through withdrawing benefits. In this case, their marginal tax rate on the $650 of marginal wages is ($650-$86)/$650=&lt;strong&gt;87%&lt;/strong&gt;. The PolicyEngine chart below details how this single parent’s marginal tax rate changes with additional income (the spikes are from programs that step down rather than phase out smoothly).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/mtr-single-parent-of-two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://policyengine.github.io/openfisca-us//programs/states/md/tax/income/index.html&quot;&gt;Maryland’s tax code&lt;/a&gt; explains about one-sixth of this marginal tax rate; at $25,000 income, they face a 13.5% marginal tax rate from state taxes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-single-parent-of-two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many types of families at or near the poverty line face high marginal tax rates. For example, Maryland taxes married families with children at two to three times the top rate of 5.75%, if they earn between about $25,000 and $60,000. Maryland’s true top marginal rate is 15.3%, and that’s placed to stack atop federal tax and benefit marginal rates that often exceed 50%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2022-08-23-whom-does-maryland-tax/md-mtr-married-parents.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;where-maryland-can-go-from-here&quot;&gt;Where Maryland can go from here&lt;/h1&gt;
+
+&lt;p&gt;Maryland’s enhanced Earned Income Tax Credit and Child Tax Credit will expire after the 2022 tax year, and lawmakers are already considering legislation to remake and extend these programs in 2023 and beyond. Policymakers should consider the impacts on work incentives in addition to poverty when designing their replacements and future benefit reforms.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis applies 2022 law, assuming that SNAP Covid emergency allotments have expired. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="maryland" />
+      
+
+      
+        <summary type="html">Low-income families face the highest marginal tax rates.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Inflation Reduction Act discourages electric vehicle buyers from working</title>
+      <link href="/ira-ev-credit-cliff" rel="alternate" type="text/html" title="The Inflation Reduction Act discourages electric vehicle buyers from working" />
+      <published>2022-08-03T00:00:00+00:00</published>
+      <updated>2022-08-03T00:00:00+00:00</updated>
+      <id>/ira-ev-credit-cliff</id>
+      <content type="html" xml:base="/ira-ev-credit-cliff">&lt;p&gt;Last week, Senators Chuck Schumer (D-NY) and Joe Manchin (D-WV) &lt;a href=&quot;https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs&quot;&gt;announced an agreement&lt;/a&gt; to add the Inflation Reduction Act (IRA) to the FY2022 Budget Reconciliation bill. The legislation reforms taxes and prescription drug pricing and funds healthcare and energy programs, including new and expanded tax credits for electric vehicle (EV) purchases.&lt;/p&gt;
+
+&lt;p&gt;The US &lt;a href=&quot;https://en.wikipedia.org/wiki/Energy_Policy_Act_of_2005&quot;&gt;first established EV tax credits in 2005&lt;/a&gt;, and &lt;a href=&quot;https://www.law.cornell.edu/uscode/text/26/30D&quot;&gt;current law&lt;/a&gt; has been on the books since 2008. Today, these tax credits range from $2,500 to $7,500, though EV buyers can only claim the credit if purchasing from a manufacturer that hasn’t exceeded certain EV production limits. &lt;a href=&quot;https://www.cars.com/articles/which-electric-cars-are-still-eligible-for-the-7500-federal-tax-credit-429824/&quot;&gt;Tesla and GM have surpassed their limits&lt;/a&gt;, so purchases of their vehicles no longer qualify for the credit, and &lt;a href=&quot;https://electrek.co/2022/04/11/federal-tax-credits-will-soon-be-phased-out-for-toyota-ev-customers-in-the-us/&quot;&gt;Toyota credits will phase out over the next year&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.democrats.senate.gov/imo/media/doc/inflation_reduction_act_of_2022.pdf#page=366&quot;&gt;The IRA scraps those manufacturer limits&lt;/a&gt; and sets the credit at a flat $7,500 for vehicles with batteries made in North America and MSRPs below certain limits. It also creates a new tax credit for the purchase of used EVs bought for under $25,000, set at the lesser of $4,000 and 30% of the sale price. &lt;a href=&quot;https://www.finance.senate.gov/imo/media/doc/7.29.22%20Estimate%20of%20Manchin%20Schumer%20agreement.pdf&quot;&gt;Congress estimates&lt;/a&gt; that the new and used EV credits will cost $7.5 billion and $1.3 billion over the next decade, respectively.&lt;/p&gt;
+
+&lt;p&gt;Both the new and existing EV credits are non-refundable, meaning that they can’t reduce a filer’s tax liability below zero. As a result, they provide no or partial value to low-income filers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 1: Net tax benefit to an unmarried filer from purchasing a high-capacity electric vehicle under current law&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/current.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, the IRA makes taxpayers ineligible for EV credits if their income exceeds limits shown in the table below.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; For example, a single filer who purchases a new EV will receive a $7,500 credit if they earn $150,000, but $0 if they earn $150,001.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table 1: Electric vehicle tax credits under the Inflation Reduction Act&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;EV type&lt;/th&gt;
+      &lt;th&gt;Amount&lt;/th&gt;
+      &lt;th&gt;Vehicle price limit&lt;/th&gt;
+      &lt;th&gt;Income limit&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New&lt;/td&gt;
+      &lt;td&gt;$7,500&lt;/td&gt;
+      &lt;td&gt;$80,000 (vans, SUVs, trucks)&lt;br /&gt;$55,000 (other)&lt;/td&gt;
+      &lt;td&gt;$150,000 (single)&lt;br /&gt;$225,000 (head of household)&lt;br /&gt;$300,000 (joint)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Used&lt;/td&gt;
+      &lt;td&gt;Lesser of $4,000 and&lt;br /&gt;30% of sale price&lt;/td&gt;
+      &lt;td&gt;$25,000&lt;/td&gt;
+      &lt;td&gt;$75,000 (single)&lt;br /&gt;$125,000 (head of household)&lt;br /&gt;$150,000 (joint)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These immediate losses of benefits over a threshold are known as “benefit cliffs,” and as I wrote in an &lt;a href=&quot;https://www.thecgo.org/research/how-does-targeted-cash-assistance-affect-incentives-to-work/&quot;&gt;analysis of a cash assistance proposal&lt;/a&gt; in Cambridge, Massachusetts, they can require thousands of dollars of additional earnings to escape. For example, a Massachusetts family of four today loses about $10,400 when they earn above 200% of the poverty line, or about $55,500. This cliff is largely due to their ineligibility for the Supplemental Nutrition Assistance Program, which Massachusetts and other states have temporarily expanded due to Covid-19. To return to their net income before the benefit cliff, they would have to increase their earnings to $69,500. I called this $14,000 gap the “earnings dead zone.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 2: How earnings affect net income for a Massachusetts family with two parents and two children under current law&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/snap_cliff.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly, the IRA’s EV credits create earnings dead zones for EV purchasers. Using &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, a free open-source app for tax and benefit analysis, I’ve calculated the size of these earnings dead zones for different household types.&lt;/p&gt;
+
+&lt;p&gt;Consider that same family of four living in Massachusetts. If they purchase a used EV for $20,000 and earn $150,000, they are eligible for the full $4,000 tax credit. Their income after other taxes and benefits is $117,700, bringing their total net income to $121,700. But if they earn $150,001, they lose the full $4,000 tax credit, and their net income falls back to $117,700. To return to $121,700 net income, they would have to earn $155,600. The EV credit creates an earnings dead zone for this household $5,600 wide.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 3: How earnings affect net income for a Massachusetts family with two parents and two children purchasing a used electric vehicle under the Inflation Reduction Act&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-08-03-ira-ev-credit-cliff/ev_cliff.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on the household’s state and structure, EV tax credits create earnings dead zones ranging from about $5,000 to $6,000 for the used EVs to about $10,000 to $11,000 for new EVs.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table 2: Earnings dead zones in the Inflation Reduction Act for various households and EV purchases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td rowspan=&quot;2&quot;&gt;Household
+   &lt;/td&gt;
+   &lt;td rowspan=&quot;2&quot;&gt;State
+   &lt;/td&gt;
+   &lt;td colspan=&quot;2&quot;&gt;Earnings dead zone
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Used EV
+   &lt;/td&gt;
+   &lt;td&gt;New EV
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Family of four
+   &lt;/td&gt;
+   &lt;td&gt;MA
+   &lt;/td&gt;
+   &lt;td&gt;$5,600
+   &lt;/td&gt;
+   &lt;td&gt;$11,000
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Family of four
+   &lt;/td&gt;
+   &lt;td&gt;MD
+   &lt;/td&gt;
+   &lt;td&gt;$6,000
+   &lt;/td&gt;
+   &lt;td&gt;$11,100
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Family of four
+   &lt;/td&gt;
+   &lt;td&gt;WA
+   &lt;/td&gt;
+   &lt;td&gt;$5,300
+   &lt;/td&gt;
+   &lt;td&gt;$10,200
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Single person
+   &lt;/td&gt;
+   &lt;td&gt;MA
+   &lt;/td&gt;
+   &lt;td&gt;$6,200
+   &lt;/td&gt;
+   &lt;td&gt;$10,800
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Single person
+   &lt;/td&gt;
+   &lt;td&gt;MD
+   &lt;/td&gt;
+   &lt;td&gt;$6,100
+   &lt;/td&gt;
+   &lt;td&gt;$11,000
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Single person
+   &lt;/td&gt;
+   &lt;td&gt;WA
+   &lt;/td&gt;
+   &lt;td&gt;$5,700
+   &lt;/td&gt;
+   &lt;td&gt;$10,100
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Policymakers understandably want to maximize benefits to lower-income households and the environment using finite resources. If richer households are less price-elastic toward EVs, then restricting the credits may promote EV ownership more per dollar. While analysts have not yet broken out emissions impacts by IRA provision, several project that the full bill would reduce greenhouse gas emissions by 10–20% by 2030.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Potential EV buyers will likely consider the policy’s structure not only when making purchase decisions, but also labor supply decisions. While more research would improve predictions of labor supply effects for specific policies like these, &lt;a href=&quot;https://www.cbo.gov/sites/default/files/cbofiles/attachments/10-25-2012-Labor_Supply_and_Fiscal_Policy.pdf&quot;&gt;studies consistently show&lt;/a&gt; that people respond to tax and benefit structures that affect their take-home pay. As policymakers consider opportunities to reverse perverse incentives and unfairness of benefit cliffs in existing laws, they should also take caution to avoid introducing new ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Thanks to Rick Evans, Megan Jenkins, and Erica Royer at the &lt;a href=&quot;https://thecgo.org&quot;&gt;Center for Growth and Opportunity&lt;/a&gt; for their valuable feedback on this report. The CGO supports state tax models used in parts of this analysis.&lt;/sub&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The IRA’s EV tax credit income definition is the lesser of their modified adjusted gross income in the year of purchase and the prior year. It also allows buyers to claim the credit at the dealer. In this analysis, I assume that filers have equal income in the current and prior year, and claim the credit on their tax returns rather than at the dealer. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Assumes all income is from one earner’s wages, that used EVs are purchased for between $13,333 and $25,000 (such that the credit provides $4,000), and that the new EVs meet current and IRA conditions. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://rhg.com/research/inflation-reduction-act/&quot;&gt;The Rhodium Group projects&lt;/a&gt; that US emissions would be 24-35% below 2005 levels by 2030 under business as usual (BAU), and 31-44% below 2005 levels under the IRA; this corresponds to a 9-14% reduction. &lt;a href=&quot;https://energyinnovation.org/wp-content/uploads/2022/08/Modeling-the-Inflation-Reduction-Act-with-the-US-Energy-Policy-Simulator_8.1.22.pdf&quot;&gt;Energy Innovation projects&lt;/a&gt; 24% below 2005 levels by 2030 under BAU and 39% under their IRA moderate scenario; this corresponds to a 20% reduction. &lt;a href=&quot;https://www.nytimes.com/interactive/2022/08/02/climate/manchin-deal-emissions-cuts.html&quot;&gt;The REPEAT Project projects&lt;/a&gt; 26% below 2005 levels by 2030 under BAU and 41% under the IRA; this corresponds to a 20% reduction. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">The bill's tax credits create benefit cliffs of up to $7,500.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The UBI Center at the Basic Income Guarantee Conference</title>
+      <link href="/big-conference-2022" rel="alternate" type="text/html" title="The UBI Center at the Basic Income Guarantee Conference" />
+      <published>2022-06-09T00:00:00+00:00</published>
+      <updated>2022-06-09T00:00:00+00:00</updated>
+      <id>/big-conference-2022</id>
+      <content type="html" xml:base="/big-conference-2022">&lt;h2 id=&quot;register-at-thebigconferenceorg&quot;&gt;&lt;a href=&quot;https://thebigconference.org&quot;&gt;Register at thebigconference.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In two weeks, we’ll join researchers, activists, and others in the policy community at the 20th Annual Basic Income Guarantee Conference. The event will take place in Portland, Oregon from June 23-24, followed by a virtual day on June 25.&lt;/p&gt;
+
+&lt;p&gt;We’ll present research in the following sessions:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploring and evaluating basic income policies with the PolicyEngine app for US tax and benefit analysis&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis and Nikhil Woodruff will run a workshop for participants to design customizable UBI policies and compute their impact, using the &lt;a href=&quot;policyengine.org/us&quot;&gt;PolicyEngine US app&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 23, 11:00AM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Carbon dividends and universal basic income&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis will present his paper, &lt;a href=&quot;http://ubicenter.org/us-carbon-dividend&quot;&gt;Carbon dividends as anti-poverty policy&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 23, 3:00PM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The distributional impacts of universal basic income policies&lt;/strong&gt; &lt;br /&gt;
+Nikhil Woodruff will present his forthcoming paper, a Blank Slate UBI in the US, modeled after his paper on &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;Blank Slate UBI in the UK&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 24, 9:00AM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In-kind benefits vs. direct cash&lt;/strong&gt; &lt;br /&gt;
+Tola Ouk and Max Ghenis benchmark childcare subsidies (those embedded in the SNAP program and the Child and Dependent Care Tax Credit) against a universal child allowance. &lt;br /&gt;
+&lt;em&gt;June 24, 1:00PM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploring the macroeconomic effects of a basic income&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis and Joshua Z. Miller show the theory behind how UBI would affect labor supply, and forecast the impact of the US Blank Slate UBI on the labor supply of different types of workers. &lt;br /&gt;
+&lt;em&gt;June 24, 2:30PM PT, in Portland, Oregon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Guaranteed income and the current safety net&lt;/strong&gt; &lt;br /&gt;
+Nicholas Rodelo benchmarks food assistance programs against a negative income tax. &lt;br /&gt;
+&lt;em&gt;June 25, 8:00AM PT, virtual&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public opinion around basic income&lt;/strong&gt; &lt;br /&gt;
+Will Fedder and Katarina van Alebeek present the &lt;a href=&quot;polls.ubicenter.org&quot;&gt;UBI Poll Tracker&lt;/a&gt;. &lt;br /&gt;
+&lt;em&gt;June 25, 12:30PM PT, virtual&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simulating and advocating child allowances&lt;/strong&gt; &lt;br /&gt;
+Max Ghenis and Yash Vijay analyze the End Child Poverty Act from Representatives Rashida Tlaib and Mondaire Jones. Nate Golden shares how the &lt;a href=&quot;https://www.marylandchildalliance.org/&quot;&gt;Maryland Child Alliance&lt;/a&gt;, uses data its in advocacy for universal child allowances. &lt;br /&gt;
+&lt;em&gt;June 25, 3:00PM PT, virtual&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.thebigconference.org/&quot;&gt;You can register here.&lt;/a&gt;&lt;/strong&gt; Hope to see you there!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="events" />
+      
+
+      
+        <summary type="html">Join us in Portland, Oregon from June 23-24 and virtually on June 25.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How a child allowance would lift moms out of poverty</title>
+      <link href="/us-mothers-day" rel="alternate" type="text/html" title="How a child allowance would lift moms out of poverty" />
+      <published>2022-05-08T00:00:00+00:00</published>
+      <updated>2022-05-08T00:00:00+00:00</updated>
+      <id>/us-mothers-day</id>
+      <content type="html" xml:base="/us-mothers-day">&lt;p&gt;52 million mothers in the United States live with their children.
+Of those, over 4.5 million are in poverty.&lt;/p&gt;
+
+&lt;p&gt;That poverty rate of 9.0 percent is a bit lower than the overall poverty rate of 9.3 percent,&lt;sup id=&quot;fnref:spm&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:spm&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; largely thanks to safety net programs that target families with children.
+Yet, many of those programs fail to reach low-income mothers due to qualification rules and complex bureaucracies.
+For example, &lt;a href=&quot;https://tcf.org/content/report/what-a-child-allowance-like-canadas-would-do-for-child-poverty-in-america/?session=1&quot;&gt;70 percent of single moms do not receive the full Child Tax Credit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A simpler alternative, which &lt;a href=&quot;https://child-allowance.ubicenter.org/policies.html#other-countries&quot;&gt;other countries adopt&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/tag/child-allowance/&quot;&gt;which we’ve written about in several other reports&lt;/a&gt;, is a universal child allowance: a flat amount given each month to parents for each of their children.&lt;/p&gt;
+
+&lt;p&gt;While child allowances chiefly reduce child poverty, they also lift mothers out of poverty.
+For example, a $200 per month child allowance would lift one million mothers out of poverty, at an annual cost of $173 billion.&lt;sup id=&quot;fnref:funding&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:funding&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/us-mothers-day-2022/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_2&quot;).load(&quot;/assets/markdown_assets/us-mothers-day-2022/graph_5_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Child allowances would cut maternal poverty at similar relative rates across states.
+For example, a $200 monthly child allowance would cut it by about 15 percent in both California and Maryland.
+In California, the policy would cost $21 billion per year and lift 114,000 mothers out of poverty, while in Maryland, it would cost $3.1 billion per year and lift 16,000 mothers out of poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/us-mothers-day-2022/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Maternal poverty is associated with &lt;a href=&quot;https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/1467-8624.00379&quot;&gt;depression and worsened child development&lt;/a&gt;.
+Mothers spend about &lt;a href=&quot;https://www.bls.gov/charts/american-time-use/activity-by-parent.htm&quot;&gt;1.7 hours per day&lt;/a&gt; caring for children.
+And of course, mothers suffer from the consequences of poverty like any other person does.
+Child allowances can improve child outcomes, compensate parents for raising the next generation, and improve the well-being of moms everywhere.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:spm&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis uses the 2020 Current Population Survey March Supplement, and the &lt;a href=&quot;https://www.census.gov/library/publications/2021/demo/p60-275.html&quot;&gt;Supplemental Poverty Measure&lt;/a&gt;. The official SPM poverty rate was 9.1 percent in 2020, but the public use microdata that powers our analysis produces slightly different results. &lt;a href=&quot;#fnref:spm&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:funding&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This static analysis assumes no funding and no behavioral responses. It uses the open source &lt;a href=&quot;https://openfisca.us&quot;&gt;OpenFisca US&lt;/a&gt; microsimulation model from &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;. &lt;a href=&quot;#fnref:funding&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="child allowance" />
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">A $200 per month child allowance would lift a million mothers out of poverty.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The progressivity of a UK carbon dividend</title>
+      <link href="/uk-carbon-dividend" rel="alternate" type="text/html" title="The progressivity of a UK carbon dividend" />
+      <published>2022-04-23T00:00:00+00:00</published>
+      <updated>2022-04-23T00:00:00+00:00</updated>
+      <id>/uk-carbon-dividend</id>
+      <content type="html" xml:base="/uk-carbon-dividend">&lt;h2 id=&quot;see-a-100tonne-carbon-dividend-in-policyengine&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;&lt;em&gt;See a £100/tonne carbon dividend in PolicyEngine&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Earlier this month, the International Panel on Climate Change (&lt;a href=&quot;https://www.ipcc.ch/&quot;&gt;IPCC&lt;/a&gt;) released the &lt;a href=&quot;https://report.ipcc.ch/ar6wg3/&quot;&gt;third installment&lt;/a&gt; of its Sixth Assessment Report, titled “Mitigation of Climate Change.”
+The report covered a wide range of policy options to reduce carbon emissions, as well as a wide range of benefits such policies would have for humanity.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&quot;https://citizensclimatelobby.org/blog/policy/the-latest-ipcc-report-has-a-lot-to-say-about-carbon-fee-and-dividend/&quot;&gt;Dana Nuccitelli of Citizens’ Climate Lobby wrote&lt;/a&gt;, the report has a lot to say about one policy in particular: it contains 680 mentions of carbon pricing, from the economic theory and evidence to policy design and political support.
+While most climate change proposals require funding, carbon pricing policies raise revenue by charging fossil fuel companies for their carbon pollution.
+That means it also raises costs in isolation; to address this, the IPCC says, “Carbon pricing is most effective if revenues are redistributed or used impartially.”
+What’s more impartial than redistributing to everyone equally?&lt;/p&gt;
+
+&lt;p&gt;For Earth Day weekend, we’re following up &lt;a href=&quot;https://www.ubicenter.org/us-carbon-dividend&quot;&gt;our report on US carbon dividends&lt;/a&gt; with an analysis of the policy in the UK.
+Using &lt;a href=&quot;http://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, we find that levying a fee on each tonne of carbon emissions, and redistributing the proceeds equally to all UK residents, would have a progressive distributional impact.
+A carbon dividend would significantly reduce poverty and inequality, and the larger the program, the more of each it does.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+
+&lt;p&gt;As we’ve written on the &lt;a href=&quot;https://blog.policyengine.org/how-policyengine-estimates-the-effects-of-uk-carbon-taxes-260ccfc5d97c&quot;&gt;PolicyEngine blog today&lt;/a&gt;, PolicyEngine uses a range of data sources and techniques to estimate how carbon taxes would affect different types of households.
+PolicyEngine is a &lt;em&gt;static&lt;/em&gt; app, so it assumes that behaviour, including carbon emissions, do not respond to policy changes.&lt;/p&gt;
+
+&lt;p&gt;In this analysis, we use PolicyEngine to first explore a single policy of a &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;£100 per tonne carbon dividend&lt;/a&gt;.
+From there, we show that the poverty impacts of carbon dividends increase roughly in proportion to the size of the carbon tax.
+In each case, we assume that consumers bear 100% of the incidence of the carbon tax; changing this assumption doesn’t significantly change the policy’s income-based distributional impact.&lt;/p&gt;
+
+&lt;h2 id=&quot;100tonne-carbon-dividend&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;£100/tonne carbon dividend&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To create a carbon dividend in &lt;a href=&quot;https://policyengine.org/uk&quot;&gt;PolicyEngine UK&lt;/a&gt;, first go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UBI Center&lt;/code&gt; parameter menu, then the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Carbon tax&lt;/code&gt; submenu, and set the carbon tax to £100.
+Then, go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Basic income&lt;/code&gt; submenu and click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Direct surplus revenue into UBI&lt;/code&gt; at the bottom.
+This will create a UBI of £15.55 per week.
+From there, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Calculate UK impact&lt;/code&gt; button will show &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, PolicyEngine shows that the carbon dividend would have essentially no net budgetary impact (by design), that it would cut poverty by 14%, and that two thirds of the UK would come out ahead.
+The policy would disproportionately lift children out of poverty, while still significantly reducing the poverty rate in other age groups.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_1_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_1_2.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the carbon dividend would benefit each of the bottom seven income deciles.
+The bottom decile would gain 6.2%, and the top decile would lose 2.1%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_3_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While the carbon dividend benefits each of the seven deciles on average, it would have have heterogeneous effects within deciles.
+For example, 12% of the bottom decile would come out behind, and 26% of the top decile would gain.
+Any household whose members consume less than the national average per-capita carbon emissions would come out ahead, and this correlates strongly but imperfectly to income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_5_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Nevertheless, the carbon dividend would substantially reduce income inequality on a net basis.
+For example, the Gini index, a comprehensive measure of inequality, would fall 3.4%&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_7_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;varying-the-price&quot;&gt;Varying the price&lt;/h2&gt;
+
+&lt;p&gt;Since PolicyEngine is static, the revenue–and therefore the dividend–increases linearly with the carbon price.
+Each £10 per tonne funds a weekly dividend of £1.56 per person.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_10_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_10_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_10_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;As the carbon dividend increases in price, impacts on poverty and deep poverty (the population share with income below half the poverty line) increase roughly linearly, with some slight diminishing returns starting around £90 per tonne.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_12_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;At each level of the carbon tax, deep poverty and child poverty (and especially deep child poverty) fall fastest.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_14_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_14_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_14_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Perhaps uniquely in today’s political climate, carbon dividends are a broadly supported form of universal basic income, albeit a small one.
+They can be integrated into larger UBI policies, such as the &lt;a href=&quot;https://blog.policyengine.org/the-green-party-manifesto-at-policyfest-ee05a2d3b06d&quot;&gt;Green Party’s 2019 manifesto&lt;/a&gt; or &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, or adopted in isolation, like the &lt;a href=&quot;https://energyinnovationact.org&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; in the US.
+Experts agree that carbon dividends would help avert climate change and deaths from air pollution, and, like other poverty researchers, we’ve found that they would reduce poverty and inequality as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to ​​Inés Fernández Barhumi and Reema Mohanty for their research assistance on our carbon tax model.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="carbon pricing" />
+      
+
+      
+        <summary type="html">A £100-per-tonne carbon dividend would cut poverty by 14% and deep child poverty by 33%.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">What if California gave money to everyone, not only vehicle owners?</title>
+      <link href="/california-vehicle-payment" rel="alternate" type="text/html" title="What if California gave money to everyone, not only vehicle owners?" />
+      <published>2022-04-21T00:00:00+00:00</published>
+      <updated>2022-04-21T00:00:00+00:00</updated>
+      <id>/california-vehicle-payment</id>
+      <content type="html" xml:base="/california-vehicle-payment">&lt;p&gt;Last month, Governor Gavin Newsom &lt;a href=&quot;https://www.gov.ca.gov/2022/03/23/governor-newsom-proposes-11-billion-relief-package-for-californians-facing-higher-gas-prices/&quot;&gt;proposed an $11 billion package&lt;/a&gt; for Californians facing higher gas prices. Newsom reserved $9 billion of this to send each vehicle owner $400 for each registered vehicle, up to two per person.&lt;/p&gt;
+
+&lt;p&gt;In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. We find that 93% of Californians are in households that would benefit from the per-vehicle payment. Replacing that policy with a per-person payment would leave 56% of Californians better off, cut poverty 32% more, deep child poverty 118% more, and inequality 29% more.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-californians-might-get-400-per-vehicle&quot;&gt;Why Californians might get $400 per vehicle&lt;/h2&gt;
+
+&lt;p&gt;Like other goods and services, gasoline has gotten more expensive over the past year. But when &lt;a href=&quot;https://www.usnews.com/news/best-countries/slideshows/a-timeline-of-the-russia-ukraine-conflict&quot;&gt;Russia invaded Ukraine on February 24&lt;/a&gt;, the global oil market contracted in anticipation of sanctions against the &lt;a href=&quot;https://www.eia.gov/tools/faqs/faq.php?id=709&amp;amp;t=6&quot;&gt;world’s third-largest oil producer&lt;/a&gt;. In the first two weeks of March, &lt;a href=&quot;https://fred.stlouisfed.org/series/GASREGW&quot;&gt;gas prices jumped 20 percent nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://fred.stlouisfed.org/graph/graph-landing.php?g=OoCX&amp;amp;width=670&amp;amp;height=475&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;overflow:hidden; width:670px; height:525px;&quot; allowtransparency=&quot;true&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The oil crunch has affected California similarly to the rest of the country. Compared to a year ago, as of April 19, AAA reports that &lt;a href=&quot;https://gasprices.aaa.com/?state=CA&quot;&gt;gasoline is up 44% in California and 43% nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Governor Newsom announced his $11 billion package to address high gas prices on March 23, a week after they peaked. This package pauses the inflation adjustment for the gas and diesel taxes ($1.1 billion, as &lt;a href=&quot;https://www.ebudget.ca.gov/2022-23/pdf/BudgetSummary/FullBudgetSummary.pdf#page=216&quot;&gt;Newsom’s January budget&lt;/a&gt; previously called for) and creates grants to encourage transit agencies to make transit free for three months ($750 million). The most expensive element is the $9 billion vehicle payment.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-cars-california-households-own&quot;&gt;How many cars California households own&lt;/h2&gt;
+
+&lt;p&gt;The 2019 American Community Survey, which we use for this analysis&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, reports a total of 25.7 million vehicles owned by households&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. That’s an average of 0.92 per adult, though that ratio increases with income, and adults in poverty&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; own 26% fewer vehicles than those not in poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;benchmarking-against-a-universal-per-person-payment&quot;&gt;Benchmarking against a universal per-person payment&lt;/h2&gt;
+
+&lt;p&gt;Allocating each household’s vehicles randomly among the adults in each household, we estimate that the vehicle payment would cost $10.0 billion. This likely exceeds Newsom’s estimate (which probably uses restricted DMV data) because households may concentrate vehicle ownership among specific adults rather than randomly, which would make fewer vehicles eligible due to the cap of two per person.&lt;/p&gt;
+
+&lt;p&gt;That $10 billion vehicle payment would reduce the poverty rate by 3.8%, roughly equally across age groups. However, distributing that $10 billion across each California resident yields a payment of $269 per person, and that would cut poverty by 1.3pp more than the vehicle payment.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The per-person payment especially lowers child poverty, a &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;major determinant of child development&lt;/a&gt;. Compared to the vehicle payment, a per-person payment would have double the impact on deep child poverty (the share of children below half the poverty line).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;These poverty effects form a pattern: the universal payments would have higher impacts on poverty rates overall, especially for children, but around the same impact on poverty among people aged 65 and older.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the per-person payment is more generous than the per-vehicle payment to households in the first five income deciles,&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and less generous to households in higher deciles. As a result, the per-person payment reduces inequality 29% more than the per-vehicle payment (the Gini index falls 0.88%, compared to 0.68%).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;California can achieve greater poverty and inequality reductions by replacing its vehicle payment with a personal payment. Doing so would yield other benefits, as well, especially when considering that Californians will expect similar policies in the future.&lt;/p&gt;
+
+&lt;p&gt;Most directly, paying people for owning vehicles encourages them to own more vehicles. A &lt;a href=&quot;https://lindseyresearch.com/wp-content/uploads/2021/12/NHTSA-2021-0053-1575-Exhibit-41-McCarthy-1996.pdf&quot;&gt;1987 paper&lt;/a&gt; found that each 1 percent reduction in vehicle prices increases vehicle purchases by 0.87 percent. Given &lt;a href=&quot;https://www.kbb.com/car-news/average-new-car-price-tops-47000/&quot;&gt;new vehicles cost about $47,000&lt;/a&gt; and &lt;a href=&quot;https://www.kbb.com/car-news/average-used-car-price-now-over-28000/&quot;&gt;used vehicles cost about $28,000&lt;/a&gt;, a $400 payment lowers the cost by about 0.9 to 1.4 percent, increasing vehicle purchases by about one percent. But that’s only one payment; to the extent that this policy announcement suggests to consumers that vehicle payments will repeat when gasoline gets more expensive in the future, that could be thousands of dollars over the life of a vehicle.&lt;/p&gt;
+
+&lt;p&gt;Those expectations will increase the number of vehicles on the road, which will harm the environment and public health. &lt;a href=&quot;https://www.gov.ca.gov/2022/02/25/california-leads-the-nations-zev-market-surpassing-1-million-electric-vehicles-sold/#:~:text=Over%20the%20past%2010%20years,other%20zero%2Demission%20vehicle%20metrics%2C&quot;&gt;Seven in eight new vehicles sold in California&lt;/a&gt; are powered by gasoline, and the transportation sector produces &lt;a href=&quot;https://ww2.arb.ca.gov/ghg-inventory-data&quot;&gt;41 percent of California’s carbon emissions&lt;/a&gt; and &lt;a href=&quot;https://www.epa.gov/transportation-air-pollution-and-climate-change/smog-soot-and-other-air-pollution-transportation&quot;&gt;55% of US nitrogen oxide emissions&lt;/a&gt;, which &lt;a href=&quot;https://www.epa.gov/no2-pollution/basic-information-about-no2&quot;&gt;causes respiratory diseases like asthma&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More vehicles on the road also means more demand for gasoline, the good whose scarcity the program aims to address. Combined with the gas tax cut, these programs would partly offset themselves as that increased demand raises prices.&lt;/p&gt;
+
+&lt;p&gt;Californians without vehicles have not been immune from higher prices, and disproportionately they face inflation with lower incomes. Excluding them from payments misses an opportunity for effective, environmentally-friendly poverty reduction.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis uses PolicyEngine’s open-source OpenFisca US microsimulation model. The code is available at &lt;a href=&quot;https://github.com/UBICenter/california-vehicle-payment&quot;&gt;github.com/UBICenter/california-vehicle-payment&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of 2021, the DMV reported that California had &lt;a href=&quot;https://www.dmv.ca.gov/portal/file/california-dmv-statistics-pdf/&quot;&gt;36.2 million registered vehicles and 27.5 million licensed drivers&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Our poverty estimates use the Census Bureau’s &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;Supplemental Poverty Measure (SPM) research file&lt;/a&gt; for the American Community Survey. Unlike the Official Poverty Measure, the &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;SPM considers taxes, non-cash benefits, and local housing costs&lt;/a&gt;. California has had the highest SPM poverty rate of any state since the measure was introduced, &lt;a href=&quot;https://www.ubicenter.org/california-ab65-calubi&quot;&gt;largely due to its high housing costs&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We group all US households into ten groups of equal population size by their equivalised income according to &lt;a href=&quot;https://www.oecd.org/economy/growth/OECD-Note-EquivalenceScales.pdf&quot;&gt;the OECD standard&lt;/a&gt; (dividing by the square root of the number of people in the household). &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="california" />
+      
+
+      
+        <summary type="html">Benchmarking Governor Newsom's proposed per-vehicle payment against a per-person payment.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">2021 year in review</title>
+      <link href="/2021-year-in-review" rel="alternate" type="text/html" title="2021 year in review" />
+      <published>2021-12-31T00:00:00+00:00</published>
+      <updated>2021-12-31T00:00:00+00:00</updated>
+      <id>/2021-year-in-review</id>
+      <content type="html" xml:base="/2021-year-in-review">&lt;p&gt;2021 was another difficult year. Amid the tragedy and chaos, societies continued to discuss the role of unconditional safety net policies. We seized the moment, and over a dozen UBI Center researchers produced over 30 works examining universal basic income from all angles: legislation, technology, macroeconomics, public opinion, and more. Here’s what we’ve done in the past year.&lt;/p&gt;
+
+&lt;h3 id=&quot;legislative-research&quot;&gt;Legislative research&lt;/h3&gt;
+
+&lt;p&gt;Our very first report in June 2019 analyzed &lt;a href=&quot;distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, and we returned to Yang in June 2021 to study his &lt;a href=&quot;yang-nyc&quot;&gt;Basic Income for New York City&lt;/a&gt;. We also researched other UBI-related policy proposals in the US, including Senator Mitt Romney’s &lt;a href=&quot;family-security-act&quot;&gt;Family Security Act&lt;/a&gt;, California Assemblymember Evan Low’s &lt;a href=&quot;california-ab65-calubi&quot;&gt;“CalUBI” bill&lt;/a&gt;, and Representative Ilhan Omar’s &lt;a href=&quot;omar-support-act&quot;&gt;SUPPORT Act&lt;/a&gt;. With the Child Tax Credit in the news, we put out reports on &lt;a href=&quot;advance-ctc&quot;&gt;its expansion&lt;/a&gt; and what that means for &lt;a href=&quot;ctc-fertility&quot;&gt;population growth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of our most exciting milestones this year was entering the UK policy conversation. When the Liberal Democrats released a UBI policy paper in May, we &lt;a href=&quot;lib-dem-policy-paper&quot;&gt;produced an analysis&lt;/a&gt; of the options laid out in their paper, as well as a follow-up describing &lt;a href=&quot;progressive-adjustments-lib-dem-working-group&quot;&gt;adjustments to those options&lt;/a&gt; that could further reduce poverty and inequality. We also analyzed the UBI Lab Network’s &lt;a href=&quot;resilience-ubi&quot;&gt;Resilience UBI&lt;/a&gt;, one of the more comprehensive UBI proposals to date.&lt;/p&gt;
+
+&lt;h3 id=&quot;stylized-research&quot;&gt;Stylized research&lt;/h3&gt;
+
+&lt;p&gt;Our bread and butter of researching UBI policies has long extended beyond specific legislation to demonstrate the impact of stylized UBI reforms, and in 2021 this flavor of UBI Center reports became increasingly sophisticated, immersive, and diverse.&lt;/p&gt;
+
+&lt;p&gt;In the US, we showed how tax-funded UBI policies would &lt;a href=&quot;racial-poverty-disparities-mlk-day-2021&quot;&gt;shrink racial poverty disparities&lt;/a&gt;, &lt;a href=&quot;womens-day-2021&quot;&gt;gender poverty disparities&lt;/a&gt;, and &lt;a href=&quot;racial-wealth-gap-ks&quot;&gt;racial wealth gaps&lt;/a&gt;. We calculated how the &lt;a href=&quot;child-ubi-share&quot;&gt;share of UBI budgets devoted to children&lt;/a&gt; affects poverty and inequality, and showed how &lt;a href=&quot;us-carbon-dividend&quot;&gt;carbon dividends cut poverty&lt;/a&gt; across states. We &lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view&quot;&gt;benchmarked child allowances against free childcare&lt;/a&gt;, reviewed &lt;a href=&quot;https://drive.google.com/file/d/1_PnYOuJ4TiuOdsCfuzlSUkWDAzAYXyhC/view&quot;&gt;UBI and child allowances in California&lt;/a&gt;, and applied machine learning to estimate the &lt;a href=&quot;https://drive.google.com/open?id=1Zw1JysANBjeWi2JnY4quUpiptXaCigtU&quot;&gt;impact of tax-funded UBI on likely voters&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our first UK report blurred the lines between stylized and specific reforms, presenting a &lt;a href=&quot;uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; that replaced the full tax and benefit system with a flat income tax and computer-optimized UBI amounts across demographic groups; this was also our first report published with a partner (the &lt;a href=&quot;https://www.socialliberal.net/blank_slate_ubi&quot;&gt;Social Liberal Forum&lt;/a&gt;). Having then built a microsimulation model of the UK tax and benefit system (the first and only open source one), we used it to calculate the impacts of a UBI funded by a &lt;a href=&quot;uk-lvt&quot;&gt;land value tax&lt;/a&gt; and by &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;repealing allowances&lt;/a&gt;, with a deep dive into &lt;a href=&quot;personal-allowance&quot;&gt;repealing the personal tax allowance&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;outreach&quot;&gt;Outreach&lt;/h3&gt;
+
+&lt;p&gt;We shared our research in op-eds for national publications, on topics from the &lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;American Rescue Plan&lt;/a&gt; to &lt;a href=&quot;https://thenevadaindependent.com/article/the-democratic-supported-child-allowance-is-good-for-nevada-families-they-should-look-to-mitt-romneys-idea-to-make-it-better&quot;&gt;child allowances&lt;/a&gt; to &lt;a href=&quot;https://www.nydailynews.com/opinion/ny-oped-a-deeper-dive-into-yangs-income-plan-20210620-4oq4ybgkcrfspovnb4vhzs3dqi-story.html&quot;&gt;Andrew Yang’s NYC basic income plan&lt;/a&gt; to &lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;Build Back Better&lt;/a&gt;. We even published our first book chapter, on &lt;a href=&quot;mortality-existential-risk-ubi&quot;&gt;UBI and Effective Altruism&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many grassroots organizations offered us the chance to speak with their communities about our research: &lt;a href=&quot;https://youtu.be/1Bfa0qI9EpU&quot;&gt;People’s Platform&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=IDuukYky6PY&amp;amp;t=1s&quot;&gt;Nerds for Humanity&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=se7VFMuiST0&quot;&gt;Boston Basic Income&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=6SaDmrUlvDs&amp;amp;t=1s&quot;&gt;Level Up California&lt;/a&gt;, &lt;a href=&quot;https://usbig.net/what-would-andrew-yangs-basic-income-plan-have-meant-for-new-yorkers/&quot;&gt;USBIG&lt;/a&gt;, &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi&quot;&gt;Social Liberal Forum&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/watch/live/?ref=watch_permalink&amp;amp;v=325218815629530&quot;&gt;Atlas Movement&lt;/a&gt;, and Income Movement’s &lt;a href=&quot;https://twitter.com/income_movement/status/1451616862161276948&quot;&gt;State of the Movement&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/LA_BasicIncome/status/1422348617180844034&quot;&gt;multiple&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LA_BasicIncome/status/1424869256642981892&quot;&gt;Clubhouse&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LA_BasicIncome/status/1419802558441295890&quot;&gt;UBI&lt;/a&gt; &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1417210475301916683&quot;&gt;Updates&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/MaxGhenis/status/1409617744710885376&quot;&gt;actually&lt;/a&gt; &lt;a href=&quot;https://twitter.com/MaxGhenis/status/1407001945840095246&quot;&gt;even&lt;/a&gt; &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1402008728648372230&quot;&gt;more&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;We presented our work in academic settings as well. Several of us shared multiple papers, including on broader topics like &lt;a href=&quot;https://drive.google.com/file/d/1BMiRmdPWgWT1lnb20J8-PiZs5MijoCYy/view&quot;&gt;inflation&lt;/a&gt; and dynamic macroeconomic modeling, at the two basic income conferences: &lt;a href=&quot;nabig-2021&quot;&gt;NABIG&lt;/a&gt; (North America) and &lt;a href=&quot;bien-2021&quot;&gt;BIEN&lt;/a&gt; (global). We also presented  &lt;a href=&quot;https://www.youtube.com/watch?v=DddwUj8W2Tw&quot;&gt;PolicyEngine&lt;/a&gt;, &lt;a href=&quot;https://docs.google.com/presentation/d/1t1VBAwxmbNC_traV5DPqswvwO0wywIMjtbWP6rNr9zU/edit#slide=id.g6293382480_0_338&quot;&gt;synthimpute&lt;/a&gt;, and the &lt;a href=&quot;https://www.youtube.com/watch?v=8K_FsPYVras&quot;&gt;Basic Income Builder&lt;/a&gt; at the Policy Simulation Library Demo Days, and presented at the &lt;a href=&quot;https://docs.google.com/presentation/d/1t1VBAwxmbNC_traV5DPqswvwO0wywIMjtbWP6rNr9zU/edit#slide=id.g6293382480_0_338&quot;&gt;PyData Global conference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, our goal is to provide policymakers better information on UBI, and we had the greatest opportunity to do so in the UK. We shared our research directly with policymakers at the &lt;a href=&quot;https://docs.google.com/presentation/d/1oYtmwHKwdjdvV6ryl57WY9XnOAON8lfB7ORN5pWXX-Y/edit#slide=id.ge15e8a9daf_0_128&quot;&gt;All Party Parliamentary Group on Land Value Capture&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/TheUBICenter/status/1463566659856203778&quot;&gt;Cross Party Parliamentary &amp;amp; Local Government Group on Universal Basic Income&lt;/a&gt;, and &lt;a href=&quot;https://www.libdemvoice.org/alter-fringe-simulating-a-lvt-funded-universal-basic-income-68556.html&quot;&gt;Liberal Democrat conference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;technology&quot;&gt;Technology&lt;/h3&gt;
+
+&lt;p&gt;While our mission is to make universal basic income the most thoroughly researched economic policy, we also strive to be the most technologically sophisticated think tank. Transparency has been at the heart of that technological emphasis, and this year we took a major stride by &lt;a href=&quot;new-open-source-website&quot;&gt;transitioning our entire website to GitHub&lt;/a&gt;, making us the world’s first and only 100% open source think tank (to our knowledge).&lt;/p&gt;
+
+&lt;p&gt;That modern open source technology enabled us to launch new interactive tools, from the &lt;a href=&quot;introducing-basic-income-builder&quot;&gt;Basic Income Builder&lt;/a&gt; to &lt;a href=&quot;local-child-allowance-maps&quot;&gt;maps of child allowance impacts by state legislative district&lt;/a&gt; to the &lt;a href=&quot;poll-tracker&quot;&gt;UBI Poll Tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;policyengine&quot;&gt;&lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The most important product we built in 2021 was &lt;a href=&quot;introducing-policyengine&quot;&gt;PolicyEngine UK&lt;/a&gt;, the world’s first product that allows anyone to reform the tax and benefit system and see the impact on society and their own household. PolicyEngine grew from our creation of OpenFisca UK, a microsimulation model of the UK tax and benefit system which powered our UK reports, offering users the power of that model without the programming required to access it directly.&lt;/p&gt;
+
+&lt;p&gt;We launched PolicyEngine in September, and after recognizing its potential beyond UBI, we spun it off into a new nonprofit in October. You can now see it at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt;, and read their progress in this &lt;a href=&quot;https://blog.policyengine.org/policyengines-2021-year-in-review-cfb4893ecf2e&quot;&gt;2021-in-review blog post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-year&quot;&gt;Next year&lt;/h3&gt;
+
+&lt;p&gt;Many of us are now focused on PolicyEngine, which future UBI Center research will increasingly leverage. While we’ve diversified into exciting projects like the UBI Poll Tracker, our research has always been rooted in policy simulation, so we want to make PolicyEngine the best policy simulation product for the UBI Center and any other researchers to use.&lt;/p&gt;
+
+&lt;p&gt;We’re especially eager to bring PolicyEngine US to life, so we can show the full impact of UBI reforms in the US. PolicyEngine will be the first unified tax-benefit model in the US, enabling a complete view of poverty, budgets, and marginal tax rates at the household and societal levels for the first time.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to support our work, you can do so with a &lt;a href=&quot;https://www.ubicenter.org/donate/&quot;&gt;donation&lt;/a&gt;. We also encourage &lt;a href=&quot;https://opencollective.com/psl&quot;&gt;tax-deductible donations to PolicyEngine&lt;/a&gt; via their fiscal sponsor, the PSL Foundation, and to &lt;a href=&quot;http://givedirectly.org/donate&quot;&gt;GiveDirectly&lt;/a&gt;, which provides direct cash transfers to the extreme poor.&lt;/p&gt;
+
+&lt;p&gt;On behalf of the UBI Center team, thank you for your support, and we’ll see you in 2022!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">We produced over 30 works examining universal basic income from all angles.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Op-ed: Democrats should be courting Romney, not Manchin</title>
+      <link href="/democrats-should-be-courting-romney-not-manchin" rel="alternate" type="text/html" title="Op-ed: Democrats should be courting Romney, not Manchin" />
+      <published>2021-12-30T00:00:00+00:00</published>
+      <updated>2021-12-30T00:00:00+00:00</updated>
+      <id>/democrats-should-be-courting-romney-not-manchin</id>
+      <content type="html" xml:base="/democrats-should-be-courting-romney-not-manchin">&lt;h2 id=&quot;read-the-op-ed-in-the-hill&quot;&gt;&lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;Read the op-ed in The Hill&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;new op-ed&lt;/a&gt;, I argue that Democrats are more likely to pass cash assistance in reconciliation with Senator Mitt Romney as the 50th vote than with Senator Joe Manchin.
+Unlike Manchin, Romney supports a fully refundable Child Tax Credit, and has proposed a plan to achieve it called the Family Security Act.
+&lt;a href=&quot;family-security-act&quot;&gt;My UBI Center analysis&lt;/a&gt; of the Family Security Act shows that it would be progressive and effective, largely by virtue of its near-universality among children.
+And while Manchin has opposed multiple carbon pricing proposals, Romney supports a carbon dividend, a small UBI funded by fees on polluting corporations.
+In a &lt;a href=&quot;us-carbon-dividend&quot;&gt;separate UBI Center analysis&lt;/a&gt;, I showed that a carbon dividend would reduce poverty as well as emissions.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://thehill.com/opinion/white-house/587590-democrats-should-be-courting-romney-not-manchin&quot;&gt;read the full op-ed in The Hill&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="op-ed" />
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">On the issues of child poverty and climate change, Democrats have a closer ally across the aisle.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Mortality, existential risk, and universal basic income</title>
+      <link href="/mortality-existential-risk-ubi" rel="alternate" type="text/html" title="Mortality, existential risk, and universal basic income" />
+      <published>2021-11-30T00:00:00+00:00</published>
+      <updated>2021-11-30T00:00:00+00:00</updated>
+      <id>/mortality-existential-risk-ubi</id>
+      <content type="html" xml:base="/mortality-existential-risk-ubi">&lt;p&gt;Below is a chapter I wrote for the book &lt;a href=&quot;https://www.amazon.com/Death-Anti-Death-18-Fifty-University/dp/1934297348&quot;&gt;&lt;em&gt;Death And Anti-Death, Volume 18: Fifty Years After Earth Day&lt;/em&gt;&lt;/a&gt;, published in December 2020.
+In the chapter, I argue that poverty alleviation would reduce both mortality and existential risk, and that, among anti-poverty programs, universal basic income has a number of advantages over targeted and in-kind benefits.
+I’m posting it on Giving Tuesday both to highlight the work of &lt;a href=&quot;https://givedirectly.org&quot;&gt;GiveDirectly&lt;/a&gt;, which provides cash transfers to extremely poor people and conducts research on those payments that I cite extensively, and to invite readers to consider tax and benefit policy research as a cause area for effective giving–research like we and our sister nonprofit, &lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, conduct.&lt;/p&gt;
+
+&lt;p&gt;Beyond the information in this chapter, trends from the past year suggest greater potential for tax and benefit policy as a cause area.
+&lt;a href=&quot;https://www.givewell.org/international/technical/programs/cash-transfers&quot;&gt;GiveWell has said&lt;/a&gt; that “Cash transfers have the strongest track record we’ve seen for a non-health intervention,” yet governments continue to restrict uses of benefit dollars.
+The US Bipartisan Infrastructure Package, for example, created a &lt;a href=&quot;https://www.fcc.gov/broadbandbenefit&quot;&gt;$14 billion broadband subsidy&lt;/a&gt;, and the Build Back Better Act would spend &lt;a href=&quot;https://www.whitehouse.gov/briefing-room/statements-releases/2021/10/28/president-biden-announces-the-build-back-better-framework/&quot;&gt;$500 billion on childcare subsidies&lt;/a&gt; (twice as much as on the Child Tax Credit).
+Both of these programs create &lt;em&gt;welfare cliffs&lt;/em&gt;, in which higher earnings can leave people worse off due to lost benefits.
+Developing countries enact policies that are similarly flawed, if not worse.&lt;/p&gt;
+
+&lt;p&gt;Last week, GiveWell &lt;a href=&quot;https://blog.givewell.org/2021/11/22/we-aim-to-cost-effectively-direct-around-1-billion-annually-by-2025/&quot;&gt;revealed&lt;/a&gt; that they’re unlikely to find opportunities more than five to eight times more cost-effective than cash transfers.
+In their &lt;a href=&quot;https://www.givedirectly.org/dont-wait/&quot;&gt;response&lt;/a&gt;, GiveDirectly claimed that cash transfers are more effective than GiveWell estimates, suggesting that GiveWell will have difficulty finding opportunities even at the 5-8x-cash range.
+And in their &lt;a href=&quot;https://www.givedirectly.org/1-million-households/&quot;&gt;previous blog post&lt;/a&gt;, GiveDirectly said that, despite having sent cash transfers to a million households, they’ve reached under one percent of extremely poor households in Kenya, the country where they have the largest presence.&lt;/p&gt;
+
+&lt;p&gt;GiveDirectly continues to be exceptionally worthy, but governments too have a role to play.
+The scale of reforming tax and benefit policy is enormous: OECD countries collect &lt;a href=&quot;https://www.oecd.org/tax/tax-policy/revenue-statistics-highlights-brochure.pdf&quot;&gt;a third of GDP in taxes&lt;/a&gt;, and redistribute &lt;a href=&quot;https://www.oecd.org/els/soc/OECD2020-Social-Expenditure-SOCX-Update.pdf&quot;&gt;a third of that as cash benefits&lt;/a&gt;–and those shares are growing as economies get richer.
+We believe we’re targeting neglected angles on the broad cause area (technology and considering taxes and benefits together), and our early traction with policymakers in the UK suggests that these novel angles can make reform tractable as well.&lt;/p&gt;
+
+&lt;p&gt;With that, here is &lt;strong&gt;Mortality, existential risk, and universal basic income&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Toby Ord didn’t start his career thinking about the far future. When the Oxford philosopher created the organization &lt;em&gt;Giving What We Can&lt;/em&gt; (GWWC) in 2009, it focused on finding the most cost-effective charities for saving or improving lives today, like malaria bed nets, and encouraging members to pledge 10 percent of their income to those charities. This marked the beginning of the movement known as &lt;em&gt;effective altruism&lt;/em&gt; (EA), which &lt;a href=&quot;https://www.centreforeffectivealtruism.org/ceas-guiding-principles/&quot;&gt;describes itself as&lt;/a&gt; “about using evidence and reason to figure out how to benefit others as much as possible, and taking action on that basis.”&lt;/p&gt;
+
+&lt;p&gt;Thirty-seven years before Ord created the EA movement, Princeton philosopher Peter Singer formed the ideas that now underpin it. In his 1972 essay, &lt;a href=&quot;https://www.jstor.org/stable/2265052&quot;&gt;&lt;em&gt;Famine, Affluence, and Morality&lt;/em&gt;&lt;/a&gt;, Singer offered the following thought experiment:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…if I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a bad thing…It makes no moral difference whether the person I can help is a neighbor’s child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Singer taught, as EA now does, to look beyond one’s immediate circle to humanity as a whole when weighing how to do good. If saving a drowning child in front of you is worth some sacrifice, it must be worth the same sacrifice to save an out-of-view child from perishing, as well.&lt;/p&gt;
+
+&lt;p&gt;But what if the metaphorical drowning child, rather than being 10,000 miles away, is 10,000 years in the future? This is the question Ord explores in his 2020 book, &lt;a href=&quot;https://theprecipice.com/&quot;&gt;&lt;em&gt;The Precipice.&lt;/em&gt;&lt;/a&gt; The risks he considers are not children dying from preventable disease, but of children never being born at all—not hundreds or thousands of children, but billions or trillions of them throughout humanity’s vast potential future. Whether our species can end suffering, explore other worlds, and experience the unimaginable, all depends on whether we can survive to continue our story.&lt;/p&gt;
+
+&lt;p&gt;Ord argues that we may be living through the most important time in history, when our technological power is growing so rapidly that we could make humanity’s final mistake. Climate change, nuclear war, pandemics, or unaligned artificial intelligence could all spell the end of humanity if we’re not careful. The extremely high stakes of safeguarding humanity’s future potential makes it worth fighting for, even if the probability of catastrophe is low—and in estimating its odds at 1 in 6, Ord doesn’t believe it to be so low. He brought his optimism from addressing global poverty, identifying specific ways that individuals can help, not just by donating to effective organizations working to minimize existential risks, but also by directing their own careers to make the biggest difference.&lt;/p&gt;
+
+&lt;p&gt;While EA has grown over the past decade, so too has a much older idea: universal basic income, or UBI. UBI is an unconditional cash payment given to every member of society on a regular basis, typically monthly, sufficient to meet basic needs. No government has yet implemented it, though many have enacted programs that check some of the boxes.&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; A number of cities have also pursued philanthropically-funded UBI pilots and experiments.&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;In this chapter, I will connect UBI to the theme of this book series, through the lens of effective altruism. In short, I will review how reducing poverty could save lives in the short and (very) long run, and how UBI policies could effectively achieve that egalitarianism.&lt;/p&gt;
+
+&lt;h2 id=&quot;poverty-and-mortality&quot;&gt;Poverty and mortality&lt;/h2&gt;
+
+&lt;p&gt;The strong correlation between income, poverty, and mortality has long been known, across geographies and over time.&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; In 2016, a 1 percent increase in per-capita income across countries was associated with an extra 0.06 years of life expectancy, a reduction in infant mortality of  0.16 percentage points (pp), and a reduction in child mortality of 0.23pp. The extreme poverty rate, defined as $1.90 per day of consumption in 2011 dollars, is also associated with these measures of mortality, even when controlling for per-capita income. A 1pp decrease in the extreme poverty rate is associated with an extra 0.30 years of life expectancy, a reduction in infant mortality of 0.75pp, and a reduction in child mortality of 1.03pp.&lt;sup id=&quot;fnref:7&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Empirical economics research, which applies tools such as randomized controlled trials and identification of “natural experiments” to establish causal relationships, indicates that this is more than correlation: poverty conclusively shortens lives.&lt;/p&gt;
+
+&lt;p&gt;Evidence comes largely from cash transfer programs, studies of which compare recipients to similar people who, due to chance or circumstance, happened not to receive the transfers. Cash transfers fall into two categories: conditional cash transfers (CCTs), in which eligible households must take some action like schooling or vaccinating children to receive the transfers, and unconditional cash transfers (UCTs), which carry no requirements. UBI is essentially a regular, universal UCT set at an amount that covers basic needs.&lt;/p&gt;
+
+&lt;p&gt;The simplest form of evidence is randomized controlled trials (RCTs), in which individuals are randomly assigned to a treatment or control group, as in medical trials. An RCT in Rwanda, for example, found that a one-time $500 UCT to households that contain poor or underweight children, or pregnant or lactating women, reduced child mortality by 70 percent compared to a control group.&lt;sup id=&quot;fnref:8&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; However, the small sample size—two children died in the treatment group, compared to 13 children in the larger control group—justifies considering other evidence as well.&lt;/p&gt;
+
+&lt;p&gt;When cash transfers aren’t randomly assigned, they can often be evaluated when governments deploy them semi-randomly, as Mexico did when it staggered the rollout of its &lt;em&gt;Progresa&lt;/em&gt; CCT across geographies. Compared to households who would have received Progresa transfers if they’d been in early-rollout areas, treated rural households experienced 17 percent less infant mortality, though neonatal mortality did not significantly change.&lt;sup id=&quot;fnref:9&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; Brazil’s similar CCT, &lt;em&gt;Bolsa Familia,&lt;/em&gt; reduced child mortality by between 6 and 17 percent.&lt;sup id=&quot;fnref:10&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;In 1911, the US government established its first welfare program, the Mother’s Pension Program, which provided cash transfers representing 12 to 25 percent of family income, generally for about 3 years. Male children of mothers accepted for the US Mother’s Pension Program lived one year longer than male children of mothers who were rejected after initial acceptance (Aizer et al., 2016). This study also reported other medium-term outcomes, which can help estimate the effects of other cash transfer results for which mortality data is not yet reliably available. The program “resulted in a significant 50 percent decrease in under-nutrition, a 13 percent increase in income, and an increase of 0.4 years of school among young adults.” By comparing these results to other research on mortality and being underweight (Flegal et al., 2005), income (Deaton &amp;amp; Paxson, 2001), and education (Cutler &amp;amp; Lleras-Muney, 2006), the authors establish that education and income explain 75 to 95 percent of the longevity increase, while the underweight channel explains a small share.&lt;/p&gt;
+
+&lt;p&gt;Cash transfer experiments have established robust causal relationships between poverty and intermediate outcomes identified in the Mothers Pension Program study. A $1,000 UCT to extremely poor households in Kenya raised subsequent earnings by $270.&lt;sup id=&quot;fnref:11&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; UCTs in Malawi and Zambia raise school enrollment by between 4 and 19 percentage points.&lt;sup id=&quot;fnref:12&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; A UCT in Rwanda also raised height-for-age and weight-for-age, indicators of healthy child development.&lt;sup id=&quot;fnref:13&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;With time, researchers will be able to follow up with treatment and control groups from these experiments to determine long-run mortality effects. This will add precision to the existing finding that poverty shortens lives, via channels including income, education, and nutrition.&lt;/p&gt;
+
+&lt;h2 id=&quot;poverty-and-existential-risk&quot;&gt;Poverty and existential risk&lt;/h2&gt;
+
+&lt;p&gt;Poverty is not itself an existential risk, nor is it directly related to any likely candidates. However, poverty  destabilizes society through short-termism, isolationism, and other problems, and that instability raises the risks of extinction.&lt;/p&gt;
+
+&lt;p&gt;Through a combination of evidence and expert opinion, Ord estimated the probabilities of each type of existential catastrophe, as shown in the table below.&lt;sup id=&quot;fnref:14&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:14&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt; He acknowledges that these probabilities are somewhat speculative, saying, “Their purpose is to show the right order of magnitude, rather than a more precise probability.” Nevertheless, it provides a guide for prioritizing the risks, identifying patterns across them, and especially, for determining the most effective ways to reduce them.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Existential catastrophe via&lt;/th&gt;
+      &lt;th&gt;Chance within the next 100 years&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Asteroid or comet impact&lt;/td&gt;
+      &lt;td&gt;~1 in 1,000,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Supervolcanic eruption&lt;/td&gt;
+      &lt;td&gt;~1 in 10,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stellar explosion&lt;/td&gt;
+      &lt;td&gt;~1 in 1,000,000,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total natural risk&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;~1 in 10,000&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nuclear war&lt;/td&gt;
+      &lt;td&gt;~1 in 1,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Climate change&lt;/td&gt;
+      &lt;td&gt;~1 in 1,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Other environmental damage&lt;/td&gt;
+      &lt;td&gt;~1 in 1,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;‘Naturally’ arising pandemics&lt;/td&gt;
+      &lt;td&gt;~1 in 10,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Engineered pandemics&lt;/td&gt;
+      &lt;td&gt;~1 in 30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Unaligned artificial intelligence&lt;/td&gt;
+      &lt;td&gt;~1 in 10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Unforeseen anthropogenic risks&lt;/td&gt;
+      &lt;td&gt;~1 in 30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Other anthropogenic risks&lt;/td&gt;
+      &lt;td&gt;~1 in 50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total anthropogenic risk&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;~1 in 6&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total existential risk&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;~1 in 6&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The first thing to note is that natural risks represent less than a thousandth of the total existential risk. This is in some ways encouraging, since there’s little to be done about them, except perhaps becoming a multiplanetary species more quickly.&lt;/p&gt;
+
+&lt;p&gt;The second is that risk probabilities vary by orders of magnitude. Nuclear war and climate change are major threats, but each is less than a hundredth as likely as unaligned artificial intelligence (which I’ll describe later). This isn’t to say nuclear war and climate change couldn’t kill millions, even billions of people; they’re just unlikely to kill everyone on Earth.&lt;sup id=&quot;fnref:15&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:15&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The third, and most relevant to this analysis, is that the risks share common threads. Avoiding nuclear war and engineered pandemics will require international safeguards of hazardous material. Avoiding unaligned artificial intelligence will require a more patient approach to developing this transformational technology. Avoiding disasters from climate change—and to a large degree, all these risks—will require both international cooperation and emphasis on sustainability.&lt;/p&gt;
+
+&lt;p&gt;As a growing share of the world’s population—now over half—lives under democracy,&lt;sup id=&quot;fnref:16&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:16&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;13&lt;/a&gt;&lt;/sup&gt; the extent to which individual citizens support cooperation and sustainability will affect country-level outcomes.&lt;/p&gt;
+
+&lt;p&gt;The available evidence suggests that lifting people out of poverty increases their future orientation and trust in the institutions, thereby increasing support for future-oriented, globally-cooperative public policy. Poverty reduction may also address specific risks, and I discuss its links to three of the top ones: climate change, pandemics, and unaligned AI.&lt;/p&gt;
+
+&lt;h3 id=&quot;patience&quot;&gt;Patience&lt;/h3&gt;
+
+&lt;p&gt;Investing in existential risk avoidance requires giving up short-term gains to secure long-term stability; indeed, those now espousing such investments often describe themselves as &lt;em&gt;longtermists.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Researchers characterize the patience of individuals and societies with a range of outcomes. In the economic sense, the &lt;em&gt;rate of time preference&lt;/em&gt; or &lt;em&gt;discount factor&lt;/em&gt; describe impatience, quantifying the amount of money one would have to receive tomorrow in exchange for giving up a dollar today. Psychologists measure delayed gratification with experiments like the famous &lt;em&gt;marshmallow test&lt;/em&gt;.&lt;sup id=&quot;fnref:17&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:17&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;14&lt;/a&gt;&lt;/sup&gt; Other researchers elicit impulsivity through survey questions like, “I don’t spend enough time thinking over a situation before I act.”&lt;sup id=&quot;fnref:18&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:18&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;15&lt;/a&gt;&lt;/sup&gt; For simplicity, I refer to outcomes from various studies as &lt;em&gt;patience&lt;/em&gt;, capturing different angles of this general concept.&lt;/p&gt;
+
+&lt;p&gt;Across countries, income correlates with patience.&lt;sup id=&quot;fnref:19&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:19&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;16&lt;/a&gt;&lt;/sup&gt; Cash transfers have helped measure patience, since the share of the new income spent vs. saved offers clear exogenous variation. Such designs show that households in rural Mexico and Guatemala are much less (economically) patient than households in the US&lt;sup id=&quot;fnref:20&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:20&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Economic panel data also shows that income and patience correlate within the US.&lt;sup id=&quot;fnref:21&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:21&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;18&lt;/a&gt;&lt;/sup&gt; This could be reverse causality, as more patient people could take the time to build careers that would generate higher lifetime income, but sociological and psychological research suggests that patience is largely cemented in childhood through cultural and socioeconomic circumstances. For example, residents of poorer neighborhoods have higher impulsivity,&lt;sup id=&quot;fnref:22&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:22&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;19&lt;/a&gt;&lt;/sup&gt; and income and maternal education at birth negatively correlate with impulsivity among 15-year-olds.&lt;sup id=&quot;fnref:23&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:23&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The question is: is it causal? Recent evidence on “hand to mouth” households—those who consume their entire income—offers conflicting accounts. The hand-to-mouth share generally exceeds the share that standard time preference models would predict. A 2020 paper on US households attributes this to heterogeneous preferences, rather than impatience.&lt;sup id=&quot;fnref:24&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:24&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;21&lt;/a&gt;&lt;/sup&gt; However, another 2020 paper from Bangladesh finds that large randomized asset transfers enable poor households to break out of consistent hand-to-mouth poverty;&lt;sup id=&quot;fnref:25&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:25&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;22&lt;/a&gt;&lt;/sup&gt; this would only occur if the wealth shock made them more patient, as some theories predict.&lt;sup id=&quot;fnref:26&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:26&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;23&lt;/a&gt;&lt;/sup&gt; As with many traits, patience results from more than economic conditions, but poverty reduction would likely have some positive effect on patience.&lt;/p&gt;
+
+&lt;h3 id=&quot;trust-and-global-cooperation&quot;&gt;Trust and global cooperation&lt;/h3&gt;
+
+&lt;p&gt;Existential risks know no borders. Averting catastrophic climate change will require the US to rejoin the Paris Accords as a vital bare minimum, and other international partnerships will be necessary to hold countries accountable to shared goals. Similarly, international organizations can ensure countries adhere to bioengineering and nuclear engineering safety standards, and can deter great power wars that could make existential risks like pandemic and nuclear war more likely.&lt;/p&gt;
+
+&lt;p&gt;Few studies examine sentiment toward international cooperation directly, but income consistently predicts three potential proxies: views on immigration, views on trade, and social trust.&lt;/p&gt;
+
+&lt;p&gt;In Australia, income correlates negatively with isolationism and vote share for the anti-immigrant party, controlling for other demographics and attitudes.&lt;sup id=&quot;fnref:27&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:27&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;24&lt;/a&gt;&lt;/sup&gt; Correlational and experimental evidence from Switzerland finds a “v curve” where anti-immigrant sentiment is highest in low- and high-income groups; it also finds high anti-immigrant sentiment in low-wealth groups (with no v curve).&lt;sup id=&quot;fnref:28&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:28&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;25&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;A UK survey experiment compared support for a child benefit program when respondents were either primed or not primed to consider that it benefits immigrants. While immigration priming reduced support among all groups, the effect was about three times larger for people without a high school degree than for university degree holders.&lt;sup id=&quot;fnref:29&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:29&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;26&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Similar patterns are observed from trade: high income Americans are about 10 percentage points more likely than low-income Americans to say that trade has a “mostly positive” effect on a variety of outcomes.&lt;sup id=&quot;fnref:30&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:30&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;27&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Education may be a channel through which income affects international views; for example, a dynamic model of education choice shows that it raises trust (as well as voter participation).&lt;sup id=&quot;fnref:31&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:31&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;28&lt;/a&gt;&lt;/sup&gt; The US survey also found a 10-point delta in trade sentiment by college completion.&lt;/p&gt;
+
+&lt;p&gt;More research is needed to understand these ties; for example, support for the United Nations is not significantly related to support for populist parties in Europe, though US Democrats are more than twice as likely to support the UN than Republicans.&lt;sup id=&quot;fnref:32&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:32&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;29&lt;/a&gt;&lt;/sup&gt; Overall, though, the available evidence is consistent with the hypothesis that reducing poverty would engender support for the international cooperation needed to fight existential risks.&lt;/p&gt;
+
+&lt;h3 id=&quot;climate-change&quot;&gt;Climate change&lt;/h3&gt;
+
+&lt;p&gt;Whether income increases carbon emissions is controversial and uncertain. From a purely correlational perspective, people in richer countries emit more carbon. In 2016 across countries, a 1 percent increase in per-capita income and a 1pp decrease in extreme poverty were associated with increases in per-capita carbon emissions of 1.3 and 1.0 percent, respectively.&lt;sup id=&quot;fnref:33&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:33&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;30&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The causal story at the individual level is more encouraging. CCTs in Indonesia reduced tree cover losses by 30 percent, as recipients relied less on deforestation in times of need, and consumed more market-purchased goods rather than deforestation-sourced goods.&lt;sup id=&quot;fnref:34&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:34&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;31&lt;/a&gt;&lt;/sup&gt; And a UCT in Pakistan shifted its ultra-poor recipients from traditional fuels like wood and dung to more modern fuels that are better for the environment.&lt;sup id=&quot;fnref:35&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:35&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;32&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to advances in clean energy technology, global per-capita emissions have fallen since 2012, and they’ve fallen faster in more advanced countries like the US and France, which is now about equal to the global average.&lt;sup id=&quot;fnref:36&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:36&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;33&lt;/a&gt;&lt;/sup&gt; It’s plausible then that poor countries would develop in less carbon-intensive ways than rich countries have, bypassing high-carbon technologies no longer needed, and even innovating more themselves.&lt;/p&gt;
+
+&lt;p&gt;Regardless, the ethics of slowing global poverty reduction in order to slow climate change are dubious, especially given the infeasibility of such an undertaking and its uncertain impact. What’s needed is public policy to accelerate the transition away from fossil fuels. Experts agree that one policy in particular is essential for averting catastrophic global warming: carbon pricing.&lt;/p&gt;
+
+&lt;p&gt;Unlike targeted policies like electric vehicle subsidies, carbon pricing reduces emissions throughout the economy. The state assesses fees on carbon emissions at the source—the oil well, coal mine, gas site, or border for imported goods—and the internalized cost of carbon emissions then flows through manufacturers, services, and consumers, each of whom chooses lower-carbon options, with encouragement from the price signal.&lt;/p&gt;
+
+&lt;p&gt;In its 2018 special report on global warming,&lt;sup id=&quot;fnref:37&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:37&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;34&lt;/a&gt;&lt;/sup&gt; the Intergovernmental Panel on Climate Change (IPCC) made carbon pricing a core benchmark for countries’ progress on climate goals. Simulations from MIT and Climate Interactive show that carbon pricing reduces temperature changes more than any other individual policy; it has a positive marginal effect even at low rates and with or without other policies; and without it, staying under 1.5℃ will be nearly impossible.&lt;sup id=&quot;fnref:38&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:38&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;35&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The environmental benefits of a carbon pricing policy would extend beyond the borders of the country that implements it. Domestic manufacturers could export the clean, innovative products promoted by the carbon pricing. And because carbon pricing bills typically come with a “border adjustment,” which equivalizes trading partners by adding a fee to carbon-intensive imports from countries without their own carbon prices, other countries would be incentivized to add their own carbon pricing to make exports competitive.&lt;/p&gt;
+
+&lt;p&gt;The question is: how should the revenue be used? The answer, according to over 3,500 US economists, is equal dividends. These “carbon dividends” would offset the higher costs of goods and services with carbon-based inputs.&lt;sup id=&quot;fnref:39&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:39&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;36&lt;/a&gt;&lt;/sup&gt; Signatories to the letter, the largest statement in the history of the economics profession, include 45 Nobel Prize winning economists, as well as former Treasury secretaries and chairs of the Federal Reserve and Council of Economic Advisors, from both political parties.&lt;/p&gt;
+
+&lt;p&gt;Several studies of carbon dividends find that it would be progressive on a net basis and benefit most people.&lt;sup id=&quot;fnref:40&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:40&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;37&lt;/a&gt;&lt;/sup&gt; This result follows from carbon consumption increasing with income.&lt;/p&gt;
+
+&lt;p&gt;65 percent of Americans support carbon dividends,&lt;sup id=&quot;fnref:41&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:41&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;38&lt;/a&gt;&lt;/sup&gt; following from another popular proposal for universal dividends: the Alaska Permanent Fund Dividend, a small UBI funded by the state’s oil wealth. 90 percent of Alaskans favor the dividend going to everyone, and 64 percent say they would rather raise state income taxes than end the program.&lt;sup id=&quot;fnref:42&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:42&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;39&lt;/a&gt;&lt;/sup&gt; A clean, habitable environment is a type of shared natural resource, and carbon dividends essentially require that people who consume more of it compensate the rest of society.&lt;/p&gt;
+
+&lt;p&gt;Poverty reduction may or may not reduce emissions to avert climate change directly, but poverty reduction policies like cash transfers can make carbon pricing more attractive, raising the odds of enacting effective climate policy.&lt;/p&gt;
+
+&lt;h3 id=&quot;pandemics&quot;&gt;Pandemics&lt;/h3&gt;
+
+&lt;p&gt;Ord published &lt;em&gt;The Precipice&lt;/em&gt; on March 3, 2020. By the end of that month, the Covid-19 pandemic had shut down much of the planet. Despite being unaware of the virus when writing the book, Ord warned of the risk of natural and engineered pandemics as the second most likely cause of existential catastrophe in the coming century. The combination of historical precedent (the Black Death is estimated to have killed between 30 and 60 percent of Europeans) and rapid investment in synthetic biology indicated that this area deserves caution.&lt;/p&gt;
+
+&lt;p&gt;As I write this on September 28, 2020,  Covid-19 has just taken its millionth life worldwide.&lt;sup id=&quot;fnref:43&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:43&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;40&lt;/a&gt;&lt;/sup&gt; Excess mortality estimates suggest official statistics may significantly undercount the virus’s true impact,&lt;sup id=&quot;fnref:44&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:44&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;41&lt;/a&gt;&lt;/sup&gt; and forecasters expect its death toll to reach 3 million by March 2021.&lt;sup id=&quot;fnref:45&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:45&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;42&lt;/a&gt;&lt;/sup&gt; It has been one of the worst disasters in human history.&lt;/p&gt;
+
+&lt;p&gt;And yet, to wipe out humanity, a future pandemic would have to be orders of magnitude more deadly than Covid-19. It would have to kill over 2,000 times as many people, swinging its scythe at children and younger adults, who have been less vulnerable thus far. It would also have to reach isolated populations, not only to islands like those of Hawaii, whose death rate is projected to be 80 percent lower than that of the US,&lt;sup id=&quot;fnref:46&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:46&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;43&lt;/a&gt;&lt;/sup&gt; but also to uncontacted tribes and people in other remote locations.&lt;/p&gt;
+
+&lt;p&gt;The tools needed to contain such a calamitous pandemic will therefore differ from those deployed for Covid-19. Nevertheless, our current episode may help identify solutions to prepare for worse ones to come.&lt;/p&gt;
+
+&lt;p&gt;Coincidentally, the world’s first true UBI experiment sheds light on this topic. In 2017, the cash transfer NGO, GiveDirectly, began an experiment that promised monthly payments of about $22 to each adult in rural Kenyan villages. While many unconditional cash transfer experiments had been previously conducted, none were truly universal—GiveDirectly gave UBIs to all households in treated villages—and none lasted so long—the payments were guaranteed for up to 12 years.&lt;/p&gt;
+
+&lt;p&gt;GiveDirectly had planned to release its first results from the UBI study in 2020, and when the pandemic hit, they shifted gears into evaluating how UBI protected its beneficiaries. They found that the transfers “significantly improved well-being on common measures such as hunger, sickness and depression.”&lt;sup id=&quot;fnref:47&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:47&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;44&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Of greater relevance to existential risk is GiveDirectly’s finding that the transfers reduced hospital visits and decreased social interactions. In epidemiological parlance, UBI likely reduced “R&lt;sub&gt;0&lt;/sub&gt;” (pronounced “R-naught”), which measures the contagion of a disease. If cash transfers can keep some of the world’s poorest people from taking unnecessary risks, that could mean the difference between humanity’s potential haven remaining populated or becoming exposed.&lt;/p&gt;
+
+&lt;p&gt;Other evidence points to poverty as a risk factor for contracting and dying from Covid-19. Compared to counties with under 5 percent poverty, counties in Illinois and New York with poverty rates above 20 percent had 72 percent higher death rates  from Covid-19.&lt;sup id=&quot;fnref:48&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:48&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;45&lt;/a&gt;&lt;/sup&gt; This could be due to job types, general health, and/or other reasons.&lt;/p&gt;
+
+&lt;p&gt;Poverty reduction may also improve public health behaviors through education. For example, 85 percent of American college graduates reported wearing masks “always” or “very often” when going outside in summer 2020, compared to 65 percent of non-college graduates.&lt;sup id=&quot;fnref:49&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:49&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;46&lt;/a&gt;&lt;/sup&gt; The relationship between education and trust may explain this effect, as evidence from Europe during Covid-19 shows that “high-trust regions decrease their mobility related to non-necessary activities significantly more than low-trust regions.”&lt;sup id=&quot;fnref:50&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:50&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;47&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;unaligned-artificial-intelligence&quot;&gt;Unaligned artificial intelligence&lt;/h3&gt;
+
+&lt;p&gt;Ord’s top existential risk is that of unaligned artificial intelligence, at about 1 in 10 odds of destroying humanity’s future. This has caused EA organizations to promote AI research organizations as primary donation sites and places to work to make the greatest impact. But what is unaligned AI, and how could it end humanity’s potential?&lt;/p&gt;
+
+&lt;p&gt;The canonical thought experiment on the topic dates back to 2003, from Nick Bostrom, a philosophy professor at Oxford and now director of its Future of Humanity Institute:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The risks in developing superintelligence [advanced AI] include…a well-meaning team of programmers [making] a big mistake in designing its goal system. This could result…in a superintelligence whose top goal is the manufacturing of paperclips, with the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A real paperclip manufacturer might add constraints to the AI’s optimization function, for example preventing it from killing any humans, or penalizing it for any mountains destroyed. This is similar to how social media recommendation systems work: they optimize for engagement, but also take down content that violates rules, and penalize content that comes close to rule-breaking or otherwise opposes the goals of the company. This can work as long as we humans stay ahead of the AI. But what if the paperclip maximizer AI finds the one way around our constraints and, for example, just pulls minerals from the ocean, killing all fish on Earth? AI technology is progressing quickly, so these possibilities might strike before we know it, before we’re prepared.&lt;/p&gt;
+
+&lt;p&gt;Stuart Russell, UC Berkeley computer science professor and director of the Center for Human Compatible AI, lays out a different approach in his 2019 book, &lt;em&gt;Human Compatible.&lt;/em&gt;&lt;sup id=&quot;fnref:51&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:51&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;48&lt;/a&gt;&lt;/sup&gt; Rather than adapting objectives to trim off the scenarios that violate human preferences one by one, he proposes the AI learn human preferences directly via these three principles (verbatim):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The machine’s only objective is to maximize the realization of human preferences.&lt;/li&gt;
+  &lt;li&gt;The machine is initially uncertain about what those preferences are.&lt;/li&gt;
+  &lt;li&gt;The ultimate source of information about human preferences is human behavior.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A paperclip maximizer AI constructed under these principles will either know that emptying the seas violates human preferences (since humans have never attempted such a thing), or would have sufficient uncertainty about human preferences that it would hesitate to do so. It would also need a way to aggregate human preferences, to avoid empowering a selfish or sadistic human.&lt;/p&gt;
+
+&lt;p&gt;Whether an AI can be built under Russell’s framework is an engineering question, but taking it as given, poverty may inhibit its ability to maximize the realization of human preferences. Much of AI today is built for commercial ends: Amazon to sell products, Google and Facebook to sell ads, and so on. When certain groups of individuals lack the capacity to participate in the markets—the systems through which AIs are learning to predict human preferences—the AI will have greater uncertainty in estimating its preferences. Uncertainty about those heterogeneous preferences will translate into more uncertain aggregate preferences when considering actions that will affect others.&lt;/p&gt;
+
+&lt;p&gt;As long as the AI fully recognizes its uncertainty around poorer people’s preferences, their absence from the commercial systems that train them might not pose an existential threat. But uncertainty is difficult to get right, and without broad input, there’s a risk of recreating humanity disproportionately in the image of its market participants. Equalizing access to those markets by reducing poverty may be a safer bet.&lt;/p&gt;
+
+&lt;h2 id=&quot;ubi-among-antipoverty-programs&quot;&gt;UBI among antipoverty programs&lt;/h2&gt;
+
+&lt;p&gt;If poverty reduction reduces mortality and existential risk, how should societies reduce poverty? Why would they pursue UBI, specifically?&lt;/p&gt;
+
+&lt;p&gt;Existing antipoverty programs have unquestionably helped. The US safety net reduced the poverty rate by 46 percent in 2018, and reduced the poverty gap—which measures how far below the poverty line households are—by 66 percent.&lt;sup id=&quot;fnref:52&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:52&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;49&lt;/a&gt;&lt;/sup&gt; This chapter has cited a number of non-UBI programs that improved outcomes from mortality to income to sustainability.&lt;/p&gt;
+
+&lt;p&gt;Yet, those programs have drawbacks. One in four Americans living in poverty do not receive any antipoverty program support.&lt;sup id=&quot;fnref:53&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:53&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;50&lt;/a&gt;&lt;/sup&gt; Even the largest federal programs, which benefit from economies of scale, spend about 10 cents of each dollar on administration,&lt;sup id=&quot;fnref:54&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:54&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;51&lt;/a&gt;&lt;/sup&gt; and this administration costs recipients time and effort applying and complying with its rules. Purchase restrictions prevent recipients from meeting their particular needs, and means-testing penalizes their labor.&lt;/p&gt;
+
+&lt;p&gt;UBI addresses these drawbacks in three eponymous ways: it is Universal (not means-tested or restricted by conditions like work-seeking), Basic (sufficient to meet basic needs), and Income (cash, not in-kind). Given the subjectivity of defining “basic needs,” the move toward UBI arguably constitutes the parallel moves from non-cash benefits to cash, and from targeting to universality.&lt;sup id=&quot;fnref:55&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:55&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;52&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cash-vs-in-kind-benefits&quot;&gt;Cash vs. in-kind benefits&lt;/h3&gt;
+
+&lt;p&gt;The case for cash is growing in popularity and evidentiary basis, thanks in part to GiveDirectly, the NGO now conducting the UBI experiment. GiveDirectly was created in 2012 by graduate students frustrated that they couldn’t give direct cash to alleviate global poverty. It now operates in multiple countries in East Africa, as well as in the US for disasters like hurricanes and Covid-19, largely providing one-time payments, but now expanding into UBI.&lt;sup id=&quot;fnref:56&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:56&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;53&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;GiveDirectly has also contributed to the UCT literature by running several RCTs. In 2018 and 2020, they released studies benchmarking existing USAID interventions to UCTs of the same value in Rwanda, randomly assigning eligible households to the existing benefit, cash, or a control group. One compared against a child nutrition program, and another compared against a workforce training program; in both cases and on virtually all relevant outcomes, including child mortality, the UCTs performed as well or better than the incumbent USAID program.&lt;sup id=&quot;fnref:57&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:57&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;54&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Some in-kind benefits produce subtler concerns. The inability of housing benefits to immediately meet new demand results in rationing systems like waitlists and lotteries. To get a public housing unit in the US, qualifying individuals typically wait for 9 months, and even Housing Choice Vouchers, which subsidize rents for people whose housing costs exceed 30 percent of income, have waiting lists of 1.5 years.&lt;sup id=&quot;fnref:58&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:58&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;55&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s evidence that this perceived scarcity of housing benefits primes people to view the world as zero-sum. In Austria, opening up public housing to immigrants increased support for populist anti-immigrant parties.&lt;sup id=&quot;fnref:59&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:59&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;56&lt;/a&gt;&lt;/sup&gt; Samuel Hammond of the Niskanen Center has argued that “Social welfare systems that rely heavily on ‘in-kind’ benefits (as opposed to direct cash transfers or vouchers) are comparatively supply-inelastic, which creates conflict during waves of immigration.”&lt;sup id=&quot;fnref:60&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:60&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;57&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Not all drawbacks of in-kind benefits are as quantifiable. The embarrassment of a mother trying to buy a block of cheese, only to be told at the register that her WIC card won’t allow it because the cheese was made outside the US.&lt;sup id=&quot;fnref:61&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:61&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;58&lt;/a&gt;&lt;/sup&gt; The annoyance of a minimum-wage worker preparing and transporting a sandwich to their job, because they can’t use SNAP to buy prepared food near their workplace.&lt;sup id=&quot;fnref:62&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:62&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;59&lt;/a&gt;&lt;/sup&gt; The risk of purchasing groceries in person amid a pandemic, because neither program can be used for grocery delivery.&lt;sup id=&quot;fnref:63&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:63&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;60&lt;/a&gt;&lt;/sup&gt; These hurdles follow from distrust of how the poor consume, now proven to be unwarranted.&lt;sup id=&quot;fnref:64&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:64&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;61&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;universality-vs-targeting&quot;&gt;Universality vs. targeting&lt;/h3&gt;
+
+&lt;p&gt;While in-kind benefits constrain recipients’ consumption, means-testing constrains their labor activity. Individual programs often phase out at about 30 cents on the dollar; for example, an extra dollar of earnings reduces SNAP (food stamp) benefits by 30 cents. This is equivalent to a 30 percent marginal tax on earnings, and when individuals participate in multiple programs that phase out together, those marginal tax rates add up. As a result, the Congressional Budget Office estimated that single parents in 2016 could face federal marginal tax rates in excess of 80 percent—far higher than the richest Americans.&lt;sup id=&quot;fnref:65&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:65&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;62&lt;/a&gt;&lt;/sup&gt; If those single parents have to pay for child care when working, they can easily end up worse off by increasing their working hours.&lt;/p&gt;
+
+&lt;p&gt;Especially acute cases arise from disability insurance, in which meaningfully entering the labor force can result in &lt;em&gt;lower&lt;/em&gt; take-home pay than remaining enrolled in benefit programs. These instances of marginal tax rates exceeding 100 percent are known as &lt;em&gt;welfare cliffs&lt;/em&gt;, and while some reforms have softened them, they still exist in many cases.&lt;sup id=&quot;fnref:66&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:66&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;63&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Payment frequency, often either monthly or yearly, is an issue for means-tested programs, too. In the US, yearly-distributed targeted programs include refundable tax credits like the Earned Income Tax Credit or the Child Tax Credit.&lt;sup id=&quot;fnref:67&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:67&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;64&lt;/a&gt;&lt;/sup&gt; Monthly programs include SNAP and TANF (cash welfare).&lt;/p&gt;
+
+&lt;p&gt;Yearly programs have the advantage of running through the tax code, simplifying the process for the applicant and reducing overhead costs; EITC costs only 1 percent to administer.&lt;sup id=&quot;fnref:68&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:68&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;65&lt;/a&gt;&lt;/sup&gt; However, they fail to respond to changes in income: if someone gets a pay cut in January, they might not get a compensating tax credit until 15 months later.&lt;/p&gt;
+
+&lt;p&gt;Monthly programs are responsive, but at the cost of bureaucracy. Recipients must report every change to income or personal circumstance, often within days or weeks. A report on the UK’s efforts to make tax credits for low-income people pay out monthly found that the government underestimated the instability of recipients’ circumstances: half of single parents underwent “more than a dozen changes in circumstance a year.”&lt;sup id=&quot;fnref:69&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:69&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;66&lt;/a&gt;&lt;/sup&gt; Compliance burdens aside, the benefits offset some income volatility, but given the delay of several weeks, some felt that the responsiveness (itself a volatile income source) made it harder to plan their finances.&lt;/p&gt;
+
+&lt;p&gt;Universalizing programs eliminates issues with either yearly or monthly means-tested programs. Many developed countries have monthly child allowances, for example, without any need to evaluate income; these programs efficiently meet the needs of parents on a regular basis. Richer parents pay more in their annual taxes, with the single system already well-equipped for counting income.&lt;/p&gt;
+
+&lt;p&gt;Finally, part of universality is unconditionality. For example, unemployment benefits typically require recipients to seek employment and regularly report their activities to the government. These strings demonstrate distrust, and some evidence suggests they may evoke reciprocal distrust.&lt;/p&gt;
+
+&lt;p&gt;In 2017, Finland randomly assigned a subset of unemployment beneficiaries to receive a UBI; on all surveyed outcomes, the UBI group responded more favorably than those on unemployment benefits, including on measures of mental health and social trust.&lt;sup id=&quot;fnref:70&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:70&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;67&lt;/a&gt;&lt;/sup&gt; A UK survey experiment also found that social protection programs were less susceptible to anti-immigrant opposition when they were universal, compared to means-tested.&lt;sup id=&quot;fnref:71&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:71&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;68&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Perhaps of greatest relevance to this chapter: targeted programs leave more of the poor impoverished. A study of 42 anti-poverty social protection schemes across 25 low-and middle-income countries  found that universal or near-universal programs reached at least 80 percent of intended recipients, while means-tested programs often reached half or less.&lt;sup id=&quot;fnref:72&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:72&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;69&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, universal programs cost more than targeted programs. Simply spreading out existing social assistance budgets across everyone increases poverty and inequality.&lt;sup id=&quot;fnref:73&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:73&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;70&lt;/a&gt;&lt;/sup&gt; Instead, universal safety nets require higher taxes.&lt;/p&gt;
+
+&lt;p&gt;Societies that pursue this strategy achieve lower disposable income inequality (inequality of income after taxes and transfers). The US, for example, ranks in the middle of OECD countries in market income inequality, but because it doesn’t redistribute much, its disposable income inequality is third from the bottom, more equal only than Chile and Mexico. Despite similar market income inequality to the US, Germany and Finland reduce inequality about twice as much as the US does.&lt;sup id=&quot;fnref:74&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:74&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;71&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;How do these European social democracies reduce inequality so much? Counterintuitively, it’s not through progressive taxation, in which tax rates rise with income; the US actually taxes more progressively than any other OECD country. It’s through &lt;em&gt;high&lt;/em&gt; taxation that supports generous transfers. The US taxes 24 percent of its GDP, compared to the 34 percent OECD average; only Ireland, Chile, and Mexico tax less.&lt;sup id=&quot;fnref:75&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:75&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;72&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Low US taxes are largely explained by the absence of a &lt;em&gt;value added tax&lt;/em&gt; (VAT), the type of consumption tax levied in all other OECD countries.&lt;sup id=&quot;fnref:76&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:76&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;73&lt;/a&gt;&lt;/sup&gt; 2020 US presidential candidate Andrew Yang proposed remedying that: the Freedom Dividend plan at the heart of his campaign featured a UBI of $1,000 per month per adult citizen, primarily funded by a 10 percent VAT. In a distributional analysis of his plan, which also included other reforms like a carbon dividend, welfare reform, and treating capital gains as ordinary income, I found that this plan would be progressive, lowering US inequality by 15 percent.&lt;sup id=&quot;fnref:77&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:77&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;74&lt;/a&gt;&lt;/sup&gt; Others have also found VAT-funded UBIs to be progressive;&lt;sup id=&quot;fnref:78&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:78&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;75&lt;/a&gt;&lt;/sup&gt; although VAT incidence is slightly regressive, as consumption as a share of income falls with income, the considerable progressiveness of the UBI makes the overall policy progressive.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;UBI is unlikely to be the most effective tool for addressing any individual problem. To avert near-term deaths, dollars are best spent on health interventions in developing countries.&lt;sup id=&quot;fnref:79&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:79&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;76&lt;/a&gt;&lt;/sup&gt; To avert existential catastrophe, dollars may best be spent researching specific threats, such as AI safety or pandemics. To reduce inequality without raising tax revenue, dollars are best spent targeting the poor.&lt;/p&gt;
+
+&lt;p&gt;What UBI lacks in targeted depth, it makes up for in breadth. This explains its effectiveness as an anti-poverty tool, ensuring that people don’t slip through the cracks of a fragmented welfare system consisting of separate programs for each shard of the poor. Just as it ensures coverage of all the needy, it too ensures coverage of all their needs, from food to housing to all the heterogeneous preferences the market satisfies for most members of society. When those preferences are satisfied, people gain the ability to live longer, healthier lives, and to look beyond their particular place and time.&lt;/p&gt;
+
+&lt;p&gt;While effective altruists could do better than funding UBI programs in rich countries, governments have much to gain from considering the policy. Nominally cheaper means-tested systems hide their true cost: a surveillance apparatus that costs governments billions, steals the time, freedom, and privacy of its participants, and inevitably fails to reach those most in need. Their extreme marginal tax rates discourage poor people from working, in turn cementing perceptions of the poor as lazy.&lt;/p&gt;
+
+&lt;p&gt;If means-test-reliant governments choose to break this cycle, the path has already been laid: European social democracies have reduced inequality through generous, widely available transfers, funded by the types of high-rate, broad-based, relatively flat taxes that raise substantial revenue. Countries with such systems in place still have residents who fall through the cracks, or who face perverse incentives, or are subjected to onerous bureaucracy to meet basic needs. Their already-expansive taxation systems provide them the resources to more easily move to universal programs like UBI.&lt;/p&gt;
+
+&lt;p&gt;The evidence base linking poverty to mortality and existential risk factors is substantial and growing, but more research and quantification is needed. A rigorous review would also consider the costs of redistributional policy: How much does taxation increase mortality? Does it lower trust and patience by putting some into worse economic conditions? Will longtermism suffer from donors having less resources at their disposal? How do these effects vary with the UBI parameters and funding structure? Many effects in economics exhibit diminishing returns, suggesting that shifting resources to the poor will improve the relevant outcomes on a net basis, but this is uncertain and the stakes demand epistemic humility.&lt;/p&gt;
+
+&lt;p&gt;UBI advocate Conrad Shaw has said, “we may almost resemble a new species when our basest daily fears are unshouldered.”&lt;sup id=&quot;fnref:80&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:80&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;77&lt;/a&gt;&lt;/sup&gt; People are right to be fearful when their poverty puts their life at risk, or the life of their child. Providing economic security for all won’t only avoid deaths of individual humans, it might just help us avert the death of humanity.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;For example, Alaska provides an annual dividend of between $1,000 and $3,000 per person, funded by its oil wealth. A number of countries have universal child allowances or flat old-age pensions. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;For example, the Economic Security Project and others are funding an &lt;a href=&quot;https://static1.squarespace.com/static/6039d612b17d055cac14070f/t/603ef1194c474b329f33c329/1614737690661/SEED_Preliminary+Analysis-SEEDs+First+Year_Final+Report_Individual+Pages+-2.pdf&quot;&gt;experiment in Stockton, California&lt;/a&gt;, and OpenResearch (formerly Y-Combinator Research) is &lt;a href=&quot;https://openresearchlab.org/assets/publications/Basic-Income-Proposal.pdf&quot;&gt;running an experiment across two US states&lt;/a&gt;. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;See &lt;a href=&quot;https://www.tandfonline.com/doi/abs/10.1080/00324728.1975.10410201&quot;&gt;Preston (1975)&lt;/a&gt; and &lt;a href=&quot;https://doi.org/10.2307/2094510&quot;&gt;Gortmaker (1979)&lt;/a&gt;. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8&quot;&gt;My calculations&lt;/a&gt; based on World Bank data on 183 countries for income, or 76 countries for poverty, weighted by country population. Regressions including both log income and the extreme poverty rate show similar t-statistics between the two predictors across outcomes, both around 6 in absolute value and coefficients falling by roughly half compared to 1-predictor regressions; poverty and life expectancy is an exception at around -2.8, suggesting that extreme poverty has a stronger effect on infant and child mortality than on life expectancy. Infant and child mortality are defined as deaths of children under age 1 and 5, respectively. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Despite the relatively few cases of child mortality, the result was statistically significant with a t-statistic of -2.05 &lt;a href=&quot;https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf&quot;&gt;(McIntosh &amp;amp; Zeitlin, 2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Progresa transfers increased income by about 22 percent &lt;a href=&quot;https://doi.org/10.1016/j.jdeveco.2010.01.003&quot;&gt;(Barham, 2011)&lt;/a&gt;. Infant and neonatal mortality are defined as death in the first year and 28 days of life, respectively &lt;a href=&quot;https://data.unicef.org/topic/child-survival/neonatal-mortality/&quot;&gt;(UNICEF, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:10&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Bolsa Familia “transfers ranged from $18 to $175 per month, depending on the income and composition of the family”; the effect size varied with the program’s coverage by municipality, the unit of analysis &lt;a href=&quot;https://doi.org/10.1016/S0140-6736(13)60715-1&quot;&gt;(Rasella et al., 2013)&lt;/a&gt;. &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:11&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1093/qje/qjw025&quot;&gt;Haushofer &amp;amp; Shapiro (2016)&lt;/a&gt;. &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:12&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Malawi &lt;a href=&quot;https://www.unicef.org/evaldatabase/index_94228.html&quot;&gt;(Abdoulayi et al., 2016)&lt;/a&gt; and Zambia (&lt;a href=&quot;https://www.air.org/system/files/downloads/report/MCTG_36Month_Final_Feb2016.pdf&quot;&gt;Seidenfeld et al., 2016&lt;/a&gt;; &lt;a href=&quot;https://www.unicef.org/evaldatabase/files/Zambia_Child_Grant_Programe_-_36_month_impact_report.pdf&quot;&gt;Seidenfeld &amp;amp; Handa, 2014&lt;/a&gt;). &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:13&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://arxiv.org/abs/2009.01749&quot;&gt;McIntosh &amp;amp; Zeitlin (2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:14&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Reproduced from Table 6.1 of &lt;em&gt;The Precipice&lt;/em&gt;. &lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:15&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Ord defines existential risk more broadly than killing all of humanity, as risks that destroy humanity’s potential. Climate change could, for example, threaten to kill so much of humanity, and leave the remainder in such uninhabitable environs, that our species spends the rest of its days living on subsistence without the capacity to advance; this would also qualify as an existential catastrophe. &lt;a href=&quot;#fnref:15&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:16&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;55.8 percent of the world population lived in democratic states as of 2015 &lt;a href=&quot;https://ourworldindata.org/democracy&quot;&gt;(Roser, 2013)&lt;/a&gt;. &lt;a href=&quot;#fnref:16&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:17&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://content.apa.org/record/1971-02138-001&quot;&gt;Mischel &amp;amp; Ebbesen (1970)&lt;/a&gt;. &lt;a href=&quot;#fnref:17&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:18&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1037/0022-3514.58.1.95&quot;&gt;Dickman (1990)&lt;/a&gt;. &lt;a href=&quot;#fnref:18&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:19&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Based on a “representative data set on time preferences from 80,000 individuals in 76 countries,” this study also found correlations between income and discount factors	 at the individual level &lt;a href=&quot;https://econpapers.repec.org/paper/hkawpaper/2016-012.htm&quot;&gt;(Dohmen et al., 2015)&lt;/a&gt;. &lt;a href=&quot;#fnref:19&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:20&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Mexico &lt;a href=&quot;https://www.rand.org/pubs/working_papers/WR759.html&quot;&gt;(Carvalho, 2008)&lt;/a&gt; and Guatemala &lt;a href=&quot;https://doi.org/10.1080/15140326.2019.1596641&quot;&gt;(Aycinena et al., 2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:20&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:21&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1086/261740&quot;&gt;Lawrance (1991)&lt;/a&gt;. &lt;a href=&quot;#fnref:21&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:22&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/11195980/&quot;&gt;Lynam et al. (2000)&lt;/a&gt;. &lt;a href=&quot;#fnref:22&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:23&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.3390/children5050058&quot;&gt;Assari et al. (2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:23&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:24&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.3386/w26643&quot;&gt;Aguiar et al. (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:24&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:25&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://papers.ssrn.com/abstract=3594155&quot;&gt;Balboni et al. (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:25&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:26&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1162/003355397555334&quot;&gt;Becker &amp;amp; Mulligan (1997)&lt;/a&gt;. &lt;a href=&quot;#fnref:26&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:27&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1017/S0007123406000184&quot;&gt;Mughan &amp;amp; Paxton (2006)&lt;/a&gt;. &lt;a href=&quot;#fnref:27&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:28&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1371/journal.pone.0139156&quot;&gt;Jetten et al. (2015)&lt;/a&gt;. &lt;a href=&quot;#fnref:28&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:29&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1017/psrm.2017.18&quot;&gt;Muñoz &amp;amp; Pardos-Prado (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:29&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:30&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://news.gallup.com/poll/315590/americans-face-mask-usage-varies-greatly-demographics.aspx&quot;&gt;Gallup (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:30&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:31&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1086/697535&quot;&gt;Heckman et al. (2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:31&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:32&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.pewresearch.org/fact-tank/2019/09/23/united-nations-gets-mostly-positive-marks-from-people-around-the-world/&quot;&gt;Pew Research Center (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:32&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:33&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Using World Bank data from 186 countries, weighted by population &lt;a href=&quot;https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8&quot;&gt;(Ghenis, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:33&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:34&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1126/sciadv.aaz1298&quot;&gt;Ferraro &amp;amp; Simorangkir (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:34&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:35&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.enpol.2020.111535&quot;&gt;Nawaz &amp;amp; Iqbal (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:35&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:36&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of 2018, global carbon emissions were 4.5 metric tons per capita, compared to 15.2 in the US and 4.6 in France &lt;a href=&quot;https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=FR-US-1W&quot;&gt;(World Bank, 2021)&lt;/a&gt;. NB: I updated this number compared to the book chapter, which used data from 2014, the latest available at its publication. &lt;a href=&quot;#fnref:36&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:37&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.ipcc.ch/sr15/&quot;&gt;IPCC (2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:37&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:38&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en-roads.climateinteractive.org/scenario.html&quot;&gt;Climate Interactive (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:38&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:39&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.econstatement.org&quot;&gt;Climate Leadership Council (n.d.)&lt;/a&gt;. &lt;a href=&quot;#fnref:39&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:40&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The US Treasury Department found that a carbon tax of $49 per metric ton could fund a rebate of $583 per person; this would raise the incomes of the bottom seven deciles, on average, at the cost of the upper three deciles &lt;a href=&quot;https://www.treasury.gov/resource-center/tax-policy/tax-analysis/Documents/WP-115.pdf&quot;&gt;(Horowitz et al., 2017)&lt;/a&gt;. Another study found that a $50 per ton carbon dividend “benefits 56 percent of people, including 85 percent in the bottom half of the distribution” &lt;a href=&quot;https://econpapers.repec.org/article/eeeecolec/v_3a163_3ay_3a2019_3ai_3ac_3ap_3a88-97.htm&quot;&gt;(Fremstad &amp;amp; Paul, 2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:40&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:41&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://clcouncil.org/morning-consult-poll.pdf&quot;&gt;Morning Consult (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:41&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:42&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Per a poll from the Economic Security Project &lt;a href=&quot;https://medium.com/economicsecproj/what-a-new-survey-from-alaska-can-teach-us-about-public-support-for-basic-income-ccd0c3c16b42&quot;&gt;(Isenberg, 2017)&lt;/a&gt;. &lt;a href=&quot;#fnref:42&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:43&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html&quot;&gt;New York Times (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:43&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:44&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of August 12, 2020, US excess mortality was about 200,000, while official Covid-19 deaths were about 140,000 &lt;a href=&quot;https://www.nytimes.com/interactive/2020/08/12/us/covid-deaths-us.html&quot;&gt;(Lu, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:44&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:45&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of September 28, 2020, a group of “superforecasters,” selected based on prediction accuracy across other outcomes, had assigned a 57 percent probability to global Covid-19 deaths exceeding 2.7 million by March 2020 &lt;a href=&quot;https://goodjudgment.io/superforecasts/#1388&quot;&gt;(Good Judgment Project, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:45&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:46&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Covid-19 is projected to kill 145 Hawaiians per million population, vs. 693 Americans per million &lt;a href=&quot;https://covid19-projections.com/&quot;&gt;(Gu, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:46&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:47&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.poverty-action.org/publication/effects-universal-basic-income-during-pandemic&quot;&gt;Banerjee et al. (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:47&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:48&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of May 5, 2020, the COVID-19 death rate per 100,000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York &lt;a href=&quot;https://doi.org/10.1097/PHH.0000000000001263&quot;&gt;(Chen &amp;amp; Krieger, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:48&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:49&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly &lt;em&gt;more&lt;/em&gt; likely to wear masks than higher-income people &lt;a href=&quot;https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx&quot;&gt;(Gallup, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:49&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:50&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://papers.ssrn.com/abstract=3596671&quot;&gt;Bargain &amp;amp; Aminjonov (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:50&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:51&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Human-Compatible-Artificial-Intelligence-Problem-ebook/dp/B07N5J5FTS&quot;&gt;Russell (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:51&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:52&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.peoplespolicyproject.org/2019/09/16/the-us-welfare-state-cut-poverty-by-two-thirds-in-2018/&quot;&gt;Bruenig (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:52&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:53&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.urban.org/research/publication/five-things-you-may-not-know-about-us-social-safety-net&quot;&gt;Minton &amp;amp; Giannarelli (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:53&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:54&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is&quot;&gt;Greenstein (2012)&lt;/a&gt;. &lt;a href=&quot;#fnref:54&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:55&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://medium.com/basic-income/if-we-can-afford-our-current-welfare-system-we-can-afford-basic-income-9ae9b5f186af&quot;&gt;Ghenis (2017)&lt;/a&gt;. &lt;a href=&quot;#fnref:55&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:56&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.givedirectly.org/&quot;&gt;&lt;em&gt;GiveDirectly&lt;/em&gt; (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:56&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:57&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;See papers on benchmarking UCTs to a child nutrition program &lt;a href=&quot;https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf&quot;&gt;(McIntosh &amp;amp; Zeitlin, 2018)&lt;/a&gt; and to an workforce training program &lt;a href=&quot;http://arxiv.org/abs/2009.01749&quot;&gt;(McIntosh &amp;amp; Zeitlin, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:57&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:58&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://nlihc.org/resource/housing-spotlight-volume-6-issue-1&quot;&gt;National Low Income Housing Coalition (2016)&lt;/a&gt;. &lt;a href=&quot;#fnref:58&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:59&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://ideas.repec.org/p/cge/wacage/328.html&quot;&gt;Cavaille &amp;amp; Ferwerda (2017)&lt;/a&gt;. &lt;a href=&quot;#fnref:59&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:60&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.niskanencenter.org/denmark-ghettos-public-housing/&quot;&gt;Hammond (2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:60&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:61&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.fns.usda.gov/wic/wic-food-packages-regulatory-requirements-wic-eligible-foods#MILK&quot;&gt;USDA (2013)&lt;/a&gt;. &lt;a href=&quot;#fnref:61&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:62&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.fns.usda.gov/snap/eligible-food-items&quot;&gt;USDA (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:62&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:63&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Purchase limitations prevent the poor from accessing normal markets, which in turn will make commercially-motivated AIs more uncertain about their preferences. &lt;a href=&quot;#fnref:63&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:64&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Cash transfers do not raise consumption of alcohol and tobacco &lt;a href=&quot;https://blogs.worldbank.org/impactevaluations/do-poor-waste-transfers-booze-and-cigarettes-no&quot;&gt;(Evans &amp;amp; Popova, 2014)&lt;/a&gt;. &lt;a href=&quot;#fnref:64&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:65&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/50923-marginaltaxrates.pdf&quot;&gt;Mok (2018)&lt;/a&gt;. &lt;a href=&quot;#fnref:65&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:66&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1111/j.1468-0009.2006.00465.x&quot;&gt;Stapleton et al. (2006)&lt;/a&gt;. &lt;a href=&quot;#fnref:66&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:67&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Only the Additional Child Tax Credit component of the Child Tax Credit is refundable, meaning that it can reduce federal tax liability below zero. &lt;a href=&quot;#fnref:67&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:68&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is&quot;&gt;Greenstein (2012)&lt;/a&gt;. &lt;a href=&quot;#fnref:68&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:69&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1332/175982719X15723525915871&quot;&gt;Millar &amp;amp; Whiteford (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:69&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:70&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://julkaisut.valtioneuvosto.fi/handle/10024/161361&quot;&gt;Kangas et al. (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:70&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:71&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1017/psrm.2017.18&quot;&gt;Muñoz &amp;amp; Pardos-Prado (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:71&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:72&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.developmentpathways.co.uk/publications/hit-and-miss-an-assessment-of-targeting-effectiveness-in-social-protection&quot;&gt;Kidd &amp;amp; Athias (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:72&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:73&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.3386/w25538&quot;&gt;Hoynes &amp;amp; Rothstein (2019)&lt;/a&gt;. &lt;a href=&quot;#fnref:73&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:74&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://ourworldindata.org/income-inequality&quot;&gt;Roser &amp;amp; Ortiz-Ospina (2016)&lt;/a&gt;. &lt;a href=&quot;#fnref:74&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:75&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.oecd.org/tax/revenue-statistics-2522770x.htm&quot;&gt;OECD (2019a)&lt;/a&gt;. &lt;a href=&quot;#fnref:75&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:76&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1787/ctt-2018-7-en&quot;&gt;OECD (2019b)&lt;/a&gt;. &lt;a href=&quot;#fnref:76&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:77&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I found that Yang’s plan would not be fully paid for &lt;a href=&quot;https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b&quot;&gt;(Ghenis, 2019a)&lt;/a&gt;, as did the Tax Foundation &lt;a href=&quot;https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/&quot;&gt;(Pomerleau, 2019)&lt;/a&gt;. A budget-neutral version of Yang’s plan, providing a monthly payment of $471 rather than $1,000, would reduce inequality by 9 percent instead, as measured by the Gini index &lt;a href=&quot;https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea&quot;&gt;(Ghenis, 2019b)&lt;/a&gt;. &lt;a href=&quot;#fnref:77&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:78&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.brookings.edu/wp-content/uploads/2020/01/Gale_LO_01.13.pdf&quot;&gt;Gale (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:78&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:79&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;A death from malaria can be averted for under $4,000, and most of these averted deaths are of children under 5 &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1BmFwVYeGMkpys6hG0tnfHyq__ZFZf-bmXYLSHODGpLY&quot;&gt;(GiveWell, 2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:79&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:80&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://medium.com/basic-income/how-to-build-a-movement-in-record-time-456c620dcf1c&quot;&gt;Shaw (2020)&lt;/a&gt;. &lt;a href=&quot;#fnref:80&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="effective altruism" />
+      
+
+      
+        <summary type="html">Revisiting my year-old book chapter on Giving Tuesday.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

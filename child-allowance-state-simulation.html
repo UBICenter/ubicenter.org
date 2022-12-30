@@ -1,0 +1,2839 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>The effect of child allowances across US states</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Analyzing universal basic income policies with open-source research" />
+    <link rel="shortcut icon" href="/assets/images/logos/square-blue.png" type="image/jpg" />
+    <link rel="canonical" href="/child-allowance-state-simulation" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="UBI Center" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The effect of child allowances across US states" />
+    <meta property="og:description" content="How different forms of cash grants to parents would affect poverty and inequality." />
+    <meta property="og:url" content="/child-allowance-state-simulation" />
+    <meta property="og:image" content="https://ubicenter.org/assets/images/2020-11-25-child-allowance-state-simulation/cover.webp" />
+    <meta property="article:publisher" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:author" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:published_time" content="2020-11-25T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2020-11-25T00:00:00+00:00" />
+    <meta property="article:tag" content="US" />
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@">
+    <meta name="twitter:creator" content="@natemattmax">
+    <meta name="twitter:title"   content="The effect of child allowances across US states">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The effect of child allowances across US states" />
+    <meta name="twitter:description" content="How different forms of cash grants to parents would affect poverty and inequality." />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="https://ubicenter.org/assets/images/2020-11-25-child-allowance-state-simulation/cover.webp" /> 
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="UBI Center" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="us" />
+    <meta name="twitter:site" content="@TheUBICenter" />
+    <meta name="twitter:creator" content="@TheUBICenter" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "UBI Center",
+        "logo": "/assets/images/logos/wide-white.jpg"
+    },
+    "url": "/child-allowance-state-simulation",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/2020-11-25-child-allowance-state-simulation/cover.webp",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/child-allowance-state-simulation"
+    },
+    "description": "How different forms of cash grants to parents would affect poverty and inequality."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="The effect of child allowances across US states" href="/feed.xml" />
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/0702499f362bc2046ada2a7d0.js");</script>
+    <!-- <meta http-equiv="refresh" content="0;URL=//subscribe"/> -->
+
+    <!-- for mathjax support -->
+    
+
+    <!-- for plotly support -->
+    
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/a07effe536897743f4f5a1837.js");</script>
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/"><img src="/assets/images/logos/wide-white.jpg" alt="UBI Center" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <div class="dropdown">
+      <li><a href="/what-is-ubi/">What is UBI? &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/what-is-ubi/why-ubi/">Why UBI?</a></li>
+        <li><a href="/what-is-ubi/why-not-ubi/">Why not UBI?</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">Projects &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="https://polls.ubicenter.org">UBI Poll Tracker</a></li>
+        <li><a href="http://bib.ubicenter.org">Basic Income Builder</a></li>
+        <li><a href="https://covid.ubicenter.org">Covid</a></li>
+        <li><a href="http://child-allowance.ubicenter.org/">Child allowance</a></li>
+        <li><a href="/projects/plan-explorer/">Plan Explorer</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">About &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/about/mission/">Mission</a></li>
+        <li><a href="/about/our-team/">Our team</a></li>
+        <li><a href="/about/join/">Join us</a></li>
+        <li><a href="/about/open-source/">Open source</a></li>
+        <li><a href="/about/press/">Press</a></li>
+      </div>
+    </div>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-gh" href="https://github.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+        <p style="width:15px;"></p>
+        <a class="subscribe-button" href="/donate">Donate</a>
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-us tag-child-allowance post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="25 November 2020">25 November 2020</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/us/'>US</a>,
+                            
+                        
+                            
+                               <a href='/tag/child-allowance/'>CHILD ALLOWANCE</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">The effect of child allowances across US states</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url('/assets/images/2020-11-25-child-allowance-state-simulation/cover.webp')">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>Poverty has a lasting impact on children.  Growing up in poverty increases <a href="https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/">stress</a> and <a href="https://heckmanequation.org/resource/invest-in-early-childhood-development-reduce-deficits-strengthen-the-economy/">incarceration rates</a> and decreases <a href="https://www.sciencedirect.com/science/article/abs/pii/S1876285915003836">educational</a> and <a href="https://www.aeaweb.org/articles?id=10.1257/app.2.1.86">health</a> outcomes.  These negative consequences not only impact the nation’s poor, but the entire economy as well–child poverty shrinks GDP by more than <a href="https://www.nap.edu/read/25246/chapter/1">$1 trillion annually</a>.</p>
+
+<p>Research has shown that giving money to families with children, as most developed countries do, can reduce each of these issues.  Programs that provide cash to families with children are called a <em>child allowance</em>, and are typically paid out on a monthly basis.</p>
+
+<p>Here you can explore the impact of a potential child allowance of various amounts in each state.
+We show impacts across three funding mechanisms:</p>
+
+<ul>
+  <li><strong>Federal tax</strong> as a flat rate on taxable income. For each child allowance amount the total cost is calculated by multiplying the annual child allowance by the total number of children.  To calculate the revenue neutral tax rate, the total cost is divided by the nation’s total taxable income.  For example, a child allowance of $100 per month would cost about $88 billion annually and require a new flat tax of 1.1 percent.</li>
+  <li><strong>State tax</strong> as a flat rate on taxable income. The state tax is calculated in the same manner as the federal tax, but at the state level. This shows how states can fund their own child allowances. Because states vary in child population and income, different states have different tax rates. A $100 monthly child allowance in DC is offset by a 0.5 percent tax on taxable income while the same amount requires a 1.3 percent tax in Alabama.</li>
+  <li><strong>No funding</strong> does not impose any new taxes.</li>
+</ul>
+
+<p>These static analyses (they do not consider labor supply effects) are based on data from the Current Population Survey March Supplement representing income from 2017 to 2019, and preserve existing benefits such as the Child Tax Credit.</p>
+
+<p><button class="code-button" id="button1" onclick="f1()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_1" style="display: none;">
+  <pre>
+    <code>
+# Imports.
+import pandas as pd
+import numpy as np
+import math
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import copy
+
+# Load data.
+summary = pd.read_csv('https://github.com/ngpsu22/Child_Allowance_States/raw/main/poverty_gini_tax_child_allowance')
+
+deciles = pd.read_csv('data/deciles.csv')
+
+deciles.funding = deciles.funding.map({'deficit': 'No funding',
+                                       'fed': 'Federal tax',
+                                       'state': 'State tax'})
+
+# General configs.
+LABELS = {'monthly_ca': 'Monthly child allowance',
+          'decile': 'Decile',
+          'net_chg': 'Net change',
+          'pct_chg': 'Net change',
+          'child_allowance':'Monthly child allowance',
+          'code': 'State',
+          'state': 'State',
+          'fed_tax_rate': 'Tax rate',
+          'state_tax_rate': 'Tax rate',
+          'non_funded_poverty_rate': 'Poverty rate',
+          'fed_poverty_rate': 'Poverty rate',
+          'state_poverty_rate': 'Poverty rate',
+          'non_funded_gini': 'Gini index',
+          'fed_gini': 'Gini index',
+          'state_gini': 'Gini index'}
+
+CONFIG = {'displayModeBar': False}
+
+# Preprocess data.
+summary.drop('Unnamed: 0', 1, inplace = True)
+tax = summary[(summary.race == 'All') &amp; (summary.age_group == 'all')]
+
+state_names = tax.state.unique()
+state_names = np.insert(state_names[:-1], 0, 'US')
+default_state = 'US'
+state_dict = summary[['code', 'state']].set_index('code').to_dict()['state']
+
+# Colors from https://material.io/design/color/the-color-system.html
+DARK_BLUE = '#1565C0'
+LIGHT_BLUE = '#42A5F5'
+GRAY = '#BDBDBD'
+GRAY_SHADOW = '#EEEEEE'
+COLOR_MAP = {
+    'Federal tax rate': DARK_BLUE,
+    'State tax rate': LIGHT_BLUE,
+    'Federal tax': DARK_BLUE,
+    'State tax': LIGHT_BLUE,
+    'No funding': GRAY,
+    'No funding, out of poverty': GRAY_SHADOW
+}
+
+# data labels
+REFORM = {'state_tax_rate': 'State tax rate', 
+          'fed_tax_rate': 'Federal tax rate'}
+
+# reformat data
+data_list = []
+for state in state_names:
+    state_data = tax[tax.state == state]
+    state_list = []
+    for reform in REFORM:
+        state_list.append(state_data[reform])
+    data_list.append(state_list)
+
+# generate first graph
+data_columns = list(REFORM.keys())
+data = pd.DataFrame(data_list, columns = data_columns)
+data['State'] = state_names
+data = data.set_index('State')
+
+def getDataList(state):
+    data_list = []
+    for dc in data_columns:
+        data_list.append(data.loc[state][dc])
+    return data_list
+
+# initialize figure
+fig = go.Figure()
+
+# add traces
+x = tax.child_allowance.unique()
+for reform in REFORM:
+    fig.add_trace(go.Scatter(
+        x=x, 
+        y=data[reform][default_state],
+        name=REFORM[reform],
+        marker = dict(color = COLOR_MAP[REFORM[reform]]),
+        hoverlabel = dict(namelength = -1)
+#         hovertemplate=
+#                 REFORM[reform] + ': %{y}' + 
+#                 '<extra></extra>',
+    ))
+
+# generate buttons
+buttons = []
+for state in state_names:
+    new_button = {'method': 'update',
+                  'label': state,
+                  'args': [{'y': getDataList(state), 
+                            'visible': ['legendonly' if state == 'US' 
+                                        else True, True]}
+                          ]}
+    buttons.append(new_button)
+    
+# construct menus
+updatemenus = [{'buttons': buttons,
+                'direction': 'down',
+                'showactive': True,
+                'pad':{'l': 10, 'r': 25},
+               }]
+
+# update layout with buttons, and show the figure
+fig.update_layout(updatemenus=updatemenus)
+
+fig.update_xaxes(title_text='Monthly child allowance')
+
+tax_values = tax.state_tax_rate.tolist() + tax.fed_tax_rate.tolist() 
+ymin = math.floor(min(tax_values) * 100) / 100 - 0.1
+ymax = math.ceil(max(tax_values) * 100) / 100
+fig.update_yaxes(title_text='Tax rate on taxable income', range=[ymin, ymax])
+
+fig.update_layout(height=600, 
+                  margin=dict(l=0, r=0, t=80, b=0),
+                  yaxis_ticksuffix='%',
+                  font=dict(family='Roboto'),
+                  hovermode='x', 
+                  xaxis_tickprefix='$',
+                  xaxis_ticksuffix='',
+                  plot_bgcolor='white',
+                  legend_title_text='',
+                  title={
+                    'text': 'Income tax required to fund child allowances',
+                    'y':0.95,
+                    'x':0.01,
+                    'xanchor': 'left',
+                    'yanchor': 'top'},
+                  title_font_size=20,
+                 )
+
+fig.update_layout(hovermode="x unified")
+
+# hide state tax rate for US only
+hide_line = ['State tax rate']
+fig.for_each_trace(lambda trace: trace.update(visible="legendonly")
+                   if trace.name in hide_line else ())
+
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f1() {
+  var x = document.getElementById("asset_code_1");
+  var b = document.getElementById("button1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset1").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-1.html");
+    });
+  </script>
+</div>
+<div id="asset1"></div>
+
+<h2 id="distributional-effects">Distributional effects</h2>
+
+<p>While the new tax would hit most Americans, save the very poorest who earn less than the standard deduction, the overall distributional consequences would be positive.
+For instance, the bottom decile would see their average annual resources rise by about $3,700 per person with a federal $300 per month child allowance, while the top 10 percent would see their average resources per person fall by about double, $6,400.</p>
+
+<p><button class="code-button" id="button2" onclick="f2()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_2" style="display: none;">
+  <pre>
+    <code>
+# make chart symmetric with boundary at the maximum.
+boundary = deciles.net_chg.agg([min, max]).abs().max()
+
+# initial data set-up 
+x = deciles.decile.unique()
+ca_amts = deciles.monthly_ca.unique()
+state_names = deciles.state.unique()
+state_names = np.insert(state_names[:-1], 0, 'US')
+fundings = ['Federal tax', 'State tax', 'No funding']
+
+# get list of bar colors
+colors = [COLOR_MAP[i] for i in fundings]
+
+# create figure dictionary
+fig_dict = {
+    'data': [],
+    'layout': {},
+    'frames': []
+}
+
+# fill in most of layout
+fig_dict['layout'] = {
+    'plot_bgcolor': 'white',
+    'font': dict(family = 'Roboto'),
+    'showlegend': True,
+    'height': 600,
+    'margin': dict(t=100, b=0, l=0, r=0)
+}
+fig_dict['layout']['title'] = {
+    'text': 'Average net change to household income by decile', 
+    'y': 0.97,
+    'x': 0.05,
+    'xanchor': 'left',
+    'yanchor': 'top'
+}
+fig_dict['layout']['xaxis'] = {
+    'title': 'Decile of resources per person', 
+    'dtick': 1,
+    'type': 'category'
+}
+fig_dict['layout']['yaxis'] = {
+    'title': 'Average annual net change per SPM unit', 
+    'tickprefix': '$',
+    'range': [-boundary, boundary]
+}
+
+# add slider specifications
+slider_menu =  {
+    'buttons': [
+        {
+            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                            'fromcurrent': True,
+                            'transition': {'duration': 300,
+                                           'easing': 'quadratic-in-out'}}],
+            'label': '&#9654;',
+            'method': 'animate'
+        },
+        {
+            "args": [[None], {"frame": {"duration": 0, "redraw": True},
+                              "mode": "immediate",
+                              "transition": {"duration": 0}}],
+            "label": "&#9724;",
+            "method": "animate"
+        }
+    ],
+    'direction': 'left',
+    'pad': {'r': 15, 't': 75},
+    'showactive': False,
+    'type': 'buttons',
+    'x': 0.1,
+    'xanchor': 'right',
+    'y': 0,
+    'yanchor': 'top'
+}
+
+sliders_dict = {
+    'active': 20,
+    'yanchor': 'top',
+    'xanchor': 'left',
+    'currentvalue': {
+        'font': {'size': 20},
+        'prefix': 'Monthly child allowance: ',
+        'visible': True,
+        'xanchor': 'right'
+    },
+    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+    'pad': {'b': 10, 't': 50},
+    'len': 0.9,
+    'x': 0.1,
+    'y': 0,
+    'steps': []
+}
+
+steps = []
+for ca in ca_amts:
+    slider_step = {
+        'args': [
+            [ca],
+            {'frame': {'duration': 300, 'redraw': True},
+             'mode': 'immediate',
+             'transition': {'duration': 300}}
+        ],
+        'label': '$' + str(ca),
+        'method': 'animate'
+    }
+    steps.append(slider_step)
+sliders_dict['steps'] = steps
+
+# create frames for a given state and funding method
+def make_frames(state, funding):
+    raw_data = deciles[(deciles.state == state) &amp;
+                       (deciles.funding == funding)].round()
+    frames = {}
+    for ca in ca_amts:
+        frames[str(ca)] = list(raw_data[raw_data.monthly_ca == ca].net_chg)
+    return frames
+
+# create dataframe of booleans to determine trace visibility
+# separating funding mechanisms is currently redundant but can 
+#    in theory be used to add another dropdown menu
+n = len(state_names) * len(fundings)
+frames_list = []
+count = 0
+visible = []
+for state in state_names:
+    vis_list = []
+    for funding in fundings:
+        frames_list.append(make_frames(state, funding))
+        v = np.array([False] * n)
+        v[count] = True
+        vis_list.append(v)
+        count += 1
+    visible.append(vis_list)
+visible = pd.DataFrame(visible, columns = fundings, index = state_names)
+
+# add traces to figure dictionary
+for i in range(n):
+    data_dict = {
+        'x': x,
+        'y': frames_list[i]['500'],
+        'type': 'bar',
+        # Only show the Federal tax line (index 0) when first loading chart.
+        'visible': True if i == 0 else ('legendonly' if i &lt; 3 else False),
+        'name': fundings[i % 3],
+        'marker_color':  colors[i % 3],
+        'hovertemplate': 
+                '<b>' + fundings[i % 3] + '</b>' + 
+                '<br />Change in resources: %{y}<br />' + 
+                '<extra></extra>'
+    }
+    fig_dict['data'].append(data_dict)
+
+# reorder existing frames
+frames = []
+for ca in ca_amts:
+    data_list = []
+    for f in frames_list:
+        data_list.append({'y': f[str(ca)], 'type': 'bar'})
+    frame = {'data': data_list, 'name': str(ca), 'traces': list(range(n))}
+    frames.append(frame)
+
+# add additional features to figure dictionary
+fig_dict['frames'] = frames
+fig_dict['layout']['sliders'] = [sliders_dict]
+
+# generate plotly figure
+fig = go.Figure(fig_dict)
+
+# generate dropdown menu buttons
+buttons = []
+for state in state_names:
+    new_button = {'method': 'update',
+                  'label': state,
+                  'args': [{'visible': (visible[fundings[0]][state] | 
+                                        visible[fundings[1]][state] |
+                                        visible[fundings[2]][state])}
+                          ]}
+    buttons.append(new_button)
+    
+# construct button menu
+updatemenus = {'buttons': buttons,
+               'direction': 'down',
+               'showactive': True,
+               'pad':{"r": 10, 't': 20},
+               'xanchor': 'left',
+               'yanchor': 'top',
+               'x': 0,
+               'y': 1.2
+               }
+
+# add slider and button menus
+fig.update_layout(updatemenus=[slider_menu, updatemenus],
+                  title_font_size=20,)
+
+# display figure
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f2() {
+  var x = document.getElementById("asset_code_2");
+  var b = document.getElementById("button2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset2").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-2.html");
+    });
+  </script>
+</div>
+<div id="asset2"></div>
+
+<p>This $300-per-month child allowance would raise the bottom decile’s income by 33 percent, while lowering the top decile’s income by 4 percent.</p>
+
+<p><button class="code-button" id="button3" onclick="f3()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_3" style="display: none;">
+  <pre>
+    <code>
+# make chart symmetric with boundary at the maximum.
+boundary = deciles.pct_chg.agg([min, max]).abs().max()
+
+# initial data set-up 
+x = deciles.decile.unique()
+ca_amts = deciles.monthly_ca.unique()
+state_names = deciles.state.unique()
+state_names = np.insert(state_names[:-1], 0, 'US')
+fundings = ['Federal tax', 'State tax', 'No funding']
+
+# get list of bar colors
+colors = [COLOR_MAP[i] for i in fundings]
+
+# create figure dictionary
+fig_dict = {
+    'data': [],
+    'layout': {},
+    'frames': []
+}
+
+# fill in most of layout
+fig_dict['layout'] = {
+    'plot_bgcolor': 'white',
+    'font': dict(family = 'Roboto'),
+    'showlegend': True,
+    'height': 600,
+    'margin': dict(t=100, b=0, l=0, r=0)
+}
+fig_dict['layout']['title'] = {
+    'text': 'Average percent change to household income by decile', 
+    'y': 0.97,
+    'x': 0.05,
+    'xanchor': 'left',
+    'yanchor': 'top'
+}
+fig_dict['layout']['xaxis'] = {
+    'title': 'Decile of resources per person', 
+    'dtick': 1,
+    'type': 'category'
+}
+fig_dict['layout']['yaxis'] = {
+    'title': 'Average percent change to SPM unit resources', 
+    'ticksuffix': '%',
+    'range': [-boundary, boundary]
+}
+
+# add slider specifications
+slider_menu =  {
+    'buttons': [
+        {
+            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                            'fromcurrent': True,
+                            'transition': {'duration': 300,
+                                           'easing': 'quadratic-in-out'}}],
+            'label': '&#9654;',
+            'method': 'animate'
+        },
+        {
+            "args": [[None], {"frame": {"duration": 0, "redraw": True},
+                              "mode": "immediate",
+                              "transition": {"duration": 0}}],
+            "label": "&#9724;",
+            "method": "animate"
+        }
+    ],
+    'direction': 'left',
+    'pad': {'r': 15, 't': 75},
+    'showactive': False,
+    'type': 'buttons',
+    'x': 0.1,
+    'xanchor': 'right',
+    'y': 0,
+    'yanchor': 'top'
+}
+
+sliders_dict = {
+    'active': 20,
+    'yanchor': 'top',
+    'xanchor': 'left',
+    'currentvalue': {
+        'font': {'size': 20},
+        'prefix': 'Monthly child allowance: ',
+        'visible': True,
+        'xanchor': 'right'
+    },
+    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+    'pad': {'b': 10, 't': 50},
+    'len': 0.9,
+    'x': 0.1,
+    'y': 0,
+    'steps': []
+}
+
+steps = []
+for ca in ca_amts:
+    slider_step = {
+        'args': [
+            [ca],
+            {'frame': {'duration': 300, 'redraw': True},
+             'mode': 'immediate',
+             'transition': {'duration': 300}}
+        ],
+        'label': '$' + str(ca),
+        'method': 'animate'
+    }
+    steps.append(slider_step)
+sliders_dict['steps'] = steps
+
+# create frames for a given state and funding method
+def make_frames(state, funding):
+    raw_data = deciles[(deciles.state == state) &amp;
+                       (deciles.funding == funding)].round()
+    frames = {}
+    for ca in ca_amts:
+        frames[str(ca)] = list(raw_data[raw_data.monthly_ca == ca].pct_chg)
+    return frames
+
+# create dataframe of booleans to determine trace visibility
+# separating funding mechanisms is currently redundant but can 
+#    in theory be used to add another dropdown menu
+n = len(state_names) * len(fundings)
+frames_list = []
+count = 0
+visible = []
+for state in state_names:
+    vis_list = []
+    for funding in fundings:
+        frames_list.append(make_frames(state, funding))
+        v = np.array([False] * n)
+        v[count] = True
+        vis_list.append(v)
+        count += 1
+    visible.append(vis_list)
+visible = pd.DataFrame(visible, columns = fundings, index = state_names)
+
+# add traces to figure dictionary
+for i in range(n):
+    data_dict = {
+        'x': x,
+        'y': frames_list[i]['500'],
+        'type': 'bar',
+        # Only show the Federal tax line (index 0) when first loading chart.
+        'visible': True if i == 0 else ('legendonly' if i &lt; 3 else False),
+        'name': fundings[i % 3],
+        'marker_color':  colors[i % 3],
+        'hovertemplate': 
+                '<b>' + fundings[i % 3] + '</b>' + 
+                '<br />Change in resources: %{y}<br />' + 
+                '<extra></extra>'
+    }
+    fig_dict['data'].append(data_dict)
+
+# reorder existing frames
+frames = []
+for ca in ca_amts:
+    data_list = []
+    for f in frames_list:
+        data_list.append({'y': f[str(ca)], 'type': 'bar'})
+    frame = {'data': data_list, 'name': str(ca), 'traces': list(range(n))}
+    frames.append(frame)
+
+# add additional features to figure dictionary
+fig_dict['frames'] = frames
+fig_dict['layout']['sliders'] = [sliders_dict]
+
+# generate plotly figure
+fig = go.Figure(fig_dict)
+
+# generate dropdown menu buttons
+buttons = []
+for state in state_names:
+    new_button = {'method': 'update',
+                  'label': state,
+                  'args': [{'visible': (visible[fundings[0]][state] | 
+                                        visible[fundings[1]][state] |
+                                        visible[fundings[2]][state])}
+                          ]}
+    buttons.append(new_button)
+    
+# construct button menu
+updatemenus = {'buttons': buttons,
+               'direction': 'down',
+               'showactive': True,
+               'pad':{"r": 10, 't': 20},
+               'xanchor': 'left',
+               'yanchor': 'top',
+               'x': 0,
+               'y': 1.2
+               }
+
+# add slider and button menus
+fig.update_layout(updatemenus=[slider_menu, updatemenus],
+                  title_font_size=20,)
+
+# display figure
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f3() {
+  var x = document.getElementById("asset_code_3");
+  var b = document.getElementById("button3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset3").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-3.html");
+    });
+  </script>
+</div>
+<div id="asset3"></div>
+
+<h2 id="inequality">Inequality</h2>
+
+<p>The progressive benefits by decile demonstrate that child allowances would reduce inequality.
+Measures of inequality can formalize this result.
+For example, the Gini index lies between 0 and 1, with 0 indicating that everyone has the exact same income, and 1 indicating that one person possesses all the income.</p>
+
+<p>Across funding strategies, child allowances reduce inequality as measured by the Gini index, with larger child allowances producing larger inequality reductions.
+Nationally, a $500 monthly child allowance shrinks the Gini index nine percent, from 0.446 to 0.406.
+While states vary in their levels of current inequality, a $200 monthly child allowance cuts the measure of inequality consistently between 4 and 5 percent across them.</p>
+
+<p><button class="code-button" id="button4" onclick="f4()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_4" style="display: none;">
+  <pre>
+    <code>
+# data labels
+GINI = {'fed_gini': 'Federal tax',
+        'state_gini': 'State tax',
+        'non_funded_gini': 'No funding'}
+
+# reformat data
+data_list = []
+for state in state_names:
+    state_data = tax[tax.state == state]
+    state_list = []
+    for gini in GINI:
+        state_list.append(state_data[gini])
+    data_list.append(state_list)
+
+data_columns = list(GINI.keys())
+data = pd.DataFrame(data_list, columns = data_columns)
+data['State'] = state_names
+data = data.set_index('State')
+
+def getDataList(state):
+    data_list = []
+    for dc in data_columns:
+        data_list.append(data.loc[state][dc])
+    return data_list
+
+# initialize figure
+fig = go.Figure()
+
+# add traces
+x = tax.child_allowance.unique()
+for gini in GINI:
+    fig.add_trace(go.Scatter(
+        x=x, 
+        y=tax[tax.state == default_state][gini],
+        name=GINI[gini],
+        marker = dict(color = COLOR_MAP[GINI[gini]]),
+#         hovertemplate=
+#                 GINI[gini] + ': %{y}' + 
+#                 '<extra></extra>'
+    ))
+
+# generate buttons
+buttons = []
+for state in state_names:
+    new_button = {'method': 'update',
+                  'label': state,
+                  'args': [{'y': getDataList(state),
+                           'visible': [True,
+                                       'legendonly' if state == 'US' else True,
+                                       True]},
+                          ]}
+    buttons.append(new_button)
+    
+# construct menus
+updatemenus = [{'buttons': buttons,
+                'direction': 'down',
+                'showactive': True,
+                'pad':{'l': 10, 'r': 25},
+               }]
+
+# update layout with buttons, and show the figure
+fig.update_layout(updatemenus=updatemenus)
+
+fig.update_xaxes(title_text='Monthly child allowance')
+
+gini_values = tax.non_funded_gini.tolist() + tax.fed_gini.tolist() + tax.state_gini.tolist()
+ymin = math.floor(min(gini_values) * 100) / 100
+ymax = math.ceil(max(gini_values) * 100) / 100
+fig.update_yaxes(title_text='Gini index of per-capita income, 2017-2019',
+                 range=[ymin, ymax])
+
+fig.update_layout(height=600, 
+                  margin=dict(l=0, r=0, t=80, b=0),
+                  font=dict(family='Roboto'),
+                  hovermode='x', 
+                  xaxis_tickprefix='$',
+                  xaxis_ticksuffix='',
+                  plot_bgcolor='white',
+                  legend_title_text='',
+                  title={
+                    'text': 'Income inequality by child allowance amount',
+                    'y':0.95,
+                    'x':0.01,
+                    'xanchor': 'left',
+                    'yanchor': 'top'},
+                  title_font_size=20,
+                 )
+
+fig.update_layout(hovermode="x unified")
+
+# hide state tax rate for US only
+hide_line = ['State tax']
+fig.for_each_trace(lambda trace: trace.update(visible="legendonly")
+                   if trace.name in hide_line else ())
+
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f4() {
+  var x = document.getElementById("asset_code_4");
+  var b = document.getElementById("button4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset4").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-4.html");
+    });
+  </script>
+</div>
+<div id="asset4"></div>
+
+<h2 id="poverty">Poverty</h2>
+<p>A child allowance can also substantially cut poverty.  In this example, a person is said to be in poverty if their household’s total post tax and transfer income is less than their poverty threshold.
+Poverty thresholds are determined by the Census Bureau’s Supplemental Poverty Measure (SPM), which considers a medley of factors including household size, housing status, and local housing costs.</p>
+
+<p><button class="code-button" id="button5" onclick="f5()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_5" style="display: none;">
+  <pre>
+    <code>
+# data labels
+FUNDING = {'fed_poverty_rate': 'Federal tax',
+           'state_poverty_rate': 'State tax',
+           'non_funded_poverty_rate': 'No funding'}
+
+ca_amts = summary.child_allowance.unique()
+child_poverty = summary[(summary['age_group'] == 'child') &amp;
+                        (summary['race'] == 'All')]
+
+# create figure dictionary
+fig_dict = {
+    'data': [],
+    'layout': {},
+    'frames': []
+}
+
+# fill in most of layout
+fig_dict['layout'] = {
+    'plot_bgcolor': 'white',
+    'font': dict(family = 'Roboto'),
+    'height': 600,
+    'margin': dict(t=100, b=0, l=0, r=10)
+}
+fig_dict['layout']['title'] = {
+    'text': ('Child poverty by state and child allowance amount'),
+    'y': 0.97,
+    'x': 0.05,
+    'xanchor': 'left',
+    'yanchor': 'top'
+}
+
+# add slider specifications
+slidermenu =  {
+    'buttons': [
+        {
+            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                            'fromcurrent': True,
+                            'transition': {'duration': 300,
+                                           'easing': 'quadratic-in-out'}}],
+            'label': '&#9654;',
+            'method': 'animate'
+        },
+        {
+            "args": [[None], {"frame": {"duration": 0, "redraw": True},
+                              "mode": "immediate",
+                              "transition": {"duration": 0}}],
+            "label": "&#9724;",
+            "method": "animate"
+        }
+    ],
+    'direction': 'left',
+    'pad': {'r': 15, 't': 75},
+    'showactive': True,
+    'type': 'buttons',
+    'x': 0.1,
+    'xanchor': 'right',
+    'y': 0,
+    'yanchor': 'top'
+}
+    
+sliders_dict = {
+    'active': 0,
+    'yanchor': 'top',
+    'xanchor': 'left',
+    'currentvalue': {
+        'font': {'size': 20},
+        'prefix': 'Monthly child allowance: ',
+        'visible': True,
+        'xanchor': 'right'
+    },
+    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+    'pad': {'b': 10, 't': 50},
+    'len': 0.9,
+    'x': 0.1,
+    'y': 0,
+    'steps': []
+}
+
+steps = []
+for ca in ca_amts:
+    slider_step = {
+        'args': [
+            [ca],
+            {'frame': {'duration': 300, 'redraw': True},
+             'mode': 'immediate',
+             'transition': {'duration': 300}}
+        ],
+        'label': '$' + str(ca),
+        'method': 'animate'
+    }
+    steps.append(slider_step)
+sliders_dict['steps'] = steps
+
+# generate frames
+frames = []
+locations = child_poverty.code
+zero_poverty = child_poverty[child_poverty.child_allowance == 0]
+for ca in ca_amts:
+    data_list = []
+    ca_data = child_poverty[child_poverty.child_allowance == ca]
+    for funding in FUNDING:
+        data_list.append({
+            'hovertemplate': 
+                '<b>%{customdata[1]}</b>' + 
+                '<br />Child poverty rate: %{z}%<br />' + 
+                'Poverty reduction: %{customdata[0]}%' +
+                '<extra></extra>',
+            'locationmode': 'USA-states',
+            'locations': child_poverty.code.unique(),
+            'z': ca_data[funding].tolist(),
+            'type': 'choropleth',
+            'customdata': list(map(lambda x, y, z: (round(100 * (1 - y / x)), state_dict[z]),
+                                   zero_poverty[funding], ca_data[funding], state_dict))
+        })
+    
+    frame = {'data': data_list, 'name': str(ca), 'traces': [0,1,2]}
+    frames.append(frame)
+    
+# add frames to figure dictionary
+fig_dict['frames'] = frames
+
+# add traces to figure dictionary
+for i in (range(len(FUNDING))):
+    fig_dict['data'].append(frames[0]['data'][0])
+
+# generate figure
+fig = go.Figure(fig_dict)
+
+# generate dropdown menu buttons
+buttons = []
+for funding in FUNDING:
+    new_button = {'method': 'update',
+                  'label': FUNDING[funding],
+                  'args': [{'visible': [f == funding for f in FUNDING.keys()]}
+                          ]}
+    buttons.append(new_button)
+    
+# construct button menu
+updatemenu = {'buttons': buttons,
+              'direction': 'down',
+              'showactive': True,
+              'pad':{"r": 10, 't': 20, 'l': 50},
+              'xanchor': 'left',
+              'yanchor': 'top',
+              'x': 0,
+              'y': 1.2
+             }
+
+# add slider, dropdown menu, and set geo scope
+fig.update_layout(
+    geo_scope='usa', # limite map scope to USA
+    sliders=[sliders_dict],
+    updatemenus=[slidermenu, updatemenu]
+)
+
+# update visual attributes
+fig.update_traces(showscale=False, colorscale='Reds', zmin=0, zmax=22)
+fig.update_layout(
+    hoverlabel=dict(
+        bgcolor="white",
+        font=dict(family='Roboto')
+    ),
+    title_font_size=20,
+)
+fig.update(layout_showlegend=False)
+
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f5() {
+  var x = document.getElementById("asset_code_5");
+  var b = document.getElementById("button5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset5").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-5.html");
+    });
+  </script>
+</div>
+<div id="asset5"></div>
+
+<p>A child allowance of $300 per month, funded by a federal income tax, would cut US child poverty by 52 percent, and also cut adult poverty by 13 percent.
+Overall poverty would fall 22 percent.</p>
+
+<p><button class="code-button" id="button6" onclick="f6()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_6" style="display: none;">
+  <pre>
+    <code>
+FUNDING = {'fed_poverty_rate': 'Federal tax',
+           'state_poverty_rate': 'State tax',
+           'non_funded_poverty_rate': 'No funding'}
+
+# initial data set-up
+age = summary[summary['race'] == 'All'].copy(deep=True)
+age.age_group = age.age_group.str.capitalize()
+x = ['Child', 'Adult', 'All']
+ca_amts = age.child_allowance.unique()
+state_names = age.state.unique()
+state_names = np.insert(state_names[:-1], 0, 'US')
+
+# create figure dictionary
+fig_dict = {
+    'data': [],
+    'layout': {},
+    'frames': []
+}
+
+# fill in most of layout
+fig_dict['layout'] = {
+    'plot_bgcolor': 'white',
+    'font': dict(family = 'Roboto'),
+    'showlegend': True,
+    'height': 600,
+    'margin': dict(t=100, b=0, l=0, r=0)
+}
+fig_dict['layout']['title'] = {
+    'text': 'Poverty by age and child allowance amount',
+    'y': 0.97,
+    'x': 0.05,
+    'xanchor': 'left',
+    'yanchor': 'top'
+}
+fig_dict['layout']['xaxis'] = {
+    'type': 'category'
+}
+fig_dict['layout']['yaxis'] = {
+    'title': 'SPM poverty rate, 2017-2019',
+    'ticksuffix': '%',
+    'range': [0, 25]
+}
+
+# add slider specifications
+slider_menu =  {
+    'buttons': [
+        {
+            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                            'fromcurrent': True, 
+                            "mode": "immediate",
+                            'transition': {'duration': 300,
+                                           'easing': 'quadratic-in-out'}}],
+            'label': '&#9654;',
+            'method': 'animate'
+        },
+        {
+            "args": [[None], {"frame": {"duration": 0, "redraw": True},
+                              "mode": "immediate",
+                              "transition": {"duration": 0}}],
+            "label": "&#9724;",
+            "method": "animate"
+        }
+    ],
+    'direction': 'left',
+    'pad': {'r': 15, 't': 75},
+    'showactive': False,
+    'type': 'buttons',
+    'x': 0.1,
+    'xanchor': 'right',
+    'y': 0,
+    'yanchor': 'top'
+}
+
+sliders_dict = {
+    'active': 0,
+    'yanchor': 'top',
+    'xanchor': 'left',
+    'currentvalue': {
+        'font': {'size': 20},
+        'prefix': 'Monthly child allowance: ',
+        'visible': True,
+        'xanchor': 'right'
+    },
+    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+    'pad': {'b': 10, 't': 50},
+    'len': 0.9,
+    'x': 0.1,
+    'y': 0,
+    'steps': []
+}
+
+steps = []
+for ca in ca_amts:
+    slider_step = {
+        'args': [
+            [ca],
+            {'frame': {'duration': 300, 'redraw': True},
+             'mode': 'immediate',
+             'transition': {'duration': 300}}
+        ],
+        'label': '$' + str(ca),
+        'method': 'animate'
+    }
+    steps.append(slider_step)
+sliders_dict['steps'] = steps
+
+# create frames for a given state and funding method
+def make_frames(state, funding):
+    raw_data = age[(age.state == state)]
+    frames = {}
+    for ca in ca_amts:
+        frames[str(ca)] = list(raw_data[raw_data.child_allowance == ca].set_index(
+            'age_group').loc[x][funding])
+    return frames
+
+# create dataframe of booleans to determine trace visibility
+n = len(state_names) * len(FUNDING)
+frames_list = []
+count = 0
+visible = {}
+for state in state_names:
+    v = [False] * n
+    for funding in FUNDING:
+        frames_list.append(make_frames(state, funding))
+        v[count] = True
+        count += 1
+    visible[state] = v + v
+v = [False] * n
+v[0] = True
+v[1] = 'legendonly'
+v[2] = 'legendonly'
+visible['US'] = v + v
+
+# reorder existing frames
+frames = []
+for ca in ca_amts:
+    data_list = []
+    count = 0
+    for f in frames_list:
+        data_list.append({
+            'y': f['0'], 
+            'x': x,
+            'type': 'bar', 
+            'offsetgroup': count, 
+            'showlegend': False,
+            'legendgroup': count,
+            'marker_color': GRAY_SHADOW,
+            'name': 'No child allowance',
+            'hovertemplate': 
+                'Current poverty rate: %{y}' + 
+                '<extra></extra>'
+        })
+        count += 1
+    count = 0
+    for f in frames_list:
+        data_list.append({
+            'y': f[str(ca)], 
+            'x': x,
+            'type': 'bar', 
+            'offsetgroup': count,
+            'legendgroup': count,
+            'name': list(FUNDING.values())[count % 3],
+            'marker_color': COLOR_MAP[list(FUNDING.values())[count % 3]],
+            'hovertemplate': 
+                '<b>' + list(FUNDING.values())[count % 3] + '</b>' + 
+                '<br />Poverty rate: %{y}<br />' + 
+                'Poverty reduction: %{customdata}%'
+                '<extra></extra>',
+            'customdata': list(map(lambda x, y: (round(100 * (1 - y / x))),
+                                   f['0'], f[str(ca)]))
+        })
+        count += 1
+    frame = {'data': data_list, 'name': str(ca), 'traces': list(range(n*2))}
+    frames.append(frame)
+
+# add additional features to figure dictionary
+fig_dict['frames'] = frames
+fig_dict['layout']['sliders'] = [sliders_dict]
+
+for i in range(n):
+    data_dict = copy.deepcopy(frames[0]['data'][i])
+    if i == 0:
+        data_dict['visible'] = True
+    elif i &lt; 3:
+        data_dict['visible'] = 'legendonly'
+    else:
+        data_dict['visible'] = False
+    fig_dict['data'].append(data_dict)
+for i in range(n):
+    data_dict = copy.deepcopy(frames[0]['data'][n + i])
+    if i == 0:
+        data_dict['visible'] = True
+    elif i &lt; 3:
+        data_dict['visible'] = 'legendonly'
+    else:
+        data_dict['visible'] = False
+    fig_dict['data'].append(data_dict)
+
+# generate plotly figure
+fig = go.Figure(fig_dict)
+
+# generate dropdown menu buttons
+buttons = []
+for state in state_names:
+    new_button = {'method': 'update',
+                  'label': state,
+                  'args': [{'visible': (visible[state])},
+                          ]}
+    buttons.append(new_button)
+    
+# construct button menu
+updatemenus = {'buttons': buttons,
+               'direction': 'down',
+               'showactive': True,
+               'pad':{"r": 10, 't': 20},
+               'xanchor': 'left',
+               'yanchor': 'top',
+               'x': 0,
+               'y': 1.2
+              }
+
+# add slider and button menus
+fig.update_layout(
+    updatemenus=[slider_menu, updatemenus],
+    hoverlabel=dict(
+        font=dict(family='Roboto')
+    ),
+    title_font_size=20,)
+
+# display figure
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f6() {
+  var x = document.getElementById("asset_code_6");
+  var b = document.getElementById("button6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset6").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-6.html");
+    });
+  </script>
+</div>
+<div id="asset6"></div>
+
+<p>That same $300-per-month federally-funded child allowance would cut child poverty fairly consistently across races: 51 percent among White children and 54 percent among Black children.
+But because Black children are currently about twice as likely to be in poverty, it also cuts the percentage-point racial gaps in half.</p>
+
+<p><button class="code-button" id="button7" onclick="f7()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_7" style="display: none;">
+  <pre>
+    <code>
+FUNDING = {'fed_poverty_rate': 'Federal tax',
+           'state_poverty_rate': 'State tax',
+           'non_funded_poverty_rate': 'No funding'}
+
+# initial data set-up 
+race = summary[summary['age_group'] == 'child']
+x = ['Black', 'White', 'Other', 'All']
+ca_amts = race.child_allowance.unique()
+state_names = race.state.unique()
+state_names = np.insert(state_names[:-1], 0, 'US')
+
+# create figure dictionary
+fig_dict = {
+    'data': [],
+    'layout': {},
+    'frames': []
+}
+
+# fill in most of layout
+fig_dict['layout'] = {
+    'plot_bgcolor': 'white',
+    'font': dict(family = 'Roboto'),
+    'showlegend': True,
+    'height': 600,
+    'margin': dict(t=100, b=0, l=0, r=0)
+}
+fig_dict['layout']['title'] = {
+    'text': 'Child poverty by race and child allowance amount',
+    'y': 0.97,
+    'x': 0.05,
+    'xanchor': 'left',
+    'yanchor': 'top'
+}
+fig_dict['layout']['xaxis'] = {
+    'type': 'category'
+}
+fig_dict['layout']['yaxis'] = {
+    'title': 'Child SPM poverty rate, 2017-2019',
+    'ticksuffix': '%',
+    'range': [0, 25]
+}
+
+# add slider specifications
+slider_menu =  {
+    'buttons': [
+        {
+            'args': [None, {'frame': {'duration': 500, 'redraw': True},
+                            'fromcurrent': True, 
+                            "mode": "immediate",
+                            'transition': {'duration': 300,
+                                           'easing': 'quadratic-in-out'}}],
+            'label': '&#9654;',
+            'method': 'animate'
+        },
+        {
+            "args": [[None], {"frame": {"duration": 0, "redraw": True},
+                              "mode": "immediate",
+                              "transition": {"duration": 0}}],
+            "label": "&#9724;",
+            "method": "animate"
+        }
+    ],
+    'direction': 'left',
+    'pad': {'r': 15, 't': 75},
+    'showactive': False,
+    'type': 'buttons',
+    'x': 0.1,
+    'xanchor': 'right',
+    'y': 0,
+    'yanchor': 'top'
+}
+
+sliders_dict = {
+    'active': 0,
+    'yanchor': 'top',
+    'xanchor': 'left',
+    'currentvalue': {
+        'font': {'size': 20},
+        'prefix': 'Monthly child allowance: ',
+        'visible': True,
+        'xanchor': 'right'
+    },
+    'transition': {'duration': 300, 'easing': 'cubic-in-out'},
+    'pad': {'b': 10, 't': 50},
+    'len': 0.9,
+    'x': 0.1,
+    'y': 0,
+    'steps': []
+}
+
+steps = []
+for ca in ca_amts:
+    slider_step = {
+        'args': [
+            [ca],
+            {'frame': {'duration': 300, 'redraw': True},
+             'mode': 'immediate',
+             'transition': {'duration': 300}}
+        ],
+        'label': '$' + str(ca),
+        'method': 'animate'
+    }
+    steps.append(slider_step)
+sliders_dict['steps'] = steps
+
+# create frames for a given state and funding method
+def make_frames(state, funding):
+    raw_data = race[(race.state == state)]
+    frames = {}
+    for ca in ca_amts:
+        frames[str(ca)] = list(raw_data[raw_data.child_allowance == ca].set_index('race').loc[x][funding])
+    return frames
+
+# create dataframe of booleans to determine trace visibility
+n = len(state_names) * len(FUNDING)
+frames_list = []
+count = 0
+visible = {}
+for state in state_names:
+    v = [False] * n
+    for funding in FUNDING:
+        frames_list.append(make_frames(state, funding))
+        v[count] = True
+        count += 1
+    visible[state] = v + v
+v = [False] * n
+v[0] = True
+v[1] = 'legendonly'
+v[2] = 'legendonly'
+visible['US'] = v + v
+
+# reorder existing frames
+frames = []
+for ca in ca_amts:
+    data_list = []
+    count = 0
+    for f in frames_list:
+        data_list.append({
+            'y': f['0'], 
+            'x': x,
+            'type': 'bar', 
+            'offsetgroup': count, 
+            'showlegend': False,
+            'legendgroup': count,
+            'marker_color': GRAY_SHADOW,
+            'name': 'No child allowance',
+            'hovertemplate': 
+                'Current poverty rate: %{y}' + 
+                '<extra></extra>'
+        })
+        count += 1
+    count = 0
+    for f in frames_list:
+        data_list.append({
+            'y': f[str(ca)], 
+            'x': x,
+            'type': 'bar', 
+            'offsetgroup': count,
+            'legendgroup': count,
+            'name': list(FUNDING.values())[count % 3],
+            'marker_color': COLOR_MAP[list(FUNDING.values())[count % 3]],
+            'hovertemplate': 
+                '<b>' + list(FUNDING.values())[count % 3] + '</b>' + 
+                '<br />Child poverty rate: %{y}<br />' + 
+                'Poverty reduction: %{customdata}%'
+                '<extra></extra>',
+            'customdata': list(map(lambda x, y: (round(100 * (1 - y / x))),
+                                   f['0'], f[str(ca)]))
+        })
+        count += 1
+    frame = {'data': data_list, 'name': str(ca), 'traces': list(range(n*2))}
+    frames.append(frame)
+
+# add additional features to figure dictionary
+fig_dict['frames'] = frames
+fig_dict['layout']['sliders'] = [sliders_dict]
+
+for i in range(n):
+    data_dict = copy.deepcopy(frames[0]['data'][i])
+    if i == 0:
+        data_dict['visible'] = True
+    elif i &lt; 3:
+        data_dict['visible'] = 'legendonly'
+    else:
+        data_dict['visible'] = False
+    fig_dict['data'].append(data_dict)
+for i in range(n):
+    data_dict = copy.deepcopy(frames[0]['data'][n + i])
+    if i == 0:
+        data_dict['visible'] = True
+    elif i &lt; 3:
+        data_dict['visible'] = 'legendonly'
+    else:
+        data_dict['visible'] = False
+    fig_dict['data'].append(data_dict)
+
+# generate plotly figure
+fig = go.Figure(fig_dict)
+
+# generate dropdown menu buttons
+buttons = []
+for state in state_names:
+    new_button = {'method': 'update',
+                  'label': state,
+                  'args': [{'visible': (visible[state])}]
+                 }
+    buttons.append(new_button)
+    
+# construct button menu
+updatemenus = {'buttons': buttons,
+               'direction': 'down',
+               'showactive': True,
+               'pad':{"r": 10, 't': 20},
+               'xanchor': 'left',
+               'yanchor': 'top',
+               'x': 0,
+               'y': 1.2
+              }
+
+# add slider and button menus
+fig.update_layout(
+    updatemenus=[slider_menu, updatemenus],
+    hoverlabel=dict(
+        font=dict(family='Roboto')
+    ),
+    title_font_size=20,)
+
+# display figure
+fig.show(config=CONFIG)
+    </code>
+  </pre>
+</div>
+
+<script>
+function f7() {
+  var x = document.getElementById("asset_code_7");
+  var b = document.getElementById("button7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset7").load("/assets/markdown_assets/simulation/2020-11-25-simulation-asset-7.html");
+    });
+  </script>
+</div>
+<div id="asset7"></div>
+
+<p>Beyond reducing child poverty, child allowances would decrease adult poverty and abate inequality.
+These effects are consistent across states, races, and the funding mechanisms.</p>
+
+<p>Read on to our <a href="https://child-allowance.ubicenter.org/empirical">Empirical studies</a> page for more research on the (often causal) links between child poverty and outcomes like health, education, and income.
+For more information on how a child allowance would compare to existing policies like the Child Tax Credit, visit our <a href="https://child-allowance.ubicenter.org/policies">Policies</a> page.</p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to the UBI Center</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/max-ghenis.jpg" alt="natemattmax" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/max">Max Ghenis</a></h4>
+                                    
+                                        <p>Max is the founder and president of the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/max">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/nate-golden.jpg" alt="natemattmax" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/nate">Nate Golden</a></h4>
+                                    
+                                        <p>Nate is a research associate with the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/nate">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/matt-gilbert.jpg" alt="natemattmax" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/matt">Matt Gilbert</a></h4>
+                                    
+                                        <p>Matt is a developer with the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/matt">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url('/assets/images/banner.png')"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; UBI Center &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/us/" style="text-transform: uppercase">Us</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/2022-year-in-review">2022 year in review</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/whom-does-maryland-tax">Whom does Maryland tax?</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/ira-ev-credit-cliff">The Inflation Reduction Act discourages electric vehicle buyers from working</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/us/">
+                                
+                                    See all 37 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/canada-homelessness-experiment">
+                <div class="post-card-image" style="background-image: url(/assets/images/2020-12-14-canada-homelessness-experiment/cover.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/canada-homelessness-experiment">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Canada</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Homelessness</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Pilots</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">What a Canadian experiment tells us about cash transfers and homelessness</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                    </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/child-allowance-project">
+                <div class="post-card-image" style="background-image: url(/assets/images/2020-11-25-child-allowance-project/cover.webp)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/child-allowance-project">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Us</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Child allowance</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Our new child allowance project</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+                <img src="/assets/images/logos/wide-blue.jpg" alt="UBI Center icon" />
+            
+        </a>
+    </div>
+    <div class="floating-header-title">The effect of child allowances across US states</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=The+effect+of+child+allowances+across+US+states&amp;url=https://ubicenter.org/child-allowance-state-simulation"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://ubicenter.org/child-allowance-state-simulation"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">UBI Center</a> &copy; 2022</section>
+                <nav class="site-footer-nav">
+                    <a href="/donate">Donate</a>
+                    <a href="/">Latest posts</a>
+                    <a href="mailto:contact@ubicenter.org">Email us</a>
+                    <a href="https://facebook.com/UBICenter" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/UBICenter">GitHub</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/logos/wide-white.jpg" alt="UBI Center" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to the UBI Center</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts, news, and more delivered straight to your inbox</p>
+                <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-138885251-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

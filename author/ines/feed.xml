@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/ines/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/ines/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Funding UBI by eliminating the UK personal allowance</title>
+      <link href="/personal-allowance" rel="alternate" type="text/html" title="Funding UBI by eliminating the UK personal allowance" />
+      <published>2021-07-26T00:00:00+00:00</published>
+      <updated>2021-07-26T00:00:00+00:00</updated>
+      <id>/personal-allowance</id>
+      <content type="html" xml:base="/personal-allowance">&lt;p&gt;Among several potential pay-fors in their recent &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347&quot;&gt;UBI discussion paper&lt;/a&gt;, the Liberal Democrats considered lowering the personal allowance from its current value of £12,570 to £2,500. That is, the first £2,500 of an individual’s annual earnings would be exempted from taxation, rather than the first £12,570. &lt;a href=&quot;https://www.ubicenter.org/lib-dem-policy-paper&quot;&gt;As my colleague Nikhil Woodruff found&lt;/a&gt;, this would raise about £60 billion which, when funding a UBI, significantly lowers poverty and inequality.&lt;/p&gt;
+
+&lt;p&gt;The Liberal Democrats were not the first to connect the personal allowance and UBI. The Green Party has also &lt;a href=&quot;https://www.greenparty.ie/wp-content/uploads/2018/07/Green-Party-Universal-Basic-Income-Policy.pdf&quot;&gt;proposed&lt;/a&gt; effectively exchanging the two policies,&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and several think tanks have modeled UBIs involving reductions or repeals of the personal allowance. While the personal allowance is highly salient— a 2014 poll found that &lt;a href=&quot;https://www.ipsos.com/ipsos-mori/en-uk/personal-allowances-rise-most-popular-conference-season-tax-pledges&quot;&gt;85% of the public&lt;/a&gt; supported raising it—it’s also a large source of potential revenue for the costly proposition of paying every member of society every month.&lt;/p&gt;
+
+&lt;p&gt;In this analysis, I extend the literature around the personal allowance and UBI by modeling a range of personal allowance values and outcomes. I find that repealing the personal allowance could fund a £29 weekly UBI to all members of society, including children. This reform would cut the overall poverty rate by 29%, deep poverty by 46%, and child poverty by 51%. I also find that personal allowance reductions matter on the margin: each £2,000 cut, when funding a UBI, yields around a 5% decrease in poverty.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-the-personal-allowance-works&quot;&gt;How the personal allowance works&lt;/h3&gt;
+
+&lt;p&gt;The personal allowance was &lt;a href=&quot;http://taxhistory.co.uk/Income%20Tax%20Allowances.htm&quot;&gt;introduced in 1979&lt;/a&gt;, and it has grown almost every year since. Liberal Democrats accelerated its growth by &lt;a href=&quot;https://www.standard.co.uk/news/politics/libdems-to-let-1-3m-low-earners-avoid-paying-tax-8506838.html&quot;&gt;calling&lt;/a&gt; for expanding it from £10,000 in 2015 to £12,500 in 2020; this succeeded, and it now sits at £12,570, where it is &lt;a href=&quot;https://www.reuters.com/article/uk-health-coronavirus-britain-budget-inc-idUSKBN2AV1LP&quot;&gt;expected to remain until April 2026&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While many countries have a tax-free band like the personal allowance, the UK also makes the uncommon decision to phase it out for higher earners. Individuals earning above £100,000 lose £1 of personal allowance for every £2 in earnings, phasing out fully for those earning £125,140 per year and creating 62% marginal tax rates for earners in this range.&lt;/p&gt;
+
+&lt;p&gt;These components combine to produce a policy that is neither clearly progressive nor clearly regressive. Because households in the bottom decile have little to no earned income, the personal allowance provides them only small benefits. And while those in the upper individual decile are mostly excluded from the personal allowance, those in the upper household decile &lt;a href=&quot;https://ifs.org.uk/publications/6045&quot;&gt;still benefit significantly from it&lt;/a&gt;, due to marriage between high earners and non-high earners.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Repealing the personal allowance would raise £97 billion (£3,585 per worker) and raise the Gini inequality index from 0.386 to 0.396,&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; indicating that the personal allowance is slightly progressive on a net basis.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_2&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_3_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The benefit for low earners is also constrained by its interaction with means tested benefits. Since Universal Credit phases out with respect to post-tax income, any tax reduction also reduces Universal Credit payments. As &lt;a href=&quot;https://www.politics.co.uk/opinion-former/press-release/2018/10/29/personal-allowance-increase-does-little-for-those-on-lowest-income/&quot;&gt;explained&lt;/a&gt; by Victoria Todd, Head of the Low Income Tax Reform Group, regarding the 2019 changes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“[Universal credit recipients] will not see the full tax gain of £130 from the increase in the personal allowance; instead, they will only gain overall by £48.10, as their Universal Credit award will be reduced by £81.90. However, those earning above £11,850 who receive tax credits will benefit from the full £130 because tax credits are based on gross income.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Similarly, the &lt;a href=&quot;https://www.resolutionfoundation.org/app/uploads/2014/12/Missing-the-target1.pdf&quot;&gt;Resolution Foundation&lt;/a&gt; found that the Liberal Democrats’ plan to increase the personal allowance from £10,600 in 2015 to £12,500 by 2020 gave only around £18 of additional annual income to the bottom 10% of households and £203 to the top 10%.&lt;/p&gt;
+&lt;h3 id=&quot;replacing-the-personal-allowance-with-ubi&quot;&gt;Replacing the personal allowance with UBI&lt;/h3&gt;
+
+&lt;p&gt;While the personal allowance is only slightly progressive by itself, using revenue from repealing the personal allowance to fund a UBI is highly progressive. Fully repealing the Personal Allowance could fund a weekly UBI of £29 per person, and this lowers the Gini index from 0.386 to 0.369.&lt;/p&gt;
+
+&lt;p&gt;Each £1,000 decrease in the personal allowance could fund an increase in the UBI amount of around £110 annually, or just over £2 a week.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_6_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_6_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_6_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This policy would, in general, serve as an income transfer from the richest 40% to the poorest 60%. You can adjust the personal allowance amount with the slider to see how partial personal allowance replacements fare: with further cuts to the personal allowance and higher universal basic incomes, reforms achieve stronger redistributive effects.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;For the three lowest deciles, this would mean an annual household income increase of 24%, 11%, and 7% respectively. In contrast, the income reductions for the highest deciles don’t exceed 3%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_11_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_11_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_11_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Additionally, each £1000 reduction in personal allowance buys a 0.0015 reduction in the Gini coefficient.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_13_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_13_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_13_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Median household income would increase by about £525, and this number is over five times greater for those living in poverty. This is an income gain of 1.4% for the overall population, 21% for people in poverty, and 53% for people in deep poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_15_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_15_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_15_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Part of the large gains for poor households owe to the fact that poor households tend to have more children, and therefore receive more UBI payments. Similarly, households in deep poverty tend to have fewer children than other poor households, which explains why the median gain is slightly lower for this group.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_17_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_17_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_17_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Overall, since households with children receive more UBI payments, they are disproportionately benefited.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_19_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_19_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_19_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;In fact, this policy would benefit children more than any other group, as children do not lose income to a personal allowance decrease, and exclusively gain from the UBI amount given to them. Child poverty would fall 50%, and deep child poverty by 72%.&lt;/p&gt;
+
+&lt;p&gt;Overall poverty would fall by 29% and overall deep poverty would fall by 44%. In contrast, UBI funded through only partial reductions in the personal allowance would produce smaller poverty impacts than a full replacement. Each £2,000 of personal allowance reduced buys around a 5% decrease in poverty, meaning each £2,000 of personal allowance preserved decreases the poverty effect by 5 percentage points.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_23_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_23_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_23_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the policy would serve as a transfer from older adults to children. The average child under 18 would see their household net income rise by £2,622 under full replacement of the personal allowance with a UBI.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_26_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_26_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_26_1&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;impacts-for-specific-household-types&quot;&gt;Impacts for specific household types&lt;/h4&gt;
+&lt;p&gt;Entirely replacing the personal allowance with UBI would benefit 52% on a net basis, most of them belonging to the bottom four deciles. 91% of the lowest decile, 73% of the second-lowest decile, and 62% of the third-lowest decile would see their incomes rise by over 5%. In contrast, most people who see their income decrease are in the upper deciles, and these people mostly lose less than 5%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_30_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_30_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_30_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;A single individual living alone would see their income rise when they make under £17,000 and over £117,000.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_33_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_33_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_33_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Additionally, the marginal tax rate would rise for single individuals earning lower incomes, and decrease for single individuals making between £100,000 and £125,140—the range in which the personal allowance phases out.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_36_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_36_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_36_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;In contrast, for a couple with two children, household net income always rises regardless of employment income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_40_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_40_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_40_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The effect on their marginal tax rate is similar to that of a single individual, but the rise for those earning lower incomes is less significant.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_43_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_43_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_43_1&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;My research aligns with other analyses showing the progressivity of replacing the personal allowance with UBI. In 2019, the New Economics Foundation &lt;a href=&quot;https://neweconomics.org/2019/03/nothing-personal&quot;&gt;modeled&lt;/a&gt; replacing the personal allowance with a budget-neutral Weekly National Allowance paid to adults and an increase in the child benefit, making the payments non-taxable but included in means tests. They found progressive results, stating it would “[lift] 200,000 families out of poverty and shift the £8bn currently spent on tax allowances for the 35% highest income families to the remaining 65% of families.” Compass also &lt;a href=&quot;https://www.compassonline.org.uk/wp-content/uploads/2019/03/Compass_BasicIncomeForAll_2019.pdf&quot;&gt;modeled&lt;/a&gt; replacing the personal allowance with a budget-neutral flat payment of £25 a week for children and adults of working age, as well as a flat rate citizen’s pension of £164.35. They too found progressive results, with the Gini coefficient decreasing from 0.337 to 0.365. Most recently, &lt;a href=&quot;https://www.ubicenter.org/progressive-adjustments-lib-dem-working-group&quot;&gt;my colleagues found&lt;/a&gt; that the policy in the Liberal Democrats discussion paper could be made more progressive by repealing all, rather than part, of the personal allowance.&lt;/p&gt;
+
+&lt;p&gt;Beyond these other papers, I’ve found that the impacts occur roughly linearly on the margin, meaning that the policy concept can operate incrementally. Furthermore, the policy disproportionately benefits children, and &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;separate studies&lt;/a&gt; show that this will in turn improve educational and health outcomes. The impacts are largely but not uniformly beneficial to low income households, though losses are small.&lt;/p&gt;
+
+&lt;p&gt;Reforms that broaden the tax base are often regressive on their own, but how the revenue is spent matters. Repealing the personal allowance is one such instance: using the revenue to fund a UBI switches the distributional sign from regressive to highly progressive.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The Green Party states that in their model, UBI will be taxable, but “all income tax payers will have a tax-free allowance which is the equivalent to their Universal Basic Income amount”; this means that, in practice, the UBI would not be taxed and the personal allowance would effectively be eliminated. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This and the remaining analysis uses the OpenFisca-UK microsimulation model with data from 2020, when the personal allowance was set at £12,500. Source code is at &lt;a href=&quot;https://github.com/ubicenter/personal-allowance&quot;&gt;github.com/UBICenter/personal-allowance&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The Gini coefficients used throughout are calculated using total household net income weighted by people. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Ines Fernandez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">The budget-neutral reform would lower poverty by up to 29%.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

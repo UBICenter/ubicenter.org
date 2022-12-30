@@ -1,0 +1,2799 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/nikhil/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/nikhil/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Universal payments would be more progressive than Liz Truss’ tax cuts</title>
+      <link href="/truss-tax-cuts" rel="alternate" type="text/html" title="Universal payments would be more progressive than Liz Truss’ tax cuts" />
+      <published>2022-09-23T00:00:00+00:00</published>
+      <updated>2022-09-23T00:00:00+00:00</updated>
+      <id>/truss-tax-cuts</id>
+      <content type="html" xml:base="/truss-tax-cuts">&lt;h2 id=&quot;see-the-head-to-head-in-policyengine&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?basic_rate=20&amp;amp;dividend_basic_rate=8_75&amp;amp;dividend_higher_rate=33_75&amp;amp;NI_add_rate=3_25&amp;amp;NI_class_4_add_rate=3_5&amp;amp;NI_main_rate=13_25&amp;amp;NI_class_4_main_rate=10_25&amp;amp;sdlt_on_non_first_home_2_rate=2&amp;amp;sdlt_first_time_buyer_value_limit=500000&amp;amp;sdlt_on_first_time_buyer_homes_2_threshold=300000&amp;amp;child_bi=4_3&amp;amp;adult_bi=4_3&amp;amp;senior_bi=4_3&amp;amp;dividend_additional_rate=39_35&amp;amp;baseline_basic_rate=19&amp;amp;baseline_dividend_basic_rate=7_5&amp;amp;baseline_dividend_higher_rate=32_5&amp;amp;baseline_NI_add_rate=2&amp;amp;baseline_NI_class_4_add_rate=2&amp;amp;baseline_NI_main_rate=12&amp;amp;baseline_NI_class_4_main_rate=9&amp;amp;baseline_sdlt_on_non_first_home_2_rate=0&amp;amp;baseline_sdlt_first_time_buyer_value_limit=625000&amp;amp;baseline_sdlt_on_first_time_buyer_homes_2_threshold=425000&amp;amp;baseline_dividend_additional_rate=38_1&quot;&gt;See the head-to-head in PolicyEngine&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;On Friday, the UK Chancellor Kwasi Kwarteng &lt;a href=&quot;https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1105989/CCS207_CCS0822746402-001_SECURE_HMT_Autumn_Statement_2022_BOOK_Web_Accessible.pdf&quot;&gt;announced a series of tax cuts&lt;/a&gt; to National Insurance, Income Tax, and stamp duty, reaffirming key campaign pledges by UK Prime Minister Liz Truss. The most prominent of these cuts is the reversal of an &lt;a href=&quot;https://www.gov.uk/government/publications/health-and-social-care-levy/health-and-social-care-levy&quot;&gt;earlier tax rise&lt;/a&gt; by the previous Chancellor, Rishi Sunak: cutting all National Insurance rates by 1.25 percentage points.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.policyengine.org/tax-cuts-in-prime-minister-trusss-growth-plan-2022-a4a862892dc1&quot;&gt;As described on the PolicyEngine blog, this is a regressive tax cut&lt;/a&gt;: households in higher income deciles see higher increases to their net income, both in absolute terms and as a percentage of their income. As a combined set of policies, they will reduce tax revenues by £16.2bn per year (&lt;a href=&quot;https://policyengine.org/uk/population-impact?dividend_basic_rate=7_5&amp;amp;dividend_higher_rate=32_5&amp;amp;NI_add_rate=2&amp;amp;NI_class_4_add_rate=2&amp;amp;NI_main_rate=12&amp;amp;NI_class_4_main_rate=9&amp;amp;dividend_additional_rate=38_1&amp;amp;basic_rate=19&amp;amp;sdlt_on_non_first_home_2_rate=0&amp;amp;sdlt_first_time_buyer_value_limit=625000&amp;amp;sdlt_on_first_time_buyer_homes_2_threshold=425000&amp;amp;add_rate=40&quot;&gt;see the full PolicyEngine results here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;There is an alternative. Distributing that same £16.2bn among the UK population as a universal payment would amount to around £250 per person. It would be progressive: the bottom decile would see its income increase by 5.0%, compared to the 0.4% increase it will see under the NI rate cut. All deciles below the eighth come out ahead on average.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/truss-tax-cuts/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/truss-tax-cuts/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Under Truss’ tax cut, the poverty rate falls slightly (around 1.4%). This is expected: the tax cut is of little financial value to those at or near the poverty line, let alone those far below it. For the same net cost, a universal transfer would have a poverty reduction over 7 times greater - causing a fall of 10.0%. Senior poverty falls the most: by over 12%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/truss-tax-cuts/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;In addition to greater poverty impacts, trading the tax cuts for universal payments would reduce inequality (for example, cutting the Gini index by 2%) and benefit 65% of the population, as &lt;a href=&quot;https://policyengine.org/uk/population-impact?basic_rate=20&amp;amp;dividend_basic_rate=8_75&amp;amp;dividend_higher_rate=33_75&amp;amp;NI_add_rate=3_25&amp;amp;NI_class_4_add_rate=3_5&amp;amp;NI_main_rate=13_25&amp;amp;NI_class_4_main_rate=10_25&amp;amp;sdlt_on_non_first_home_2_rate=2&amp;amp;sdlt_first_time_buyer_value_limit=500000&amp;amp;sdlt_on_first_time_buyer_homes_2_threshold=300000&amp;amp;child_bi=4_3&amp;amp;adult_bi=4_3&amp;amp;senior_bi=4_3&amp;amp;dividend_additional_rate=39_35&amp;amp;baseline_basic_rate=19&amp;amp;baseline_dividend_basic_rate=7_5&amp;amp;baseline_dividend_higher_rate=32_5&amp;amp;baseline_NI_add_rate=2&amp;amp;baseline_NI_class_4_add_rate=2&amp;amp;baseline_NI_main_rate=12&amp;amp;baseline_NI_class_4_main_rate=9&amp;amp;baseline_sdlt_on_non_first_home_2_rate=0&amp;amp;baseline_sdlt_first_time_buyer_value_limit=625000&amp;amp;baseline_sdlt_on_first_time_buyer_homes_2_threshold=425000&amp;amp;baseline_dividend_additional_rate=38_1&quot;&gt;the full PolicyEngine model&lt;/a&gt; shows.&lt;/p&gt;
+
+&lt;p&gt;The tax cut benefits lower-income households than cash for a  simple reason: the tax base (earned income) is a smaller part of their gross income. At the lowest end, households source the majority of their income from benefits or pensions.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/truss-tax-cuts/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;For a married couple with two children, the UBI policy outperforms the tax cuts until employment income reaches £62,000. The tax cuts are designed to phase in with income, but the gains increase at haphazard intervals: starting slowly with the rate cuts to National Insurance and Income Tax, through a sudden jump as claimants move off Universal Credit earlier, and with a substantial increase in work incentives after £150,000. The UBI policy is far simpler by comparison.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/truss-tax-cuts/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_2&quot;).load(&quot;/assets/markdown_assets/truss-tax-cuts/graph_7_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;You can see how the payment affects your household vis-a-vis the tax cuts &lt;a href=&quot;https://policyengine.org/uk/household?basic_rate=20&amp;amp;dividend_basic_rate=8_75&amp;amp;dividend_higher_rate=33_75&amp;amp;NI_add_rate=3_25&amp;amp;NI_class_4_add_rate=3_5&amp;amp;NI_main_rate=13_25&amp;amp;NI_class_4_main_rate=10_25&amp;amp;sdlt_on_non_first_home_2_rate=2&amp;amp;sdlt_first_time_buyer_value_limit=500000&amp;amp;sdlt_on_first_time_buyer_homes_2_threshold=300000&amp;amp;child_bi=4_3&amp;amp;adult_bi=4_3&amp;amp;senior_bi=4_3&amp;amp;dividend_additional_rate=39_35&amp;amp;baseline_basic_rate=19&amp;amp;baseline_dividend_basic_rate=7_5&amp;amp;baseline_dividend_higher_rate=32_5&amp;amp;baseline_NI_add_rate=2&amp;amp;baseline_NI_class_4_add_rate=2&amp;amp;baseline_NI_main_rate=12&amp;amp;baseline_NI_class_4_main_rate=9&amp;amp;baseline_sdlt_on_non_first_home_2_rate=0&amp;amp;baseline_sdlt_first_time_buyer_value_limit=625000&amp;amp;baseline_sdlt_on_first_time_buyer_homes_2_threshold=425000&amp;amp;baseline_dividend_additional_rate=38_1&quot;&gt;in PolicyEngine here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;CPI inflation, by which absolute poverty thresholds are uprated, is &lt;a href=&quot;https://www.bankofengland.co.uk/knowledgebank/will-inflation-in-the-uk-keep-rising&quot;&gt;projected to remain above 10% for the rest of the year&lt;/a&gt;. As the widest-reaching tax-benefit policy, universal cash payments are the most effective way to prevent further rises in absolute poverty. The previous Chancellor Rishi Sunak’s support measures &lt;a href=&quot;https://blog.policyengine.org/impact-of-the-chancellors-cost-of-living-support-package-5c4557b84696&quot;&gt;leaned on flat cash transfers&lt;/a&gt; for wide sectors of the population, enabling gains to reach families often left out: those not on benefits or tax databases. Many of the tax reforms announced today mark a complete reversal of policy only introduced this year. Whether or not this is repeated, future policymakers have a much more effective tool for reducing poverty at their disposal in the universal dividend.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nikhil Woodruff</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">See the head-to-head in PolicyEngine</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The progressivity of a UK carbon dividend</title>
+      <link href="/uk-carbon-dividend" rel="alternate" type="text/html" title="The progressivity of a UK carbon dividend" />
+      <published>2022-04-23T00:00:00+00:00</published>
+      <updated>2022-04-23T00:00:00+00:00</updated>
+      <id>/uk-carbon-dividend</id>
+      <content type="html" xml:base="/uk-carbon-dividend">&lt;h2 id=&quot;see-a-100tonne-carbon-dividend-in-policyengine&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;&lt;em&gt;See a £100/tonne carbon dividend in PolicyEngine&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Earlier this month, the International Panel on Climate Change (&lt;a href=&quot;https://www.ipcc.ch/&quot;&gt;IPCC&lt;/a&gt;) released the &lt;a href=&quot;https://report.ipcc.ch/ar6wg3/&quot;&gt;third installment&lt;/a&gt; of its Sixth Assessment Report, titled “Mitigation of Climate Change.”
+The report covered a wide range of policy options to reduce carbon emissions, as well as a wide range of benefits such policies would have for humanity.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&quot;https://citizensclimatelobby.org/blog/policy/the-latest-ipcc-report-has-a-lot-to-say-about-carbon-fee-and-dividend/&quot;&gt;Dana Nuccitelli of Citizens’ Climate Lobby wrote&lt;/a&gt;, the report has a lot to say about one policy in particular: it contains 680 mentions of carbon pricing, from the economic theory and evidence to policy design and political support.
+While most climate change proposals require funding, carbon pricing policies raise revenue by charging fossil fuel companies for their carbon pollution.
+That means it also raises costs in isolation; to address this, the IPCC says, “Carbon pricing is most effective if revenues are redistributed or used impartially.”
+What’s more impartial than redistributing to everyone equally?&lt;/p&gt;
+
+&lt;p&gt;For Earth Day weekend, we’re following up &lt;a href=&quot;https://www.ubicenter.org/us-carbon-dividend&quot;&gt;our report on US carbon dividends&lt;/a&gt; with an analysis of the policy in the UK.
+Using &lt;a href=&quot;http://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, we find that levying a fee on each tonne of carbon emissions, and redistributing the proceeds equally to all UK residents, would have a progressive distributional impact.
+A carbon dividend would significantly reduce poverty and inequality, and the larger the program, the more of each it does.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+
+&lt;p&gt;As we’ve written on the &lt;a href=&quot;https://blog.policyengine.org/how-policyengine-estimates-the-effects-of-uk-carbon-taxes-260ccfc5d97c&quot;&gt;PolicyEngine blog today&lt;/a&gt;, PolicyEngine uses a range of data sources and techniques to estimate how carbon taxes would affect different types of households.
+PolicyEngine is a &lt;em&gt;static&lt;/em&gt; app, so it assumes that behaviour, including carbon emissions, do not respond to policy changes.&lt;/p&gt;
+
+&lt;p&gt;In this analysis, we use PolicyEngine to first explore a single policy of a &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;£100 per tonne carbon dividend&lt;/a&gt;.
+From there, we show that the poverty impacts of carbon dividends increase roughly in proportion to the size of the carbon tax.
+In each case, we assume that consumers bear 100% of the incidence of the carbon tax; changing this assumption doesn’t significantly change the policy’s income-based distributional impact.&lt;/p&gt;
+
+&lt;h2 id=&quot;100tonne-carbon-dividend&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;£100/tonne carbon dividend&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To create a carbon dividend in &lt;a href=&quot;https://policyengine.org/uk&quot;&gt;PolicyEngine UK&lt;/a&gt;, first go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UBI Center&lt;/code&gt; parameter menu, then the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Carbon tax&lt;/code&gt; submenu, and set the carbon tax to £100.
+Then, go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Basic income&lt;/code&gt; submenu and click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Direct surplus revenue into UBI&lt;/code&gt; at the bottom.
+This will create a UBI of £15.55 per week.
+From there, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Calculate UK impact&lt;/code&gt; button will show &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, PolicyEngine shows that the carbon dividend would have essentially no net budgetary impact (by design), that it would cut poverty by 14%, and that two thirds of the UK would come out ahead.
+The policy would disproportionately lift children out of poverty, while still significantly reducing the poverty rate in other age groups.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_1_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_1_2.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the carbon dividend would benefit each of the bottom seven income deciles.
+The bottom decile would gain 6.2%, and the top decile would lose 2.1%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_3_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While the carbon dividend benefits each of the seven deciles on average, it would have have heterogeneous effects within deciles.
+For example, 12% of the bottom decile would come out behind, and 26% of the top decile would gain.
+Any household whose members consume less than the national average per-capita carbon emissions would come out ahead, and this correlates strongly but imperfectly to income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_5_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Nevertheless, the carbon dividend would substantially reduce income inequality on a net basis.
+For example, the Gini index, a comprehensive measure of inequality, would fall 3.4%&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_7_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;varying-the-price&quot;&gt;Varying the price&lt;/h2&gt;
+
+&lt;p&gt;Since PolicyEngine is static, the revenue–and therefore the dividend–increases linearly with the carbon price.
+Each £10 per tonne funds a weekly dividend of £1.56 per person.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_10_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_10_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_10_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;As the carbon dividend increases in price, impacts on poverty and deep poverty (the population share with income below half the poverty line) increase roughly linearly, with some slight diminishing returns starting around £90 per tonne.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_12_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;At each level of the carbon tax, deep poverty and child poverty (and especially deep child poverty) fall fastest.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_14_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_14_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_14_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Perhaps uniquely in today’s political climate, carbon dividends are a broadly supported form of universal basic income, albeit a small one.
+They can be integrated into larger UBI policies, such as the &lt;a href=&quot;https://blog.policyengine.org/the-green-party-manifesto-at-policyfest-ee05a2d3b06d&quot;&gt;Green Party’s 2019 manifesto&lt;/a&gt; or &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, or adopted in isolation, like the &lt;a href=&quot;https://energyinnovationact.org&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; in the US.
+Experts agree that carbon dividends would help avert climate change and deaths from air pollution, and, like other poverty researchers, we’ve found that they would reduce poverty and inequality as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to ​​Inés Fernández Barhumi and Reema Mohanty for their research assistance on our carbon tax model.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="carbon pricing" />
+      
+
+      
+        <summary type="html">A £100-per-tonne carbon dividend would cut poverty by 14% and deep child poverty by 33%.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">What if California gave money to everyone, not only vehicle owners?</title>
+      <link href="/california-vehicle-payment" rel="alternate" type="text/html" title="What if California gave money to everyone, not only vehicle owners?" />
+      <published>2022-04-21T00:00:00+00:00</published>
+      <updated>2022-04-21T00:00:00+00:00</updated>
+      <id>/california-vehicle-payment</id>
+      <content type="html" xml:base="/california-vehicle-payment">&lt;p&gt;Last month, Governor Gavin Newsom &lt;a href=&quot;https://www.gov.ca.gov/2022/03/23/governor-newsom-proposes-11-billion-relief-package-for-californians-facing-higher-gas-prices/&quot;&gt;proposed an $11 billion package&lt;/a&gt; for Californians facing higher gas prices. Newsom reserved $9 billion of this to send each vehicle owner $400 for each registered vehicle, up to two per person.&lt;/p&gt;
+
+&lt;p&gt;In this report, we estimate the poverty impact of this policy and compare it against a budget-neutral universal payment of about $270 per person. We find that 93% of Californians are in households that would benefit from the per-vehicle payment. Replacing that policy with a per-person payment would leave 56% of Californians better off, cut poverty 32% more, deep child poverty 118% more, and inequality 29% more.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-californians-might-get-400-per-vehicle&quot;&gt;Why Californians might get $400 per vehicle&lt;/h2&gt;
+
+&lt;p&gt;Like other goods and services, gasoline has gotten more expensive over the past year. But when &lt;a href=&quot;https://www.usnews.com/news/best-countries/slideshows/a-timeline-of-the-russia-ukraine-conflict&quot;&gt;Russia invaded Ukraine on February 24&lt;/a&gt;, the global oil market contracted in anticipation of sanctions against the &lt;a href=&quot;https://www.eia.gov/tools/faqs/faq.php?id=709&amp;amp;t=6&quot;&gt;world’s third-largest oil producer&lt;/a&gt;. In the first two weeks of March, &lt;a href=&quot;https://fred.stlouisfed.org/series/GASREGW&quot;&gt;gas prices jumped 20 percent nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://fred.stlouisfed.org/graph/graph-landing.php?g=OoCX&amp;amp;width=670&amp;amp;height=475&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;overflow:hidden; width:670px; height:525px;&quot; allowtransparency=&quot;true&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The oil crunch has affected California similarly to the rest of the country. Compared to a year ago, as of April 19, AAA reports that &lt;a href=&quot;https://gasprices.aaa.com/?state=CA&quot;&gt;gasoline is up 44% in California and 43% nationwide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Governor Newsom announced his $11 billion package to address high gas prices on March 23, a week after they peaked. This package pauses the inflation adjustment for the gas and diesel taxes ($1.1 billion, as &lt;a href=&quot;https://www.ebudget.ca.gov/2022-23/pdf/BudgetSummary/FullBudgetSummary.pdf#page=216&quot;&gt;Newsom’s January budget&lt;/a&gt; previously called for) and creates grants to encourage transit agencies to make transit free for three months ($750 million). The most expensive element is the $9 billion vehicle payment.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-cars-california-households-own&quot;&gt;How many cars California households own&lt;/h2&gt;
+
+&lt;p&gt;The 2019 American Community Survey, which we use for this analysis&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, reports a total of 25.7 million vehicles owned by households&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. That’s an average of 0.92 per adult, though that ratio increases with income, and adults in poverty&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; own 26% fewer vehicles than those not in poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;benchmarking-against-a-universal-per-person-payment&quot;&gt;Benchmarking against a universal per-person payment&lt;/h2&gt;
+
+&lt;p&gt;Allocating each household’s vehicles randomly among the adults in each household, we estimate that the vehicle payment would cost $10.0 billion. This likely exceeds Newsom’s estimate (which probably uses restricted DMV data) because households may concentrate vehicle ownership among specific adults rather than randomly, which would make fewer vehicles eligible due to the cap of two per person.&lt;/p&gt;
+
+&lt;p&gt;That $10 billion vehicle payment would reduce the poverty rate by 3.8%, roughly equally across age groups. However, distributing that $10 billion across each California resident yields a payment of $269 per person, and that would cut poverty by 1.3pp more than the vehicle payment.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The per-person payment especially lowers child poverty, a &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;major determinant of child development&lt;/a&gt;. Compared to the vehicle payment, a per-person payment would have double the impact on deep child poverty (the share of children below half the poverty line).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;These poverty effects form a pattern: the universal payments would have higher impacts on poverty rates overall, especially for children, but around the same impact on poverty among people aged 65 and older.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the per-person payment is more generous than the per-vehicle payment to households in the first five income deciles,&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and less generous to households in higher deciles. As a result, the per-person payment reduces inequality 29% more than the per-vehicle payment (the Gini index falls 0.88%, compared to 0.68%).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/california-vehicle-payment/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;California can achieve greater poverty and inequality reductions by replacing its vehicle payment with a personal payment. Doing so would yield other benefits, as well, especially when considering that Californians will expect similar policies in the future.&lt;/p&gt;
+
+&lt;p&gt;Most directly, paying people for owning vehicles encourages them to own more vehicles. A &lt;a href=&quot;https://lindseyresearch.com/wp-content/uploads/2021/12/NHTSA-2021-0053-1575-Exhibit-41-McCarthy-1996.pdf&quot;&gt;1987 paper&lt;/a&gt; found that each 1 percent reduction in vehicle prices increases vehicle purchases by 0.87 percent. Given &lt;a href=&quot;https://www.kbb.com/car-news/average-new-car-price-tops-47000/&quot;&gt;new vehicles cost about $47,000&lt;/a&gt; and &lt;a href=&quot;https://www.kbb.com/car-news/average-used-car-price-now-over-28000/&quot;&gt;used vehicles cost about $28,000&lt;/a&gt;, a $400 payment lowers the cost by about 0.9 to 1.4 percent, increasing vehicle purchases by about one percent. But that’s only one payment; to the extent that this policy announcement suggests to consumers that vehicle payments will repeat when gasoline gets more expensive in the future, that could be thousands of dollars over the life of a vehicle.&lt;/p&gt;
+
+&lt;p&gt;Those expectations will increase the number of vehicles on the road, which will harm the environment and public health. &lt;a href=&quot;https://www.gov.ca.gov/2022/02/25/california-leads-the-nations-zev-market-surpassing-1-million-electric-vehicles-sold/#:~:text=Over%20the%20past%2010%20years,other%20zero%2Demission%20vehicle%20metrics%2C&quot;&gt;Seven in eight new vehicles sold in California&lt;/a&gt; are powered by gasoline, and the transportation sector produces &lt;a href=&quot;https://ww2.arb.ca.gov/ghg-inventory-data&quot;&gt;41 percent of California’s carbon emissions&lt;/a&gt; and &lt;a href=&quot;https://www.epa.gov/transportation-air-pollution-and-climate-change/smog-soot-and-other-air-pollution-transportation&quot;&gt;55% of US nitrogen oxide emissions&lt;/a&gt;, which &lt;a href=&quot;https://www.epa.gov/no2-pollution/basic-information-about-no2&quot;&gt;causes respiratory diseases like asthma&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More vehicles on the road also means more demand for gasoline, the good whose scarcity the program aims to address. Combined with the gas tax cut, these programs would partly offset themselves as that increased demand raises prices.&lt;/p&gt;
+
+&lt;p&gt;Californians without vehicles have not been immune from higher prices, and disproportionately they face inflation with lower incomes. Excluding them from payments misses an opportunity for effective, environmentally-friendly poverty reduction.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This analysis uses PolicyEngine’s open-source OpenFisca US microsimulation model. The code is available at &lt;a href=&quot;https://github.com/UBICenter/california-vehicle-payment&quot;&gt;github.com/UBICenter/california-vehicle-payment&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;As of 2021, the DMV reported that California had &lt;a href=&quot;https://www.dmv.ca.gov/portal/file/california-dmv-statistics-pdf/&quot;&gt;36.2 million registered vehicles and 27.5 million licensed drivers&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Our poverty estimates use the Census Bureau’s &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;Supplemental Poverty Measure (SPM) research file&lt;/a&gt; for the American Community Survey. Unlike the Official Poverty Measure, the &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;SPM considers taxes, non-cash benefits, and local housing costs&lt;/a&gt;. California has had the highest SPM poverty rate of any state since the measure was introduced, &lt;a href=&quot;https://www.ubicenter.org/california-ab65-calubi&quot;&gt;largely due to its high housing costs&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We group all US households into ten groups of equal population size by their equivalised income according to &lt;a href=&quot;https://www.oecd.org/economy/growth/OECD-Note-EquivalenceScales.pdf&quot;&gt;the OECD standard&lt;/a&gt; (dividing by the square root of the number of people in the household). &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="california" />
+      
+
+      
+        <summary type="html">Benchmarking Governor Newsom's proposed per-vehicle payment against a per-person payment.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The UBI Lab Network’s Resilience UBI proposals</title>
+      <link href="/resilience-ubi" rel="alternate" type="text/html" title="The UBI Lab Network's Resilience UBI proposals" />
+      <published>2021-11-19T00:00:00+00:00</published>
+      <updated>2021-11-19T00:00:00+00:00</updated>
+      <id>/resilience-ubi</id>
+      <content type="html" xml:base="/resilience-ubi">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Explore their &lt;a href=&quot;https://uk.policyengine.org/population-results?child_UBI=46&amp;amp;adult_UBI=92&amp;amp;senior_UBI=46&amp;amp;WA_adult_UBI_age=16&quot;&gt;Covid Dividend&lt;/a&gt; and &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;Full UBI&lt;/a&gt; plans in PolicyEngine&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Last month, the &lt;a href=&quot;https://www.ubilabnetwork.org/&quot;&gt;UBI Lab Network&lt;/a&gt; announced their &lt;a href=&quot;https://www.ubilabnetwork.org/resilience-ubi&quot;&gt;proposal for a ‘Resilience UBI’&lt;/a&gt;. In an &lt;a href=&quot;https://www.opendemocracy.net/en/oureconomy/we-want-to-give-everyone-in-britain-400-a-month-no-strings-attached/&quot;&gt;op-ed for OpenDemocracy&lt;/a&gt;, the proposal’s lead author Patrick Brown wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We want to give every working-age adult (16-64) resident in the UK £400 a month for a year – no strings attached. We also want to give all children and pensioners £200 a month. This would be without any changes to existing benefits or the State Pension.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Brown continued:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Resilience UBI would initially last for a year, but it could be extended depending on the circumstances of the pandemic. In our &lt;a href=&quot;https://www.ubilabnetwork.org/resilience-ubi&quot;&gt;full proposal paper&lt;/a&gt;, we’ve also outlined how it could be transitioned into a permanent Universal Basic Income for everyone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We worked with the UBI Lab Network to estimate the impact of their plan, which encompasses three policies:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A ‘Covid Dividend’ as described in Brown’s op-ed&lt;/li&gt;
+  &lt;li&gt;A ‘Full UBI’ which provides a more generous UBI funded by tax and benefit reforms&lt;/li&gt;
+  &lt;li&gt;A ‘Transitional UBI’ which transitions from the Covid Dividend to the Full UBI&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As Brown wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’ve teamed up with &lt;a href=&quot;https://uk.policyengine.org/&quot;&gt;PolicyEngine UK&lt;/a&gt;, which models the effect of proposed policy changes on the economy, to crunch the numbers. Its modelling of our Resilience UBI shows that overall poverty would fall by 80%, and child poverty by 85%. It also found that the lowest earners would be the biggest winners. It’s even created &lt;a href=&quot;https://uk.policyengine.org/situation?child_UBI=46&amp;amp;adult_UBI=92&amp;amp;senior_UBI=46&quot;&gt;a tool&lt;/a&gt; so that you can see the effect the Resilience UBI would have on your own household.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.ubilabnetwork.org/resilience-ubi&quot;&gt;Resilience UBI website&lt;/a&gt; also embeds PolicyEngine’s household page for users to calculate a personalized impact of the Covid Dividend.&lt;sup id=&quot;fnref:acknowledgment&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:acknowledgment&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Here are high-level results from our analysis, though we caveat that PolicyEngine only models about two thirds of the Full UBI’s funding provisions.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Policy&lt;/th&gt;
+      &lt;th&gt;Net cost&lt;/th&gt;
+      &lt;th&gt;Poverty reduction&lt;/th&gt;
+      &lt;th&gt;% coming out ahead&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?child_UBI=46&amp;amp;adult_UBI=92&amp;amp;senior_UBI=46&amp;amp;WA_adult_UBI_age=16&quot;&gt;Covid Dividend&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;£266bn&lt;/td&gt;
+      &lt;td&gt;77%&lt;/td&gt;
+      &lt;td&gt;100%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;Full UBI (PolicyEngine only)&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;£222bn&lt;/td&gt;
+      &lt;td&gt;84%&lt;/td&gt;
+      &lt;td&gt;89%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Full UBI, with non-PolicyEngine provisions&lt;/td&gt;
+      &lt;td&gt;£55.5bn&lt;/td&gt;
+      &lt;td&gt;?&lt;/td&gt;
+      &lt;td&gt;?&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In this report, we describe the features of the Resilience UBI’s Covid Dividend and Full UBI policies, how we modelled them, PolicyEngine results, and some supplementary analysis to fill in the gaps of our formal modelling.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-resilience-ubi&quot;&gt;The Resilience UBI&lt;/h1&gt;
+
+&lt;p&gt;The UBI Lab Network’s &lt;a href=&quot;https://www.ubilabnetwork.org/s/resilience-proposal.pdf&quot;&gt;full paper&lt;/a&gt; describes the Resilience UBI proposal in greater detail than the website or the op-ed:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;The Covid Dividend&lt;/strong&gt; provides £400 a month to people aged 16 to 64, and £200 a month to others (children and pensioners). It would last a year and not alter existing taxes or benefits, instead being funded through money creation. The UBI would not be counted for means-testing or taxation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Full UBI&lt;/strong&gt; provides £800 a month to people aged 16 or older, and £400 a month to children. It also would not be counted for means-testing or taxation. On the income tax and National Insurance side, the cost would be offset by &lt;a href=&quot;https://www.ubicenter.org/personal-allowance&quot;&gt;abolishing the Personal Allowance&lt;/a&gt;, adding 15 percentage points to each Income Tax rate, and flattening National Insurance rates for employees and self-employed people to 10%. The Full UBI plan also abolishes State Pension and all means-tested benefits, except those related to housing and disability. Finally, the plan calls for other tax reforms: raising VAT and Corporation Tax by 5 percentage points each, enacting a ‘Tobin Tax’ form of a Financial Transactions Tax, and levying a wealth tax.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;policyengine-analysis&quot;&gt;PolicyEngine analysis&lt;/h1&gt;
+
+&lt;p&gt;PolicyEngine supports most of the income tax and benefit reforms proposed in the Resilience UBI plans, with these exceptions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For the &lt;em&gt;Covid Dividend&lt;/em&gt;, PolicyEngine defines pensioner as State Pension Age or above, rather than age 65.&lt;/li&gt;
+  &lt;li&gt;For the &lt;em&gt;Full UBI&lt;/em&gt;, PolicyEngine doesn’t currently support VAT, Corporation Tax, wealth tax, or financial transaction tax reforms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given those caveats, we estimate the cost of the Covid Dividend at £266bn, two percent higher than the UBI Lab Network’s £261bn.&lt;/p&gt;
+
+&lt;p&gt;Among the &lt;em&gt;Full UBI&lt;/em&gt; provisions that PolicyEngine can model, the UBI Lab Network estimates a net cost of £186bn, while PolicyEngine estimates £222bn. As shown in this table (in £bn), PolicyEngine estimates similar cost of the UBI itself, and less revenue from all funding provisions except the new Income Tax bands:&lt;sup id=&quot;fnref:sequence&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sequence&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Element&lt;/th&gt;
+      &lt;th&gt;UBI Lab Network&lt;/th&gt;
+      &lt;th&gt;PolicyEngine&lt;/th&gt;
+      &lt;th&gt;Difference&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Full UBI&lt;/td&gt;
+      &lt;td&gt;(580)&lt;/td&gt;
+      &lt;td&gt;(585)&lt;/td&gt;
+      &lt;td&gt;-5 (1%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Savings from current welfare programmes&lt;/td&gt;
+      &lt;td&gt;170&lt;/td&gt;
+      &lt;td&gt;131&lt;/td&gt;
+      &lt;td&gt;-39 (23%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrapping Personal Tax Allowance&lt;/td&gt;
+      &lt;td&gt;111.2&lt;/td&gt;
+      &lt;td&gt;85&lt;/td&gt;
+      &lt;td&gt;-26.2 (24%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New Income Tax bands&lt;/td&gt;
+      &lt;td&gt;82.5&lt;/td&gt;
+      &lt;td&gt;141&lt;/td&gt;
+      &lt;td&gt;+58.5 (71%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New NIC bands&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;-24 (80%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net budget impact of PolicyEngine provisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(186.3)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(222)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-35.7 (19%)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;See Appendix A for explanations of these differences.&lt;/p&gt;
+
+&lt;p&gt;Keeping the £222bn deficit in mind, the Full UBI cuts poverty by 84%, including all but eliminating child poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It nearly triples the bottom decile’s net income, and leaves each of the bottom nine deciles better off, on average.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;About nine in ten people come out ahead, and five in six gain at least 5%. Other than the bottom decile, nearly all of whom come out ahead, less than one in ten people in each of the bottom nine deciles are worse off.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;sample-households&quot;&gt;Sample households&lt;/h2&gt;
+
+&lt;p&gt;Consider a family with two parents, each earning £20,000, and two children. PolicyEngine shows that their net income would rise by £16k (45%). While their taxes rise by £11k, their benefits (including UBI) rise by £27k.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;They’d continue to be better off until their income exceeds about £153k.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;They’d continue to be better off until their income exceeds about £153k.
+The reform would also simplify their marginal tax rate schedule, making it monotonically progressive. Currently, this family faces their highest marginal tax rates when their combined income is below £28k, losing 63p of every marginal £1 due to Universal Credit withdrawal. Their marginal tax rate jumps around nine times before landing on the 47% top rate. Under the Full UBI scheme, their top marginal rate rises to 70%, but it gets there steadily from 35% and only once their income exceeds £170k.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/resilience-ubi/graph_12_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Since the policy is not budget-neutral, most families would experience gains like these, and most would also see more predictable work incentives as above.&lt;/p&gt;
+
+&lt;h1 id=&quot;policyengines-budget-neutral-full-ubi&quot;&gt;PolicyEngine’s budget-neutral Full UBI&lt;/h1&gt;
+
+&lt;p&gt;As shown above, the Full UBI of £800 a month for adults and £400 for children, combined with Income Tax, National Insurance, and means-tested benefit reforms, would leave a £222bn net cost. What if the UBI is shrunk to be budget-neutral?&lt;/p&gt;
+
+&lt;p&gt;Retaining the same ratio of adults getting double the amount of children, these revenue sources would fund about &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=114&amp;amp;child_UBI=57&amp;amp;senior_UBI=114&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£250 a month for children and £500 for adults&lt;/a&gt; (£57 and £114 a week, respectively). Setting a single UBI without separating by age would yield about &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_UBI=103&amp;amp;child_UBI=103&amp;amp;senior_UBI=103&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£450 a month&lt;/a&gt; (£103 a week).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Full UBI version&lt;/th&gt;
+      &lt;th&gt;Budget impact&lt;/th&gt;
+      &lt;th&gt;Poverty&lt;/th&gt;
+      &lt;th&gt;Senior poverty&lt;/th&gt;
+      &lt;th&gt;Winner share&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£800/mo adults, £400/mo children&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;(222bn)&lt;/td&gt;
+      &lt;td&gt;-84%&lt;/td&gt;
+      &lt;td&gt;-45%&lt;/td&gt;
+      &lt;td&gt;89%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=114&amp;amp;child_UBI=57&amp;amp;senior_UBI=114&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£500/mo adults, £250/mo children&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1bn&lt;/td&gt;
+      &lt;td&gt;-26%&lt;/td&gt;
+      &lt;td&gt;+75%&lt;/td&gt;
+      &lt;td&gt;62%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_UBI=103&amp;amp;child_UBI=103&amp;amp;senior_UBI=103&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;£450/mo all&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1bn&lt;/td&gt;
+      &lt;td&gt;-34%&lt;/td&gt;
+      &lt;td&gt;+96%&lt;/td&gt;
+      &lt;td&gt;61%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Poverty falls substantially in both budget-neutral versions—especially when children receive a full share—and most come out ahead. However, senior poverty also rises substantially. The Resilience UBI authors set the Full UBI adult roughly to replace the full new State Pension of &lt;a href=&quot;https://www.gov.uk/new-state-pension/what-youll-get&quot;&gt;£179.60 per week&lt;/a&gt;. Continuing to fully repeal State Pension while shrinking its replacement leaves many pensioners worse off, demonstrating the importance of making UBI generous if it’s to replace large benefits.&lt;/p&gt;
+
+&lt;h1 id=&quot;provisions-policyengine-doesnt-model&quot;&gt;Provisions PolicyEngine doesn’t model&lt;/h1&gt;
+
+&lt;h2 id=&quot;wealth-tax&quot;&gt;Wealth tax&lt;/h2&gt;
+
+&lt;p&gt;Of the Full UBI provisions omitted from our PolicyEngine analysis, the largest is the wealth tax, which the Resilience paper estimates could raise £116bn per year. The UBI Lab Network bases this figure on a &lt;a href=&quot;http://www.taxresearch.org.uk/Documents/WealthTaxData420.pdf&quot;&gt;2020 analysis&lt;/a&gt; from Richard Murphy, who finds that “if increases in wealth had been taxed at the same rate as income then an additional £174 billion of tax revenue might have been raised in the UK each year.” They then scale that down by a third to arrive at £116bn.&lt;/p&gt;
+
+&lt;p&gt;As shown in the table below, Murphy finds an effective tax rate on income of 29.4% from 2011 to 2018, and an effective tax rate on wealth increase of 3.4%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-11-19-resilience-ubi/wealth-tax-table.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Murphy adds caution to his results:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Whether or not it would be desirable, or even technically feasible, to raise £174 billion of additional tax from additional tax charges on wealth is not the primary issue addressed by this paper. Nor does it concern itself with the issue of whether that sum should be redistributed simply to redress wealth inequality. A value judgement is not being offered here on the matter of wealth holding, as such. Instead the issue of concern being addressed is that those most vulnerable to precarity within the UK are also those paying the highest overall effective rates of tax.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;£116bn is 0.8% of the &lt;a href=&quot;https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/totalwealthingreatbritain/april2016tomarch2018&quot;&gt;total net wealth&lt;/a&gt; of private households from 2016-2018, £14.6tn. Raising that revenue from wealth taxes would require an unprecedentedly broad base and high rates. According to the &lt;a href=&quot;http://taxsimulator.ukwealth.tax/#/&quot;&gt;Wealth Tax Commission Tax Simulator&lt;/a&gt;, a wealth tax with no exemption could raise £113bn per year if levied at 0.8% and zero avoidance is assumed.&lt;sup id=&quot;fnref:wtc-detail&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:wtc-detail&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; That means an extra 0.8% per year property tax for every homeowner, as well as a tax on all equities, vehicles, and other assets.&lt;/p&gt;
+
+&lt;p&gt;As a benchmark, &lt;a href=&quot;https://www.lifeinnorway.net/wealth-tax/&quot;&gt;Norway’s wealth tax&lt;/a&gt; levies a 0.85% tax on wealth above 1.5 million NOK (£130,000), or 3 million NOK (£260,000) for married couples. Norway also taxes primary residence at a quarter of their market value. The WTC Tax Simulator can approximate Norway’s structure with a 0.9% tax on wealth above £250,000, which yields £78bn per year when assuming no avoidance (there’s no option to reduce the value of primary residences). This falls to £69bn when assuming avoidance rates in line with the empirical literature.&lt;sup id=&quot;fnref:wealth-tax-avoidance&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:wealth-tax-avoidance&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; Raising £117bn under these assumptions would require a 1.7% tax rate.&lt;/p&gt;
+
+&lt;p&gt;As we explored in our &lt;a href=&quot;https://www.ubicenter.org/uk-lvt&quot;&gt;land value tax report&lt;/a&gt;, funding transfers with taxes on assets can push some the interaction of wealth and income could yield counterintuitive distributional impacts depending on measurement, with a wealth-tax-funded UBI pushing some high-asset low-income pensioners into poverty. Nevertheless, while it would be unprecedented for a wealth tax to raise £117bn per year, the Resilience UBI proposal leaves the door open for unprecedented actions, so it does seem to be possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;close-tax-loopholes&quot;&gt;Close tax loopholes&lt;/h2&gt;
+
+&lt;p&gt;In its section titled ‘Close tax loopholes’, the Resilience UBI report states:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The figures on the amount lost each year in tax varies widely, with HMRC estimating it at just over £30bn per year and some commentators estimating it as high as £90bn, depending on which legal and illegal means of paying less tax are considered.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020&quot;&gt;HMRC’s latest estimate of the ‘tax gap’ is 35bn&lt;/a&gt;, reflecting data for the 2019-2020 fiscal year. They define it as ‘the difference between the amount of tax that should, in theory, be paid to HMRC, and what is actually paid.’&lt;/p&gt;
+
+&lt;p&gt;The £90bn figure comes again from Richard Murphy, in a &lt;a href=&quot;https://www.taxresearch.org.uk/Blog/2019/06/19/the-uk-tax-gap-is-90-billion-a-year/&quot;&gt;2019 blog post&lt;/a&gt;. Here are the differences in £bn:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Component&lt;/th&gt;
+      &lt;th&gt;HMRC&lt;/th&gt;
+      &lt;th&gt;Murphy&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Domestic evasion&lt;sup id=&quot;fnref:evasion&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:evasion&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;20.4&lt;/td&gt;
+      &lt;td&gt;71.7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Avoidance&lt;sup id=&quot;fnref:avoidance&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:avoidance&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;7.3&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-payment&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Error&lt;/td&gt;
+      &lt;td&gt;3.7&lt;/td&gt;
+      &lt;td&gt;3.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;35.4&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;89.3&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total excl. avoidance&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;28.1&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;78.3&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Avoidance results from tax laws rather than enforcement. Since the Resilience paper does not specify tax reforms in this section, the core difference with respect to enforcement is the sum of domestic evasion, non-payment, and error. HMRC estimates that these categories sum to £28.1bn, a third of Murphy’s £78.3bn.&lt;/p&gt;
+
+&lt;p&gt;Murphy’s biggest difference from HMRC is the estimate of domestic evasion. Rather than HMRC’s bottom-up approach of comparing records for specific industries, Murphy assumes that the shadow economy represents 10% of GDP,&lt;sup id=&quot;fnref:shadow-economy&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:shadow-economy&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; and multiplies that 10% by the 33.1% average tax to GDP share. Murphy based his estimate of a 10% shadow economy on (a) the VAT tax gap at the time (&lt;a href=&quot;https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020&quot;&gt;now 8.4%&lt;/a&gt;), (b) an &lt;a href=&quot;https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583&quot;&gt;IMF paper&lt;/a&gt; estimating an 8.3% shadow economy as of 2015, (c) the &lt;a href=&quot;https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en&quot;&gt;EU’s estimate&lt;/a&gt; of the VAT gap as 10.9% in 2015&lt;sup id=&quot;fnref:tax-gap&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:tax-gap&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; (12.2% as of 2018), and (d) &lt;a href=&quot;https://www.researchgate.net/publication/301803819_Measuring_the_Tax_Gap_in_the_European_Economy&quot;&gt;Raczkowski (2015)&lt;/a&gt;’s estimate of a 9.7% total tax gap as of 2014.&lt;/p&gt;
+
+&lt;p&gt;A 10% shadow economy therefore seems plausible, though Murphy’s approach may overstate the tax gap because participants in the shadow economy could have lower incomes. This would assign them lower effective tax rates if the tax gap were closed, due to progressive taxation.&lt;/p&gt;
+
+&lt;p&gt;Additional resources—the Resilience paper proposes reassigning DWP workers to HMRC enforcement, for example—can plausibly shrink the tax gap by reducing evasion, errors, and non-payment. However, it’s unlikely that even significant additional resources could close the tax gap entirely. In 2016, HMRC &lt;a href=&quot;https://www.gov.uk/government/news/hmrc-taskforces-raise-more-than-half-a-billion&quot;&gt;celebrated&lt;/a&gt; enforcement actions raising £250 million, less than 1% of the &lt;a href=&quot;https://www.gov.uk/government/statistics/measuring-tax-gaps/measuring-tax-gaps-2021-edition-tax-gap-estimates-for-2019-to-2020&quot;&gt;total tax gap&lt;/a&gt; that year. The US government &lt;a href=&quot;https://home.treasury.gov/news/featured-stories/the-case-for-a-robust-attack-on-the-tax-gap&quot;&gt;estimates&lt;/a&gt; that significant investment in US tax enforcement can close about 10% of the US tax gap in the next decade.&lt;sup id=&quot;fnref:us-tax-gap&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:us-tax-gap&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Overall, we expect that HMRC more accurately captures the tax gap, and that additional enforcement could close it by the 10% estimated in the US. This comes to &lt;strong&gt;£2.8bn&lt;/strong&gt; per year.&lt;/p&gt;
+
+&lt;h2 id=&quot;vat&quot;&gt;VAT&lt;/h2&gt;
+
+&lt;p&gt;The standard VAT rate is currently 20%, and the Resilience UBI paper proposes raising it to 25%. The paper does not mention increasing the reduced rate of 5% for domestic fuel and power, children’s car seats and some other goods.&lt;/p&gt;
+
+&lt;p&gt;The Office for Budget Responsibility reports that &lt;a href=&quot;https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/&quot;&gt;“in 2019-20 VAT raised £134 billion”&lt;/a&gt;. They also find that around half of household expenditure is subject to the 20% rate, 3% is subject to the 5% rate, and the remainder is exempt or ‘zero-rated’. That indicates that £664 billion of household expenditure was subject to the 20% rate. Raising the standard VAT rate to 25% would therefore raise &lt;strong&gt;£33.2bn&lt;/strong&gt;, 21% more than the £27.5bn estimated in the Resilience paper. Increasing the reduced rate from 5% to 10% would raise an additional £2bn.&lt;/p&gt;
+
+&lt;h2 id=&quot;corporation-tax&quot;&gt;Corporation Tax&lt;/h2&gt;
+
+&lt;p&gt;While the Resilience UBI paper explores a number of Corporation Tax reforms, such as variable rates based on codetermination, wages, and local investments, as well as adding a Robot Tax, Carbon Tax, or Data Tax, its core proposal is a “5% net increase in the overall Corporation Tax rate”, implying a rise from its current 19% to 24%. Based on the current revenue of £55bn,&lt;sup id=&quot;fnref:corp-tax&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:corp-tax&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt; they estimate that this would raise £14.5bn.&lt;/p&gt;
+
+&lt;p&gt;However, Corporation Tax is already &lt;a href=&quot;https://www.legislation.gov.uk/ukpga/2021/26/enacted&quot;&gt;slated to rise&lt;/a&gt; from 19% to 25% for corporations with profits above £250,000 in 2023, and corporations with profits between £50,000 and £250,000 will see their rate rise on a sliding scale from 19% to 25%. The Office of Budget Responsibility &lt;a href=&quot;https://obr.uk/download/march-2021-economic-and-fiscal-outlook-corporation-tax-rate-increase/&quot;&gt;estimates&lt;/a&gt; that this will raise £11.9bn in 2023; dynamic responses cut this 14% below their static estimate of £13.9bn.&lt;/p&gt;
+
+&lt;p&gt;Further raising Corporation Tax to 30% would push the UK above the average Corporation Tax rate among peer countries, which is generally around 27%. As a result, corporations would benefit more from shifting operations and profits to other countries, and the revenue opportunity would shrink.&lt;/p&gt;
+
+&lt;p&gt;Conservatively applying OBR’s 14% haircut, we estimate that the tax would raise &lt;strong&gt;£12.5bn&lt;/strong&gt; rather than the static estimate of £14.5bn.&lt;/p&gt;
+
+&lt;h2 id=&quot;financial-transactions-tax&quot;&gt;Financial Transactions Tax&lt;/h2&gt;
+
+&lt;p&gt;The Resilience UBI paper says of the Financial Transactions Tax (FTT):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…the Labour Party’s 2019 manifesto references plans for additional UK based FTT on foreign exchange which the party estimates could raise as much as £8.8bn. However, other sources put this figure as low as £2bn.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They cite an &lt;a href=&quot;https://www.opendemocracy.net/en/oureconomy/why-uk-needs-financial-transaction-tax/&quot;&gt;op-ed&lt;/a&gt; for the £2bn figure, which then cites an &lt;a href=&quot;https://election2019.ifs.org.uk/uploads/IFS-General-Election-Analysis-Stuart-Adam-Tax_.pdf&quot;&gt;IFS analysis&lt;/a&gt; stating that it is “doubtful [the FTT] will raise the £9bn Labour assumes” though not estimating a particular value. In a &lt;a href=&quot;https://www.internationaltaxreview.com/article/b1ht7s272j2rvq/uk-election-puts-the-financial-transaction-tax-on-the-agenda&quot;&gt;2019 article&lt;/a&gt;, Josh White says (without providing a source): \&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The UK has an SDRT [stamp duty reserve tax] rate of 0.5% on share trading, which raised £3.5 billion ($4.5 billion) in 2017/18. Labour’s proposal would expand this to include transactions involving corporate bonds, equity and credit derivatives, raising an extra £2.1 billion in annual tax revenues.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Resilience UBI paper ultimately uses &lt;strong&gt;£2bn&lt;/strong&gt;, which seems reasonable.&lt;/p&gt;
+
+&lt;h2 id=&quot;bringing-it-all-together&quot;&gt;Bringing it all together&lt;/h2&gt;
+
+&lt;p&gt;The UBI Lab Network estimates that their entire Full UBI policy would produce a £33.7bn surplus. Adding the PolicyEngine results with separate estimates of provisions not yet modeled in PolicyEngine, we estimate a &lt;strong&gt;£55.5bn deficit.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Element&lt;/th&gt;
+      &lt;th&gt;UBI Lab Network&lt;/th&gt;
+      &lt;th&gt;UBI Center&lt;/th&gt;
+      &lt;th&gt;Difference&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Full UBI&lt;/td&gt;
+      &lt;td&gt;(580)&lt;/td&gt;
+      &lt;td&gt;(585)&lt;/td&gt;
+      &lt;td&gt;-5 (1%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Savings from current welfare programmes&lt;/td&gt;
+      &lt;td&gt;170&lt;/td&gt;
+      &lt;td&gt;131&lt;/td&gt;
+      &lt;td&gt;-39 (23%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrapping Personal Tax Allowance&lt;/td&gt;
+      &lt;td&gt;111.2&lt;/td&gt;
+      &lt;td&gt;85&lt;/td&gt;
+      &lt;td&gt;-26.2 (24%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New Income Tax bands&lt;/td&gt;
+      &lt;td&gt;82.5&lt;/td&gt;
+      &lt;td&gt;141&lt;/td&gt;
+      &lt;td&gt;+58.5 (71%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New NIC bands&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;-24 (80%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net budget impact of PolicyEngine provisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(186.3)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(222)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-35.7 (19%)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Wealth Tax&lt;/td&gt;
+      &lt;td&gt;116&lt;/td&gt;
+      &lt;td&gt;116&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Close tax loopholes&lt;/td&gt;
+      &lt;td&gt;60&lt;/td&gt;
+      &lt;td&gt;2.8&lt;/td&gt;
+      &lt;td&gt;-57.2 (95%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;VAT increase&lt;/td&gt;
+      &lt;td&gt;27.5&lt;/td&gt;
+      &lt;td&gt;33.2&lt;/td&gt;
+      &lt;td&gt;+5.7 (21%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reform Corporation Tax&lt;/td&gt;
+      &lt;td&gt;14.5&lt;/td&gt;
+      &lt;td&gt;12.5&lt;/td&gt;
+      &lt;td&gt;-2 (14%)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Financial Transactions Tax&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net budget impact of non-PolicyEngine provisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;220.0&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;166.5&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-53.5 (24%)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Net combined budget impact&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;33.7&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(55.5)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-89.2&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The UBI Lab Network’s Resilience UBI is among the more comprehensive UBI plans put forth. Its Full UBI incorporates a range of revenue sources that nearly meets the tall task of funding a generous UBI. Even budget-neutral versions of the plan, limiting to PolicyEngine capabilities, reduce poverty by at least a quarter and benefit most UK residents.&lt;/p&gt;
+
+&lt;p&gt;And yet, even with generous assumptions, we estimate that it falls short by over £50bn. This can be fully explained by a £57bn gap in estimated revenue from closing tax loopholes (a relatively subjective reform), though other assumptions like savings from welfare programs (which PolicyEngine measures precisely) also play a part.&lt;/p&gt;
+
+&lt;p&gt;In the future, PolicyEngine will support modelling more components of this policy, such as the VAT increase and a wealth tax. While that full analysis will clarify these points, one area of potential concern is pensioner impact. Budget-neutral versions of the Full UBI left pensioner poverty rising 75-95%, as the UBI failed to cover State Pension. The true Full UBI cuts pension poverty 45%, but the VAT and wealth tax could offset that. As we showed in our &lt;a href=&quot;https://www.ubicenter.org/uk-lvt&quot;&gt;land dividend&lt;/a&gt; report, some low-income pensioners have enough wealth for taxes on wealth or components of it (such as land) can exceed UBI payments, especially at the high rates needed to raise £116bn per year. Similarly, pensioners continue to consume goods and services subject to VAT. Fully modelling this out may justify optimising the UBI amount, as we did in our &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;Blank Slate UBI&lt;/a&gt; report, which provided a larger UBI to pensioners than to working-age adults.&lt;/p&gt;
+
+&lt;p&gt;Beyond poverty and inequality reduction, the Resilience UBI would have other pros and cons, from a simpler, more streamlined welfare state and more predictable marginal tax rates, to higher average marginal tax rates and increased taxes on production, both of which risk shrinking the economy. Nevertheless, as our Blank Slate UBI paper did six months ago, the UBI Lab Network’s proposal marks an important step in the discussion of how to model a true—and truly funded—universal basic income. We look forward to continuing that discussion in the future.&lt;/p&gt;
+
+&lt;h1 id=&quot;appendix-a-differences-in-revenue-estimates&quot;&gt;Appendix A: Differences in revenue estimates&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Personal Allowance repeal&lt;/em&gt;: the report gives examples of how the new tax rates and personal allowance repeal would be administered (&lt;a href=&quot;https://static1.squarespace.com/static/5a7b08c0d0e628f80b2cce36/t/61604d8538f8954ba0e3349c/1633701328005/resilience-proposal.pdf/page=16&quot;&gt;page 15&lt;/a&gt;), which imply that the higher rate threshold will be increased from £37,700 to £50,000 (this would not happen automatically, as the Income Tax rate thresholds are defined over taxable income minus allowances). The New Economics Foundation also costed a repeal of the Personal Allowance (&lt;a href=&quot;https://neweconomics.org/uploads/files/NEF_WeeklyNationalAllowance_2019.pdf#page=5&quot;&gt;clarifying this mechanic&lt;/a&gt;) and found the full repeal without adjusting the higher threshold was £111bn.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Welfare savings&lt;/em&gt;: the report cites the benefit expenditure and caseload tables produced by the DWP, and states that the savings are estimated from £100bn in State Pension payments and £70bn in income-related benefits. However,
+    &lt;ul&gt;
+      &lt;li&gt;£100bn in State Pension payments is the total amount of gross payments, not net of income tax repayments. Repealing it would lower income tax revenues, reducing the total revenue raised.&lt;/li&gt;
+      &lt;li&gt;“Income-related benefits” in the table includes Housing Benefit, as well as Universal Credit. Housing benefit is not repealed by the Resilience UBI plan, but its repeal is included in the costing. Furthermore, the Universal Credit figure is reached by the tables as a composite of working-age Housing Benefit, and other related benefits. It’s not clear whether Resilience UBI would leave in the housing costs element of Universal Credit (we’ve assumed they would).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;National Insurance bands&lt;/em&gt;: it’s unclear how the figures were reached in the paper. The paper states: &lt;em&gt;“A flat rate of 10%, for example, would represent a 2% rebate to lower earners, an 8% increase on higher earners and a net increase of 6% in NIC income overall, bringing in approximately £30bn extra a year.”&lt;/em&gt; The marginal application of NIC rates is an important detail but isn’t the determinant of the revenue impact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:acknowledgment&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We’re excited that the UBI Lab Network has hosted PolicyEngine’s first external embed, and we invite other organizations to &lt;a href=&quot;mailto:contact@ubicenter.org&quot;&gt;contact us&lt;/a&gt; to establish similar partnerships. &lt;a href=&quot;#fnref:acknowledgment&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:sequence&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We simulate provisions of the Full UBI plan in the order shown in the table: &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&quot;&gt;UBI only&lt;/a&gt; (£585bn), &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&quot;&gt;UBI + welfare reforms&lt;/a&gt; (£454bn), &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&quot;&gt;UBI + welfare reforms + Personal Allowance&lt;/a&gt; (£369bn), &lt;a href=&quot;https://uk.policyengine.org/population-results?child_UBI=92&amp;amp;adult_UBI=184&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_WTC=1&amp;amp;abolish_SP=1&amp;amp;abolish_PC=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;UC_single_young=0&amp;amp;UC_couple_young=0&amp;amp;UC_single_old=0&amp;amp;UC_couple_old=0&amp;amp;WA_adult_UBI_age=16&amp;amp;personal_allowance=0&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;add_rate=60&quot;&gt;UBI + welfare reforms + Personal Allowance + Income Tax bands&lt;/a&gt; (£228bn), and the &lt;a href=&quot;https://policyengine.org/uk/population-impact?WA_adult_UBI_age=16&amp;amp;adult_UBI=184&amp;amp;child_UBI=92&amp;amp;senior_UBI=184&amp;amp;abolish_CB=1&amp;amp;abolish_CTC=1&amp;amp;abolish_ESA_income=1&amp;amp;abolish_IS=1&amp;amp;abolish_JSA_income=1&amp;amp;abolish_PC=1&amp;amp;abolish_SP=1&amp;amp;abolish_UC_carer=1&amp;amp;abolish_UC_child=1&amp;amp;abolish_UC_childcare=1&amp;amp;abolish_UC_standard=1&amp;amp;abolish_WTC=1&amp;amp;personal_allowance=0&amp;amp;higher_threshold=50000&amp;amp;add_rate=60&amp;amp;basic_rate=35&amp;amp;higher_rate=55&amp;amp;NI_add_rate=10&amp;amp;NI_class_4_add_rate=10&amp;amp;NI_class_4_main_rate=10&amp;amp;NI_main_rate=10&quot;&gt;fully modeled reform&lt;/a&gt; (£222bn). We omit ‘People’s Quantitative Easing’ and ‘Citizen’s Wealth Fund’. &lt;a href=&quot;#fnref:sequence&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:wtc-detail&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;£118.5bn when including the ‘rich list’ of UK citizens who may not be residents of the UK, minus £6.0bn per in administration. The Wealth Tax Commission also estimates that this would require a one-time cost of £0.6bn to set up. &lt;a href=&quot;#fnref:wtc-detail&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:wealth-tax-avoidance&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Table A1 in Penn Wharton Budget Model’s &lt;a href=&quot;https://budgetmodel.wharton.upenn.edu/issues/2019/12/12/senator-elizabeth-warrens-wealth-tax-projected-budgetary-and-economic-effects&quot;&gt;analysis&lt;/a&gt; of US Senator Elizabeth Warren’s Wealth Tax shows an average semi-elasticity of taxable wealth of 13. We show results based on the closest value in the WTC Tax Simulator: 12%. &lt;a href=&quot;#fnref:wealth-tax-avoidance&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:evasion&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We group into a single ‘Evasion’ category HMRC’s behaviours of &lt;em&gt;Failure&lt;/em&gt; to take reasonable care, Evasion, Criminal attacks,* and &lt;em&gt;Hidden economy&lt;/em&gt;, as well as Murphy’s breakout of &lt;em&gt;Domestic evasion *and *Evasion by wealthy using offshore&lt;/em&gt;. &lt;a href=&quot;#fnref:evasion&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:avoidance&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We follow Murphy and include in &lt;em&gt;Avoidance&lt;/em&gt; the &lt;em&gt;Legal interpretation&lt;/em&gt; category, in which HMRC and the taxpayer arrive at different interpretations of laws governing liabilities. &lt;a href=&quot;#fnref:avoidance&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:shadow-economy&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Murphy also assumes that this 10% shadow economy is not counted in GDP today. &lt;a href=&quot;#fnref:shadow-economy&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:tax-gap&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://op.europa.eu/en/publication-detail/-/publication/48f32ee9-f3dd-11ea-991b-01aa75ed71a1/language-en&quot;&gt;current EU report&lt;/a&gt; shows 9.9% as of 2015 (Table B7). Murphy reports 10.88% for the same source in &lt;a href=&quot;https://www.socialistsanddemocrats.eu/sites/default/files/2019-01/the_european_tax_gap_en_190123.pdf&quot;&gt;his 2019 report&lt;/a&gt; (Table 5). &lt;a href=&quot;#fnref:tax-gap&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:us-tax-gap&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The US Treasury Department estimates the current tax gap at about $600 billion. They also estimate that “$80 billion of investment over the coming ten years in enforcement, IT, and taxpayer services [would generate] an estimated $320 billion in additional tax collections over the next ten years” and that “changes to the third-party information reports are estimated to generate $460 billion over a decade.” After the investment, that’s an average of $70 billion per year, or 12% of the current tax gap, which might shrink to around 10% given the projected growth of the tax gap. &lt;a href=&quot;#fnref:us-tax-gap&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:corp-tax&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;They cite the 2018-19 Corporation Tax revenue of £55bn. Corporation Tax liabilities remained at that £55bn in &lt;a href=&quot;https://www.gov.uk/government/statistics/corporation-tax-statistics-2021/corporation-tax-statistics-commentary-2021&quot;&gt;2019-20&lt;/a&gt;. &lt;a href=&quot;#fnref:corp-tax&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="policyengine" />
+      
+
+      
+        <summary type="html">We modeled the new comprehensive plans in PolicyEngine UK.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">&amp;amp;#147There you may behold the rent&amp;amp;#148: Effects of a UK land dividend</title>
+      <link href="/uk-lvt" rel="alternate" type="text/html" title="&amp;#147There you may behold the rent&amp;#148: Effects of a UK land dividend" />
+      <published>2021-09-19T00:00:00+00:00</published>
+      <updated>2021-09-19T00:00:00+00:00</updated>
+      <id>/uk-lvt</id>
+      <content type="html" xml:base="/uk-lvt">&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;See the simulation in PolicyEngine&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a 1775 lecture, an English Radical proposed making the land in every parish “the property of the corporation or parish,” and sharing the rents with society.
+About two-thirds of the revenue would fund public services, and the remainder would be divided “among the whole number of souls, male and female, married and single in a parish from the infant of a day old to the second infantage of hoary hairs.”
+That Radical was named Thomas Spence, and the lecture, &lt;em&gt;&lt;a href=&quot;https://quod.lib.umich.edu/e/ecco/004808953.0001.000/1:3?rgn=div1;view=fulltext&quot;&gt;The Meridian Sun of Liberty&lt;/a&gt;&lt;/em&gt;, became the first known mention of a universal basic income (UBI).&lt;/p&gt;
+
+&lt;p&gt;While Spence was the first to call for UBI, proposals for common ownership of land predated him by centuries.
+Today, the only large-scale government UBI, Alaska’s Permanent Fund Dividend, follows this model of funding through natural resources.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we simulate a UBI funded by a land value tax (LVT), or what we call a &lt;em&gt;land dividend&lt;/em&gt;, in the UK.
+We find that a 1 percent land dividend could fund a UBI of £16 per week, reducing poverty by 20% and leaving 70% of the population better off (&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;you can explore the simulation in PolicyEngine&lt;/a&gt;).
+Unlike our previous simulations, this is a tax on wealth, and we discuss challenges measuring distributional effects given imperfect correlation between assets and income.
+But first, some background on the oldest idea in the UBI chronology.&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-the-land-dividend&quot;&gt;History of the land dividend&lt;/h1&gt;
+
+&lt;p&gt;Five and a half centuries before Spence, King Henry III sealed a pair of revolutionary English documents: the &lt;em&gt;Magna Carta&lt;/em&gt;, and the &lt;em&gt;Charter of the Forest&lt;/em&gt;.
+The latter sought to rebalance access to the commons, following decades of Kings closing off their forests, charging fees, rents, and penalties to those who hunted on or otherwise used the royal lands.
+The 1217 document allowed all to use the forest as pasture, providing that “Every freeman may agest his own wood within our forest at his pleasure, and shall take his pawnage.”
+So began England’s expansion of rights to common lands, and the subsistence they afford.&lt;/p&gt;
+
+&lt;p&gt;Thomas Paine became the first prominent advocate of a land tax, notably in his 1797 pamphlet, &lt;em&gt;Agrarian Justice&lt;/em&gt;, which called for taxing land inheritances.
+While he stopped short of a full UBI, Paine proposed that the land tax be used for semi-universal payments, in what is also described as the first old-age pension proposal:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[Government must] create a national fund, out of which there shall be paid to every person, when arrived at the age of twenty-one years, the sum of fifteen pounds sterling, as a compensation in part, for the loss of his or her natural inheritance, by the introduction of the system of landed property. And also, the sum of ten pounds per annum, during life, to every person now living, of the age of fifty years, and to all others as they shall arrive at that age.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Spence’s proposal was partly a response to Paine’s (while they were both published in 1796-1797, they had spoken of their respective ideas prior).
+He felt that land was a source of wealth, and that it should be shared with all people—not only once upon a 21st birthday and then in older years.
+In &lt;em&gt;The Meridian Sun of Liberty&lt;/em&gt;, Spence spoke of the universality in liberatory terms:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;By this one bold resolve your chains are eternally broken, and your enemies annihilated. By this one resolve the power, the pride, and the arrogance of the landed interest, those universal and never ceasing scourges and plunderers of your race, are instantane∣ously and for ever broken and cut off. For being thus deprived and shorn of their revenues they become like shorn Sampson, weak as other men; weak as the poor dejected wretches whom they have so long been grinding and treading under toot. There you may behold the rent, which the people have paid into the parish treasuries…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nearly a century later, American political economist Henry George introduced the idea of an annual land value tax.
+While Paine proposed taxing land upon inheritance and Spence proposed collective ownership of land, George sought to marry the concept of collective land ownership with the administrative difficulty of seizing the land; taxing land values each year based on market rents was his solution.
+George did not call for any specific use of the LVT revenue (such as UBI), but his 1879 book &lt;em&gt;Progress and Poverty&lt;/em&gt; claimed that the private capture of land rents explains the persistence of poverty amid economic progress:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The great cause of inequality in the distribution of wealth is inequality in the ownership of land. The ownership of land is the great fundamental fact which ultimately determines the social, the political, and consequently the intellectual and moral condition of a people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the modern era, the economist Milton Friedman supported both the LVT and UBI, though not apparently together.
+Friedman, one of the most influential economists of the 20th century, proposed in his 1962 book &lt;a href=&quot;https://en.wikipedia.org/wiki/Capitalism_and_Freedom&quot;&gt;&lt;em&gt;Capitalism and Freedom&lt;/em&gt;&lt;/a&gt; replacing the existing safety net with a negative income tax (a means-tested UBI).
+&lt;a href=&quot;https://www.youtube.com/watch?v=yS7Jb58hcsc&quot;&gt;In 1978&lt;/a&gt;, he then stated his support for LVT:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There’s a sense in which all taxes are antagonistic to free enterprise – and yet we need taxes. …So the question is, which are the least bad taxes? In my opinion the least bad tax is the property tax on the unimproved value of land, the Henry George argument of many, many years ago.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Today, only one government has enacted a true UBI: Alaska, through its Permanent Fund Dividend.
+Each year, every resident of Alaska receives a payment of between $1,000 and $3,000, regardless of age or income.
+How is it funded?
+The return on the Alaska Permanent Fund, its fund built from oil reserves.
+That is, the only true UBI on Earth is an expression of the shared ownership of land and natural resources.&lt;/p&gt;
+
+&lt;h1 id=&quot;land-and-land-taxation-in-the-uk&quot;&gt;Land and land taxation in the UK&lt;/h1&gt;
+
+&lt;p&gt;The UK Office of National Statistics (ONS) estimates that UK land is worth &lt;a href=&quot;https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/bulletins/nationalbalancesheet/2018&quot;&gt;£5.7 trillion&lt;/a&gt;, 51% of the country’s total net worth; this is a larger share than peer countries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-09-19-uk-lvt/land_wealth_share_G7_countries.png&quot; alt=&quot;Land value as a share of G7 countries net worth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UK does not have a direct land value tax, but it does have three taxes that indirectly tax the value of land:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/council-tax&quot;&gt;Council Tax&lt;/a&gt;&lt;/strong&gt; is a tax on residential property levied on residents (owner-occupiers or renters). Councils assign each property a Council Tax band depending on its value, and then levy flat tax levels for all properties in the same band. Council Tax is means tested through &lt;a href=&quot;https://www.gov.uk/apply-council-tax-reduction&quot;&gt;Council Tax Reduction&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/introduction-to-business-rates&quot;&gt;Business rates&lt;/a&gt;&lt;/strong&gt; are taxes on commercial property, set at roughly 0.5% of the property value.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/stamp-duty-land-tax&quot;&gt;Stamp Duty Land Tax&lt;/a&gt;&lt;/strong&gt; (or just “Stamp Duty”) is a tax on the transfer of property, set progressively between 0% and 12% of the sale price. Despite its name, it taxes the full property value, including both land and structures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For simplicity, our simulation leaves these taxes intact, though we return to these taxes in the conclusion.
+Our simulation did require land value and income in a single dataset; since this does not exist, 
+we &lt;a href=&quot;https://policyengine.github.io/openfisca-uk-data/imputation.html#imputing-land-value-to-the-frs&quot;&gt;fused data from three sources&lt;/a&gt; with machine learning to arrive at our estimates.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We model a 1% tax on the £5.5 trillion in non-government land value, which raises £55 billion per year.
+By itself, this tax is essentially flat from a distributional perspective, raising the Gini inequality index by 0.08%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;However, when distributing the proceeds as UBI, the 1% LVT funds £16 per person per week, and becomes highly progressive.
+The bottom decile’s income would rise 16% and the top decile’s income would fall by 2%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The 1% land dividend would cut poverty by 20% overall, though with significant heterogeneity by age: child poverty would fall 30%, while pensioner poverty would fall only 4%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Impacts vary within income deciles as well.
+89% of the bottom decile comes out ahead, though 7% of them would experience net income decreases of 5% or more (high-asset, low-income people, like many pensioners).
+Conversely, two in five members of the upper decile would come out ahead (low-asset, high-income people, like newly-graduated physicians).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To illustrate the effect on an high-asset low-income person, consider a single pensioner who owns a £1 million home.
+Given the average 62% land value share, they would own £620,000 of land, and thus face a £6,200 annual land tax bill.
+About £830 of which would be offset by the UBI.
+If their main income is the £7,200 from &lt;a href=&quot;https://www.gov.uk/state-pension&quot;&gt;State Pension&lt;/a&gt;, the policy would push them well below the poverty line.&lt;/p&gt;
+
+&lt;p&gt;But is that person actually poor? They’re living in a £1 million home, which, based on the &lt;a href=&quot;https://www.globalpropertyguide.com/Europe/United-Kingdom/price-rent-ratio&quot;&gt;average price-to-rent ratio&lt;/a&gt;, would cost £28,000 per year to rent.
+If they were renting instead of being a homeowner, they’d need £28,000 extra income; indeed, it’s as if they are a renter in their own home, paying themselves rent each month. This concept has a name: &lt;em&gt;imputed rent&lt;/em&gt;.
+Imputed rents factor prominently into measurements like GDP and inflation, but they’re not part of poverty measurements.&lt;/p&gt;
+
+&lt;p&gt;Or consider if this person doesn’t just have a £1 million home, but also £1 million in equities.
+Under a 1% LVT, they’d pay another £3,300 per year in taxes through their £330,000 in indirect land holdings.
+But in practice, this would just lower the value of their holdings, rather than being a tax they’d pay in that year, as our accounting would assume.&lt;/p&gt;
+
+&lt;p&gt;These scenarios can also intersect.
+Suppose the pensioner wanted to sell some stock to pay the LVT bill on their home.
+Even if we included capital gains in income (neither we nor the UK government do), we lack the behavioral knowledge to model how much they would sell.&lt;/p&gt;
+
+&lt;p&gt;There’s no straightforward way to marry asset-based taxes like LVT with income-based measurements like poverty.
+Accounting for imputed rents and capital gains would be a start, but ultimately these concepts differ in ways that cannot be fully reconciled, only explained.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-pro-growth-step-toward-ubi&quot;&gt;A pro-growth step toward UBI&lt;/h2&gt;
+
+&lt;p&gt;Economic theory states that the deadweight loss (economic inefficiency) of a tax depends, in part, on how elastic (responsive) the supply is to the tax.
+Personal income taxes shrink the economy because people reduce their labor supply in response to the tax; VATs shrink the economy because people reduce their consumption in response to the tax; and so on.
+Sometimes this responsiveness can grow the economy, when the reduced behavior has negative externalities, and these Pigouvian taxes like &lt;a href=&quot;http://ubicenter.org/us-carbon-dividend&quot;&gt;carbon taxes&lt;/a&gt; are generally considered the most economically efficient taxes.&lt;/p&gt;
+
+&lt;p&gt;Short of Pigouvian taxes, though, land taxes are most efficient, because their supply is fixed.
+That is, there is zero deadweight loss from land value taxes, because the price elasticity of supply is zero.
+A &lt;a href=&quot;https://www.oecd-ilibrary.org/docserver/241216205486.pdf?expires=1625154113&amp;amp;id=id&amp;amp;accname=guest&amp;amp;checksum=1C37382017FFC08ADBEAB9DB5DD0F96C&quot;&gt;2008 paper from the OECD Economics Department&lt;/a&gt; confirms this theory:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The reviewed evidence and the empirical work suggests recurrent taxes on immovable property being the least distortive tax instrument in terms of reducing long-run GDP per capita.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;LVTs will be more efficient than the property taxes lauded in the OECD report, which include Council Tax and Business rates in the UK.
+Property taxes tax both land and structures, and taxes on structures suppress construction.
+LVT will be especially more efficient than the non-recurrent Stamp Duty, which discourages transferring property to owners that can make more productive use of it.
+The &lt;a href=&quot;https://fairershare.org.uk&quot;&gt;Fairer Share campaign&lt;/a&gt; proposes replacing these three taxes with a proportional property tax, reducing complexity and distortions from Stamp Duty, though stopping short of removing the tax on structures as an LVT would.&lt;/p&gt;
+
+&lt;p&gt;LVT is far from new: most of the world levies some form of land tax, even if it’s typically paired with an equal tax on structures and dubbed a property tax.
+In addition, some jurisdictions levy land only taxes, such as the progressive land tax up to 2.25% of &lt;a href=&quot;https://www.sro.vic.gov.au/land-tax&quot;&gt;Victoria, Australia&lt;/a&gt;, and the flat 4% tax (atop a 1% property tax) of &lt;a href=&quot;https://www.strongtowns.org/journal/2019/3/6/non-glamorous-gains-the-pennsylvania-land-tax-experiment&quot;&gt;Allentown, Pennsylvania, USA&lt;/a&gt;.
+Progressive land taxes can be avoided by splitting parcels, while flat land taxes can produce distributional issues if not offset by transfers.
+This analysis shows that pairing LVT with UBI can produce economically efficient, progressive redistribution.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="policyengine" />
+      
+        <category term="land" />
+      
+
+      
+        <summary type="html">Funding universal basic income with a land value tax would reduce poverty and inequality, while raising questions about distributional measurement.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing PolicyEngine UK</title>
+      <link href="/introducing-policyengine" rel="alternate" type="text/html" title="Introducing PolicyEngine UK" />
+      <published>2021-09-01T00:00:00+00:00</published>
+      <updated>2021-09-01T00:00:00+00:00</updated>
+      <id>/introducing-policyengine</id>
+      <content type="html" xml:base="/introducing-policyengine">&lt;h2 id=&quot;try-it-at-policyengineorg&quot;&gt;Try it at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Here at the UBI Center, technology has long supported our mission to make universal basic income the world’s most thoroughly researched economic policy.
+Along with our &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;first analysis&lt;/a&gt;, we created &lt;a href=&quot;plans.ubicenter.org&quot;&gt;Plan Explorer&lt;/a&gt; to help people understand the impact of Andrew Yang’s Freedom Dividend on households like theirs.
+We’ve since integrated interactive graphics to a growing share of our reports.
+And just last month, we launched the &lt;a href=&quot;bib.ubicenter.org&quot;&gt;Basic Income Builder&lt;/a&gt; to enable anyone to model the impact of various budget-neutral UBI policies on poverty and inequality in the US.&lt;/p&gt;
+
+&lt;p&gt;We’ve also built technology behind the scenes to model taxes and benefits as demanded by UBI policies.
+Over the past year, we’ve developed &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca UK&lt;/a&gt;, the UK’s first open source tax and benefit microsimulation model, and we’ve used it to produce &lt;a href=&quot;https://www.ubicenter.org/tag/uk/&quot;&gt;four reports&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/bien-2021&quot;&gt;three conference presentations&lt;/a&gt; on UBI in the UK.
+All of our technologies are open source, and they wouldn’t be possible without the prior work of other open source projects (&lt;a href=&quot;openfisca.org&quot;&gt;OpenFisca&lt;/a&gt;, &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;pandas&lt;/a&gt;, &lt;a href=&quot;https://github.com/plotly&quot;&gt;plotly&lt;/a&gt;, and &lt;a href=&quot;http://taxcalc.pslmodels.org/&quot;&gt;Tax-Calculator&lt;/a&gt;, just to name a few).&lt;/p&gt;
+
+&lt;p&gt;Today, we’re bringing together these interactive and microsimulation technologies into a new product: &lt;strong&gt;&lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;&lt;/strong&gt;.
+With PolicyEngine, anyone can reform the UK tax and benefit system, and see how it would affect the UK population as well as their own household.
+See the video below for a quick overview of how PolicyEngine works.&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nv_gVtokikU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As an example, let’s reproduce the reform we studied in July to &lt;a href=&quot;https://www.ubicenter.org/personal-allowance&quot;&gt;replace the personal allowance with a UBI&lt;/a&gt;.
+On the &lt;em&gt;Policy&lt;/em&gt; page, start by selecting &lt;em&gt;Tax &amp;gt; Income tax &amp;gt; Allowances&lt;/em&gt;, and drag the &lt;em&gt;Personal allowance&lt;/em&gt; slider to £0.&lt;sup id=&quot;fnref:params&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:params&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Then head to &lt;em&gt;Benefits &amp;gt; UBI&lt;/em&gt;, and toggle &lt;em&gt;AutoUBI&lt;/em&gt; to calculate the budget-neutral UBI.
+PolicyEngine finds that repealing the personal allowance funds a UBI of £29 per week, matching our July report.&lt;/p&gt;
+
+&lt;p&gt;From there, you can click &lt;em&gt;Simulate on the population&lt;/em&gt; to see the poverty impact (-29%, mirroring our report), the budget impact by provision, and other distributional effects.
+You can also enter information about your household to see how the reform would affect your net income, as well as the impact to your net income and marginal tax rates depending on your earnings.&lt;/p&gt;
+
+&lt;p&gt;PolicyEngine supports millions of policy reforms, including those not involving UBI.
+We’ll be enhancing it every week and leveraging it for all future UK research.
+We’re also working on bringing PolicyEngine to the US and hope to expand its reach more broadly (please consider &lt;a href=&quot;https://ubicenter.org/donate&quot;&gt;supporting these development and hosting costs&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;What policy reforms have you been waiting to simulate?
+Try them out at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt; and &lt;a href=&quot;https://zej8fnylwn9.typeform.com/to/XFFu15Xq&quot;&gt;let us know what you think&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://us02web.zoom.us/meeting/register/tZAlde6prz4sHNH7Pj1AWRokyrnr7yJDK7tt&quot;&gt;&lt;em&gt;Join us at 6PM BST today for a tour and Q&amp;amp;A of PolicyEngine.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:params&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;PolicyEngine uses policy parameters as of 2021-01-01, when the personal allowance was £12,500, rather than its current value of £12,570. We’re working on updating policy parameters to the current date. Our FAQ shows other caveats. &lt;a href=&quot;#fnref:params&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="policyengine" />
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our new product democratises tax and benefit analysis. Try it at policyengine.org.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Research we’re presenting at the upcoming Basic Income Earth Network Congress</title>
+      <link href="/bien-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming Basic Income Earth Network Congress" />
+      <published>2021-08-17T00:00:00+00:00</published>
+      <updated>2021-08-17T00:00:00+00:00</updated>
+      <id>/bien-2021</id>
+      <content type="html" xml:base="/bien-2021">&lt;h2 id=&quot;register-to-attend-the-bien-congress-here&quot;&gt;Register to attend the BIEN Congress &lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;From Wednesday through Saturday, the &lt;a href=&quot;https://basicincome.org/&quot;&gt;Basic Income Earth Network (BIEN)&lt;/a&gt; will hold its &lt;a href=&quot;https://cbin.scot/bien2021/&quot;&gt;annual BIEN Congress&lt;/a&gt;.
+The virtual conference includes presentations from researchers and activists around the world, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;Here are the sessions we’ll be presenting (times are given as British Standard Time; subtract five hours for Eastern Time and eight hours for Pacific Time):&lt;/p&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-lessons-for-basic-income-policies-pilots-and-modelling&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841162&quot;&gt;Thursday at 6:30PM BST: Lessons for Basic Income policies, pilots and modelling&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their paper, &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/author/deepak&quot;&gt;Deepak Singh&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Rick Evans will present progress toward constructing a general equilibrium model of UBI in the UK (a collaboration with Nikhil Woodruff, Jason DeBacker, Jonathan Pycroft, and Max Ghenis).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-considering-public-attitudes-to-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841151&quot;&gt;Thursday at 6:30PM BST: Considering public attitudes to Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/katarina/&quot;&gt;Katarina van Alebeek&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/will&quot;&gt;Will Fedder&lt;/a&gt; will present our new UBI Poll Tracker (link coming soon).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;friday-at-900am-bst-guaranteeing-a-standard-of-living-with-a-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841181&quot;&gt;Friday at 9:00AM BST: Guaranteeing a standard of living with a Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present his paper, &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;“Replacing tax and benefit allowances with UBI in the UK”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their research on funding a UBI with a land value tax in the UK (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-bien-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;Registration for BIEN is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;katarina&quot;, &quot;will&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="global" />
+      
+        <category term="conferences" />
+      
+
+      
+        <summary type="html">We'll give five talks across three sessions on Thursday and Friday.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Progressive adjustments to the Liberal Democrat UBI Working Group’s reforms</title>
+      <link href="/progressive-adjustments-lib-dem-working-group" rel="alternate" type="text/html" title="Progressive adjustments to the Liberal Democrat UBI Working Group's reforms" />
+      <published>2021-06-07T00:00:00+00:00</published>
+      <updated>2021-06-07T00:00:00+00:00</updated>
+      <id>/progressive-adjustments-lib-dem-working-group</id>
+      <content type="html" xml:base="/progressive-adjustments-lib-dem-working-group">&lt;p&gt;Yesterday, we published an &lt;a href=&quot;/lib-dem-policy-paper&quot;&gt;analysis&lt;/a&gt; of universal basic income reforms described in the Liberal Democrat UBI Working Group’s &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347&quot;&gt;discussion paper&lt;/a&gt;. In the working group’s words, their paper “is designed to stimulate debate and discussion within the Party and outside; based on the response generated and on the deliberations of the working group a full policy paper will be drawn up and presented to Conference for debate.”&lt;/p&gt;
+
+&lt;p&gt;In this follow-up, we model a budget-neutral version of the reforms put forth in the working group paper, as well as a variety of (also budget-neutral) adjustments to those reforms. While the working group’s reform would reduce poverty and inequality, we find that these adjustments, which make the UBIs more generous and inclusive, would augment their effects substantially.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-working-groups-ubi-reform&quot;&gt;The working group’s UBI reform&lt;/h2&gt;
+
+&lt;p&gt;The working group paper suggested a range of UBI amounts: 45, 60, 75, and 95 pounds per week for working-age adults. The cost was partly offset by lowering the annual Personal Allowance (for working-age adults) from £12,500 to £2,500 and the weekly National Insurance Primary Threshold from £184 to £50;&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; these both reduce the amount of earnings one can receive before being taxed. The reform also treated the UBI as earned income for the purposes of means-tested benefits.&lt;/p&gt;
+
+&lt;p&gt;The result was progressive: poverty would fall by at least 17 percent, deep poverty (the population share with income below half the poverty threshold) by at least 50 percent, and inequality (as measured by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Gini_coefficient&quot;&gt;Gini index&lt;/a&gt;) by at least 2.8 percent. However, even the least generous of the four UBI policies added over £20 billion to the deficit.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_verbal_tonight_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_verbal_tonight_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_verbal_tonight_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;If made budget-neutral, this structure of pay-fors will fund a UBI of £42 per week. That policy would reduce poverty by 11%, deep poverty by 46%, and inequality by 2.4%, while leaving 39% of Britons better off and 47% worse off. For an apples-to-apples comparison, we consider this the baseline reform against which other adjustments are evaluated.&lt;/p&gt;
+
+&lt;h2 id=&quot;adjustments-to-the-working-groups-ubi-reform&quot;&gt;Adjustments to the working group’s UBI reform&lt;/h2&gt;
+
+&lt;p&gt;We apply several modifications to the working group’s UBI reform that broaden the tax base (funding larger UBIs), broaden the recipient base, and change how the UBI is treated. Specifically, we model:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Including children in the UBI&lt;/li&gt;
+  &lt;li&gt;Repealing the Personal Allowance and National Insurance Primary Threshold entirely&lt;/li&gt;
+  &lt;li&gt;Including pensioners in both the Personal Allowance reduction and the UBI&lt;/li&gt;
+  &lt;li&gt;Exempting the UBI from means-testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to modeling each of these changes individually, we consider applying all four changes together.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_disciplinary_beginning()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_disciplinary_beginning&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from ubicenter import format_fig
+from openfisca_uk import Microsimulation
+import numpy as np
+import pandas as pd
+import plotly.express as px
+from reform import (
+    WA_adult_UBI,
+    all_UBI,
+    adult_UBI,
+    non_pensioner_UBI,
+    set_PA,
+    set_PT,
+    set_PA_for_WA_adults,
+    include_UBI_in_means_tests,
+    net_cost,
+)
+
+reform_df = pd.DataFrame(
+    {
+        &quot;Adult PA (£/year)&quot;: [12500, 2500, 0, 2500, 2500, 2500, 0],
+        &quot;Pensioner PA (£/year)&quot;: [12500, 12500, 12500, 2500, 12500, 12500, 0],
+        &quot;NI Primary Threshold (£/week)&quot;: [183, 50, 0, 50, 50, 50, 0],
+        &quot;UBI for children&quot;: [False, False, False, False, True, False, True],
+        &quot;UBI for pensioners&quot;: [False, False, False, True, False, False, True],
+        &quot;UBI in means tests&quot;: [False, True, True, True, True, False, False],
+    }
+)
+
+baseline = Microsimulation(year=2020)
+
+
+def create_reform(params: dict):
+    reform = []
+    reform += [set_PA(float(params[&quot;Pensioner PA (£/year)&quot;]))]
+    reform += [set_PA_for_WA_adults(float(params[&quot;Adult PA (£/year)&quot;]))]
+    reform += [set_PT(float(params[&quot;NI Primary Threshold (£/week)&quot;]))]
+    tax_reform_sim = Microsimulation(*reform, year=2020)
+    revenue = net_cost(tax_reform_sim, baseline)
+    if params[&quot;UBI for children&quot;]:  # doesn't handle non-adult UBIs
+        if params[&quot;UBI for pensioners&quot;]:
+            ubi_reform_func = all_UBI
+            population = baseline.calc(&quot;people&quot;).sum()
+        else:
+            ubi_reform_func = non_pensioner_UBI
+            population = (
+                baseline.calc(&quot;is_child&quot;).sum()
+                + baseline.calc(&quot;is_WA_adult&quot;).sum()
+            )
+    else:
+        if params[&quot;UBI for pensioners&quot;]:
+            ubi_reform_func = adult_UBI
+            population = baseline.calc(&quot;is_adult&quot;).sum()
+        else:
+            ubi_reform_func = WA_adult_UBI
+            population = baseline.calc(&quot;is_WA_adult&quot;).sum()
+    if params[&quot;UBI in means tests&quot;]:
+        ubi_amount = int(revenue / population / 52) * 52
+        net_revenue = -net_cost(
+            baseline,
+            Microsimulation(
+                (
+                    reform,
+                    ubi_reform_func(ubi_amount),
+                    include_UBI_in_means_tests(),
+                ),
+                year=2020,
+            ),
+        )
+        prev_amounts = []
+        while (
+            net_revenue &amp;gt; 1e9 or net_revenue &amp;lt; -1e9
+        ) and ubi_amount not in prev_amounts:
+            old_ubi_amount = ubi_amount
+            prev_amounts += [old_ubi_amount]
+            ubi_amount += 1 * 52 * (2 * (net_revenue &amp;gt; 0) - 1)
+            net_revenue = -net_cost(
+                baseline,
+                Microsimulation(
+                    (
+                        reform,
+                        ubi_reform_func(ubi_amount),
+                        include_UBI_in_means_tests(),
+                    ),
+                    year=2020,
+                ),
+            )
+        reform += [ubi_reform_func(ubi_amount), include_UBI_in_means_tests()]
+    else:
+        ubi_amount = int(revenue / population / 52) * 52
+        reform += [ubi_reform_func(ubi_amount)]
+    return tuple(reform)
+
+
+def rel(x, y):
+    return (y - x) / x
+
+
+UBI_amounts = []
+poverty_changes = []
+deep_poverty_changes = []
+costs = []
+winners = []
+losers = []
+gini_changes = []
+
+from tqdm import trange
+
+for i in range(len(reform_df)):
+    reform = create_reform(reform_df.iloc[i])
+    reform_sim = Microsimulation(reform, year=2020)
+    UBI_amounts += [reform_sim.calc(&quot;UBI&quot;).max()]
+    poverty_changes += [
+        rel(
+            baseline.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+            reform_sim.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+        )
+    ]
+    deep_poverty_changes += [
+        rel(
+            baseline.calc(&quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+            reform_sim.calc(&quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+        )
+    ]
+    gini_changes += [
+        rel(
+            baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;).gini(),
+            reform_sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;).gini(),
+        )
+    ]
+    winners += [
+        (
+            reform_sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;)
+            &amp;gt; baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) + 1
+        ).mean()
+    ]
+    losers += [
+        (
+            reform_sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;)
+            &amp;lt; baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - 1
+        ).mean()
+    ]
+    costs += [net_cost(baseline, reform_sim)]
+    
+results_df = pd.DataFrame(
+    {
+        &quot;UBI amount (£/week)&quot;: (pd.Series(UBI_amounts) / 52).astype(int),
+        &quot;Poverty change (%)&quot;: pd.Series(poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Deep poverty change (%)&quot;: pd.Series(deep_poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Winners (%)&quot;: pd.Series(winners).apply(lambda x: round(x * 100, 1)),
+        &quot;Losers (%)&quot;: pd.Series(losers).apply(lambda x: round(x * 100, 1)),
+        &quot;Inequality change (%)&quot;: pd.Series(gini_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Net cost (£bn/year)&quot;: pd.Series(costs).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+    }
+)
+
+output = pd.concat([reform_df, results_df], axis=1)
+output.index = [
+    &quot;Baseline&quot;,
+    &quot;Budget-neutral Working Group reform&quot;,
+    &quot;Full PA/PT elimination&quot;,
+    &quot;Include pensioners&quot;,
+    &quot;Include children&quot;,
+    &quot;Exclude from means tests&quot;,
+    &quot;All&quot;,
+]
+output
+
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_disciplinary_beginning() {
+  var x = document.getElementById(&quot;code_block_disciplinary_beginning&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_disciplinary_beginning_1&quot;).load(&quot;/assets/markdown_assets/post/graph_disciplinary_beginning_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_disciplinary_beginning_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Each of these adjustments produces more progressive outcomes. The most important adjustment for achieving more progressive outcomes is including children, which lowers the weekly amount from £42 to £32: of all the adjustments we considered, this most reduces poverty, inequality, and the population share that comes out behind. Fully eliminating the Personal Allowance and Primary Threshold, which would raise the weekly amount from £42 to £55, produces the greatest reduction in deep poverty.&lt;/p&gt;
+
+&lt;p&gt;The most progressive approach is implementing all the adjustments. Fully eliminating the Personal Allowance and Primary Threshold for all workers would fund a £36 weekly payment to each person, without counting as income toward means-tested programs. This would reduce poverty by 40%—3.6 times as much as the plan in the discussion paper. It would also reduce deep poverty 20% more than the discussion paper, and reduce inequality 130% more. Critically for political viability, it is the only approach that benefits the majority of individuals.&lt;/p&gt;
+
+&lt;h1 id=&quot;lessons-align-with-other-simulations&quot;&gt;Lessons align with other simulations&lt;/h1&gt;
+
+&lt;p&gt;This exploration shows that larger UBIs—both in generosity and inclusivity—deliver greater progressivity. The UBI Center’s US research findings mirror this lesson with respect to inclusivity:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend&quot;&gt;Excluding non-citizens was the primary reason Andrew Yang’s Freedom Dividend would leave some low-income people behind.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/child-ubi-share&quot;&gt;Including children in UBIs reduces poverty and inequality more.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19&quot;&gt;Including children and non-citizens makes for a more affordable Covid response.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://covid.ubicenter.org/fpuc&quot;&gt;Universal transfers (especially including kids) reduce poverty and inequality more than extended unemployment benefits, which reach only a small share of the population.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/student-debt&quot;&gt;UBI is more progressive than student debt forgiveness, which is similarly exclusively targeted.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our research on &lt;a href=&quot;/us-flat-tax&quot;&gt;flat income taxes&lt;/a&gt; also shows that more generous UBIs are more progressive, even when tax-funded, as does a comparison between our &lt;a href=&quot;/uk-blank-slate-ubi&quot;&gt;Blank Slate UBI model&lt;/a&gt; and more incremental reforms.&lt;/p&gt;
+
+&lt;p&gt;Moreover, poverty, inequality, and how people fare compared to today are not the only factors to judge UBI policies on. Starting with a working age population could rhetorically fill a gap between Child Benefit and State Pension, and treating the UBI as income for means-testing can serve to reduce benefits’ scope without changing their structure. But as we showed in &lt;a href=&quot;/lib-dem-policy-paper&quot;&gt;yesterday’s analysis&lt;/a&gt;, the working group’s reforms didn’t change overall marginal tax rates substantially; true benefit reform may need to accompany the UBI policy to meaningfully improve work incentives and reduce bureaucratic burdens. So we’re left largely with the million Britons lifted out of poverty by a budget-neutral version of the working group’s UBI proposal, and the nearly three million more who’d be lifted out of poverty through a more expansive version of it.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;For the £45 per week UBI reform, the working group modeled lowering the Personal Allowance and Primary Threshold less than other reforms, to £4,000 and £50, respectively. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="uk liberal democrats" />
+      
+
+      
+        <summary type="html">More generous and inclusive basic income plans would reduce poverty and inequality more, and benefit more people.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Liberal Democrat UBI Policy Paper: An Analysis</title>
+      <link href="/lib-dem-policy-paper" rel="alternate" type="text/html" title="Liberal Democrat UBI Policy Paper: An Analysis" />
+      <published>2021-06-06T00:00:00+00:00</published>
+      <updated>2021-06-06T00:00:00+00:00</updated>
+      <id>/lib-dem-policy-paper</id>
+      <content type="html" xml:base="/lib-dem-policy-paper">&lt;p&gt;Last month, the Liberal Democrat UBI Working Group published a &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347&quot;&gt;policy paper&lt;/a&gt; exploring possible universal basic income policies for the party’s platform.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; This release follows the &lt;a href=&quot;https://www.libdems.org.uk/a20-ubi&quot;&gt;September Liberal Democrat Conference vote&lt;/a&gt; to campaign for universal basic income in future elections. The working group invites comments on the paper until tomorrow, 7th June.&lt;/p&gt;
+
+&lt;p&gt;In this post, I assess the four UBI reforms described in the paper, which are partly offset by tax and benefit reforms.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; I find that each would reduce poverty by at least a sixth and deep poverty by half, while benefiting 7 in 10 Britons, though they would also add at least £20 billion to the annual deficit.&lt;/p&gt;
+
+&lt;h2 id=&quot;policy-outlines&quot;&gt;Policy outlines&lt;/h2&gt;
+
+&lt;p&gt;The details of the four reforms are shown in the table below. The reforms are mainly funded by tax changes, and recover additional costs through the benefit system. See Appendix A for more details and a comparison to estimates in the Liberal Democrat discussion paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_structured_mobile()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_structured_mobile&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+
+table = pd.DataFrame(
+    {
+        &quot;UBI amount (£/week)&quot;: [45, 60, 75, 90],
+        &quot;Personal Allowance (£/year)&quot;: [4000, 2500, 2500, 2500],
+        &quot;NI Primary Threshold (£/week)&quot;: [90, 50, 50, 50],
+        &quot;Eligible groups&quot;: [&quot;Working-age adults&quot;] * 4,
+        &quot;UBI in benefit means tests&quot;: [&quot;Included&quot;] * 4,
+    }
+).set_index(&quot;UBI amount (£/week)&quot;)
+table
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_structured_mobile() {
+  var x = document.getElementById(&quot;code_block_structured_mobile&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_structured_mobile_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_structured_mobile_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_structured_mobile_1&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tax-changes&quot;&gt;Tax changes&lt;/h3&gt;
+
+&lt;p&gt;The Liberal Democrat UBI Working Group proposes two tax changes to fund the UBI expenditure: reducing the Personal Allowance (for working-age adults only) and reducing the National Insurance Primary Threshold.&lt;/p&gt;
+
+&lt;p&gt;The Personal Allowance is a disregard for general income available to every individual with respect to Income Tax. In 2020, it had the value of £12,500 a year. For example, for an individual earning £22,500 a year, the Personal Allowance is deducted from taxable income to arrive at £10,000, which is taxed at the basic rate of 20%, resulting in a tax charge of £2,000. Reducing the Personal Allowance to £2,500 leaves the individual with £20,000 taxable income, resulting in a £4,000 Income Tax charge. The Working Group proposes lowering the Personal Allowance to £4,000 for the UBI of £45/week, and to £2,500 for the UBIs of £60, £75, and £90 per week.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;National Insurance (NI) is a tax paid on employment earnings, comprising both employee and employer contributions. The Working Group proposes increasing employee NI contributions by reducing the Primary Threshold (PT). The threshold is currently set at £184/week: earnings under this are not taxed, earnings above this but under the Upper Earnings Limit (UEL, currently £967/week) are taxed at 12%, and earnings over the UEL are taxed at 2%.  The Working Group proposes reducing the PT to £90/week for the UBI of £45/week and to £50 for the larger UBI reforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;ubi-and-benefit-changes&quot;&gt;UBI and benefit changes&lt;/h3&gt;
+
+&lt;p&gt;The Working Group proposes providing the basic income to working-age adults: individuals aged between 18 (inclusive) and the State Pension age (exclusive). This takes the form of a weekly payment in the amounts detailed below. The policies would not change existing benefit programs; however, UBI payments would be treated as earnings when existing benefits are means-tested. For example, if a person receives £70/week from Universal Credit and then is paid £60/week in UBI, their Universal Credit payment would be reduced at the 63% taper (assuming work allowances, set amounts of income disregarded by means tests, are exhausted) to arrive at £32.20 (which, combined with the £60 UBI, results in £93.20 - an increase of 33%).&lt;/p&gt;
+&lt;h3 id=&quot;funding-breakdown&quot;&gt;Funding breakdown&lt;/h3&gt;
+
+&lt;p&gt;Across reforms, the Personal Allowance reduction accounts for about two-thirds of the revenue, with the National Insurance threshold reduction accounting for a bit more than half of the remaining third.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_funky_portland()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_funky_portland&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from ubicenter import format_fig
+from openfisca_uk import Microsimulation
+from reform import (
+    WA_adult_UBI,
+    include_UBI_in_means_tests,
+    set_PA,
+    set_PA_for_WA_adults,
+    set_PT,
+    net_cost,
+)
+import numpy as np
+import pandas as pd
+from tqdm import trange, tqdm
+import plotly.express as px
+
+baseline = Microsimulation(year=2020)
+funding = (
+    set_PA_for_WA_adults(2500),
+    set_PT(50),
+    include_UBI_in_means_tests(),
+)
+ubi_45 = (
+    WA_adult_UBI(45 * 52),
+    set_PA_for_WA_adults(4000),
+    set_PT(90),
+    include_UBI_in_means_tests(),
+)
+ubi_60 = (WA_adult_UBI(60 * 52), *funding)
+ubi_75 = (WA_adult_UBI(75 * 52), *funding)
+ubi_95 = (WA_adult_UBI(95 * 52), *funding)
+
+breakdowns = []
+for reform, name in zip((ubi_45, ubi_60, ubi_75, ubi_95), (45, 60, 75, 95)):
+    net_costs = []
+    component_names = [
+        &quot;UBI&quot;,
+        &quot;Lower PA&quot;,
+        &quot;Lower PT&quot;,
+        &quot;Reduced benefits&quot;,
+        &quot;Remaining&quot;,
+    ]
+    for i in range(len(reform) + 1):
+        net_costs += [
+            net_cost(baseline, Microsimulation(reform[:i], year=2020))
+        ]
+    net_costs = np.array(net_costs)
+
+    resulting_costs = pd.Series(net_costs[1:] - net_costs[:-1])
+    resulting_costs = pd.Series(list(resulting_costs) + [net_costs[-1]])
+    breakdown = pd.DataFrame(
+        dict(
+            UBI=f&quot;£{name}/week&quot;,
+            component=component_names * 2,
+            amount=[0]
+            + list(resulting_costs.cumsum()[1:-1])
+            + [0]
+            + list(np.abs(resulting_costs)),
+            Type=[&quot;Unaffected&quot;] * 5
+            + [&quot;Spending&quot;]
+            + [&quot;Revenue&quot;] * 3
+            + [&quot;Spending&quot;],
+        )
+    )
+    breakdowns += [breakdown]
+
+fig = format_fig(
+    px.bar(
+        pd.concat(breakdowns),
+        x=&quot;component&quot;,
+        y=&quot;amount&quot;,
+        color=&quot;Type&quot;,
+        animation_frame=&quot;UBI&quot;,
+        barmode=&quot;stack&quot;,
+        color_discrete_sequence=[&quot;white&quot;, &quot;#1976D2&quot;, &quot;#BDBDBD&quot;],
+    ).update_layout(
+        title=&quot;Funding breakdown by reform&quot;,
+        xaxis_title=&quot;Component&quot;,
+        yaxis_title=&quot;Amount&quot;,
+        yaxis_tickprefix=&quot;£&quot;,
+        yaxis_range=[0, 210e9],
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_funky_portland() {
+  var x = document.getElementById(&quot;code_block_funky_portland&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_funky_portland_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_funky_portland_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_funky_portland_2&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_funky_portland_2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;reform-effects&quot;&gt;Reform effects&lt;/h2&gt;
+
+&lt;p&gt;All four of the reforms reduce poverty and inequality, and leave most better off. Their net costs range from £22bn  for the £45 UBI (about the cost of Housing Benefit) to £101bn for the £90 UBI (about the cost of State Pension). The below table shows the effects on the budget, as well as to poverty (absolute before housing costs), deep poverty (defined at half the poverty line) and inequality (measured by the Gini coefficient of disposable income).&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_verbal_tonight()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_verbal_tonight&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from openfisca_uk.api import *
+
+
+def get_results(reform: Reform):
+    sim = Microsimulation(reform, year=2020)
+    cost = net_cost(baseline, sim)
+    ubi_cost = sim.calc(&quot;UBI&quot;).sum()
+    reform_tax_revenue = sim.calc(&quot;tax&quot;).sum() - baseline.calc(&quot;tax&quot;).sum()
+    benefit_revenue = ubi_cost - reform_tax_revenue - cost
+    baseline_poverty = baseline.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean()
+    baseline_deep_poverty = baseline.calc(
+        &quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;
+    ).mean()
+    poverty_change = (
+        sim.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean() - baseline_poverty
+    ) / baseline_poverty
+    deep_poverty_change = (
+        sim.calc(&quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;).mean()
+        - baseline_deep_poverty
+    ) / baseline_deep_poverty
+    baseline_gini = baseline.calc(
+        &quot;household_net_income&quot;, map_to=&quot;person&quot;
+    ).gini()
+    inequality_change = (
+        sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;).gini()
+        - baseline_gini
+    ) / baseline_gini
+    baseline_income = baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;)
+    gain = sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - baseline_income
+    percent_winners = (gain &amp;gt; 0).mean()
+    percent_losers = (gain &amp;lt; 0).mean()
+    return (
+        sim,
+        cost,
+        poverty_change,
+        deep_poverty_change,
+        inequality_change,
+        percent_winners,
+        percent_losers,
+        ubi_cost,
+        benefit_revenue,
+        reform_tax_revenue,
+    )
+
+
+reforms = (ubi_45, ubi_60, ubi_75, ubi_95)
+names = (&quot;£45&quot;, &quot;£60&quot;, &quot;£75&quot;, &quot;£95&quot;)
+results = list(map(get_results, reforms))
+(
+    sims,
+    costs,
+    poverty_changes,
+    deep_poverty_changes,
+    inequality_changes,
+    percent_winners,
+    percent_losers,
+    ubi_cost,
+    benefit_revenue,
+    reform_tax_revenue,
+) = list(zip(*results))
+LD_lower = (13, 22, 48, 84)
+LD_upper = (18, 28, 56, 93)
+table = pd.DataFrame(
+    {
+        &quot;UBI (£/week)&quot;: names,
+        &quot;Net cost (£bn)&quot;: pd.Series(costs).apply(lambda x: round(x / 1e9, 1)),
+        &quot;Poverty change (%)&quot;: pd.Series(poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Deep poverty change (%)&quot;: pd.Series(deep_poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Inequality change (%)&quot;: pd.Series(inequality_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Winners (%)&quot;: pd.Series(percent_winners).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Losers (%)&quot;: pd.Series(percent_losers).apply(
+            lambda x: round(x * 100, 1)
+        ),
+    }
+).set_index(&quot;UBI (£/week)&quot;)
+table
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_verbal_tonight() {
+  var x = document.getElementById(&quot;code_block_verbal_tonight&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_verbal_tonight_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_verbal_tonight_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_verbal_tonight_1&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;distributional-effects&quot;&gt;Distributional effects&lt;/h3&gt;
+
+&lt;h4 id=&quot;inter-decile-effects&quot;&gt;Inter-decile effects&lt;/h4&gt;
+
+&lt;p&gt;The above effects only show the picture on the population as a whole. Below shows the average gain to members of the population by their household’s equivalised disposable income. With deficit funding, the plans are able to show positive impacts on average for every decile in every reform; budget-neutral plans would have result in some deciles coming out behind on average.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_private_princeton()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_private_princeton&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import plotly.graph_objects as go
+from ubicenter import format_fig
+
+fig = go.Figure()
+
+income = baseline.calc(&quot;equiv_household_net_income&quot;, map_to=&quot;person&quot;)
+
+LIGHTER_BLUE = &quot;#ABCEEB&quot;  # Blue 100.
+LIGHT_BLUE = &quot;#49A6E2&quot;  # Blue 700.
+BLUE = &quot;#1976D2&quot;  # Blue 700.
+DARK_BLUE = &quot;#0F4AA1&quot;  # Blue 900.
+
+BLUE_COLORS = [LIGHTER_BLUE, LIGHT_BLUE, BLUE, DARK_BLUE]
+
+for sim, name, color in zip(sims, names, BLUE_COLORS):
+    gain = sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - baseline.calc(
+        &quot;household_net_income&quot;, map_to=&quot;person&quot;
+    )
+    result = gain.groupby(income.decile_rank()).mean()
+    fig.add_trace(
+        go.Bar(x=result.index, y=result.values, name=name, marker_color=color)
+    )
+
+fig = format_fig(
+    fig.update_layout(
+        title=&quot;Change to net income by decile&quot;,
+        xaxis_tickvals=list(range(1, 11)),
+        xaxis_title=&quot;Equivalised disposable income decile&quot;,
+        yaxis_title=&quot;Change to annual net income per year&quot;,
+        yaxis_tickprefix=&quot;£&quot;,
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_private_princeton() {
+  var x = document.getElementById(&quot;code_block_private_princeton&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_private_princeton_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_private_princeton_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_private_princeton_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Relative effects are stronger on the lower deciles, with higher amounts of UBI creating particularly strong increases in disposable income for the bottom decile.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_transparent_proxy()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_transparent_proxy&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+income = baseline.calc(&quot;equiv_household_net_income&quot;, map_to=&quot;person&quot;)
+
+LIGHTER_BLUE = &quot;#ABCEEB&quot;  # Blue 100.
+LIGHT_BLUE = &quot;#49A6E2&quot;  # Blue 700.
+BLUE = &quot;#1976D2&quot;  # Blue 700.
+DARK_BLUE = &quot;#0F4AA1&quot;  # Blue 900.
+
+BLUE_COLORS = [LIGHTER_BLUE, LIGHT_BLUE, BLUE, DARK_BLUE]
+
+for sim, name, color in zip(sims, names, BLUE_COLORS):
+    gain = sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - baseline.calc(
+        &quot;household_net_income&quot;, map_to=&quot;person&quot;
+    )
+    decile_agg_income_baseline = (
+        income[income &amp;gt; 0].groupby(income.decile_rank()).sum()
+    )
+    rel_gain = (
+        gain[income &amp;gt; 0].groupby(income.decile_rank()).sum()
+        / decile_agg_income_baseline
+    )
+    fig.add_trace(
+        go.Bar(
+            x=rel_gain.index, y=rel_gain.values, name=name, marker_color=color
+        )
+    )
+
+fig = format_fig(
+    fig.update_layout(
+        title=&quot;Relative change to net income by income decile&quot;,
+        xaxis_tickvals=list(range(1, 11)),
+        xaxis_title=&quot;Equivalised disposable income decile&quot;,
+        yaxis_title=&quot;Relative change per year&quot;,
+        yaxis_tickformat=&quot;%&quot;,
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_transparent_proxy() {
+  var x = document.getElementById(&quot;code_block_transparent_proxy&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_transparent_proxy_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_transparent_proxy_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_transparent_proxy_1&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;intra-decile-effects&quot;&gt;Intra-decile effects&lt;/h4&gt;
+
+&lt;p&gt;While the share of people gaining from the reforms is relatively similar across income groups, people in low-income households are more likely to see substantial gains and less likely to see net losses. Even with the £45 UBI, only about a third of the top three deciles lose income; this follows from the tax and benefit changes mostly affecting lower income sections, as well as people earning over £125,000 being currently ineligible for the Personal Allowance, and therefore unaffected by its reduction.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_computational_indie()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_computational_indie&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import plotly.express as px
+from charts import intra_decile_graph_data
+
+intra = intra_decile_graph_data(baseline, *sims)
+
+GREY = &quot;#BDBDBD&quot;
+
+COLORS = (&quot;#616161&quot;, GREY, &quot;#F5F5F5&quot;, &quot;#C5E1A5&quot;, &quot;#558B2F&quot;,)[::-1]
+
+fig = format_fig(
+    px.bar(
+        intra,
+        x=&quot;fraction&quot;,
+        y=&quot;decile&quot;,
+        orientation=&quot;h&quot;,
+        color=&quot;Outcome&quot;,
+        animation_frame=&quot;UBI&quot;,
+        color_discrete_sequence=COLORS,
+    ).update_layout(
+        yaxis_tickvals=list(range(1, 11)),
+        xaxis_tickformat=&quot;%&quot;,
+        yaxis_title=&quot;Income decile&quot;,
+        xaxis_title=&quot;Outcome distributions&quot;,
+        title=&quot;Intra-decile outcomes&quot;,
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_computational_indie() {
+  var x = document.getElementById(&quot;code_block_computational_indie&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_computational_indie_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_computational_indie_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_computational_indie_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;individual-effects&quot;&gt;Individual effects&lt;/h2&gt;
+
+&lt;p&gt;The above results show the impact on the population as it stands, but not the theoretical effects on household budgets. An individual living alone and who will claim Universal Credit sees their disposable income increased by the £45/week UBI reform at earnings under £30,000 and over £70,000 (see Appendix B for this analysis of other household types).&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_outside_garden()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_outside_garden&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from openfisca_uk import IndividualSim
+from ubicenter import format_fig
+
+individual_colors = [GREY, BLUE]
+
+
+def plot_budget(household_config, title):
+    baseline_policy = IndividualSim()
+    household_config(baseline_policy)
+    baseline_policy.vary(&quot;employment_income&quot;)
+    employment_income = baseline_policy.calc(&quot;employment_income&quot;)[0]
+    budget_dfs = []
+    for reform, name in zip(
+        (ubi_45, ubi_60, ubi_75, ubi_95), (45, 60, 75, 95)
+    ):
+        ubi_policy = IndividualSim(reform)
+        household_config(ubi_policy)
+        ubi_policy.vary(&quot;employment_income&quot;)
+        df = pd.DataFrame(
+            {
+                &quot;Net income (Baseline)&quot;: baseline_policy.calc(
+                    &quot;household_net_income&quot;
+                )[0],
+                &quot;Net income (Reform)&quot;: ubi_policy.calc(&quot;household_net_income&quot;)[
+                    0
+                ],
+                &quot;Tax (Baseline)&quot;: baseline_policy.calc(&quot;tax&quot;)[0],
+                &quot;Tax (Reform)&quot;: ubi_policy.calc(&quot;tax&quot;)[0],
+                &quot;Benefits (Baseline)&quot;: baseline_policy.calc(&quot;benefits&quot;)[0],
+                &quot;Benefits (Reform)&quot;: ubi_policy.calc(&quot;benefits&quot;)[0],
+                &quot;UBI (Reform)&quot;: ubi_policy.calc(&quot;UBI&quot;)[0],
+                &quot;Employment income&quot;: employment_income,
+                &quot;MTR (Baseline)&quot;: 1
+                - baseline_policy.calc_deriv(
+                    &quot;household_net_income&quot;,
+                    var_target=&quot;household&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;MTR (Reform)&quot;: 1
+                - ubi_policy.calc_deriv(
+                    &quot;household_net_income&quot;,
+                    var_target=&quot;household&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;Tax MTR (Baseline)&quot;: baseline_policy.calc_deriv(
+                    &quot;tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Tax MTR (Reform)&quot;: ubi_policy.calc_deriv(
+                    &quot;tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Income Tax MTR (Baseline)&quot;: baseline_policy.calc_deriv(
+                    &quot;income_tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Income Tax MTR (Reform)&quot;: ubi_policy.calc_deriv(
+                    &quot;income_tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;NI MTR (Baseline)&quot;: baseline_policy.calc_deriv(
+                    &quot;national_insurance&quot;,
+                    var_target=&quot;adult&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;NI MTR (Reform)&quot;: ubi_policy.calc_deriv(
+                    &quot;national_insurance&quot;,
+                    var_target=&quot;adult&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;Benefit MTR (Baseline)&quot;: -baseline_policy.calc_deriv(
+                    &quot;benefits&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Benefit MTR (Reform)&quot;: -ubi_policy.calc_deriv(
+                    &quot;benefits&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+            }
+        )
+        df[&quot;UBI&quot;] = f&quot;£{name}/week&quot;
+        budget_dfs += [df]
+
+    fig = px.line(
+        pd.concat(budget_dfs),
+        x=&quot;Employment income&quot;,
+        y=[
+            &quot;Net income (Baseline)&quot;,
+            &quot;Net income (Reform)&quot;,
+            &quot;Tax (Baseline)&quot;,
+            &quot;Tax (Reform)&quot;,
+            &quot;Benefits (Baseline)&quot;,
+            &quot;Benefits (Reform)&quot;,
+            &quot;UBI (Reform)&quot;,
+        ],
+        animation_frame=&quot;UBI&quot;,
+        color_discrete_sequence=individual_colors,
+    ).update_layout(
+        title=title,
+        yaxis_tickprefix=&quot;£&quot;,
+        xaxis_tickprefix=&quot;£&quot;,
+        yaxis_title=&quot;Yearly amount&quot;,
+        xaxis_title=&quot;Employment income&quot;,
+        legend_title_text=&quot;&quot;,
+    )
+    hidden = [False] * 2 + [True] * 5
+    for i in range(7):
+        if hidden[i]:
+            fig.data[i].visible = &quot;legendonly&quot;
+
+    return format_fig(fig), pd.concat(budget_dfs)
+
+
+def single_person_UC(sim):
+    sim.add_person(age=26, is_benunit_head=True, name=&quot;adult&quot;),
+    sim.add_benunit(adults=[&quot;adult&quot;], claims_UC=True),
+    sim.add_household(adults=[&quot;adult&quot;])
+
+
+fig, budget_df = plot_budget(
+    single_person_UC,
+    &quot;Effect of UBI reforms on the relationship between employment income and net income&quot;,
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_outside_garden() {
+  var x = document.getElementById(&quot;code_block_outside_garden&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_outside_garden_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_outside_garden_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_outside_garden_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The reforms also affect marginal tax rates: the PA decrease imposes the basic, higher and additional rates on taxpayers with lower incomes, the UBI amounts effectively reduce the benefit work disregards, and the PT decrease applies the 12% rate onto lower-income earners.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_nuclear_response()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_nuclear_response&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+mtr_graph = px.line(
+    budget_df[::5],
+    x=&quot;Employment income&quot;,
+    y=[
+        &quot;MTR (Baseline)&quot;,
+        &quot;MTR (Reform)&quot;,
+        &quot;Tax MTR (Baseline)&quot;,
+        &quot;Tax MTR (Reform)&quot;,
+        &quot;Income Tax MTR (Baseline)&quot;,
+        &quot;Income Tax MTR (Reform)&quot;,
+        &quot;NI MTR (Baseline)&quot;,
+        &quot;NI MTR (Reform)&quot;,
+        &quot;Benefit MTR (Baseline)&quot;,
+        &quot;Benefit MTR (Reform)&quot;,
+    ],
+    animation_frame=&quot;UBI&quot;,
+    color_discrete_sequence=individual_colors,
+).update_layout(
+    title=&quot;Effect of UBI reforms on marginal tax rates&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    xaxis_tickprefix=&quot;£&quot;,
+    yaxis_title=&quot;Yearly amount&quot;,
+    xaxis_title=&quot;Employment income&quot;,
+    legend_title_text=&quot;&quot;,
+)
+hidden = [False] * 2 + [True] * 8
+for i in range(10):
+    if hidden[i]:
+        mtr_graph.data[i].visible = &quot;legendonly&quot;
+
+fig = format_fig(mtr_graph)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_nuclear_response() {
+  var x = document.getElementById(&quot;code_block_nuclear_response&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_nuclear_response_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_nuclear_response_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_nuclear_response_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Few political parties around the world have endorsed UBI as the Liberal Democrats have, and in releasing this discussion paper with specific policies, they have taken that endorsement to an unprecedented level of seriousness. While these policies don’t achieve full budget-neutrality, the discussion paper also mentions other revenue options, such as raising NI rates and tax rates on corporations, capital gains, and personal income. And while they don’t achieve the progressivity of &lt;a href=&quot;(/uk-blank-slate-ubi)&quot;&gt;more dramatic reforms&lt;/a&gt;, they would nonetheless reduce poverty and inequality more than any policy perhaps since the dawn of the NHS. The party’s final proposal will represent yet another unprecedented step in the UK’s embrace of UBI, and we look forward to reviewing it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update: &lt;a href=&quot;/progressive-adjustments-lib-dem-working-group&quot;&gt;Read our follow-up&lt;/a&gt; describing progressive adjustments that could be made to this framework.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;appendix-a-costing-estimates&quot;&gt;Appendix A: Costing estimates&lt;/h3&gt;
+
+&lt;p&gt;The Working Group used different modelling methods than were used in this analysis, resulting in our analysis producing higher net costs than the Working Group found. This is primarily due to the fact that this analysis used a household simulation method, rather than administrative data from HMRC. This allows for finer levels of detail and distributional analysis, but high incomes and benefit receipts are under-reported, causing an underestimate of the revenue raised by the tax reforms. The Working Group also assumed full Universal Credit take-up, whereas this analysis considers legacy benefits reported in the Family Resources Survey. The details are shown in the table below.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_former_notion()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_former_notion&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+LD_lower = (13, 22, 48, 84)
+LD_upper = (18, 28, 56, 93)
+table = pd.DataFrame(
+    {
+        &quot;UBI (£/week)&quot;: names,
+        &quot;LD net cost (£bn)&quot;: [
+            f&quot;{low}-{high}&quot; for low, high in zip(LD_lower, LD_upper)
+        ],
+        &quot;Simulated net cost (£bn)&quot;: pd.Series(costs).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+        &quot;UBI cost&quot;: pd.Series(ubi_cost).apply(lambda x: round(x / 1e9, 1)),
+        &quot;Tax revenue&quot;: pd.Series(reform_tax_revenue).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+        &quot;Reduced benefits&quot;: pd.Series(benefit_revenue).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+        &quot;Difference from central estimate (£bn)&quot;: [
+            round((c - (low + high) / 2 * 1e9) / 1e9, 1)
+            for c, low, high in zip(costs, LD_lower, LD_upper)
+        ],
+    }
+).set_index(&quot;UBI (£/week)&quot;)
+table
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_former_notion() {
+  var x = document.getElementById(&quot;code_block_former_notion&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_former_notion_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_former_notion_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_former_notion_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Thanks to Kevin Langford, who provided more details on the policy proposal by the Working Group not present in the discussion paper, and on the modelling approaches that produced the cost estimates. Some of the mechanics of this type of scheme are set out in Langfords paper, &lt;a href=&quot;https://radixuk.org/papers/money-for-nothing/&quot;&gt;&lt;i&gt;Money for Nothing?&lt;/i&gt;&lt;/a&gt;, published in May 2021 with Radix.&lt;/p&gt;
+
+&lt;h3 id=&quot;appendix-b-relationships-between-employment-and-net-income-for-other-household-types&quot;&gt;Appendix B: Relationships between employment and net income for other household types&lt;/h3&gt;
+
+&lt;p&gt;Below is a selection of the theoretical effects on different household types.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_internal_warning()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_internal_warning&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def couple_UC(sim):
+    sim.add_person(age=26, is_benunit_head=True, name=&quot;adult&quot;),
+    sim.add_person(age=27, is_benunit_head=False, name=&quot;adult2&quot;),
+    sim.add_benunit(adults=[&quot;adult&quot;, &quot;adult2&quot;], claims_UC=True),
+    sim.add_household(adults=[&quot;adult&quot;, &quot;adult2&quot;])
+
+
+fig, budget_df = plot_budget(couple_UC, &quot;Couple on Universal Credit&quot;)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_internal_warning() {
+  var x = document.getElementById(&quot;code_block_internal_warning&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_internal_warning_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_internal_warning_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_internal_warning_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_settled_authentication()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_settled_authentication&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+mtr_graph = px.line(
+    budget_df[::5],
+    x=&quot;Employment income&quot;,
+    y=[
+        &quot;MTR (Baseline)&quot;,
+        &quot;MTR (Reform)&quot;,
+        &quot;Tax MTR (Baseline)&quot;,
+        &quot;Tax MTR (Reform)&quot;,
+        &quot;Income Tax MTR (Baseline)&quot;,
+        &quot;Income Tax MTR (Reform)&quot;,
+        &quot;NI MTR (Baseline)&quot;,
+        &quot;NI MTR (Reform)&quot;,
+        &quot;Benefit MTR (Baseline)&quot;,
+        &quot;Benefit MTR (Reform)&quot;,
+    ],
+    animation_frame=&quot;UBI&quot;,
+    color_discrete_sequence=individual_colors,
+).update_layout(
+    title=&quot;Effect of UBI reforms on marginal tax rates (Couple, UC)&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    xaxis_tickprefix=&quot;£&quot;,
+    yaxis_title=&quot;Yearly amount&quot;,
+    xaxis_title=&quot;Employment income&quot;,
+    legend_title_text=&quot;&quot;,
+)
+hidden = [False] * 2 + [True] * 8
+for i in range(10):
+    if hidden[i]:
+        mtr_graph.data[i].visible = &quot;legendonly&quot;
+
+fig = format_fig(mtr_graph)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_settled_authentication() {
+  var x = document.getElementById(&quot;code_block_settled_authentication&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_settled_authentication_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_settled_authentication_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_settled_authentication_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_welsh_seating()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_welsh_seating&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def couple_children_UC(sim):
+    sim.add_person(age=26, is_benunit_head=True, name=&quot;adult&quot;),
+    sim.add_person(age=27, name=&quot;adult2&quot;),
+    sim.add_person(age=3, name=&quot;child&quot;),
+    sim.add_person(age=4, name=&quot;child2&quot;),
+    sim.add_benunit(
+        adults=[&quot;adult&quot;, &quot;adult2&quot;],
+        children=[&quot;child&quot;, &quot;child2&quot;],
+        claims_UC=True,
+        claims_child_benefit=True,
+    )
+    sim.add_household(adults=[&quot;adult&quot;, &quot;adult2&quot;], children=[&quot;child&quot;, &quot;child2&quot;])
+
+
+fig, budget_df = plot_budget(
+    couple_children_UC, &quot;Couple with two children on Universal Credit&quot;
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_welsh_seating() {
+  var x = document.getElementById(&quot;code_block_welsh_seating&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_welsh_seating_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_welsh_seating_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_welsh_seating_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_buried_grounds()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_buried_grounds&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+mtr_graph = px.line(
+    budget_df[::5],
+    x=&quot;Employment income&quot;,
+    y=[
+        &quot;MTR (Baseline)&quot;,
+        &quot;MTR (Reform)&quot;,
+        &quot;Tax MTR (Baseline)&quot;,
+        &quot;Tax MTR (Reform)&quot;,
+        &quot;Income Tax MTR (Baseline)&quot;,
+        &quot;Income Tax MTR (Reform)&quot;,
+        &quot;NI MTR (Baseline)&quot;,
+        &quot;NI MTR (Reform)&quot;,
+        &quot;Benefit MTR (Baseline)&quot;,
+        &quot;Benefit MTR (Reform)&quot;,
+    ],
+    animation_frame=&quot;UBI&quot;,
+    color_discrete_sequence=individual_colors,
+).update_layout(
+    title=&quot;Effect of UBI reforms on marginal tax rates (Couple, two children, UC)&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    xaxis_tickprefix=&quot;£&quot;,
+    yaxis_title=&quot;Yearly amount&quot;,
+    xaxis_title=&quot;Employment income&quot;,
+    legend_title_text=&quot;&quot;,
+)
+hidden = [False] * 2 + [True] * 8
+for i in range(10):
+    if hidden[i]:
+        mtr_graph.data[i].visible = &quot;legendonly&quot;
+
+fig = format_fig(mtr_graph)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_buried_grounds() {
+  var x = document.getElementById(&quot;code_block_buried_grounds&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_buried_grounds_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_buried_grounds_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_buried_grounds_1&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The findings from the Working Group’s paper were presented by Paul Noblet, the chair, in the &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi_recording&quot;&gt;recorded Social Liberal Forum event&lt;/a&gt; What Kind of UBI?, in which Jane Dodds (Leader of the Liberal Democrats in Wales), Christine Jardine (Liberal Democrat MP for Edinburgh West) and Max Ghenis (Founder of the UBI Center) gave first responses to the proposals. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Modeling was carried out using the open-sourced static microsimulation model &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk&quot;&gt;OpenFisca-UK&lt;/a&gt;. The code to reproduce all figures and findings is available on &lt;a href=&quot;https://github.com/ubicenter/libdem-ubi-analysis&quot;&gt;GitHub&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The higher allowance and threshold in the first reform increases the net cost by around £8bn. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nikhil Woodruff</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="uk liberal democrats" />
+      
+
+      
+        <summary type="html">The UK party is exploring UBI reforms that would reduce poverty and inequality.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Blank slate UBI: A constructive challenge for the UK basic income debate</title>
+      <link href="/uk-blank-slate-ubi" rel="alternate" type="text/html" title="Blank slate UBI: A constructive challenge for the UK basic income debate" />
+      <published>2021-05-12T00:00:00+00:00</published>
+      <updated>2021-05-12T00:00:00+00:00</updated>
+      <id>/uk-blank-slate-ubi</id>
+      <content type="html" xml:base="/uk-blank-slate-ubi">&lt;h2 id=&quot;read-the-report-here&quot;&gt;&lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;Read the report here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;We’re thrilled to have launched our first report in the UK: &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;“Blank Slate UBI: A Constructive Challenge for the UK Basic Income Debate.”&lt;/a&gt; The report, which we published with the UK’s &lt;a href=&quot;https://www.socialliberal.net/&quot;&gt;Social Liberal Forum&lt;/a&gt;, models three audacious budget-neutral UBI plans. These plans replace the existing tax and benefit system with a 50 percent flat income tax, which funds UBIs of between £60 and £221 per week, depending on age and policy design, including supplements for disability and region. As a result, poverty would fall by 32 percent or more, deep poverty by 86 percent, and the Gini inequality index by at least 8 percent; 58 percent of Britons would come out ahead on a net basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/table.png&quot; alt=&quot;Summary statistics&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This report is the UBI Center’s first simulation of UBI in the UK, and the first application of the &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca-UK&lt;/a&gt; open-source microsimulation model of the UK tax and benefit system, which the UBI Center developed with &lt;a href=&quot;http://openfisca.org&quot;&gt;OpenFisca&lt;/a&gt; and the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;. The report also demonstrates the first budget-neutral UK simulation to fund such generous UBI amounts—an average of £140 per week—and to reduce poverty to such a degree.&lt;/p&gt;
+
+&lt;p&gt;As an example of the progressivity that can be achieved with this kind of wholesale reform, consider the effect by decile. Under each of the three reforms, the bottom decile benefits by at least 50 percent on average, while the upper three deciles lose 6-7 percent of their income.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/decile_pct.png&quot; alt=&quot;Average percent effect by decile&quot; title=&quot;Average percent effect by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The effect is progressive not only on an average basis but also within deciles; for example, 92 percent of the bottom decile would see their incomes rise by at least 5 percent, compared to only 8 percent of the top decile with major gains (considering our reform with a disability supplement). We applied optimization algorithms to design the UBI policies as to minimize these losses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/within_decile_2.png&quot; alt=&quot;Distribution of effects by decile&quot; title=&quot;Distribution of effects by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UBI discussion may be more advanced in the UK than in any country on Earth, and this launch marks only the beginning of our investment to contribute data and evidence to that discussion.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To hear more about this report, join the &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi&quot;&gt;Social Liberal Forum’s event&lt;/a&gt; today (Thursday) at 19:00 UK time, including Max Ghenis (president of the UBI Center and one of the report’s authors), along with Paul Noblet (chair of the Liberal Democrats UBI Policy Working Group), Christine Jardine (MP for Edinburgh West and Liberal Democrat lead on the Cross-Party Parliamentary and Local Government Working Group on UBI), and Jane Dodds (Leader of the Liberal Democrats in Wales, and chair of the Lib Dems for Basic Income campaign group).&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;deepak&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our first UK report, published with the Social Liberal Forum, simulates audacious UBI-centered reforms to the tax and benefit systems.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

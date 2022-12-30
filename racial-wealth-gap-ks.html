@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>The effect of universal basic income on a novel measure of the racial wealth gap</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Analyzing universal basic income policies with open-source research" />
+    <link rel="shortcut icon" href="/assets/images/logos/square-blue.png" type="image/jpg" />
+    <link rel="canonical" href="/racial-wealth-gap-ks" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="UBI Center" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The effect of universal basic income on a novel measure of the racial wealth gap" />
+    <meta property="og:description" content="Going beyond mean and median." />
+    <meta property="og:url" content="/racial-wealth-gap-ks" />
+    <meta property="og:image" content="https://ubicenter.org/assets/images/2021-02-28-racial-wealth-gap-ks/cover.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:author" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:published_time" content="2021-02-28T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2021-02-28T00:00:00+00:00" />
+    <meta property="article:tag" content="US" />
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@">
+    <meta name="twitter:creator" content="@willmax">
+    <meta name="twitter:title"   content="The effect of universal basic income on a novel measure of the racial wealth gap">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The effect of universal basic income on a novel measure of the racial wealth gap" />
+    <meta name="twitter:description" content="Going beyond mean and median." />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="https://ubicenter.org/assets/images/2021-02-28-racial-wealth-gap-ks/cover.png" /> 
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="UBI Center" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="us" />
+    <meta name="twitter:site" content="@TheUBICenter" />
+    <meta name="twitter:creator" content="@TheUBICenter" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "UBI Center",
+        "logo": "/assets/images/logos/wide-white.jpg"
+    },
+    "url": "/racial-wealth-gap-ks",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/2021-02-28-racial-wealth-gap-ks/cover.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/racial-wealth-gap-ks"
+    },
+    "description": "Going beyond mean and median."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="The effect of universal basic income on a novel measure of the racial wealth gap" href="/feed.xml" />
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/0702499f362bc2046ada2a7d0.js");</script>
+    <!-- <meta http-equiv="refresh" content="0;URL=//subscribe"/> -->
+
+    <!-- for mathjax support -->
+    
+
+    <!-- for plotly support -->
+    
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/a07effe536897743f4f5a1837.js");</script>
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/"><img src="/assets/images/logos/wide-white.jpg" alt="UBI Center" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <div class="dropdown">
+      <li><a href="/what-is-ubi/">What is UBI? &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/what-is-ubi/why-ubi/">Why UBI?</a></li>
+        <li><a href="/what-is-ubi/why-not-ubi/">Why not UBI?</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">Projects &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="https://polls.ubicenter.org">UBI Poll Tracker</a></li>
+        <li><a href="http://bib.ubicenter.org">Basic Income Builder</a></li>
+        <li><a href="https://covid.ubicenter.org">Covid</a></li>
+        <li><a href="http://child-allowance.ubicenter.org/">Child allowance</a></li>
+        <li><a href="/projects/plan-explorer/">Plan Explorer</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">About &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/about/mission/">Mission</a></li>
+        <li><a href="/about/our-team/">Our team</a></li>
+        <li><a href="/about/join/">Join us</a></li>
+        <li><a href="/about/open-source/">Open source</a></li>
+        <li><a href="/about/press/">Press</a></li>
+      </div>
+    </div>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-gh" href="https://github.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+        <p style="width:15px;"></p>
+        <a class="subscribe-button" href="/donate">Donate</a>
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-us tag-race tag-wealth post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="28 February 2021">28 February 2021</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/us/'>US</a>,
+                            
+                        
+                            
+                               <a href='/tag/race/'>RACE</a>,
+                            
+                        
+                            
+                               <a href='/tag/wealth/'>WEALTH</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">The effect of universal basic income on a novel measure of the racial wealth gap</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url('/assets/images/2021-02-28-racial-wealth-gap-ks/cover.png')">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>The large racial wealth gap traces its roots to slavery, redlining, and other discriminatory policies, and persists largely due to <a href="https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap">racial income gaps</a>.
+In honor of Black History month, we explore how closing part of this income gap with a universal basic income would affect the racial wealth gap, using novel measurements that consider how Black and White families differ across the full wealth distribution.</p>
+
+<p>The two most common measures of the racial wealth gap simply compare mean and median wealth between White and Black families.<sup id="fnref:head" role="doc-noteref"><a href="#fn:head" class="footnote" rel="footnote">1</a></sup>
+Based on the 2019 Survey of Consumer Finances<sup id="fnref:scf" role="doc-noteref"><a href="#fn:scf" class="footnote" rel="footnote">2</a></sup>, White families have mean wealth 5.7 times that of Black families, and median wealth 6.4 times that of Black families.</p>
+
+<p><button class="code-button" id="button1" onclick="f1()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_1" style="display: none;">
+  <pre>
+    <code>
+import warnings
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.io as pio
+import ubicenter
+from plotly.subplots import make_subplots
+
+cdfs = pd.read_csv("data/cdfs.csv")
+ubi_summary = pd.read_csv("data/ubi_summary.csv")
+nw_quant = pd.read_csv("data/deciles.csv")
+
+
+# Define UBI Center colors
+BLUE = "#1976D2"
+DARK_BLUE = "#1565C0"
+LIGHT_BLUE = "#90CAF9"
+GRAY = "#BDBDBD"
+DARK_GRAY = "#616161"
+BARELY_BLUE = "#E3F2FD"
+
+colors = [BLUE, DARK_BLUE, LIGHT_BLUE, GRAY, BARELY_BLUE]
+
+bl = ubi_summary.iloc[0].round(-2)
+params = pd.DataFrame(
+    {
+        "Mean": {
+            "White": bl.white_mean_networth_pa,
+            "Black": bl.black_mean_networth_pa,
+        },
+        "Median": {
+            "White": bl.white_median_networth_pa,
+            "Black": bl.black_median_networth_pa,
+        },
+    }
+)
+
+fig = go.Figure(
+    data=[
+        go.Bar(name="White", x=params.T.index, y=params.T["White"], marker_color=GRAY),
+        go.Bar(name="Black", x=params.T.index, y=params.T["Black"], marker_color=BLUE),
+    ]
+)
+
+fig.update_layout(
+    title="Traditional measures of the racial wealth gap",
+    hovermode="x",
+    xaxis_title="",
+    yaxis_title="Wealth per adult (2019)",
+    yaxis_tickprefix="$",
+    legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.75),
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f1() {
+  var x = document.getElementById("asset_code_1");
+  var b = document.getElementById("button1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset1").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-1.html");
+    });
+  </script>
+</div>
+<div id="asset1"></div>
+
+<p>As Matt Bruenig pointed out in his <a href="https://www.peoplespolicyproject.org/2020/06/29/the-racial-wealth-gap-is-about-the-upper-classes/">June 2020 piece</a>, the mean wealth gap is largely shaped by overall wealth inequality, with over 70 percent of both Black and White families’ wealth held by the top decile.</p>
+
+<p><button class="code-button" id="button2" onclick="f2()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_2" style="display: none;">
+  <pre>
+    <code>
+hovertemplate = "%{x:.1f}%"
+
+fig = px.bar(
+    nw_quant[nw_quant.variable.isin(["White", "Black"])],
+    y="percentile",
+    x="value",
+    color="variable",
+    labels={
+        "percentile": "Percent receiving benefit",
+        "value": "Share of within-group wealth",
+    },
+    orientation="h",
+    barmode="group",
+    color_discrete_map={"White": GRAY, "Black": BLUE},
+)
+
+fig.update_traces(hovertemplate="Share of Wealth: " + hovertemplate)
+
+# apply formatting
+fig.update_layout(
+    title="Within-race wealth inequality",
+    hovermode="y",
+    xaxis_title="Share of total within-group wealth held by decile",
+    yaxis_title="Decile of wealth per adult (2019)",
+    xaxis_ticksuffix="%",
+    legend_title="",
+    yaxis_dtick=1,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f2() {
+  var x = document.getElementById("asset_code_2");
+  var b = document.getElementById("button2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset2").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-2.html");
+    });
+  </script>
+</div>
+<div id="asset2"></div>
+
+<p>While the median tells us where the middle of the distributions lay, it can obscure what is going on throughout the rest of the distribution.
+To visualize a variable’s distribution in full, we can turn to the cumulative distribution function (CDF), which shows the population share with less than a specified value.</p>
+
+<p>The following graph shows how to interpret a CDF graph of of wealth per adult for all families in the U.S. (Note that while we have logarithmically transformed the x-axis, the y-axis remains linear.)</p>
+
+<p><button class="code-button" id="button3" onclick="f3()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_3" style="display: none;">
+  <pre>
+    <code>
+all_hh = cdfs.loc[cdfs.ubi_mo == 0].copy(deep=True)
+
+# select 5000k
+med = all_hh.loc[all_hh["networth_pa_new"] == 50000, :].copy(deep=True)
+med["x"] = np.log10(med.networth_pa_new)
+med["y"] = med.loc[:, "total_share"]
+
+# plot curve
+fig = px.line(x=all_hh.networth_pa_new, y=all_hh.total_share.round(3))
+# change line coloar
+fig["data"][0]["line"]["color"] = BLUE
+
+# add explanation for arrow pointing to y-axis
+fig.add_annotation(
+    x=2,
+    y=med.y.values[0],
+    text="Look at y-axis to see share of families <br /> whose wealth is below the x-value",
+    showarrow=True,
+    arrowhead=0,
+    ay=-50,
+    ax=150,
+    font=dict(size=16),
+)
+
+# add dotted line pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],
+    y=0,
+    text="For a given wealth on the x-axis",
+    showarrow=True,
+    arrowhead=0,
+    # yshift=-60,
+    # xshift=-130,
+    ax=160,
+    ay=-50,
+    font=dict(size=16),
+)
+
+# add red arrow pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=0,  # arrows' tail
+    xref="x",
+    yref="y",
+    axref="x",
+    ayref="y",
+    text="",  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+# add arrow pointing from point to y-axis
+fig.add_annotation(
+    x=2,  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=med.y.values[0],  # arrows' tail
+    xref="x",
+    yref="y",
+    axref="x",
+    ayref="y",
+    text="",  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+fig.update_layout(
+    showlegend=False,
+    title="Cumulative wealth distribution",
+    xaxis_title="Wealth per adult (2019)",
+    yaxis_title="Share of families with less than value in wealth",
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="",
+    xaxis_tickprefix="$",
+    hovermode="x",
+)
+
+fig.update_xaxes(
+    dict(
+        range=[2, 9],
+        autorange=False,
+        showspikes=False,  # Show spike line for x-axis
+        # Format spike
+        spikethickness=1,
+        spikedash="dot",
+        spikecolor="grey",
+        spikemode="toaxis",
+    ),
+    type="log",
+)
+fig.update_yaxes(
+    dict(
+        range=[0, 1.01],
+        showspikes=True,
+        spikethickness=1,
+        spikedash="dot",
+        spikecolor="grey",
+        spikemode="toaxis",
+    )
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f3() {
+  var x = document.getElementById("asset_code_3");
+  var b = document.getElementById("button3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset3").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-3.html");
+    });
+  </script>
+</div>
+<div id="asset3"></div>
+
+<p>Now, how can we compare the distributions of wealth between Black and White families?
+The two-sample Kolmogorov-Smirnov (KS) statistical test offers a way to test the difference between two distributions.
+The KS statistic, or D-statistic (for “distance”), is the maximum absolute vertical distance between two CDFs.</p>
+
+<p>One advantage to this statistical method is that it is quite simple to explain visually.
+The below chart plots the CDF for White and Black families.
+The dotted line drawn between the two curves shows where the vertical distance between them is at its greatest.</p>
+
+<p><button class="code-button" id="button4" onclick="f4()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_4" style="display: none;">
+  <pre>
+    <code>
+with warnings.catch_warnings():  # ignore "FutureWarning"
+    """
+    Ignore numpy 'FutureWarning' :
+    "Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result."
+    """
+    warnings.filterwarnings("ignore", category=FutureWarning)
+
+    # Create traces
+    fig = go.Figure()
+
+    # create df for baseline
+    cdfs_bl = cdfs[cdfs.ubi_mo == 0]
+    # plot ECDFs
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.white_share.round(3),
+            name="White",
+            marker_color=GRAY,
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.black_share.round(3),
+            name="Black",
+            marker_color=BLUE,
+        )
+    )
+
+    # define ks_stat
+    ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == 0, "d_stat_cand"].max()
+
+    # find networth where the d-statistic is found
+    max_x = ubi_summary.loc[ubi_summary.ubi_mo == 0, "networth_pa_new"].max()
+
+    # find networth where abs distance between ecdfs is is @  max
+    y1 = ubi_summary.loc[ubi_summary.ubi_mo == 0, "white_share"].max()
+    y0 = ubi_summary.loc[ubi_summary.ubi_mo == 0, "black_share"].max()
+
+    # # add a dashed line showing where max abs distance between ECDFs is
+
+    dash_names = "Max abs. distance between CDFs"
+    dash_color = "black"
+    fig.add_trace(
+        go.Scatter(
+            x=[max_x, max_x],
+            y=[y0, y1],
+            mode="lines+text",
+            line={"dash": "dot", "color": dash_color, "width": 2},
+            visible=True,
+            name=dash_names,
+            text=["D-statistic: " + str(round(ks_stat, 3)) + "        ", None],
+            textfont=dict(size=16),
+            textposition="top left",
+            showlegend=False,
+        )
+    )
+
+    fig.add_annotation(
+        x=np.log10(max_x),
+        y=(y1 + y0) / 2,
+        text="The Kolmogorov-Smirnov D-statistic <br />"
+        + "is the maximum absolute vertical <br />"
+        + "distance between the two curves",
+        showarrow=True,
+        arrowhead=3,
+        yshift=1,
+        ax=200,
+        bordercolor="#c7c7c7",
+        borderwidth=2,
+        borderpad=4,
+        bgcolor="dark blue",
+        opacity=1,
+        font=dict(size=16),
+    )
+
+    fig.update_layout(
+        title="Cumulative distribution function (CDF) of wealth by race",
+        xaxis_title="Wealth per adult (2019)",
+        yaxis_title="Share of families with less than value in wealth",
+        yaxis_ticksuffix="",
+        yaxis_tickprefix="",
+        xaxis_tickprefix="$",
+        legend={"traceorder": "reversed"},
+    )
+
+    fig.update_xaxes(type="log")
+    fig = ubicenter.format_fig(fig, show = False)
+    fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f4() {
+  var x = document.getElementById("asset_code_4");
+  var b = document.getElementById("button4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset4").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-4.html");
+    });
+  </script>
+</div>
+<div id="asset4"></div>
+
+<p>This shows us that approximately 65.9% of Black families have a wealth of less than $50,000 per adult, whereas only 33.3% of White families fall below that line.
+As we will see, the threshold can be at any point along these curves; the KS statistic is the value measuring the size of the gap where the gap is the largest, at 0.326 (the actual wealth value corresponding to the D-statistic was $50,888).</p>
+
+<p>In the following model, we simulate how saving a total of one year’s UBI payments could change the racial wealth gap. We apply a flat tax on all income to fund the UBI program, and subtract each family’s new tax payment from their wealth.</p>
+
+<p>In the bottom graph, you can see the vertical distance between the two curves at each point along the x-axis from $0 to $2,000 per month.</p>
+
+<p><button class="code-button" id="button5" onclick="f5()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_5" style="display: none;">
+  <pre>
+    <code>
+def ecdf_slider(data):
+    # Create traces
+    fig = go.Figure()
+
+    # create empty list for payment size for sliders
+    payments = []
+    ks_stats = []
+    max_xs = []
+
+    # create 2 subplots
+    fig = make_subplots(
+        rows=2,
+        cols=1,
+        shared_xaxes=False,
+        # Apply x axis title elsewhere so it doesn't interfere with slider.
+        y_title="Share of families with less than value in wealth",
+    )
+
+    for i, step in enumerate(data.ubi_mo.unique()):
+        # append payment to list
+        payments.append(step)
+        step_data = data[data.ubi_mo == step]
+        # add trace 0
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.white_share.round(3),
+                name="White",
+                visible=False,
+                marker_color=GRAY,
+            ),
+            row=1,
+            col=1,
+        )
+        # add trace 1
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.black_share.round(3),
+                name="Black",
+                visible=False,
+                marker_color=BLUE,
+            ),
+            row=1,
+            col=1,
+        )
+        # append ks-statistics to list
+        ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == step, "d_stat_cand"].values[0]
+        ks_stats.append(ks_stat)
+
+        # add plot to candidate
+        # add trace 2, the d-statistic candidates
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.d_stat_cand.round(3),
+                mode="lines",
+                visible=False,
+                name="Absolute distance between CDFs",
+                marker_color=LIGHT_BLUE,
+            ),
+            row=2,
+            col=1,
+        )
+
+        # find networth where the d-statistic
+        max_x = (
+            ubi_summary.loc[ubi_summary.ubi_mo == step, "networth_pa_new"]
+            .iloc[0]
+            .round(3)
+        )
+        max_xs.append(max_x)
+
+        # find networth where abs distance between ecdfs is is @  max
+        y1 = ubi_summary.loc[ubi_summary.ubi_mo == step, "white_share"].iloc[0].round(3)
+        y0 = ubi_summary.loc[ubi_summary.ubi_mo == step, "black_share"].iloc[0].round(3)
+
+        dash_names = "Max abs. distance between CDFs"
+        dash_color = "black"
+        # dotted line between two curves
+        fig.add_trace(
+            go.Scatter(
+                x=[max_x, max_x],
+                y=[y0, y1],
+                mode="lines+text",
+                line={"dash": "dot", "color": dash_color, "width": 2},
+                visible=False,
+                name=dash_names,
+                text=["D-statistic: " + str(round(ks_stat, 3)) + "     ", None],
+                textfont=dict(size=16),
+                textposition="top left",
+                showlegend=False,
+            ),
+            row=1,
+            col=1,
+        )
+        # dotted line to peak on bottom chart
+        fig.add_trace(
+            go.Scatter(
+                x=[round(max_x, 3), round(max_x, 3)],
+                y=[0, round(y0 - y1, 3)],
+                mode="lines",
+                line={"dash": "dot", "color": dash_color, "width": 2},
+                visible=False,
+                name=dash_names,
+                showlegend=False,
+            ),
+            row=2,
+            col=1,
+        )
+
+    # define number of plots in each step
+    n = 5
+    # Make first n traces visible
+    for i in range(0, n):
+        fig.data[i].visible = True
+
+    # Create and add slider
+    steps = []
+    for i in range(0, len(fig.data), n):
+        step = dict(
+            method="update",
+            args=[{"visible": [False] * len(fig.data)},],  # layout attribute
+            label=("$" + str(payments[i // n])),
+        )
+        for j in range(0, n):
+            step["args"][0]["visible"][i + j] = True  # Toggle i'th trace to "visible"
+        steps.append(step)
+    sliders = [
+        dict(
+            active=0,
+            currentvalue={"prefix": "Monthly universal basic income payment: "},
+            pad={"t": 50},
+            steps=steps,
+        )
+    ]
+
+    fig.update_traces(xaxis="x1")
+
+    # update shapes
+    fig.update_shapes(dict(xref="x", yref="y"))
+
+    # fig.update_yaxes(showspikes=True)
+    fig.update_layout(
+        sliders=sliders,
+        xaxis=dict(
+            visible=True,
+            type="log",
+            range=[2, 9],
+            autorange=False,
+            showspikes=True,  # Show spike line for X-axis
+            # Format spike
+            spikethickness=2,
+            spikedash="dot",
+            spikecolor="#999999",
+            spikemode="across",
+        ),
+        title="The Kolmogorov-Smirnov measure of the racial wealth gap",
+        xaxis_title="Wealth per adult (2019)",
+        hovermode="x",
+        xaxis_tickprefix="$",
+    )
+
+    fig.update_xaxes(
+        visible=True,
+        type="log",
+        row=2,
+        col=1,
+    )
+    fig.update_yaxes(
+        dict(
+            range=[0, 1],
+            autorange=False,
+            showspikes=False,  # Show spike line for y-axis
+            # Format spike
+            spikethickness=2,
+            spikedash="dot",
+            spikecolor="#999999",
+            spikemode="toaxis",
+        ),
+        row=2,
+        col=1,
+    )
+
+    return ubicenter.format_fig(fig, show = False)
+
+
+with warnings.catch_warnings():  # ignore "FutureWarning"
+    """
+    Ignore numpy 'FutureWarning' :
+    "Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result."
+    """
+    warnings.filterwarnings("ignore", category=FutureWarning)
+    fig = ecdf_slider(cdfs)
+    fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f5() {
+  var x = document.getElementById("asset_code_5");
+  var b = document.getElementById("button5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset5").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-5.html");
+    });
+  </script>
+</div>
+<div id="asset5"></div>
+
+<p>It is notable that while the KS D-statistics declines overall, it fluctuates until we get to $500 payments, at which point the D-statistic begins a steady decline to minimum of 0.300 under the $2,000 monthly benefit scenario.
+This is because the distances between the two curves are much larger around the center of the distributions than around the tails, thus the changes in the KS test are not picking up changes at lower incomes, where the curves were much closer together to begin with.</p>
+
+<p>In our simulations, the wealth point at which the curves are furthest apart increases with the UBI amount.
+The wealth at which the gap is the biggest rises to just above $121,000, from $50,000 at baseline.</p>
+
+<p><button class="code-button" id="button6" onclick="f6()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_6" style="display: none;">
+  <pre>
+    <code>
+fig = make_subplots(
+    rows=2,
+    cols=1,
+    shared_xaxes=True,
+    x_title="Monthly universal basic income payment",
+    subplot_titles=[
+        "Black vs White wealth KS statistic",
+        "Wealth where Black and White cumulative distributions differ most",
+    ],
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.d_stat_cand.round(3),
+        mode="lines+markers",
+        name="KS statistic",
+        marker_color=BLUE,
+    ),
+    row=1,
+    col=1,
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.networth_pa_new,
+        mode="lines+markers",
+        name="Wealth at KS D-stat",
+        marker_color=LIGHT_BLUE,
+    ),
+    row=2,
+    col=1,
+)
+
+fig.update_layout(showlegend=False, hovermode="x", xaxis_tickprefix="$")
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f6() {
+  var x = document.getElementById("asset_code_6");
+  var b = document.getElementById("button6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset6").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-6.html");
+    });
+  </script>
+</div>
+<div id="asset6"></div>
+
+<p>Further, without UBI the median White family has $6.45 for every $1 held by the median Black family. Under a $1,000 monthly payment, this falls to $3.49 for every $1, and further down to $2.64 with a $2,000 monthly payment.</p>
+
+<p>The median wealth for White families rises from $115,103 without a UBI to $119,425 under a $1,000 monthly payment, and rises to $127,505 with a $2,000 monthly payment.
+For Black families, a $1,000 UBI nearly doubles the median wealth, from $17,853 to $34,183, and a $2,000 monthly benefit grows it further to $48,310.</p>
+
+<p>It should be noted that the median wealth per adult<sup id="fnref:peradult" role="doc-noteref"><a href="#fn:peradult" class="footnote" rel="footnote">3</a></sup> rises among White families, it merely rises by less than that of Black families.</p>
+
+<p><button class="code-button" id="button7" onclick="f7()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_7" style="display: none;">
+  <pre>
+    <code>
+fig = go.Figure()
+
+hovertemplate = "$%{y:.0f}"
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_median_networth_pa,
+        mode="lines+markers",
+        name="Black",
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_median_networth_pa,
+        mode="lines+markers",
+        name="White",
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = ubi_summary[["black_median_networth_pa", "white_median_networth_pa"]].max().max() * 1.1
+
+fig.update_layout(
+    title="How UBI affects median wealth by race",
+    xaxis_title="Monthly universal basic income payment",
+    yaxis_title="Median wealth per adult (2019)",
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="$",
+    xaxis_tickprefix="$",
+    yaxis_range=[0, ymax],
+    legend={"traceorder": "reversed"},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f7() {
+  var x = document.getElementById("asset_code_7");
+  var b = document.getElementById("button7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset7").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-7.html");
+    });
+  </script>
+</div>
+<div id="asset7"></div>
+
+<p>Unlike the rising median wealth for White families under the same UBI, mean wealth for White families declines from $557,216 without any UBI to 555,135 under a $1,000 monthly payment, and falls further to $553,054 with a $2,000 monthly payment.
+For Black families, the mean wealth rises from $97,167 to $104,768 with a $1,000 benefit, and further to $112,369 with a $2,000 benefit.</p>
+
+<p><button class="code-button" id="button8" onclick="f8()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_8" style="display: none;">
+  <pre>
+    <code>
+fig = go.Figure()
+
+hovertemplate = "$%{y:.0f}"
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_mean_networth_pa,
+        mode="lines+markers",
+        name="Black",
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_mean_networth_pa,
+        mode="lines+markers",
+        name="White",
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[["black_mean_networth_pa", "white_mean_networth_pa"]].max().max() * 1.1
+)
+
+fig.update_layout(
+    title="How UBI affects mean wealth by race",
+    xaxis_title="Monthly universal basic income payment",
+    yaxis_title="Mean wealth per adult (2019)",
+    yaxis_ticksuffix="",
+    yaxis_tickprefix="$",
+    xaxis_tickprefix="$",
+    yaxis_range=[0, ymax],
+    legend={"traceorder": "reversed"},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f8() {
+  var x = document.getElementById("asset_code_8");
+  var b = document.getElementById("button8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset8").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-8.html");
+    });
+  </script>
+</div>
+<div id="asset8"></div>
+
+<p>Finally, we look at the share of families that fall below $50,000 per adult, the point at which those two curves were further apart in our baseline scenario.</p>
+
+<p><button class="code-button" id="button9" onclick="f9()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_9" style="display: none;">
+  <pre>
+    <code>
+fig = go.Figure()
+hovertemplate = "%{y:.0f}%"
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary["ubi_mo"],
+        y=ubi_summary["black_share_above_50k"] * 100,
+        mode="lines+markers",
+        name="Black",
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary["ubi_mo"],
+        y=ubi_summary["white_share_above_50k"] * 100,
+        mode="lines+markers",
+        name="White",
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[["white_share_above_50k", "black_share_above_50k"]].max().max()
+    * 100
+    * 1.1
+)
+
+fig.update_layout(
+    title="How UBI affects the share of families with wealth above $50,000 by race",
+    xaxis_title="Monthly universal basic income payment",
+    yaxis_title="Share of families with wealth above $50,000 per adult (2019)",
+    yaxis_ticksuffix="%",
+    yaxis_tickprefix="",
+    xaxis_tickprefix="$",
+    yaxis_range=[0, ymax],
+    legend={"traceorder": "reversed"},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f9() {
+  var x = document.getElementById("asset_code_9");
+  var b = document.getElementById("button9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset9").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-9.html");
+    });
+  </script>
+</div>
+<div id="asset9"></div>
+
+<p>The share of Black families with a per adult networth of over $50,000 rises from 65.9 percent to 61.2 percent when we raise the monthly UBI to $1,000 monthly, and falls further to 51.7 percent when we raise the benefit to $2,000 monthly.</p>
+
+<p>In the scenarios we explore, the outcomes for Black families improve in the share of families with wealth per adult below $50,000 declines, median family wealth increases.
+In the final plot below, you can explore the relative changes in all of the metrics we’ve chosen.</p>
+
+<p><button class="code-button" id="button10" onclick="f10()">▶ Click to show code</button></p>
+<div class="code-cell" id="asset_code_10" style="display: none;">
+  <pre>
+    <code>
+fig = go.Figure()
+
+
+def trace(col, chg_col, name, string, color):
+    """
+    Args:
+        col: Column name.
+        chg_col: Column name of change.
+        name: Name of column for printing.
+        string: Formatting of customdata[1].
+        color: Line color.
+    """
+    fig.add_trace(
+        go.Scatter(
+            x=ubi_summary["ubi_mo"],
+            y=ubi_summary[chg_col] * 100,
+            mode="lines+markers",
+            name=name,
+            marker_color=color,
+            marker=dict(size=5),
+            customdata=np.stack((ubi_summary.ubi_mo, ubi_summary[col]), axis=-1),
+            hovertemplate=name
+            + ": "
+            + string
+            + "<br />"
+            + "Percent change: %{y:.0f}%<br />",
+        )
+    )
+
+
+trace(
+    "white_mean_nw_as_pct_of_mean_black",
+    "white_mean_nw_as_pct_of_mean_black_pc",
+    "White/Black mean wealth",
+    "%{customdata[1]: .1f}",
+    DARK_GRAY,
+)
+# median wealth
+trace(
+    "white_median_nw_as_pct_of_median_black",
+    "white_median_nw_as_pct_of_median_black_pc",
+    "White/Black median wealth",
+    "%{customdata[1]: .1f}",
+    GRAY,
+)
+trace(
+    "d_stat_cand", "d_stat_cand_pc", "KS statistic", "%{customdata[1]: .3f}", DARK_BLUE
+)
+trace(
+    "white_share_above_50k_pct_of_black",
+    "white_share_above_50k_pct_of_black_pc",
+    "White/Black share of families over $50k",
+    "%{customdata[1]: .1f}",
+    LIGHT_BLUE,
+)
+
+fig.update_layout(
+    title="How UBI affects different measures of the racial wealth gap",
+    xaxis_title="Monthly universal basic income payment",
+    yaxis_title="Percent change in measure over baseline (2019)",
+    yaxis_ticksuffix="%",
+    yaxis_tickprefix="",
+    xaxis_tickprefix="$",
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    </code>
+  </pre>
+</div>
+
+<script>
+function f10() {
+  var x = document.getElementById("asset_code_10");
+  var b = document.getElementById("button10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "&#9660 Click to hide code";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "&#9654 Click to show code";
+  }
+}
+</script>
+
+<div>
+  <script>
+    $(document).ready(function(){
+      $("#asset10").load("/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-10.html");
+    });
+  </script>
+</div>
+<div id="asset10"></div>
+
+<p>While these metrics aren’t truly comparable, we can see that the KS statistic is more stubborn than other measures, especially the gap in median wealth.
+Median Black wealth is so low that even modest redistribution can close that gap quickly, but larger gaps in the middle of the distribution will persist.</p>
+
+<p>We will continue this line of research, especially longer-term dynamic analysis to reflect the accumulative nature of wealth.
+Our simplifying assumption that the entire tax and transfer system flows straight to wealth, rather than consumption, may exaggerate these trends given propensities to consume decrease with wealth. But recurring redistribution would likely have a significantly larger effect in closing the gap, even accounting for consumption.
+UBI isn’t the only policy that can reduce racial wealth disparities, but it certainly helps.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:head" role="doc-endnote">
+      <p>White and Black families are families headed by a White and Black person, respectively. <a href="#fnref:head" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:scf" role="doc-endnote">
+      <p>We used the <a href="http://pslmodels.org">Policy Simulation Library</a>’s <a href="https://github.com/PSLmodels/scf"><code class="language-plaintext highlighter-rouge">scf</code></a> and <a href="https://github.com/PSLmodels/microdf"><code class="language-plaintext highlighter-rouge">microdf</code></a> Python packages for extracting and processing this data in <a href="https://github.com/UBICenter/blog/blob/master/jb/20210228/data/gen_data.py">this script</a>. <a href="#fnref:scf" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:peradult" role="doc-endnote">
+      <p>Family wealth conventionally adjusts for number of adults to avoid distorting statistics due to marriage patterns; for example, see <a href="https://www.credit-suisse.com/about-us/en/reports-research/global-wealth-report.html">Credit Suisse’s Global Net Worth Report</a>. <a href="#fnref:peradult" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to the UBI Center</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/max-ghenis.jpg" alt="willmax" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/max">Max Ghenis</a></h4>
+                                    
+                                        <p>Max is the founder and president of the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/max">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/will-fedder.jpeg" alt="willmax" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/will">Will Fedder</a></h4>
+                                    
+                                        <p>Will is a research assistant with the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/will">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url('/assets/images/banner.png')"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; UBI Center &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/us/" style="text-transform: uppercase">Us</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/2022-year-in-review">2022 year in review</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/whom-does-maryland-tax">Whom does Maryland tax?</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/ira-ev-credit-cliff">The Inflation Reduction Act discourages electric vehicle buyers from working</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/us/">
+                                
+                                    See all 37 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/womens-day-2021">
+                <div class="post-card-image" style="background-image: url(/assets/images/2021-03-08-womens-day-2021/cover.svg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/womens-day-2021">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Us</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">Gender</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Poverty</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">UBI as a means of reducing gendered poverty</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                    </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/family-security-act">
+                <div class="post-card-image" style="background-image: url(/assets/images/2021-02-12-family-security-act/cover.webp)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/family-security-act">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Us</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Child allowance</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Analysis of Senator Romney's Family Security Act</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+                <img src="/assets/images/logos/wide-blue.jpg" alt="UBI Center icon" />
+            
+        </a>
+    </div>
+    <div class="floating-header-title">The effect of universal basic income on a novel measure of the racial wealth gap</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=The+effect+of+universal+basic+income+on+a+novel+measure+of+the+racial+wealth+gap&amp;url=https://ubicenter.org/racial-wealth-gap-ks"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://ubicenter.org/racial-wealth-gap-ks"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">UBI Center</a> &copy; 2022</section>
+                <nav class="site-footer-nav">
+                    <a href="/donate">Donate</a>
+                    <a href="/">Latest posts</a>
+                    <a href="mailto:contact@ubicenter.org">Email us</a>
+                    <a href="https://facebook.com/UBICenter" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/UBICenter">GitHub</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/logos/wide-white.jpg" alt="UBI Center" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to the UBI Center</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts, news, and more delivered straight to your inbox</p>
+                <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-138885251-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

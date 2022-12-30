@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/deepak/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/deepak/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Blank slate UBI: A constructive challenge for the UK basic income debate</title>
+      <link href="/uk-blank-slate-ubi" rel="alternate" type="text/html" title="Blank slate UBI: A constructive challenge for the UK basic income debate" />
+      <published>2021-05-12T00:00:00+00:00</published>
+      <updated>2021-05-12T00:00:00+00:00</updated>
+      <id>/uk-blank-slate-ubi</id>
+      <content type="html" xml:base="/uk-blank-slate-ubi">&lt;h2 id=&quot;read-the-report-here&quot;&gt;&lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;Read the report here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;We’re thrilled to have launched our first report in the UK: &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;“Blank Slate UBI: A Constructive Challenge for the UK Basic Income Debate.”&lt;/a&gt; The report, which we published with the UK’s &lt;a href=&quot;https://www.socialliberal.net/&quot;&gt;Social Liberal Forum&lt;/a&gt;, models three audacious budget-neutral UBI plans. These plans replace the existing tax and benefit system with a 50 percent flat income tax, which funds UBIs of between £60 and £221 per week, depending on age and policy design, including supplements for disability and region. As a result, poverty would fall by 32 percent or more, deep poverty by 86 percent, and the Gini inequality index by at least 8 percent; 58 percent of Britons would come out ahead on a net basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/table.png&quot; alt=&quot;Summary statistics&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This report is the UBI Center’s first simulation of UBI in the UK, and the first application of the &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca-UK&lt;/a&gt; open-source microsimulation model of the UK tax and benefit system, which the UBI Center developed with &lt;a href=&quot;http://openfisca.org&quot;&gt;OpenFisca&lt;/a&gt; and the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;. The report also demonstrates the first budget-neutral UK simulation to fund such generous UBI amounts—an average of £140 per week—and to reduce poverty to such a degree.&lt;/p&gt;
+
+&lt;p&gt;As an example of the progressivity that can be achieved with this kind of wholesale reform, consider the effect by decile. Under each of the three reforms, the bottom decile benefits by at least 50 percent on average, while the upper three deciles lose 6-7 percent of their income.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/decile_pct.png&quot; alt=&quot;Average percent effect by decile&quot; title=&quot;Average percent effect by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The effect is progressive not only on an average basis but also within deciles; for example, 92 percent of the bottom decile would see their incomes rise by at least 5 percent, compared to only 8 percent of the top decile with major gains (considering our reform with a disability supplement). We applied optimization algorithms to design the UBI policies as to minimize these losses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/within_decile_2.png&quot; alt=&quot;Distribution of effects by decile&quot; title=&quot;Distribution of effects by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UBI discussion may be more advanced in the UK than in any country on Earth, and this launch marks only the beginning of our investment to contribute data and evidence to that discussion.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To hear more about this report, join the &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi&quot;&gt;Social Liberal Forum’s event&lt;/a&gt; today (Thursday) at 19:00 UK time, including Max Ghenis (president of the UBI Center and one of the report’s authors), along with Paul Noblet (chair of the Liberal Democrats UBI Policy Working Group), Christine Jardine (MP for Edinburgh West and Liberal Democrat lead on the Cross-Party Parliamentary and Local Government Working Group on UBI), and Jane Dodds (Leader of the Liberal Democrats in Wales, and chair of the Lib Dems for Basic Income campaign group).&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;deepak&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+
+      
+        <summary type="html">Our first UK report, published with the Social Liberal Forum, simulates audacious UBI-centered reforms to the tax and benefit systems.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

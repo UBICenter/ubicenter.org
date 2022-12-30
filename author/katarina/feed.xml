@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/katarina/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/katarina/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Introducing the UBI Poll Tracker</title>
+      <link href="/poll-tracker" rel="alternate" type="text/html" title="Introducing the UBI Poll Tracker" />
+      <published>2021-10-18T00:00:00+00:00</published>
+      <updated>2021-10-18T00:00:00+00:00</updated>
+      <id>/poll-tracker</id>
+      <content type="html" xml:base="/poll-tracker">&lt;h2 id=&quot;try-it-out-at-pollsubicenterorg&quot;&gt;&lt;em&gt;Try it out at &lt;a href=&quot;https://polls.ubicenter.org&quot;&gt;polls.ubicenter.org&lt;/a&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;How does the public feel about universal basic income? How does this vary by country or demographics? Does the phrasing and context of the question affect public opinion?&lt;/p&gt;
+
+&lt;p&gt;As UBI has become more newsworthy—through political campaigns, pilots, and pandemic response policies—pollsters have researched these questions at length. While these single surveys reveal valuable insight, we sought to follow poll aggregators like &lt;a href=&quot;https://projects.fivethirtyeight.com/biden-approval-rating/?ex_cid=rrpromo&quot;&gt;FiveThirtyEight&lt;/a&gt; and show a broader representation, across time and demographics, of attitudes toward universal basic income.&lt;/p&gt;
+
+&lt;h2 id=&quot;constructing-the-dataset&quot;&gt;Constructing the dataset&lt;/h2&gt;
+
+&lt;p&gt;We started by building a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ulqohI6YLYFsz3wm8f5j6BS_JVelu2Ea8SXXa-wwkhQ/&quot;&gt;structured dataset&lt;/a&gt; of all known UBI favorability polls from reputable pollsters. For each poll in the dataset, we’ve included relevant cross-variables offered by the pollster, such as age, race, income level, and political affiliation. At this time, our dataset represents 30 unique polls from at least 30 different countries, primarily in the EU and US, comprising 13,000 total cells of data. If you see a poll we’ve missed, please &lt;a href=&quot;https://github.com/UBICenter/polls/issues/new?assignees=&amp;amp;labels=new-poll&amp;amp;template=new-poll.md&amp;amp;title=Add+poll+from+%5Bpollster%5D+on+%5Bdates%5D&quot;&gt;submit it for us to add&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To help the public glean insights from this dataset, we created the UBI Poll Tracker.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-ubi-poll-tracker&quot;&gt;The UBI Poll Tracker&lt;/h2&gt;
+
+&lt;p&gt;The UBI Poll Tracker starts with a bubble chart of all polls in our dataset over time. On the y axis is &lt;em&gt;net favorability&lt;/em&gt;, or the percentage that supports the policy minus the percentage that opposes it. Each bubble represents a unique poll question, colored by country, and hovering reveals details on the poll question. You can also filter the chart by country or demographics. Our demo video below walks through an example:&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wDA2e_5BNI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The lower chart shows more detail on individual polls. By default, it shows the most recent poll, but you can click a bubble or select a poll with the drop down menus to see a different one. Let’s stick with the most recent poll, which is from Data for Progress. 32 percent of respondents strongly supported monthly payments of $500 to $1,000, and 23 percent somewhat supported this policy. 12 percent somewhat opposed it and 27 percent strongly opposed it, for a net favorability rating of plus 12. This poll had only one question, but it showed cross-tabs breaking down results by partisanship, gender, and race. Selecting race reveals that UBI is much more popular with Black and Hispanic Americans than with White Americans.&lt;/p&gt;
+
+&lt;p&gt;For a deeper look, you can download our poll data as a CSV or explore our &lt;a href=&quot;github.com/ubicenter/polls&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;trends-revealed-by-the-ubi-poll-tracker&quot;&gt;Trends revealed by the UBI Poll Tracker&lt;/h2&gt;
+
+&lt;p&gt;The UBI Poll Tracker reveals remarkable variation in public opinion around basic income, across countries, demographic groups, time, and question framing.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most consistent source of variation is political ideology: across countries and polls, liberals support UBI more than conservatives. The most recent UK poll found net favorability of +17 among those who most recently voted Conservative, and +57 among those who most recently voted Labour; the other four UK polls that sliced by party found almost an identical 40-point spread. Party differences are even starker in the US: the most recent poll, from Data for Progress, found +56 support among Democrats and -31 support among Republicans, and a Pew poll from August 2020 found +33 support among Democrats and -56 support among Republicans. This represents similar consistency as the UK polls, but of twice the magnitude.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-10-18-poll-tracker/party.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other correlates to political affiliation also predict UBI support, notably age and race. A cross-country 2019 poll from Gallup found that adults aged 18 to 29 had net favorability 30 to 50 points higher than adults aged 65 or older.  The latest US poll from Data for Progress finds net favorability of +66 among Blacks, +58 among Hispanics, and +2 among Whites. Even among Democrats in New York City, net favorability was ten points higher among Blacks than Whites.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-10-18-poll-tracker/age.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, some splits are either too small or too sparse to identify. In recent polls, sentiment among men is within one to eight points of sentiment among women, sometimes in different directions. Opinion is similarly ambiguous by education, though the swings are larger. More polling outside the US and the UK is needed to establish geographic differences, though the UK consistently supports UBI more than the US. And while existing data suggests some clues around verbiage that elicits more or less support—Gallup finds that net favorability falls by over 50 points across countries when asked about paying higher taxes—more polls that consistently vary the verbiage would reveal this more clearly.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
+
+&lt;p&gt;We’ll keep enhancing the UBI Poll Tracker by expanding the set of polls, improving useability, and adding features to analyze multiple polls together and identify general trends. Please &lt;a href=&quot;github.com/ubicenter/polls&quot;&gt;file an issue on GitHub&lt;/a&gt; if you see a poll we’ve missed or find a bug, and feel free to reach out at &lt;a href=&quot;mailto:contact@ubicenter.org&quot;&gt;contact@ubicenter.org&lt;/a&gt; if you’d like to partner. We look forward to seeing what trends our users find!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;katarina&quot;, &quot;will&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">Our new tool shows public opinion toward basic income from around the world.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Research we’re presenting at the upcoming Basic Income Earth Network Congress</title>
+      <link href="/bien-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming Basic Income Earth Network Congress" />
+      <published>2021-08-17T00:00:00+00:00</published>
+      <updated>2021-08-17T00:00:00+00:00</updated>
+      <id>/bien-2021</id>
+      <content type="html" xml:base="/bien-2021">&lt;h2 id=&quot;register-to-attend-the-bien-congress-here&quot;&gt;Register to attend the BIEN Congress &lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;From Wednesday through Saturday, the &lt;a href=&quot;https://basicincome.org/&quot;&gt;Basic Income Earth Network (BIEN)&lt;/a&gt; will hold its &lt;a href=&quot;https://cbin.scot/bien2021/&quot;&gt;annual BIEN Congress&lt;/a&gt;.
+The virtual conference includes presentations from researchers and activists around the world, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;Here are the sessions we’ll be presenting (times are given as British Standard Time; subtract five hours for Eastern Time and eight hours for Pacific Time):&lt;/p&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-lessons-for-basic-income-policies-pilots-and-modelling&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841162&quot;&gt;Thursday at 6:30PM BST: Lessons for Basic Income policies, pilots and modelling&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their paper, &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/author/deepak&quot;&gt;Deepak Singh&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Rick Evans will present progress toward constructing a general equilibrium model of UBI in the UK (a collaboration with Nikhil Woodruff, Jason DeBacker, Jonathan Pycroft, and Max Ghenis).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-considering-public-attitudes-to-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841151&quot;&gt;Thursday at 6:30PM BST: Considering public attitudes to Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/katarina/&quot;&gt;Katarina van Alebeek&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/will&quot;&gt;Will Fedder&lt;/a&gt; will present our new UBI Poll Tracker (link coming soon).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;friday-at-900am-bst-guaranteeing-a-standard-of-living-with-a-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841181&quot;&gt;Friday at 9:00AM BST: Guaranteeing a standard of living with a Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present his paper, &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;“Replacing tax and benefit allowances with UBI in the UK”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their research on funding a UBI with a land value tax in the UK (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-bien-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;Registration for BIEN is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;katarina&quot;, &quot;will&quot;, &quot;charles&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="global" />
+      
+        <category term="conferences" />
+      
+
+      
+        <summary type="html">We'll give five talks across three sessions on Thursday and Friday.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">UBI as a means of reducing gendered poverty</title>
+      <link href="/womens-day-2021" rel="alternate" type="text/html" title="UBI as a means of reducing gendered poverty" />
+      <published>2021-03-08T00:00:00+00:00</published>
+      <updated>2021-03-08T00:00:00+00:00</updated>
+      <id>/womens-day-2021</id>
+      <content type="html" xml:base="/womens-day-2021">&lt;p&gt;This year’s &lt;a href=&quot;https://www.internationalwomensday.com/&quot;&gt;International Women’s Day&lt;/a&gt; asks its celebrants to challenge the world in order to change it (&lt;a href=&quot;https://twitter.com/search?q=%23ChooseToChallenge&quot;&gt;#ChooseToChallenge&lt;/a&gt;).
+The following simulation seeks to challenge the fact that women in the United States are more likely to be impoverished than men.
+In our analysis, we evaluate a Universal Basic Income (UBI), funded by a flat income tax, as a possible solution for both alleviating poverty and narrowing the gendered poverty gap.&lt;sup id=&quot;fnref:modeling&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:modeling&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Poverty rates for children are roughly equal between genders, while adult women experience poverty at rates 17 percent greater than adult men: 12.4 percent vs. 10.6 percent.
+As a general trend, the difference in poverty rates between women and men increases with age.
+For example, 20.8 percent of women aged 85 or older are in poverty, compared to only 14.5 percent of men of the same age.
+Among people aged 85 or older, women experience deep poverty at twice the rate of men.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import ubicenter
+
+df = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[
+        &quot;MARSUPWT&quot;,
+        &quot;SPM_RESOURCES&quot;,
+        &quot;SPM_POVTHRESHOLD&quot;,
+        &quot;SPM_WEIGHT&quot;,
+        &quot;SPM_NUMPER&quot;,
+        &quot;A_SEX&quot;,
+        &quot;A_AGE&quot;,
+        &quot;SPM_ID&quot;,
+        &quot;AGI&quot;,
+    ],
+)
+df.columns = df.columns.str.lower()
+df[&quot;weight&quot;] = df.marsupwt / 100
+df[&quot;spm_weight&quot;] = df.spm_weight / 100
+df[&quot;female&quot;] = df.a_sex == 2
+df[&quot;poverty&quot;] = df.spm_resources &amp;lt; df.spm_povthreshold
+df[&quot;deep_poverty&quot;] = df.spm_resources &amp;lt; (df.spm_povthreshold / 2)
+df[&quot;sex&quot;] = np.where(df.female, &quot;Female&quot;, &quot;Male&quot;)
+
+spm = df.groupby(
+    [&quot;spm_id&quot;, &quot;spm_resources&quot;, &quot;spm_weight&quot;, &quot;spm_povthreshold&quot;, &quot;spm_numper&quot;]
+)[[&quot;agi&quot;]].sum()
+spm[&quot;agi_pos&quot;] = np.maximum(spm.agi, 0)
+spm.reset_index(inplace=True)
+
+total_population = df.weight.sum()
+total_agi_pos = mdf.weighted_sum(spm, &quot;agi_pos&quot;, &quot;spm_weight&quot;)
+
+# Bin into ages aligning with 18 year old threshold.
+DARK_PURPLE = &quot;#46296E&quot;  # Official Intl Womens Day Color.
+LIGHT_PURPLE = &quot;#907EA8&quot;  # Lightened version.
+DARK_GREY = &quot;#9E9E9E&quot;  # Gray 500 from Material Design.
+LIGHT_GREY = &quot;#BDBDBD&quot;  # Gray 400.
+
+COLOR_MAP = {
+    &quot;Female&quot;: DARK_PURPLE,
+    &quot;Male&quot;: LIGHT_GREY,
+    &quot;Female poverty&quot;: DARK_PURPLE,
+    &quot;Female deep poverty&quot;: LIGHT_PURPLE,
+    &quot;Male poverty&quot;: DARK_GREY,
+    &quot;Male deep poverty&quot;: LIGHT_GREY,
+    &quot;Poverty&quot;: DARK_PURPLE,
+    &quot;Deep poverty&quot;: LIGHT_PURPLE,
+}
+
+df[&quot;age_group&quot;] = pd.cut(df.a_age + 1, np.arange(0, 91, 5), labels=np.arange(0, 86, 5))
+pov_age = mdf.weighted_mean(
+    df, [&quot;poverty&quot;, &quot;deep_poverty&quot;], &quot;marsupwt&quot;, groupby=[&quot;age_group&quot;, &quot;sex&quot;]
+)
+pov_age = pov_age.round(3)
+pov_age.reset_index(inplace=True)
+pov_age = pov_age.melt([&quot;age_group&quot;, &quot;sex&quot;], [&quot;poverty&quot;, &quot;deep_poverty&quot;])
+pov_age[&quot;label&quot;] = (
+    pov_age.sex
+    + &quot; &quot;
+    + np.where(pov_age.variable == &quot;poverty&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;)
+)
+
+fig = px.line(
+    pov_age, x=&quot;age_group&quot;, y=&quot;value&quot;, color=&quot;label&quot;, color_discrete_map=COLOR_MAP
+)
+fig.update_layout(
+    title=&quot;Poverty by gender and age&quot;,
+    xaxis_title=&quot;Age (in 5-year bins)&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    yaxis_range=[0, pov_age.value.max() * 1.1] #fig.update_xaxes(range=[1.5, 4.5])
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+pov_age_diff = pov_age[pov_age.variable == &quot;poverty&quot;].pivot_table(
+    values=&quot;value&quot;, index=&quot;age_group&quot;, columns=&quot;sex&quot;
+)
+pov_age_diff[&quot;female_minus_male&quot;] = pov_age_diff.Female - pov_age_diff.Male
+pov_age_diff.female_minus_male.plot()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;With a significant difference in rates of poverty for adult women as compared to men, how might a UBI help close that gap?
+Our past modeling has shown that a UBI would lessen poverty across demographic groups, and also shrink poverty disparities by &lt;a href=&quot;https://blog.ubicenter.org/20210118/racial-poverty-disparities-mlk-day-2021.html&quot;&gt;race&lt;/a&gt;, &lt;a href=&quot;https://blog.ubicenter.org/20201012/indigenous.html&quot;&gt;Indigenous heritage&lt;/a&gt;, and &lt;a href=&quot;https://blog.ubicenter.org/20200731/ada30.html&quot;&gt;disability status&lt;/a&gt;.
+Our research here shows that it would do the same by gender.&lt;/p&gt;
+
+&lt;p&gt;After receiving a UBI, the poverty rates for women and men converge as the monthly amount increases (we’ve focused on adults here).
+Consistent with our past simulations, a $300 monthly UBI would halve the rate of female poverty and female deep poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def pov(female, monthly_ubi):
+    # Calculate poverty rates for a gender subset given a monthly UBI amount.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi_pos  # Divide by positive AGI.
+    spm[&quot;new_resources&quot;] = (
+        spm.spm_resources - tax_rate * spm.agi_pos + (12 * monthly_ubi * spm.spm_numper)
+    )
+    person = df[(df.female == female) &amp;amp; (df.a_age &amp;gt; 17)].merge(
+        spm[[&quot;spm_id&quot;, &quot;new_resources&quot;]], on=&quot;spm_id&quot;
+    )
+    return pd.Series(
+        dict(
+            pov=mdf.poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+            deep_pov=mdf.deep_poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+        )
+    )
+
+
+def pov_row(row):
+    return pov(row.female, row.monthly_ubi)
+
+
+gender_ubi = mdf.cartesian_product(
+    {&quot;female&quot;: [True, False], &quot;monthly_ubi&quot;: np.arange(0, 1001, 100)}
+)
+gender_ubi = pd.concat([gender_ubi, gender_ubi.apply(pov_row, axis=1)], axis=1)
+
+gender_ubi_long = gender_ubi.melt(
+    id_vars=[&quot;female&quot;, &quot;monthly_ubi&quot;], value_vars=[&quot;pov&quot;, &quot;deep_pov&quot;]
+)
+gender_ubi_long[&quot;label&quot;] = (
+    pd.Series(np.where(gender_ubi_long.female, &quot;Female&quot;, &quot;Male&quot;))
+    + &quot; &quot;
+    + pd.Series(np.where(gender_ubi_long.variable == &quot;pov&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;))
+)
+gender_ubi_long.value = gender_ubi_long.value.round(3)
+
+fig = px.line(
+    gender_ubi_long,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;value&quot;,
+    color=&quot;label&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_layout(
+    title=&quot;Poverty by gender and UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income amount (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;UBI significantly narrows the ratio of poverty and deep poverty rates for adult women compared to adult men.
+With a monthly UBI of $500, the rate of women compared to men in poverty is more than halved and the rate of women compared to men in deep poverty is nearly equal.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+gender_ratio = gender_ubi.pivot_table(
+    values=&quot;pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+gender_ratio[&quot;ratio&quot;] = gender_ratio.female / gender_ratio.male
+gender_ratio[&quot;poverty_type&quot;] = &quot;Poverty&quot;
+deep_gender_ratio = gender_ubi.pivot_table(
+    values=&quot;deep_pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+deep_gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+deep_gender_ratio[&quot;ratio&quot;] = deep_gender_ratio.female / deep_gender_ratio.male
+deep_gender_ratio[&quot;poverty_type&quot;] = &quot;Deep poverty&quot;
+
+gender_ratios = pd.concat([gender_ratio, deep_gender_ratio])
+gender_ratios.ratio = gender_ratios.ratio.round(2)
+
+fig = px.line(
+    gender_ratios,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;ratio&quot;,
+    color=&quot;poverty_type&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_yaxes(range=[0.94, 1.18])
+fig.add_shape(
+    type=&quot;line&quot;,
+    x0=0,
+    y0=1,
+    x1=1000,
+    y1=1,
+    line=dict(color=LIGHT_GREY, dash=&quot;dash&quot;),
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+)
+
+fig.update_layout(
+    title=&quot;Poverty disparities by gender with respect to UBI&quot;,
+    xaxis_title=&quot;Monthly universal basic income (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;Ratio of women to men SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The gender income gap is inseparable from the issue of care work.
+On one hand, the &lt;a href=&quot;https://www.vox.com/2018/2/19/17018380/gender-wage-gap-childcare-penalty&quot;&gt;“baby penalty”&lt;/a&gt; explains much of the gap, with mothers earning less than fathers while women and men without children have similar earnings.
+Meanwhile, &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;high marginal tax rates&lt;/a&gt; for low-income parents (due to the phasing out of benefits) discourages work disproportionately of mothers.
+A &lt;a href=&quot;https://americancompass.org/essays/home-building-survey-part-2/&quot;&gt;recent poll&lt;/a&gt; found that Americans prefer cash assistance to other family assistance policies like paid family leave, subsidized childcare, wage subsidies, and baby bonds.
+Mothers, fathers, and low-income people especially preferred cash assistance, which would likely be more distributionally progressive than other policy options.&lt;/p&gt;
+
+&lt;p&gt;In her &lt;a href=&quot;https://almazzelleke.files.wordpress.com/2014/01/zelleke-institutionalizing-the-universal-caretaker-dec-2008.pdf&quot;&gt;paper&lt;/a&gt; advocating for UBI as compared to other alternatives, political scientist Almaz Zelleke states that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perhaps most importantly for advocates of gender equality, a basic income by virtue of its universality goes to both providers and recipients of care, and thus has the best chance of eliminating poverty for the most vulnerable group in contemporary capitalist economies: single mothers and their children. To any feminist, this should be a strong argument in favor of basic income.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Women provide most of the care work that today goes unpaid and unrecognized.
+UBI compensates for that care work, reducing gender inequities and investing in the well-being of the cared-for.
+Our analysis suggests that a UBI could be a relevant policy in the greater movement for the social, economic, and political equality of women.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:modeling&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Data was gathered from the US Census Bureau’s March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP) and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. &lt;a href=&quot;#fnref:modeling&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;katarina&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="gender" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html">Women are 17% more likely to be in poverty than men, but basic income would shrink the gap.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/tag/carbon-pricing/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/tag/carbon-pricing/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">The progressivity of a UK carbon dividend</title>
+      <link href="/uk-carbon-dividend" rel="alternate" type="text/html" title="The progressivity of a UK carbon dividend" />
+      <published>2022-04-23T00:00:00+00:00</published>
+      <updated>2022-04-23T00:00:00+00:00</updated>
+      <id>/uk-carbon-dividend</id>
+      <content type="html" xml:base="/uk-carbon-dividend">&lt;h2 id=&quot;see-a-100tonne-carbon-dividend-in-policyengine&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;&lt;em&gt;See a £100/tonne carbon dividend in PolicyEngine&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Earlier this month, the International Panel on Climate Change (&lt;a href=&quot;https://www.ipcc.ch/&quot;&gt;IPCC&lt;/a&gt;) released the &lt;a href=&quot;https://report.ipcc.ch/ar6wg3/&quot;&gt;third installment&lt;/a&gt; of its Sixth Assessment Report, titled “Mitigation of Climate Change.”
+The report covered a wide range of policy options to reduce carbon emissions, as well as a wide range of benefits such policies would have for humanity.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&quot;https://citizensclimatelobby.org/blog/policy/the-latest-ipcc-report-has-a-lot-to-say-about-carbon-fee-and-dividend/&quot;&gt;Dana Nuccitelli of Citizens’ Climate Lobby wrote&lt;/a&gt;, the report has a lot to say about one policy in particular: it contains 680 mentions of carbon pricing, from the economic theory and evidence to policy design and political support.
+While most climate change proposals require funding, carbon pricing policies raise revenue by charging fossil fuel companies for their carbon pollution.
+That means it also raises costs in isolation; to address this, the IPCC says, “Carbon pricing is most effective if revenues are redistributed or used impartially.”
+What’s more impartial than redistributing to everyone equally?&lt;/p&gt;
+
+&lt;p&gt;For Earth Day weekend, we’re following up &lt;a href=&quot;https://www.ubicenter.org/us-carbon-dividend&quot;&gt;our report on US carbon dividends&lt;/a&gt; with an analysis of the policy in the UK.
+Using &lt;a href=&quot;http://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;, we find that levying a fee on each tonne of carbon emissions, and redistributing the proceeds equally to all UK residents, would have a progressive distributional impact.
+A carbon dividend would significantly reduce poverty and inequality, and the larger the program, the more of each it does.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+
+&lt;p&gt;As we’ve written on the &lt;a href=&quot;https://blog.policyengine.org/how-policyengine-estimates-the-effects-of-uk-carbon-taxes-260ccfc5d97c&quot;&gt;PolicyEngine blog today&lt;/a&gt;, PolicyEngine uses a range of data sources and techniques to estimate how carbon taxes would affect different types of households.
+PolicyEngine is a &lt;em&gt;static&lt;/em&gt; app, so it assumes that behaviour, including carbon emissions, do not respond to policy changes.&lt;/p&gt;
+
+&lt;p&gt;In this analysis, we use PolicyEngine to first explore a single policy of a &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;£100 per tonne carbon dividend&lt;/a&gt;.
+From there, we show that the poverty impacts of carbon dividends increase roughly in proportion to the size of the carbon tax.
+In each case, we assume that consumers bear 100% of the incidence of the carbon tax; changing this assumption doesn’t significantly change the policy’s income-based distributional impact.&lt;/p&gt;
+
+&lt;h2 id=&quot;100tonne-carbon-dividend&quot;&gt;&lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;£100/tonne carbon dividend&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To create a carbon dividend in &lt;a href=&quot;https://policyengine.org/uk&quot;&gt;PolicyEngine UK&lt;/a&gt;, first go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UBI Center&lt;/code&gt; parameter menu, then the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Carbon tax&lt;/code&gt; submenu, and set the carbon tax to £100.
+Then, go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Basic income&lt;/code&gt; submenu and click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Direct surplus revenue into UBI&lt;/code&gt; at the bottom.
+This will create a UBI of £15.55 per week.
+From there, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Calculate UK impact&lt;/code&gt; button will show &lt;a href=&quot;https://policyengine.org/uk/population-impact?adult_bi=15_55&amp;amp;carbon_tax=100&amp;amp;child_bi=15_55&amp;amp;senior_bi=15_55&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, PolicyEngine shows that the carbon dividend would have essentially no net budgetary impact (by design), that it would cut poverty by 14%, and that two thirds of the UK would come out ahead.
+The policy would disproportionately lift children out of poverty, while still significantly reducing the poverty rate in other age groups.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_1_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_1_2.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the carbon dividend would benefit each of the bottom seven income deciles.
+The bottom decile would gain 6.2%, and the top decile would lose 2.1%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_3_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While the carbon dividend benefits each of the seven deciles on average, it would have have heterogeneous effects within deciles.
+For example, 12% of the bottom decile would come out behind, and 26% of the top decile would gain.
+Any household whose members consume less than the national average per-capita carbon emissions would come out ahead, and this correlates strongly but imperfectly to income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_5_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Nevertheless, the carbon dividend would substantially reduce income inequality on a net basis.
+For example, the Gini index, a comprehensive measure of inequality, would fall 3.4%&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_7_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;varying-the-price&quot;&gt;Varying the price&lt;/h2&gt;
+
+&lt;p&gt;Since PolicyEngine is static, the revenue–and therefore the dividend–increases linearly with the carbon price.
+Each £10 per tonne funds a weekly dividend of £1.56 per person.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_10_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_10_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_10_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;As the carbon dividend increases in price, impacts on poverty and deep poverty (the population share with income below half the poverty line) increase roughly linearly, with some slight diminishing returns starting around £90 per tonne.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_12_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;At each level of the carbon tax, deep poverty and child poverty (and especially deep child poverty) fall fastest.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+
+    $(document).ready(function(){
+      $(&quot;#graph_graph_14_1&quot;).load(&quot;/assets/markdown_assets/uk-carbon-dividend/graph_14_1.html&quot;);
+    });
+
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_14_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Perhaps uniquely in today’s political climate, carbon dividends are a broadly supported form of universal basic income, albeit a small one.
+They can be integrated into larger UBI policies, such as the &lt;a href=&quot;https://blog.policyengine.org/the-green-party-manifesto-at-policyfest-ee05a2d3b06d&quot;&gt;Green Party’s 2019 manifesto&lt;/a&gt; or &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Andrew Yang’s Freedom Dividend&lt;/a&gt;, or adopted in isolation, like the &lt;a href=&quot;https://energyinnovationact.org&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; in the US.
+Experts agree that carbon dividends would help avert climate change and deaths from air pollution, and, like other poverty researchers, we’ve found that they would reduce poverty and inequality as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to ​​Inés Fernández Barhumi and Reema Mohanty for their research assistance on our carbon tax model.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;, &quot;nikhil&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="uk" />
+      
+        <category term="carbon pricing" />
+      
+
+      
+        <summary type="html">A £100-per-tonne carbon dividend would cut poverty by 14% and deep child poverty by 33%.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Carbon dividends as anti-poverty policy</title>
+      <link href="/us-carbon-dividend" rel="alternate" type="text/html" title="Carbon dividends as anti-poverty policy" />
+      <published>2021-08-05T00:00:00+00:00</published>
+      <updated>2021-08-05T00:00:00+00:00</updated>
+      <id>/us-carbon-dividend</id>
+      <content type="html" xml:base="/us-carbon-dividend">&lt;p&gt;The International Monetary Fund &lt;a href=&quot;https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509&quot;&gt;estimates&lt;/a&gt; that the United States subsidized $649 billion of fossil fuels in 2015.
+Meanwhile, only about &lt;a href=&quot;https://www.eesi.org/papers/view/fact-sheet-fossil-fuel-subsidies-a-closer-look-at-tax-breaks-and-societal-costs&quot;&gt;$20 billion&lt;/a&gt; of that is in the form of direct subsidies.
+The remainder is the &lt;em&gt;implicit&lt;/em&gt; subsidy of misaligning the price of fossil fuels with their societal harms like air pollution and climate change.
+That is, the vast majority of fossil fuel subsidies is the &lt;em&gt;absence of carbon pricing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;All developed countries except the &lt;a href=&quot;https://citizensclimatelobby.org/laser-talks/carbon-prices-around-world/&quot;&gt;US and Australia&lt;/a&gt; cut down on fossil fuel subsidies by pricing carbon emissions.
+Experts including &lt;a href=&quot;https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biab079/6325731&quot;&gt;scientists&lt;/a&gt; and the &lt;a href=&quot;https://www.igmchicago.org/surveys/carbon-taxes-ii/&quot;&gt;vast majority&lt;/a&gt; of &lt;a href=&quot;http://econstatement.org&quot;&gt;leading economists&lt;/a&gt; have called on the US to follow suit.
+To offset higher prices consumers would face as a result of carbon pricing (or other climate measures), many of these experts suggest rebating the revenue to all Americans as a dividend.
+&lt;a href=&quot;https://clcouncil.org/morning-consult-poll.pdf&quot;&gt;Two thirds&lt;/a&gt; of American voters support this policy, and as of this writing, 80 House Democrats have cosponsored the &lt;a href=&quot;https://energyinnovationact.org/&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; (EICDA) which would make it a reality in the US.&lt;/p&gt;
+
+&lt;p&gt;Beyond the climate impacts of carbon dividend—policies like the EICDA are projected to &lt;a href=&quot;https://www.nature.com/articles/s41558-020-0880-3&quot;&gt;meet the IPCC’s goal&lt;/a&gt; of net zero emissions by 2050 and &lt;a href=&quot;https://www.nature.com/articles/nclimate2935&quot;&gt;avert 295,000 deaths&lt;/a&gt; from air pollution in the first decade—many economists have &lt;a href=&quot;https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf&quot;&gt;documented the&lt;/a&gt; &lt;a href=&quot;https://taxfoundation.org/carbon-tax/&quot;&gt;progressive&lt;/a&gt; &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;distributional&lt;/a&gt; &lt;a href=&quot;https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf&quot;&gt;impacts&lt;/a&gt; of carbon dividends.
+As one example, University of Pennsylvania researcher &lt;a href=&quot;https://citizensclimatelobby.org/household-impact-study/&quot;&gt;Kevin Ummel found&lt;/a&gt; that the EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.&lt;/p&gt;
+
+&lt;p&gt;Using Ummel’s data&lt;sup id=&quot;fnref:ummel&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:ummel&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and the 2018 American Community Survey,&lt;sup id=&quot;fnref:acsspm&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:acsspm&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; I extend this research to estimate the poverty impacts of a carbon dividend&lt;sup id=&quot;fnref:cpsp&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cpsp&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; across a range of prices.&lt;sup id=&quot;fnref:code&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:code&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;
+I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton. Effects are larger for child poverty, deep poverty, and especially deep child poverty.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-big-would-the-dividend-be&quot;&gt;How big would the dividend be?&lt;/h1&gt;
+
+&lt;p&gt;Carbon pricing proposals vary in their initial price and the rate at which they increase over time, though they do all increase in some way.
+The EICDA starts at $15 per metric ton in 2021 and rises by $10 per year, while the Senate’s &lt;a href=&quot;https://www.whitehouse.senate.gov/news/release/whitehouse-and-schatz-introduce-save-our-future-act-to-charge-big-polluters-for-emissions-redirect-trillions-to-american-families-and-communities-harmed-by-pollution&quot;&gt;Save Our Future Act&lt;/a&gt; starts at $54 per ton in 2023 and rises by an inflation-adjusted 6% per year (about $4 in the first year).
+Since American households currently emit about &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;5 billion metric tons&lt;/a&gt; of carbon per year, amounting to about 15 tons per person, each $10 carbon price would translate to a monthly dividend of 15 tons * $10 / 12 months = &lt;strong&gt;$13&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/dividend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-overall-poverty&quot;&gt;How would the carbon dividend affect overall poverty?&lt;/h1&gt;
+
+&lt;p&gt;Poverty and deep poverty (the population share with income below half their poverty threshold) fall roughly linearly with respect to the carbon price: each $10 carbon price would reduce poverty by 1% and deep poverty by 1.2%. A carbon dividend of $100 per ton would reduce poverty by 10% and deep poverty by 12%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/pov_line.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-age&quot;&gt;How would the carbon dividend affect poverty by age?&lt;/h1&gt;
+
+&lt;p&gt;Child and adult poverty also fall linearly with the carbon price, but child poverty falls about three times as quickly. A $100 carbon price would reduce child poverty by 19% and deep child poverty by 27%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/age.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-state&quot;&gt;How would the carbon dividend affect poverty by state?&lt;/h1&gt;
+
+&lt;p&gt;Poverty impacts also vary geographically, largely in line with states’ per-capita carbon emissions, which in turn correlate to &lt;a href=&quot;https://doi.org/10.1016/S0928-7655(00)00027-0&quot;&gt;cold weather&lt;/a&gt; and &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0301421516300167?via%3Dihub&quot;&gt;low population density&lt;/a&gt;. For example, consider the two extremes of how carbon dividends lower poverty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;California ranks &lt;a href=&quot;http://www.usa.com/rank/us--average-temperature--state-rank.htm&quot;&gt;#10 on average temperature&lt;/a&gt;, &lt;a href=&quot;https://skyscraperpage.com/forum/showthread.php?t=211827&quot;&gt;#3 on population density&lt;/a&gt;, &lt;a href=&quot;https://www.eia.gov/environment/emissions/state/analysis/&quot;&gt;#49 on per-capita carbon emissions&lt;/a&gt;, and #1 in terms of poverty reduction from a carbon dividend. A $100 per ton carbon dividend would lower poverty in California by 14%, and lower deep child poverty by 30%.&lt;/li&gt;
+  &lt;li&gt;North Dakota ranks #49 on average temperature, #32 on population density, #2 on per-capita carbon emissions, and #50 in terms of poverty reduction from a carbon dividend. In fact, North Dakota is the only state for which a carbon dividend would increase poverty, though only by 3% at $100 per ton; child poverty would still fall, and its poverty rate would remain one of the lowest in the country.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/map.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Politicians from &lt;a href=&quot;https://grist.org/climate-energy/sanders-and-boxer-introduce-fee-and-dividend-climate-bill-greens-tickled-pink/&quot;&gt;Bernie Sanders&lt;/a&gt; to &lt;a href=&quot;https://thehill.com/policy/energy-environment/444330-buttigieg-climate-plan-includes-a-carbon-tax&quot;&gt;Pete Buttigieg&lt;/a&gt; to &lt;a href=&quot;https://twitter.com/citizensclimate/status/1369059303995437058&quot;&gt;Mitt Romney&lt;/a&gt; have endorsed carbon dividends, primarily framing the dividend as a way to offset potential regressive effects of the carbon price.
+However, the dividend more than neutralizes the carbon price: it makes a significant reduction to poverty in America. A $20 carbon dividend would cut poverty more than a fully-phased-in $15 minimum wage would,&lt;sup id=&quot;fnref:mw&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:mw&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; while a $100 carbon dividend (as the US would reach within a decade under proposed legislation) would approach the impact of the &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded Child Tax Credit&lt;/a&gt;.&lt;sup id=&quot;fnref:ctc&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:ctc&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;My estimates may even be conservative. For example, I assume that 100% of the carbon price is passed on to consumers, but &lt;a href=&quot;https://cowles.yale.edu/sites/default/files/files/pub/d20/d2038-r.pdf&quot;&gt;one study finds&lt;/a&gt; that only 70% is passed on. In his analysis of the EICDA, Ummel applies pass-through rates of 70%, 85%, and 100%, with the remainder borne by people in proportion to their investable assets; he finds that lower pass-through assumptions yield more progressive distributional impacts.&lt;/p&gt;
+
+&lt;p&gt;Carbon dividends would also create infrastructure for further cash assistance.
+When the US government had to keep Americans afloat with relief checks in the Covid-19 pandemic, they relied on the IRS, and largely failed to reach nonfilers.
+Had even a small universal payment program existed at the time, they could have simply increased the amount instead.&lt;/p&gt;
+
+&lt;p&gt;The carbon dividend is a simple policy that can help the US progress on a slew of objectives: climate change, air pollution, financial resilience, and, yes, even poverty.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ummel&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I’m grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this paper. &lt;a href=&quot;#fnref:ummel&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:acsspm&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I use the &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;American Community Survey Supplemental Poverty Measure research file&lt;/a&gt;, which estimates the poverty measure inclusive of taxes, transfers, and housing costs, historically only available in the &lt;a href=&quot;https://www.census.gov/library/publications/2020/demo/p60-272.html&quot;&gt;Current Population Survey&lt;/a&gt;. &lt;a href=&quot;#fnref:acsspm&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cpsp&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The only other study I’m aware of that estimates the impact of a carbon dividend on poverty is from the &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/carbontax&quot;&gt;Columbia Center on Poverty and Social Policy&lt;/a&gt;. They found that a carbon dividend of $42 per ton would reduce poverty by 1.1% and child poverty by 4.6%, where I found effects of 4% and 8%, respectively, for a $40 carbon dividend. Our analyses differed in terms of carbon footprint estimation in the Consumer Expenditure Survey (CPSP only considered direct energy consumption, where Ummel’s data considered all consumption categories), poverty dataset (CPSP used the Current Population Survey where I used the American Community Survey), and other factors (e.g., CPSP imputed receipt of underreported benefits with the TRIM3 program, where I did not). &lt;a href=&quot;#fnref:cpsp&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:code&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;All data and code powering this analysis is at &lt;a href=&quot;http://github.com/UBICenter/us-carbon-dividend&quot;&gt;github.com/UBICenter/us-carbon-dividend&lt;/a&gt;. &lt;a href=&quot;#fnref:code&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:mw&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The Congressional Budget Office &lt;a href=&quot;https://www.cbo.gov/publication/55681&quot;&gt;estimated&lt;/a&gt; that the Raise the Wage Act of 2021 would reduce the number of people in poverty by 0.7 million by 2028, or about 1.8% of the roughly 40 million people in poverty. A $20 carbon dividend would lower poverty by 2%. CBO applied the Official Poverty Measure rather than Supplemental Poverty Measure. &lt;a href=&quot;#fnref:mw&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ctc&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Carbon dividends may also have greater success fulfilling their theoretical antipoverty potential, since they are universal and thus can be administered outside the tax system. The Child Tax Credit is expected to reach only 90% of eligible children, and the remaining 10% are disproportionately poor children whose parents don’t earn enough to have to file taxes. &lt;a href=&quot;#fnref:ctc&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="carbon pricing" />
+      
+
+      
+        <summary type="html">A $100-per-ton carbon dividend would cut poverty by 10% and deep child poverty by 27%.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

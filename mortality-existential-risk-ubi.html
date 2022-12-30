@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Mortality, existential risk, and universal basic income</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Analyzing universal basic income policies with open-source research" />
+    <link rel="shortcut icon" href="/assets/images/logos/square-blue.png" type="image/jpg" />
+    <link rel="canonical" href="/mortality-existential-risk-ubi" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="UBI Center" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mortality, existential risk, and universal basic income" />
+    <meta property="og:description" content="Revisiting my year-old book chapter on Giving Tuesday." />
+    <meta property="og:url" content="/mortality-existential-risk-ubi" />
+    <meta property="og:image" content="https://ubicenter.org/assets/images/2021-11-30-mortality-existential-risk-ubi/cover.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:author" content="https://www.facebook.com/UBICenter" />
+    <meta property="article:published_time" content="2021-11-30T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2021-11-30T00:00:00+00:00" />
+    <meta property="article:tag" content="EFFECTIVE ALTRUISM" />
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@">
+    <meta name="twitter:creator" content="@max">
+    <meta name="twitter:title"   content="Mortality, existential risk, and universal basic income">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mortality, existential risk, and universal basic income" />
+    <meta name="twitter:description" content="Revisiting my year-old book chapter on Giving Tuesday." />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="https://ubicenter.org/assets/images/2021-11-30-mortality-existential-risk-ubi/cover.png" /> 
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="UBI Center" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="effective altruism" />
+    <meta name="twitter:site" content="@TheUBICenter" />
+    <meta name="twitter:creator" content="@TheUBICenter" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "UBI Center",
+        "logo": "/assets/images/logos/wide-white.jpg"
+    },
+    "url": "/mortality-existential-risk-ubi",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/2021-11-30-mortality-existential-risk-ubi/cover.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/mortality-existential-risk-ubi"
+    },
+    "description": "Revisiting my year-old book chapter on Giving Tuesday."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Mortality, existential risk, and universal basic income" href="/feed.xml" />
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/0702499f362bc2046ada2a7d0.js");</script>
+    <!-- <meta http-equiv="refresh" content="0;URL=//subscribe"/> -->
+
+    <!-- for mathjax support -->
+    
+
+    <!-- for plotly support -->
+    
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffee9994a6979a91e881b8c13/a07effe536897743f4f5a1837.js");</script>
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/"><img src="/assets/images/logos/wide-white.jpg" alt="UBI Center" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <div class="dropdown">
+      <li><a href="/what-is-ubi/">What is UBI? &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/what-is-ubi/why-ubi/">Why UBI?</a></li>
+        <li><a href="/what-is-ubi/why-not-ubi/">Why not UBI?</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">Projects &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="https://polls.ubicenter.org">UBI Poll Tracker</a></li>
+        <li><a href="http://bib.ubicenter.org">Basic Income Builder</a></li>
+        <li><a href="https://covid.ubicenter.org">Covid</a></li>
+        <li><a href="http://child-allowance.ubicenter.org/">Child allowance</a></li>
+        <li><a href="/projects/plan-explorer/">Plan Explorer</a></li>
+      </div>
+    </div>
+    <div class="dropdown">
+      <li><a href="#">About &#9660</a></li>
+      <div class="dropdown-content">
+        <li><a href="/about/mission/">Mission</a></li>
+        <li><a href="/about/our-team/">Our team</a></li>
+        <li><a href="/about/join/">Join us</a></li>
+        <li><a href="/about/open-source/">Open source</a></li>
+        <li><a href="/about/press/">Press</a></li>
+      </div>
+    </div>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-gh" href="https://github.com/UBICenter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+        <p style="width:15px;"></p>
+        <a class="subscribe-button" href="/donate">Donate</a>
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-effective-altruism post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="30 November 2021">30 November 2021</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/effective-altruism/'>EFFECTIVE ALTRUISM</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Mortality, existential risk, and universal basic income</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url('/assets/images/2021-11-30-mortality-existential-risk-ubi/cover.png')">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>Below is a chapter I wrote for the book <a href="https://www.amazon.com/Death-Anti-Death-18-Fifty-University/dp/1934297348"><em>Death And Anti-Death, Volume 18: Fifty Years After Earth Day</em></a>, published in December 2020.
+In the chapter, I argue that poverty alleviation would reduce both mortality and existential risk, and that, among anti-poverty programs, universal basic income has a number of advantages over targeted and in-kind benefits.
+I’m posting it on Giving Tuesday both to highlight the work of <a href="https://givedirectly.org">GiveDirectly</a>, which provides cash transfers to extremely poor people and conducts research on those payments that I cite extensively, and to invite readers to consider tax and benefit policy research as a cause area for effective giving–research like we and our sister nonprofit, <a href="https://policyengine.org">PolicyEngine</a>, conduct.</p>
+
+<p>Beyond the information in this chapter, trends from the past year suggest greater potential for tax and benefit policy as a cause area.
+<a href="https://www.givewell.org/international/technical/programs/cash-transfers">GiveWell has said</a> that “Cash transfers have the strongest track record we’ve seen for a non-health intervention,” yet governments continue to restrict uses of benefit dollars.
+The US Bipartisan Infrastructure Package, for example, created a <a href="https://www.fcc.gov/broadbandbenefit">$14 billion broadband subsidy</a>, and the Build Back Better Act would spend <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/10/28/president-biden-announces-the-build-back-better-framework/">$500 billion on childcare subsidies</a> (twice as much as on the Child Tax Credit).
+Both of these programs create <em>welfare cliffs</em>, in which higher earnings can leave people worse off due to lost benefits.
+Developing countries enact policies that are similarly flawed, if not worse.</p>
+
+<p>Last week, GiveWell <a href="https://blog.givewell.org/2021/11/22/we-aim-to-cost-effectively-direct-around-1-billion-annually-by-2025/">revealed</a> that they’re unlikely to find opportunities more than five to eight times more cost-effective than cash transfers.
+In their <a href="https://www.givedirectly.org/dont-wait/">response</a>, GiveDirectly claimed that cash transfers are more effective than GiveWell estimates, suggesting that GiveWell will have difficulty finding opportunities even at the 5-8x-cash range.
+And in their <a href="https://www.givedirectly.org/1-million-households/">previous blog post</a>, GiveDirectly said that, despite having sent cash transfers to a million households, they’ve reached under one percent of extremely poor households in Kenya, the country where they have the largest presence.</p>
+
+<p>GiveDirectly continues to be exceptionally worthy, but governments too have a role to play.
+The scale of reforming tax and benefit policy is enormous: OECD countries collect <a href="https://www.oecd.org/tax/tax-policy/revenue-statistics-highlights-brochure.pdf">a third of GDP in taxes</a>, and redistribute <a href="https://www.oecd.org/els/soc/OECD2020-Social-Expenditure-SOCX-Update.pdf">a third of that as cash benefits</a>–and those shares are growing as economies get richer.
+We believe we’re targeting neglected angles on the broad cause area (technology and considering taxes and benefits together), and our early traction with policymakers in the UK suggests that these novel angles can make reform tractable as well.</p>
+
+<p>With that, here is <strong>Mortality, existential risk, and universal basic income</strong>:</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Toby Ord didn’t start his career thinking about the far future. When the Oxford philosopher created the organization <em>Giving What We Can</em> (GWWC) in 2009, it focused on finding the most cost-effective charities for saving or improving lives today, like malaria bed nets, and encouraging members to pledge 10 percent of their income to those charities. This marked the beginning of the movement known as <em>effective altruism</em> (EA), which <a href="https://www.centreforeffectivealtruism.org/ceas-guiding-principles/">describes itself as</a> “about using evidence and reason to figure out how to benefit others as much as possible, and taking action on that basis.”</p>
+
+<p>Thirty-seven years before Ord created the EA movement, Princeton philosopher Peter Singer formed the ideas that now underpin it. In his 1972 essay, <a href="https://www.jstor.org/stable/2265052"><em>Famine, Affluence, and Morality</em></a>, Singer offered the following thought experiment:</p>
+
+<blockquote>
+  <p>…if I am walking past a shallow pond and see a child drowning in it, I ought to wade in and pull the child out. This will mean getting my clothes muddy, but this is insignificant, while the death of the child would presumably be a bad thing…It makes no moral difference whether the person I can help is a neighbor’s child ten yards from me or a Bengali whose name I shall never know, ten thousand miles away.</p>
+</blockquote>
+
+<p>Singer taught, as EA now does, to look beyond one’s immediate circle to humanity as a whole when weighing how to do good. If saving a drowning child in front of you is worth some sacrifice, it must be worth the same sacrifice to save an out-of-view child from perishing, as well.</p>
+
+<p>But what if the metaphorical drowning child, rather than being 10,000 miles away, is 10,000 years in the future? This is the question Ord explores in his 2020 book, <a href="https://theprecipice.com/"><em>The Precipice.</em></a> The risks he considers are not children dying from preventable disease, but of children never being born at all—not hundreds or thousands of children, but billions or trillions of them throughout humanity’s vast potential future. Whether our species can end suffering, explore other worlds, and experience the unimaginable, all depends on whether we can survive to continue our story.</p>
+
+<p>Ord argues that we may be living through the most important time in history, when our technological power is growing so rapidly that we could make humanity’s final mistake. Climate change, nuclear war, pandemics, or unaligned artificial intelligence could all spell the end of humanity if we’re not careful. The extremely high stakes of safeguarding humanity’s future potential makes it worth fighting for, even if the probability of catastrophe is low—and in estimating its odds at 1 in 6, Ord doesn’t believe it to be so low. He brought his optimism from addressing global poverty, identifying specific ways that individuals can help, not just by donating to effective organizations working to minimize existential risks, but also by directing their own careers to make the biggest difference.</p>
+
+<p>While EA has grown over the past decade, so too has a much older idea: universal basic income, or UBI. UBI is an unconditional cash payment given to every member of society on a regular basis, typically monthly, sufficient to meet basic needs. No government has yet implemented it, though many have enacted programs that check some of the boxes.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">1</a></sup> A number of cities have also pursued philanthropically-funded UBI pilots and experiments.<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">2</a></sup></p>
+
+<p>In this chapter, I will connect UBI to the theme of this book series, through the lens of effective altruism. In short, I will review how reducing poverty could save lives in the short and (very) long run, and how UBI policies could effectively achieve that egalitarianism.</p>
+
+<h2 id="poverty-and-mortality">Poverty and mortality</h2>
+
+<p>The strong correlation between income, poverty, and mortality has long been known, across geographies and over time.<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">3</a></sup> In 2016, a 1 percent increase in per-capita income across countries was associated with an extra 0.06 years of life expectancy, a reduction in infant mortality of  0.16 percentage points (pp), and a reduction in child mortality of 0.23pp. The extreme poverty rate, defined as $1.90 per day of consumption in 2011 dollars, is also associated with these measures of mortality, even when controlling for per-capita income. A 1pp decrease in the extreme poverty rate is associated with an extra 0.30 years of life expectancy, a reduction in infant mortality of 0.75pp, and a reduction in child mortality of 1.03pp.<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">4</a></sup></p>
+
+<p>Empirical economics research, which applies tools such as randomized controlled trials and identification of “natural experiments” to establish causal relationships, indicates that this is more than correlation: poverty conclusively shortens lives.</p>
+
+<p>Evidence comes largely from cash transfer programs, studies of which compare recipients to similar people who, due to chance or circumstance, happened not to receive the transfers. Cash transfers fall into two categories: conditional cash transfers (CCTs), in which eligible households must take some action like schooling or vaccinating children to receive the transfers, and unconditional cash transfers (UCTs), which carry no requirements. UBI is essentially a regular, universal UCT set at an amount that covers basic needs.</p>
+
+<p>The simplest form of evidence is randomized controlled trials (RCTs), in which individuals are randomly assigned to a treatment or control group, as in medical trials. An RCT in Rwanda, for example, found that a one-time $500 UCT to households that contain poor or underweight children, or pregnant or lactating women, reduced child mortality by 70 percent compared to a control group.<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">5</a></sup> However, the small sample size—two children died in the treatment group, compared to 13 children in the larger control group—justifies considering other evidence as well.</p>
+
+<p>When cash transfers aren’t randomly assigned, they can often be evaluated when governments deploy them semi-randomly, as Mexico did when it staggered the rollout of its <em>Progresa</em> CCT across geographies. Compared to households who would have received Progresa transfers if they’d been in early-rollout areas, treated rural households experienced 17 percent less infant mortality, though neonatal mortality did not significantly change.<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">6</a></sup> Brazil’s similar CCT, <em>Bolsa Familia,</em> reduced child mortality by between 6 and 17 percent.<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">7</a></sup></p>
+
+<p>In 1911, the US government established its first welfare program, the Mother’s Pension Program, which provided cash transfers representing 12 to 25 percent of family income, generally for about 3 years. Male children of mothers accepted for the US Mother’s Pension Program lived one year longer than male children of mothers who were rejected after initial acceptance (Aizer et al., 2016). This study also reported other medium-term outcomes, which can help estimate the effects of other cash transfer results for which mortality data is not yet reliably available. The program “resulted in a significant 50 percent decrease in under-nutrition, a 13 percent increase in income, and an increase of 0.4 years of school among young adults.” By comparing these results to other research on mortality and being underweight (Flegal et al., 2005), income (Deaton &amp; Paxson, 2001), and education (Cutler &amp; Lleras-Muney, 2006), the authors establish that education and income explain 75 to 95 percent of the longevity increase, while the underweight channel explains a small share.</p>
+
+<p>Cash transfer experiments have established robust causal relationships between poverty and intermediate outcomes identified in the Mothers Pension Program study. A $1,000 UCT to extremely poor households in Kenya raised subsequent earnings by $270.<sup id="fnref:11" role="doc-noteref"><a href="#fn:11" class="footnote" rel="footnote">8</a></sup> UCTs in Malawi and Zambia raise school enrollment by between 4 and 19 percentage points.<sup id="fnref:12" role="doc-noteref"><a href="#fn:12" class="footnote" rel="footnote">9</a></sup> A UCT in Rwanda also raised height-for-age and weight-for-age, indicators of healthy child development.<sup id="fnref:13" role="doc-noteref"><a href="#fn:13" class="footnote" rel="footnote">10</a></sup></p>
+
+<p>With time, researchers will be able to follow up with treatment and control groups from these experiments to determine long-run mortality effects. This will add precision to the existing finding that poverty shortens lives, via channels including income, education, and nutrition.</p>
+
+<h2 id="poverty-and-existential-risk">Poverty and existential risk</h2>
+
+<p>Poverty is not itself an existential risk, nor is it directly related to any likely candidates. However, poverty  destabilizes society through short-termism, isolationism, and other problems, and that instability raises the risks of extinction.</p>
+
+<p>Through a combination of evidence and expert opinion, Ord estimated the probabilities of each type of existential catastrophe, as shown in the table below.<sup id="fnref:14" role="doc-noteref"><a href="#fn:14" class="footnote" rel="footnote">11</a></sup> He acknowledges that these probabilities are somewhat speculative, saying, “Their purpose is to show the right order of magnitude, rather than a more precise probability.” Nevertheless, it provides a guide for prioritizing the risks, identifying patterns across them, and especially, for determining the most effective ways to reduce them.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Existential catastrophe via</th>
+      <th>Chance within the next 100 years</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Asteroid or comet impact</td>
+      <td>~1 in 1,000,000</td>
+    </tr>
+    <tr>
+      <td>Supervolcanic eruption</td>
+      <td>~1 in 10,000</td>
+    </tr>
+    <tr>
+      <td>Stellar explosion</td>
+      <td>~1 in 1,000,000,000</td>
+    </tr>
+    <tr>
+      <td><strong>Total natural risk</strong></td>
+      <td><strong>~1 in 10,000</strong></td>
+    </tr>
+    <tr>
+      <td>Nuclear war</td>
+      <td>~1 in 1,000</td>
+    </tr>
+    <tr>
+      <td>Climate change</td>
+      <td>~1 in 1,000</td>
+    </tr>
+    <tr>
+      <td>Other environmental damage</td>
+      <td>~1 in 1,000</td>
+    </tr>
+    <tr>
+      <td>‘Naturally’ arising pandemics</td>
+      <td>~1 in 10,000</td>
+    </tr>
+    <tr>
+      <td>Engineered pandemics</td>
+      <td>~1 in 30</td>
+    </tr>
+    <tr>
+      <td>Unaligned artificial intelligence</td>
+      <td>~1 in 10</td>
+    </tr>
+    <tr>
+      <td>Unforeseen anthropogenic risks</td>
+      <td>~1 in 30</td>
+    </tr>
+    <tr>
+      <td>Other anthropogenic risks</td>
+      <td>~1 in 50</td>
+    </tr>
+    <tr>
+      <td><strong>Total anthropogenic risk</strong></td>
+      <td><strong>~1 in 6</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Total existential risk</strong></td>
+      <td><strong>~1 in 6</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The first thing to note is that natural risks represent less than a thousandth of the total existential risk. This is in some ways encouraging, since there’s little to be done about them, except perhaps becoming a multiplanetary species more quickly.</p>
+
+<p>The second is that risk probabilities vary by orders of magnitude. Nuclear war and climate change are major threats, but each is less than a hundredth as likely as unaligned artificial intelligence (which I’ll describe later). This isn’t to say nuclear war and climate change couldn’t kill millions, even billions of people; they’re just unlikely to kill everyone on Earth.<sup id="fnref:15" role="doc-noteref"><a href="#fn:15" class="footnote" rel="footnote">12</a></sup></p>
+
+<p>The third, and most relevant to this analysis, is that the risks share common threads. Avoiding nuclear war and engineered pandemics will require international safeguards of hazardous material. Avoiding unaligned artificial intelligence will require a more patient approach to developing this transformational technology. Avoiding disasters from climate change—and to a large degree, all these risks—will require both international cooperation and emphasis on sustainability.</p>
+
+<p>As a growing share of the world’s population—now over half—lives under democracy,<sup id="fnref:16" role="doc-noteref"><a href="#fn:16" class="footnote" rel="footnote">13</a></sup> the extent to which individual citizens support cooperation and sustainability will affect country-level outcomes.</p>
+
+<p>The available evidence suggests that lifting people out of poverty increases their future orientation and trust in the institutions, thereby increasing support for future-oriented, globally-cooperative public policy. Poverty reduction may also address specific risks, and I discuss its links to three of the top ones: climate change, pandemics, and unaligned AI.</p>
+
+<h3 id="patience">Patience</h3>
+
+<p>Investing in existential risk avoidance requires giving up short-term gains to secure long-term stability; indeed, those now espousing such investments often describe themselves as <em>longtermists.</em></p>
+
+<p>Researchers characterize the patience of individuals and societies with a range of outcomes. In the economic sense, the <em>rate of time preference</em> or <em>discount factor</em> describe impatience, quantifying the amount of money one would have to receive tomorrow in exchange for giving up a dollar today. Psychologists measure delayed gratification with experiments like the famous <em>marshmallow test</em>.<sup id="fnref:17" role="doc-noteref"><a href="#fn:17" class="footnote" rel="footnote">14</a></sup> Other researchers elicit impulsivity through survey questions like, “I don’t spend enough time thinking over a situation before I act.”<sup id="fnref:18" role="doc-noteref"><a href="#fn:18" class="footnote" rel="footnote">15</a></sup> For simplicity, I refer to outcomes from various studies as <em>patience</em>, capturing different angles of this general concept.</p>
+
+<p>Across countries, income correlates with patience.<sup id="fnref:19" role="doc-noteref"><a href="#fn:19" class="footnote" rel="footnote">16</a></sup> Cash transfers have helped measure patience, since the share of the new income spent vs. saved offers clear exogenous variation. Such designs show that households in rural Mexico and Guatemala are much less (economically) patient than households in the US<sup id="fnref:20" role="doc-noteref"><a href="#fn:20" class="footnote" rel="footnote">17</a></sup></p>
+
+<p>Economic panel data also shows that income and patience correlate within the US.<sup id="fnref:21" role="doc-noteref"><a href="#fn:21" class="footnote" rel="footnote">18</a></sup> This could be reverse causality, as more patient people could take the time to build careers that would generate higher lifetime income, but sociological and psychological research suggests that patience is largely cemented in childhood through cultural and socioeconomic circumstances. For example, residents of poorer neighborhoods have higher impulsivity,<sup id="fnref:22" role="doc-noteref"><a href="#fn:22" class="footnote" rel="footnote">19</a></sup> and income and maternal education at birth negatively correlate with impulsivity among 15-year-olds.<sup id="fnref:23" role="doc-noteref"><a href="#fn:23" class="footnote" rel="footnote">20</a></sup></p>
+
+<p>The question is: is it causal? Recent evidence on “hand to mouth” households—those who consume their entire income—offers conflicting accounts. The hand-to-mouth share generally exceeds the share that standard time preference models would predict. A 2020 paper on US households attributes this to heterogeneous preferences, rather than impatience.<sup id="fnref:24" role="doc-noteref"><a href="#fn:24" class="footnote" rel="footnote">21</a></sup> However, another 2020 paper from Bangladesh finds that large randomized asset transfers enable poor households to break out of consistent hand-to-mouth poverty;<sup id="fnref:25" role="doc-noteref"><a href="#fn:25" class="footnote" rel="footnote">22</a></sup> this would only occur if the wealth shock made them more patient, as some theories predict.<sup id="fnref:26" role="doc-noteref"><a href="#fn:26" class="footnote" rel="footnote">23</a></sup> As with many traits, patience results from more than economic conditions, but poverty reduction would likely have some positive effect on patience.</p>
+
+<h3 id="trust-and-global-cooperation">Trust and global cooperation</h3>
+
+<p>Existential risks know no borders. Averting catastrophic climate change will require the US to rejoin the Paris Accords as a vital bare minimum, and other international partnerships will be necessary to hold countries accountable to shared goals. Similarly, international organizations can ensure countries adhere to bioengineering and nuclear engineering safety standards, and can deter great power wars that could make existential risks like pandemic and nuclear war more likely.</p>
+
+<p>Few studies examine sentiment toward international cooperation directly, but income consistently predicts three potential proxies: views on immigration, views on trade, and social trust.</p>
+
+<p>In Australia, income correlates negatively with isolationism and vote share for the anti-immigrant party, controlling for other demographics and attitudes.<sup id="fnref:27" role="doc-noteref"><a href="#fn:27" class="footnote" rel="footnote">24</a></sup> Correlational and experimental evidence from Switzerland finds a “v curve” where anti-immigrant sentiment is highest in low- and high-income groups; it also finds high anti-immigrant sentiment in low-wealth groups (with no v curve).<sup id="fnref:28" role="doc-noteref"><a href="#fn:28" class="footnote" rel="footnote">25</a></sup></p>
+
+<p>A UK survey experiment compared support for a child benefit program when respondents were either primed or not primed to consider that it benefits immigrants. While immigration priming reduced support among all groups, the effect was about three times larger for people without a high school degree than for university degree holders.<sup id="fnref:29" role="doc-noteref"><a href="#fn:29" class="footnote" rel="footnote">26</a></sup></p>
+
+<p>Similar patterns are observed from trade: high income Americans are about 10 percentage points more likely than low-income Americans to say that trade has a “mostly positive” effect on a variety of outcomes.<sup id="fnref:30" role="doc-noteref"><a href="#fn:30" class="footnote" rel="footnote">27</a></sup></p>
+
+<p>Education may be a channel through which income affects international views; for example, a dynamic model of education choice shows that it raises trust (as well as voter participation).<sup id="fnref:31" role="doc-noteref"><a href="#fn:31" class="footnote" rel="footnote">28</a></sup> The US survey also found a 10-point delta in trade sentiment by college completion.</p>
+
+<p>More research is needed to understand these ties; for example, support for the United Nations is not significantly related to support for populist parties in Europe, though US Democrats are more than twice as likely to support the UN than Republicans.<sup id="fnref:32" role="doc-noteref"><a href="#fn:32" class="footnote" rel="footnote">29</a></sup> Overall, though, the available evidence is consistent with the hypothesis that reducing poverty would engender support for the international cooperation needed to fight existential risks.</p>
+
+<h3 id="climate-change">Climate change</h3>
+
+<p>Whether income increases carbon emissions is controversial and uncertain. From a purely correlational perspective, people in richer countries emit more carbon. In 2016 across countries, a 1 percent increase in per-capita income and a 1pp decrease in extreme poverty were associated with increases in per-capita carbon emissions of 1.3 and 1.0 percent, respectively.<sup id="fnref:33" role="doc-noteref"><a href="#fn:33" class="footnote" rel="footnote">30</a></sup></p>
+
+<p>The causal story at the individual level is more encouraging. CCTs in Indonesia reduced tree cover losses by 30 percent, as recipients relied less on deforestation in times of need, and consumed more market-purchased goods rather than deforestation-sourced goods.<sup id="fnref:34" role="doc-noteref"><a href="#fn:34" class="footnote" rel="footnote">31</a></sup> And a UCT in Pakistan shifted its ultra-poor recipients from traditional fuels like wood and dung to more modern fuels that are better for the environment.<sup id="fnref:35" role="doc-noteref"><a href="#fn:35" class="footnote" rel="footnote">32</a></sup></p>
+
+<p>Thanks to advances in clean energy technology, global per-capita emissions have fallen since 2012, and they’ve fallen faster in more advanced countries like the US and France, which is now about equal to the global average.<sup id="fnref:36" role="doc-noteref"><a href="#fn:36" class="footnote" rel="footnote">33</a></sup> It’s plausible then that poor countries would develop in less carbon-intensive ways than rich countries have, bypassing high-carbon technologies no longer needed, and even innovating more themselves.</p>
+
+<p>Regardless, the ethics of slowing global poverty reduction in order to slow climate change are dubious, especially given the infeasibility of such an undertaking and its uncertain impact. What’s needed is public policy to accelerate the transition away from fossil fuels. Experts agree that one policy in particular is essential for averting catastrophic global warming: carbon pricing.</p>
+
+<p>Unlike targeted policies like electric vehicle subsidies, carbon pricing reduces emissions throughout the economy. The state assesses fees on carbon emissions at the source—the oil well, coal mine, gas site, or border for imported goods—and the internalized cost of carbon emissions then flows through manufacturers, services, and consumers, each of whom chooses lower-carbon options, with encouragement from the price signal.</p>
+
+<p>In its 2018 special report on global warming,<sup id="fnref:37" role="doc-noteref"><a href="#fn:37" class="footnote" rel="footnote">34</a></sup> the Intergovernmental Panel on Climate Change (IPCC) made carbon pricing a core benchmark for countries’ progress on climate goals. Simulations from MIT and Climate Interactive show that carbon pricing reduces temperature changes more than any other individual policy; it has a positive marginal effect even at low rates and with or without other policies; and without it, staying under 1.5℃ will be nearly impossible.<sup id="fnref:38" role="doc-noteref"><a href="#fn:38" class="footnote" rel="footnote">35</a></sup></p>
+
+<p>The environmental benefits of a carbon pricing policy would extend beyond the borders of the country that implements it. Domestic manufacturers could export the clean, innovative products promoted by the carbon pricing. And because carbon pricing bills typically come with a “border adjustment,” which equivalizes trading partners by adding a fee to carbon-intensive imports from countries without their own carbon prices, other countries would be incentivized to add their own carbon pricing to make exports competitive.</p>
+
+<p>The question is: how should the revenue be used? The answer, according to over 3,500 US economists, is equal dividends. These “carbon dividends” would offset the higher costs of goods and services with carbon-based inputs.<sup id="fnref:39" role="doc-noteref"><a href="#fn:39" class="footnote" rel="footnote">36</a></sup> Signatories to the letter, the largest statement in the history of the economics profession, include 45 Nobel Prize winning economists, as well as former Treasury secretaries and chairs of the Federal Reserve and Council of Economic Advisors, from both political parties.</p>
+
+<p>Several studies of carbon dividends find that it would be progressive on a net basis and benefit most people.<sup id="fnref:40" role="doc-noteref"><a href="#fn:40" class="footnote" rel="footnote">37</a></sup> This result follows from carbon consumption increasing with income.</p>
+
+<p>65 percent of Americans support carbon dividends,<sup id="fnref:41" role="doc-noteref"><a href="#fn:41" class="footnote" rel="footnote">38</a></sup> following from another popular proposal for universal dividends: the Alaska Permanent Fund Dividend, a small UBI funded by the state’s oil wealth. 90 percent of Alaskans favor the dividend going to everyone, and 64 percent say they would rather raise state income taxes than end the program.<sup id="fnref:42" role="doc-noteref"><a href="#fn:42" class="footnote" rel="footnote">39</a></sup> A clean, habitable environment is a type of shared natural resource, and carbon dividends essentially require that people who consume more of it compensate the rest of society.</p>
+
+<p>Poverty reduction may or may not reduce emissions to avert climate change directly, but poverty reduction policies like cash transfers can make carbon pricing more attractive, raising the odds of enacting effective climate policy.</p>
+
+<h3 id="pandemics">Pandemics</h3>
+
+<p>Ord published <em>The Precipice</em> on March 3, 2020. By the end of that month, the Covid-19 pandemic had shut down much of the planet. Despite being unaware of the virus when writing the book, Ord warned of the risk of natural and engineered pandemics as the second most likely cause of existential catastrophe in the coming century. The combination of historical precedent (the Black Death is estimated to have killed between 30 and 60 percent of Europeans) and rapid investment in synthetic biology indicated that this area deserves caution.</p>
+
+<p>As I write this on September 28, 2020,  Covid-19 has just taken its millionth life worldwide.<sup id="fnref:43" role="doc-noteref"><a href="#fn:43" class="footnote" rel="footnote">40</a></sup> Excess mortality estimates suggest official statistics may significantly undercount the virus’s true impact,<sup id="fnref:44" role="doc-noteref"><a href="#fn:44" class="footnote" rel="footnote">41</a></sup> and forecasters expect its death toll to reach 3 million by March 2021.<sup id="fnref:45" role="doc-noteref"><a href="#fn:45" class="footnote" rel="footnote">42</a></sup> It has been one of the worst disasters in human history.</p>
+
+<p>And yet, to wipe out humanity, a future pandemic would have to be orders of magnitude more deadly than Covid-19. It would have to kill over 2,000 times as many people, swinging its scythe at children and younger adults, who have been less vulnerable thus far. It would also have to reach isolated populations, not only to islands like those of Hawaii, whose death rate is projected to be 80 percent lower than that of the US,<sup id="fnref:46" role="doc-noteref"><a href="#fn:46" class="footnote" rel="footnote">43</a></sup> but also to uncontacted tribes and people in other remote locations.</p>
+
+<p>The tools needed to contain such a calamitous pandemic will therefore differ from those deployed for Covid-19. Nevertheless, our current episode may help identify solutions to prepare for worse ones to come.</p>
+
+<p>Coincidentally, the world’s first true UBI experiment sheds light on this topic. In 2017, the cash transfer NGO, GiveDirectly, began an experiment that promised monthly payments of about $22 to each adult in rural Kenyan villages. While many unconditional cash transfer experiments had been previously conducted, none were truly universal—GiveDirectly gave UBIs to all households in treated villages—and none lasted so long—the payments were guaranteed for up to 12 years.</p>
+
+<p>GiveDirectly had planned to release its first results from the UBI study in 2020, and when the pandemic hit, they shifted gears into evaluating how UBI protected its beneficiaries. They found that the transfers “significantly improved well-being on common measures such as hunger, sickness and depression.”<sup id="fnref:47" role="doc-noteref"><a href="#fn:47" class="footnote" rel="footnote">44</a></sup></p>
+
+<p>Of greater relevance to existential risk is GiveDirectly’s finding that the transfers reduced hospital visits and decreased social interactions. In epidemiological parlance, UBI likely reduced “R<sub>0</sub>” (pronounced “R-naught”), which measures the contagion of a disease. If cash transfers can keep some of the world’s poorest people from taking unnecessary risks, that could mean the difference between humanity’s potential haven remaining populated or becoming exposed.</p>
+
+<p>Other evidence points to poverty as a risk factor for contracting and dying from Covid-19. Compared to counties with under 5 percent poverty, counties in Illinois and New York with poverty rates above 20 percent had 72 percent higher death rates  from Covid-19.<sup id="fnref:48" role="doc-noteref"><a href="#fn:48" class="footnote" rel="footnote">45</a></sup> This could be due to job types, general health, and/or other reasons.</p>
+
+<p>Poverty reduction may also improve public health behaviors through education. For example, 85 percent of American college graduates reported wearing masks “always” or “very often” when going outside in summer 2020, compared to 65 percent of non-college graduates.<sup id="fnref:49" role="doc-noteref"><a href="#fn:49" class="footnote" rel="footnote">46</a></sup> The relationship between education and trust may explain this effect, as evidence from Europe during Covid-19 shows that “high-trust regions decrease their mobility related to non-necessary activities significantly more than low-trust regions.”<sup id="fnref:50" role="doc-noteref"><a href="#fn:50" class="footnote" rel="footnote">47</a></sup></p>
+
+<h3 id="unaligned-artificial-intelligence">Unaligned artificial intelligence</h3>
+
+<p>Ord’s top existential risk is that of unaligned artificial intelligence, at about 1 in 10 odds of destroying humanity’s future. This has caused EA organizations to promote AI research organizations as primary donation sites and places to work to make the greatest impact. But what is unaligned AI, and how could it end humanity’s potential?</p>
+
+<p>The canonical thought experiment on the topic dates back to 2003, from Nick Bostrom, a philosophy professor at Oxford and now director of its Future of Humanity Institute:</p>
+
+<blockquote>
+  <p>The risks in developing superintelligence [advanced AI] include…a well-meaning team of programmers [making] a big mistake in designing its goal system. This could result…in a superintelligence whose top goal is the manufacturing of paperclips, with the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities.</p>
+</blockquote>
+
+<p>A real paperclip manufacturer might add constraints to the AI’s optimization function, for example preventing it from killing any humans, or penalizing it for any mountains destroyed. This is similar to how social media recommendation systems work: they optimize for engagement, but also take down content that violates rules, and penalize content that comes close to rule-breaking or otherwise opposes the goals of the company. This can work as long as we humans stay ahead of the AI. But what if the paperclip maximizer AI finds the one way around our constraints and, for example, just pulls minerals from the ocean, killing all fish on Earth? AI technology is progressing quickly, so these possibilities might strike before we know it, before we’re prepared.</p>
+
+<p>Stuart Russell, UC Berkeley computer science professor and director of the Center for Human Compatible AI, lays out a different approach in his 2019 book, <em>Human Compatible.</em><sup id="fnref:51" role="doc-noteref"><a href="#fn:51" class="footnote" rel="footnote">48</a></sup> Rather than adapting objectives to trim off the scenarios that violate human preferences one by one, he proposes the AI learn human preferences directly via these three principles (verbatim):</p>
+
+<ol>
+  <li>The machine’s only objective is to maximize the realization of human preferences.</li>
+  <li>The machine is initially uncertain about what those preferences are.</li>
+  <li>The ultimate source of information about human preferences is human behavior.</li>
+</ol>
+
+<p>A paperclip maximizer AI constructed under these principles will either know that emptying the seas violates human preferences (since humans have never attempted such a thing), or would have sufficient uncertainty about human preferences that it would hesitate to do so. It would also need a way to aggregate human preferences, to avoid empowering a selfish or sadistic human.</p>
+
+<p>Whether an AI can be built under Russell’s framework is an engineering question, but taking it as given, poverty may inhibit its ability to maximize the realization of human preferences. Much of AI today is built for commercial ends: Amazon to sell products, Google and Facebook to sell ads, and so on. When certain groups of individuals lack the capacity to participate in the markets—the systems through which AIs are learning to predict human preferences—the AI will have greater uncertainty in estimating its preferences. Uncertainty about those heterogeneous preferences will translate into more uncertain aggregate preferences when considering actions that will affect others.</p>
+
+<p>As long as the AI fully recognizes its uncertainty around poorer people’s preferences, their absence from the commercial systems that train them might not pose an existential threat. But uncertainty is difficult to get right, and without broad input, there’s a risk of recreating humanity disproportionately in the image of its market participants. Equalizing access to those markets by reducing poverty may be a safer bet.</p>
+
+<h2 id="ubi-among-antipoverty-programs">UBI among antipoverty programs</h2>
+
+<p>If poverty reduction reduces mortality and existential risk, how should societies reduce poverty? Why would they pursue UBI, specifically?</p>
+
+<p>Existing antipoverty programs have unquestionably helped. The US safety net reduced the poverty rate by 46 percent in 2018, and reduced the poverty gap—which measures how far below the poverty line households are—by 66 percent.<sup id="fnref:52" role="doc-noteref"><a href="#fn:52" class="footnote" rel="footnote">49</a></sup> This chapter has cited a number of non-UBI programs that improved outcomes from mortality to income to sustainability.</p>
+
+<p>Yet, those programs have drawbacks. One in four Americans living in poverty do not receive any antipoverty program support.<sup id="fnref:53" role="doc-noteref"><a href="#fn:53" class="footnote" rel="footnote">50</a></sup> Even the largest federal programs, which benefit from economies of scale, spend about 10 cents of each dollar on administration,<sup id="fnref:54" role="doc-noteref"><a href="#fn:54" class="footnote" rel="footnote">51</a></sup> and this administration costs recipients time and effort applying and complying with its rules. Purchase restrictions prevent recipients from meeting their particular needs, and means-testing penalizes their labor.</p>
+
+<p>UBI addresses these drawbacks in three eponymous ways: it is Universal (not means-tested or restricted by conditions like work-seeking), Basic (sufficient to meet basic needs), and Income (cash, not in-kind). Given the subjectivity of defining “basic needs,” the move toward UBI arguably constitutes the parallel moves from non-cash benefits to cash, and from targeting to universality.<sup id="fnref:55" role="doc-noteref"><a href="#fn:55" class="footnote" rel="footnote">52</a></sup></p>
+
+<h3 id="cash-vs-in-kind-benefits">Cash vs. in-kind benefits</h3>
+
+<p>The case for cash is growing in popularity and evidentiary basis, thanks in part to GiveDirectly, the NGO now conducting the UBI experiment. GiveDirectly was created in 2012 by graduate students frustrated that they couldn’t give direct cash to alleviate global poverty. It now operates in multiple countries in East Africa, as well as in the US for disasters like hurricanes and Covid-19, largely providing one-time payments, but now expanding into UBI.<sup id="fnref:56" role="doc-noteref"><a href="#fn:56" class="footnote" rel="footnote">53</a></sup></p>
+
+<p>GiveDirectly has also contributed to the UCT literature by running several RCTs. In 2018 and 2020, they released studies benchmarking existing USAID interventions to UCTs of the same value in Rwanda, randomly assigning eligible households to the existing benefit, cash, or a control group. One compared against a child nutrition program, and another compared against a workforce training program; in both cases and on virtually all relevant outcomes, including child mortality, the UCTs performed as well or better than the incumbent USAID program.<sup id="fnref:57" role="doc-noteref"><a href="#fn:57" class="footnote" rel="footnote">54</a></sup></p>
+
+<p>Some in-kind benefits produce subtler concerns. The inability of housing benefits to immediately meet new demand results in rationing systems like waitlists and lotteries. To get a public housing unit in the US, qualifying individuals typically wait for 9 months, and even Housing Choice Vouchers, which subsidize rents for people whose housing costs exceed 30 percent of income, have waiting lists of 1.5 years.<sup id="fnref:58" role="doc-noteref"><a href="#fn:58" class="footnote" rel="footnote">55</a></sup></p>
+
+<p>There’s evidence that this perceived scarcity of housing benefits primes people to view the world as zero-sum. In Austria, opening up public housing to immigrants increased support for populist anti-immigrant parties.<sup id="fnref:59" role="doc-noteref"><a href="#fn:59" class="footnote" rel="footnote">56</a></sup> Samuel Hammond of the Niskanen Center has argued that “Social welfare systems that rely heavily on ‘in-kind’ benefits (as opposed to direct cash transfers or vouchers) are comparatively supply-inelastic, which creates conflict during waves of immigration.”<sup id="fnref:60" role="doc-noteref"><a href="#fn:60" class="footnote" rel="footnote">57</a></sup></p>
+
+<p>Not all drawbacks of in-kind benefits are as quantifiable. The embarrassment of a mother trying to buy a block of cheese, only to be told at the register that her WIC card won’t allow it because the cheese was made outside the US.<sup id="fnref:61" role="doc-noteref"><a href="#fn:61" class="footnote" rel="footnote">58</a></sup> The annoyance of a minimum-wage worker preparing and transporting a sandwich to their job, because they can’t use SNAP to buy prepared food near their workplace.<sup id="fnref:62" role="doc-noteref"><a href="#fn:62" class="footnote" rel="footnote">59</a></sup> The risk of purchasing groceries in person amid a pandemic, because neither program can be used for grocery delivery.<sup id="fnref:63" role="doc-noteref"><a href="#fn:63" class="footnote" rel="footnote">60</a></sup> These hurdles follow from distrust of how the poor consume, now proven to be unwarranted.<sup id="fnref:64" role="doc-noteref"><a href="#fn:64" class="footnote" rel="footnote">61</a></sup></p>
+
+<h3 id="universality-vs-targeting">Universality vs. targeting</h3>
+
+<p>While in-kind benefits constrain recipients’ consumption, means-testing constrains their labor activity. Individual programs often phase out at about 30 cents on the dollar; for example, an extra dollar of earnings reduces SNAP (food stamp) benefits by 30 cents. This is equivalent to a 30 percent marginal tax on earnings, and when individuals participate in multiple programs that phase out together, those marginal tax rates add up. As a result, the Congressional Budget Office estimated that single parents in 2016 could face federal marginal tax rates in excess of 80 percent—far higher than the richest Americans.<sup id="fnref:65" role="doc-noteref"><a href="#fn:65" class="footnote" rel="footnote">62</a></sup> If those single parents have to pay for child care when working, they can easily end up worse off by increasing their working hours.</p>
+
+<p>Especially acute cases arise from disability insurance, in which meaningfully entering the labor force can result in <em>lower</em> take-home pay than remaining enrolled in benefit programs. These instances of marginal tax rates exceeding 100 percent are known as <em>welfare cliffs</em>, and while some reforms have softened them, they still exist in many cases.<sup id="fnref:66" role="doc-noteref"><a href="#fn:66" class="footnote" rel="footnote">63</a></sup></p>
+
+<p>Payment frequency, often either monthly or yearly, is an issue for means-tested programs, too. In the US, yearly-distributed targeted programs include refundable tax credits like the Earned Income Tax Credit or the Child Tax Credit.<sup id="fnref:67" role="doc-noteref"><a href="#fn:67" class="footnote" rel="footnote">64</a></sup> Monthly programs include SNAP and TANF (cash welfare).</p>
+
+<p>Yearly programs have the advantage of running through the tax code, simplifying the process for the applicant and reducing overhead costs; EITC costs only 1 percent to administer.<sup id="fnref:68" role="doc-noteref"><a href="#fn:68" class="footnote" rel="footnote">65</a></sup> However, they fail to respond to changes in income: if someone gets a pay cut in January, they might not get a compensating tax credit until 15 months later.</p>
+
+<p>Monthly programs are responsive, but at the cost of bureaucracy. Recipients must report every change to income or personal circumstance, often within days or weeks. A report on the UK’s efforts to make tax credits for low-income people pay out monthly found that the government underestimated the instability of recipients’ circumstances: half of single parents underwent “more than a dozen changes in circumstance a year.”<sup id="fnref:69" role="doc-noteref"><a href="#fn:69" class="footnote" rel="footnote">66</a></sup> Compliance burdens aside, the benefits offset some income volatility, but given the delay of several weeks, some felt that the responsiveness (itself a volatile income source) made it harder to plan their finances.</p>
+
+<p>Universalizing programs eliminates issues with either yearly or monthly means-tested programs. Many developed countries have monthly child allowances, for example, without any need to evaluate income; these programs efficiently meet the needs of parents on a regular basis. Richer parents pay more in their annual taxes, with the single system already well-equipped for counting income.</p>
+
+<p>Finally, part of universality is unconditionality. For example, unemployment benefits typically require recipients to seek employment and regularly report their activities to the government. These strings demonstrate distrust, and some evidence suggests they may evoke reciprocal distrust.</p>
+
+<p>In 2017, Finland randomly assigned a subset of unemployment beneficiaries to receive a UBI; on all surveyed outcomes, the UBI group responded more favorably than those on unemployment benefits, including on measures of mental health and social trust.<sup id="fnref:70" role="doc-noteref"><a href="#fn:70" class="footnote" rel="footnote">67</a></sup> A UK survey experiment also found that social protection programs were less susceptible to anti-immigrant opposition when they were universal, compared to means-tested.<sup id="fnref:71" role="doc-noteref"><a href="#fn:71" class="footnote" rel="footnote">68</a></sup></p>
+
+<p>Perhaps of greatest relevance to this chapter: targeted programs leave more of the poor impoverished. A study of 42 anti-poverty social protection schemes across 25 low-and middle-income countries  found that universal or near-universal programs reached at least 80 percent of intended recipients, while means-tested programs often reached half or less.<sup id="fnref:72" role="doc-noteref"><a href="#fn:72" class="footnote" rel="footnote">69</a></sup></p>
+
+<p>Of course, universal programs cost more than targeted programs. Simply spreading out existing social assistance budgets across everyone increases poverty and inequality.<sup id="fnref:73" role="doc-noteref"><a href="#fn:73" class="footnote" rel="footnote">70</a></sup> Instead, universal safety nets require higher taxes.</p>
+
+<p>Societies that pursue this strategy achieve lower disposable income inequality (inequality of income after taxes and transfers). The US, for example, ranks in the middle of OECD countries in market income inequality, but because it doesn’t redistribute much, its disposable income inequality is third from the bottom, more equal only than Chile and Mexico. Despite similar market income inequality to the US, Germany and Finland reduce inequality about twice as much as the US does.<sup id="fnref:74" role="doc-noteref"><a href="#fn:74" class="footnote" rel="footnote">71</a></sup></p>
+
+<p>How do these European social democracies reduce inequality so much? Counterintuitively, it’s not through progressive taxation, in which tax rates rise with income; the US actually taxes more progressively than any other OECD country. It’s through <em>high</em> taxation that supports generous transfers. The US taxes 24 percent of its GDP, compared to the 34 percent OECD average; only Ireland, Chile, and Mexico tax less.<sup id="fnref:75" role="doc-noteref"><a href="#fn:75" class="footnote" rel="footnote">72</a></sup></p>
+
+<p>Low US taxes are largely explained by the absence of a <em>value added tax</em> (VAT), the type of consumption tax levied in all other OECD countries.<sup id="fnref:76" role="doc-noteref"><a href="#fn:76" class="footnote" rel="footnote">73</a></sup> 2020 US presidential candidate Andrew Yang proposed remedying that: the Freedom Dividend plan at the heart of his campaign featured a UBI of $1,000 per month per adult citizen, primarily funded by a 10 percent VAT. In a distributional analysis of his plan, which also included other reforms like a carbon dividend, welfare reform, and treating capital gains as ordinary income, I found that this plan would be progressive, lowering US inequality by 15 percent.<sup id="fnref:77" role="doc-noteref"><a href="#fn:77" class="footnote" rel="footnote">74</a></sup> Others have also found VAT-funded UBIs to be progressive;<sup id="fnref:78" role="doc-noteref"><a href="#fn:78" class="footnote" rel="footnote">75</a></sup> although VAT incidence is slightly regressive, as consumption as a share of income falls with income, the considerable progressiveness of the UBI makes the overall policy progressive.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>UBI is unlikely to be the most effective tool for addressing any individual problem. To avert near-term deaths, dollars are best spent on health interventions in developing countries.<sup id="fnref:79" role="doc-noteref"><a href="#fn:79" class="footnote" rel="footnote">76</a></sup> To avert existential catastrophe, dollars may best be spent researching specific threats, such as AI safety or pandemics. To reduce inequality without raising tax revenue, dollars are best spent targeting the poor.</p>
+
+<p>What UBI lacks in targeted depth, it makes up for in breadth. This explains its effectiveness as an anti-poverty tool, ensuring that people don’t slip through the cracks of a fragmented welfare system consisting of separate programs for each shard of the poor. Just as it ensures coverage of all the needy, it too ensures coverage of all their needs, from food to housing to all the heterogeneous preferences the market satisfies for most members of society. When those preferences are satisfied, people gain the ability to live longer, healthier lives, and to look beyond their particular place and time.</p>
+
+<p>While effective altruists could do better than funding UBI programs in rich countries, governments have much to gain from considering the policy. Nominally cheaper means-tested systems hide their true cost: a surveillance apparatus that costs governments billions, steals the time, freedom, and privacy of its participants, and inevitably fails to reach those most in need. Their extreme marginal tax rates discourage poor people from working, in turn cementing perceptions of the poor as lazy.</p>
+
+<p>If means-test-reliant governments choose to break this cycle, the path has already been laid: European social democracies have reduced inequality through generous, widely available transfers, funded by the types of high-rate, broad-based, relatively flat taxes that raise substantial revenue. Countries with such systems in place still have residents who fall through the cracks, or who face perverse incentives, or are subjected to onerous bureaucracy to meet basic needs. Their already-expansive taxation systems provide them the resources to more easily move to universal programs like UBI.</p>
+
+<p>The evidence base linking poverty to mortality and existential risk factors is substantial and growing, but more research and quantification is needed. A rigorous review would also consider the costs of redistributional policy: How much does taxation increase mortality? Does it lower trust and patience by putting some into worse economic conditions? Will longtermism suffer from donors having less resources at their disposal? How do these effects vary with the UBI parameters and funding structure? Many effects in economics exhibit diminishing returns, suggesting that shifting resources to the poor will improve the relevant outcomes on a net basis, but this is uncertain and the stakes demand epistemic humility.</p>
+
+<p>UBI advocate Conrad Shaw has said, “we may almost resemble a new species when our basest daily fears are unshouldered.”<sup id="fnref:80" role="doc-noteref"><a href="#fn:80" class="footnote" rel="footnote">77</a></sup> People are right to be fearful when their poverty puts their life at risk, or the life of their child. Providing economic security for all won’t only avoid deaths of individual humans, it might just help us avert the death of humanity.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:4" role="doc-endnote">
+      <p>For example, Alaska provides an annual dividend of between $1,000 and $3,000 per person, funded by its oil wealth. A number of countries have universal child allowances or flat old-age pensions. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>For example, the Economic Security Project and others are funding an <a href="https://static1.squarespace.com/static/6039d612b17d055cac14070f/t/603ef1194c474b329f33c329/1614737690661/SEED_Preliminary+Analysis-SEEDs+First+Year_Final+Report_Individual+Pages+-2.pdf">experiment in Stockton, California</a>, and OpenResearch (formerly Y-Combinator Research) is <a href="https://openresearchlab.org/assets/publications/Basic-Income-Proposal.pdf">running an experiment across two US states</a>. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p>See <a href="https://www.tandfonline.com/doi/abs/10.1080/00324728.1975.10410201">Preston (1975)</a> and <a href="https://doi.org/10.2307/2094510">Gortmaker (1979)</a>. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7" role="doc-endnote">
+      <p><a href="https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8">My calculations</a> based on World Bank data on 183 countries for income, or 76 countries for poverty, weighted by country population. Regressions including both log income and the extreme poverty rate show similar t-statistics between the two predictors across outcomes, both around 6 in absolute value and coefficients falling by roughly half compared to 1-predictor regressions; poverty and life expectancy is an exception at around -2.8, suggesting that extreme poverty has a stronger effect on infant and child mortality than on life expectancy. Infant and child mortality are defined as deaths of children under age 1 and 5, respectively. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:8" role="doc-endnote">
+      <p>Despite the relatively few cases of child mortality, the result was statistically significant with a t-statistic of -2.05 <a href="https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf">(McIntosh &amp; Zeitlin, 2018)</a>. <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:9" role="doc-endnote">
+      <p>Progresa transfers increased income by about 22 percent <a href="https://doi.org/10.1016/j.jdeveco.2010.01.003">(Barham, 2011)</a>. Infant and neonatal mortality are defined as death in the first year and 28 days of life, respectively <a href="https://data.unicef.org/topic/child-survival/neonatal-mortality/">(UNICEF, 2020)</a>. <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:10" role="doc-endnote">
+      <p>Bolsa Familia “transfers ranged from $18 to $175 per month, depending on the income and composition of the family”; the effect size varied with the program’s coverage by municipality, the unit of analysis <a href="https://doi.org/10.1016/S0140-6736(13)60715-1">(Rasella et al., 2013)</a>. <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:11" role="doc-endnote">
+      <p><a href="https://doi.org/10.1093/qje/qjw025">Haushofer &amp; Shapiro (2016)</a>. <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:12" role="doc-endnote">
+      <p>Malawi <a href="https://www.unicef.org/evaldatabase/index_94228.html">(Abdoulayi et al., 2016)</a> and Zambia (<a href="https://www.air.org/system/files/downloads/report/MCTG_36Month_Final_Feb2016.pdf">Seidenfeld et al., 2016</a>; <a href="https://www.unicef.org/evaldatabase/files/Zambia_Child_Grant_Programe_-_36_month_impact_report.pdf">Seidenfeld &amp; Handa, 2014</a>). <a href="#fnref:12" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:13" role="doc-endnote">
+      <p><a href="http://arxiv.org/abs/2009.01749">McIntosh &amp; Zeitlin (2018)</a>. <a href="#fnref:13" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:14" role="doc-endnote">
+      <p>Reproduced from Table 6.1 of <em>The Precipice</em>. <a href="#fnref:14" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:15" role="doc-endnote">
+      <p>Ord defines existential risk more broadly than killing all of humanity, as risks that destroy humanity’s potential. Climate change could, for example, threaten to kill so much of humanity, and leave the remainder in such uninhabitable environs, that our species spends the rest of its days living on subsistence without the capacity to advance; this would also qualify as an existential catastrophe. <a href="#fnref:15" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:16" role="doc-endnote">
+      <p>55.8 percent of the world population lived in democratic states as of 2015 <a href="https://ourworldindata.org/democracy">(Roser, 2013)</a>. <a href="#fnref:16" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:17" role="doc-endnote">
+      <p><a href="https://content.apa.org/record/1971-02138-001">Mischel &amp; Ebbesen (1970)</a>. <a href="#fnref:17" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:18" role="doc-endnote">
+      <p><a href="https://doi.org/10.1037/0022-3514.58.1.95">Dickman (1990)</a>. <a href="#fnref:18" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:19" role="doc-endnote">
+      <p>Based on a “representative data set on time preferences from 80,000 individuals in 76 countries,” this study also found correlations between income and discount factors	 at the individual level <a href="https://econpapers.repec.org/paper/hkawpaper/2016-012.htm">(Dohmen et al., 2015)</a>. <a href="#fnref:19" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:20" role="doc-endnote">
+      <p>Mexico <a href="https://www.rand.org/pubs/working_papers/WR759.html">(Carvalho, 2008)</a> and Guatemala <a href="https://doi.org/10.1080/15140326.2019.1596641">(Aycinena et al., 2019)</a>. <a href="#fnref:20" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:21" role="doc-endnote">
+      <p><a href="https://doi.org/10.1086/261740">Lawrance (1991)</a>. <a href="#fnref:21" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:22" role="doc-endnote">
+      <p><a href="https://pubmed.ncbi.nlm.nih.gov/11195980/">Lynam et al. (2000)</a>. <a href="#fnref:22" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:23" role="doc-endnote">
+      <p><a href="https://doi.org/10.3390/children5050058">Assari et al. (2018)</a>. <a href="#fnref:23" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:24" role="doc-endnote">
+      <p><a href="https://doi.org/10.3386/w26643">Aguiar et al. (2020)</a>. <a href="#fnref:24" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:25" role="doc-endnote">
+      <p><a href="https://papers.ssrn.com/abstract=3594155">Balboni et al. (2020)</a>. <a href="#fnref:25" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:26" role="doc-endnote">
+      <p><a href="https://doi.org/10.1162/003355397555334">Becker &amp; Mulligan (1997)</a>. <a href="#fnref:26" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:27" role="doc-endnote">
+      <p><a href="https://doi.org/10.1017/S0007123406000184">Mughan &amp; Paxton (2006)</a>. <a href="#fnref:27" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:28" role="doc-endnote">
+      <p><a href="https://doi.org/10.1371/journal.pone.0139156">Jetten et al. (2015)</a>. <a href="#fnref:28" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:29" role="doc-endnote">
+      <p><a href="https://doi.org/10.1017/psrm.2017.18">Muñoz &amp; Pardos-Prado (2019)</a>. <a href="#fnref:29" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:30" role="doc-endnote">
+      <p><a href="https://news.gallup.com/poll/315590/americans-face-mask-usage-varies-greatly-demographics.aspx">Gallup (2019)</a>. <a href="#fnref:30" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:31" role="doc-endnote">
+      <p><a href="https://doi.org/10.1086/697535">Heckman et al. (2018)</a>. <a href="#fnref:31" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:32" role="doc-endnote">
+      <p><a href="https://www.pewresearch.org/fact-tank/2019/09/23/united-nations-gets-mostly-positive-marks-from-people-around-the-world/">Pew Research Center (2019)</a>. <a href="#fnref:32" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:33" role="doc-endnote">
+      <p>Using World Bank data from 186 countries, weighted by population <a href="https://colab.research.google.com/drive/1REzv4QbKUBnTiEnyRgF9DHNsrGXSxZKP#scrollTo=HTeLLhLYMCc8">(Ghenis, 2020)</a>. <a href="#fnref:33" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:34" role="doc-endnote">
+      <p><a href="https://doi.org/10.1126/sciadv.aaz1298">Ferraro &amp; Simorangkir (2020)</a>. <a href="#fnref:34" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:35" role="doc-endnote">
+      <p><a href="https://doi.org/10.1016/j.enpol.2020.111535">Nawaz &amp; Iqbal (2020)</a>. <a href="#fnref:35" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:36" role="doc-endnote">
+      <p>As of 2018, global carbon emissions were 4.5 metric tons per capita, compared to 15.2 in the US and 4.6 in France <a href="https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=FR-US-1W">(World Bank, 2021)</a>. NB: I updated this number compared to the book chapter, which used data from 2014, the latest available at its publication. <a href="#fnref:36" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:37" role="doc-endnote">
+      <p><a href="https://www.ipcc.ch/sr15/">IPCC (2018)</a>. <a href="#fnref:37" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:38" role="doc-endnote">
+      <p><a href="https://en-roads.climateinteractive.org/scenario.html">Climate Interactive (2019)</a>. <a href="#fnref:38" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:39" role="doc-endnote">
+      <p><a href="https://www.econstatement.org">Climate Leadership Council (n.d.)</a>. <a href="#fnref:39" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:40" role="doc-endnote">
+      <p>The US Treasury Department found that a carbon tax of $49 per metric ton could fund a rebate of $583 per person; this would raise the incomes of the bottom seven deciles, on average, at the cost of the upper three deciles <a href="https://www.treasury.gov/resource-center/tax-policy/tax-analysis/Documents/WP-115.pdf">(Horowitz et al., 2017)</a>. Another study found that a $50 per ton carbon dividend “benefits 56 percent of people, including 85 percent in the bottom half of the distribution” <a href="https://econpapers.repec.org/article/eeeecolec/v_3a163_3ay_3a2019_3ai_3ac_3ap_3a88-97.htm">(Fremstad &amp; Paul, 2019)</a>. <a href="#fnref:40" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:41" role="doc-endnote">
+      <p><a href="https://clcouncil.org/morning-consult-poll.pdf">Morning Consult (2020)</a>. <a href="#fnref:41" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:42" role="doc-endnote">
+      <p>Per a poll from the Economic Security Project <a href="https://medium.com/economicsecproj/what-a-new-survey-from-alaska-can-teach-us-about-public-support-for-basic-income-ccd0c3c16b42">(Isenberg, 2017)</a>. <a href="#fnref:42" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:43" role="doc-endnote">
+      <p><a href="https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html">New York Times (2020)</a>. <a href="#fnref:43" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:44" role="doc-endnote">
+      <p>As of August 12, 2020, US excess mortality was about 200,000, while official Covid-19 deaths were about 140,000 <a href="https://www.nytimes.com/interactive/2020/08/12/us/covid-deaths-us.html">(Lu, 2020)</a>. <a href="#fnref:44" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:45" role="doc-endnote">
+      <p>As of September 28, 2020, a group of “superforecasters,” selected based on prediction accuracy across other outcomes, had assigned a 57 percent probability to global Covid-19 deaths exceeding 2.7 million by March 2020 <a href="https://goodjudgment.io/superforecasts/#1388">(Good Judgment Project, 2020)</a>. <a href="#fnref:45" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:46" role="doc-endnote">
+      <p>Covid-19 is projected to kill 145 Hawaiians per million population, vs. 693 Americans per million <a href="https://covid19-projections.com/">(Gu, 2020)</a>. <a href="#fnref:46" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:47" role="doc-endnote">
+      <p><a href="https://www.poverty-action.org/publication/effects-universal-basic-income-during-pandemic">Banerjee et al. (2020)</a>. <a href="#fnref:47" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:48" role="doc-endnote">
+      <p>As of May 5, 2020, the COVID-19 death rate per 100,000 person-years was 143.2 in counties with 20% poverty or higher, and 83.3 in counties  with 5% poverty or lower, in Illinois and New York <a href="https://doi.org/10.1097/PHH.0000000000001263">(Chen &amp; Krieger, 2020)</a>. <a href="#fnref:48" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:49" role="doc-endnote">
+      <p>Counterintuitively, the same survey found that Americans earning under $36,000 per year were slightly <em>more</em> likely to wear masks than higher-income people <a href="https://news.gallup.com/poll/247970/slim-majority-trade-benefitting-workers.aspx">(Gallup, 2020)</a>. <a href="#fnref:49" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:50" role="doc-endnote">
+      <p><a href="https://papers.ssrn.com/abstract=3596671">Bargain &amp; Aminjonov (2020)</a>. <a href="#fnref:50" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:51" role="doc-endnote">
+      <p><a href="https://www.amazon.com/Human-Compatible-Artificial-Intelligence-Problem-ebook/dp/B07N5J5FTS">Russell (2019)</a>. <a href="#fnref:51" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:52" role="doc-endnote">
+      <p><a href="https://www.peoplespolicyproject.org/2019/09/16/the-us-welfare-state-cut-poverty-by-two-thirds-in-2018/">Bruenig (2019)</a>. <a href="#fnref:52" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:53" role="doc-endnote">
+      <p><a href="https://www.urban.org/research/publication/five-things-you-may-not-know-about-us-social-safety-net">Minton &amp; Giannarelli (2019)</a>. <a href="#fnref:53" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:54" role="doc-endnote">
+      <p><a href="https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is">Greenstein (2012)</a>. <a href="#fnref:54" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:55" role="doc-endnote">
+      <p><a href="https://medium.com/basic-income/if-we-can-afford-our-current-welfare-system-we-can-afford-basic-income-9ae9b5f186af">Ghenis (2017)</a>. <a href="#fnref:55" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:56" role="doc-endnote">
+      <p><a href="https://www.givedirectly.org/"><em>GiveDirectly</em> (2020)</a>. <a href="#fnref:56" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:57" role="doc-endnote">
+      <p>See papers on benchmarking UCTs to a child nutrition program <a href="https://www.poverty-action.org/sites/default/files/publications/Benchmarking.pdf">(McIntosh &amp; Zeitlin, 2018)</a> and to an workforce training program <a href="http://arxiv.org/abs/2009.01749">(McIntosh &amp; Zeitlin, 2020)</a>. <a href="#fnref:57" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:58" role="doc-endnote">
+      <p><a href="https://nlihc.org/resource/housing-spotlight-volume-6-issue-1">National Low Income Housing Coalition (2016)</a>. <a href="#fnref:58" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:59" role="doc-endnote">
+      <p><a href="https://ideas.repec.org/p/cge/wacage/328.html">Cavaille &amp; Ferwerda (2017)</a>. <a href="#fnref:59" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:60" role="doc-endnote">
+      <p><a href="https://www.niskanencenter.org/denmark-ghettos-public-housing/">Hammond (2018)</a>. <a href="#fnref:60" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:61" role="doc-endnote">
+      <p><a href="https://www.fns.usda.gov/wic/wic-food-packages-regulatory-requirements-wic-eligible-foods#MILK">USDA (2013)</a>. <a href="#fnref:61" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:62" role="doc-endnote">
+      <p><a href="https://www.fns.usda.gov/snap/eligible-food-items">USDA (2020)</a>. <a href="#fnref:62" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:63" role="doc-endnote">
+      <p>Purchase limitations prevent the poor from accessing normal markets, which in turn will make commercially-motivated AIs more uncertain about their preferences. <a href="#fnref:63" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:64" role="doc-endnote">
+      <p>Cash transfers do not raise consumption of alcohol and tobacco <a href="https://blogs.worldbank.org/impactevaluations/do-poor-waste-transfers-booze-and-cigarettes-no">(Evans &amp; Popova, 2014)</a>. <a href="#fnref:64" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:65" role="doc-endnote">
+      <p><a href="https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/50923-marginaltaxrates.pdf">Mok (2018)</a>. <a href="#fnref:65" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:66" role="doc-endnote">
+      <p><a href="https://doi.org/10.1111/j.1468-0009.2006.00465.x">Stapleton et al. (2006)</a>. <a href="#fnref:66" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:67" role="doc-endnote">
+      <p>Only the Additional Child Tax Credit component of the Child Tax Credit is refundable, meaning that it can reduce federal tax liability below zero. <a href="#fnref:67" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:68" role="doc-endnote">
+      <p><a href="https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is">Greenstein (2012)</a>. <a href="#fnref:68" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:69" role="doc-endnote">
+      <p><a href="https://doi.org/10.1332/175982719X15723525915871">Millar &amp; Whiteford (2020)</a>. <a href="#fnref:69" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:70" role="doc-endnote">
+      <p><a href="https://julkaisut.valtioneuvosto.fi/handle/10024/161361">Kangas et al. (2019)</a>. <a href="#fnref:70" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:71" role="doc-endnote">
+      <p><a href="https://doi.org/10.1017/psrm.2017.18">Muñoz &amp; Pardos-Prado (2019)</a>. <a href="#fnref:71" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:72" role="doc-endnote">
+      <p><a href="https://www.developmentpathways.co.uk/publications/hit-and-miss-an-assessment-of-targeting-effectiveness-in-social-protection">Kidd &amp; Athias (2020)</a>. <a href="#fnref:72" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:73" role="doc-endnote">
+      <p><a href="https://doi.org/10.3386/w25538">Hoynes &amp; Rothstein (2019)</a>. <a href="#fnref:73" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:74" role="doc-endnote">
+      <p><a href="https://ourworldindata.org/income-inequality">Roser &amp; Ortiz-Ospina (2016)</a>. <a href="#fnref:74" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:75" role="doc-endnote">
+      <p><a href="https://www.oecd.org/tax/revenue-statistics-2522770x.htm">OECD (2019a)</a>. <a href="#fnref:75" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:76" role="doc-endnote">
+      <p><a href="https://doi.org/10.1787/ctt-2018-7-en">OECD (2019b)</a>. <a href="#fnref:76" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:77" role="doc-endnote">
+      <p>I found that Yang’s plan would not be fully paid for <a href="https://medium.com/ubicenter/distributional-analysis-of-andrew-yangs-freedom-dividend-d8dab818bf1b">(Ghenis, 2019a)</a>, as did the Tax Foundation <a href="https://taxfoundation.org/andrew-yang-value-added-tax-universal-basic-income/">(Pomerleau, 2019)</a>. A budget-neutral version of Yang’s plan, providing a monthly payment of $471 rather than $1,000, would reduce inequality by 9 percent instead, as measured by the Gini index <a href="https://medium.com/ubicenter/a-revenue-neutral-version-of-andrew-yangs-freedom-dividend-d7d517dbeeea">(Ghenis, 2019b)</a>. <a href="#fnref:77" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:78" role="doc-endnote">
+      <p><a href="https://www.brookings.edu/wp-content/uploads/2020/01/Gale_LO_01.13.pdf">Gale (2020)</a>. <a href="#fnref:78" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:79" role="doc-endnote">
+      <p>A death from malaria can be averted for under $4,000, and most of these averted deaths are of children under 5 <a href="https://docs.google.com/spreadsheets/d/1BmFwVYeGMkpys6hG0tnfHyq__ZFZf-bmXYLSHODGpLY">(GiveWell, 2020)</a>. <a href="#fnref:79" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:80" role="doc-endnote">
+      <p><a href="https://medium.com/basic-income/how-to-build-a-movement-in-record-time-456c620dcf1c">Shaw (2020)</a>. <a href="#fnref:80" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to the UBI Center</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        
+                            <section class="author-card">
+                                
+                                    <img class="author-profile-image" src="/assets/images/authors/max-ghenis.jpg" alt="max" />
+                                
+                                <section class="author-card-content">
+                                    <h4 class="author-card-name"><a href="/author/max">Max Ghenis</a></h4>
+                                    
+                                        <p>Max is the founder and president of the UBI Center.</p>
+                                    
+                                </section>
+                                <div class="post-full-footer-right" style="position: absolute; right: 50px;">
+                                    <a class="author-card-button" href="/author/max">Read More</a>
+                                </div>
+                            </section>
+                            <br>
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/democrats-should-be-courting-romney-not-manchin">
+                <div class="post-card-image" style="background-image: url(/assets/images/2021-12-30-democrats-should-be-courting-romney-not-manchin/cover.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/democrats-should-be-courting-romney-not-manchin">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Op-ed</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Us</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Op-ed: Democrats should be courting Romney, not Manchin</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                    </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/resilience-ubi">
+                <div class="post-card-image" style="background-image: url(/assets/images/2021-11-19-resilience-ubi/cover.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/resilience-ubi">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Uk</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Policyengine</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">The UBI Lab Network's Resilience UBI proposals</h2>
+                    <span class="reading-time">
+                        
+                        
+                          1 min read
+                        
+                </span>
+                </header>
+                <br>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+                <img src="/assets/images/logos/wide-blue.jpg" alt="UBI Center icon" />
+            
+        </a>
+    </div>
+    <div class="floating-header-title">Mortality, existential risk, and universal basic income</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Mortality%2C+existential+risk%2C+and+universal+basic+income&amp;url=https://ubicenter.org/mortality-existential-risk-ubi"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://ubicenter.org/mortality-existential-risk-ubi"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">UBI Center</a> &copy; 2022</section>
+                <nav class="site-footer-nav">
+                    <a href="/donate">Donate</a>
+                    <a href="/">Latest posts</a>
+                    <a href="mailto:contact@ubicenter.org">Email us</a>
+                    <a href="https://facebook.com/UBICenter" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/TheUBICenter" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://github.com/UBICenter">GitHub</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/logos/wide-white.jpg" alt="UBI Center" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to the UBI Center</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts, news, and more delivered straight to your inbox</p>
+                <form method="post" action="https://ubicenter.us3.list-manage.com/subscribe/post" target="_blank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="">
+    <input type="hidden" name="u" value="ffee9994a6979a91e881b8c13">
+    <input type="hidden" name="id" value="938462295c">
+    <div class="form-group">
+        <input class="subscribe-email" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="youremail@example.com">
+    </div>
+    <button class="" type="submit" enable><span>Subscribe</span></button>
+</form>
+
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-138885251-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

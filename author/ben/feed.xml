@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+  <link href="/author/ben/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2022-12-30T16:09:06+00:00</updated>
+  <id>/author/ben/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Mapping the impact of a $100 monthly child allowance</title>
+      <link href="/local-child-allowance-maps" rel="alternate" type="text/html" title="Mapping the impact of a $100 monthly child allowance" />
+      <published>2021-08-02T00:00:00+00:00</published>
+      <updated>2021-08-02T00:00:00+00:00</updated>
+      <id>/local-child-allowance-maps</id>
+      <content type="html" xml:base="/local-child-allowance-maps">&lt;p&gt;When the American Rescue Plan &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded the Child Tax Credit,&lt;/a&gt; it brought child poverty into the limelight. Beyond the federal government making that expansion permanent, state and local governments have an opportunity to reduce child poverty through child allowances of their own. Building on our &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;state-level child allowance impacts&lt;/a&gt;, here we present two maps, for upper and lower state legislative districts, of a simple policy: $100 per month for each child under age 18.&lt;/p&gt;
+
+&lt;p&gt;Nationwide, a $100 monthly child allowance would reduce child poverty by 20%,&lt;sup id=&quot;fnref:discrepancy&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:discrepancy&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; but in some districts, like Minnesota’s 18B House district (Glencoe), it would cut child poverty by over 50%, and in others, like California’s 17th Assembly district (San Francisco), the effect would be under 10%. The policy generally has larger antipoverty effects in districts with lower housing costs.&lt;/p&gt;
+
+&lt;p&gt;How would a child allowance affect child poverty in your state legislative district? Explore the maps below to find out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;These may take a few seconds to load, and zooming will be slow. Sorry, we’re working on speeding it up!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;map-by-upper-state-legislative-district&quot;&gt;Map by upper state legislative district&lt;/h1&gt;
+
+&lt;p&gt;For example, this shows each California Senate district.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/markdown_assets/local-child-allowance-maps/upper_district.html&quot;&gt;&lt;em&gt;Load it fullscreen here.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#upper_district&quot;).load(&quot;/assets/markdown_assets/local-child-allowance-maps/upper_district.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;upper_district&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;map-by-lower-state-legislative-district&quot;&gt;Map by lower state legislative district&lt;/h1&gt;
+
+&lt;p&gt;For example, this shows each California Assembly district.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/markdown_assets/local-child-allowance-maps/lower_district.html&quot;&gt;&lt;em&gt;Load it fullscreen here.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#lower_district&quot;).load(&quot;/assets/markdown_assets/local-child-allowance-maps/lower_district.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;lower_district&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;appendix-how-we-built-it&quot;&gt;Appendix: how we built it&lt;/h1&gt;
+
+&lt;p&gt;All prior UBI Center analyses in the US have used the Current Population Survey March Supplement, which contains official estimates of the Official Poverty Measure and Supplemental Poverty Measure (SPM, which we favor for its inclusion of taxes, transfers, and housing costs). This is the most in-depth household survey, but because of its small sample size, the Census Bureau doesn’t release microdata at the local level.&lt;/p&gt;
+
+&lt;p&gt;This analysis instead uses the American Community Survey (ACS), which has a larger sample size and, accordingly, finer geographic detail. Only recently has the ACS provided a comprehensive poverty measure like the SPM, thanks to Census Bureau estimates described in &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/working-papers/2020/demo/SEHSD-WP2020-09.pdf&quot;&gt;Fox, Glassman, and Pacas (2020)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To construct this map, we merged multiple datasets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Population by block (the Census Bureau’s finest geographical unit) from the 2010 Census Summary File 1 (via the &lt;a href=&quot;https://github.com/jtleider/censusdata&quot;&gt;CensusData Python package&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Population by block group from the 2019 ACS (via &lt;a href=&quot;https://www.nhgis.org/&quot;&gt;NHGIS&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;A crosswalk from block (the Census’s smallest geographic unit) to state legislative district&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From these datasets, we produced a block-level dataset with population (adjusted for growth from 2010 to 2019) and all geographic groupings (ACS public use microdata areas, census tracts, counties, and upper and lower state legislative districts). We’ve made this block-level dataset, along with aggregations by PUMA and legislative district which power these maps, available &lt;a href=&quot;https://github.com/UBICenter/local-child-allowance/tree/main/data&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:discrepancy&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Our &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;state-level child allowance post&lt;/a&gt; found that a $100 monthly child allowance would reduce child poverty by 22% instead of 20%. This discrepancy is due to different data sources: that used the Current Population Survey, where this uses the American Community Survey. &lt;a href=&quot;#fnref:discrepancy&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;ben&quot;, &quot;nicholas&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+        <category term="local" />
+      
+
+      
+        <summary type="html">The policy would cut child poverty by a fifth nationwide, but effects would vary geographically.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
